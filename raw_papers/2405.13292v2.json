@@ -1,0 +1,963 @@
+{
+    "topic": "Metadata Integration for Spam Reviews Detection on Vietnamese E-commerce\n  Websites",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[4]",
+                "[2]",
+                "[3]",
+                "[34]",
+                "[33]",
+                "[5]",
+                "[32]",
+                "[1]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Works",
+            "refs": [
+                "[6]",
+                "[19]",
+                "[30]",
+                "[21]",
+                "[5]",
+                "[20]",
+                "[37]",
+                "[18]",
+                "[35]",
+                "[4]",
+                "[23]",
+                "[25]",
+                "[28]",
+                "[26]",
+                "[36]",
+                "[16]",
+                "[22]",
+                "[3]",
+                "[8]",
+                "[24]",
+                "[13]",
+                "[14]",
+                "[1]",
+                "[29]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Methodology",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "The Dataset",
+                    "refs": [
+                        "[3]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Metadata Analysis",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Metadata Integration",
+                    "refs": [
+                        "[4]",
+                        "[5]",
+                        "[11]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Product Description",
+                            "refs": [
+                                "[3]",
+                                "[10]",
+                                "[8]",
+                                "[9]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Product Category",
+                            "refs": [
+                                "[11]",
+                                "[12]",
+                                "[4]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Results and Discussion",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Data Preprocessing",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Experiment Settings",
+                    "refs": [
+                        "[15]",
+                        "[3]",
+                        "[13]",
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Evaluation Metrics",
+                    "refs": [
+                        "[27]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Task 1",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Task 2",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Empirical Results",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Error Analysis",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.5",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgments",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        }
+    ],
+    "references": {
+        "jindal2007review": {
+            "number": "[1]",
+            "title": "Review spam detection",
+            "text": "title={Review spam detection},\n  author={Jindal, Nitin and Liu, Bing},\n  booktitle={Proceedings of the 16th international conference on World Wide Web},\n  pages={1189--1190},\n  year={2007},\n  month={5}",
+            "type": "article",
+            "fields": {
+                "title": "Review spam detection",
+                "author": "Jindal, Nitin and Liu, Bing",
+                "booktitle": "Proceedings of the 16th international conference on World Wide Web",
+                "pages": "1189--1190",
+                "year": "2007",
+                "month": "5"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "eco2022": {
+            "number": "[2]",
+            "title": "Vietnam E-commerce in 2022",
+            "text": "author={Viet Anh Lai and Ha Thi Le},\n    title={Vietnam E-commerce in 2022},\n    publisher={Vietnam E-commerce and Digital Economy Agency, Ministry of Industry and Trade},\n    year={2022},\n    address={Hanoi, Vietnam},",
+            "type": "book",
+            "fields": {
+                "author": "Viet Anh Lai and Ha Thi Le",
+                "title": "Vietnam E-commerce in 2022",
+                "publisher": "Vietnam E-commerce and Digital Economy Agency, Ministry of Industry and Trade",
+                "year": "2022",
+                "address": "Hanoi, Vietnam"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "vispamreviews": {
+            "number": "[3]",
+            "title": "Detecting Spam Reviews on Vietnamese E-commerce Websites",
+            "text": "author=\"Van Dinh, Co\n    and Luu, Son T.\n    and Nguyen, Anh Gia-Tuan\",\n    editor=\"Nguyen, Ngoc Thanh\n    and Tran, Tien Khoa\n    and Tukayev, Ualsher\n    and Hong, Tzung-Pei\n    and Trawi{\\'{n}}ski, Bogdan\n    and Szczerbicki, Edward\",\n    title=\"Detecting Spam Reviews on Vietnamese E-Commerce Websites\",\n    booktitle=\"Intelligent Information and Database Systems\",\n    year=\"2022\",\n    publisher=\"Springer International Publishing\",\n    address=\"Cham\",\n    pages=\"595--607\",\n    isbn=\"978-3-031-21743-2\"",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Van Dinh, Co and Luu, Son T. and Nguyen, Anh Gia-Tuan",
+                "editor": "Nguyen, Ngoc Thanh and Tran, Tien Khoa and Tukayev, Ualsher and Hong, Tzung-Pei and Trawi{\\'{n}}ski, Bogdan and Szczerbicki, Edward",
+                "title": "Detecting Spam Reviews on Vietnamese E-Commerce Websites",
+                "booktitle": "Intelligent Information and Database Systems",
+                "year": "2022",
+                "publisher": "Springer International Publishing",
+                "address": "Cham",
+                "pages": "595--607",
+                "isbn": "978-3-031-21743-2"
+            },
+            "ref_source": "bib",
+            "abstract": "The reviews of customers play an essential role in online shopping. People often refer to reviews or comments of previous customers to decide whether to buy a new product. Catching up with this behavior, some people create untruths and illegitimate reviews to hoax customers about the fake quality of products. These are called spam reviews, confusing consumers on online shopping platforms and negatively affecting online shopping behaviors. We propose the dataset called ViSpamReviews, which has a strict annotation procedure for detecting spam reviews on e-commerce platforms. Our dataset consists of two tasks: the binary classification task for detecting whether a review is spam or not and the multi-class classification task for identifying the type of spam. The PhoBERT obtained the highest results on both tasks, 86.89%, and 72.17%, respectively, by macro average F1 score.",
+            "aminer_id": "62e744555aee126c0f33c652"
+        },
+        "kim-etal-2019-categorical": {
+            "number": "[4]",
+            "title": "Categorical Metadata Representation for Customized Text Classification",
+            "text": "title = \"Categorical Metadata Representation for Customized Text Classification\",\n    author = \"Kim, Jihyeok  and\n      Amplayo, Reinald Kim  and\n      Lee, Kyungjae  and\n      Sung, Sua  and\n      Seo, Minji  and\n      Hwang, Seung-won\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"7\",\n    year = \"2019\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    url = \"https://aclanthology.org/Q19-1013\",\n    doi = \"10.1162/tacl_a_00263\",\n    pages = \"201--215\",",
+            "type": "article",
+            "fields": {
+                "title": "Categorical Metadata Representation for Customized Text Classification",
+                "author": "Kim, Jihyeok and Amplayo, Reinald Kim and Lee, Kyungjae and Sung, Sua and Seo, Minji and Hwang, Seung-won",
+                "journal": "Transactions of the Association for Computational Linguistics",
+                "volume": "7",
+                "year": "2019",
+                "address": "Cambridge, MA",
+                "publisher": "MIT Press",
+                "url": "https://aclanthology.org/Q19-1013",
+                "doi": "10.1162/tacl_a_00263",
+                "pages": "201--215"
+            },
+            "ref_source": "bib",
+            "abstract": "The performance of text classification has improved tremendously using intelligently engineered neural-based models, especially those injecting categorical metadata as additional information, e.g., using user/product information for sentiment classification. This information has been used to modify parts of the model (e.g., word embeddings, attention mechanisms) such that results can be customized according to the metadata. We observe that current representation methods for categorical metadata, which are devised for human consumption, are not as effective as claimed in popular classification methods, outperformed even by simple concatenation of categorical features in the final layer of the sentence encoder. We conjecture that categorical features are harder to represent for machine use, as available context only indirectly describes the category, and even such context is often scarce (for tail category). To this end, we propose using basis vectors to effectively incorporate categorical metadata on various parts of a neural-based model. This additionally decreases the number of parameters dramatically, especially when the number of categorical features is large. Extensive experiments on various data sets with different properties are performed and show that through our method, we can represent categorical metadata more effectively to customize parts of the model, including unexplored ones, and increase the performance of the model greatly.",
+            "aminer_id": "5c664e9ee1cd8ea57545342f"
+        },
+        "reimers-2019-sentence-bert": {
+            "number": "[5]",
+            "title": "Sentence-BERT: Sentence Embeddings Using Siamese BERT-Networks",
+            "text": "title = \"Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks\",\n  author = \"Reimers, Nils and Gurevych, Iryna\",\n  booktitle = \"Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing\",\n  month = \"11\",\n  year = \"2019\",\n  publisher = \"Association for Computational Linguistics\",\n  url = \"https://arxiv.org/abs/1908.10084\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sentence-BERT: Sentence Embeddings using Siamese BERT-Networks",
+                "author": "Reimers, Nils and Gurevych, Iryna",
+                "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing",
+                "month": "11",
+                "year": "2019",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://arxiv.org/abs/1908.10084"
+            },
+            "ref_source": "bib",
+            "abstract": "BERT (Devlin et al., 2018) and RoBERTa (Liu et al., 2019) has set a new state-of-the-art performance on sentence-pair regression tasks like semantic textual similarity (STS). However, it requires that both sentences are fed into the network, which causes a massive computational overhead: Finding the most similar pair in a collection of 10,000 sentences requires about 50 million inference computations ( 65 hours) with BERT. The construction of BERT makes it unsuitable for semantic similarity search as well as for unsupervised tasks like clustering. In this publication, we present Sentence-BERT (SBERT), a modification of the pretrained BERT network that use siamese and triplet network structures to derive semantically meaningful sentence embeddings that can be compared using cosine-similarity. This reduces the effort for finding the most similar pair from 65 hours with BERT / RoBERTa to about 5 seconds with SBERT, while maintaining the accuracy from BERT. We evaluate SBERT and SRoBERTa on common STS tasks and transfer learning tasks, where it outperforms other state-of-the-art sentence embeddings methods.",
+            "aminer_id": "5d6654183a55ac3149b3e6bf"
+        },
+        "jindal2008opinion": {
+            "number": "[6]",
+            "title": "Opinion spam and analysis",
+            "text": "title={Opinion spam and analysis},\n  author={Jindal, Nitin and Liu, Bing},\n  booktitle={Proceedings of the 2008 international conference on web search and data mining},\n  pages={219--230},\n  year={2008},\n  month={2}",
+            "type": "article",
+            "fields": {
+                "title": "Opinion spam and analysis",
+                "author": "Jindal, Nitin and Liu, Bing",
+                "booktitle": "Proceedings of the 2008 international conference on web search and data mining",
+                "pages": "219--230",
+                "year": "2008",
+                "month": "2"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53909fca20f70186a0e450b2"
+        },
+        "cohen1960coefficient": {
+            "number": "[7]",
+            "title": "A Coefficient of Agreement for Nominal Scales",
+            "text": "title={A coefficient of agreement for nominal scales},\n  author={Cohen, Jacob},\n  journal={Educational and psychological measurement},\n  volume={20},\n  number={1},\n  pages={37--46},\n  year={1960},\n  publisher={Sage Publications Sage CA: Thousand Oaks, CA}",
+            "type": "article",
+            "fields": {
+                "title": "A coefficient of agreement for nominal scales",
+                "author": "Cohen, Jacob",
+                "journal": "Educational and psychological measurement",
+                "volume": "20",
+                "number": "1",
+                "pages": "37--46",
+                "year": "1960",
+                "publisher": "Sage Publications Sage CA: Thousand Oaks, CA"
+            },
+            "ref_source": "bib",
+            "abstract": "CONSIDER Table 1. It represents in its formal characteristics a situation which arises in the clinical-social-personality areas of psychology, where it frequently occurs that the only useful level of measurement obtainable is nominal scaling (Stevens, 1951, pp. 2526), i.e. placement in a set of k unordered categories. Because the categorizing of the units is a consequence of some complex judgment process performed by a &dquo;two-legged meter&dquo; (Stevens, 1958), it becomes important to determine the extent to which these judgments are reproducible, i.e., reliable. The procedure which suggests itself is that of having two (or more) judges independently categorize a sample of units and determine the degree, significance, and",
+            "aminer_id": "600baf2566e4cca20d32d459"
+        },
+        "rogers-etal-2020-primer": {
+            "number": "[8]",
+            "title": "A Primer in BERTology: What We Know about How BERT Works",
+            "text": "title = \"A Primer in {BERT}ology: What We Know About How {BERT} Works\",\n    author = \"Rogers, Anna  and\n      Kovaleva, Olga  and\n      Rumshisky, Anna\",\n    journal = \"Transactions of the Association for Computational Linguistics\",\n    volume = \"8\",\n    year = \"2020\",\n    address = \"Cambridge, MA\",\n    publisher = \"MIT Press\",\n    pages = \"842--866\",",
+            "type": "article",
+            "fields": {
+                "title": "A Primer in {BERT}ology: What We Know About How {BERT} Works",
+                "author": "Rogers, Anna and Kovaleva, Olga and Rumshisky, Anna",
+                "journal": "Transactions of the Association for Computational Linguistics",
+                "volume": "8",
+                "year": "2020",
+                "address": "Cambridge, MA",
+                "publisher": "MIT Press",
+                "pages": "842--866"
+            },
+            "ref_source": "bib",
+            "abstract": "Transformer-based models have pushed state of the art in many areas of NLP, but our understanding of what is behind their success is still limited. This paper is the first survey of over 150 studies of the popular BERT model. We review the current state of knowledge about how BERT works, what kind of information it learns and how it is represented, common modifications to its training objectives and architecture, the overparameterization issue, and approaches to compression. We then outline directions for future research.",
+            "aminer_id": "5e58e54091e01189527e2b79"
+        },
+        "nguyen-tuan-nguyen-2020-phobert": {
+            "number": "[9]",
+            "title": "PhoBERT: Pre-trained Language Models for Vietnamese",
+            "text": "title = \"{P}ho{BERT}: Pre-trained language models for {V}ietnamese\",\n    author = \"Nguyen, Dat Quoc  and\n      Tuan Nguyen, Anh\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2020\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"1037--1042\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{P}ho{BERT}: Pre-trained language models for {V}ietnamese",
+                "author": "Nguyen, Dat Quoc and Tuan Nguyen, Anh",
+                "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+                "year": "2020",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "1037--1042"
+            },
+            "ref_source": "bib",
+            "abstract": "We present PhoBERT with two versions, PhoBERT-base and PhoBERT-large, the first public large-scale monolingual language models pre-trained for Vietnamese. Experimental results show that PhoBERT consistently outperforms the recent best pre-trained multilingual model XLM-R (Conneau et al., 2020) and improves the state-of-the-art in multiple Vietnamese-specific NLP tasks including Part-of-speech tagging, Dependency parsing, Named-entity recognition and Natural language inference. We release PhoBERT to facilitate future research and downstream applications for Vietnamese NLP. Our PhoBERT models are available at https://github.com/VinAIResearch/PhoBERT",
+            "aminer_id": "5e5f7c4791e011df604ec9a1"
+        },
+        "nguyen2021nlpbk": {
+            "number": "[10]",
+            "title": "NLPBK at VLSP-2020 Shared Task: Compose Transformer Pretrained Models for Reliable Intelligence Identification on Social Network",
+            "text": "title={NLPBK at VLSP-2020 shared task: Compose transformer pretrained models for Reliable Intelligence Identification on Social network},\n  author={Nguyen, Thanh Chinh and Nguyen, Van Nha},\n  journal={arXiv preprint arXiv:2101.12672},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "NLPBK at VLSP-2020 shared task: Compose transformer pretrained models for Reliable Intelligence Identification on Social network",
+                "author": "Nguyen, Thanh Chinh and Nguyen, Van Nha",
+                "journal": "arXiv preprint arXiv:2101.12672",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper describes our method for tuning a transformer-based pretrained model, to adaptation with Reliable Intelligence Identification on Vietnamese SNSs problem. We also proposed a model that combines bert-base pretrained models with some metadata features, such as the number of comments, number of likes, images of SNS documents,... to improved results for VLSP shared task: Reliable Intelligence Identification on Vietnamese SNSs. With appropriate training techniques, our model is able to achieve 0.9392 ROC-AUC on public test set and the final version settles at top 2 ROC-AUC (0.9513) on private test set.",
+            "aminer_id": "6017d76d91e011875460f2a6"
+        },
+        "tang-etal-2015-learning": {
+            "number": "[11]",
+            "title": "Learning Semantic Representations of Users and Products for Document Level Sentiment Classification",
+            "text": "title = \"Learning Semantic Representations of Users and Products for Document Level Sentiment Classification\",\n    author = \"Tang, Duyu  and\n      Qin, Bing  and\n      Liu, Ting\",\n    booktitle = \"Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)\",\n    month = jul,\n    year = \"2015\",\n    address = \"Beijing, China\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P15-1098\",\n    doi = \"10.3115/v1/P15-1098\",\n    pages = \"1014--1023\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning Semantic Representations of Users and Products for Document Level Sentiment Classification",
+                "author": "Tang, Duyu and Qin, Bing and Liu, Ting",
+                "booktitle": "Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 1: Long Papers)",
+                "year": "2015",
+                "address": "Beijing, China",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/P15-1098",
+                "doi": "10.3115/v1/P15-1098",
+                "pages": "1014--1023"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural network methods have achieved promising results for sentiment classification of text. However, these models only use semantics of texts, while ignoring users who express the sentiment and products which are evaluated, both of which have great influences on interpreting the sentiment of text. In this paper, we address this issue by incorporating user- and product-level information into a neural network approach for document level sentiment classification. Users and products are modeled using vector space models, the representations of which capture important global clues such as individual preferences of users or overall qualities of products. Such global evidence in turn facilitates embedding learning procedure at document level, yielding better text representations. By combining evidence at user-, product- and document-level in a unified neural framework, the proposed model achieves state-of-the-art performances on IMDB and Yelp dataset-S-1.",
+            "aminer_id": "573696d96e3b12023e5d8c1c"
+        },
+        "attention_pooling2016": {
+            "number": "[12]",
+            "title": "Neural Sentiment Classification with User and Product Attention",
+            "text": "author = {Chen, Huimin and Sun, Maosong and Tu, Cunchao and Lin, Yankai and Liu, Zhiyuan},\nyear = {2016},\nmonth = {01},\npages = {1650-1659},\ntitle = {Neural Sentiment Classification with User and Product Attention},\ndoi = {10.18653/v1/D16-1171}",
+            "type": "article",
+            "fields": {
+                "author": "Chen, Huimin and Sun, Maosong and Tu, Cunchao and Lin, Yankai and Liu, Zhiyuan",
+                "year": "2016",
+                "month": "01",
+                "pages": "1650-1659",
+                "title": "Neural Sentiment Classification with User and Product Attention",
+                "doi": "10.18653/v1/D16-1171"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58437762ac44360f1083cd39"
+        },
+        "kim-2014-convolutional": {
+            "number": "[13]",
+            "title": "Convolutional Neural Networks for Sentence Classification",
+            "text": "title = \"Convolutional Neural Networks for Sentence Classification\",\n    author = \"Kim, Yoon\",\n    booktitle = \"Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})\",\n    month = oct,\n    year = \"2014\",\n    address = \"Doha, Qatar\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"1746--1751\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Convolutional Neural Networks for Sentence Classification",
+                "author": "Kim, Yoon",
+                "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+                "year": "2014",
+                "address": "Doha, Qatar",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "1746--1751"
+            },
+            "ref_source": "bib",
+            "abstract": "We report on a series of experiments with convolutional neural networks (CNN) trained on top of pre-trained word vectors for sentence-level classification tasks. We show that a simple CNN with little hyperparameter tuning and static vectors achieves excellent results on multiple benchmarks. Learning task-specific vectors through fine-tuning offers further gains in performance. We additionally propose a simple modification to the architecture to allow for the use of both task-specific and static vectors. The CNN models discussed herein improve upon the state of the art on 4 out of 7 tasks, which include sentiment analysis and question classification.",
+            "aminer_id": "5550412045ce0a409eb38b4c"
+        },
+        "hochreiter1997long": {
+            "number": "[14]",
+            "title": "Long short-term memory",
+            "text": "title={Long short-term memory},\n  author={Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen},\n  journal={Neural computation},\n  volume={9},\n  number={8},\n  pages={1735--1780},\n  year={1997},\n  publisher={MIT Press}",
+            "type": "article",
+            "fields": {
+                "title": "Long short-term memory",
+                "author": "Hochreiter, Sepp and Schmidhuber, J{\\\"u}rgen",
+                "journal": "Neural computation",
+                "volume": "9",
+                "number": "8",
+                "pages": "1735--1780",
+                "year": "1997",
+                "publisher": "MIT Press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "cho-etal-2014-properties": {
+            "number": "[15]",
+            "title": "On the Properties of Neural Machine Translation: Encoder--Decoder Approaches",
+            "text": "title = \"On the Properties of Neural Machine Translation: Encoder{--}Decoder Approaches\",\n    author = {Cho, Kyunghyun  and\n      van Merri{\\\"e}nboer, Bart  and\n      Bahdanau, Dzmitry  and\n      Bengio, Yoshua},\n    booktitle = \"Proceedings of {SSST}-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation\",\n    month = oct,\n    year = \"2014\",\n    address = \"Doha, Qatar\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"103--111\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "On the Properties of Neural Machine Translation: Encoder{--}Decoder Approaches",
+                "author": "Cho, Kyunghyun and van Merri{\\\"e}nboer, Bart and Bahdanau, Dzmitry and Bengio, Yoshua",
+                "booktitle": "Proceedings of {SSST}-8, Eighth Workshop on Syntax, Semantics and Structure in Statistical Translation",
+                "year": "2014",
+                "address": "Doha, Qatar",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "103--111"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7ccd601a182cd27daafa"
+        },
+        "10.1145/3522575": {
+            "number": "[16]",
+            "title": "Online Reviews Sentiment Analysis and Product Feature Improvement with Deep Learning.",
+            "text": "author = {Cao, Jihua and Li, Jie and Yin, Miao and Wang, Yunfeng},\n    title = {Online Reviews Sentiment Analysis and Product Feature Improvement with Deep Learning},\n    year = {2022},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    issn = {2375-4699},\n    url = {https://doi.org/10.1145/3522575},\n    doi = {10.1145/3522575},\n    journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},\n    month = {mar},\n    keywords = {product feature improvement, deep learning, consumer prefer, online reviews, text mining, sentiment analysis}",
+            "type": "article",
+            "fields": {
+                "author": "Cao, Jihua and Li, Jie and Yin, Miao and Wang, Yunfeng",
+                "title": "Online Reviews Sentiment Analysis and Product Feature Improvement with Deep Learning",
+                "year": "2022",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "issn": "2375-4699",
+                "url": "https://doi.org/10.1145/3522575",
+                "doi": "10.1145/3522575",
+                "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process.",
+                "month": "mar",
+                "keywords": "product feature improvement, deep learning, consumer prefer, online reviews, text mining, sentiment analysis"
+            },
+            "ref_source": "bib",
+            "abstract": "The text mining of online reviews is currently a popular research direction of e-commerce and is considered the next blue ocean. Online reviews can dig out consumer preferences and provide theoretical guidance for the improvement of product features. However, current research mostly focuses on sentiment analysis methods and rarely involves feature extraction and large-scale data recognition. This article uses word segmentation technology to create a new feature extraction method. With the long short-term memory neural network and latent Dirichlet allocation topic model, we propose a product feature improvement model—CESC (Consumer online reviews–Extract short text–Sentiment analysis–Cluster feature). The model can derive the product features and attitudes that consumers prefer based on consumer online reviews and use it to improve product features. According to the experimental results of three electronic products sold on the e-commerce platform, the model can effectively dig out consumer preferences for online reviews. Enterprises can improve the quality of products and services, better meet the needs of consumers, promote consumers’ consumption, and achieve the enterprises’ goals and values.",
+            "aminer_id": "627cdc385aee126c0f4f0a89"
+        },
+        "10.1145/3426883": {
+            "number": "[17]",
+            "title": "The Effects of Negative Online Reviews on Consumer Perception, Attitude and Purchase Intention: Experimental Investigation of the Amount, Quality, and Presentation Order of Ewom",
+            "text": "author = {Liao, Hsiu-Li and Huang, Zhen-Yu and Liu, Su-Houn},\ntitle = {The Effects of Negative Online Reviews on Consumer Perception, Attitude and Purchase Intention: Experimental Investigation of the Amount, Quality, and Presentation Order of EWOM},\nyear = {2021},\nissue_date = {May 2021},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nvolume = {20},\nnumber = {3},\nissn = {2375-4699},\nurl = {https://doi.org/10.1145/3426883},\ndoi = {10.1145/3426883},\njournal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},\nmonth = {may},\narticleno = {51},\nnumpages = {21},\nkeywords = {presentation order, information quality, word-of-mouth, negative reviews, Information amount}",
+            "type": "article",
+            "fields": {
+                "author": "Liao, Hsiu-Li and Huang, Zhen-Yu and Liu, Su-Houn",
+                "title": "The Effects of Negative Online Reviews on Consumer Perception, Attitude and Purchase Intention: Experimental Investigation of the Amount, Quality, and Presentation Order of EWOM",
+                "year": "2021",
+                "issue_date": "May 2021",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "volume": "20",
+                "number": "3",
+                "issn": "2375-4699",
+                "url": "https://doi.org/10.1145/3426883",
+                "doi": "10.1145/3426883",
+                "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process.",
+                "month": "may",
+                "articleno": "51",
+                "numpages": "21",
+                "keywords": "presentation order, information quality, word-of-mouth, negative reviews, Information amount"
+            },
+            "ref_source": "bib",
+            "abstract": "The quick growth and fast spread of electronic word-of-mouth (eWOM) have created a new threat to Internet merchants and marketers through paid online reviewers flooding sites with product and service reviews that could confuse and deter customers. This study examined the effects of the posts by paid reviewers—specifically, the negative reviews—on consumers’ risk perception, product attitude, and purchase intention. While extant research examined negative eWOM as an information source, little attention has been paid to the role of a hired reviewer's post aimed at destroying the reputation of certain targets (Internet Water Army Attack [IWAA]). To gain a better understanding of this phenomenon, three experiments were conducted to investigate the effects of the amount, quality, and presentation order of negative eWOM on consumers’ perception change and decision making. We tested the hypothesis using a test environment that mimicked a PTT online forum ( https://www.ptt.cc/ ) in Taiwan. Three simulation cases (smartphone, digital camera, and tablet) based on real-world events were used. A total of 193 participants completed all three experiments and provided valid responses. The results of this study are mostly consistent with previous research findings that online marketing is greatly threatened by negative eWOM. Nevertheless, it was also found that the effects of the amount, quality, and presentation order of negative eWOM are more complicated than we have anticipated. The findings revealed that IWAA can effectively increase customers’ risk perception toward a product and change their attitude and purchase intention.",
+            "aminer_id": "60b9a5d6e4510cd7c8fd8a1c"
+        },
+        "10.1145/2783258.2783370": {
+            "number": "[18]",
+            "title": "Collective Opinion Spam Detection: Bridging Review Networks and Metadata",
+            "text": "author = {Rayana, Shebuti and Akoglu, Leman},\n    title = {Collective Opinion Spam Detection: Bridging Review Networks and Metadata},\n    year = {2015},\n    isbn = {9781450336642},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    url = {https://doi.org/10.1145/2783258.2783370},\n    doi = {10.1145/2783258.2783370},\n    booktitle = {Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining},\n    pages = {985–994},\n    numpages = {10},\n    keywords = {heterogenous networks, metadata, scalable algorithms, opinion spam, semi-supervised learning},\n    location = {Sydney, NSW, Australia},\n    series = {KDD '15}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Rayana, Shebuti and Akoglu, Leman",
+                "title": "Collective Opinion Spam Detection: Bridging Review Networks and Metadata",
+                "year": "2015",
+                "isbn": "9781450336642",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "url": "https://doi.org/10.1145/2783258.2783370",
+                "doi": "10.1145/2783258.2783370",
+                "booktitle": "Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining",
+                "pages": "985–994",
+                "numpages": "10",
+                "keywords": "heterogenous networks, metadata, scalable algorithms, opinion spam, semi-supervised learning",
+                "location": "Sydney, NSW, Australia",
+                "series": "KDD '15"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews capture the testimonials of \"real\" people and help shape the decisions of other consumers. Due to the financial gains associated with positive reviews, however, opinion spam has become a widespread problem, with often paid spam reviewers writing fake reviews to unjustly promote or demote certain products or businesses. Existing approaches to opinion spam have successfully but separately utilized linguistic clues of deception, behavioral footprints, or relational ties between agents in a review system. In this work, we propose a new holistic approach called SPEAGLE that utilizes clues from all metadata (text, times tamp, rating) as well as relational data (network), and harness them collectively under a unified framework to spot suspicious users and reviews, as well as products targeted by spam. Moreover, our method can efficiently and seamlessly integrate semi-supervision, i.e., a (small) set of labels if available, without requiring any training or changes in its underlying algorithm. We demonstrate the effectiveness and scalability of SPEAGLE on three real-world review datasets from Yelp.com with filtered (spam) and recommended (non-spam) reviews, where it significantly outperforms several baselines and state-of-the-art methods. To the best of our knowledge, this is the largest scale quantitative evaluation performed to date for the opinion spam problem.",
+            "aminer_id": "5736973b6e3b12023e62b177"
+        },
+        "nguyen-etal-2022-smtce": {
+            "number": "[19]",
+            "title": "SMTCE: A Social Media Text Classification Evaluation Benchmark and BERTology Models for Vietnamese",
+            "text": "title = \"{SMTCE}: A Social Media Text Classification Evaluation Benchmark and {BERT}ology Models for {V}ietnamese\",\n    author = \"Nguyen, Luan  and\n      Nguyen, Kiet  and\n      Nguyen, Ngan\",\n    booktitle = \"Proceedings of the 36th Pacific Asia Conference on Language, Information and Computation\",\n    month = oct,\n    year = \"2022\",\n    address = \"Manila, Philippines\",\n    publisher = \"De La Salle University\",\n    url = \"https://aclanthology.org/2022.paclic-1.31\",\n    pages = \"282--291\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{SMTCE}: A Social Media Text Classification Evaluation Benchmark and {BERT}ology Models for {V}ietnamese",
+                "author": "Nguyen, Luan and Nguyen, Kiet and Nguyen, Ngan",
+                "booktitle": "Proceedings of the 36th Pacific Asia Conference on Language, Information and Computation",
+                "year": "2022",
+                "address": "Manila, Philippines",
+                "publisher": "De La Salle University",
+                "url": "https://aclanthology.org/2022.paclic-1.31",
+                "pages": "282--291"
+            },
+            "ref_source": "bib",
+            "abstract": "Text classification is a typical natural language processing or computational linguistics task with various interesting applications. As the number of users on social media platforms increases, data acceleration promotes emerging studies on Social Media Text Classification (SMTC) or social media text mining on these valuable resources. In contrast to English, Vietnamese, one of the low-resource languages, is still not concentrated on and exploited thoroughly. Inspired by the success of the GLUE, we introduce the Social Media Text Classification Evaluation (SMTCE) benchmark, as a collection of datasets and models across a diverse set of SMTC tasks. With the proposed benchmark, we implement and analyze the effectiveness of a variety of multilingual BERT-based models (mBERT, XLM-R, and DistilmBERT) and monolingual BERT-based models (PhoBERT, viBERT, vELECTRA, and viBERT4news) for tasks in the SMTCE benchmark. Monolingual models outperform multilingual models and achieve state-of-the-art results on all text classification tasks. It provides an objective assessment of multilingual and monolingual BERT-based models on the benchmark, which will benefit future studies about BERTology in the Vietnamese language.",
+            "aminer_id": "632bd2af90e50fcafdb7ae32"
+        },
+        "huynh-etal-2020-simple": {
+            "number": "[20]",
+            "title": "A Simple and Efficient Ensemble Classifier Combining Multiple Neural Network Models on Social Media Datasets in Vietnamese.",
+            "text": "title = \"A Simple and Efficient Ensemble Classifier Combining Multiple Neural Network Models on Social Media Datasets in {V}ietnamese\",\n    author = \"Huynh, Huy Duc  and\n      Do, Hang Thi-Thuy  and\n      Nguyen, Kiet Van  and\n      Nguyen, Ngan Thuy-Luu\",\n    booktitle = \"Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation\",\n    month = oct,\n    year = \"2020\",\n    address = \"Hanoi, Vietnam\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.paclic-1.48\",\n    pages = \"420--429\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Simple and Efficient Ensemble Classifier Combining Multiple Neural Network Models on Social Media Datasets in {V}ietnamese",
+                "author": "Huynh, Huy Duc and Do, Hang Thi-Thuy and Nguyen, Kiet Van and Nguyen, Ngan Thuy-Luu",
+                "booktitle": "Proceedings of the 34th Pacific Asia Conference on Language, Information and Computation",
+                "year": "2020",
+                "address": "Hanoi, Vietnam",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2020.paclic-1.48",
+                "pages": "420--429"
+            },
+            "ref_source": "bib",
+            "abstract": "Text classification is a popular topic of natural language processing, which has currently attracted numerous research efforts worldwide. The significant increase of data in social media requires the vast attention of researchers to analyze such data. There are various studies in this field in many languages but limited to the Vietnamese language. Therefore, this study aims to classify Vietnamese texts on social media from three different Vietnamese benchmark datasets. Advanced deep learning models are used and optimized in this study, including CNN, LSTM, and their variants. We also implement the BERT, which has never been applied to the datasets. Our experiments find a suitable model for classification tasks on each specific dataset. To take advantage of single models, we propose an ensemble model, combining the highest-performance models. Our single models reach positive results on each dataset. Moreover, our ensemble model achieves the best performance on all three datasets. We reach 86.96% of F1- score for the HSD-VLSP dataset, 65.79% of F1-score for the UIT-VSMEC dataset, 92.79% and 89.70% for sentiments and topics on the UIT-VSFC dataset, respectively. Therefore, our models achieve better performances as compared to previous studies on these datasets.",
+            "aminer_id": "5f75b91e91e0111c1eb4d4ec"
+        },
+        "9140745": {
+            "number": "[21]",
+            "title": "Comparison Between Traditional Machine Learning Models and Neural Network Models for Vietnamese Hate Speech Detection",
+            "text": "author={Luu, Son T. and Nguyen, Hung P. and Van Nguyen, Kiet and Luu-Thuy Nguyen, Ngan},\n\n  booktitle={2020 RIVF International Conference on Computing and Communication Technologies (RIVF)}, \n\n  title={Comparison Between Traditional Machine Learning Models And Neural Network Models For Vietnamese Hate Speech Detection}, \n\n  year={2020},\n\n  volume={},\n\n  number={},\n\n  pages={1-6},\n\n  doi={10.1109/RIVF48685.2020.9140745}",
+            "type": "article",
+            "fields": {
+                "author": "Luu, Son T. and Nguyen, Hung P. and Van Nguyen, Kiet and Luu-Thuy Nguyen, Ngan",
+                "booktitle": "2020 RIVF International Conference on Computing and Communication Technologies (RIVF)",
+                "title": "Comparison Between Traditional Machine Learning Models And Neural Network Models For Vietnamese Hate Speech Detection",
+                "year": "2020",
+                "volume": "",
+                "number": "",
+                "pages": "1-6",
+                "doi": "10.1109/RIVF48685.2020.9140745"
+            },
+            "ref_source": "bib",
+            "abstract": "Hate-speech detection on social network language has become one of the main researching fields recently due to the spreading of social networks like Facebook and Twitter. In Vietnam, the threat of offensive and harassment cause bad impacts for online user. The VLSP - Shared task about Hate Speech Detection on social networks showed many proposed approaches for detecting whatever comment is clean or not. However, this problem still needs further researching. Consequently, we compare traditional machine learning and deep learning on a large dataset about the user's comments on social network in Vietnamese and find out what is the advantage and disadvantage of each model by comparing their accuracy on F1-score, then we pick two models in which has highest accuracy in traditional machine learning models and deep neural models respectively. Next, we compare these two models capable of predicting the right label by referencing their confusion matrices and considering the advantages and disadvantages of each model. Finally, from the comparison result, we propose our ensemble method that concentrates the abilities of traditional methods and deep learning methods.",
+            "aminer_id": "5e3940c73a55ace46ed43845"
+        },
+        "cho-etal-2014-learning": {
+            "number": "[22]",
+            "title": "Learning Phrase Representations Using RNN Encoder-Decoder for Statistical Machine Translation",
+            "text": "title = \"Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical Machine Translation\",\n    author = {Cho, Kyunghyun  and\n      van Merri{\\\"e}nboer, Bart  and\n      Gulcehre, Caglar  and\n      Bahdanau, Dzmitry  and\n      Bougares, Fethi  and\n      Schwenk, Holger  and\n      Bengio, Yoshua},\n    booktitle = \"Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})\",\n    month = oct,\n    year = \"2014\",\n    address = \"Doha, Qatar\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/D14-1179\",\n    doi = \"10.3115/v1/D14-1179\",\n    pages = \"1724--1734\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning Phrase Representations using {RNN} Encoder{--}Decoder for Statistical Machine Translation",
+                "author": "Cho, Kyunghyun and van Merri{\\\"e}nboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua",
+                "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})",
+                "year": "2014",
+                "address": "Doha, Qatar",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/D14-1179",
+                "doi": "10.3115/v1/D14-1179",
+                "pages": "1724--1734"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose a novel neural network model called RNN Encoder-Decoder that consists of two recurrent neural networks (RNN). One RNN encodes a sequence of symbols into a fixed-length vector representation, and the other decodes the representation into another sequence of symbols. The encoder and decoder of the proposed model are jointly trained to maximize the conditional probability of a target sequence given a source sequence. The performance of a statistical machine translation system is empirically found to improve by using the conditional probabilities of phrase pairs computed by the RNN Encoder-Decoder as an additional feature in the existing log-linear model. Qualitatively, we show that the proposed model learns a semantically and syntactically meaningful representation of linguistic phrases.",
+            "aminer_id": "5e8d92809fced0a24b605ea5"
+        },
+        "10.1145/2184436.2184437": {
+            "number": "[23]",
+            "title": "Incorporating Sentiment Prior Knowledge for Weakly Supervised Sentiment Analysis",
+            "text": "author = {He, Yulan},\n    title = {Incorporating Sentiment Prior Knowledge for Weakly Supervised Sentiment Analysis},\n    year = {2012},\n    issue_date = {June 2012},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {11},\n    number = {2},\n    issn = {1530-0226},\n    url = {https://doi.org/10.1145/2184436.2184437},\n    doi = {10.1145/2184436.2184437},\n    journal = {ACM Transactions on Asian Language Information Processing},\n    month = {jun},\n    articleno = {4},\n    numpages = {19},\n    keywords = {weakly supervised sentiment classification, latent Dirichlet allocation, generalized expectation, Sentiment analysis}",
+            "type": "article",
+            "fields": {
+                "author": "He, Yulan",
+                "title": "Incorporating Sentiment Prior Knowledge for Weakly Supervised Sentiment Analysis",
+                "year": "2012",
+                "issue_date": "June 2012",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "volume": "11",
+                "number": "2",
+                "issn": "1530-0226",
+                "url": "https://doi.org/10.1145/2184436.2184437",
+                "doi": "10.1145/2184436.2184437",
+                "journal": "ACM Transactions on Asian Language Information Processing",
+                "month": "jun",
+                "articleno": "4",
+                "numpages": "19",
+                "keywords": "weakly supervised sentiment classification, latent Dirichlet allocation, generalized expectation, Sentiment analysis"
+            },
+            "ref_source": "bib",
+            "abstract": "This article presents two novel approaches for incorporating sentiment prior knowledge into the topic model for weakly supervised sentiment analysis where sentiment labels are considered as topics. One is by modifying the Dirichlet prior for topic-word distribution (LDA-DP), the other is by augmenting the model objective function through adding terms that express preferences on expectations of sentiment labels of the lexicon words using generalized expectation criteria (LDA-GE). We conducted extensive experiments on English movie review data and multi-domain sentiment dataset as well as Chinese product reviews about mobile phones, digital cameras, MP3 players, and monitors. The results show that while both LDA-DP and LDA-GE perform comparably to existing weakly supervised sentiment classification algorithms, they are much simpler and computationally efficient, rendering them more suitable for online and real-time sentiment classification on the Web. We observed that LDA-GE is more effective than LDA-DP, suggesting that it should be preferred when considering employing the topic model for sentiment analysis. Moreover, both models are able to extract highly domain-salient polarity words from text.",
+            "aminer_id": "53e9b01cb7602d9703a76788"
+        },
+        "10.1145/3394113": {
+            "number": "[24]",
+            "title": "Neural Co-Training for Sentiment Classification with Product Attributes",
+            "text": "author = {Bai, Ruirui and Wang, Zhongqing and Kong, Fang and Li, Shoushan and Zhou, Guodong},\n    title = {Neural Co-Training for Sentiment Classification with Product Attributes},\n    year = {2020},\n    issue_date = {September 2020},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {19},\n    number = {5},\n    issn = {2375-4699},\n    url = {https://doi.org/10.1145/3394113},\n    doi = {10.1145/3394113},\n    journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},\n    month = {aug},\n    articleno = {74},\n    numpages = {17},\n    keywords = {product attributes, co-training, Semi-supervised sentiment classification}",
+            "type": "article",
+            "fields": {
+                "author": "Bai, Ruirui and Wang, Zhongqing and Kong, Fang and Li, Shoushan and Zhou, Guodong",
+                "title": "Neural Co-Training for Sentiment Classification with Product Attributes",
+                "year": "2020",
+                "issue_date": "September 2020",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "volume": "19",
+                "number": "5",
+                "issn": "2375-4699",
+                "url": "https://doi.org/10.1145/3394113",
+                "doi": "10.1145/3394113",
+                "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process.",
+                "month": "aug",
+                "articleno": "74",
+                "numpages": "17",
+                "keywords": "product attributes, co-training, Semi-supervised sentiment classification"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ff67f52d4150a363cb309ca"
+        },
+        "10.1145/3453694": {
+            "number": "[25]",
+            "title": "Research on Extraction of Useful Tourism Online Reviews Based on Multimodal Feature Fusion",
+            "text": "author = {Li, Meng},\n    title = {Research on Extraction of Useful Tourism Online Reviews Based on Multimodal Feature Fusion},\n    year = {2021},\n    issue_date = {September 2021},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {20},\n    number = {5},\n    issn = {2375-4699},\n    url = {https://doi.org/10.1145/3453694},\n    doi = {10.1145/3453694},\n    journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},\n    month = {sep},\n    articleno = {82},\n    numpages = {16},\n    keywords = {tourism online reviews, feature fusion, Multi-modal, image recognition, deep learning}",
+            "type": "article",
+            "fields": {
+                "author": "Li, Meng",
+                "title": "Research on Extraction of Useful Tourism Online Reviews Based on Multimodal Feature Fusion",
+                "year": "2021",
+                "issue_date": "September 2021",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "volume": "20",
+                "number": "5",
+                "issn": "2375-4699",
+                "url": "https://doi.org/10.1145/3453694",
+                "doi": "10.1145/3453694",
+                "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process.",
+                "month": "sep",
+                "articleno": "82",
+                "numpages": "16",
+                "keywords": "tourism online reviews, feature fusion, Multi-modal, image recognition, deep learning"
+            },
+            "ref_source": "bib",
+            "abstract": "To effectively identify the influencing factors of the perceived usefulness of multimodal data in online reviews of tourism products, this article explores the optimization method of online tourism products based on user-generated content and conducts feature fusion of multimodal data in online reviews of tourism products from the perspective of data fusion analysis. Therefore, based on the word vector model, this article proposes a method to select the seed word set of emotion dictionary. In this method, emotional words are represented in vector form and the distance between word vectors is calculated to form the selection criteria and classification basis of seed word set, and then the sentiment dictionary of online review is formed by category judgment. This article takes the real online review data of tourism products as the research object, carries out descriptive statistical analysis, uses machine learning and deep learning methods, carries out text vector embedding and image content recognition, integrates image and text feature vector, constructs multimodal online review usefulness classification model, and conducts model test. The experimental results show that, compared with the single-mode reviews containing only text or pictures, the multimodal reviews combined with text and pictures can better predict the usefulness of online reviews, improve the quality of online reviews, give full play to the potential value of user-generated content, provide optimization ideas for product providers, and provide decision support for product consumers.",
+            "aminer_id": "619788d95244ab9dcb0df4f4"
+        },
+        "10.1145/3476115": {
+            "number": "[26]",
+            "title": "Detecting Arabic Spam Reviews in Social Networks Based on Classification Algorithms",
+            "text": "author = {Najadat, Hassan and Alzubaidi, Mohammad A. and Qarqaz, Islam},\n    title = {Detecting Arabic Spam Reviews in Social Networks Based on Classification Algorithms},\n    year = {2021},\n    issue_date = {January 2022},\n    publisher = {Association for Computing Machinery},\n    address = {New York, NY, USA},\n    volume = {21},\n    number = {1},\n    issn = {2375-4699},\n    url = {https://doi.org/10.1145/3476115},\n    doi = {10.1145/3476115},\n    journal = {ACM Trans. Asian Low-Resour. Lang. Inf. Process.},\n    month = {nov},\n    articleno = {11},\n    numpages = {13},\n    keywords = {Arabic language, classification algorithms, Facebook, spam detection, social networks}",
+            "type": "article",
+            "fields": {
+                "author": "Najadat, Hassan and Alzubaidi, Mohammad A. and Qarqaz, Islam",
+                "title": "Detecting Arabic Spam Reviews in Social Networks Based on Classification Algorithms",
+                "year": "2021",
+                "issue_date": "January 2022",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "volume": "21",
+                "number": "1",
+                "issn": "2375-4699",
+                "url": "https://doi.org/10.1145/3476115",
+                "doi": "10.1145/3476115",
+                "journal": "ACM Trans. Asian Low-Resour. Lang. Inf. Process.",
+                "month": "nov",
+                "articleno": "11",
+                "numpages": "13",
+                "keywords": "Arabic language, classification algorithms, Facebook, spam detection, social networks"
+            },
+            "ref_source": "bib",
+            "abstract": "Reviews or comments that users leave on social media have great importance for companies and business entities. New product ideas can be evaluated based on customer reactions. However, this use of social media is complicated by those who post spam on social media in the form of reviews and comments. Designing methodologies to automatically detect and block social media spam is complicated by the fact that spammers continuously develop new ways to leave their spam comments. Researchers have proposed several methods to detect English spam reviews. However, few studies have been conducted to detect Arabic spam reviews. This article proposes a keyword-based method for detecting Arabic spam reviews. Keywords or Features are subsets of words from the original text that are labelled as important. A term's weight, Term Frequency–Inverse Document Frequency (TF-IDF) matrix, and filter methods (such as information gain, chi-squared, deviation, correlation, and uncertainty) have been used to extract keywords from Arabic text. The method proposed in this article detects Arabic spam in Facebook comments. The dataset consists of 3,000 Arabic comments extracted from Facebook pages. Four different machine learning algorithms are used in the detection process, including C4.5, kNN, SVM, and Naïve Bayes classifiers. The results show that the Decision Tree classifier outperforms the other classification algorithms, with a detection accuracy of 92.63%.",
+            "aminer_id": "61c92d5b5244ab9dcb0136c3"
+        },
+        "Sokolova2009ASA": {
+            "number": "[27]",
+            "title": "A Systematic Analysis of Performance Measures for Classification Tasks",
+            "text": "title = {A systematic analysis of performance measures for classification tasks},\n    journal = {Information Processing \\& Management},\n    volume = {45},\n    number = {4},\n    pages = {427-437},\n    year = {2009},\n    issn = {0306-4573},\n    doi = {https://doi.org/10.1016/j.ipm.2009.03.002},\n    url = {https://www.sciencedirect.com/science/article/pii/S0306457309000259},\n    author = {Marina Sokolova and Guy Lapalme},\n    keywords = {Performance evaluation, Machine Learning, Text classification},",
+            "type": "article",
+            "fields": {
+                "title": "A systematic analysis of performance measures for classification tasks",
+                "journal": "Information Processing \\& Management",
+                "volume": "45",
+                "number": "4",
+                "pages": "427-437",
+                "year": "2009",
+                "issn": "0306-4573",
+                "doi": "https://doi.org/10.1016/j.ipm.2009.03.002",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0306457309000259",
+                "author": "Marina Sokolova and Guy Lapalme",
+                "keywords": "Performance evaluation, Machine Learning, Text classification"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper presents a systematic analysis of twenty four performance measures used in the complete spectrum of Machine Learning classification tasks, i.e., binary, multi-class, multi-labelled, and hierarchical. For each classification task, the study relates a set of changes in a confusion matrix to specific characteristics of data. Then the analysis concentrates on the type of changes to a confusion matrix that do not change a measure, therefore, preserve a classifier's evaluation (measure invariance). The result is the measure invariance taxonomy with respect to all relevant label distribution changes in a classification problem. This formal analysis is supported by examples of applications where invariance properties of measures lead to a more reliable evaluation of classifiers. Text classification supplements the discussion with several case studies.",
+            "aminer_id": "5390a45520f70186a0e71b30"
+        },
+        "CHEN2023101326": {
+            "number": "[28]",
+            "title": "A Graph Neural Network Approach to Detect Original Review Spammers of Astroturfing Campaigns",
+            "text": "title = {A graph neural network approach to detect original review spammers of astroturfing campaigns},\n    journal = {Electronic Commerce Research and Applications},\n    volume = {62},\n    pages = {101326},\n    year = {2023},\n    issn = {1567-4223},\n    doi = {https://doi.org/10.1016/j.elerap.2023.101326},\n    url = {https://www.sciencedirect.com/science/article/pii/S1567422323000911},\n    author = {Kuanchin Chen and Li-Chen Cheng and Mei-Yun Ye and Jenq-Haur Wang},\n    keywords = {Astroturfing, Review spammers, Fake reviews, Collusive opinion fraud, Graph neural network, Collusive spamming, Disinformation},",
+            "type": "article",
+            "fields": {
+                "title": "A graph neural network approach to detect original review spammers of astroturfing campaigns",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "62",
+                "pages": "101326",
+                "year": "2023",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2023.101326",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1567422323000911",
+                "author": "Kuanchin Chen and Li-Chen Cheng and Mei-Yun Ye and Jenq-Haur Wang",
+                "keywords": "Astroturfing, Review spammers, Fake reviews, Collusive opinion fraud, Graph neural network, Collusive spamming, Disinformation"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews affect consumers' buying decisions. When astroturfing happens, the posted fake reviews not only cause confusion to the consumers, but in extreme cases, harm the reputation of others. Identifying the original posters of fake review in a discussion forum from the interactions with the peers in a collusive effort is essential to an overall detection strategy. However, existing detection approaches that focus on the mechanic characteristics of the posted reviews may fall short, since fake reviews cause more harm when astroturfing campaign happens involving multiple accomplices. We propose a detection framework with graph neural network, which incorporates the original perpetrator's stylometric patterns and relationships with other accomplices. The framework was tested against the data collected from real incidents. Multiple deep learning models with fusion techniques were tested. Managerial and theoretical implications are provided.",
+            "aminer_id": "653a21bf939a5f40826f379e"
+        },
+        "SHEN2023101283": {
+            "number": "[29]",
+            "title": "Detecting Review Manipulation from Behavior Deviation: A Deep Learning Approach",
+            "text": "title = {Detecting review manipulation from behavior deviation: A deep learning approach},\n    journal = {Electronic Commerce Research and Applications},\n    volume = {60},\n    pages = {101283},\n    year = {2023},\n    issn = {1567-4223},\n    doi = {https://doi.org/10.1016/j.elerap.2023.101283},\n    url = {https://www.sciencedirect.com/science/article/pii/S1567422323000480},\n    author = {Rong-Ping Shen and Dun Liu and Hong-Sen Shen},\n    keywords = {Social manipulation, Distribution deviation, Biased reviews, Deep learning, Bidirectional LSTM},",
+            "type": "article",
+            "fields": {
+                "title": "Detecting review manipulation from behavior deviation: A deep learning approach",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "60",
+                "pages": "101283",
+                "year": "2023",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2023.101283",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1567422323000480",
+                "author": "Rong-Ping Shen and Dun Liu and Hong-Sen Shen",
+                "keywords": "Social manipulation, Distribution deviation, Biased reviews, Deep learning, Bidirectional LSTM"
+            },
+            "ref_source": "bib",
+            "abstract": "This research considers the problem of review manipulation by exploring rating distribution deviations and proposing a detection framework that captures review bias. We characterize the severity of review manipulation based on the degree to which the corresponding rating deviates from a normal distribution. Then we utilize deep learning approaches to learn hidden textual representations of unmanipulated reviews for biased review detection. Experiments conducted on 1,396,132 movie reviews demonstrate that highly/low biased reviews yield significant difference through our proposed model. Moreover, sentiment and topic analysis on experimental results reveal that biased reviews differentiate from authentic reviews in covering less movie-related topics and embedding stronger and more inflammatory emotions. The findings provide managerial insights for business owners in detecting review manipulation and suggest practical signals for online consumers to distinguish misleading information online.",
+            "aminer_id": "64a7ed06d68f896efa51c9b7"
+        },
+        "SATIABUDHI2021101048": {
+            "number": "[30]",
+            "title": "Using a Hybrid Content-Based and Behaviour-Based Featuring Approach in a Parallel Environment to Detect Fake Reviews",
+            "text": "title = {Using a hybrid content-based and behaviour-based featuring approach in a parallel environment to detect fake reviews},\n    journal = {Electronic Commerce Research and Applications},\n    volume = {47},\n    pages = {101048},\n    year = {2021},\n    issn = {1567-4223},\n    doi = {https://doi.org/10.1016/j.elerap.2021.101048},\n    url = {https://www.sciencedirect.com/science/article/pii/S156742232100020X},\n    author = {Gregorius {Satia Budhi} and Raymond Chiong and Zuli Wang and Sandeep Dhakal},\n    keywords = {Fake review detection, Featuring approach, Machine learning, Deep learning, Imbalanced data, Parallel processing},",
+            "type": "article",
+            "fields": {
+                "title": "Using a hybrid content-based and behaviour-based featuring approach in a parallel environment to detect fake reviews",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "47",
+                "pages": "101048",
+                "year": "2021",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2021.101048",
+                "url": "https://www.sciencedirect.com/science/article/pii/S156742232100020X",
+                "author": "Gregorius {Satia Budhi} and Raymond Chiong and Zuli Wang and Sandeep Dhakal",
+                "keywords": "Fake review detection, Featuring approach, Machine learning, Deep learning, Imbalanced data, Parallel processing"
+            },
+            "ref_source": "bib",
+            "abstract": "The financial impact of positive reviews has prompted some fraudulent sellers to generate fake product reviews for either promoting their products or discrediting competing products. Many e-commerce portals have implemented measures to detect such fake reviews, and these measures require excellent detectors to be effective. In this work, we propose 133 unique features from the combination of content and behaviour-based features to detect fake reviews using machine learning classifiers. Preliminary results show that these features can provide good results for all datasets tested. Detailed analysis of the results, however, reveals the existence of class imbalance issues for two of the bigger datasets - there is a high imbalance between the accuracies of different classes (e.g., 7.73% for the fake class and 99.3% for the genuine class using a Multilayer Perceptron classifier). We therefore introduce two sampling methods that can improve the accuracy of the fake review class on balanced datasets. The accuracies can be improved to a maximum of 89% for both random under and over-sampling on Convolutional Neural Networks. Additionally, we propose a parallel cross-validation method that can speed up the validation process in a parallel environment.",
+            "aminer_id": "609a7489e4510cd7c89be4c9"
+        },
+        "XU2024101347": {
+            "number": "[31]",
+            "title": "The Role of Consumer Reviews in E-Commerce Platform Credit Supervision: A Signaling Game Model Based on Complex Network",
+            "text": "title = {The role of consumer reviews in e-commerce platform credit supervision: A signaling game model based on complex network},\n    journal = {Electronic Commerce Research and Applications},\n    volume = {63},\n    pages = {101347},\n    year = {2024},\n    issn = {1567-4223},\n    doi = {https://doi.org/10.1016/j.elerap.2023.101347},\n    url = {https://www.sciencedirect.com/science/article/pii/S1567422323001126},\n    author = {Xiaoxia Xu and Ruguo Fan and Dongxue Wang and Yitong Wang and Yuanyuan Wang},\n    keywords = {Credit supervision, Consumer reviews, Signaling game, Complex network, E-commerce platform},",
+            "type": "article",
+            "fields": {
+                "title": "The role of consumer reviews in e-commerce platform credit supervision: A signaling game model based on complex network",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "63",
+                "pages": "101347",
+                "year": "2024",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2023.101347",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1567422323001126",
+                "author": "Xiaoxia Xu and Ruguo Fan and Dongxue Wang and Yitong Wang and Yuanyuan Wang",
+                "keywords": "Credit supervision, Consumer reviews, Signaling game, Complex network, E-commerce platform"
+            },
+            "ref_source": "bib",
+            "abstract": "Although fraudulent operations on e-commerce platforms have been repeatedly mentioned, neither its causes nor the complexity among merchants has been systematically established in the literature. Combined with a merchant complex network and game theory, we propose a signaling game model. The model highlights that the pooling equilibrium is why merchants transmit false signals. Imposing the penalty on dishonest merchants can shift to the separation equilibrium, an effective way to resolve the credit crisis. Meanwhile, we utilize consumer reviews to adjust the stability of the separation equilibrium and demonstrate the validity by numerical simulations. The results show that the enthusiasm and authenticity of reviews were complementary to penalty strategies. The moderate enthusiasm and influence of reviews, and high authenticity, are more conducive to the long-term development of the e-commerce platform. The findings of this study provide insight into platform credit supervision from the perspective of consumer reviews.",
+            "aminer_id": "659aae66939a5f40827fdfb3"
+        },
+        "YOU2011510": {
+            "number": "[32]",
+            "title": "Reputation inflation detection in a Chinese C2C market",
+            "text": "title = {Reputation inflation detection in a Chinese C2C market},\n    journal = {Electronic Commerce Research and Applications},\n    volume = {10},\n    number = {5},\n    pages = {510-519},\n    year = {2011},\n    issn = {1567-4223},\n    doi = {https://doi.org/10.1016/j.elerap.2011.06.001},\n    url = {https://www.sciencedirect.com/science/article/pii/S1567422311000329},\n    author = {Weijia You and Lu Liu and Mu Xia and Chenggong Lv},\n    keywords = {C2C e-market, Reputation systems, Collusive behavior, Social networks},",
+            "type": "article",
+            "fields": {
+                "title": "Reputation inflation detection in a Chinese C2C market",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "10",
+                "number": "5",
+                "pages": "510-519",
+                "year": "2011",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2011.06.001",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1567422311000329",
+                "author": "Weijia You and Lu Liu and Mu Xia and Chenggong Lv",
+                "keywords": "C2C e-market, Reputation systems, Collusive behavior, Social networks"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "NI2024101358": {
+            "number": "[33]",
+            "title": "Social Media or Online Shopping Websites: Will/How Platforms Influence Ewom Effectiveness",
+            "text": "title = {Social media or online shopping websites: Will/how platforms influence eWOM effectiveness},\njournal = {Electronic Commerce Research and Applications},\nvolume = {64},\npages = {101358},\nyear = {2024},\nissn = {1567-4223},\ndoi = {https://doi.org/10.1016/j.elerap.2024.101358},\nurl = {https://www.sciencedirect.com/science/article/pii/S1567422324000036},\nauthor = {Yue Ni and Qiqi Cheng},\nkeywords = {Construal level theory, Electronic Word-of-Mouth (eWOM), Social networking, Social media, Online shopping websites, Information adoption model},",
+            "type": "article",
+            "fields": {
+                "title": "Social media or online shopping websites: Will/how platforms influence eWOM effectiveness",
+                "journal": "Electronic Commerce Research and Applications",
+                "volume": "64",
+                "pages": "101358",
+                "year": "2024",
+                "issn": "1567-4223",
+                "doi": "https://doi.org/10.1016/j.elerap.2024.101358",
+                "url": "https://www.sciencedirect.com/science/article/pii/S1567422324000036",
+                "author": "Yue Ni and Qiqi Cheng",
+                "keywords": "Construal level theory, Electronic Word-of-Mouth (eWOM), Social networking, Social media, Online shopping websites, Information adoption model"
+            },
+            "ref_source": "bib",
+            "abstract": "This article examines how the message topics of electronic word of mouth (eWOM) (feasibility vs. desirability) and platforms with different psychological distances contribute to the eWOM effect. Within the framework of construal level theory, we focus on the moderating role of the platforms (Social media vs. Online shopping websites) on the suggested eWOM message-Perceived credibility-Perceive diagnosticity-eWOM effect relationship. The results from 317 participants (M = 29.4, SD = 8.95, Range = [17, 70], 220 females) show that for social media eWOM readers, the effect of feasibility orientation eWOM is greater than desirability eWOM, and for online shopping websites eWOM readers, there is no difference between the two types of eWOM messages. The results support the moderating effect of platforms on the relationship. The effect of feasibility eWOM is greater for readers on social media than for readers on online shopping websites, and the effect of desirability eWOM is similar for online shopping websites and social media readers. The findings provide managerial implications for an eWOM marketing strategy and theoretical implications for studying the platforms effect, construal level theory, and Elaboration Likelihood Model of information adoption.",
+            "aminer_id": "648e110cd68f896efa28cc24"
+        },
+        "RAO2021115742": {
+            "number": "[34]",
+            "title": "A Review on Social Spam Detection: Challenges, Open Issues, and Future Directions.",
+            "text": "title = {A review on social spam detection: Challenges, open issues, and future directions},\n    journal = {Expert Systems with Applications},\n    volume = {186},\n    pages = {115742},\n    year = {2021},\n    issn = {0957-4174},\n    doi = {https://doi.org/10.1016/j.eswa.2021.115742},\n    url = {https://www.sciencedirect.com/science/article/pii/S0957417421011209},\n    author = {Sanjeev Rao and Anil Kumar Verma and Tarunpreet Bhatia},\n    keywords = {Deepfake, Machine learning, Online social network, Social spam, Spammer, Spambots},",
+            "type": "article",
+            "fields": {
+                "title": "A review on social spam detection: Challenges, open issues, and future directions",
+                "journal": "Expert Systems with Applications",
+                "volume": "186",
+                "pages": "115742",
+                "year": "2021",
+                "issn": "0957-4174",
+                "doi": "https://doi.org/10.1016/j.eswa.2021.115742",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0957417421011209",
+                "author": "Sanjeev Rao and Anil Kumar Verma and Tarunpreet Bhatia",
+                "keywords": "Deepfake, Machine learning, Online social network, Social spam, Spammer, Spambots"
+            },
+            "ref_source": "bib",
+            "abstract": "Online Social Networks are perpetually evolving and used in plenteous applications such as content sharing, chatting, making friends/followers, customer engagements, commercials, product reviews/promotions, online games, and news, etc. The substantial issues related to the colossal flood of social spam in social media are polarizing sentiments, impacting users’ online interaction time, degrading available information quality, network bandwidth, computing power, and speed. Simultaneously, groups of coordinated automated accounts/bots often use social networking sites to spread spam, rumors, bogus reviews, and fake news for targeted users or mass communication. The latest developments in the form of artificial intelligence-enabled Deepfakes have exacerbated these issues at large. Consequently, it becomes extremely relevant to review recent work concerning social spam and spammer detection to counter this issue and its effect. This paper provides a brief introduction to social spam, the spamming process, and social spam taxonomy. The comprehensive review entails several dimensionality reduction techniques used for feature selection/extraction, features used, various machine learning and deep learning techniques used for social spam and spammer detection, and their merits and demerits. Artificial intelligence and deep learning empowered Deepfake (text, image, and video) spam, and their countermeasures are also explored. Furthermore, meticulous discussions, existing challenges, and emerging issues such as robustness of detection systems, scalability, real-time datasets, evade strategies used by spammers, coordinated inauthentic behavior, and adversarial attacks on machine learning-based spam detectors, etc., have been discussed with possible directions for future research.",
+            "aminer_id": "6183c2cf5244ab9dcbb90d3c"
+        },
+        "BAZZAZABKENAR2023120366": {
+            "number": "[35]",
+            "title": "Learning Textual Features for Twitter Spam Detection: A Systematic Literature Review",
+            "text": "title = {Learning textual features for Twitter spam detection: A systematic literature review},\n    journal = {Expert Systems with Applications},\n    volume = {228},\n    pages = {120366},\n    year = {2023},\n    issn = {0957-4174},\n    doi = {https://doi.org/10.1016/j.eswa.2023.120366},\n    url = {https://www.sciencedirect.com/science/article/pii/S0957417423008680},\n    author = {Sepideh {Bazzaz Abkenar} and Mostafa {Haghi Kashani} and Mohammad Akbari and Ebrahim Mahdipour},\n    keywords = {Spam, Twitter, Machine learning, Social networks, Systematic literature review},",
+            "type": "article",
+            "fields": {
+                "title": "Learning textual features for Twitter spam detection: A systematic literature review",
+                "journal": "Expert Systems with Applications",
+                "volume": "228",
+                "pages": "120366",
+                "year": "2023",
+                "issn": "0957-4174",
+                "doi": "https://doi.org/10.1016/j.eswa.2023.120366",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0957417423008680",
+                "author": "Sepideh {Bazzaz Abkenar} and Mostafa {Haghi Kashani} and Mohammad Akbari and Ebrahim Mahdipour",
+                "keywords": "Spam, Twitter, Machine learning, Social networks, Systematic literature review"
+            },
+            "ref_source": "bib",
+            "abstract": "Background—Nowadays, with the rise of Internet access and mobile devices around the globe, more people are using social networks for collaboration and receiving real-time information. Twitter, the microblogging site that is becoming a critical source of communication, has also grabbed the attention of spammers to distract users. So far, researchers have introduced various defense techniques to detect spams and combat spammers’ activities. To overcome this problem, many novel techniques have been offered by researchers, which have greatly enhanced spam detection performance. Objective—The purpose of this paper is to identify, taxonomically classify, and compare current Twitter spam detection approaches in a systematic way. Method—This study presents a comprehensive Systematic Literature Review (SLR) method for spam detection on Twitter regarding 70 most relevant papers published between 2010 and October 2022. Literature review analysis reveals that most of the existing Twitter spam detection techniques are based on textual content and messages (tweets) that rely on Machine Learning (ML)-based algorithms. The major differences in these ML algorithms which use various classification and clustering algorithms are related to various feature selection methods. Hence, we propose a classification based on different feature selection analyses, namely content analysis, user analysis, tweet analysis, network analysis, and hybrid analysis. Results—Various parameters are identified to investigate the Twitter spam detection approaches, and each of the papers was examined to find the research methodology and present comparative studies on current approaches. Conclusion—This paper demonstrates that the existing Twitter spam detection approaches have encountered several open issues, including scalability, streaming data analysis, and processing. The most obvious unresolved issues are spam drift and non-English tweets.",
+            "aminer_id": "64a29640d68f896efa29413c"
+        },
+        "SUN2024121236": {
+            "number": "[36]",
+            "title": "A Robust Ranking Method for Online Rating Systems with Spammers by Interval Division",
+            "text": "title = {A robust ranking method for online rating systems with spammers by interval division},\n    journal = {Expert Systems with Applications},\n    volume = {235},\n    pages = {121236},\n    year = {2024},\n    issn = {0957-4174},\n    doi = {https://doi.org/10.1016/j.eswa.2023.121236},\n    url = {https://www.sciencedirect.com/science/article/pii/S0957417423017384},\n    author = {Hong-Liang Sun and Duan-Bing Chen},\n    keywords = {E-commerce, Fraud detection, Spamming attacks, Rating systems},",
+            "type": "article",
+            "fields": {
+                "title": "A robust ranking method for online rating systems with spammers by interval division",
+                "journal": "Expert Systems with Applications",
+                "volume": "235",
+                "pages": "121236",
+                "year": "2024",
+                "issn": "0957-4174",
+                "doi": "https://doi.org/10.1016/j.eswa.2023.121236",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0957417423017384",
+                "author": "Hong-Liang Sun and Duan-Bing Chen",
+                "keywords": "E-commerce, Fraud detection, Spamming attacks, Rating systems"
+            },
+            "ref_source": "bib",
+            "abstract": "It is crucial to identify spammers from online e-commerce platform to maintain the order of fairness. Existing methods have limitations to detect spammers if the underlying network is extreme sparse. In this paper, a novel method has been proposed to address this challenge from two folds. It is inspired by the idea that a trust-worthy rater will always give a reasonable rating which has been statistically significant and locates in an interval following normal distribution. To deal with low-degree spammers with limited information, rating patterns with preference are involved as well. Such two parts lead to an Interval Division-based Ranking (IDR) method. Experimental study on challenging sparse network Amazon demonstrates that the performance gain of recall is at least 15.4%. Top 50 movies selected by IDR from Douban have a high mean value 9.552 and a low variance 0.036.",
+            "aminer_id": "653a0bc7939a5f408244a81f"
+        },
+        "ZHANG2023119454": {
+            "number": "[37]",
+            "title": "Spammer Detection Via Ranking Aggregation of Group Behavior",
+            "text": "title = {Spammer detection via ranking aggregation of group behavior},\n    journal = {Expert Systems with Applications},\n    volume = {216},\n    pages = {119454},\n    year = {2023},\n    issn = {0957-4174},\n    doi = {https://doi.org/10.1016/j.eswa.2022.119454},\n    url = {https://www.sciencedirect.com/science/article/pii/S0957417422024733},\n    author = {Zheng Zhang and Mingyang Zhou and Jun Wan and Kezhong Lu and Guoliang Chen and Hao Liao},\n    keywords = {Spammer group, Ranking aggregation, Feature extraction, Bipartite graph network, Optimization algorithm},",
+            "type": "article",
+            "fields": {
+                "title": "Spammer detection via ranking aggregation of group behavior",
+                "journal": "Expert Systems with Applications",
+                "volume": "216",
+                "pages": "119454",
+                "year": "2023",
+                "issn": "0957-4174",
+                "doi": "https://doi.org/10.1016/j.eswa.2022.119454",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0957417422024733",
+                "author": "Zheng Zhang and Mingyang Zhou and Jun Wan and Kezhong Lu and Guoliang Chen and Hao Liao",
+                "keywords": "Spammer group, Ranking aggregation, Feature extraction, Bipartite graph network, Optimization algorithm"
+            },
+            "ref_source": "bib",
+            "abstract": "Online review networks have become a popular platform for disseminating information which attracts large numbers of spammers to influence the reputation of the online products by writing fake reviews. Thus, the spammer detection becomes crucial in controlling the fraud reviews which is valuable for practical applications. However, existing ranking-based methods usually focus on the rating value and textual features of reviews ignoring the features of group behavior which results in the sharp degradation of spammer detection's performance in case of large-scale spammer group attack. In this paper, we propose a novel ranking aggregation method based on features of collusive attack of spammer groups to optimize the spammer ranking algorithm by reassigning the spamicity score for each reviewer. Extensive experiments on various real-world datasets with spammer injection demonstrate that our proposed optimization method can significantly improve the accuracy and robustness of the spammer detection. The average improvements of performance for ranking before and after optimization achieve 10.73%, 42.86% and 4.32% respectively on the Recall, Precision and AUC metrics.",
+            "aminer_id": "63bf3a3490e50fcafd04ec2c"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 37,
+        "citation_types": {
+            "other": 37
+        }
+    }
+}

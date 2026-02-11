@@ -1,0 +1,1883 @@
+{
+    "topic": "Clustering is back: Reaching state-of-the-art LiDAR instance\n  segmentation without training",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[103]",
+                "[101]",
+                "[39]",
+                "[75]",
+                "[3]",
+                "[41]",
+                "[36]",
+                "[44]",
+                "[2]",
+                "[73]",
+                "[42]",
+                "[102]",
+                "[40]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Work",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Semantic segmentation",
+                    "refs": [
+                        "[46]",
+                        "[65]",
+                        "[11]",
+                        "[48]",
+                        "[23]",
+                        "[56]",
+                        "[54]",
+                        "[47]",
+                        "[59]",
+                        "[61]",
+                        "[12]",
+                        "[60]",
+                        "[79]",
+                        "[50]",
+                        "[49]",
+                        "[57]",
+                        "[62]",
+                        "[35]",
+                        "[51]",
+                        "[52]",
+                        "[58]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Panoptic segmentation",
+                    "refs": [
+                        "[43]",
+                        "[26]",
+                        "[15]",
+                        "[74]",
+                        "[19]",
+                        "[8]",
+                        "[10]",
+                        "[73]",
+                        "[6]",
+                        "[56]",
+                        "[84]",
+                        "[20]",
+                        "[83]",
+                        "[5]",
+                        "[39]",
+                        "[37]",
+                        "[76]",
+                        "[41]",
+                        "[33]",
+                        "[44]",
+                        "[61]",
+                        "[14]",
+                        "[24]",
+                        "[32]",
+                        "[102]",
+                        "[12]",
+                        "[67]",
+                        "[75]",
+                        "[81]",
+                        "[4]",
+                        "[2]",
+                        "[7]",
+                        "[71]",
+                        "[25]",
+                        "[42]",
+                        "[77]",
+                        "[85]",
+                        "[70]",
+                        "[28]",
+                        "[3]",
+                        "[80]",
+                        "[13]",
+                        "[16]",
+                        "[27]",
+                        "[82]",
+                        "[40]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Method",
+            "refs": [
+                "[36]",
+                "[101]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "\\ours clustering",
+                    "refs": [
+                        "[20]",
+                        "[101]",
+                        "[55]",
+                        "[36]",
+                        "[2]",
+                        "[66]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Choice of distances and thresholds",
+                    "refs": [
+                        "[36]",
+                        "[99]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Box splitting",
+                    "refs": [
+                        "[89]"
+                    ],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Experiments",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Datasets and metrics",
+                    "refs": [
+                        "[67]",
+                        "[69]",
+                        "[68]",
+                        "[8]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Size parameters setting",
+                    "refs": [
+                        "[70]",
+                        "[94]",
+                        "[96]",
+                        "[97]",
+                        "[38]",
+                        "[98]",
+                        "[95]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Comparison to the state-of-the-art",
+                    "refs": [
+                        "[62]",
+                        "[39]",
+                        "[9]",
+                        "[37]",
+                        "[8]",
+                        "[65]",
+                        "[64]",
+                        "[61]",
+                        "[10]",
+                        "[40]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Study of \\ours's components",
+                    "refs": [
+                        "[1]",
+                        "[82]",
+                        "[80]",
+                        "[61]",
+                        "[73]"
+                    ],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Evaluation of the clustering upper bound",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ablation and sensitivity study",
+                    "refs": [
+                        "[36]"
+                    ],
+                    "subsections": [],
+                    "number": "4.6",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations and scope of this article",
+            "refs": [
+                "[91]",
+                "[8]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [
+                "[1]",
+                "[44]"
+            ],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Margin of improvement with oracle analysis",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Discussion",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "7.1",
+                    "level": 2
+                }
+            ],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Metrics",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Box fitting algorithm",
+            "refs": [
+                "[92]",
+                "[89]"
+            ],
+            "subsections": [],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Choice of margins in the box splitting",
+            "refs": [],
+            "subsections": [],
+            "number": "10",
+            "level": 1
+        },
+        {
+            "section_title": "Explainability and limitations",
+            "refs": [],
+            "subsections": [],
+            "number": "11",
+            "level": 1
+        },
+        {
+            "section_title": "Per-class results",
+            "refs": [],
+            "subsections": [],
+            "number": "12",
+            "level": 1
+        },
+        {
+            "section_title": "Performance of \\ours and distance to the sensor",
+            "refs": [],
+            "subsections": [],
+            "number": "13",
+            "level": 1
+        },
+        {
+            "section_title": "More visualisations",
+            "refs": [],
+            "subsections": [],
+            "number": "14",
+            "level": 1
+        }
+    ],
+    "references": {
+        "uniseg": {
+            "number": "[1]",
+            "title": "UniSeg: A Unified Multi-Modal LiDAR Segmentation Network and the OpenPCSeg Codebase",
+            "text": "author={Liu, Youquan and Chen, Runnan and Li, Xin and Kong, Lingdong and Yang, Yuchen and Xia, Zhaoyang and Bai, Yeqi and Zhu, Xinge and Ma, Yuexin and Li, Yikang and Qiao, Yu and Hou, Yuenan},\n    booktitle={ICCV}, \n    title={UniSeg: A Unified Multi-Modal LiDAR Segmentation Network and the OpenPCSeg Codebase}, \n    year={2023},",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Liu, Youquan and Chen, Runnan and Li, Xin and Kong, Lingdong and Yang, Yuchen and Xia, Zhaoyang and Bai, Yeqi and Zhu, Xinge and Ma, Yuexin and Li, Yikang and Qiao, Yu and Hou, Yuenan",
+                "booktitle": "ICCV",
+                "title": "UniSeg: A Unified Multi-Modal LiDAR Segmentation Network and the OpenPCSeg Codebase",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Point-, voxel-, and range-views are three representative forms of point clouds. All of them have accurate 3D measurements but lack color and texture information. RGB images are a natural complement to these point cloud views and fully utilizing the comprehensive information of them benefits more robust perceptions. In this paper, we present a unified multi-modal LiDAR segmentation network, termed UniSeg, which leverages the information of RGB images and three views of the point cloud, and accomplishes semantic segmentation and panoptic segmentation simultaneously. Specifically, we first design the Learnable cross-Modal Association (LMA) module to automatically fuse voxel-view and range-view features with image features, which fully utilize the rich semantic information of images and are robust to calibration errors. Then, the enhanced voxel-view and range-view features are transformed to the point space,where three views of point cloud features are further fused adaptively by the Learnable cross-View Association module (LVA). Notably, UniSeg achieves promising results in three public benchmarks, i.e., SemanticKITTI, nuScenes, and Waymo Open Dataset (WOD); it ranks 1st on two challenges of two benchmarks, including the LiDAR semantic segmentation challenge of nuScenes and panoptic segmentation challenges of SemanticKITTI. Besides, we construct the OpenPCSeg codebase, which is the largest and most comprehensive outdoor LiDAR segmentation codebase. It contains most of the popular outdoor LiDAR segmentation algorithms and provides reproducible implementations. The OpenPCSeg codebase will be made publicly available at https://github.com/PJLab-ADG/PCSeg.",
+            "aminer_id": "64ffcc203fda6d7f06d06d23"
+        },
+        "phnet": {
+            "number": "[2]",
+            "title": "Panoptic-PHNet: Towards Real-Time and High-Precision LiDAR Panoptic Segmentation Via Clustering Pseudo Heatmap",
+            "text": "title={{Panoptic-PHNet}: Towards real-time and high-precision {LiDAR} panoptic segmentation via clustering pseudo heatmap},\n  author={Li, Jinke and He, Xiao and Wen, Yang and Gao, Yuan and Cheng, Xiaoqiang and Zhang, Dan},\n  booktitle={CVPR},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{Panoptic-PHNet}: Towards real-time and high-precision {LiDAR} panoptic segmentation via clustering pseudo heatmap",
+                "author": "Li, Jinke and He, Xiao and Wen, Yang and Gao, Yuan and Cheng, Xiaoqiang and Zhang, Dan",
+                "booktitle": "CVPR",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "As a rising task, panoptic segmentation is faced with challenges in both semantic segmentation and instance segmentation. However, in terms of speed and accuracy, existing LiDAR methods in the field are still limited. In this paper, we propose a fast and high-performance LiDAR-based framework, referred to as Panoptic-PHNet, with three attractive aspects: 1) We introduce a clustering pseudo heatmap as a new paradigm, which, followed by a center grouping module, yields instance centers for efficient clustering without object-level learning tasks. 2) A knn-transformer module is proposed to model the interaction among foreground points for accurate offset regression. 3) For backbone design, we fuse the fine-grained voxel features and the 2D Bird's Eye View (BEV) features with different receptive fields to utilize both detailed and global information. Extensive experiments on both SemanticKITTI dataset and nuScenes dataset show that our Panoptic-PHNet surpasses state-of-the-art methods by remarkable margins with a real-time speed. We achieve the 1st place on the public leaderboard of SemanticKITTI and leading performance on the recently released leaderboard of nuScenes.",
+            "aminer_id": "628304515aee126c0f6f0b49"
+        },
+        "maskpls": {
+            "number": "[3]",
+            "title": "Mask-Based Panoptic LiDAR Segmentation for Autonomous Driving",
+            "text": "title={Mask-based panoptic {LiDAR} segmentation for autonomous driving},\n  author={Marcuzzi, Rodrigo and Nunes, Lucas and Wiesmann, Louis and Behley, Jens and Stachniss, Cyrill},\n  journal={IEEE Robotics and Automation Letters},\n  volume={8},\n  number={2},\n  pages={1141--1148},\n  year={2023},",
+            "type": "article",
+            "fields": {
+                "title": "Mask-based panoptic {LiDAR} segmentation for autonomous driving",
+                "author": "Marcuzzi, Rodrigo and Nunes, Lucas and Wiesmann, Louis and Behley, Jens and Stachniss, Cyrill",
+                "journal": "IEEE Robotics and Automation Letters",
+                "volume": "8",
+                "number": "2",
+                "pages": "1141--1148",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Autonomous vehicles need to understand their surroundings geometrically and semantically to plan and act appropriately in the real world. Panoptic segmentation of LiDAR scans provides a description of the surroundings by unifying semantic and instance segmentation. It is usually solved in a bottom-up manner, consisting of two steps. Predicting the semantic class for each 3D point, using this information to filter out “stuff” points, and cluster “thing” points to obtain instance segmentation. This clustering is a post-processing step with associated hyperparameters, which usually do not adapt to instances of different sizes or different datasets. To this end, we propose MaskPLS, an approach to perform panoptic segmentation of LiDAR scans in an end-to-end manner by predicting a set of non-overlapping binary masks and semantic classes, fully avoiding the clustering step. As a result, each mask represents a single instance belonging to a “thing” class or a “stuff” class. Experiments on SemanticKITTI show that the end-to-end learnable mask generation leads to superior performance compared to state-of-the-art heuristic approaches.",
+            "aminer_id": "63cb215690e50fcafd25e05f"
+        },
+        "panopticpolarnet": {
+            "number": "[4]",
+            "title": "Panoptic-PolarNet: Proposal-free LiDAR Point Cloud Panoptic Segmentation",
+            "text": "title={Panoptic-polarnet: Proposal-free {LiDAR} point cloud panoptic segmentation},\n  author={Zhou, Zixiang and Zhang, Yang and Foroosh, Hassan},\n  booktitle={CVPR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Panoptic-polarnet: Proposal-free {LiDAR} point cloud panoptic segmentation",
+                "author": "Zhou, Zixiang and Zhang, Yang and Foroosh, Hassan",
+                "booktitle": "CVPR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Panoptic segmentation presents a new challenge in exploiting the merits of both detection and segmentation, with the aim of unifying instance segmentation and semantic segmentation in a single framework. However, an efficient solution for panoptic segmentation in the emerging domain of LiDAR point cloud is still an open research problem and is very much under-explored. In this paper, we present a fast and robust LiDAR point cloud panoptic segmentation framework, referred to as Panoptic-PolarNet. We learn both semantic segmentation and class-agnostic instance clustering in a single inference network using a polar Bird's Eye View (BEV) representation, enabling us to circumvent the issue of occlusion among instances in urban street scenes. To improve our network's learnability, we also propose an adapted instance augmentation technique and a novel adversarial point cloud pruning method. Our experiments show that Panoptic-PolarNet outperforms the baseline methods on SemanticKITTI and nuScenes datasets with an almost real-time inference speed. Panoptic-PolarNet achieved 54.1% PQ in the public SemanticKITTI panoptic segmentation leaderboard and leading performance for the validation set of nuScenes.",
+            "aminer_id": "6062fc7991e0118c891f1a21"
+        },
+        "dsnet": {
+            "number": "[5]",
+            "title": "LiDAR-based Panoptic Segmentation Via Dynamic Shifting Network",
+            "text": "title={{LiDAR}-based panoptic segmentation via dynamic shifting network},\n  author={Hong, Fangzhou and Zhou, Hui and Zhu, Xinge and Li, Hongsheng and Liu, Ziwei},\n  booktitle={CVPR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{LiDAR}-based panoptic segmentation via dynamic shifting network",
+                "author": "Hong, Fangzhou and Zhou, Hui and Zhu, Xinge and Li, Hongsheng and Liu, Ziwei",
+                "booktitle": "CVPR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "With the rapid advances of autonomous driving, it becomes critical to equip its sensing system with more holistic 3D perception. However, existing works focus on parsing either the objects (e.g. cars and pedestrians) or scenes (e.g. trees and buildings) from the LiDAR sensor. In this work, we address the task of LiDAR-based panoptic segmentation, which aims to parse both objects and scenes in a unified manner. As one of the first endeavors towards this new challenging task, we propose the Dynamic Shifting Network (DS-Net), which serves as an effective panoptic segmentation framework in the point cloud realm. In particular, DS-Net has three appealing properties: 1) strong backbone design. DS-Net adopts the cylinder convolution that is specifically designed for LiDAR point clouds. The extracted features are shared by the semantic branch and the instance branch which operates in a bottom-up clustering style. 2) Dynamic Shifting for complex point distributions. We observe that commonly-used clustering algorithms like BFS or DBSCAN are incapable of handling complex autonomous driving scenes with non-uniform point cloud distributions and varying instance sizes. Thus, we present an efficient learnable clustering module, dynamic shifting, which adapts kernel functions on-the-fly for different instances. 3) Consensus-driven Fusion. Finally, consensus-driven fusion is used to deal with the disagreement between semantic and instance predictions. To comprehensively evaluate the performance of LiDAR-based panoptic segmentation, we construct and curate benchmarks from two largescale autonomous driving LiDAR datasets, SemanticKITTI and nuScenes. Extensive experiments demonstrate that our proposed DS-Net achieves superior accuracies over current state-of-the-art methods. Notably, we achieve 1st place on the public leaderboard of SemanticKITTI, outperforming 2nd place by 2.6% in terms of the PQ metric(1).",
+            "aminer_id": "5fbe674191e011e6e11b3dbc"
+        },
+        "cpseg": {
+            "number": "[6]",
+            "title": "CPSeg: Cluster-free Panoptic Segmentation of 3D LiDAR Point Clouds",
+            "text": "title={{CPSeg}: Cluster-free panoptic segmentation of 3d {LiDAR} point clouds},\n  author={Li, Enxu and Razani, Ryan and Xu, Yixuan and Liu, Bingbing},\n  booktitle={ICRA},\n  year={2023},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{CPSeg}: Cluster-free panoptic segmentation of 3d {LiDAR} point clouds",
+                "author": "Li, Enxu and Razani, Ryan and Xu, Yixuan and Liu, Bingbing",
+                "booktitle": "ICRA",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "A fast and accurate panoptic segmentation system for LiDAR point clouds is crucial for autonomous driving vehicles to understand the surrounding objects and scenes. Existing approaches usually rely on proposals or clustering to segment foreground instances. As a result, they struggle to achieve real-time performance. In this paper, we propose a novel real-time end-to-end panoptic segmentation network for LiDAR point clouds, called CPSeg. In particular, CPSeg comprises a shared encoder, a dual-decoder, and a cluster-free instance segmentation head, which is able to dynamically pillarize foreground points according to the learned embedding. Then, it acquires instance labels by finding connected pillars with a pairwise embedding comparison. Thus, the conventional proposal-based or clustering-based instance segmentation is transformed into a binary segmentation problem on the pairwise embedding comparison matrix. To help the network regress instance embedding, a fast and deterministic depth completion algorithm is proposed to calculate the surface normal of each point cloud in real-time. The proposed method is benchmarked on two large-scale autonomous driving datasets: SemanticKITTI and nuScenes. Notably, extensive experimental results show that CPSeg achieves state-of-the-art results among real-time approaches on both datasets.",
+            "aminer_id": "6181fdd35244ab9dcb7a6cdd"
+        },
+        "efficientlps": {
+            "number": "[7]",
+            "title": "EfficientLPS: Efficient LiDAR Panoptic Segmentation",
+            "text": "title={{EfficientLPS}: Efficient {LiDAR} panoptic segmentation},\n  author={Sirohi, Kshitij and Mohan, Rohit and B{\\\"u}scher, Daniel and Burgard, Wolfram and Valada, Abhinav},\n  journal={IEEE Transactions on Robotics},\n  volume={38},\n  number={3},\n  pages={1894--1914},\n  year={2021},",
+            "type": "article",
+            "fields": {
+                "title": "{EfficientLPS}: Efficient {LiDAR} panoptic segmentation",
+                "author": "Sirohi, Kshitij and Mohan, Rohit and B{\\\"u}scher, Daniel and Burgard, Wolfram and Valada, Abhinav",
+                "journal": "IEEE Transactions on Robotics",
+                "volume": "38",
+                "number": "3",
+                "pages": "1894--1914",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Panoptic segmentation of point clouds is a crucial task that enables autonomous vehicles to comprehend their vicinity using their highly accurate and reliable LiDAR sensors. Existing top-down approaches tackle this problem by either combining independent task-specific networks or translating methods from the image domain ignoring the intricacies of LiDAR data and thus often resulting in sub-optimal performance. In this paper, we present the novel top-down Efficient LiDAR Panoptic Segmentation (EfficientLPS) architecture that addresses multiple challenges in segmenting LiDAR point clouds including distance-dependent sparsity, severe occlusions, large scale-variations, and re-projection errors. EfficientLPS comprises of a novel shared backbone that encodes with strengthened geometric transformation modeling capacity and aggregates semantically rich range-aware multi-scale features. It incorporates new scale-invariant semantic and instance segmentation heads along with the panoptic fusion module which is supervised by our proposed panoptic periphery loss function. Additionally, we formulate a regularized pseudo labeling framework to further improve the performance of EfficientLPS by training on unlabelled data. We benchmark our proposed model on two large-scale LiDAR datasets: nuScenes, for which we also provide ground truth annotations, and SemanticKITTI. Notably, EfficientLPS sets the new state-of-the-art on both these datasets.",
+            "aminer_id": "602ce86b91e011c3e8f66aa8"
+        },
+        "gps3net": {
+            "number": "[8]",
+            "title": "GP-S3Net: Graph-based Panoptic Sparse Semantic Segmentation Network",
+            "text": "title={{GP-S3Net}: Graph-based panoptic sparse semantic segmentation network},\n  author={Razani, Ryan and Cheng, Ran and Li, Enxu and Taghavi, Ehsan and Ren, Yuan and Bingbing, Liu},\n  booktitle={ICCV},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{GP-S3Net}: Graph-based panoptic sparse semantic segmentation network",
+                "author": "Razani, Ryan and Cheng, Ran and Li, Enxu and Taghavi, Ehsan and Ren, Yuan and Bingbing, Liu",
+                "booktitle": "ICCV",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Panoptic segmentation as an integrated task of both static environmental understanding and dynamic object identification, has recently begun to receive broad research interest. In this paper, we propose a new computationally efficient LiDAR based panoptic segmentation framework, called GP-S3Net. GP-S3Net is a proposal-free approach in which no object proposals are needed to identify the objects in contrast to conventional two-stage panoptic systems, where a detection network is incorporated for capturing instance information. Our new design consists of a novel instance-level network to process the semantic results by constructing a graph convolutional network to identify objects (foreground), which later on are fused with the back-ground classes. Through the fine-grained clusters of the foreground objects from the semantic segmentation back-bone, over-segmentation priors are generated and subsequently processed by 3D sparse convolution to embed each cluster. Each cluster is treated as a node in the graph and its corresponding embedding is used as its node feature. Then a GCNN predicts whether edges exist between each cluster pair. We utilize the instance label to generate ground truth edge labels for each constructed graph in order to supervise the learning. Extensive experiments demonstrate that GP-S3Net outperforms the current state-of-the-art approaches, by a significant margin across available datasets such as, nuScenes and SemanticPOSS, ranking 1st on the competitive public SemanticKITTI leaderboard upon publication.",
+            "aminer_id": "6125b6a95244ab9dcb41d71d"
+        },
+        "pups": {
+            "number": "[9]",
+            "title": "PUPS: Point cloud unified panoptic segmentation",
+            "text": "title={{PUPS}: Point cloud unified panoptic segmentation},\n  author={Su, Shihao and Xu, Jianyun and Wang, Huanyu and Miao, Zhenwei and Zhan, Xin and Hao, Dayang and Li, Xi},\n  booktitle={AAAI},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{PUPS}: Point cloud unified panoptic segmentation",
+                "author": "Su, Shihao and Xu, Jianyun and Wang, Huanyu and Miao, Zhenwei and Zhan, Xin and Hao, Dayang and Li, Xi",
+                "booktitle": "AAAI",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "63eafbd790e50fcafd8146ee"
+        },
+        "lidarmultinet": {
+            "number": "[10]",
+            "title": "Lidarmultinet: Towards a unified multi-task network for LiDAR perception",
+            "text": "title={Lidarmultinet: Towards a unified multi-task network for {LiDAR} perception},\n  author={Ye, Dongqiangzi and Zhou, Zixiang and Chen, Weijia and Xie, Yufei and Wang, Yu and Wang, Panqu and Foroosh, Hassan},\n  booktitle={AAAI},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Lidarmultinet: Towards a unified multi-task network for {LiDAR} perception",
+                "author": "Ye, Dongqiangzi and Zhou, Zixiang and Chen, Weijia and Xie, Yufei and Wang, Yu and Wang, Panqu and Foroosh, Hassan",
+                "booktitle": "AAAI",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "632a810e90e50fcafd081b94"
+        },
+        "tornadonet": {
+            "number": "[11]",
+            "title": "TORNADO-Net: Multiview Total Variation Semantic Segmentation with Diamond Inception Module",
+            "text": "title={Tornado-net: multiview total variation semantic segmentation with diamond inception module},\n  author={Gerdzhev, Martin and Razani, Ryan and Taghavi, Ehsan and Bingbing, Liu},\n  booktitle={ICRA},\n  year={2021},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Tornado-net: multiview total variation semantic segmentation with diamond inception module",
+                "author": "Gerdzhev, Martin and Razani, Ryan and Taghavi, Ehsan and Bingbing, Liu",
+                "booktitle": "ICRA",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantic segmentation of point clouds is a key component of scene understanding for robotics and autonomous driving. In this paper, we introduce TORNADO-Net - a neural network for 3D LiDAR point cloud semantic segmentation. We incorporate a multi-view (bird-eye and range) projection feature extraction with an encoder-decoder ResNet architecture with a novel diamond context block. Current projection-based methods do not take into account that neighboring points usually belong to the same class. To better utilize this local neighbourhood information and reduce noisy predictions, we introduce a combination of Total Variation, Lovasz-Softmax, and Weighted Cross-Entropy losses. We also take advantage of the fact that the LiDAR data encompasses 360 degrees field of view and uses circular padding. We demonstrate state-of-the-art results on the SemanticKITTI dataset and also provide thorough quantitative evaluations and ablation results.",
+            "aminer_id": "5f44fcee91e011872f85efa6"
+        },
+        "spvcnnpp": {
+            "number": "[12]",
+            "title": "Searching Efficient 3D Architectures with Sparse Point-Voxel Convolution",
+            "text": "title={Searching efficient 3d architectures with sparse point-voxel convolution},\n  author={Tang, Haotian and Liu, Zhijian and Zhao, Shengyu and Lin, Yujun and Lin, Ji and Wang, Hanrui and Han, Song},\n  booktitle={ECCV},\n  year={2020},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Searching efficient 3d architectures with sparse point-voxel convolution",
+                "author": "Tang, Haotian and Liu, Zhijian and Zhao, Shengyu and Lin, Yujun and Lin, Ji and Wang, Hanrui and Han, Song",
+                "booktitle": "ECCV",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Self-driving cars need to understand 3D scenes efficiently and accurately in order to drive safely. Given the limited hardware resources, existing 3D perception models are not able to recognize small instances (e.g., pedestrians, cyclists) very well due to the low-resolution voxelization and aggressive downsampling. To this end, we propose Sparse Point-Voxel Convolution (SPVConv), a lightweight 3D module that equips the vanilla Sparse Convolution with the high-resolution point-based branch. With negligible overhead, this point-based branch is able to preserve the fine details even from large outdoor scenes. To explore the spectrum of efficient 3D models, we first define a flexible architecture design space based on SPVConv, and we then present 3D Neural Architecture Search (3D-NAS) to search the optimal network architecture over this diverse design space efficiently and effectively. Experimental results validate that the resulting SPVNAS model is fast and accurate: it outperforms the state-of-the-art MinkowskiNet by 3.3%, ranking 1st on the competitive SemanticKITTI leaderboard. It also achieves 8x computation reduction and 3x measured speedup over MinkowskiNet with higher accuracy. Finally, we transfer our method to 3D object detection, and it achieves consistent improvements over the one-stage detection baseline on KITTI.",
+            "aminer_id": "5f27e34a91e0116d6719f970"
+        },
+        "mopt": {
+            "number": "[13]",
+            "title": "MOPT: Multi-Object Panoptic Tracking",
+            "text": "title={Mopt: Multi-object panoptic tracking},\n  author={Hurtado, Juana Valeria and Mohan, Rohit and Burgard, Wolfram and Valada, Abhinav},\n  journal={arXiv preprint arXiv:2004.08189},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Mopt: Multi-object panoptic tracking",
+                "author": "Hurtado, Juana Valeria and Mohan, Rohit and Burgard, Wolfram and Valada, Abhinav",
+                "journal": "arXiv preprint arXiv:2004.08189",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Comprehensive understanding of dynamic scenes is a critical prerequisite for intelligent robots to autonomously operate in their environment. Research in this domain, which encompasses diverse perception problems, has primarily been focused on addressing specific tasks individually rather than modeling the ability to understand dynamic scenes holistically. In this paper, we introduce a novel perception task denoted as multi-object panoptic tracking (MOPT), which unifies the conventionally disjoint tasks of semantic segmentation, instance segmentation, and multi-object tracking. MOPT allows for exploiting pixel-level semantic information of 'thing' and 'stuff' classes, temporal coherence, and pixel-level associations over time, for the mutual benefit of each of the individual sub-problems. To facilitate quantitative evaluations of MOPT in a unified manner, we propose the soft panoptic tracking quality (sPTQ) metric. As a first step towards addressing this task, we propose the novel PanopticTrackNet architecture that builds upon the state-of-the-art top-down panoptic segmentation network EfficientPS by adding a new tracking head to simultaneously learn all sub-tasks in an end-to-end manner. Additionally, we present several strong baselines that combine predictions from state-of-the-art panoptic segmentation and multi-object tracking models for comparison. We present extensive quantitative and qualitative evaluations of both vision-based and LiDAR-based MOPT that demonstrate encouraging results.",
+            "aminer_id": "5e9d72b391e0117173ad2bf7"
+        },
+        "lidarpanoptic": {
+            "number": "[14]",
+            "title": "LiDAR Panoptic Segmentation for Autonomous Driving",
+            "text": "title={{LiDAR} panoptic segmentation for autonomous driving},\n  author={Milioto, Andres and Behley, Jens and McCool, Chris and Stachniss, Cyrill},\n  booktitle={IROS},\n  year={2020},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{LiDAR} panoptic segmentation for autonomous driving",
+                "author": "Milioto, Andres and Behley, Jens and McCool, Chris and Stachniss, Cyrill",
+                "booktitle": "IROS",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Truly autonomous driving without the need for human intervention can only be attained when self-driving cars fully understand their surroundings. Most of these vehicles rely on a suite of active and passive sensors. LiDAR sensors are a cornerstone in most of these hardware stacks, and leveraging them as a complement to other passive sensors such as RGB cameras is an enticing goal. Understanding the semantic class of each point in a LiDAR sweep is important, as well as knowing to which instance of that class it belongs to. To this end, we present a novel, single-stage, and real-time capable panoptic segmentation approach using a shared encoder with a semantic and instance decoder. We leverage the geometric information of the LiDAR scan to perform a novel, distance- aware tri-linear upsampling, which allows our approach to use larger output strides than using transpose convolutions leading to substantial savings in computation time. Our experimental evaluation and ablation studies for each module show that combining our geometric and semantic embeddings with our learned, variable instance thresholds, a category-specific loss, and the novel trilinear upsampling module leads to higher panoptic quality. We will release the code of our approach in our LiDAR processing library LiDAR-Bonnetal [27].",
+            "aminer_id": "602e3d3a91e011875035627e"
+        },
+        "smacseg": {
+            "number": "[15]",
+            "title": "SMAC-Seg: LiDAR Panoptic Segmentation Via Sparse Multi-directional Attention Clustering",
+            "text": "title={{SMAC-Seg}: {LiDAR} panoptic segmentation via sparse multi-directional attention clustering},\n  author={Li, Enxu and Razani, Ryan and Xu, Yixuan and Liu, Bingbing},\n  booktitle={ICRA},\n  year={2022},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{SMAC-Seg}: {LiDAR} panoptic segmentation via sparse multi-directional attention clustering",
+                "author": "Li, Enxu and Razani, Ryan and Xu, Yixuan and Liu, Bingbing",
+                "booktitle": "ICRA",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Panoptic segmentation aims to address semantic and instance segmentation simultaneously in a unified framework. However, an efficient solution of panoptic segmentation in applications like autonomous driving is still an open research problem. In this work, we propose a novel LiDAR-based panoptic system, called SMAC-Seg. We present a learnable sparse multi-directional attention clustering to segment multi-scale foreground instances. SMAC-Seg is a real-time clustering-based approach, which removes the complex proposal network to segment instances. Most existing clustering-based methods use the difference of the predicted and ground truth center offset as the only loss to supervise the instance centroid regression. However, this loss function only considers the centroid of the current object, but its relative position with respect to the neighbouring objects is not considered when learning to cluster. Thus, we propose to use a novel centroid-aware repel loss as an additional term to effectively supervise the network in order to differentiate each object cluster with its neighbours. Our experimental results show that SMAC-Seg achieves state-of-the-art performance among all real-time deployable networks on both large-scale public SemanticKITTI and nuScenes panoptic segmentation datasets.",
+            "aminer_id": "612eef555244ab9dcbe1276b"
+        },
+        "panoster": {
+            "number": "[16]",
+            "title": "Panoster: End-to-end Panoptic Segmentation of LiDAR Point Clouds",
+            "text": "title={Panoster: End-to-end panoptic segmentation of {LiDAR} point clouds},\n  author={Gasperini, Stefano and Mahani, Mohammad-Ali Nikouei and Marcos-Ramiro, Alvaro and Navab, Nassir and Tombari, Federico},\n  journal={IEEE Robotics and Automation Letters},\n  volume={6},\n  number={2},\n  pages={3216--3223},\n  year={2021},",
+            "type": "article",
+            "fields": {
+                "title": "Panoster: End-to-end panoptic segmentation of {LiDAR} point clouds",
+                "author": "Gasperini, Stefano and Mahani, Mohammad-Ali Nikouei and Marcos-Ramiro, Alvaro and Navab, Nassir and Tombari, Federico",
+                "journal": "IEEE Robotics and Automation Letters",
+                "volume": "6",
+                "number": "2",
+                "pages": "3216--3223",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Panoptic segmentation has recently unified semantic and instance segmentation, previously addressed separately, thus taking a step further towards creating more comprehensive and efficient perception systems. In this paper, we present Panoster, a novel proposal-free panoptic segmentation method for LiDAR point clouds. Unlike previous approaches relying on several steps to group pixels or points into objects, Panoster proposes a simplified framework incorporating a learning-based clustering solution to identify instances. At inference time, this acts as a class-agnostic segmentation, allowing Panoster to be fast, while outperforming prior methods in terms of accuracy. Without any post-processing, Panoster reached state-of-the-art results among published approaches on the challenging SemanticKITTI benchmark, and further increased its lead by exploiting heuristic techniques. Additionally, we showcase how our method can be flexibly and effectively applied on diverse existing semantic architectures to deliver panoptic predictions.",
+            "aminer_id": "5f9bd83c91e011dcf482d7ef"
+        },
+        "4dpanopticseg": {
+            "number": "[17]",
+            "title": "4D Panoptic LiDAR Segmentation",
+            "text": "title={{4D} panoptic {LiDAR} segmentation},\n  author={Aygun, Mehmet and Osep, Aljosa and Weber, Mark and Maximov, Maxim and Stachniss, Cyrill and Behley, Jens and Leal-Taix{\\'e}, Laura},\n  booktitle={CVPR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{4D} panoptic {LiDAR} segmentation",
+                "author": "Aygun, Mehmet and Osep, Aljosa and Weber, Mark and Maximov, Maxim and Stachniss, Cyrill and Behley, Jens and Leal-Taix{\\'e}, Laura",
+                "booktitle": "CVPR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Temporal semantic scene understanding is critical for self-driving cars or robots operating in dynamic environments. In this paper, we propose 4D panoptic LiDAR segmentation to assign a semantic class and a temporally-consistent instance ID to a sequence of 3D points. To this end, we present an approach and a point-centric evaluation metric. Our approach determines a semantic class for every point while modeling object instances as probability distributions in the 4D spatio-temporal domain. We process multiple point clouds in parallel and resolve point-to-instance associations, effectively alleviating the need for explicit temporal data association. Inspired by recent advances in benchmarking of multi-object tracking, we propose to adopt a new evaluation metric that separates the semantic and point-to-instance association aspects of the task. With this work, we aim at paving the road for future developments of temporal LiDAR panoptic perception.",
+            "aminer_id": "6037949d91e011d7c73cd615"
+        },
+        "contrastive4d": {
+            "number": "[18]",
+            "title": "Contrastive Instance Association for 4D Panoptic Segmentation Using Sequences of 3D LiDAR Scans.",
+            "text": "title={Contrastive instance association for 4d panoptic segmentation using sequences of 3d {LiDAR} scans},\n  author={Marcuzzi, Rodrigo and Nunes, Lucas and Wiesmann, Louis and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill},\n  journal={IEEE Robotics and Automation Letters},\n  volume={7},\n  number={2},\n  pages={1550--1557},\n  year={2022},",
+            "type": "article",
+            "fields": {
+                "title": "Contrastive instance association for 4d panoptic segmentation using sequences of 3d {LiDAR} scans",
+                "author": "Marcuzzi, Rodrigo and Nunes, Lucas and Wiesmann, Louis and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill",
+                "journal": "IEEE Robotics and Automation Letters",
+                "volume": "7",
+                "number": "2",
+                "pages": "1550--1557",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Scene understanding is critical for autonomous navigation in dynamic environments. Perception tasks in this domain like segmentation and tracking are usually tackled individually. In this letter, we address the problem of 4D panoptic segmentation using LiDAR scans, which requires to assign to each 3D point in a temporal sequence of scans a semantic class and for each object a temporally consistent instance ID. We propose a novel approach that builds on top of an arbitrary single-scan panoptic segmentation network and extends it to the temporal domain by associating instances across time. We propose a contrastive aggregation network that leverages the point-wise features from the panoptic network. It generates an embedding space in which encodings of the same instance at different timesteps lie close together and far from encodings belonging to other instances. The training is inspired by contrastive learning techniques for self-supervised metric learning. Our association module combines appearance and motion cues to associate instances across scans, allowing us to perform temporal perception. We evaluate our proposed method on the SemanticKITTI benchmark and achieve state-of-the-art results even without relying on pose information.",
+            "aminer_id": "623991336750f85e557ad242"
+        },
+        "kpconv": {
+            "number": "[19]",
+            "title": "KPConv: Flexible and Deformable Convolution for Point Clouds",
+            "text": "title={{KPConv}: Flexible and deformable convolution for point clouds},\n  author={Thomas, Hugues and Qi, Charles R and Deschaud, Jean-Emmanuel and Marcotegui, Beatriz and Goulette, Fran{\\c{c}}ois and Guibas, Leonidas J},\n  booktitle={CVPR},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{KPConv}: Flexible and deformable convolution for point clouds",
+                "booktitle": "CVPR",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We present Kernel Point Convolution (KPConv), a new design of point convolution, i.e. that operates on point clouds without any intermediate representation. The convolution weights of KPConv are located in Euclidean space by kernel points, and applied to the input points close to them. Its capacity to use any number of kernel points gives KPConv more flexibility than fixed grid convolutions. Furthermore, these locations are continuous in space and can be learned by the network. Therefore, KPConv can be extended to deformable convolutions that learn to adapt kernel points to local geometry. Thanks to a regular subsampling strategy, KPConv is also efficient and robust to varying densities. Whether they use deformable KPConv for complex tasks, or rigid KPconv for simpler tasks, our networks outperform state-of-the-art classification and segmentation approaches on several datasets. We also offer ablation studies and visualizations to provide understanding of what has been learned by KPConv and to validate the descriptive power of deformable KPConv.",
+            "aminer_id": "5cb9a1f6e1cd8e83b6739af0"
+        },
+        "pointpillars": {
+            "number": "[20]",
+            "title": "PointPillars: Fast Encoders for Object Detection from Point Clouds",
+            "text": "title={Pointpillars: Fast encoders for object detection from point clouds},\n  author={Lang, Alex H and Vora, Sourabh and Caesar, Holger and Zhou, Lubing and Yang, Jiong and Beijbom, Oscar},\n  booktitle={CVPR},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Pointpillars: Fast encoders for object detection from point clouds",
+                "author": "Lang, Alex H and Vora, Sourabh and Caesar, Holger and Zhou, Lubing and Yang, Jiong and Beijbom, Oscar",
+                "booktitle": "CVPR",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Object detection in point clouds is an important aspect of many robotics applications such as autonomous driving. In this paper, we consider the problem of encoding a point cloud into a format appropriate for a downstream detection pipeline. Recent literature suggests two types of encoders; fixed encoders tend to be fast but sacrifice accuracy, while encoders that are learned from data are more accurate, but slower. In this work, we propose PointPillars, a novel encoder which utilizes PointNets to learn a representation of point clouds organized in vertical columns (pillars). While the encoded features can be used with any standard 2D convolutional detection architecture, we further propose a lean downstream network. Extensive experimentation shows that PointPillars outperforms previous encoders with respect to both speed and accuracy by a large margin. Despite only using lidar, our full detection pipeline significantly outperforms the state of the art, even among fusion methods, with respect to both the 3D and bird’s eye view KITTI benchmarks. This detection performance is achieved while running at 62 Hz: a 2 - 4 fold runtime improvement. A faster version of our method matches the state of the art at 105 Hz. These benchmarks suggest that PointPillars is an appropriate encoding for object detection in point clouds.",
+            "aminer_id": "5c2c7a9217c44a4e7cf31585"
+        },
+        "rangenet++": {
+            "number": "[21]",
+            "title": "Rangenet++: Fast and accurate LiDAR semantic segmentation",
+            "text": "title={Rangenet++: Fast and accurate {LiDAR} semantic segmentation},\n  author={Milioto, Andres and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill},\n  booktitle={IROS},\n  year={2019},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Rangenet++: Fast and accurate {LiDAR} semantic segmentation",
+                "author": "Milioto, Andres and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill",
+                "booktitle": "IROS",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e369fba3a55ac9d11d4948b"
+        },
+        "centerpoint": {
+            "number": "[22]",
+            "title": "Center-based 3d object detection and tracking",
+            "text": "title={Center-based 3d object detection and tracking},\n  author={Yin, Tianwei and Zhou, Xingyi and Krahenbuhl, Philipp},\n  booktitle={CVPR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Center-based 3d object detection and tracking",
+                "author": "Yin, Tianwei and Zhou, Xingyi and Krahenbuhl, Philipp",
+                "booktitle": "CVPR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ef1d38d91e011aaa05ad3f4"
+        },
+        "cylinder3d": {
+            "number": "[23]",
+            "title": "Cylindrical and Asymmetrical 3D Convolution Networks for LiDAR Segmentation",
+            "text": "title={Cylindrical and asymmetrical 3d convolution networks for {LiDAR} segmentation},\n  author={Zhu, Xinge and Zhou, Hui and Wang, Tai and Hong, Fangzhou and Ma, Yuexin and Li, Wei and Li, Hongsheng and Lin, Dahua},\n  booktitle={CVPR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Cylindrical and asymmetrical 3d convolution networks for {LiDAR} segmentation",
+                "author": "Zhu, Xinge and Zhou, Hui and Wang, Tai and Hong, Fangzhou and Ma, Yuexin and Li, Wei and Li, Hongsheng and Lin, Dahua",
+                "booktitle": "CVPR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "State-of-the-art methods for large-scale driving-scene LiDAR segmentation often project the point clouds to 2D space and then process them via 2D convolution. Although this corporation shows the competitiveness in the point cloud, it inevitably alters and abandons the 3D topology and geometric relations. A natural remedy is to utilize the 3D voxelization and 3D convolution network. However, we found that in the outdoor point cloud, the improvement obtained in this way is quite limited. An important reason is the property of the outdoor point cloud, namely sparsity and varying density. Motivated by this investigation, we propose a new framework for the outdoor LiDAR segmentation, where cylindrical partition and asymmetrical 3D convolution networks are designed to explore the 3D geometric pattern while maintaining these inherent properties. Moreover, a point-wise refinement module is introduced to alleviate the interference of lossy voxel-based label encoding. We evaluate the proposed model on two large-scale datasets, i.e., SemanticKITTI and nuScenes. Our method achieves the 1st place in the leaderboard of SemanticKITTI and outperforms existing methods on nuScenes with a noticeable margin, about 4%. Furthermore, the proposed 3D framework also generalizes well to LiDAR panoptic segmentation and LiDAR 3D detection.",
+            "aminer_id": "68aca71b5175772d707ee5c3"
+        },
+        "polarstream": {
+            "number": "[24]",
+            "title": "Polarstream: Streaming object detection and segmentation with polar pillars",
+            "text": "title={Polarstream: Streaming object detection and segmentation with polar pillars},\n  author={Chen, Qi and Vora, Sourabh and Beijbom, Oscar},\n  journal={NeurIPS},\n  volume={34},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Polarstream: Streaming object detection and segmentation with polar pillars",
+                "author": "Chen, Qi and Vora, Sourabh and Beijbom, Oscar",
+                "journal": "NeurIPS",
+                "volume": "34",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "scan": {
+            "number": "[25]",
+            "title": "Sparse cross-scale attention network for efficient LiDAR panoptic segmentation",
+            "text": "title={Sparse cross-scale attention network for efficient {LiDAR} panoptic segmentation},\n  author={Xu, Shuangjie and Wan, Rui and Ye, Maosheng and Zou, Xiaoyi and Cao, Tongyi},\n  booktitle={AAAI},\n  volume={36},\n  number={3},\n  pages={2920--2928},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sparse cross-scale attention network for efficient {LiDAR} panoptic segmentation",
+                "author": "Xu, Shuangjie and Wan, Rui and Ye, Maosheng and Zou, Xiaoyi and Cao, Tongyi",
+                "booktitle": "AAAI",
+                "volume": "36",
+                "number": "3",
+                "pages": "2920--2928",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "61e781655244ab9dcbf9a3ed"
+        },
+        "pvcl": {
+            "number": "[26]",
+            "title": "Prototype-Voxel Contrastive Learning for LiDAR Point Cloud Panoptic Segmentation",
+            "text": "title={Prototype-voxel contrastive learning for {LiDAR} point cloud panoptic segmentation},\n  author={Liu, Minzhe and Zhou, Qiang and Zhao, Hengshuang and Li, Jianing and Du, Yuan and Keutzer, Kurt and Du, Li and Zhang, Shanghang},\n  booktitle={ICRA},\n  year={2022},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Prototype-voxel contrastive learning for {LiDAR} point cloud panoptic segmentation",
+                "author": "Liu, Minzhe and Zhou, Qiang and Zhao, Hengshuang and Li, Jianing and Du, Yuan and Keutzer, Kurt and Du, Li and Zhang, Shanghang",
+                "booktitle": "ICRA",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR point cloud panoptic segmentation, including both semantic and instance segmentation, plays a critical role in meticulous scene understanding for autonomous driving. Existing 3D voxelized approaches either utilize 3D sparse convolution that only focuses on local scene understanding, or add extra and time-consuming PointNet branch to capture global feature structures. To address these limitations, we propose an end-to-end Prototype-Voxel Contrastive Learning (PVCL) framework for learning stable and discriminative semantic representations, which includes voxel-level and prototype-level contrastive learning (CL). The voxel-level CL decreases intra-class distance and increases inter-class distance among sample representations, while the prototype-level CL further reduces the dependence of CL on negative sampling and avoids the influence of outliers from the same class, enabling PVCL to be more effective for outdoor point cloud panoptic segmentation. Extensive experiments are conducted on the public point cloud panoptic segmentation datasets, Semantic-KITTI and nuScenes, where evaluations and ablation studies demonstrate PVCL achieves superior performance compared with the state-of-the-art. Our approach ranks the top on the public leaderboard of Semantic-KITTI at the time of submission, and surpasses the published 2nd rank, EfficientLPS, by 1.7% in PQ.",
+            "aminer_id": "62fe164b90e50fcafd9f9cc4"
+        },
+        "dsnet2": {
+            "number": "[27]",
+            "title": "Unified 3D and 4D Panoptic Segmentation Via Dynamic Shifting Networks.",
+            "text": "title={Unified 3d and 4d panoptic segmentation via dynamic shifting networks},\n  author={Hong, Fangzhou and Kong, Lingdong and Zhou, Hui and Zhu, Xinge and Li, Hongsheng and Liu, Ziwei},\n  journal={PAMI},\n  year={2024},",
+            "type": "article",
+            "fields": {
+                "title": "Unified 3d and 4d panoptic segmentation via dynamic shifting networks",
+                "author": "Hong, Fangzhou and Kong, Lingdong and Zhou, Hui and Zhu, Xinge and Li, Hongsheng and Liu, Ziwei",
+                "journal": "PAMI",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "With the rapid advances in autonomous driving, it becomes critical to equip its sensing system with more holistic 3D perception. However, widely explored tasks like 3D detection or point cloud semantic segmentation focus on parsing either the objects or scenes. In this work, we propose to address the challenging task of LiDAR-based Panoptic Segmentation, which aims to parse both objects and scenes in a unified manner. In particular, we propose Dynamic Shifting Network (DS-Net), which serves as an effective panoptic segmentation framework in the point cloud realm. DS-Net features a dynamic shifting module for complex LiDAR point cloud distributions. We present an efficient learnable clustering module, dynamic shifting, which adapts kernel functions for different instances. To further explore the temporal information, we extend the single-scan processing framework to its temporal version, 4D-DS-Net, for the task of 4D Panoptic Segmentation, where the same instance across multiple frames should be given the same ID prediction. Instead of naively appending a tracking module to DS-Net, we propose to solve the 4D panoptic segmentation in a more unified way. Specifically, 4D-DS-Net first constructs 4D data volume by aligning consecutive LiDAR scans, upon which the temporally unified instance clustering is performed to obtain the final results. Extensive experiments on two large-scale autonomous driving LiDAR datasets, SemanticKITTI and Panoptic nuScenes, are conducted to demonstrate the effectiveness and superior performance of the proposed solution.",
+            "aminer_id": "659ae2ad939a5f40829f1cba"
+        },
+        "lcps": {
+            "number": "[28]",
+            "title": "LiDAR-Camera Panoptic Segmentation Via Geometry-Consistent and Semantic-Aware Alignment",
+            "text": "author    = {Zhang, Zhiwei and Zhang, Zhizhong and Yu, Qian and Yi, Ran and Xie, Yuan and Ma, Lizhuang},\n    title     = {{LiDAR}-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment},\n    booktitle = {ICCV},\n    year      = {2023},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Zhang, Zhiwei and Zhang, Zhizhong and Yu, Qian and Yi, Ran and Xie, Yuan and Ma, Lizhuang",
+                "title": "{LiDAR}-Camera Panoptic Segmentation via Geometry-Consistent and Semantic-Aware Alignment",
+                "booktitle": "ICCV",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "3D panoptic segmentation is a challenging perception task that requires both semantic segmentation and instance segmentation. In this task, we notice that images could provide rich texture, color, and discriminative information, which can complement LiDAR data for evident performance improvement, but their fusion remains a challenging problem. To this end, we propose LCPS, the first LiDAR-Camera Panoptic Segmentation network. In our approach, we conduct LiDAR-Camera fusion in three stages: 1) an Asynchronous Compensation Pixel Alignment (ACPA) module that calibrates the coordinate misalignment caused by asynchronous problems between sensors; 2) a Semantic-Aware Region Alignment (SARA) module that extends the one-to-one point-pixel mapping to one-to-many semantic relations; 3) a Point-to-Voxel feature Propagation (PVP) module that integrates both geometric and semantic fusion information for the entire point cloud. Our fusion strategy improves about 6.9% PQ performance over the LiDAR-only baseline on NuScenes dataset. Extensive quantitative and qualitative experiments further demonstrate the effectiveness of our novel framework. The code will be released at https://github.com/zhangzw12319/lcps.git.",
+            "aminer_id": "64cc77b33fda6d7f06aebda6"
+        },
+        "vin": {
+            "number": "[29]",
+            "title": "VIN: Voxel-based Implicit Network for Joint 3D Object Detection and Segmentation for Lidars",
+            "text": "title={Vin: Voxel-based implicit network for joint 3d object detection and segmentation for lidars},\n  author={Zhong, Yuanxin and Zhu, Minghan and Peng, Huei},\n  journal={arXiv preprint arXiv:2107.02980},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Vin: Voxel-based implicit network for joint 3d object detection and segmentation for lidars",
+                "author": "Zhong, Yuanxin and Zhu, Minghan and Peng, Huei",
+                "journal": "arXiv preprint arXiv:2107.02980",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "A unified neural network structure is presented for joint 3D object detection and point cloud segmentation in this paper. We leverage rich supervision from both detection and segmentation labels rather than using just one of them. In addition, an extension based on single-stage object detectors is proposed based on the implicit function widely used in 3D scene and object understanding. The extension branch takes the final feature map from the object detection module as input, and produces an implicit function that generates semantic distribution for each point for its corresponding voxel center. We demonstrated the performance of our structure on nuScenes-lidarseg, a large-scale outdoor dataset. Our solution achieves competitive results against state-of-the-art methods in both 3D object detection and point cloud segmentation with little additional computation load compared with object detection solutions. The capability of efficient weakly supervision semantic segmentation of the proposed method is also validated by experiments.",
+            "aminer_id": "60e7a3b291e011dcbc23af16"
+        },
+        "pvrcnn": {
+            "number": "[30]",
+            "title": "PV-RCNN: Point-Voxel Feature Set Abstraction for 3D Object Detection",
+            "text": "title={Pv-rcnn: Point-voxel feature set abstraction for 3d object detection},\n  author={Shi, Shaoshuai and Guo, Chaoxu and Jiang, Li and Wang, Zhe and Shi, Jianping and Wang, Xiaogang and Li, Hongsheng},\n  booktitle={CVPR},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Pv-rcnn: Point-voxel feature set abstraction for 3d object detection",
+                "author": "Shi, Shaoshuai and Guo, Chaoxu and Jiang, Li and Wang, Zhe and Shi, Jianping and Wang, Xiaogang and Li, Hongsheng",
+                "booktitle": "CVPR",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a novel and high-performance 3D object detection framework, named PointVoxel-RCNN (PV-RCNN), for accurate 3D object detection from point clouds. Our proposed method deeply integrates both 3D voxel Convolutional Neural Network (CNN) and PointNet-based set abstraction to learn more discriminative point cloud features. It takes advantages of efficient learning and high-quality proposals of the 3D voxel CNN and the flexible receptive fields of the PointNet-based networks. Specifically, the proposed framework summarizes the 3D scene with a 3D voxel CNN into a small set of keypoints via a novel voxel set abstraction module to save follow-up computations and also to encode representative scene features. Given the high-quality 3D proposals generated by the voxel CNN, the RoI-grid pooling is proposed to abstract proposal-specific features from the keypoints to the RoI-grid points via keypoint set abstraction. Compared with conventional pooling operations, the RoI-grid feature points encode much richer context information for accurately estimating object confidences and locations. Extensive experiments on both the KITTI dataset and the Waymo Open dataset show that our proposed PV-RCNN surpasses state-of-the-art 3D detection methods with remarkable margins.",
+            "aminer_id": "5e0c6dcc3a55acc9707f397e"
+        },
+        "pointgroup": {
+            "number": "[31]",
+            "title": "PointGroup: Dual-Set Point Grouping for 3D Instance Segmentation",
+            "text": "title={Pointgroup: Dual-set point grouping for 3d instance segmentation},\n  author={Jiang, Li and Zhao, Hengshuang and Shi, Shaoshuai and Liu, Shu and Fu, Chi-Wing and Jia, Jiaya},\n  booktitle={CVPR},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Pointgroup: Dual-set point grouping for 3d instance segmentation",
+                "author": "Jiang, Li and Zhao, Hengshuang and Shi, Shaoshuai and Liu, Shu and Fu, Chi-Wing and Jia, Jiaya",
+                "booktitle": "CVPR",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Instance segmentation is an important task for scene understanding. Compared to the fully-developed 2D, 3D instance segmentation for point clouds have much room to improve. In this paper, we present PointGroup, a new end-to-end bottom-up architecture, specifically focused on better grouping the points by exploring the void space between objects. We design a two-branch network to extract point features and predict semantic labels and offsets, for shifting each point towards its respective instance centroid. A clustering component is followed to utilize both the original and offset-shifted point coordinate sets, taking advantage of their complementary strength. Further, we formulate the ScoreNet to evaluate the candidate instances, followed by the Non-Maximum Suppression (NMS) to remove duplicates. We conduct extensive experiments on two challenging datasets, ScanNet v2 and S3DIS, on which our method achieves the highest performance, 63.6% and 64.0%, compared to 54.9% and 54.4% achieved by former best solutions in terms of mAP with IoU threshold 0.5.",
+            "aminer_id": "5e8afdb191e01102c35315a6"
+        },
+        "locationguided": {
+            "number": "[32]",
+            "title": "Location-guided LiDAR-based panoptic segmentation for autonomous driving",
+            "text": "title={Location-guided {LiDAR}-based panoptic segmentation for autonomous driving},\n  author={Xian, Guozeng and Ji, Changyun and Zhou, Lin and Chen, Guang and Zhang, Junping and Li, Bin and Xue, Xiangyang and Pu, Jian},\n  journal={IEEE Transactions on Intelligent Vehicles},\n  volume={8},\n  number={2},\n  pages={1473--1483},\n  year={2022},",
+            "type": "article",
+            "fields": {
+                "title": "Location-guided {LiDAR}-based panoptic segmentation for autonomous driving",
+                "author": "Xian, Guozeng and Ji, Changyun and Zhou, Lin and Chen, Guang and Zhang, Junping and Li, Bin and Xue, Xiangyang and Pu, Jian",
+                "journal": "IEEE Transactions on Intelligent Vehicles",
+                "volume": "8",
+                "number": "2",
+                "pages": "1473--1483",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62ed07875aee126c0fba82c2"
+        },
+        "pointrcnn": {
+            "number": "[33]",
+            "title": "PointRCNN: 3D Object Proposal Generation and Detection from Point Cloud",
+            "text": "title={Pointrcnn: 3d object proposal generation and detection from point cloud},\n  author={Shi, Shaoshuai and Wang, Xiaogang and Li, Hongsheng},\n  booktitle={CVPR},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Pointrcnn: 3d object proposal generation and detection from point cloud",
+                "author": "Shi, Shaoshuai and Wang, Xiaogang and Li, Hongsheng",
+                "booktitle": "CVPR",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose PointRCNN for 3D object detection from raw point cloud. The whole framework is composed of two stages: stage-1 for the bottom-up 3D proposal generation and stage-2 for refining proposals in the canonical coordinates to obtain the final detection results. Instead of generating proposals from RGB image or projecting point cloud to bird's view or voxels as previous methods do, our stage-1 sub-network directly generates a small number of high-quality 3D proposals from point cloud in a bottom-up manner via segmenting the point cloud of the whole scene into foreground points and background. The stage-2 sub-network transforms the pooled points of each proposal to canonical coordinates to learn better local spatial features, which is combined with global semantic features of each point learned in stage-1 for accurate box refinement and confidence prediction. Extensive experiments on the 3D detection benchmark of KITTI dataset show that our proposed architecture outperforms state-of-the-art methods with remarkable margins by using only point cloud as input. The code is available at https://github.com/sshaoshuai/PointRCNN.",
+            "aminer_id": "5c2c7a9217c44a4e7cf31a23"
+        },
+        "salsanext": {
+            "number": "[34]",
+            "title": "SalsaNext: Fast, Uncertainty-Aware Semantic Segmentation of LiDAR Point Clouds",
+            "text": "title={Salsanext: Fast, uncertainty-aware semantic segmentation of {LiDAR} point clouds},\n  author={Cortinhal, Tiago and Tzelepis, George and Erdal Aksoy, Eren},\n  booktitle={Advances in Visual Computing: 15th International Symposium, ISVC 2020, San Diego, CA, USA, October 5--7, 2020, Proceedings, Part II 15},\n  pages={207--222},\n  year={2020},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Salsanext: Fast, uncertainty-aware semantic segmentation of {LiDAR} point clouds",
+                "author": "Cortinhal, Tiago and Tzelepis, George and Erdal Aksoy, Eren",
+                "booktitle": "Advances in Visual Computing: 15th International Symposium, ISVC 2020, San Diego, CA, USA, October 5--7, 2020, Proceedings, Part II 15",
+                "pages": "207--222",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we introduce SalsaNext for the uncertainty-aware semantic segmentation of a full 3D LiDAR point cloud in real-time. SalsaNext is the next version of SalsaNet [1] which has an encoder-decoder architecture where the encoder unit has a set of ResNet blocks and the decoder part combines upsampled features from the residual blocks. In contrast to SalsaNet, we introduce a new context module, replace the ResNet encoder blocks with a new residual dilated convolution stack with gradually increasing receptive fields and add the pixel-shuffle layer in the decoder. Additionally, we switch from stride convolution to average pooling and also apply central dropout treatment. To directly optimize the Jaccard index, we further combine the weighted cross entropy loss with Lovász-Softmax loss [4]. We finally inject a Bayesian treatment to compute the epistemic and aleatoric uncertainties for each point in the cloud. We provide a thorough quantitative evaluation on the Semantic-KITTI dataset [3], which demonstrates that the proposed SalsaNext outperforms other published semantic segmentation networks and achieves 3.6% more accuracy over the previous state-of-the-art method. We also release our source code ( https://github.com/TiagoCortinhal/SalsaNext ).",
+            "aminer_id": "5e67655391e011e0d179110e"
+        },
+        "polarnet": {
+            "number": "[35]",
+            "title": "PolarNet: an Improved Grid Representation for Online LiDAR Point Clouds Semantic Segmentation.",
+            "text": "title={Polarnet: An improved grid representation for online {LiDAR} point clouds semantic segmentation},\n  author={Zhang, Yang and Zhou, Zixiang and David, Philip and Yue, Xiangyu and Xi, Zerong and Gong, Boqing and Foroosh, Hassan},\n  booktitle={CVPR},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Polarnet: An improved grid representation for online {LiDAR} point clouds semantic segmentation",
+                "author": "Zhang, Yang and Zhou, Zixiang and David, Philip and Yue, Xiangyu and Xi, Zerong and Gong, Boqing and Foroosh, Hassan",
+                "booktitle": "CVPR",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "The need for fine-grained perception in autonomous driving systems has resulted in recently increased research on online semantic segmentation of single-scan LiDAR. Despite the emerging datasets and technological advancements, it remains challenging due to three reasons: (1) the need for near-real-time latency with limited hardware; (2) uneven or even long-tailed distribution of LiDAR points across space; and (3) an increasing number of extremely fine-grained semantic classes. In an attempt to jointly tackle all the aforementioned challenges, we propose a new LiDAR-specific, nearest-neighbor-free segmentation algorithm - PolarNet. Instead of using common spherical or bird's-eye-view projection, our polar bird's-eye-view representation balances the points across grid cells in a polar coordinate system, indirectly aligning a segmentation network's attention with the long-tailed distribution of the points along the radial axis. We find that our encoding scheme greatly increases the mIoU in three drastically different segmentation datasets of real urban LiDAR single scans while retaining near real-time throughput.",
+            "aminer_id": "5e85c28491e0114016e8225e"
+        },
+        "less": {
+            "number": "[36]",
+            "title": "LESS: Label-Efficient Semantic Segmentation for LiDAR Point Clouds",
+            "text": "title={{LESS}: Label-efficient semantic segmentation for {LiDAR} point clouds},\n  author={Liu, Minghua and Zhou, Yin and Qi, Charles R and Gong, Boqing and Su, Hao and Anguelov, Dragomir},\n  booktitle={ECCV},\n  year={2022},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{LESS}: Label-efficient semantic segmentation for {LiDAR} point clouds",
+                "author": "Liu, Minghua and Zhou, Yin and Qi, Charles R and Gong, Boqing and Su, Hao and Anguelov, Dragomir",
+                "booktitle": "ECCV",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantic segmentation of LiDAR point clouds is an important task in autonomous driving. However, training deep models via conventional supervised methods requires large datasets which are costly to label. It is critical to have label-efficient segmentation approaches to scale up the model to new operational domains or to improve performance on rare cases. While most prior works focus on indoor scenes, we are one of the first to propose a label-efficient semantic segmentation pipeline for outdoor scenes with LiDAR point clouds. Our method co-designs an efficient labeling process with semi/weakly supervised learning and is applicable to nearly any 3D semantic segmentation backbones. Specifically, we leverage geometry patterns in outdoor scenes to have a heuristic pre-segmentation to reduce the manual labeling and jointly design the learning targets with the labeling process. In the learning step, we leverage prototype learning to get more descriptive point embeddings and use multi-scan distillation to exploit richer semantics from temporally aggregated point clouds to boost the performance of single-scan models. Evaluated on the SemanticKITTI and the nuScenes datasets, we show that our proposed method outperforms existing label-efficient methods. With extremely limited human annotations (e.g., 0.1% point labels), our proposed method is even highly competitive compared to the fully supervised counterpart with 100% labels.",
+            "aminer_id": "634e193f90e50fcafd24e389"
+        },
+        "panet": {
+            "number": "[37]",
+            "title": "PANet: LiDAR Panoptic Segmentation with Sparse Instance Proposal and Aggregation",
+            "text": "title={{PANet}: {LiDAR} Panoptic Segmentation with Sparse Instance Proposal and Aggregation},\n  author={Mei, Jianbiao and Yang, Yu and Wang, Mengmeng and Hou, Xiaojun and Li, Laijian and Liu, Yong},\n  booktitle={IROS},\n  year={2023},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{PANet}: {LiDAR} Panoptic Segmentation with Sparse Instance Proposal and Aggregation",
+                "author": "Mei, Jianbiao and Yang, Yu and Wang, Mengmeng and Hou, Xiaojun and Li, Laijian and Liu, Yong",
+                "booktitle": "IROS",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Reliable LiDAR panoptic segmentation (LPS), including both semantic and instance segmentation, is vital for many robotic applications, such as autonomous driving. This work proposes a new LPS framework named PANet to eliminate the dependency on the offset branch and improve the performance on large objects, which are always over-segmented by clustering algorithms. Firstly, we propose a non-learning Sparse Instance Proposal (SIP) module with the “sampling-shifting-grouping” scheme to directly group thing points into instances from the raw point cloud efficiently. More specifically, balanced point sampling is introduced to generate sparse seed points with more uniform point distribution over the distance range. And a shift module, termed bubble shifting, is proposed to shrink the seed points to the clustered centers. Then we utilize the connected component label algorithm to generate instance proposals. Furthermore, an instance aggregation module is devised to integrate potentially fragmented instances, improving the performance of the SIP module on large objects. Extensive experiments show that PANet achieves state-of-the-art performance among published works on the SemanticKITII validation and nuScenes validation for the panoptic segmentation task. Code is available at https://github.com/Jieqianyu/PANet.git.",
+            "aminer_id": "649bb0eed68f896efa4ddd0d"
+        },
+        "openpcdet": {
+            "number": "[38]",
+            "title": "OpenPCDet: An Open-source Toolbox for 3D Object Detection from Point Clouds",
+            "text": "title={OpenPCDet: An Open-source Toolbox for 3D Object Detection from Point Clouds},\n    author={OpenPCDet Development Team},\n    howpublished = {\\url{https://github.com/open-mmlab/OpenPCDet}},\n    year={2020}",
+            "type": "misc",
+            "fields": {
+                "title": "OpenPCDet: An Open-source Toolbox for 3D Object Detection from Point Clouds",
+                "author": "OpenPCDet Development Team",
+                "howpublished": "\\url{https://github.com/open-mmlab/OpenPCDet}",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "cfnet": {
+            "number": "[39]",
+            "title": "Center Focusing Network for Real-Time LiDAR Panoptic Segmentation",
+            "text": "title={Center Focusing Network for Real-Time {LiDAR} Panoptic Segmentation},\n  author={Li, Xiaoyan and Zhang, Gang and Wang, Boyue and Hu, Yongli and Yin, Baocai},\n  booktitle={CVPR},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Center Focusing Network for Real-Time {LiDAR} Panoptic Segmentation",
+                "author": "Li, Xiaoyan and Zhang, Gang and Wang, Boyue and Hu, Yongli and Yin, Baocai",
+                "booktitle": "CVPR",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6464afc2d68f896efa3557e6"
+        },
+        "centerlps": {
+            "number": "[40]",
+            "title": "CenterLPS: Segment instances by centers for LiDAR panoptic segmentation",
+            "text": "title={{CenterLPS}: Segment instances by centers for {LiDAR} panoptic segmentation},\n  author={Mei, Jianbiao and Yang, Yu and Wang, Mengmeng and Li, Zizhang and Hou, Xiaojun and Ra, Jongwon and Li, Laijian and Liu, Yong},\n  booktitle={Proceedings of the 31st ACM International Conference on Multimedia},\n  pages={1884--1894},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{CenterLPS}: Segment instances by centers for {LiDAR} panoptic segmentation",
+                "author": "Mei, Jianbiao and Yang, Yu and Wang, Mengmeng and Li, Zizhang and Hou, Xiaojun and Ra, Jongwon and Li, Laijian and Liu, Yong",
+                "booktitle": "Proceedings of the 31st ACM International Conference on Multimedia",
+                "pages": "1884--1894",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "654521a4939a5f4082d8b6f2"
+        },
+        "ieqlps": {
+            "number": "[41]",
+            "title": "Instance Embedding As Queries for DETR-based LiDAR Panoptic Segmentation",
+            "text": "title={Instance Embedding as Queries for DETR-based {LiDAR} Panoptic Segmentation},\n  author={Ha-Phan, Ngoc-Quan and Vuong, Hung Viet and Yoo, Myungsik},\n  journal={IEEE Transactions on Intelligent Vehicles},\n  year={2024},",
+            "type": "article",
+            "fields": {
+                "title": "Instance Embedding as Queries for DETR-based {LiDAR} Panoptic Segmentation",
+                "author": "Ha-Phan, Ngoc-Quan and Vuong, Hung Viet and Yoo, Myungsik",
+                "journal": "IEEE Transactions on Intelligent Vehicles",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR panoptic segmentation (LPS) offers a comprehensive perception of the driving environment for autonomous vehicles, providing valuable and relevant information for downstream tasks such as scene understanding or 4D panoptic tracking. Current state-of-the-art (SOTA) methods are predominantly based on the detection-transformer (DETR) paradigm. These approaches formulate panoptic segmentation as a problem of predicting the association scores of points within each group, which can be either a thing class instance or a stuff class. To this end, groups are represented by a fixed number of randomly initialized vectors called queries, whose values remain constant during inference. In this approach, queries are required to represent a wide range of objects that present in any particular scene. Recent studies on DETR application in the image domain have attempted to resolve this issue by introducing a strategy for adaptive query generation on a per-scene basis, which has achieved promising results, while in the LiDAR domain, existing DETR-based approaches have yet to explore adaptive mechanisms for queries generation. Motivated by that insight, our work proposes a technique for query representation called clustered feature aggregation (CFA) - a method for computing the features associated with an instance and using them as a query for the segmentation of that instance. To cluster points belonging to the same group, this study introduces shifted point clustering (SPC), an enhancement of traditional clustering techniques, as it secures high-confidence instance accumulation. Our proposed methods, in combination with a strong DETRbased baseline, establish new SOTA results for the panoptic segmentation challenge, outperforming previous top-performers by 1.20% and 1.94%, in PQ metric, on SemanticKITTI and Panoptic Nuscenes datasets, respectively",
+            "aminer_id": "67216fc801d2a3fbfc39e67b"
+        },
+        "dqformer": {
+            "number": "[42]",
+            "title": "DQFORMER: Dynamic Query Transformer for Lane Detection",
+            "text": "author={Yang, Hao and Lin, Shuyuan and Jiang, Runqing and Lu, Yang and Wang, Hanzi},\n  booktitle={ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, \n  title={DQFORMER: Dynamic Query Transformer for Lane Detection}, \n  year={2023},\n  pages={1-5},\n  doi={10.1109/ICASSP49357.2023.10097047}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Yang, Hao and Lin, Shuyuan and Jiang, Runqing and Lu, Yang and Wang, Hanzi",
+                "booktitle": "ICASSP 2023 - 2023 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)",
+                "title": "DQFORMER: Dynamic Query Transformer for Lane Detection",
+                "year": "2023",
+                "pages": "1-5",
+                "doi": "10.1109/ICASSP49357.2023.10097047"
+            },
+            "ref_source": "bib",
+            "abstract": "Lane detection is one of the most important tasks in self-driving. The critical purpose of lane detection is the prediction of lane shapes. Meanwhile, it is challenging and difficult to determine lane instance positions before predicting lane shapes in an image. In this paper, we propose a top-down method called Dynamic Query Transformer (DQFormer), which uses a Dynamic Lane Queries (DLQs) module to predict lane shapes. Specifically, to accurately predict lane shapes, we propose a new framework for generating dynamic weights based on DLQs, which can focus on the context of lane shapes dynamically. Unlike existing transformer-based methods, the proposed DQFormer does not require setting a fixed number of lane queries, so it is suitable for various scenes. In addition, we further propose a Line Voting Module (LVM) which collects votes from other lanes to enhance lane features, to determine lane instance positions. Extensive experiments demonstrate that DQFormer outperforms several state-of-the-art methods on two popular lane detection benchmarks (i.e., CULane and TuSimple).",
+            "aminer_id": "6566aa27939a5f40826b1b37"
+        },
+        "aopnet": {
+            "number": "[43]",
+            "title": "AOP-Net: All-in-One Perception Network for LiDAR-based Joint 3D Object Detection and Panoptic Segmentation.",
+            "text": "title={{AOP-Net}: All-in-One Perception Network for {LiDAR}-based Joint 3D Object Detection and Panoptic Segmentation},\n  author={Xu, Yixuan and Fazlali, Hamidreza and Ren, Yuan and Liu, Bingbing},\n  booktitle={2023 IEEE Intelligent Vehicles Symposium (IV)},\n  year={2023},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{AOP-Net}: All-in-One Perception Network for {LiDAR}-based Joint 3D Object Detection and Panoptic Segmentation",
+                "author": "Xu, Yixuan and Fazlali, Hamidreza and Ren, Yuan and Liu, Bingbing",
+                "booktitle": "2023 IEEE Intelligent Vehicles Symposium (IV)",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR-based 3D object detection and panoptic segmentation are two crucial tasks in the perception systems of autonomous vehicles and robots. In this paper, we propose All-in-One Perception Network (AOP-Net), a LiDAR-based multi-task framework that combines 3D object detection and panoptic segmentation. In this method, a dual-task 3D backbone is developed to extract both panoptic- and detection-level features from the input LiDAR point cloud. Also, a new 2D backbone that intertwines Multi-Layer Perceptron (MLP) and convolution layers is designed to further improve the detection task performance. Finally, a novel module is proposed to guide the detection head by recovering useful features discarded during down-sampling operations in the 3D backbone. This module leverages estimated instance segmentation masks to recover detailed information from each candidate object. The AOP-Net achieves state-of-the-art performance for published works on the nuScenes benchmark for both 3D object detection and panoptic segmentation tasks. Also, experiments show that our method easily adapts to and significantly improves the performance of any BEV-based 3D object detection method.",
+            "aminer_id": "63dc7b5190e50fcafdc83683"
+        },
+        "p3former": {
+            "number": "[44]",
+            "title": "Position-Guided Point Cloud Panoptic Segmentation Transformer",
+            "text": "title={Position-guided point cloud panoptic segmentation transformer},\n  author={Xiao, Zeqi and Zhang, Wenwei and Wang, Tai and Loy, Chen Change and Lin, Dahua and Pang, Jiangmiao},\n  journal={International Journal of Computer Vision},\n  pages={1--16},\n  year={2024},",
+            "type": "article",
+            "fields": {
+                "title": "Position-guided point cloud panoptic segmentation transformer",
+                "author": "Xiao, Zeqi and Zhang, Wenwei and Wang, Tai and Loy, Chen Change and Lin, Dahua and Pang, Jiangmiao",
+                "journal": "International Journal of Computer Vision",
+                "pages": "1--16",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "DEtection TRansformer (DETR) started a trend that uses a group of learnable queries for unified visual perception. This work begins by applying this appealing paradigm to LiDAR-based point cloud segmentation and obtains a simple yet effective baseline. Although the naive adaptation obtains fair results, the instance segmentation performance is noticeably inferior to previous works. By diving into the details, we observe that instances in the sparse point clouds are relatively small to the whole scene and often have similar geometry but lack distinctive appearance for segmentation, which are rare in the image domain. Considering instances in 3D are more featured by their positional information, we emphasize their roles during the modeling and design a robust Mixed-parameterized Positional Embedding (MPE) to guide the segmentation process. It is embedded into backbone features and later guides the mask prediction and query update processes iteratively, leading to Position-Aware Segmentation (PA-Seg) and Masked Focal Attention (MFA). All these designs impel the queries to attend to specific regions and identify various instances. The method, named Position-guided Point cloud Panoptic segmentation transFormer (P3Former), outperforms previous state-of-the-art methods by 3.4% and 1.2% PQ on SemanticKITTI and nuScenes benchmark, respectively. The source code and models are available at https://github.com/SmartBot-PJLab/P3Former .",
+            "aminer_id": "641d14e590e50fcafdf762be"
+        },
+        "panopticfusionnet": {
+            "number": "[45]",
+            "title": "Panoptic-FusionNet: Camera-LiDAR Fusion-Based Point Cloud Panoptic Segmentation for Autonomous Driving",
+            "text": "title={{Panoptic-FusionNet}: Camera-{LiDAR} fusion-based point cloud panoptic segmentation for autonomous driving},\n  author={Song, Hamin and Cho, Jieun and Ha, Jinsu and Park, Jaehyun and Jo, Kichun},\n  journal={Expert Systems with Applications},\n  volume={251},\n  pages={123950},\n  year={2024},",
+            "type": "article",
+            "fields": {
+                "title": "{Panoptic-FusionNet}: Camera-{LiDAR} fusion-based point cloud panoptic segmentation for autonomous driving",
+                "author": "Song, Hamin and Cho, Jieun and Ha, Jinsu and Park, Jaehyun and Jo, Kichun",
+                "journal": "Expert Systems with Applications",
+                "volume": "251",
+                "pages": "123950",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Accurate and reliable perception is essential for the safe operation of autonomous cars. The task of Light Detection And Ranging (LiDAR) panoptic segmentation plays a crucial role in predicting point-level classes and instance IDs within a 3D environment, facilitating a comprehensive understanding of the vehicle’s surroundings. Existing approaches relying on a single LiDAR sensor often face limitations arising from challenges such as point sparsity and the absence of texture information. To overcome these challenges, the fusion of other sensors, such as cameras, can be employed. However, the development of models for panoptic segmentation utilizing sensor fusion methods remains an unexplored area. In this paper, we present the first LiDAR-camera fusion network for panoptic segmentation named ”Panoptic-FusionNet.” Our proposed network enhances feature maps through a feature fusion module that ensures precise geometric alignment of features extracted from both of sensors. We create tables that have accurately aligned point-voxel-pixel correspondence at multiple scales, and fuse feature maps by querying the table. The fused features are subsequently employed in a bottom-up network to predict semantic labels, instance centers, and offsets. Post-processing is then implemented in a class-adaptive manner, enabling class-wise clustering based on the general sizes of each class, thereby refining the final panoptic results. We evaluate the performance of the proposed network on both the SemanticKITTI and nuScenes datasets, which are large-scale datasets that provide synchronized LiDAR-camera data. In comparison to LiDAR-only baselines, Panoptic-FusionNet attains higher panoptic quality due to its geometrically accurate sensor fusion method, class-adaptive processing, and utilization of instance-augmented pre-trained weights.",
+            "aminer_id": "661f402013fb2c6cf6de68fe"
+        },
+        "pointnext": {
+            "number": "[46]",
+            "title": "PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies",
+            "text": "author = {Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan Abed Al Kader and Elhoseiny, Mohamed and Ghanem, Bernard},\n    title = {{PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies}},\n    booktitle = NIPS,\n    year = {2022},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Qian, Guocheng and Li, Yuchen and Peng, Houwen and Mai, Jinjie and Hammoud, Hasan Abed Al Kader and Elhoseiny, Mohamed and Ghanem, Bernard",
+                "title": "{PointNeXt: Revisiting PointNet++ with Improved Training and Scaling Strategies}",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62a2b6955aee126c0f4d8e79"
+        },
+        "pointtransformer": {
+            "number": "[47]",
+            "title": "Point Transformer",
+            "text": "author    = {Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip H.S. and Koltun, Vladlen},\n    title     = {{Point Transformer}},\n    booktitle = ICCV,\n    year      = {2021},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Zhao, Hengshuang and Jiang, Li and Jia, Jiaya and Torr, Philip H.S. and Koltun, Vladlen",
+                "title": "{Point Transformer}",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5fdb41b391e0118a02c4f6dc"
+        },
+        "pointmixer": {
+            "number": "[48]",
+            "title": "PointMixer: MLP-Mixer for Point Cloud Understanding",
+            "text": "author={Choe, Jaesung and Park, Chunghyun and Rameau, Francois and Park, Jaesik and Kweon, In So},\n    title={{PointMixer: MLP-Mixer for Point Cloud Understanding}},\n    booktitle=ECCV,\n    year=\"2022\",",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Choe, Jaesung and Park, Chunghyun and Rameau, Francois and Park, Jaesik and Kweon, In So",
+                "title": "{PointMixer: MLP-Mixer for Point Cloud Understanding}",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "MLP-Mixer has newly appeared as a new challenger against the realm of CNNs and Transformer. Despite its simplicity compared to Transformer, the concept of channel-mixing MLPs and token-mixing MLPs achieves noticeable performance in image recognition tasks. Unlike images, point clouds are inherently sparse, unordered and irregular, which limits the direct use of MLP-Mixer for point cloud understanding. To overcome these limitations, we propose PointMixer, a universal point set operator that facilitates information sharing among unstructured 3D point cloud. By simply replacing token-mixing MLPs with Softmax function, PointMixer can “mix” features within/between point sets. By doing so, PointMixer can be broadly used for intra-set, inter-set, and hierarchical-set mixing. We demonstrate that various channel-wise feature aggregation in numerous point sets is better than self-attention layers or dense token-wise interaction in a view of parameter efficiency and accuracy. Extensive experiments show the competitive or superior performance of PointMixer in semantic segmentation, classification, and reconstruction against Transformer-based methods.",
+            "aminer_id": "619c5bbf5244ab9dcbf2280a"
+        },
+        "pointnet": {
+            "number": "[49]",
+            "title": "PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation.",
+            "text": "author = {Qi, Charles R. and Su, Hao and Mo, Kaichun and Guibas, Leonidas J.},\n    title = {{PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation}},\n    booktitle = CVPR,\n    year = {2017}",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Qi, Charles R. and Su, Hao and Mo, Kaichun and Guibas, Leonidas J.",
+                "title": "{PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation}",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Point cloud is an important type of geometric data structure. Due to its irregular format, most researchers transform such data to regular 3D voxel grids or collections of images. This, however, renders data unnecessarily voluminous and causes issues. In this paper, we design a novel type of neural network that directly consumes point clouds, which well respects the permutation invariance of points in the input. Our network, named PointNet, provides a unified architecture for applications ranging from object classification, part segmentation, to scene semantic parsing. Though simple, PointNet is highly efficient and effective. Empirically, it shows strong performance on par or even better than state of the art. Theoretically, we provide analysis towards understanding of what the network has learnt and why the network is robust with respect to input perturbation and corruption.",
+            "aminer_id": "58d82fced649053542fd7243"
+        },
+        "pointnetpp": {
+            "number": "[50]",
+            "title": "PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space.",
+            "text": "author = {Qi, Charles Ruizhongtai and Yi, Li and Su, Hao and Guibas, Leonidas J},\n    booktitle = NIPS,\n    title = {{PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space}},\n    year = {2017}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Qi, Charles Ruizhongtai and Yi, Li and Su, Hao and Guibas, Leonidas J",
+                "title": "{PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space}",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Few prior works study deep learning on point sets. PointNet by Qi et al. is a pioneer in this direction. However, by design PointNet does not capture local structures induced by the metric space points live in, limiting its ability to recognize fine-grained patterns and generalizability to complex scenes. In this work, we introduce a hierarchical neural network that applies PointNet recursively on a nested partitioning of the input point set. By exploiting metric space distances, our network is able to learn local features with increasing contextual scales. With further observation that point sets are usually sampled with varying densities, which results in greatly decreased performance for networks trained on uniform densities, we propose novel set learning layers to adaptively combine features from multiple scales. Experiments show that our network called PointNet++ is able to learn deep point set features efficiently and robustly. In particular, results significantly better than state-of-the-art have been obtained on challenging benchmarks of 3D point clouds.",
+            "aminer_id": "599c7945601a182cd2629f8d"
+        },
+        "rangeformer": {
+            "number": "[51]",
+            "title": "Rethinking Range View Representation for LiDAR Segmentation",
+            "text": "title={Rethinking Range View Representation for LiDAR Segmentation}, \n      author={Lingdong Kong and Youquan Liu and Runnan Chen and Yuexin Ma and Xinge Zhu and Yikang Li and Yuenan Hou and Yu Qiao and Ziwei Liu},\n      year={2023},\n      booktitle = ICCV,",
+            "type": "InProceedings",
+            "fields": {
+                "title": "Rethinking Range View Representation for LiDAR Segmentation",
+                "author": "Lingdong Kong and Youquan Liu and Runnan Chen and Yuexin Ma and Xinge Zhu and Yikang Li and Yuenan Hou and Yu Qiao and Ziwei Liu",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR segmentation is crucial for autonomous driving perception. Recent trends favor point- or voxel-based methods as they often yield better performance than the traditional range view representation. In this work, we unveil several key factors in building powerful range view models. We observe that the \"many-to-one\" mapping, semantic incoherence, and shape deformation are possible impediments against effective learning from range view projections. We present RangeFormer -- a full-cycle framework comprising novel designs across network architecture, data augmentation, and post-processing -- that better handles the learning and processing of LiDAR point clouds from the range view. We further introduce a Scalable Training from Range view (STR) strategy that trains on arbitrary low-resolution 2D range images, while still maintaining satisfactory 3D segmentation accuracy. We show that, for the first time, a range view method is able to surpass the point, voxel, and multi-view fusion counterparts in the competing LiDAR semantic and panoptic segmentation benchmarks, i.e., SemanticKITTI, nuScenes, and ScribbleKITTI.",
+            "aminer_id": "640a9ffc90e50fcafd03ca21"
+        },
+        "sdseg3d": {
+            "number": "[52]",
+            "title": "Self-Distillation for Robust LiDAR Semantic Segmentation in Autonomous Driving",
+            "text": "author={Jiale Li and Hang Dai and Yong Ding},\n    title={Self-Distillation for Robust LiDAR Semantic Segmentation in Autonomous Driving},\n    booktitle = {ECCV},\n    year=2022,",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Jiale Li and Hang Dai and Yong Ding",
+                "title": "Self-Distillation for Robust LiDAR Semantic Segmentation in Autonomous Driving",
+                "booktitle": "ECCV"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose a new and effective self-distillation framework with our new Test-Time Augmentation (TTA) and Transformer based Voxel Feature Encoder (TransVFE) for robust LiDAR semantic segmentation in autonomous driving, where the robustness is mission-critical but usually neglected. The proposed framework enables the knowledge to be distilled from a teacher model instance to a student model instance, while the two model instances are with the same network architecture for jointly learning and evolving. This requires a strong teacher model to evolve in training. Our TTA strategy effectively reduces the uncertainty in the inference stage of the teacher model. Thus, we propose to equip the teacher model with TTA for providing privileged guidance while the student continuously updates the teacher with better network parameters learned by itself. To further enhance the teacher model, we propose a TransVFE to improve the point cloud encoding by modeling and preserving the local relationship among the points inside each voxel via multi-head attention. The proposed modules are generally designed to be instantiated with different backbones. Evaluations on SemanticKITTI and nuScenes datasets show that our method achieves state-of-the-art performance. Our code is publicly available at https://github.com/jialeli1/lidarseg3d .",
+            "aminer_id": "635bca8f90e50fcafd33a0f5"
+        },
+        "RPVNet": {
+            "number": "[53]",
+            "title": "RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation",
+            "text": "author    = {Xu, Jianyun and Zhang, Ruixiang and Dou, Jian and Zhu, Yushi and Sun, Jie and Pu, Shiliang},\n    title     = {{RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation}},\n    booktitle = ICCV,\n    year      = {2021},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Xu, Jianyun and Zhang, Ruixiang and Dou, Jian and Zhu, Yushi and Sun, Jie and Pu, Shiliang",
+                "title": "{RPVNet: A Deep and Efficient Range-Point-Voxel Fusion Network for LiDAR Point Cloud Segmentation}",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Point clouds can be represented in many forms (views), typically, point-based sets, voxel-based cells or rangebased images(i.e., panoramic view). The point-based view is geometrically accurate, but it is disordered, which makes it difficult to find local neighbors efficiently. The voxelbased view is regular, but sparse, and computation grows cubicly when voxel resolution increases. The range-based view is regular and generally dense, however spherical projection makes physical dimensions distorted. Both voxeland range-based views suffer from quantization loss, especially for voxels when facing large-scale scenes. In order to utilize different view’s advantages and alleviate their own shortcomings in fine-grained segmentation task, we propose a novel range-point-voxel fusion network, namely RPVNet. In this network, we devise a deep fusion framework with multiple and mutual information interactions among these three views, and propose a gated fusion module (termed as GFM), which can adaptively merge the three features based on concurrent inputs. Moreover, the proposed RPV interaction mechanism is highly efficient, and we summarize it to a more general formulation. By leveraging this efficient interaction and relatively lower voxel resolution, our method is also proved to be more efficient. Finally, we evaluated the proposed model on two large-scale datasets, i.e., SemanticKITTI and nuScenes, and it shows state-of-the-art performance on both of them. Note that, our method currently ranks 1st on SemanticKITTI leaderboard without any extra tricks.",
+            "aminer_id": "605c649791e011ed6f938148"
+        },
+        "gfnet": {
+            "number": "[54]",
+            "title": "GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation",
+            "text": "author={Haibo Qiu and Baosheng Yu and Dacheng Tao},\n    title={{GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation}},    \n    journal={Transactions on Machine Learning Research},\n    year={2022},\n    url={https://openreview.net/forum?id=LSAAlS7Yts},\n    note={}",
+            "type": "article",
+            "fields": {
+                "author": "Haibo Qiu and Baosheng Yu and Dacheng Tao",
+                "title": "{GFNet: Geometric Flow Network for 3D Point Cloud Semantic Segmentation}",
+                "journal": "Transactions on Machine Learning Research",
+                "year": "2022",
+                "url": "https://openreview.net/forum?id=LSAAlS7Yts",
+                "note": ""
+            },
+            "ref_source": "bib",
+            "abstract": "Point cloud semantic segmentation from projected views, such as range-view (RV) and bird's-eye-view (BEV), has been intensively investigated. Different views capture different information of point clouds and thus are complementary to each other. However, recent projection-based methods for point cloud semantic segmentation usually utilize a vanilla late fusion strategy for the predictions of different views, failing to explore the complementary information from a geometric perspective during the representation learning. In this paper, we introduce a geometric flow network (GFNet) to explore the geometric correspondence between different views in an align-before-fuse manner. Specifically, we devise a novel geometric flow module (GFM) to bidirectionally align and propagate the complementary information across different views according to geometric relationships under the end-to-end learning scheme. We perform extensive experiments on two widely used benchmark datasets, SemanticKITTI and nuScenes, to demonstrate the effectiveness of our GFNet for project-based point cloud semantic segmentation. Concretely, GFNet not only significantly boosts the performance of each individual view but also achieves state-of-the-art results over all existing projection-based models. Code is available at \\url{https://github.com/haibo-qiu/GFNet}.",
+            "aminer_id": "62c64f2e5aee126c0f6cf12e"
+        },
+        "bevcontrast": {
+            "number": "[55]",
+            "title": "BEVContrast: Self-Supervision in BEV Space for Automotive Lidar Point Clouds",
+            "text": "author    = {Corentin Sautier and Gilles Puy and Alexandre Boulch and Renaud Marlet and Vincent Lepetit},\n  title     = {{BEVContrast}: Self-Supervision in BEV Space for Automotive Lidar Point Clouds},\n  booktitle = {3DV},\n  year      = 2024",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Corentin Sautier and Gilles Puy and Alexandre Boulch and Renaud Marlet and Vincent Lepetit",
+                "title": "{BEVContrast}: Self-Supervision in BEV Space for Automotive Lidar Point Clouds",
+                "booktitle": "3DV"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a surprisingly simple and efficient method for self-supervision of 3D backbone on automotive Lidar point clouds. We design a contrastive loss between features of Lidar scans captured in the same scene. Several such approaches have been proposed in the literature from Point-Constrast [40], which uses a contrast at the level of points, to the state-of-the-art TARL [30], which uses a contrast at the level of segments, roughly corresponding to objects. While the former enjoys a great simplicity of implementation, it is surpassed by the latter, which however requires a costly pre-processing. In BEVContrast, we define our contrast at the level of 2D cells in the Bird's Eye View plane. Resulting cell-level representations offer a good trade-off between the point-level representations exploited in PointContrast and segment-level representations exploited in TARL: we retain the simplicity of PointContrast (cell representations are cheap to compute) while surpassing the performance of TARL in downstream semantic segmentation. The code is available at github.com/valeoai/BEVContrast",
+            "aminer_id": "653b1d19939a5f4082995087"
+        },
+        "af2s3net": {
+            "number": "[56]",
+            "title": "(Af)2-S3net: Attentive Feature Fusion with Adaptive Feature Selection for Sparse Semantic Segmentation Network",
+            "text": "author    = {Cheng, Ran and Razani, Ryan and Taghavi, Ehsan and Li, Enxu and Liu, Bingbing},\n    title     = {{(AF)2-S3Net: Attentive Feature Fusion With Adaptive Feature Selection for Sparse Semantic Segmentation Network}},\n    booktitle = CVPR,\n    year      = {2021},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Cheng, Ran and Razani, Ryan and Taghavi, Ehsan and Li, Enxu and Liu, Bingbing",
+                "title": "{(AF)2-S3Net: Attentive Feature Fusion With Adaptive Feature Selection for Sparse Semantic Segmentation Network}",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Autonomous robotic systems and self driving cars rely on accurate perception of their surroundings as the safety of the passengers and pedestrians is the top priority. Semantic segmentation is one of the essential components of road scene perception that provides semantic information of the surrounding environment. Recently, several methods have been introduced for 3D LiDAR semantic segmentation. While they can lead to improved performance, they are either afflicted by high computational complexity, therefore are inefficient, or they lack fine details of smaller object instances. To alleviate these problems, we propose (AF) 2 -S3Net, an end-to-end encoder-decoder CNN network for 3D LiDAR semantic segmentation. We present a novel multibranch attentive feature fusion module in the encoder and a unique adaptive feature selection module with feature map re-weighting in the decoder. Our (AF) 2 -S3Net fuses the voxel-based learning and point-based learning methods into a unified framework to effectively process the potentially large 3D scene. Our experimental results show that the proposed method outperforms the state-of-the-art approaches on the large-scale nuScenes-lidarseg and SemanticKITTI benchmark, ranking 1 st on both competitive public leaderboard competitions upon publication.",
+            "aminer_id": "6023cb9f91e0119b5fbd970a"
+        },
+        "SqueezeSegV3": {
+            "number": "[57]",
+            "title": "SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation",
+            "text": "author=\"Xu, Chenfeng\n    and Wu, Bichen\n    and Wang, Zining\n    and Zhan, Wei\n    and Vajda, Peter\n    and Keutzer, Kurt\n    and Tomizuka, Masayoshi\",\n    editor=\"Vedaldi, Andrea\n    and Bischof, Horst\n    and Brox, Thomas\n    and Frahm, Jan-Michael\",\n    title={{SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation}},\n    booktitle=ECCV,\n    year=\"2020\",",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Xu, Chenfeng and Wu, Bichen and Wang, Zining and Zhan, Wei and Vajda, Peter and Keutzer, Kurt and Tomizuka, Masayoshi",
+                "editor": "Vedaldi, Andrea and Bischof, Horst and Brox, Thomas and Frahm, Jan-Michael",
+                "title": "{SqueezeSegV3: Spatially-Adaptive Convolution for Efficient Point-Cloud Segmentation}",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR point-cloud segmentation is an important problem for many applications. For large-scale point cloud segmentation, the de facto method is to project a 3D point cloud to get a 2D LiDAR image and use convolutions to process it. Despite the similarity between regular RGB and LiDAR images, we are the first to discover that the feature distribution of LiDAR images changes drastically at different image locations. Using standard convolutions to process such LiDAR images is problematic, as convolution filters pick up local features that are only active in specific regions in the image. As a result, the capacity of the network is under-utilized and the segmentation performance decreases. To fix this, we propose Spatially-Adaptive Convolution (SAC) to adopt different filters for different locations according to the input image. SAC can be computed efficiently since it can be implemented as a series of element-wise multiplications, im2col, and standard convolution. It is a general framework such that several previous methods can be seen as special cases of SAC. Using SAC, we build SqueezeSegV3 for LiDAR point-cloud segmentation and outperform all previous published methods by at least 2.0% mIoU on the SemanticKITTI benchmark. Code and pretrained model are available at https://github.com/chenfengxu714/SqueezeSegV3.",
+            "aminer_id": "5e8da0bf91e011f2de58350a"
+        },
+        "SalsaNet": {
+            "number": "[58]",
+            "title": "SalsaNet: Fast Road and Vehicle Segmentation in LiDAR Point Clouds for Autonomous Driving",
+            "text": "author={Aksoy, Eren Erdal and Baci, Saimir and Cavdar, Selcuk},\n    booktitle={IEEE Intelligent Vehicles Symposium (IV)}, \n    title={{SalsaNet: Fast Road and Vehicle Segmentation in LiDAR Point Clouds for Autonomous Driving}}, \n    year={2020},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Aksoy, Eren Erdal and Baci, Saimir and Cavdar, Selcuk",
+                "booktitle": "IEEE Intelligent Vehicles Symposium (IV)",
+                "title": "{SalsaNet: Fast Road and Vehicle Segmentation in LiDAR Point Clouds for Autonomous Driving}",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we introduce a deep encoder-decoder network, named SalsaNet,for efficient semantic segmentation of 3D LiDAR point clouds. SalsaNet segmentsthe road, i.e. drivable free-space, and vehicles in the scene by employing theBird-Eye-View (BEV) image projection of the point cloud. To overcome the lackof annotated point cloud data, in particular for the road segments, weintroduce an auto-labeling process which transfers automatically generatedlabels from the camera to LiDAR. We also explore the role of imagelikeprojection of LiDAR data in semantic segmentation by comparing BEV withspherical-front-view projection and show that SalsaNet is projection-agnostic.We perform quantitative and qualitative evaluations on the KITTI dataset, whichdemonstrate that the proposed SalsaNet outperforms other state-of-the-artsemantic segmentation networks in terms of accuracy and computation time. Ourcode and data are publicly available athttps://gitlab.com/aksoyeren/salsanet.git.",
+            "aminer_id": "5d835fd63a55ac583ecde6d9"
+        },
+        "rangenetpp": {
+            "number": "[59]",
+            "title": "RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation",
+            "text": "author={Milioto, Andres and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill},\n    booktitle={IROS}, \n    title={{RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation}}, \n    year={2019},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Milioto, Andres and Vizzo, Ignacio and Behley, Jens and Stachniss, Cyrill",
+                "booktitle": "IROS",
+                "title": "{RangeNet ++: Fast and Accurate LiDAR Semantic Segmentation}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Perception in autonomous vehicles is often carried out through a suite of different sensing modalities. Given the massive amount of openly available labeled RGB data and the advent of high-quality deep learning algorithms for image-based recognition, high-level semantic perception tasks are pre-dominantly solved using high-resolution cameras. As a result of that, other sensor modalities potentially useful for this task are often ignored. In this paper, we push the state of the art in LiDAR-only semantic segmentation forward in order to provide another independent source of semantic information to the vehicle. Our approach can accurately perform full semantic segmentation of LiDAR point clouds at sensor frame rate. We exploit range images as an intermediate representation in combination with a Convolutional Neural Network (CNN) exploiting the rotating LiDAR sensor model. To obtain accurate results, we propose a novel post-processing algorithm that deals with problems arising from this intermediate representation such as discretization errors and blurry CNN outputs. We implemented and thoroughly evaluated our approach including several comparisons to the state of the art. Our experiments show that our approach outperforms state-of-the-art approaches, while still running online on a single embedded GPU. The code can be accessed at https://github.com/PRBonn/lidar-bonnetal.",
+            "aminer_id": "5e369fba3a55ac9d11d4948b"
+        },
+        "ptv2": {
+            "number": "[60]",
+            "title": "Point Transformer V2: Grouped Vector Attention and Partition-based Pooling",
+            "text": "title={Point Transformer V2: Grouped Vector Attention and Partition-based Pooling},\n  author={Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang},\n  booktitle={NeurIPS},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Point Transformer V2: Grouped Vector Attention and Partition-based Pooling",
+                "author": "Wu, Xiaoyang and Lao, Yixing and Jiang, Li and Liu, Xihui and Zhao, Hengshuang",
+                "booktitle": "NeurIPS",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6346305f90e50fcafda07c2f"
+        },
+        "minkunet": {
+            "number": "[61]",
+            "title": "",
+            "text": "author = {Choy, Christopher and Gwak, JunYoung and Savarese, Silvio},\n  title = {{{4D} Spatio-Temporal {ConvNets}: Minkowski Convolutional Neural Networks}},\n  booktitle = CVPR,\n  year = 2019",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Choy, Christopher and Gwak, JunYoung and Savarese, Silvio"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "waffleiron": {
+            "number": "[62]",
+            "title": "Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation",
+            "text": "title={Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation},\n  author={Puy, Gilles and Boulch, Alexandre and Marlet, Renaud},\n  booktitle={ICCV},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Using a Waffle Iron for Automotive Point Cloud Semantic Segmentation",
+                "author": "Puy, Gilles and Boulch, Alexandre and Marlet, Renaud",
+                "booktitle": "ICCV",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantic segmentation of point clouds in autonomous driving datasets requires techniques that can process large numbers of points efficiently. Sparse 3D convolutions have become the de-facto tools to construct deep neural networks for this task: they exploit point cloud sparsity to reduce the memory and computational loads and are at the core of today's best methods. In this paper, we propose an alternative method that reaches the level of state-of-the-art methods without requiring sparse convolutions. We actually show that such level of performance is achievable by relying on tools a priori unfit for large scale and high-performing 3D perception. In particular, we propose a novel 3D backbone, WaffleIron, made almost exclusively of MLPs and dense 2D convolutions and present how to train it to reach high performance on SemanticKITTI and nuScenes. We believe that WaffleIron is a compelling alternative to backbones using sparse 3D convolutions, especially in frameworks and on hardware where those convolutions are not readily available.",
+            "aminer_id": "63d340e890e50fcafd910849"
+        },
+        "scalr": {
+            "number": "[63]",
+            "title": "Three Pillars Improving Vision Foundation Model Distillation for Lidar",
+            "text": "title={Three Pillars improving Vision Foundation Model Distillation for Lidar},\n  author={Puy, Gilles and Gidaris, Spyros and Boulch, Alexandre and Sim\\'eoni, Oriane and Sautier, Corentin and P\\'erez, Patrick and Bursuc, Andrei and Marlet, Renaud},\n  booktitle={CVPR},\n  year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Three Pillars improving Vision Foundation Model Distillation for Lidar",
+                "author": "Puy, Gilles and Gidaris, Spyros and Boulch, Alexandre and Sim\\'eoni, Oriane and Sautier, Corentin and P\\'erez, Patrick and Bursuc, Andrei and Marlet, Renaud",
+                "booktitle": "CVPR",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Self-supervised image backbones can be used to address complex 2D tasks (e.g., semantic segmentation, object discovery) very efficiently and with little or no downstream supervision. Ideally, 3D backbones for lidar should be able to inherit these properties after distillation of these powerful 2D features. The most recent methods for image-to-lidar distillation on autonomous driving data show promising results, obtained thanks to distillation methods that keep improving. Yet, we still notice a large performance gap when measuring by linear probing the quality of distilled vs fully supervised features. In this work, instead of focusing only on the distillation method, we study the effect of three pillars for distillation: the 3D backbone, the pretrained 2D backbone, and the pretraining 2D+3D dataset. In particular, thanks to our scalable distillation method named ScaLR, we show that scaling the 2D and 3D backbones and pretraining on diverse datasets leads to a substantial improvement of the feature quality. This allows us to significantly reduce the gap between the quality of distilled and fully-supervised 3D features, and to improve the robustness of the pretrained backbones to domain gaps and perturbations. The code is available at https://github.com/valeoai/ScaLR.",
+            "aminer_id": "653b1d19939a5f4082995176"
+        },
+        "openpcseg": {
+            "number": "[64]",
+            "title": "OpenPCSeg: An Open Source Point Cloud Segmentation Codebase",
+            "text": "title={{OpenPCSeg}: An Open Source Point Cloud Segmentation Codebase},\n    author={Liu, Youquan and Bai, Yeqi and Kong, Lingdong and Chen, Runnan and Hou, Yuenan and Shi, Botian and Li, Yikang},\n    howpublished = {\\url{https://github.com/PJLab-ADG/PCSeg}},\n    year={2023}",
+            "type": "misc",
+            "fields": {
+                "title": "{OpenPCSeg}: An Open Source Point Cloud Segmentation Codebase",
+                "author": "Liu, Youquan and Bai, Yeqi and Kong, Lingdong and Chen, Runnan and Hou, Yuenan and Shi, Botian and Li, Yikang",
+                "howpublished": "\\url{https://github.com/PJLab-ADG/PCSeg}",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ptv3": {
+            "number": "[65]",
+            "title": "Point Transformer V3: Simpler, Faster, Stronger",
+            "text": "title={Point Transformer V3: Simpler, Faster, Stronger},\n    author={Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang},\n    booktitle={CVPR},\n    year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Point Transformer V3: Simpler, Faster, Stronger",
+                "author": "Wu, Xiaoyang and Jiang, Li and Wang, Peng-Shuai and Liu, Zhijian and Liu, Xihui and Qiao, Yu and Ouyang, Wanli and He, Tong and Zhao, Hengshuang",
+                "booktitle": "CVPR",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper is not motivated to seek innovation within the attention mechanism. Instead, it focuses on overcoming the existing trade-offs between accuracy and efficiency within the context of point cloud processing, leveraging the power of scale. Drawing inspiration from recent advances in 3D large-scale representation learning, we recognize that model performance is more influenced by scale than by intricate design. Therefore, we present Point Transformer V3 (PTv3), which prioritizes simplicity and efficiency over the accuracy of certain mechanisms that are minor to the overall performance after scaling, such as replacing the precise neighbor search by KNN with an efficient serialized neighbor mapping of point clouds organized with specific patterns. This principle enables significant scaling, expanding the receptive field from 16 to 1024 points while remaining efficient (a 3x increase in processing speed and a 10x improvement in memory efficiency compared with its predecessor, PTv2). PTv3 attains state-of-the-art results on over 20 downstream tasks that span both indoor and outdoor scenarios. Further enhanced with multi-dataset joint training, PTv3 pushes these results to a higher level.",
+            "aminer_id": "657fb03b939a5f4082caceee"
+        },
+        "kdtree": {
+            "number": "[66]",
+            "title": "Multidimensional Binary Search Trees Used for Associative Searching",
+            "text": "title={Multidimensional binary search trees used for associative searching},\n  author={Bentley, Jon Louis},\n  journal={Communications of the ACM},\n  volume={18},\n  number={9},\n  pages={509--517},\n  year={1975},\n  publisher={ACM New York, NY, USA}",
+            "type": "article",
+            "fields": {
+                "title": "Multidimensional binary search trees used for associative searching",
+                "author": "Bentley, Jon Louis",
+                "journal": "Communications of the ACM",
+                "volume": "18",
+                "number": "9",
+                "pages": "509--517",
+                "year": "1975",
+                "publisher": "ACM New York, NY, USA"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper develops the multidimensional binary search tree (or k-d tree, where k is the dimensionality of the search space) as a data structure for storage of information to be retrieved by associative searches. The k-d tree is defined and examples are given. It is shown to be quite efficient in its storage requirements. A significant advantage of this structure is that a single data structure can handle many types of queries very efficiently. Various utility algorithms are developed; their proven average running times in an n record file are: insertion, O(log n); deletion of the root, O(n(k-1)/k); deletion of a random node, O(log n); and optimization (guarantees logarithmic performance of searches), O(n log n). Search algorithms are given for partial match queries with t keys specified [proven maximum running time of O(n(k-t)/k)] and for nearest neighbor queries [empirically observed average running time of O(log n).] These performances far surpass the best currently known algorithms for these tasks. An algorithm is presented to handle any general intersection query. The main focus of this paper is theoretical. It is felt, however, that k-d trees could be quite useful in many applications, and examples of potential uses are given.",
+            "aminer_id": "5390880d20f70186a0d7b22c"
+        },
+        "nuscenes": {
+            "number": "[67]",
+            "title": "",
+            "text": "author = {Caesar, Holger and Bankiti, Varun and Lang, Alex H. and Vora, Sourabh and Liong, Venice Erin and Xu, Qiang and Krishnan, Anush and Pan, Yu and Baldan, Giancarlo and Beijbom, Oscar},\n  title = {{{nuScenes}: A Multimodal Dataset for Autonomous Driving}},\n  booktitle = CVPR,\n  year = 2020",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Caesar, Holger and Bankiti, Varun and Lang, Alex H. and Vora, Sourabh and Liong, Venice Erin and Xu, Qiang and Krishnan, Anush and Pan, Yu and Baldan, Giancarlo and Beijbom, Oscar"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "semantickitti": {
+            "number": "[68]",
+            "title": "",
+            "text": "author = {Behley, Jens and Garbade, Martin and Milioto, Andres and Quenzel, Jan and Behnke, Sven and Stachniss, Cyrill and Gall, Jurgen},\n  title = {{{SemanticKITTI}: A Dataset for Semantic Scene Understanding of {LiDAR} Sequences}},\n  booktitle = ICCV,\n  year = 2019",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Behley, Jens and Garbade, Martin and Milioto, Andres and Quenzel, Jan and Behnke, Sven and Stachniss, Cyrill and Gall, Jurgen"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "semanticposs": {
+            "number": "[69]",
+            "title": "SemanticPOSS: A Point Cloud Dataset with Large Quantity of Dynamic Instances.",
+            "text": "title={{SemanticPOSS}: A point cloud dataset with large quantity of dynamic instances},\n  author={Pan, Yancheng and Gao, Biao and Mei, Jilin and Geng, Sibo and Li, Chengkun and Zhao, Huijing},\n  booktitle={2020 IEEE Intelligent Vehicles Symposium (IV)},\n  year={2020},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{SemanticPOSS}: A point cloud dataset with large quantity of dynamic instances",
+                "author": "Pan, Yancheng and Gao, Biao and Mei, Jilin and Geng, Sibo and Li, Chengkun and Zhao, Huijing",
+                "booktitle": "2020 IEEE Intelligent Vehicles Symposium (IV)",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "3D semantic segmentation is one of the key tasks for autonomous driving system. Recently, deep learning models for 3D semantic segmentation task have been widely researched, but they usually require large amounts of training data. However, the present datasets for 3D semantic segmentation are lack of point-wise annotation, diversiform scenes and dynamic objects. In this paper 1 , we propose the SemanticPOSS dataset, which contains 2988 various and complicated LiDAR scans with large quantity of dynamic instances. The data is collected in Peking University and uses the same data format as SemanticKITTI. In addition, we evaluate several typical 3D semantic segmentation models on our SemanticPOSS dataset. Experimental results show that SemanticPOSS can help to improve the prediction accuracy of dynamic objects as people, car in some degree. SemanticPOSS will be published at www.poss.pku.edu.cn.",
+            "aminer_id": "5e539eca3a55ac4db70a52ef"
+        },
+        "second": {
+            "number": "[70]",
+            "title": "SECOND: Sparsely Embedded Convolutional Detection",
+            "text": "title={{SECOND}: Sparsely Embedded Convolutional Detection},\n  author={Yan Yan and Yuxing Mao and Bo Li},\n  journal={Sensors},\n  volume={18},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "{SECOND}: Sparsely Embedded Convolutional Detection",
+                "author": "Yan Yan and Yuxing Mao and Bo Li",
+                "journal": "Sensors",
+                "volume": "18",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c04965717c44a2c74707d12"
+        },
+        "lpst": {
+            "number": "[71]",
+            "title": "LiDAR Panoptic Segmentation and Tracking without Bells and Whistles",
+            "text": "title={{LiDAR} Panoptic Segmentation and Tracking without Bells and Whistles},\n  author={Agarwalla, Abhinav and Huang, Xuhua and Ziglar, Jason and Ferroni, Francesco and Leal-Taix{\\'e}, Laura and Hays, James and O{\\v{s}}ep, Aljo{\\v{s}}a and Ramanan, Deva},\n  booktitle={IROS},\n  year={2023},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{LiDAR} Panoptic Segmentation and Tracking without Bells and Whistles",
+                "booktitle": "IROS",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6531e2ca939a5f4082f5d488"
+        },
+        "maskrcnn": {
+            "number": "[72]",
+            "title": "Mask R-CNN",
+            "text": "title={{Mask R-CNN}},\n  author={He, Kaiming and Gkioxari, Georgia and Doll{\\'a}r, Piotr and Girshick, Ross},\n  booktitle={ICCV},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{Mask R-CNN}",
+                "author": "He, Kaiming and Gkioxari, Georgia and Doll{\\'a}r, Piotr and Girshick, Ross",
+                "booktitle": "ICCV",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a73cb7417c44a0b3035a360"
+        },
+        "dividemerge": {
+            "number": "[73]",
+            "title": "A Divide-and-Merge Point Cloud Clustering Algorithm for LiDAR Panoptic Segmentation",
+            "text": "title={A divide-and-merge point cloud clustering algorithm for {LiDAR} panoptic segmentation},\n  author={Zhao, Yiming and Zhang, Xiao and Huang, Xinming},\n  booktitle={ICRA},\n  year={2022},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A divide-and-merge point cloud clustering algorithm for {LiDAR} panoptic segmentation",
+                "author": "Zhao, Yiming and Zhang, Xiao and Huang, Xinming",
+                "booktitle": "ICRA",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Clustering objects from the LiDAR point cloud is an important research problem with many applications such as autonomous driving. To meet the real-time requirement, existing research proposed to apply the connected-component-labeling (CCL) technique on LiDAR spherical range image with a heuristic condition to check if two neighbor points are connected. However, LiDAR range image is different from a binary image which has a deterministic condition to tell if two pixels belong to the same component. The heuristic condition used on the LiDAR range image only works empirically, which suggests the LiDAR clustering algorithm should be robust to potential failures of the empirical heuristic condition. To overcome this challenge, this paper proposes a divide-and-merge LiDAR clustering algorithm. This algorithm firstly conducts clustering in each evenly divided local region, then merges the local clustered small components by voting on edge point pairs. Assuming there are $N$ LiDAR points of objects in total with $m$ divided local regions, the time complexity of the proposed algorithm is $O(N)+O(m^{2})$. A smaller $m$ means the voting will involve more neighbor points, but the time complexity will become larger. So the $m$ controls the trade-off between the time complexity and the clustering accuracy. A proper $m$ helps the proposed algorithm work in real-time as well as maintain good performance. We evaluate the divide-and-merge clustering algorithm on the SemanticKITTI panoptic segmentation benchmark by cascading it with a state-of-the-art semantic segmentation model. The final performance evaluated through the leaderboard achieves the best among all published methods. The proposed algorithm is implemented with C++ and wrapped as a python function. It can be easily used with the modern deep learning framework in python. We released the code under the following link 11https://github.com/placeforyiming/Divide-and-Merge-LiDAR-Panoptic-Cluster.",
+            "aminer_id": "6147fba55244ab9dcb1b53a5"
+        },
+        "technicalsurvey": {
+            "number": "[74]",
+            "title": "A Technical Survey and Evaluation of Traditional Point Cloud Clustering Methods for LiDAR Panoptic Segmentation",
+            "text": "title={A technical survey and evaluation of traditional point cloud clustering methods for {LiDAR} panoptic segmentation},\n  author={Zhao, Yiming and Zhang, Xiao and Huang, Xinming},\n  booktitle=ICCV,\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A technical survey and evaluation of traditional point cloud clustering methods for {LiDAR} panoptic segmentation",
+                "author": "Zhao, Yiming and Zhang, Xiao and Huang, Xinming",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR panoptic segmentation is a newly proposed technical task for autonomous driving. In contrast to popular end-to-end deep learning solutions, we propose a hybrid method with an existing semantic segmentation network to extract semantic information and a traditional LiDAR point cloud cluster algorithm to split each instance object. We argue geometry-based traditional clustering algorithms are worth being considered by showing a state-of-the-art performance among all published end-to-end deep learning solutions on the panoptic segmentation leaderboard of the SemanticKITTI dataset. To our best knowledge, we are the first to attempt the point cloud panoptic segmentation with clustering algorithms. Therefore, instead of working on new models, we give a comprehensive technical survey in this paper by implementing four typical cluster methods and report their performances on the benchmark. Those four cluster methods are the most representative ones with real-time running speed. They are implemented with C++ in this paper and then wrapped as a python function for seamless integration with the existing deep learning frameworks. We release our code for peer researchers who might be interested in this problem 1 .",
+            "aminer_id": "6125b0005244ab9dcb38a25a"
+        },
+        "slr": {
+            "number": "[75]",
+            "title": "Fast Segmentation of 3D Point Clouds: A Paradigm on LiDAR Data for Autonomous Vehicle Applications",
+            "text": "title={Fast segmentation of 3d point clouds: A paradigm on {LiDAR} data for autonomous vehicle applications},\n  author={Zermas, Dimitris and Izzat, Izzat and Papanikolopoulos, Nikolaos},\n  booktitle={ICRA},\n  year={2017},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fast segmentation of 3d point clouds: A paradigm on {LiDAR} data for autonomous vehicle applications",
+                "author": "Zermas, Dimitris and Izzat, Izzat and Papanikolopoulos, Nikolaos",
+                "booktitle": "ICRA",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "The recent activity in the area of autonomous vehicle navigation has initiated a series of reactions that stirred the automobile industry, pushing for the fast commercialization of this technology which, until recently, seemed futuristic. The LiDAR sensor is able to provide a detailed understanding of the environment surrounding the vehicle making it useful in a plethora of autonomous driving scenarios. Segmenting the 3D point cloud that is provided by modern LiDAR sensors, is the first important step towards the situational assessment pipeline that aims for the safety of the passengers. This step needs to provide accurate segmentation of the ground surface and the obstacles in the vehicle's path, and to process each point cloud in real time. The proposed pipeline aims to solve the problem of 3D point cloud segmentation for data received from a LiDAR in a fast and low complexity manner that targets real world applications. The two-step algorithm first extracts the ground surface in an iterative fashion using deterministically assigned seed points, and then clusters the remaining non-ground points taking advantage of the structure of the LiDAR point cloud. Our proposed algorithms outperform similar approaches in running time, while producing similar results and support the validity of this pipeline as a segmentation tool for real world applications.",
+            "aminer_id": "599c7bfd601a182cd277af5a"
+        },
+        "maskrange": {
+            "number": "[76]",
+            "title": "MaskRange: A Mask-classification Model for Range-view Based LiDAR Segmentation",
+            "text": "title={Maskrange: A mask-classification model for range-view based {LiDAR} segmentation},\n  author={Gu, Yi and Huang, Yuming and Xu, Chengzhong and Kong, Hui},\n  journal={arXiv preprint arXiv:2206.12073},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Maskrange: A mask-classification model for range-view based {LiDAR} segmentation",
+                "author": "Gu, Yi and Huang, Yuming and Xu, Chengzhong and Kong, Hui",
+                "journal": "arXiv preprint arXiv:2206.12073",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Range-view based LiDAR segmentation methods are attractive for practical applications due to their direct inheritance from efficient 2D CNN architectures. In literature, most range-view based methods follow the per-pixel classification paradigm. Recently, in the image segmentation domain, another paradigm formulates segmentation as a mask-classification problem and has achieved remarkable performance. This raises an interesting question: can the mask-classification paradigm benefit the range-view based LiDAR segmentation and achieve better performance than the counterpart per-pixel paradigm? To answer this question, we propose a unified mask-classification model, MaskRange, for the range-view based LiDAR semantic and panoptic segmentation. Along with the new paradigm, we also propose a novel data augmentation method to deal with overfitting, context-reliance, and class-imbalance problems. Extensive experiments are conducted on the SemanticKITTI benchmark. Among all published range-view based methods, our MaskRange achieves state-of-the-art performance with 66.10 mIoU on semantic segmentation and promising results with 53.10 PQ on panoptic segmentation with high efficiency. Our code will be released.",
+            "aminer_id": "62bab8e85aee126c0f6ad90e"
+        },
+        "maskformer": {
+            "number": "[77]",
+            "title": "Per-Pixel Classification is Not All You Need for Semantic Segmentation",
+            "text": "title={Per-Pixel Classification is Not All You Need for Semantic Segmentation},\n  author={Bowen Cheng and Alexander G. Schwing and Alexander Kirillov},\n  booktitle={NeurIPS},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Per-Pixel Classification is Not All You Need for Semantic Segmentation",
+                "author": "Bowen Cheng and Alexander G. Schwing and Alexander Kirillov",
+                "booktitle": "NeurIPS",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Modern approaches typically formulate semantic segmentation as a per-pixel classification task, while instance-level segmentation is handled with an alternative mask classification. Our key insight: mask classification is sufficiently general to solve both semantic- and instance-level segmentation tasks in a unified manner using the exact same model, loss, and training procedure. Following this observation, we propose MaskFormer, a simple mask classification model which predicts a set of binary masks, each associated with a single global class label prediction. Overall, the proposed mask classification-based method simplifies the landscape of effective approaches to semantic and panoptic segmentation tasks and shows excellent empirical results. In particular, we observe that MaskFormer outperforms per-pixel classification baselines when the number of classes is large. Our mask classification-based method outperforms both current state-of-the-art semantic (55.6 mIoU on ADE20K) and panoptic segmentation (52.7 PQ on COCO) models.",
+            "aminer_id": "60efb7915244ab9dcbd261bd"
+        },
+        "torchsparse": {
+            "number": "[78]",
+            "title": "TorchSparse: Efficient Point Cloud Inference Engine",
+            "text": "title = {{TorchSparse: Efficient Point Cloud Inference Engine}},\n  author = {Tang, Haotian and Liu, Zhijian and Li, Xiuyu and Lin, Yujun and Han, Song},\n  booktitle = {Conference on Machine Learning and Systems (MLSys)},\n  year = {2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{TorchSparse: Efficient Point Cloud Inference Engine}",
+                "author": "Tang, Haotian and Liu, Zhijian and Li, Xiuyu and Lin, Yujun and Han, Song",
+                "booktitle": "Conference on Machine Learning and Systems (MLSys)",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Point cloud computation has become an increasingly more important workload for autonomous driving and other applications. Unlike dense 2D computation, point cloud convolution has sparse and irregular computation patterns and thus requires dedicated inference system support with specialized high-performance kernels. While existing point cloud deep learning libraries have developed different dataflows for convolution on point clouds, they assume a single dataflow throughout the execution of the entire model. In this work, we systematically analyze and improve existing dataflows. Our resulting system, TorchSparse++, achieves 2.9×, 3.3×, 2.2× and 1.8× measured end-to-end speedup on an NVIDIA A100 GPU over the state-of-the-art MinkowskiEngine, SpConv 1.2, TorchSparse and SpConv v2 in inference respectively. Furthermore, TorchSparse++ is the only system to date that supports all necessary primitives for 3D segmentation, detection, and reconstruction workloads in autonomous driving. Code is publicly released at https://github.com/mit-han-lab/torchsparse.",
+            "aminer_id": "657880f3939a5f4082e98f64"
+        },
+        "rangeviT": {
+            "number": "[79]",
+            "title": "RangeViT: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving",
+            "text": "title={{RangeViT}: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving},\n  author={Ando, Angelika and Gidaris, Spyros and Bursuc, Andrei and Puy, Gilles and Boulch, Alexandre and Marlet, Renaud},\n  booktitle={CVPR},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{RangeViT}: Towards Vision Transformers for 3D Semantic Segmentation in Autonomous Driving",
+                "author": "Ando, Angelika and Gidaris, Spyros and Bursuc, Andrei and Puy, Gilles and Boulch, Alexandre and Marlet, Renaud",
+                "booktitle": "CVPR",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Casting semantic segmentation of outdoor LiDAR point clouds as a 2D problem, e.g., via range projection, is an effective and popular approach. These projection-based methods usually benefit from fast computations and, when combined with techniques which use other point cloud representations, achieve state-of-the-art results. Today, projection-based methods leverage 2D CNNs but recent advances in computer vision show that vision transformers (ViTs) have achieved state-of-the-art results in many image-based benchmarks. In this work, we question if projection-based methods for 3D semantic segmentation can benefit from these latest improvements on ViTs. We answer positively but only after combining them with three key ingredients: (a) ViTs are notoriously hard to train and require a lot of training data to learn powerful representations. By preserving the same backbone architecture as for RGB images, we can exploit the knowledge from long training on large image collections that are much cheaper to acquire and annotate than point clouds. We reach our best results with pre-trained ViTs on large image datasets. (b) We compensate ViTs' lack of inductive bias by substituting a tailored convolutional stem for the classical linear embedding layer. (c) We refine pixel-wise predictions with a convolutional decoder and a skip connection from the convolutional stem to combine low-level but fine-grained features of the the convolutional stem with the high-level but coarse predictions of the ViT encoder. With these ingredients, we show that our method, called RangeViT, outperforms existing projection-based methods on nuScenes and SemanticKITTI. The code is available at https://github.com/valeoai/rangevit.",
+            "aminer_id": "63d340e890e50fcafd910941"
+        },
+        "3duis": {
+            "number": "[80]",
+            "title": "",
+            "text": "author = {Nunes, Lucas and Chen, Xieyuanli and Marcuzzi, Rodrigo and Osep, Aljosa and Leal-Taix\\'e, Laura and Stachniss, Cyrill and Behley, Jens},\n  title = {{Unsupervised {Class}-{Agnostic} Instance Segmentation of {3D} {LiDAR} Data for Autonomous Vehicles}},\n  journal = {IEEE Robotics and Automation Letters (RA-L)},\n  year = 2022",
+            "type": "article",
+            "fields": {
+                "author": "Nunes, Lucas and Chen, Xieyuanli and Marcuzzi, Rodrigo and Osep, Aljosa and Leal-Taix\\'e, Laura and Stachniss, Cyrill and Behley, Jens",
+                "journal": "IEEE Robotics and Automation Letters (RA-L)"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "tarl": {
+            "number": "[81]",
+            "title": "",
+            "text": "author = {Nunes, Lucas and Wiesmann, Louis and Marcuzzi, Rodrigo and Chen, Xieyuanli and Behley, Jens and Stachniss, Cyrill},\n  title = {{Temporal Consistent {3D} {LiDAR} Representation Learning for Semantic Perception in Autonomous Driving}},\n  booktitle = CVPR,\n  year = 2023",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Nunes, Lucas and Wiesmann, Louis and Marcuzzi, Rodrigo and Chen, Xieyuanli and Behley, Jens and Stachniss, Cyrill"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "unit": {
+            "number": "[82]",
+            "title": "UNIT: Unsupervised Online Instance Segmentation Through Time",
+            "text": "title = {{UNIT}: Unsupervised Online Instance Segmentation through Time},\n  author = {Corentin Sautier and Gilles Puy and Alexandre Boulch and Renaud Marlet and Vincent Lepetit},\n  booktitle={3DV},\n  year = {2025}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{UNIT}: Unsupervised Online Instance Segmentation through Time",
+                "author": "Corentin Sautier and Gilles Puy and Alexandre Boulch and Renaud Marlet and Vincent Lepetit",
+                "booktitle": "3DV",
+                "year": "2025"
+            },
+            "ref_source": "bib",
+            "abstract": "Online object segmentation and tracking in Lidar point clouds enables autonomous agents to understand their surroundings and make safe decisions. Unfortunately, manual annotations for these tasks are prohibitively costly. We tackle this problem with the task of class-agnostic unsupervised online instance segmentation and tracking. To that end, we leverage an instance segmentation backbone and propose a new training recipe that enables the online tracking of objects. Our network is trained on pseudo-labels, eliminating the need for manual annotations. We conduct an evaluation using metrics adapted for temporal instance segmentation. Computing these metrics requires temporally-consistent instance labels. When unavailable, we construct these labels using the available 3D bounding boxes and semantic labels in the dataset. We compare our method against strong baselines and demonstrate its superiority across two different outdoor Lidar datasets.",
+            "aminer_id": "66e3a00801d2a3fbfc96a8ef"
+        },
+        "rusu2010semantic": {
+            "number": "[83]",
+            "title": "Semantic 3D Object Maps for Everyday Manipulation in Human Living Environments",
+            "text": "title={Semantic 3D object maps for everyday manipulation in human living environments},\n  author={Rusu, Radu Bogdan},\n  journal={KI-K{\\\"u}nstliche Intelligenz},\n  volume={24},\n  pages={345--348},\n  year={2010},",
+            "type": "article",
+            "fields": {
+                "title": "Semantic 3D object maps for everyday manipulation in human living environments",
+                "author": "Rusu, Radu Bogdan",
+                "journal": "KI-K{\\\"u}nstliche Intelligenz",
+                "volume": "24",
+                "pages": "345--348",
+                "year": "2010"
+            },
+            "ref_source": "bib",
+            "abstract": "Environment models serve as important resources for an autonomous robot by providing it with the necessary task-relevant information about its habitat. Their use enables robots to perform their tasks more reliably, flexibly, and efficiently. As autonomous robotic platforms get more sophisticated manipulation capabilities, they also need more expressive and comprehensive environment models: for manipulation purposes their models have to include the objects present in the world, together with their position, form, and other aspects, as well as an interpretation of these objects with respect to the robot tasks. The dissertation presented in this article (Rusu, PhD thesis, 2009 ) proposes Semantic 3D Object Models as a novel representation of the robot’s operating environment that satisfies these requirements and shows how these models can be automatically acquired from dense 3D range data.",
+            "aminer_id": "53e998d5b7602d970210ff5c"
+        },
+        "pcl": {
+            "number": "[84]",
+            "title": "3D is Here: Point Cloud Library (PCL)",
+            "text": "author    = {Radu Bogdan Rusu and Steve Cousins},\n  title     = {{3D is here: Point Cloud Library (PCL)}},\n  booktitle = {ICRA},\n  year      = {2011},",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Radu Bogdan Rusu and Steve Cousins",
+                "title": "{3D is here: Point Cloud Library (PCL)}",
+                "booktitle": "ICRA",
+                "year": "2011"
+            },
+            "ref_source": "bib",
+            "abstract": "With the advent of new, low-cost 3D sensing hardware such as the Kinect, and continued efforts in advanced point cloud processing, 3D perception gains more and more importance in robotics, as well as other fields.In this paper we present one of our most recent initiatives in the areas of point cloud perception: PCL (Point Cloud Library - http://pointclouds.org). PCL presents an advanced and extensive approach to the subject of 3D perception, and it's meant to provide support for all the common 3D building blocks that applications need. The library contains state-of-the art algorithms for: filtering, feature estimation, surface reconstruction, registration, model fitting and segmentation. PCL is supported by an international community of robotics and perception researchers. We provide a brief walkthrough of PCL including its algorithmic capabilities and implementation strategies.",
+            "aminer_id": "53e9b008b7602d9703a5dff2"
+        },
+        "slic": {
+            "number": "[85]",
+            "title": "SLIC Superpixels Compared to State-of-the-Art Superpixel Methods",
+            "text": "title={{SLIC} superpixels compared to state-of-the-art superpixel methods},\n  author={Achanta, Radhakrishna and Shaji, Appu and Smith, Kevin and Lucchi, Aurelien and Fua, Pascal and S{\\\"u}sstrunk, Sabine},\n  journal={TPAMI},\n  year={2012},",
+            "type": "article",
+            "fields": {
+                "title": "{SLIC} superpixels compared to state-of-the-art superpixel methods",
+                "author": "Achanta, Radhakrishna and Shaji, Appu and Smith, Kevin and Lucchi, Aurelien and Fua, Pascal and S{\\\"u}sstrunk, Sabine",
+                "journal": "TPAMI",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "Computer vision applications have come to rely increasingly on superpixels in recent years, but it is not always clear what constitutes a good superpixel algorithm.In an effort to understand the benefits and drawbacks of existing methods, we empirically compare five state-of-the-art superpixel algorithms for their ability to adhere to image boundaries, speed, memory efficiency, and their impact on segmentation performance.We then introduce a new superpixel algorithm, simple linear iterative clustering (SLIC), which adapts a k-means clustering approach to efficiently generate superpixels.Despite its simplicity, SLIC adheres to boundaries as well as or better than previous methods.At the same time, it is faster and more memory efficient, improves segmentation performance, and is straightforward to extend to supervoxel generation.",
+            "aminer_id": "5390b7fe20f70186a0f263bf"
+        },
+        "cutmix": {
+            "number": "[86]",
+            "title": "CutMix: Regularization Strategy to Train Strong Classifiers with Localizable Features",
+            "text": "title={{CutMix}: Regularization strategy to train strong classifiers with localizable features},\n  author={Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon},\n  booktitle={ICCV},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{CutMix}: Regularization strategy to train strong classifiers with localizable features",
+                "author": "Yun, Sangdoo and Han, Dongyoon and Oh, Seong Joon and Chun, Sanghyuk and Choe, Junsuk and Yoo, Youngjoon",
+                "booktitle": "ICCV",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Regional dropout strategies have been proposed to enhance the performance of convolutional neural network classifiers. They have proved to be effective for guiding the model to attend on less discriminative parts of objects (e.g. leg as opposed to head of a person), thereby letting the network generalize better and have better object localization capabilities. On the other hand, current methods for regional dropout remove informative pixels on training images by overlaying a patch of either black pixels or random noise. Such removal is not desirable because it leads to information loss and inefficiency during training. We therefore propose the CutMix augmentation strategy: patches are cut and pasted among training images where the ground truth labels are also mixed proportionally to the area of the patches. By making efficient use of training pixels and retaining the regularization effect of regional dropout, CutMix consistently outperforms the state-of-the-art augmentation strategies on CIFAR and ImageNet classification tasks, as well as on the ImageNet weakly-supervised localization task. Moreover, unlike previous augmentation methods, our CutMix-trained ImageNet classifier, when used as a pretrained model, results in consistent performance gains in Pascal detection and MS-COCO image captioning benchmarks. We also show that CutMix improves the model robustness against input corruptions and its out-of-distribution detection performances. Source code and pretrained models are available at https://github.com/clovaai/CutMix-PyTorch .",
+            "aminer_id": "5cda948de1cd8ecf46bb4af8"
+        },
+        "polarmix": {
+            "number": "[87]",
+            "title": "PolarMix: A General Data Augmentation Technique for LiDAR Point Clouds.",
+            "text": "title={{PolarMix}: A general data augmentation technique for lidar point clouds},\n  author={Xiao, Aoran and Huang, Jiaxing and Guan, Dayan and Cui, Kaiwen and Lu, Shijian and Shao, Ling},\n  journal={NeurIPS},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "{PolarMix}: A general data augmentation technique for lidar point clouds",
+                "author": "Xiao, Aoran and Huang, Jiaxing and Guan, Dayan and Cui, Kaiwen and Lu, Shijian and Shao, Ling",
+                "journal": "NeurIPS",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "LiDAR point clouds, which are usually scanned by rotating LiDAR sensors continuously, capture precise geometry of the surrounding environment and are crucial to many autonomous detection and navigation tasks. Though many 3D deep architectures have been developed, efficient collection and annotation of large amounts of point clouds remain one major challenge in the analytic and understanding of point cloud data. This paper presents PolarMix, a point cloud augmentation technique that is simple and generic but can mitigate the data constraint effectively across different perception tasks and scenarios. PolarMix enriches point cloud distributions and preserves point cloud fidelity via two cross-scan augmentation strategies that cut, edit, and mix point clouds along the scanning direction. The first is scene-level swapping which exchanges point cloud sectors of two LiDAR scans that are cut along the azimuth axis. The second is instance-level rotation and paste which crops point instances from one LiDAR scan, rotates them by multiple angles (to create multiple copies), and paste the rotated point instances into other scans. Extensive experiments show that PolarMix achieves superior performance consistently across different perception tasks and scenarios. In addition, it can work as plug-and-play for various 3D deep architectures and also performs well for unsupervised domain adaptation.",
+            "aminer_id": "62ea18d35aee126c0fca101c"
+        },
+        "lasermix": {
+            "number": "[88]",
+            "title": "LaserMix for Semi-Supervised LiDAR Semantic Segmentation",
+            "text": "title={{LaserMix} for semi-supervised lidar semantic segmentation},\n  author={Kong, Lingdong and Ren, Jiawei and Pan, Liang and Liu, Ziwei},\n  booktitle={CVPR},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{LaserMix} for semi-supervised lidar semantic segmentation",
+                "author": "Kong, Lingdong and Ren, Jiawei and Pan, Liang and Liu, Ziwei",
+                "booktitle": "CVPR",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Densely annotating LiDAR point clouds is costly, which often restrains the scalability of fully-supervised learning methods. In this work, we study the underexplored semi-supervised learning (SSL) in LiDAR semantic segmentation. Our core idea is to leverage the strong spatial cues of LiDAR point clouds to better exploit unlabeled data. We propose LaserMix to mix laser beams from different LiDAR scans and then encourage the model to make consistent and confident predictions before and after mixing. Our framework has three appealing properties. 1) Generic: LaserMix is agnostic to LiDAR representations (e.g., range view and voxel), and hence our SSL framework can be universally applied. 2) Statistically grounded: We provide a detailed analysis to theoretically explain the applicability of the proposed framework. 3) Effective: Comprehensive experimental analysis on popular LiDAR segmentation datasets (nuScenes, SemanticKITTI, and ScribbleKITTI) demonstrates our effectiveness and superiority. Notably, we achieve competitive results over fully-supervised counterparts with 2× to 5× fewer labels and improve the supervised-only baseline significantly by relatively 10.8%. We hope this concise yet high-performing framework could facilitate future research in semi-supervised LiDAR segmentation. Code is publicly available 1 1 https://github.com/ldkong1205/LaserMix..",
+            "aminer_id": "62c2a9595aee126c0fcf0a45"
+        },
+        "modest": {
+            "number": "[89]",
+            "title": "Learning to Detect Mobile Objects from LiDAR Scans Without Labels",
+            "text": "title = {Learning to Detect Mobile Objects from LiDAR Scans Without Labels},\n  author = {You, Yurong and Luo, Katie Z and Phoo, Cheng Perng and Chao, Wei-Lun and Sun, Wen and Hariharan, Bharath and Campbell, Mark and Weinberger, Kilian Q.},\n  booktitle = CVPR,\n  year = {2022},\n  month = jun",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to Detect Mobile Objects from LiDAR Scans Without Labels",
+                "author": "You, Yurong and Luo, Katie Z and Phoo, Cheng Perng and Chao, Wei-Lun and Sun, Wen and Hariharan, Bharath and Campbell, Mark and Weinberger, Kilian Q.",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Current 3D object detectors for autonomous driving are almost entirely trained on human-annotated data. Although of high quality, the generation of such data is laborious and costly, restricting them to a few specific locations and object types. This paper proposes an alternative approach entirely based on unlabeled data, which can be collected cheaply and in abundance almost everywhere on earth. Our approach leverages several simple common sense heuristics to create an initial set of approximate seed labels. For example, relevant traffic participants are generally not persistent across multiple traversals of the same route, do not fly, and are never under ground. We demonstrate that these seed labels are highly effective to bootstrap a surprisingly accurate detector through repeated self-training without a single human annotated label. Code is available at https://github.com/YurongYou/MODEST.",
+            "aminer_id": "62451c2b5aee126c0f47ab8d"
+        },
+        "waymo": {
+            "number": "[90]",
+            "title": "Scalability in Perception for Autonomous Driving: Waymo Open Dataset",
+            "text": "author = {Sun, Pei and Kretzschmar, Henrik and Dotiwalla, Xerxes and Chouard, Aurelien and Patnaik, Vijaysai and Tsui, Paul and Guo, James and Zhou, Yin and Chai, Yuning and Caine, Benjamin and Vasudevan, Vijay and Han, Wei and Ngiam, Jiquan and Zhao, Hang and Timofeev, Aleksei and Ettinger, Scott and Krivokon, Maxim and Gao, Amy and Joshi, Aditya and Zhang, Yu and Shlens, Jonathon and Chen, Zhifeng and Anguelov, Dragomir},\n    title = {{Scalability in Perception for Autonomous Driving: Waymo Open Dataset}},\n    booktitle = CVPR, \n    year = {2020}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Sun, Pei and Kretzschmar, Henrik and Dotiwalla, Xerxes and Chouard, Aurelien and Patnaik, Vijaysai and Tsui, Paul and Guo, James and Zhou, Yin and Chai, Yuning and Caine, Benjamin and Vasudevan, Vijay and Han, Wei and Ngiam, Jiquan and Zhao, Hang and Timofeev, Aleksei and Ettinger, Scott and Krivokon, Maxim and Gao, Amy and Joshi, Aditya and Zhang, Yu and Shlens, Jonathon and Chen, Zhifeng and Anguelov, Dragomir",
+                "title": "{Scalability in Perception for Autonomous Driving: Waymo Open Dataset}",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5df0be543a55ac84bd7f4a9f"
+        },
+        "superpointgraph": {
+            "number": "[91]",
+            "title": "Scalable 3D Panoptic Segmentation As Superpoint Graph Clustering",
+            "text": "title={Scalable 3D panoptic segmentation as superpoint graph clustering},\n  author={Robert, Damien and Raguet, Hugo and Landrieu, Loic},\n  booktitle={3DV},\n  year={2024},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Scalable 3D panoptic segmentation as superpoint graph clustering",
+                "author": "Robert, Damien and Raguet, Hugo and Landrieu, Loic",
+                "booktitle": "3DV",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a highly efficient method for panoptic segmentation of large 3D point clouds by redefining this task as a scalable graph clustering problem. This approach can be trained using only local auxiliary tasks, thereby eliminating the resource-intensive instance-matching step during training. Moreover, our formulation can easily be adapted to the superpoint paradigm, further increasing its efficiency. This allows our model to process scenes with millions of points and thousands of objects in a single inference. Our method, called SuperCluster, achieves a new state-of-the-art panoptic segmentation performance for two indoor scanning datasets: $50.1$ PQ ($+7.8$) for S3DIS Area~5, and $58.7$ PQ ($+25.2$) for ScanNetV2. We also set the first state-of-the-art for two large-scale mobile mapping benchmarks: KITTI-360 and DALES. With only $209$k parameters, our model is over $30$ times smaller than the best-competing method and trains up to $15$ times faster. Our code and pretrained models are available at https://github.com/drprojects/superpoint_transformer.",
+            "aminer_id": "65a49ab8939a5f4082ebcd64"
+        },
+        "stackoverflow": {
+            "number": "[92]",
+            "title": "Algorithm to find the minimum-area-rectangle for given points in order to compute the major and minor axis length",
+            "text": "title = {Algorithm to find the minimum-area-rectangle for given points in order to compute the major and minor axis length},\n    author = {Gianni Spear},\n    howpublished = {\\url{https://stackoverflow.com/questions/13542855/algorithm-to-find-the-minimum-area-rectangle-for-given-points-in-order-to-comput}},\n    year = {2012},",
+            "type": "misc",
+            "fields": {
+                "title": "Algorithm to find the minimum-area-rectangle for given points in order to compute the major and minor axis length",
+                "author": "Gianni Spear",
+                "howpublished": "\\url{https://stackoverflow.com/questions/13542855/algorithm-to-find-the-minimum-area-rectangle-for-given-points-in-order-to-comput}",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "carsize_US": {
+            "number": "[93]",
+            "title": "Supersized: A Decade-Long Growth of U.S. Cars Reveals a Bigger Picture",
+            "text": "title = {Supersized: A Decade-Long Growth of {U.S.} Cars Reveals a Bigger Picture},\n    author = {FINN},\n    howpublished = {\\url{https://www.finn.com/en-DE/campaign/supersized}},\n    year = {2024}",
+            "type": "misc",
+            "fields": {
+                "title": "Supersized: A Decade-Long Growth of {U.S.} Cars Reveals a Bigger Picture",
+                "author": "FINN",
+                "howpublished": "\\url{https://www.finn.com/en-DE/campaign/supersized}",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "carsize_EUR": {
+            "number": "[94]",
+            "title": "Average Vehicle Size In The US And Europe Is Larger Than Ever",
+            "text": "title = {Average Vehicle Size In The {US} And Europe Is Larger Than Ever},\n    author = {Motor1},\n    howpublished = {\\url{https://www.motor1.com/news/707996/vehicles-larger-than-ever-usa-europe/}},\n    year = {2024}",
+            "type": "misc",
+            "fields": {
+                "title": "Average Vehicle Size In The {US} And Europe Is Larger Than Ever",
+                "author": "Motor1",
+                "howpublished": "\\url{https://www.motor1.com/news/707996/vehicles-larger-than-ever-usa-europe/}",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "bikesize": {
+            "number": "[95]",
+            "title": "One Bike Average Size",
+            "text": "title = {One Bike Average Size},\n    author = {thebestbikelock.com},\n    howpublished = {\\url{https://thebestbikelock.com/wp-content/uploads/2020/01/one-bike-average-size.gif}},\n    year = {2020}",
+            "type": "misc",
+            "fields": {
+                "title": "One Bike Average Size",
+                "author": "thebestbikelock.com",
+                "howpublished": "\\url{https://thebestbikelock.com/wp-content/uploads/2020/01/one-bike-average-size.gif}",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "motorcyclesize": {
+            "number": "[96]",
+            "title": "What is the average size of a motorbike",
+            "text": "title = {What is the average size of a motorbike},\n    author = {carparkjourney.wordpress.com},\n    howpublished = {\\url{https://carparkjourney.wordpress.com/2013/07/16/what-is-the-average-size-of-a-motorbike/}},\n    year = {2013}",
+            "type": "misc",
+            "fields": {
+                "title": "What is the average size of a motorbike",
+                "author": "carparkjourney.wordpress.com",
+                "howpublished": "\\url{https://carparkjourney.wordpress.com/2013/07/16/what-is-the-average-size-of-a-motorbike/}",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "height": {
+            "number": "[97]",
+            "title": "Average human height by country",
+            "text": "title = {Average human height by country},\n    author = {Wikipedia},\n    howpublished = {\\url{https://en.wikipedia.org/wiki/Average_human_height_by_country}},\n    year = {2024}",
+            "type": "misc",
+            "fields": {
+                "title": "Average human height by country",
+                "author": "Wikipedia",
+                "howpublished": "\\url{https://en.wikipedia.org/wiki/Average_human_height_by_country}",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "armspan": {
+            "number": "[98]",
+            "title": "All-age Relationship Between Arm Span and Height in Different Ethnic Groups.",
+            "text": "title = {All-age relationship between arm span and height in different ethnic groups},\n    author = {Quanjer, Philip H and Capderou, André and Mazicioglu, Mumtaz M and Aggarwal Ashutosh N and Banik Sudip Datta and Popovic Stevo and Tayie Francis A and Golshan Mohammad, Ip Mary S M, Zelter Marc},\n    booktitle = {European Respiratory Journal},\n    year = {2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "All-age relationship between arm span and height in different ethnic groups",
+                "author": "Quanjer, Philip H and Capderou, André and Mazicioglu, Mumtaz M and Aggarwal Ashutosh N and Banik Sudip Datta and Popovic Stevo and Tayie Francis A and Golshan Mohammad, Ip Mary S M, Zelter Marc",
+                "booktitle": "European Respiratory Journal",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "The objective of the present study was to establish multiethnic, all-age prediction equations for estimating stature from arm span in males and females.The arm span/height ratio (ASHR) from 13 947 subjects (40.9% females), aged 5–99 years, from nine centres (in China, Europe, Ghana, India and Iran) was used to predict ASHR as a function of age using the lambda, mu and sigma method. Z-scores for forced expiratory volume in 1 s (FEV1), forced vital capacity (FVC) and FEV1/FVC in 1503 patients were calculated using measured height and height calculated from arm span and age.ASHR varied nonlinearly with age, was higher in males than in females and differed significantly between the nine sites. The data clustered into four groups: Asia, Europe, Ghana and Iran. Average predicted FEV1, FVC and FEV1/FVC using measured or predicted height did not differ, with standard deviations of 4.6% for FEV1, 5.0% for FVC and 0.3% for FEV1/FVC. The percentages of disparate findings for a low FEV1, FVC and FEV1/FVC in patients, calculated using measured or predicted height, were 4.2%, 3.2% and 0.4%, respectively; for a restrictive pattern, there were 1.0% disparate findings.Group- and sex-specific equations for estimating height from arm span and age to derive predicted values for spirometry are clinically useful.",
+            "aminer_id": "55a67fad65ce054aad699ea5"
+        },
+        "wang2020trainingermany": {
+            "number": "[99]",
+            "title": "Train in Germany, Test in the USA: Making 3D Object Detectors Generalize",
+            "text": "author={Wang, Yan and Chen, Xiangyu and You, Yurong and Li, Li Erran and Hariharan, Bharath and Campbell, Mark and Weinberger, Kilian Q. and Chao, Wei-Lun},\n  booktitle=CVPR, \n  title={Train in {Germany}, Test in the {USA}: Making {3D} Object Detectors Generalize}, \n  year={2020},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Wang, Yan and Chen, Xiangyu and You, Yurong and Li, Li Erran and Hariharan, Bharath and Campbell, Mark and Weinberger, Kilian Q. and Chao, Wei-Lun",
+                "title": "Train in {Germany}, Test in the {USA}: Making {3D} Object Detectors Generalize",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "In the domain of autonomous driving, deep learning has substantially improvedthe 3D object detection accuracy for LiDAR and stereo camera data alike. Whiledeep networks are great at generalization, they are also notorious to over-fitto all kinds of spurious artifacts, such as brightness, car sizes and models,that may appear consistently throughout the data. In fact, most datasets forautonomous driving are collected within a narrow subset of cities within onecountry, typically under similar weather conditions. In this paper we considerthe task of adapting 3D object detectors from one dataset to another. Weobserve that naively, this appears to be a very challenging task, resulting indrastic drops in accuracy levels. We provide extensive experiments toinvestigate the true adaptation challenges and arrive at a surprisingconclusion: the primary adaptation hurdle to overcome are differences in carsizes across geographic areas. A simple correction based on the average carsize yields a strong correction of the adaptation gap. Our proposed method issimple and easily incorporated into most 3D object detection frameworks. Itprovides a first baseline for 3D object detection adaptation across countries,and gives hope that the underlying problem may be more within grasp than onemay have hoped to believe. Our code is available athttps://github.com/cxy1997/3D_adapt_auto_driving.",
+            "aminer_id": "5ec3ae5291e0112b16089e4e"
+        },
+        "resnetstrikesback": {
+            "number": "[100]",
+            "title": "ResNet Strikes Back: an Improved Training Procedure in Timm",
+            "text": "title={Resnet strikes back: An improved training procedure in timm},\n  author={Wightman, Ross and Touvron, Hugo and J{\\'e}gou, Herv{\\'e}},\n  journal={arXiv preprint arXiv:2110.00476},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Resnet strikes back: An improved training procedure in timm",
+                "author": "Wightman, Ross and Touvron, Hugo and J{\\'e}gou, Herv{\\'e}",
+                "journal": "arXiv preprint arXiv:2110.00476",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "The influential Residual Networks designed by He et al. remain the gold-standard architecture in numerous scientific publications. They typically serve as the default architecture in studies, or as baselines when new architectures are proposed. Yet there has been significant progress on best practices for training neural networks since the inception of the ResNet architecture in 2015. Novel optimization & data-augmentation have increased the effectiveness of the training recipes. In this paper, we re-evaluate the performance of the vanilla ResNet-50 when trained with a procedure that integrates such advances. We share competitive training settings and pre-trained models in the timm open-source library, with the hope that they will serve as better baselines for future work. For instance, with our more demanding training setting, a vanilla ResNet-50 reaches 80.4% top-1 accuracy at resolution 224x224 on ImageNet-val without extra data or distillation. We also report the performance achieved with popular models with our training procedure.",
+            "aminer_id": "615a709d5244ab9dcb3a72e9"
+        },
+        "rbnn": {
+            "number": "[101]",
+            "title": "A clustering method for efficient segmentation of 3D laser data",
+            "text": "title={A clustering method for efficient segmentation of 3D laser data},\n  author={Klasing, Klaas and Wollherr, Dirk and Buss, Martin},\n  booktitle={ICRA},\n  year={2008},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A clustering method for efficient segmentation of 3D laser data",
+                "author": "Klasing, Klaas and Wollherr, Dirk and Buss, Martin",
+                "booktitle": "ICRA",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we present a novel method for the efficient segmentation of 3D laser range data. The proposed algorithm is based on a radially bounded nearest neighbor strategy and requires only two parameters. It yields deterministic, repeatable results and does not depend on any initialization procedure. The efficiency of the method is verified with synthetic and real 3D data.",
+            "aminer_id": "53e99db8b7602d970267acac"
+        },
+        "supervoxels": {
+            "number": "[102]",
+            "title": "Voxel cloud connectivity segmentation-supervoxels for point clouds",
+            "text": "title={Voxel cloud connectivity segmentation-supervoxels for point clouds},\n  author={Papon, Jeremie and Abramov, Alexey and Schoeler, Markus and Worgotter, Florentin},\n  booktitle={CVPR},\n  year={2013}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Voxel cloud connectivity segmentation-supervoxels for point clouds",
+                "author": "Papon, Jeremie and Abramov, Alexey and Schoeler, Markus and Worgotter, Florentin",
+                "booktitle": "CVPR",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390bd1520f70186a0f43cee"
+        },
+        "clustering_1": {
+            "number": "[103]",
+            "title": "Fast Range Image-Based Segmentation of Sparse 3D Laser Scans for Online Operation",
+            "text": "title={Fast range image-based segmentation of sparse 3D laser scans for online operation},\n  author={Bogoslavskyi, Igor and Stachniss, Cyrill},\n  booktitle={IROS},\n  year={2016},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fast range image-based segmentation of sparse 3D laser scans for online operation",
+                "author": "Bogoslavskyi, Igor and Stachniss, Cyrill",
+                "booktitle": "IROS",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Object segmentation from 3D range data is an important topic in mobile robotics. A robot navigating in a dynamic environment needs to be aware of objects that might change or move. A segmentation of the laser scans into individual objects is typically the first processing step before a further analysis is performed. In this paper, we present a fast method that segments 3D range data into different objects, runs online, and has small computational demands. Our approach avoids the explicit computation of the 3D point cloud and performs all computations directly on a 2D range image, which enables a fast segmentation for each scan. A further relevant aspect of our method is that we can segment objects even if the 3D data is sparse. This is important for scanners such as the new Velodyne Puck. We implemented our approach in C++ and ROS and thoroughly tested it using different 3D scanners. Our method can operate at over 100 Hz for the 64-beam Velodyne scanner on a single core of a mobile CPU while producing high quality segmentation results. In addition to this, we make the source code for the approach available.",
+            "aminer_id": "58caa4cc0cf2b22b9fa49774"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 103,
+        "citation_types": {
+            "other": 103
+        }
+    }
+}

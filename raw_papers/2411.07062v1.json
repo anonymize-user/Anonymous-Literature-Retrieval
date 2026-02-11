@@ -1,0 +1,221 @@
+{
+    "topic": "16 Years of SPEC Power: An Analysis of x86 Energy Efficiency Trends",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Background and Related Work",
+            "refs": [
+                "[10]",
+                "[4]",
+                "[8]",
+                "[1]",
+                "[7]",
+                "[2]",
+                "[5]",
+                "[6]",
+                "[9]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Performance and Efficiency Trends",
+            "refs": [
+                "[11]",
+                "[12]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Idle Power Trend Analysis",
+            "refs": [
+                "[13]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations and Generalization",
+            "refs": [
+                "[15]",
+                "[7]",
+                "[14]",
+                "[6]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion and Future Work",
+            "refs": [
+                "[9]"
+            ],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgments",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Availability",
+            "refs": [
+                "[16]"
+            ],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        }
+    ],
+    "references": {
+        "specpower_ssjdesign": {
+            "number": "[1]",
+            "title": "Design document ssj workload specpower_ssj2008",
+            "text": "\\bibitem{specpower_ssjdesign} {SPEC}, ``Design document ssj workload specpower\\_ssj2008,'' 2012, \\url{https://www.spec.org/power/docs/SPECpower_ssj2008-Design_ssj.pdf}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "specpower_andtools": {
+            "number": "[2]",
+            "title": "Measuring and Benchmarking Power Consumption and Energy Efficiency",
+            "text": "\\bibitem{specpower_andtools} J.~von Kistowski, K.-D. Lange, J.~A. Arnold, S.~Sharma, J.~Pais, and H.~Block, ``Measuring and benchmarking power consumption and energy efficiency,'' in \\emph{Companion of the 2018 ACM/SPEC International Conference on Performance Engineering}, ser. ICPE '18.\\hskip 1em plus 0.5em minus 0.4em\\relax New York, NY, USA: Association for Computing Machinery, 2018, p. 57–65, \\href{https://doi.org/10.1145/3185768.3185775}{DOI: 10.1145/3185768.3185775}.",
+            "ref_source": "bbl",
+            "abstract": "Energy efficiency is an important quality of computing systems. Researchers try to analyze, model, and predict the energy efficiency and power consumption of systems. Such research requires energy efficiency and power measurements, as well as measurement methodologies. Many such methodologies exist. However, they do not account for multiple load levels and workload combinations. In this paper, we introduce the SPEC power methodology and the tools implementing this methodology. We discuss the PTDaemon power measurement tool and the Chauffeur power benchmarking framework. We present the SPEC Server Efficiency Rating Tool (SERT), the workloads it contains and introduce the industry-standard compute efficiency benchmark SPECpower_ssj2008. Finally, we show some examples of how the SPEC power tools have been used in research so far.",
+            "aminer_id": "5aed147c17c44a4438153f0e"
+        },
+        "Gough2015": {
+            "number": "[3]",
+            "title": "Energy Efficient Servers: Blueprints for Data Center Optimization",
+            "text": "\\bibitem{Gough2015} C.~Gough, I.~Steiner, and W.~Saunders, \\emph{Energy Efficient Servers: Blueprints for Data Center Optimization}, 2015, \\href{https://doi.org/10.1007/978-1-4302-6638-9}{DOI: 10.1007/978-1-4302-6638-9}.",
+            "ref_source": "bbl",
+            "abstract": "Energy Efficient Servers: Blueprints for Data Center Optimization introduces engineers and IT professionals to the power management technologies and techniques used in energy efficient servers. The book includes a deep examination of different features used in processors, memory, interconnects, I/O devices, and other platform components. It outlines the power and performance impact of these features and the role firmware and software play in initialization and control. Using examples from cloud, HPC, and enterprise environments, the book demonstrates how various power management technologies are utilized across a range of server utilization. It teaches the reader how to monitor, analyze, and optimize their environment to best suit their needs. It shares optimization techniques used by data center administrators and system optimization experts at the worlds most advanced data centers. What youll learn Develop a deep understanding of power management in modern servers from data center and systems software to low-level processor technologies and all the pieces in-between. Build an understanding of technologies used in cores, caches, memory, system agents, processor interconnects, and PCI-E to manage power. Learn techniques for monitoring and characterizing server power management technologies including component and system level impact. Develop strategies to improve infrastructure utilization and cost-effectiveness, to guide configuration and purchasing decisions, and to enhance application deployment. Learn new techniques to optimize a server for energy efficiency while still meeting the service level requirements of software, related systems in the data center, and end customers.Who this book is for Primarily: Engineers and IT professionals. More broadly, the book appeals to a wide technologist audience anyone who designs or relies on a server to run services and applications from software engineers, to system administrators, to equipment and system manufacturers, to data center operators. Table of ContentsForeword/Preface Chapter 1: Why Data Center Efficiency MattersChapter 2: CPU and Memory Power ManagementChapter 3: Memory and I/O Power ManagementChapter 4: Software ArchitectureChapter 5: BIOS and Management FirmwareChapter 6: Operating SystemsChapter 7: MonitoringChapter 8: Characterization and OptimizationChapter 9: Data Center ManagementChapter 10: Terms and Technology Appendix",
+            "aminer_id": "554a4a440cf2c69e96487243"
+        },
+        "specpower_proportionality": {
+            "number": "[4]",
+            "title": "Power Signature Analysis of the Specpower_ssj2008 Benchmark",
+            "text": "\\bibitem{specpower_proportionality} C.-H. Hsu and S.~W. Poole, ``Power signature analysis of the specpower\\_ssj2008 benchmark,'' in \\emph{(IEEE ISPASS) IEEE International Symposium on Performance Analysis of Systems and Software}, 2011, pp. 227--236, \\href{https://doi.org/10.1109/ISPASS.2011.5762739}{DOI: 10.1109/ISPASS.2011.5762739}.",
+            "ref_source": "bbl",
+            "abstract": "As the power consumption of a server system becomes a mainstream concern in enterprise environments, understanding the system's power behavior at varying utilization levels provides us a key to select appropriate energy-efficiency optimizations. In this work, we present an in-depth analysis of 177 SPECpower_ssj2008 results published between 2007-2010 to understand the changes of server's power behavior over time. In particular, we identified simple nonlinear functions appropriate for modeling the power behavior of today's, aggressively power-managed, machines. We consider this work as an important first step towards developing capability for power signature analysis of a high-end computer system.",
+            "aminer_id": "5390b0ca20f70186a0ed9909"
+        },
+        "specpower_proportionality2": {
+            "number": "[5]",
+            "title": "Revisiting Server Energy Proportionality",
+            "text": "\\bibitem{specpower_proportionality2} ------, ``Revisiting server energy proportionality,'' in \\emph{2013 42nd International Conference on Parallel Processing}, 2013, pp. 834--840, \\href{https://doi.org/10.1109/ICPP.2013.99}{DOI: 10.1109/ICPP.2013.99}.",
+            "ref_source": "bbl",
+            "abstract": "Server energy proportionality refers to a proposed ideal that a server consumes energy proportional to its utilization level. Since its introduction in 2007, the ideal has been adopted by the server industry as a design goal to further optimize the energy efficiency of their servers. There have also been studies on how energy proportionality has evolved over time. However, most of these efforts assume linear proportionality. Must energy proportionality be linear? In this paper we look into this problem. We analyze 410 SPECpower_ssj2008 benchmark results published from 2007 to 2012, and find that modern servers have pushed server energy proportionality from linear to quadratic. We also observe a strong correlation in time between this change and dynamic over-clocking (such as Intel Turbo Boost). We present all these findings in the paper, along with discussions on the implications of super-linearity in server energy proportionality.",
+            "aminer_id": "5390bed320f70186a0f4f5a4"
+        },
+        "green500": {
+            "number": "[6]",
+            "title": "The Green500 List: Encouraging Sustainable Supercomputing",
+            "text": "\\bibitem{green500} W.-c. Feng and K.~Cameron, ``The green500 list: Encouraging sustainable supercomputing,'' \\emph{Computer}, vol.~40, no.~12, pp. 50--55, 2007, \\href{https://doi.org/10.1109/MC.2007.445}{DOI: 10.1109/MC.2007.445}.",
+            "ref_source": "bbl",
+            "abstract": "The performance-at-any-cost design mentality ignores supercomputers' excessive power consumption and need for heat dissipation and will ultimately limit their performance. Without fundamental change in the design of supercomputing systems, the performance advances common over the past two decades won't continue.",
+            "aminer_id": "53909fca20f70186a0e44c57"
+        },
+        "SPEComp2012": {
+            "number": "[7]",
+            "title": "Spec omp2012 --- an application benchmark suite for parallel systems using openmp",
+            "text": "\\bibitem{SPEComp2012} M.~S. M{\\\"u}ller, J.~Baron, W.~C. Brantley, H.~Feng, D.~Hackenberg, R.~Henschel, G.~Jost, D.~Molka, C.~Parrott, J.~Robichaux, P.~Shelepugin, M.~van Waveren, B.~Whitney, and K.~Kumaran, ``Spec omp2012 --- an application benchmark suite for parallel systems using openmp,'' in \\emph{OpenMP in a Heterogeneous World}, B.~M. Chapman, F.~Massaioli, M.~S. M{\\\"u}ller, and M.~Rorro, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2012, pp. 223--236, \\href{https://doi.org/10.1007/978-3-642-30961-8_17}{DOI: 10.1007/978-3-642-30961-8\\_17}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390b71120f70186a0f1f4d4"
+        },
+        "energystar3": {
+            "number": "[8]",
+            "title": "Energy star® program requirements product specification for computer servers final draft test method",
+            "text": "\\bibitem{energystar3} {U.S. Environmental Protection Agency}, ``Energy star® program requirements product specification for computer servers final draft test method,'' 2023, \\url{https://www.energystar.gov/sites/default/files/asset/document/Computer%20Servers%20Version%204.0%20Final%20Draft%20Test%20Method.pdf}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "specpower_next": {
+            "number": "[9]",
+            "title": "The SPECpowerNext Benchmark Suite, Its Implementation and New Workloads from a Developer's Perspective",
+            "text": "\\bibitem{specpower_next} N.~Schmitt, K.-D. Lange, S.~Sharma, N.~Rawtani, C.~Ponder, and S.~Kounev, ``The specpowernext benchmark suite, its implementation and new workloads from a developer's perspective,'' in \\emph{Proceedings of the ACM/SPEC International Conference on Performance Engineering}, ser. ICPE '21.\\hskip 1em plus 0.5em minus 0.4em\\relax New York, NY, USA: Association for Computing Machinery, 2021, p. 225–232, \\href{https://doi.org/10.1145/3427921.3450239}{DOI: 10.1145/3427921.3450239}.",
+            "ref_source": "bbl",
+            "abstract": "Innovation needs a competitive and fair playing field on which products can be compared and informed choices can be made. Standard benchmarks are a necessity to create such a level playing field among competitors in the server market for more energy-efficient servers. That, in turn, motivates their engineers to design more energy-efficient hardware. The SPECpower_ssj 2008 benchmark drove the increase of server energy efficiency by 113 times for single CPU servers, or 19 times on average. Yet, with added functionality and load, they are expected to consume a rising amount of energy. Additionally, server usage in data centers has changed over time with new application types. To continue the effort of increasing server energy efficiency, a new version, SPECpowerNext, is under development. In this work, after a short introduction to SPECpower_ssj 2008, we present the new implementation of SPECpowerNext together with the standardized way to collect server information in heterogeneous data centers. We also give insight, including preliminary measurements, into two of SPECpowerNext new workloads, the Wiki and the APA workload, in addition to an overview of both workloads.",
+            "aminer_id": "6082a05391e011ce47402fad"
+        },
+        "specpower_next2": {
+            "number": "[10]",
+            "title": "Challenges and Future Directions in Efficiency Benchmarking (vision Paper)",
+            "text": "\\bibitem{specpower_next2} M.~Meissner, K.-D. Lange, S.~Sharma, J.~Arnold, A.~Cragin, P.~Galizia, M.~Petrich, B.~Zhang, and S.~Kounev, ``Challenges and future directions in efficiency benchmarking (vision paper),'' in \\emph{Companion of the 2023 ACM/SPEC International Conference on Performance Engineering}, ser. ICPE '23 Companion.\\hskip 1em plus 0.5em minus 0.4em\\relax New York, NY, USA: Association for Computing Machinery, 2023, p. 51–55, \\href{https://doi.org/10.1145/3578245.3585034}{DOI: 10.1145/3578245.3585034}.",
+            "ref_source": "bbl",
+            "abstract": "SPEC benchmarks are crucial contributors behind the improvement of server efficiency since 2007, given their role in making the power consumption and efficiency of servers transparent for government regulators, customers, and the manufacturers themselves. As the IT landscape experiences radical transformations, efficiency benchmarks need to be updated accordingly to generate results relevant to government regulators, manufacturers, and customers. In this paper, we outline current challenges efficiency benchmark developers are tackling and highlight recent technological developments the next generation of efficiency benchmarks should take into account.",
+            "aminer_id": "642e39fb90e50fcafd6ce82e"
+        },
+        "specpower_result_fields": {
+            "number": "[11]",
+            "title": "SPECpower_ssj2008 Result File Fields",
+            "text": "\\bibitem{specpower_result_fields} {SPEC}, ``{SPECpower\\_ssj2008 Result File Fields},'' 2018, \\url{https://www.spec.org/power/docs/SPECpower_ssj2008-Result_File_Fields.html}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ashrae2021b": {
+            "number": "[12]",
+            "title": "Emergence and Expansion of Liquid Cooling in Mainstream Data Centers",
+            "text": "\\bibitem{ashrae2021b} \\BIBentryALTinterwordspacing {American Society of Heating Refrigerating and Air-Conditioning Engineers}, ``{Emergence and Expansion of Liquid Cooling in Mainstream Data Centers},'' Tech. Rep., May 2021. [Online]. Available: \\url{https://www.ashrae.org/file%20library/technical%20resources/bookstore/emergence-and-expansion-of-liquid-cooling-in-mainstream-data-centers_wp.pdf} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "hackenberg_haswell_2015": {
+            "number": "[13]",
+            "title": "An Energy Efficiency Feature Survey of the Intel Haswell Processor.",
+            "text": "\\bibitem{hackenberg_haswell_2015} D.~Hackenberg, R.~Schöne, T.~Ilsche, D.~Molka, J.~Schuchart, and R.~Geyer, ``An energy efficiency feature survey of the intel haswell processor,'' in \\emph{2015 IEEE International Parallel and Distributed Processing Symposium Workshop}, 2015, pp. 896--904, \\href{https://doi.org/10.1109/IPDPSW.2015.70}{DOI: 10.1109/IPDPSW.2015.70}.",
+            "ref_source": "bbl",
+            "abstract": "The recently introduced Intel Xeon E5-1600 v3 and E5-2600 v3 series processors -- codenamed Haswell-EP -- implement major changes compared to their predecessors. Among these changes are integrated voltage regulators that enable individual voltages and frequencies for every core. In this paper we analyze a number of consequences of this development that are of utmost importance for energy efficiency optimization strategies such as dynamic voltage and frequency scaling (DVFS) and dynamic concurrency throttling (DCT). This includes the enhanced RAPL implementation and its improved accuracy as it moves from modeling to actual measurement. Another fundamental change is that every clock speed above AVX frequency -- including nominal frequency -- is opportunistic and unreliable, which vastly decreases performance predictability with potential effects on scalability. Moreover, we characterize significantly changed p-state transition behavior, and determine crucial memory performance data.",
+            "aminer_id": "573697656e3b12023e64cca8"
+        },
+        "specaccel": {
+            "number": "[14]",
+            "title": "SPEC ACCEL: A Standard Application Suite for Measuring Hardware Accelerator Performance.",
+            "text": "\\bibitem{specaccel} G.~Juckeland, W.~Brantley, S.~Chandrasekaran, B.~Chapman, S.~Che, M.~Colgrove, H.~Feng, A.~Grund, R.~Henschel, W.-M.~W. Hwu, H.~Li, M.~S. M{\\\"u}ller, W.~E. Nagel, M.~Perminov, P.~Shelepugin, K.~Skadron, J.~Stratton, A.~Titov, K.~Wang, M.~van Waveren, B.~Whitney, S.~Wienke, R.~Xu, and K.~Kumaran, ``Spec accel: A standard application suite for measuring hardware accelerator performance,'' in \\emph{High Performance Computing Systems. Performance Modeling, Benchmarking, and Simulation}, S.~A. Jarvis, S.~A. Wright, and S.~D. Hammond, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Cham: Springer International Publishing, 2015, pp. 46--67, \\href{https://doi.org/10.1007/978-3-319-17248-4_3}{DOI: 10.1007/978-3-319-17248-4\\_3}.",
+            "ref_source": "bbl",
+            "abstract": "Hybrid nodes with hardware accelerators are becoming very common in systems today. Users often find it difficult to characterize and understand the performance advantage of such accelerators for their applications. The SPEC High Performance Group (HPG) has developed a set of performance metrics to evaluate the performance and power consumption of accelerators for various science applications. The new benchmark comprises two suites of applications written in OpenCL and OpenACC and measures the performance of accelerators with respect to a reference platform. The first set of published results demonstrate the viability and relevance of the new metrics in comparing accelerator performance. This paper discusses the benchmark suites and selected published results in great detail.",
+            "aminer_id": "555045a045ce0a409eb5821a"
+        },
+        "speccpu2017": {
+            "number": "[15]",
+            "title": "Spec cpu2017: Next-generation compute benchmark",
+            "text": "\\bibitem{speccpu2017} J.~Bucek, K.-D. Lange, and J.~v.~Kistowski, ``Spec cpu2017: Next-generation compute benchmark,'' in \\emph{Companion of the 2018 ACM/SPEC International Conference on Performance Engineering}, ser. ICPE '18.\\hskip 1em plus 0.5em minus 0.4em\\relax New York, NY, USA: Association for Computing Machinery, 2018, p. 41–42, \\href{https://doi.org/10.1145/3185768.3185771}{DOI: 10.1145/3185768.3185771}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5aed147c17c44a4438153ee3"
+        },
+        "artifacts": {
+            "number": "[16]",
+            "title": "Artifacts to Reproduce \"16 Years of SPEC Power: An Analysis of x86 Energy Efficiency Trends\"",
+            "text": "\\bibitem{artifacts} \\BIBentryALTinterwordspacing H.~Tröpgen, R.~Schöne, T.~Ilsche, and D.~Hackenberg, ``{Artifacts to Reproduce \"16 Years of SPEC Power: An Analysis of x86 Energy Efficiency Trends\"},'' Jul. 2024. [Online]. Available: \\url{https://doi.org/10.5281/zenodo.12656360} \\BIBentrySTDinterwordspacing \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 16,
+        "citation_types": {
+            "unknown": 16
+        }
+    }
+}

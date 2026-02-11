@@ -1,0 +1,1991 @@
+{
+    "topic": "Deep Learning Driven Natural Languages Text to SQL Query Conversion: A\n  Survey",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[3]",
+                "[31]",
+                "[35]",
+                "[32]",
+                "[36]",
+                "[58]",
+                "[7]",
+                "[34]",
+                "[16]",
+                "[65]",
+                "[64]",
+                "[4]",
+                "[51]",
+                "[5]",
+                "[2]",
+                "[6]",
+                "[10]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Terminology",
+            "refs": [
+                "[3]",
+                "[75]",
+                "[43]",
+                "[45]",
+                "[1]",
+                "[39]",
+                "[42]",
+                "[44]",
+                "[78]",
+                "[4]",
+                "[5]",
+                "[2]",
+                "[6]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Benchmark Dataset",
+            "refs": [
+                "[61]",
+                "[55]",
+                "[70]",
+                "[71]",
+                "[72]",
+                "[60]",
+                "[62]",
+                "[10]",
+                "[73]",
+                "[59]",
+                "[66]",
+                "[67]",
+                "[64]",
+                "[65]",
+                "[63]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Algorithmic explanation",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "\\textbf{SQLNet",
+                    "refs": [
+                        "[51]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Sketch Based query synthesis",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.1.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Sequence-To-Set Prediction Using Column Attention",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.1.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "SQLNet Model and Training Details",
+                            "refs": [
+                                "[33]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Slot-Filling Approach",
+                    "refs": [
+                        "[46]",
+                        "[41]",
+                        "[58]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Sequence-to-Tree model",
+                    "refs": [
+                        "[57]",
+                        "[64]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Zero-Shot-Semantic Parsing",
+                    "refs": [
+                        "[37]",
+                        "[45]",
+                        "[30]",
+                        "[41]",
+                        "[29]",
+                        "[38]",
+                        "[56]"
+                    ],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Zero-Shot-Semantic Parsing with induced dynamic gating",
+                    "refs": [
+                        "[54]",
+                        "[28]"
+                    ],
+                    "subsections": [],
+                    "number": "4.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Zero-shot Text-to-SQL Learning with Auxiliary Task",
+                    "refs": [
+                        "[48]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Encoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.6.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "AGG and SEL Decoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.6.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "WHERE Decoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.6.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Auxiliary Mapping Model",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.6.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.6",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Air-Concierge",
+                    "refs": [
+                        "[26]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Dialogue Encoder",
+                            "refs": [
+                                "[27]",
+                                "[80]"
+                            ],
+                            "subsections": [],
+                            "number": "4.7.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Dialogue State Tracker",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.7.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "SQL Generator",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.7.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Knowledge base memory encoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.7.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Dialogue decoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.7.5",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.7",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Machine Reading Comprehension model",
+                    "refs": [
+                        "[53]"
+                    ],
+                    "subsections": [],
+                    "number": "4.8",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Seq2SQL",
+                    "refs": [
+                        "[24]",
+                        "[52]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "AGGREGATION",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.9.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "SELECT",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.9.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "WHERE",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.9.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.9",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{IRNET",
+                    "refs": [
+                        "[50]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Intermediate Representation",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.10.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Schema Linking",
+                            "refs": [
+                                "[50]"
+                            ],
+                            "subsections": [],
+                            "number": "4.10.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "NL Encoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.10.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Schema Encoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.10.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Decoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.10.5",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.10",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Model Based Interactive Semantic Parsing",
+                    "refs": [
+                        "[49]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Agent State",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Environment",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "World Model",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Error Detector",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Actuator, a natural language generator",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.5",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "World Model",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.11.6",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.11",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing",
+                    "refs": [
+                        "[47]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Question-Schema Serialisation and Encoding",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.12.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Bridging",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.12.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Decoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.12.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Schema-Consistency Guided Decoding",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.12.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.12",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Encoding Database Schemas with Relation-Aware Self-Attention for Text-to-SQL Parsers",
+                    "refs": [
+                        "[23]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Encoding the Schema as a Graph",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.13.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Initial Encoding of the Input",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.13.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Relation-Aware Self-Attention",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.13.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Decoder",
+                            "refs": [
+                                "[79]",
+                                "[25]"
+                            ],
+                            "subsections": [],
+                            "number": "4.13.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.13",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{SeaD: Schema-aware Denoising",
+                    "refs": [
+                        "[22]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Sample Formulation",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.14.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Transformer with Pointer",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.14.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Schema Aware Denoising",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.14.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Clause-sensitive EG Decoding",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.14.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.14",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Learning to Synthesize Data for Semantic Parsing",
+                    "refs": [
+                        "[21]",
+                        "[81]"
+                    ],
+                    "subsections": [],
+                    "number": "4.15",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing",
+                    "refs": [
+                        "[76]",
+                        "[77]"
+                    ],
+                    "subsections": [],
+                    "number": "4.16",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\textbf{SyntaxSQLNet",
+                    "refs": [
+                        "[20]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Approach",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "SQL Grammar",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Input Encoder",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Table-Aware Column Representation",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Recursive SQL Generation",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.5",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Comparison to Existing Models",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.17.6",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.17",
+                    "level": 2
+                },
+                {
+                    "section_title": "PointerSQL~\\cite{wang2018robustpointersql",
+                    "refs": [
+                        "[18]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Execution-Guided Decoding:",
+                            "refs": [
+                                "[74]"
+                            ],
+                            "subsections": [],
+                            "number": "4.18.1",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.18",
+                    "level": 2
+                },
+                {
+                    "section_title": "Content Enhanced BERT-based Text-to-SQL Generation~\\cite{content_enhanced_BERT",
+                    "refs": [
+                        "[17]"
+                    ],
+                    "subsections": [],
+                    "number": "4.19",
+                    "level": 2
+                },
+                {
+                    "section_title": "GRAPPA~\\cite{yu2021grappa",
+                    "refs": [
+                        "[14]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Methodology",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "4.20.1",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.20",
+                    "level": 2
+                },
+                {
+                    "section_title": "TRIAGESQL~\\cite{zhang2020didtriagesql",
+                    "refs": [
+                        "[13]",
+                        "[69]"
+                    ],
+                    "subsections": [],
+                    "number": "4.21",
+                    "level": 2
+                },
+                {
+                    "section_title": "ValueNet~\\cite{brunner2021valuenet",
+                    "refs": [
+                        "[7]"
+                    ],
+                    "subsections": [],
+                    "number": "4.22",
+                    "level": 2
+                },
+                {
+                    "section_title": "RYANSQL~\\cite{choi2021ryansql",
+                    "refs": [
+                        "[8]"
+                    ],
+                    "subsections": [],
+                    "number": "4.23",
+                    "level": 2
+                },
+                {
+                    "section_title": "F-SQL~\\cite{zhang2020f-sql",
+                    "refs": [
+                        "[9]",
+                        "[51]"
+                    ],
+                    "subsections": [],
+                    "number": "4.24",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        }
+    ],
+    "references": {
+        "seq2seq": {
+            "number": "[1]",
+            "title": "Sequence to Sequence Learning with Neural Networks",
+            "text": "title={Sequence to sequence learning with neural networks},\n  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},\n  journal={Advances in neural information processing systems},\n  volume={27},\n  year={2014}",
+            "type": "article",
+            "fields": {
+                "title": "Sequence to sequence learning with neural networks",
+                "author": "Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V",
+                "journal": "Advances in neural information processing systems",
+                "volume": "27",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT'14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.",
+            "aminer_id": "5550410f45ce0a409eb384f8"
+        },
+        "semantic1": {
+            "number": "[2]",
+            "title": "An Efficient Easily Adaptable System for Interpreting Natural Language Queries.",
+            "text": "title={An efficient easily adaptable system for interpreting natural language queries},\n  author={Warren, David HD and Pereira, Fernando CN},\n  journal={American journal of computational linguistics},\n  volume={8},\n  number={3-4},\n  pages={110--122},\n  year={1982}",
+            "type": "article",
+            "fields": {
+                "title": "An efficient easily adaptable system for interpreting natural language queries",
+                "author": "Warren, David HD and Pereira, Fernando CN",
+                "journal": "American journal of computational linguistics",
+                "volume": "8",
+                "number": "3-4",
+                "pages": "110--122",
+                "year": "1982"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper gives an overall account of a prototype natural language question answering system, called Chat-80. Chat-80 has been designed to be both efficient and easily adaptable to a variety of applications. The system is implemented entirely in Prolog, a programming language based on logic. With the aid of a logic-based grammar formalism called extraposition grammars, Chat-80 translates English questions into the Prolog subset of logic. The resulting logical expression is then transformed by a planning algorithm into efficient Prolog, cf. \"query optimisation\" in a relational database. Finally, the Prolog form is executed to yield the answer. On a domain of world geography, most questions within the English subset are answered in well under one second, including relatively complex queries.",
+            "aminer_id": "5390962020f70186a0df3c02"
+        },
+        "semantic2": {
+            "number": "[3]",
+            "title": "Towards a theory of natural language interfaces to databases",
+            "text": "title={Towards a theory of natural language interfaces to databases},\n  author={Popescu, Ana-Maria and Etzioni, Oren and Kautz, Henry},\n  booktitle={Proceedings of the 8th international conference on Intelligent user interfaces},\n  pages={149--157},\n  year={2003}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Towards a theory of natural language interfaces to databases",
+                "author": "Popescu, Ana-Maria and Etzioni, Oren and Kautz, Henry",
+                "booktitle": "Proceedings of the 8th international conference on Intelligent user interfaces",
+                "pages": "149--157",
+                "year": "2003"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "539089ab20f70186a0d96fbe"
+        },
+        "semantic3": {
+            "number": "[4]",
+            "title": "Constructing a Generic Natural Language Interface for an XML Database",
+            "text": "title={Constructing a generic natural language interface for an xml database},\n  author={Li, Yunyao and Yang, Huahai and Jagadish, HV},\n  booktitle={International Conference on Extending Database Technology},\n  pages={737--754},\n  year={2006},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Constructing a generic natural language interface for an xml database",
+                "author": "Li, Yunyao and Yang, Huahai and Jagadish, HV",
+                "booktitle": "International Conference on Extending Database Technology",
+                "pages": "737--754",
+                "year": "2006",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "We describe the construction of a generic natural language query interface to an XML database. Our interface can accept an arbitrary English sentence as a query, which can be quite complex and include aggregation, nesting, and value joins, among other things. This query is translated, potentially after reformulation, into an XQuery expression. The translation is based on mapping grammatical proximity of natural language parsed tokens in the parse tree of the query sentence to proximity of corresponding elements in the XML data to be retrieved. Our experimental assessment, through a user study, demonstrates that this type of natural language interface is good enough to be usable now, with no restrictions on the application domain.",
+            "aminer_id": "5390b2fc20f70186a0eef96d"
+        },
+        "semantic4": {
+            "number": "[5]",
+            "title": "Translating Questions to SQL Queries with Generative Parsers Discriminatively Reranked.",
+            "text": "title={Translating questions to SQL queries with generative parsers discriminatively reranked},\n  author={Giordani, Alessandra and Moschitti, Alessandro},\n  booktitle={Proceedings of COLING 2012: Posters},\n  pages={401--410},\n  year={2012}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Translating questions to SQL queries with generative parsers discriminatively reranked",
+                "author": "Giordani, Alessandra and Moschitti, Alessandro",
+                "booktitle": "Proceedings of COLING 2012: Posters",
+                "pages": "401--410",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we define models for automatically translating a factoid question in natural language to an SQL query that retrieves the correct answer from a target relational database (DB). We exploit the DB structure to generate a set of candidate SQL queries, which we rerank with an SVM-ranker based on tree kernels. In particular, in the generation phase, we use (i) lexical dependencies in the question and (ii) the DB metadata, to build a set of plausible SELECT, WHERE and FROM clauses enriched with meaningful joins. We combine the clauses by means of rules and a heuristic weighting scheme, which allows for generating a ranked list of candidate SQL queries. This approach can be recursively applied to deal with complex questions, requiring nested SELECT instructions. Finally, we apply the reranker to reorder the list of question and SQL candidate pairs, whose members are represented as syntactic trees. The F1 of our model derived on standard benchmarks, 87% on the first question, is in line with the best models using external and expensive hand-crafted resources such as the question meaning interpretation. Moreover, our system shows a Recall of the correct answer of about 94% and 98% on the first 2 and 5 candidates, respectively. This is an interesting outcome considering that we only need pairs of questions and answers concerning a target DB (no SQL query is needed) to train our model.",
+            "aminer_id": "53e9a310b7602d9702c18d18"
+        },
+        "semantic5": {
+            "number": "[6]",
+            "title": "Synthesizing highly expressive SQL queries from input-output examples",
+            "text": "title={Synthesizing highly expressive SQL queries from input-output examples},\n  author={Wang, Chenglong and Cheung, Alvin and Bodik, Rastislav},\n  booktitle={Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation},\n  pages={452--466},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Synthesizing highly expressive SQL queries from input-output examples",
+                "author": "Wang, Chenglong and Cheung, Alvin and Bodik, Rastislav",
+                "booktitle": "Proceedings of the 38th ACM SIGPLAN Conference on Programming Language Design and Implementation",
+                "pages": "452--466",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7b7a601a182cd273f0dd"
+        },
+        "brunner2021valuenet": {
+            "number": "[7]",
+            "title": "ValueNet: A Natural Language-to-SQL System That Learns from Database Information",
+            "text": "title={Valuenet: A natural language-to-sql system that learns from database information},\n  author={Brunner, Ursin and Stockinger, Kurt},\n  booktitle={2021 IEEE 37th International Conference on Data Engineering (ICDE)},\n  pages={2177--2182},\n  year={2021},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Valuenet: A natural language-to-sql system that learns from database information",
+                "author": "Brunner, Ursin and Stockinger, Kurt",
+                "booktitle": "2021 IEEE 37th International Conference on Data Engineering (ICDE)",
+                "pages": "2177--2182",
+                "year": "2021",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we propose ValueNet light and ValueNet – two end-to-end Natural Language-to-SQL systems that incor-porate values using the challenging Spider dataset. The main idea of our approach is to use not only metadata information from the underlying database but also information on the base data as input for our neural network architecture. In particular, we propose a novel architecture sketch to extract values from a user question and come up with possible value candidates which are not explicitly mentioned in the question. We then use a neural model based on an encoder-decoder architecture to synthesize the SQL query. Finally, we evaluate our model on the Spider challenge using the Execution Accuracy metric, a more difficult metric than used by most participants of the challenge. Our experimental evaluation demonstrates that ValueNet light and ValueNet reach state-of-the-art results of 67% and 62% accuracy, respectively, for translating from NL to SQL whilst incorporating values.",
+            "aminer_id": "653f42e2939a5f4082c746e4"
+        },
+        "choi2021ryansql": {
+            "number": "[8]",
+            "title": "RYANSQL: Recursively Applying Sketch-based Slot Fillings for Complex Text-to-SQL in Cross-Domain Databases",
+            "text": "title={RYANSQL: Recursively Applying Sketch-based Slot Fillings for Complex Text-to-SQL in Cross-Domain Databases},\n  author={Choi, DongHyun and Shin, Myeong Cheol and Kim, EungGyun and Shin, Dong Ryeol},\n  journal={Computational Linguistics},\n  volume={47},\n  number={2},\n  pages={309--332},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "RYANSQL: Recursively Applying Sketch-based Slot Fillings for Complex Text-to-SQL in Cross-Domain Databases",
+                "author": "Choi, DongHyun and Shin, Myeong Cheol and Kim, EungGyun and Shin, Dong Ryeol",
+                "journal": "Computational Linguistics",
+                "volume": "47",
+                "number": "2",
+                "pages": "309--332",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Text-to-SQL is the problem of converting a user question into an SQL query, when the question and database are given. In this paper, we present a neural network approach called RYANSQL (Recursively Yielding Annotation Network for SQL) to solve complex Text-to-SQL tasks for cross-domain databases. State-ment Position Code (SPC) is defined to trans-form a nested SQL query into a set of non-nested SELECT statements; a sketch-based slot filling approach is proposed to synthesize each SELECT statement for its corresponding SPC. Additionally, two input manipulation methods are presented to improve generation performance further. RYANSQL achieved 58.2% accuracy on the challenging Spider benchmark, which is a 3.2%p improvement over previous state-of-the-art approaches. At the time of writing, RYANSQL achieves the first position on the Spider leaderboard.",
+            "aminer_id": "5e8da0c991e011f2de583a34"
+        },
+        "zhang2020f-sql": {
+            "number": "[9]",
+            "title": "F-SQL: Fuse Table Schema and Table Content for Single-Table Text2SQL Generation.",
+            "text": "title={F-sql: fuse table schema and table content for single-table text2sql generation},\n  author={Zhang, Xiaoyu and Yin, Fengjing and Ma, Guojie and Ge, Bin and Xiao, Weidong},\n  journal={IEEE Access},\n  volume={8},\n  pages={136409--136420},\n  year={2020},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "F-sql: fuse table schema and table content for single-table text2sql generation",
+                "author": "Zhang, Xiaoyu and Yin, Fengjing and Ma, Guojie and Ge, Bin and Xiao, Weidong",
+                "journal": "IEEE Access",
+                "volume": "8",
+                "pages": "136409--136420",
+                "year": "2020",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Automatically parsing SQL queries from natural languages can help non-professionals access databases and improve the efficiency of information utilization. It is a long-term research issue and has recently received attention from the relevant communities. Although previous researches have provided some workable solutions, most of them only consider table schemas and natural language questions when parsing SQL queries, and do not use table contents. We observe that table contents can provide more helpful information for some user questions. In this paper, we propose a novel neural network approach, F-SQL, to focus on solving the problem of table content utilization. In particular, we employ the gate mechanism to fuse table schemas and table contents and get the more different representation about table schemas. We test this idea on the WikiSQL and TableQA datasets. Experimental results show that F-SQL achieves new state-of-the-art results on WikiSQL and TableQA.",
+            "aminer_id": "5fc9dc7bb0d046820d3d117e"
+        },
+        "hazoom2021text2sqlinwild": {
+            "number": "[10]",
+            "title": "Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data",
+            "text": "title={Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data},\n  author={Hazoom, Moshe and Malik, Vibhor and Bogin, Ben},\n  booktitle={Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)},\n  pages={77--87},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Text-to-SQL in the Wild: A Naturally-Occurring Dataset Based on Stack Exchange Data",
+                "author": "Hazoom, Moshe and Malik, Vibhor and Bogin, Ben",
+                "booktitle": "Proceedings of the 1st Workshop on Natural Language Processing for Programming (NLP4Prog 2021)",
+                "pages": "77--87",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Most available semantic parsing datasets, comprising of pairs of natural utterances and logical forms, were collected solely for the purpose of training and evaluation of natural language understanding systems. As a result, they do not contain any of the richness and variety of natural-occurring utterances, where humans ask about data they need or are curious about. In this work, we release SEDE, a dataset with 12,023 pairs of utterances and SQL queries collected from real usage on the Stack Exchange website. We show that these pairs contain a variety of real-world challenges which were rarely reflected so far in any other semantic parsing dataset, propose an evaluation metric based on comparison of partial query clauses that is more suitable for real-world queries, and conduct experiments with strong baselines, showing a large gap between the performance on SEDE compared to other common datasets.",
+            "aminer_id": "60c3132191e0117e30ca2a1c"
+        },
+        "gan2021exploringunexplorecrossdomain": {
+            "number": "[11]",
+            "title": "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization",
+            "text": "title={Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization},\n  author={Gan, Yujian and Chen, Xinyun and Purver, Matthew},\n  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},\n  pages={8926--8931},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Exploring Underexplored Limitations of Cross-Domain Text-to-SQL Generalization",
+                "author": "Gan, Yujian and Chen, Xinyun and Purver, Matthew",
+                "booktitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "8926--8931",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Recently, there has been significant progress in studying neural networks for translating text descriptions into SQL queries under the zero-shot cross-domain setting. Despite achieving good performance on some public benchmarks, we observe that existing text-to-SQL models do not generalize when facing domain knowledge that does not frequently appear in the training data, which may render the worse prediction performance for unseen domains. In this work, we investigate the robustness of text-to-SQL models when the questions require rarely observed domain knowledge. In particular, we define five types of domain knowledge and introduce Spider-DK (DK is the abbreviation of domain knowledge), a human-curated dataset based on the Spider benchmark for text-to-SQL translation. NL questions in Spider-DK are selected from Spider, and we modify some samples by adding domain knowledge that reflects real-world question paraphrases. We demonstrate that the prediction accuracy dramatically drops on samples that require such domain knowledge, even if the domain knowledge appears in the training set, and the model provides the correct predictions for related training samples.",
+            "aminer_id": "614012bf5244ab9dcb81631d"
+        },
+        "scholak2021picard": {
+            "number": "[12]",
+            "title": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
+            "text": "title={PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models},\n  author={Scholak, Torsten and Schucher, Nathan and Bahdanau, Dzmitry},\n  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},\n  pages={9895--9901},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "PICARD: Parsing Incrementally for Constrained Auto-Regressive Decoding from Language Models",
+                "author": "Scholak, Torsten and Schucher, Nathan and Bahdanau, Dzmitry",
+                "booktitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "9895--9901",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Large pre-trained language models for textual data have an unconstrained output space; at each decoding step, they can produce any of 10,000s of sub-word tokens. When fine-tuned to target constrained formal languages like SQL, these models often generate invalid code, rendering it unusable. We propose PICARD(1), a method for constraining auto-regressive decoders of language models through incremental parsing. PICARD helps to find valid output sequences by rejecting inadmissible tokens at each decoding step. On the challenging Spider and CoSQL text-to-SQL translation tasks, we show that PICARD transforms fine-tuned T5 models with passable performance into state-of-the-art solutions.",
+            "aminer_id": "614012bf5244ab9dcb816288"
+        },
+        "zhang2020didtriagesql": {
+            "number": "[13]",
+            "title": "Did You Ask a Good Question? A Cross-Domain Question Intention Classification Benchmark for Text-to-SQL",
+            "text": "title={Did you ask a good question? a cross-domain question intention classification benchmark for text-to-sql},\n  author={Zhang, Yusen and Dong, Xiangyu and Chang, Shuaichen and Yu, Tao and Shi, Peng and Zhang, Rui},\n  journal={arXiv preprint arXiv:2010.12634},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Did you ask a good question? a cross-domain question intention classification benchmark for text-to-sql",
+                "author": "Zhang, Yusen and Dong, Xiangyu and Chang, Shuaichen and Yu, Tao and Shi, Peng and Zhang, Rui",
+                "journal": "arXiv preprint arXiv:2010.12634",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural models have achieved significant results on the text-to-SQL task, in which most current work assumes all the input questions are legal and generates a SQL query for any input. However, in the real scenario, users can input any text that may not be able to be answered by a SQL query. In this work, we propose TriageSQL, the first cross-domain text-to-SQL question intention classification benchmark that requires models to distinguish four types of unanswerable questions from answerable questions. The baseline RoBERTa model achieves a 60% F1 score on the test set, demonstrating the need for further improvement on this task. Our dataset is available at https://github.com/chatc/TriageSQL.",
+            "aminer_id": "5f97e5b091e0112e0cda7afa"
+        },
+        "yu2021grappa": {
+            "number": "[14]",
+            "title": "GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing",
+            "text": "title={GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing},\n  author={Yu, Tao and Wu, Chien-Sheng and Lin, Xi Victoria and Wang, Bailin and Tan, Yi Chern and Yang, Xinyi and Radev, Dragomir R and Socher, Richard and Xiong, Caiming},\n  booktitle={ICLR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "GraPPa: Grammar-Augmented Pre-Training for Table Semantic Parsing",
+                "author": "Yu, Tao and Wu, Chien-Sheng and Lin, Xi Victoria and Wang, Bailin and Tan, Yi Chern and Yang, Xinyi and Radev, Dragomir R and Socher, Richard and Xiong, Caiming",
+                "booktitle": "ICLR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f75d73791e0111c1eb4d7fd"
+        },
+        "muller2019bytesqlbpe": {
+            "number": "[15]",
+            "title": "Byte-Pair Encoding for Text-to-SQL Generation",
+            "text": "title={Byte-Pair Encoding for Text-to-SQL Generation},\n  author={Muller, Samuel and Vlachos, Andreas},\n  journal={arXiv preprint arXiv:1910.08962},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Byte-Pair Encoding for Text-to-SQL Generation",
+                "author": "Muller, Samuel and Vlachos, Andreas",
+                "journal": "arXiv preprint arXiv:1910.08962",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural sequence-to-sequence models provide a competitive approach to the task of mapping a question in natural language to an SQL query, also referred to as text-to-SQL generation. The Byte-Pair Encoding algorithm (BPE) has previously been used to improve machine translation (MT) between natural languages. In this work, we adapt BPE for text-to-SQL generation. As the datasets for this task are rather small compared to MT, we present a novel stopping criterion that prevents overfitting the BPE encoding to the training set. Additionally, we present AST BPE, which is a version of BPE that uses the Abstract Syntax Tree (AST) of the SQL statement to guide BPE merges and therefore produce BPE encodings that generalize better. We improved the accuracy of a strong attentive seq2seq baseline on five out of six English text-to-SQL tasks while reducing training time by more than 50% on four of them due to the shortened targets. Finally, on two of these tasks we exceeded previously reported accuracies.",
+            "aminer_id": "5daed3493a55ac025c26e3c4"
+        },
+        "wang2020ratsql": {
+            "number": "[16]",
+            "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+            "text": "title={RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers},\n  author={Wang, Bailin and Shin, Richard and Liu, Xiaodong and Polozov, Oleksandr and Richardson, Matthew},\n  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},\n  pages={7567--7578},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "RAT-SQL: Relation-Aware Schema Encoding and Linking for Text-to-SQL Parsers",
+                "author": "Wang, Bailin and Shin, Richard and Liu, Xiaodong and Polozov, Oleksandr and Richardson, Matthew",
+                "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+                "pages": "7567--7578",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "When translating natural language questions into SQL queries to answer questions from a database, contemporary semantic parsing models struggle to generalize to unseen database schemas. The generalization challenge lies in (a) encoding the database relations in an accessible way for the semantic parser, and (b) modeling alignment between database columns and their mentions in a given query. We present a unified framework, based on the relation-aware self-attention mechanism, to address schema encoding, schema linking, and feature representation within a text-to-SQL encoder. On the challenging Spider dataset this framework boosts the exact match accuracy to 57.2%, surpassing its best counterparts by 8.7% absolute improvement. Further augmented with BERT, it achieves the new state-of-the-art performance of 65.6% on the Spider leaderboard. In addition, we observe qualitative improvements in the model’s understanding of schema linking and alignment. Our implementation will be open-sourced at https://github.com/Microsoft/rat-sql.",
+            "aminer_id": "5dcbd5da3a55ac789b0dbdb1"
+        },
+        "content_enhanced_BERT": {
+            "number": "[17]",
+            "title": "Content Enhanced BERT-based Text-to-SQL Generation",
+            "text": "doi = {10.48550/ARXIV.1910.07179},\n    url = {https://arxiv.org/abs/1910.07179},\n    author = {Guo, Tong and Gao, Huilin},\n    title = {Content Enhanced BERT-based Text-to-SQL Generation},\n    publisher = {arXiv},\n    year = {2019},\n    copyright = {arXiv.org perpetual, non-exclusive license}",
+            "type": "misc",
+            "fields": {
+                "doi": "10.48550/ARXIV.1910.07179",
+                "url": "https://arxiv.org/abs/1910.07179",
+                "author": "Guo, Tong and Gao, Huilin",
+                "title": "Content Enhanced BERT-based Text-to-SQL Generation",
+                "publisher": "arXiv",
+                "year": "2019",
+                "copyright": "arXiv.org perpetual, non-exclusive license"
+            },
+            "ref_source": "bib",
+            "abstract": "  We present a simple methods to leverage the table content for the BERT-based model to solve the text-to-SQL problem. Based on the observation that some of the table content match some words in question string and some of the table header also match some words in question string, we encode two addition feature vector for the deep model. Our methods also benefit the model inference in testing time as the tables are almost the same in training and testing time. We test our model on the WikiSQL dataset and outperform the BERT-based baseline by 1.0% in logic form and 0.5% in execution accuracy and achieve state-of-the-art. ",
+            "aminer_id": "5da83cf63a55ac549a8d119d"
+        },
+        "wang2018robustpointersql": {
+            "number": "[18]",
+            "title": "Robust Text-to-SQL Generation with Execution-Guided Decoding",
+            "text": "title={Robust text-to-sql generation with execution-guided decoding},\n  author={Wang, Chenglong and Tatwawadi, Kedar and Brockschmidt, Marc and Huang, Po-Sen and Mao, Yi and Polozov, Oleksandr and Singh, Rishabh},\n  journal={arXiv preprint arXiv:1807.03100},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Robust text-to-sql generation with execution-guided decoding",
+                "author": "Wang, Chenglong and Tatwawadi, Kedar and Brockschmidt, Marc and Huang, Po-Sen and Mao, Yi and Polozov, Oleksandr and Singh, Rishabh",
+                "journal": "arXiv preprint arXiv:1807.03100",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We consider the problem of neural semantic parsing, which translates natural language questions into executable SQL queries. We introduce a new mechanism, execution guidance, to leverage the semantics of SQL. It detects and excludes faulty programs during the decoding procedure by conditioning on the execution of partially generated program. The mechanism can be used with any autoregressive generative model, which we demonstrate on four state-of-the-art recurrent or template-based semantic parsing models. We demonstrate that execution guidance universally improves model performance on various text-to-SQL datasets with different scales and query complexity: WikiSQL, ATIS, and GeoQuery. As a result, we achieve new state-of-the-art execution accuracy of 83.8% on WikiSQL.",
+            "aminer_id": "5ce2ce8bced107d4c62fbafc"
+        },
+        "zhang2019editingSQL": {
+            "number": "[19]",
+            "title": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions",
+            "text": "title={Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions},\n  author={Zhang, Rui and Yu, Tao and Er, Heyang and Shim, Sungrok and Xue, Eric and Lin, Xi Victoria and Shi, Tianze and Xiong, Caiming and Socher, Richard and Radev, Dragomir},\n  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},\n  pages={5338--5349},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Editing-Based SQL Query Generation for Cross-Domain Context-Dependent Questions",
+                "author": "Zhang, Rui and Yu, Tao and Er, Heyang and Shim, Sungrok and Xue, Eric and Lin, Xi Victoria and Shi, Tianze and Xiong, Caiming and Socher, Richard and Radev, Dragomir",
+                "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+                "pages": "5338--5349",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We focus on the cross-domain context-dependent text-to-SQL generation task. Based on the observation that adjacent natural language questions are often linguistically dependent and their corresponding SQL queries tend to overlap, we utilize the interaction history by editing the previous predicted query to improve the generation quality. Our editing mechanism views SQL as sequences and reuses generation results at the token level in a simple manner. It is flexible to change individual tokens and robust to error propagation. Furthermore, to deal with complex table structures in different domains, we employ an utterance-table encoder and a table-aware decoder to incorporate the context of the user utterance and the table schema. We evaluate our approach on the SParC dataset and demonstrate the benefit of editing compared with the state-of-the-art baselines which generate SQL from scratch. Our code is available at https://github.com/ryanzhumich/sparc_atis_pytorch.",
+            "aminer_id": "5d6f8b3c3a55ac0f2485605d"
+        },
+        "yu2018syntaxsqlnet": {
+            "number": "[20]",
+            "title": "SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-Domain Text-to-SQL Task",
+            "text": "title={SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-Domain Text-to-SQL Task},\n  author={Yu, Tao and Yasunaga, Michihiro and Yang, Kai and Zhang, Rui and Wang, Dongxu and Li, Zifan and Radev, Dragomir},\n  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},\n  pages={1653--1663},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SyntaxSQLNet: Syntax Tree Networks for Complex and Cross-Domain Text-to-SQL Task",
+                "author": "Yu, Tao and Yasunaga, Michihiro and Yang, Kai and Zhang, Rui and Wang, Dongxu and Li, Zifan and Radev, Dragomir",
+                "booktitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "1653--1663",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Most existing studies in text-to-SQL tasks do not require generating complex SQL queries with multiple clauses or sub-queries, and generalizing to new, unseen databases. In this paper we propose SyntaxSQLNet, a syntax tree network to address the complex and cross-domain text-to-SQL generation task. SyntaxSQLNet employs a SQL specific syntax tree-based decoder with SQL generation path history and table-aware column attention encoders. We evaluate SyntaxSQLNet on a new large-scale text-to-SQL corpus containing databases with multiple tables and complex SQL queries containing multiple SQL clauses and nested queries. We use a database split setting where databases in the test set are unseen during training. Experimental results show that SyntaxSQLNet can handle a significantly greater number of complex SQL examples than prior work, outperforming the previous state-of-the-art model by 9.5% in exact matching accuracy. To our knowledge, we are the first to study this complex text-to-SQL task. Our task and models with the latest updates are available at https://yale-lily. github.io/seq2sql/spider.",
+            "aminer_id": "5bdc315017c44a1f58a05d10"
+        },
+        "wang2021learningsynthesizedata": {
+            "number": "[21]",
+            "title": "Learning to Synthesize Data for Semantic Parsing",
+            "text": "title={Learning to Synthesize Data for Semantic Parsing},\n  author={Wang, Bailin and Yin, Wenpeng and Lin, Xi Victoria and Xiong, Caiming},\n  booktitle={Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies},\n  pages={2760--2766},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to Synthesize Data for Semantic Parsing",
+                "author": "Wang, Bailin and Yin, Wenpeng and Lin, Xi Victoria and Xiong, Caiming",
+                "booktitle": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+                "pages": "2760--2766",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Synthesizing data for semantic parsing has gained increasing attention recently. However, most methods require handcrafted (high-precision) rules in their generative process, hindering the exploration of diverse unseen data. In this work, we propose a generative model which features a (non-neural) PCFG that models the composition of programs (e.g., SQL), and a BART-based translation model that maps a program to an utterance. Due to the simplicity of PCFG and pre-trained BART, our generative model can be efficiently learned from existing data at hand. Moreover, explicitly modeling compositions using PCFG leads to a better exploration of unseen programs, thus generate more diverse data. We evaluate our method in both in-domain and out-of-domain settings of text-to-SQL parsing on the standard benchmarks of GeoQuery and Spider, respectively. Our empirical results show that the synthesized data generated from our model can substantially help a semantic parser achieve better compositional and domain generalization.",
+            "aminer_id": "6076b43691e0113d72574262"
+        },
+        "xuan2021sead": {
+            "number": "[22]",
+            "title": "SeaD: End-to-end Text-to-SQL Generation with Schema-aware Denoising",
+            "text": "title={Sead: End-to-end text-to-sql generation with schema-aware denoising},\n  author={Xuan, Kuan and Wang, Yongbo and Wang, Yongliang and Wen, Zujie and Dong, Yang},\n  journal={arXiv preprint arXiv:2105.07911},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Sead: End-to-end text-to-sql generation with schema-aware denoising",
+                "author": "Xuan, Kuan and Wang, Yongbo and Wang, Yongliang and Wen, Zujie and Dong, Yang",
+                "journal": "arXiv preprint arXiv:2105.07911",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "In text-to-SQL task, seq-to-seq models often lead to sub-optimal performance due to limitations in their architecture. In this paper, we present a simple yet effective approach that adapts transformer-based seq-to-seq model to robust text-to-SQL generation. Instead of inducing constraint to decoder or reformat the task as slot-filling, we propose to train seq-to-seq model with Schema aware Denoising (SeaD), which consists of two denoising objectives that train model to either recover input or predict output from two novel erosion and shuffle noises. These denoising objectives acts as the auxiliary tasks for better modeling the structural data in S2S generation. In addition, we improve and propose a clause-sensitive execution guided (EG) decoding strategy to overcome the limitation of EG decoding for generative model. The experiments show that the proposed method improves the performance of seq-to-seq model in both schema linking and grammar correctness and establishes new state-of-the-art on WikiSQL benchmark. The results indicate that the capacity of vanilla seq-to-seq architecture for text-to-SQL may have been under-estimated.",
+            "aminer_id": "60a3ba3791e01115219ffbbe"
+        },
+        "shin2019encodingdatabaseschemaselfatt": {
+            "number": "[23]",
+            "title": "Encoding Database Schemas with Relation-Aware Self-Attention for Text-to-SQL Parsers",
+            "text": "title={Encoding Database Schemas with Relation-Aware Self-Attention for Text-to-SQL Parsers},\n  author={Shin, Richard},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Encoding Database Schemas with Relation-Aware Self-Attention for Text-to-SQL Parsers",
+                "author": "Shin, Richard",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "When translating natural language questions into SQL queries to answer questions from a database, we would like our methods to generalize to domains and database schemas outside of the training set. To handle complex questions and database schemas with a neural encoder-decoder paradigm, it is critical to properly encode the schema as part of the input with the question. In this paper, we use relation-aware self-attention within the encoder so that it can reason about how the tables and columns in the provided schema relate to each other and use this information in interpreting the question. We achieve significant gains on the recently-released Spider dataset with 42.94% exact match accuracy, compared to the 18.96% reported in published work.",
+            "aminer_id": "5d15e54f3a55ac926c5129a8"
+        },
+        "dong2016languageatt_seq_seq": {
+            "number": "[24]",
+            "title": "Language to Logical Form with Neural Attention",
+            "text": "title={Language to Logical Form with Neural Attention},\n  author={Dong, Li and Lapata, Mirella},\n  booktitle={Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={33--43},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Language to Logical Form with Neural Attention",
+                "author": "Dong, Li and Lapata, Mirella",
+                "booktitle": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "pages": "33--43",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantic parsing aims at mapping natural language to machine interpretable meaning representations. Traditional approaches rely on high-quality lexicons, manually-built templates, and linguistic features which are either domain- or representation-specific. In this paper we present a general method based on an attention-enhanced encoder-decoder model. We encode input utterances into vector representations, and generate their logical forms by conditioning the output sequences or trees on the encoding vectors. Experimental results on four datasets show that our approach performs competitively without using hand-engineered features and is easy to adapt across domains and meaning representations.",
+            "aminer_id": "599c7b70601a182cd27390f4"
+        },
+        "vinyals2015pointernetwork": {
+            "number": "[25]",
+            "title": "Pointer networks",
+            "text": "title={Pointer networks},\n  author={Vinyals, Oriol and Fortunato, Meire and Jaitly, Navdeep},\n  journal={Advances in neural information processing systems},\n  volume={28},\n  year={2015}",
+            "type": "article",
+            "fields": {
+                "title": "Pointer networks",
+                "author": "Vinyals, Oriol and Fortunato, Meire and Jaitly, Navdeep",
+                "journal": "Advances in neural information processing systems",
+                "volume": "28",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chen2020airconcierge": {
+            "number": "[26]",
+            "title": "AirConcierge: Generating Task-Oriented Dialogue Via Efficient Large-Scale Knowledge Retrieval",
+            "text": "title={Airconcierge: Generating task-oriented dialogue via efficient large-scale knowledge retrieval},\n  author={Chen, Chieh-Yang and Wang, Pei-Hsin and Chang, Shih-Chieh and Juan, Da-Cheng and Wei, Wei and Pan, Jia-Yu},\n  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2020},\n  pages={884--897},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Airconcierge: Generating task-oriented dialogue via efficient large-scale knowledge retrieval",
+                "author": "Chen, Chieh-Yang and Wang, Pei-Hsin and Chang, Shih-Chieh and Juan, Da-Cheng and Wei, Wei and Pan, Jia-Yu",
+                "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+                "pages": "884--897",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Despite recent success in neural task-oriented dialogue systems, developing such a real-world system involves accessing large-scale knowledge bases (KBs), which cannot be simply encoded by neural approaches, such as memory network mechanisms. To alleviate the above problem, we propose , an end-to-end trainable text-to-SQL guided framework to learn a neural agent that interacts with KBs using the generated SQL queries. Specifically, the neural agent first learns to ask and confirm the customer's intent during the multi-turn interactions, then dynamically determining when to ground the user constraints into executable SQL queries so as to fetch relevant information from KBs. With the help of our method, the agent can use less but more accurate fetched results to generate useful responses efficiently, instead of incorporating the entire KBs. We evaluate the proposed method on the AirDialogue dataset, a large corpus released by Google, containing the conversations of customers booking flight tickets from the agent. The experimental results show that significantly improves over previous work in terms of accuracy and the BLEU score, which demonstrates not only the ability to achieve the given task but also the good quality of the generated dialogues.",
+            "aminer_id": "5ff8839291e011c83267396e"
+        },
+        "cho2014learningGRU": {
+            "number": "[27]",
+            "title": "Learning Phrase Representations Using RNN Encoder-Decoder for Statistical Machine Translation",
+            "text": "title={Learning Phrase Representations using RNN Encoder--Decoder for Statistical Machine Translation},\n  author={Cho, Kyunghyun and van Merrienboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua},\n  booktitle={Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  pages={1724--1734},\n  year={2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning Phrase Representations using RNN Encoder--Decoder for Statistical Machine Translation",
+                "author": "Cho, Kyunghyun and van Merrienboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua",
+                "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                "pages": "1724--1734",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose a novel neural network model called RNN Encoder-Decoder that consists of two recurrent neural networks (RNN). One RNN encodes a sequence of symbols into a fixed-length vector representation, and the other decodes the representation into another sequence of symbols. The encoder and decoder of the proposed model are jointly trained to maximize the conditional probability of a target sequence given a source sequence. The performance of a statistical machine translation system is empirically found to improve by using the conditional probabilities of phrase pairs computed by the RNN Encoder-Decoder as an additional feature in the existing log-linear model. Qualitatively, we show that the proposed model learns a semantically and syntactically meaningful representation of linguistic phrases.",
+            "aminer_id": "5e8d92809fced0a24b605ea5"
+        },
+        "zhang2019novelAST": {
+            "number": "[28]",
+            "title": "A Novel Neural Source Code Representation Based on Abstract Syntax Tree.",
+            "text": "title={A novel neural source code representation based on abstract syntax tree},\n  author={Zhang, Jian and Wang, Xu and Zhang, Hongyu and Sun, Hailong and Wang, Kaixuan and Liu, Xudong},\n  booktitle={2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)},\n  pages={783--794},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A novel neural source code representation based on abstract syntax tree",
+                "author": "Zhang, Jian and Wang, Xu and Zhang, Hongyu and Sun, Hailong and Wang, Kaixuan and Liu, Xudong",
+                "booktitle": "2019 IEEE/ACM 41st International Conference on Software Engineering (ICSE)",
+                "pages": "783--794",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Exploiting machine learning techniques for analyzing programs has attracted much attention. One key problem is how to represent code fragments well for follow-up analysis. Traditional information retrieval based methods often treat programs as natural language texts, which could miss important semantic information of source code. Recently, state-of-the-art studies demonstrate that abstract syntax tree (AST) based neural models can better represent source code. However, the sizes of ASTs are usually large and the existing models are prone to the long-term dependency problem. In this paper, we propose a novel AST-based Neural Network (ASTNN) for source code representation. Unlike existing models that work on entire ASTs, ASTNN splits each large AST into a sequence of small statement trees, and encodes the statement trees to vectors by capturing the lexical and syntactical knowledge of statements. Based on the sequence of statement vectors, a bidirectional RNN model is used to leverage the naturalness of statements and finally produce the vector representation of a code fragment. We have applied our neural network based source code representation method to two common program comprehension tasks: source code classification and code clone detection. Experimental results on the two tasks indicate that our model is superior to state-of-the-art approaches.",
+            "aminer_id": "5cf934b85ced2477cb3c1872"
+        },
+        "gao2018largegraphCNN": {
+            "number": "[29]",
+            "title": "Large-scale learnable graph convolutional networks",
+            "text": "title={Large-scale learnable graph convolutional networks},\n  author={Gao, Hongyang and Wang, Zhengyang and Ji, Shuiwang},\n  booktitle={Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \\& data mining},\n  pages={1416--1424},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Large-scale learnable graph convolutional networks",
+                "author": "Gao, Hongyang and Wang, Zhengyang and Ji, Shuiwang",
+                "booktitle": "Proceedings of the 24th ACM SIGKDD international conference on knowledge discovery \\& data mining",
+                "pages": "1416--1424",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b67b45517c44aac1c8607aa"
+        },
+        "elekes2020towardnlpembedding": {
+            "number": "[30]",
+            "title": "Toward meaningful notions of similarity in NLP embedding models",
+            "text": "title={Toward meaningful notions of similarity in NLP embedding models},\n  author={Elekes, Abel and Englhardt, Adrian and Schaler, Martin and Bohm, Klemens},\n  journal={International Journal on Digital Libraries},\n  volume={21},\n  number={2},\n  pages={109--128},\n  year={2020},\n  publisher={Springer Berlin Heidelberg Berlin/Heidelberg}",
+            "type": "article",
+            "fields": {
+                "title": "Toward meaningful notions of similarity in NLP embedding models",
+                "author": "Elekes, Abel and Englhardt, Adrian and Schaler, Martin and Bohm, Klemens",
+                "journal": "International Journal on Digital Libraries",
+                "volume": "21",
+                "number": "2",
+                "pages": "109--128",
+                "year": "2020",
+                "publisher": "Springer Berlin Heidelberg Berlin/Heidelberg"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c7574f5f56def97989a1561"
+        },
+        "Kumar_ETRA:2019": {
+            "number": "[31]",
+            "title": "Visually Comparing Eye Movements over Space and Time",
+            "text": "author = {Kumar, Ayush and Burch, Michael and Mueller, Klaus},\ntitle = {Visually Comparing Eye Movements over Space and Time},\nyear = {2019},\nisbn = {9781450367097},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nbooktitle = {Proceedings of the 11th ACM Symposium on Eye Tracking Research \\& Applications},\narticleno = {81},\nnumpages = {9},\nkeywords = {eye tracking, visual analytics, information visualization},\nlocation = {Denver, Colorado},\nseries = {ETRA '19}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Kumar, Ayush and Burch, Michael and Mueller, Klaus",
+                "title": "Visually Comparing Eye Movements over Space and Time",
+                "year": "2019",
+                "isbn": "9781450367097",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "booktitle": "Proceedings of the 11th ACM Symposium on Eye Tracking Research \\& Applications",
+                "articleno": "81",
+                "numpages": "9",
+                "keywords": "eye tracking, visual analytics, information visualization",
+                "location": "Denver, Colorado",
+                "series": "ETRA '19"
+            },
+            "ref_source": "bib",
+            "abstract": "Analyzing and visualizing eye movement data can provide useful insights into the connectivities and linkings of points and areas of interest (POIs and AOIs). Those typically time-varying relations can give hints about applied visual scanning strategies by either individual or many eye tracked people. However, the challenging issue with this kind of data is its spatio-temporal nature requiring a good visual encoding in order to first, achieve a scalable overview-based diagram, and second, to derive static or dynamic patterns that might correspond to certain comparable visual scanning strategies. To reliably identify the dynamic strategies we describe a visualization technique that generates a more linear representation of the spatio-temporal scan paths. This is achieved by applying different visual encodings of the spatial dimensions that typically build a limitation for an eye movement data visualization causing visual clutter effects, overdraw, and occlusions while the temporal dimension is depicted as a linear time axis. The presented interactive visualization concept is composed of three linked views depicting spatial, metrics-related, as well as distance-based aspects over time.",
+            "aminer_id": "5cefad615ced2477cb34afb3"
+        },
+        "kumar2018visual": {
+            "number": "[32]",
+            "title": "Visual Multi-Metric Grouping of Eye-Tracking Data",
+            "text": "title={Visual Multi-Metric Grouping of Eye-Tracking Data},\n  author={Kumar, Ayush and Netzel, Rudolf and Burch, Michael and Weiskopf, Daniel and Mueller, Klaus},\n  journal={Journal of eye movement research},\n  volume={10},\n  number={5},\n  pages={10--16910},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Visual Multi-Metric Grouping of Eye-Tracking Data",
+                "author": "Kumar, Ayush and Netzel, Rudolf and Burch, Michael and Weiskopf, Daniel and Mueller, Klaus",
+                "journal": "Journal of eye movement research",
+                "volume": "10",
+                "number": "5",
+                "pages": "10--16910",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We present an algorithmic and visual grouping of participants and eye-tracking metrics derived from recorded eye-tracking data. Our method utilizes two well-established visualization concepts. First, parallel coordinates are used to provide an overview of the used metrics, their interactions, and similarities, which helps select suitable metrics that describe characteristics of the eye-tracking data. Furthermore, parallel coordinates plots enable an analyst to test the effects of creating a combination of a subset of metrics resulting in a newly derived eye-tracking metric. Second, a similarity matrix visualization is used to visually represent the affine combination of metrics utilizing an algorithmic grouping of subjects that leads to distinct visual groups of similar behavior. To keep the diagrams of the matrix visualization simple and understandable, we visually encode our eye-tracking data into the cells of a similarity matrix of participants. The algorithmic grouping is performed with a clustering based on the affine combination of metrics, which is also the basis for the similarity value computation of the similarity matrix. To illustrate the usefulness of our visualization, we applied it to an eye-tracking data set involving the reading behavior of metro maps of up to 40 participants. Finally, we discuss limitations and scalability issues of the approach focusing on visual and perceptual issues.",
+            "aminer_id": "5da052ba3a55acfef148242e"
+        },
+        "pennington2014glove": {
+            "number": "[33]",
+            "title": "GloVe: Global Vectors for Word Representation",
+            "text": "title={Glove: Global vectors for word representation},\n  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},\n  booktitle={Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)},\n  pages={1532--1543},\n  year={2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Glove: Global vectors for word representation",
+                "author": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D",
+                "booktitle": "Proceedings of the 2014 conference on empirical methods in natural language processing (EMNLP)",
+                "pages": "1532--1543",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition.",
+            "aminer_id": "5550456245ce0a409eb55cee"
+        },
+        "kumar2021eyefix": {
+            "number": "[34]",
+            "title": "EyeFIX: an Interactive Visual Analytics Interface for Eye Movement Analysis",
+            "text": "title={EyeFIX: An Interactive Visual Analytics Interface for Eye Movement Analysis},\n  author={Kumar, Ayush and Goel, Bharat and Premkumar, Keshav Rajupet and Burch, Michael and Mueller, Klaus},\n  booktitle={The 14th International Symposium on Visual Information Communication and Interaction},\n  pages={1--5},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "EyeFIX: An Interactive Visual Analytics Interface for Eye Movement Analysis",
+                "author": "Kumar, Ayush and Goel, Bharat and Premkumar, Keshav Rajupet and Burch, Michael and Mueller, Klaus",
+                "booktitle": "The 14th International Symposium on Visual Information Communication and Interaction",
+                "pages": "1--5",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Eye movements are closely related to the cognitive processes and often act as a window to the brain and mind. To facilitate a window to the brain using eye movements, we propose EyeFIX, an interactive visual analytics interface. Our interface currently focuses on processing gaze movements to generate the two most prominent events, fixations, and saccades which are used in a large part of the eye movement literature. Our interface has multiple interactive widgets that allow the users to choose the algorithm and tune its hyper parameters that control how fixations and saccades are generated. It has four major visualizations: (1) A Gaze Plot to showcase the gaze movement of each participant, (2) a Fixation Plot that helps to identify regions of the stimulus which are of interest to a particular participant, (3) a Heat Map to study the denser regions of fixation and regions which the participant frequently visited, and (4) a Timeline Visualization to assist in having a closer look at temporal regions of interest. We design a set of brushing and linking operators that allow users to interactively control all the visualizations to dig deeper in both, the spatial and temporal domains. We demonstrate the applicability of our interface with datasets obtained by human subjects viewing naturalistic stimuli while performing various viewing tasks, including visual exploration, visual search, and prolonged visual fixation.",
+            "aminer_id": "61adf42d91e01105d737a714"
+        },
+        "kumar2020visualthesis": {
+            "number": "[35]",
+            "title": "Visual Analytics Methodology for Multivariate Volumetric and Spatio-Temporal Data",
+            "text": "title={Visual Analytics Methodology for Multivariate Volumetric and Spatio-Temporal Data},\n  author={Kumar, Ayush},\n  year={2020},\n  school={State University of New York at Stony Brook}",
+            "type": "phdthesis",
+            "fields": {
+                "title": "Visual Analytics Methodology for Multivariate Volumetric and Spatio-Temporal Data",
+                "author": "Kumar, Ayush",
+                "year": "2020",
+                "school": "State University of New York at Stony Brook"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "kumar2020demoeyesac": {
+            "number": "[36]",
+            "title": "Demo of the EyeSAC System for Visual Synchronization, Cleaning, and Annotation of Eye Movement Data",
+            "text": "title={Demo of the EyeSAC System for Visual Synchronization, Cleaning, and Annotation of Eye Movement Data},\n  author={Kumar, Ayush and Mohanty, Debesh and Kurzhals, Kuno and Beck, Fabian and Weiskopf, Daniel and Mueller, Klaus},\n  booktitle={ACM Symposium on Eye Tracking Research and Applications},\n  pages={1--3},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Demo of the EyeSAC System for Visual Synchronization, Cleaning, and Annotation of Eye Movement Data",
+                "author": "Kumar, Ayush and Mohanty, Debesh and Kurzhals, Kuno and Beck, Fabian and Weiskopf, Daniel and Mueller, Klaus",
+                "booktitle": "ACM Symposium on Eye Tracking Research and Applications",
+                "pages": "1--3",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Eye movement data analysis plays an important role in examining human cognitive processes and perceptions. Such analysis at times needs data recording from additional sources too during experiments. In this paper, we study a pair programming based collaboration using two eye trackers, stimulus recording, and an external camera recording. To analyze the collected data, we introduce the EyeSAC system that synchronizes the data from different sources and that removes the noisy and missing gazes from eye tracking data with the help of visual feedback from the external recording. The synchronized and cleaned data is further annotated using our system and then exported for further analysis.",
+            "aminer_id": "5ecf8cad9fced0a24b92a2fc"
+        },
+        "sun2020understandingattentionscore": {
+            "number": "[37]",
+            "title": "Understanding attention for text classification",
+            "text": "title={Understanding attention for text classification},\n  author={Sun, Xiaobing and Lu, Wei},\n  booktitle={Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics},\n  pages={3418--3428},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Understanding attention for text classification",
+                "author": "Sun, Xiaobing and Lu, Wei",
+                "booktitle": "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+                "pages": "3418--3428",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ec49a639fced0a24b4de933"
+        },
+        "scarselli2008graphneuralnetwork": {
+            "number": "[38]",
+            "title": "The graph neural network model",
+            "text": "title={The graph neural network model},\n  author={Scarselli, Franco and Gori, Marco and Tsoi, Ah Chung and Hagenbuchner, Markus and Monfardini, Gabriele},\n  journal={IEEE transactions on neural networks},\n  volume={20},\n  number={1},\n  pages={61--80},\n  year={2008},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "The graph neural network model",
+                "author": "Scarselli, Franco and Gori, Marco and Tsoi, Ah Chung and Hagenbuchner, Markus and Monfardini, Gabriele",
+                "journal": "IEEE transactions on neural networks",
+                "volume": "20",
+                "number": "1",
+                "pages": "61--80",
+                "year": "2008",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62c5027135d8759cb6e04281"
+        },
+        "vaswani2017attention": {
+            "number": "[39]",
+            "title": "Not All Attention is All You Need",
+            "text": "title={Attention is all you need},\n  author={Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia},\n  journal={Advances in neural information processing systems},\n  volume={30},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Attention is all you need",
+                "author": "Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N and Kaiser, Lukasz and Polosukhin, Illia",
+                "journal": "Advances in neural information processing systems",
+                "volume": "30",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Beyond the success story of pre-trained language models (PrLMs) in recent natural language processing, they are susceptible to over-fitting due to unusual large model size. To this end, dropout serves as a therapy. However, existing methods like random-based, knowledge-based and search-based dropout are more general but less effective onto self-attention based models, which are broadly chosen as the fundamental architecture of PrLMs. In this paper, we propose a novel dropout method named AttendOut to let self-attention empowered PrLMs capable of more robust task-specific tuning. We demonstrate that state-of-the-art models with elaborate training design may achieve much stronger results. We verify the universality of our approach on extensive natural language processing tasks.",
+            "aminer_id": "607566dc91e0110f6fe6826a"
+        },
+        "sutton2018reinforcementlearningbook": {
+            "number": "[40]",
+            "title": "Reinforcement learning: An introduction",
+            "text": "title={Reinforcement learning: An introduction},\n  author={Sutton, Richard S and Barto, Andrew G},\n  year={2018},\n  publisher={MIT press}",
+            "type": "book",
+            "fields": {
+                "title": "Reinforcement learning: An introduction",
+                "author": "Sutton, Richard S and Barto, Andrew G",
+                "year": "2018",
+                "publisher": "MIT press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "619b53071c45e57ce996862b"
+        },
+        "graves2005bidirectionallstm": {
+            "number": "[41]",
+            "title": "Bidirectional LSTM Networks for Improved Phoneme Classification and Recognition",
+            "text": "title={Bidirectional LSTM networks for improved phoneme classification and recognition},\n  author={Graves, Alex and Fernandez, Santiago and Schmidhuber, Jurgen},\n  booktitle={Proceedings of the 15th international conference on Artificial neural networks: formal models and their applications-Volume Part II},\n  pages={799--804},\n  year={2005}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Bidirectional LSTM networks for improved phoneme classification and recognition",
+                "author": "Graves, Alex and Fernandez, Santiago and Schmidhuber, Jurgen",
+                "booktitle": "Proceedings of the 15th international conference on Artificial neural networks: formal models and their applications-Volume Part II",
+                "pages": "799--804",
+                "year": "2005"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we carry out two experiments on the TIMIT speech corpus with bidirectional and unidirectional Long Short Term Memory (LSTM) networks. In the first experiment (framewise phoneme classification) we find that bidirectional LSTM outperforms both unidirectional LSTM and conventional Recurrent Neural Networks (RNNs). In the second (phoneme recognition) we find that a hybrid BLSTM-HMM system improves on an equivalent traditional HMM system, as well as unidirectional LSTM-HMM.",
+            "aminer_id": "5390afc920f70186a0ed38bb"
+        },
+        "huang2010efficientincrementaldecod": {
+            "number": "[42]",
+            "title": "Efficient incremental decoding for tree-to-string translation",
+            "text": "title={Efficient incremental decoding for tree-to-string translation},\n  author={Huang, Liang and Mi, Haitao},\n  booktitle={Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing},\n  pages={273--283},\n  year={2010}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Efficient incremental decoding for tree-to-string translation",
+                "author": "Huang, Liang and Mi, Haitao",
+                "booktitle": "Proceedings of the 2010 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "273--283",
+                "year": "2010"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390ad0620f70186a0eba63e"
+        },
+        "krishnamurthy2017neuralsemanticpars": {
+            "number": "[43]",
+            "title": "Neural semantic parsing with type constraints for semi-structured tables",
+            "text": "title={Neural semantic parsing with type constraints for semi-structured tables},\n  author={Krishnamurthy, Jayant and Dasigi, Pradeep and Gardner, Matt},\n  booktitle={Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing},\n  pages={1516--1526},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Neural semantic parsing with type constraints for semi-structured tables",
+                "author": "Krishnamurthy, Jayant and Dasigi, Pradeep and Gardner, Matt",
+                "booktitle": "Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "1516--1526",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a260c2817c44a4ba8a23790"
+        },
+        "sutskever2014sequenceencoderdeco1": {
+            "number": "[44]",
+            "title": "Sequence to Sequence Learning with Neural Networks",
+            "text": "title={Sequence to sequence learning with neural networks},\n  author={Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V},\n  journal={Advances in neural information processing systems},\n  volume={27},\n  year={2014}",
+            "type": "article",
+            "fields": {
+                "title": "Sequence to sequence learning with neural networks",
+                "author": "Sutskever, Ilya and Vinyals, Oriol and Le, Quoc V",
+                "journal": "Advances in neural information processing systems",
+                "volume": "27",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep Neural Networks (DNNs) are powerful models that have achieved excellent performance on difficult learning tasks. Although DNNs work well whenever large labeled training sets are available, they cannot be used to map sequences to sequences. In this paper, we present a general end-to-end approach to sequence learning that makes minimal assumptions on the sequence structure. Our method uses a multilayered Long Short-Term Memory (LSTM) to map the input sequence to a vector of a fixed dimensionality, and then another deep LSTM to decode the target sequence from the vector. Our main result is that on an English to French translation task from the WMT'14 dataset, the translations produced by the LSTM achieve a BLEU score of 34.8 on the entire test set, where the LSTM's BLEU score was penalized on out-of-vocabulary words. Additionally, the LSTM did not have difficulty on long sentences. For comparison, a phrase-based SMT system achieves a BLEU score of 33.3 on the same dataset. When we used the LSTM to rerank the 1000 hypotheses produced by the aforementioned SMT system, its BLEU score increases to 36.5, which is close to the previous best result on this task. The LSTM also learned sensible phrase and sentence representations that are sensitive to word order and are relatively invariant to the active and the passive voice. Finally, we found that reversing the order of the words in all source sentences (but not target sentences) improved the LSTM's performance markedly, because doing so introduced many short term dependencies between the source and the target sentence which made the optimization problem easier.",
+            "aminer_id": "5550410f45ce0a409eb384f8"
+        },
+        "cho2014learningencoderdeco2": {
+            "number": "[45]",
+            "title": "Learning Phrase Representations Using RNN Encoder-Decoder for Statistical Machine Translation",
+            "text": "title={Learning Phrase Representations using RNN Encoder--Decoder for Statistical Machine Translation},\n  author={Cho, Kyunghyun and van Merrienboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua},\n  booktitle={Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)},\n  pages={1724--1734},\n  year={2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning Phrase Representations using RNN Encoder--Decoder for Statistical Machine Translation",
+                "author": "Cho, Kyunghyun and van Merrienboer, Bart and Gulcehre, Caglar and Bahdanau, Dzmitry and Bougares, Fethi and Schwenk, Holger and Bengio, Yoshua",
+                "booktitle": "Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                "pages": "1724--1734",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose a novel neural network model called RNN Encoder-Decoder that consists of two recurrent neural networks (RNN). One RNN encodes a sequence of symbols into a fixed-length vector representation, and the other decodes the representation into another sequence of symbols. The encoder and decoder of the proposed model are jointly trained to maximize the conditional probability of a target sequence given a source sequence. The performance of a statistical machine translation system is empirically found to improve by using the conditional probabilities of phrase pairs computed by the RNN Encoder-Decoder as an additional feature in the existing log-linear model. Qualitatively, we show that the proposed model learns a semantically and syntactically meaningful representation of linguistic phrases.",
+            "aminer_id": "5e8d92809fced0a24b605ea5"
+        },
+        "goo2018slotfilling": {
+            "number": "[46]",
+            "title": "Slot-gated modeling for joint slot filling and intent prediction",
+            "text": "title={Slot-gated modeling for joint slot filling and intent prediction},\n  author={Goo, Chih-Wen and Gao, Guang and Hsu, Yun-Kai and Huo, Chih-Li and Chen, Tsung-Chieh and Hsu, Keng-Wei and Chen, Yun-Nung},\n  booktitle={Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)},\n  pages={753--757},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Slot-gated modeling for joint slot filling and intent prediction",
+                "author": "Goo, Chih-Wen and Gao, Guang and Hsu, Yun-Kai and Huo, Chih-Li and Chen, Tsung-Chieh and Hsu, Keng-Wei and Chen, Yun-Nung",
+                "booktitle": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)",
+                "pages": "753--757",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b1642d68fbcbf6e5a9b7f2e"
+        },
+        "lin2020bridgingtextable": {
+            "number": "[47]",
+            "title": "Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing.",
+            "text": "title={Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing},\n  author={Lin, Xi Victoria and Socher, Richard and Xiong, Caiming},\n  booktitle={Findings of the Association for Computational Linguistics: EMNLP 2020},\n  pages={4870--4888},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Bridging Textual and Tabular Data for Cross-Domain Text-to-SQL Semantic Parsing",
+                "author": "Lin, Xi Victoria and Socher, Richard and Xiong, Caiming",
+                "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2020",
+                "pages": "4870--4888",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "We present BRIDGE, a powerful sequential architecture for modeling dependencies between natural language questions and relational databases in cross-DB semantic parsing. BRIDGE represents the question and DB schema in a tagged sequence where a subset of the fields are augmented with cell values mentioned in the question. The hybrid sequence is encoded by BERT with minimal subsequent layers and the text-DB contextualization is realized via the fine-tuned deep attention in BERT. Combined with a pointergenerator decoder with schema-consistency driven search space pruning, BRIDGE attained state-of-the-art performance on the well-studied Spider benchmark (65.5% dev, 59.2% test), despite being much simpler than most recently proposed models for this task. Our analysis shows that BRIDGE effectively captures the desired cross-modal dependencies and has the potential to generalize to more text-DB related tasks. Our implementation is available at https://github.com/ salesforce/TabularSemanticParsing.",
+            "aminer_id": "5fe46bb191e01174e213911c"
+        },
+        "chang2020zeroshot": {
+            "number": "[48]",
+            "title": "Zero-shot Text-to-SQL Learning with Auxiliary Task",
+            "text": "title={Zero-shot text-to-SQL learning with auxiliary task},\n  author={Chang, Shuaichen and Liu, Pengfei and Tang, Yun and Huang, Jing and He, Xiaodong and Zhou, Bowen},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={34},\n  number={05},\n  pages={7488--7495},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Zero-shot text-to-SQL learning with auxiliary task",
+                "author": "Chang, Shuaichen and Liu, Pengfei and Tang, Yun and Huang, Jing and He, Xiaodong and Zhou, Bowen",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "34",
+                "number": "05",
+                "pages": "7488--7495",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent years have seen great success in the use of neural seq2seq models on the text-to-SQL task. However, little work has paid attention to how these models generalize to realistic unseen data, which naturally raises a question: does this impressive performance signify a perfect generalization model, or are there still some limitations? In this paper, we first diagnose the bottleneck of the text-to-SQL task by providing a new testbed, in which we observe that existing models present poor generalization ability on rarely-seen data. The above analysis encourages us to design a simple but effective auxiliary task, which serves as a supportive model as well as a regularization term to the generation task to increase the models' generalization. Experimentally, We evaluate our models on a large text-to-SQL dataset WikiSQL. Compared to a strong baseline coarse-to-fine model, our models improve over the baseline by more than 3% absolute in accuracy on the whole dataset. More interestingly, on a zero-shot subset test of WikiSQL, our models achieve 5% absolute accuracy gain over the baseline, clearly demonstrating its superior generalizability.",
+            "aminer_id": "5d68f3ba3a55ac36c20d4a92"
+        },
+        "yao2019modelbasedsemanticpars": {
+            "number": "[49]",
+            "title": "Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study.",
+            "text": "title={Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study},\n  author={Yao, Ziyu and Su, Yu and Sun, Huan and Yih, Wen-tau},\n  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},\n  pages={5447--5458},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Model-based Interactive Semantic Parsing: A Unified Framework and A Text-to-SQL Case Study",
+                "author": "Yao, Ziyu and Su, Yu and Sun, Huan and Yih, Wen-tau",
+                "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+                "pages": "5447--5458",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "As a promising paradigm, interactive semantic parsing has shown to improve both semantic parsing accuracy and user confidence in the results. In this paper, we propose a new, unified formulation of the interactive semantic parsing problem, where the goal is to design a model-based intelligent agent. The agent maintains its own state as the current predicted semantic parse, decides whether and where human intervention is needed, and generates a clarification question in natural language. A key part of the agent is a world model: it takes a percept (either an initial question or subsequent feedback from the user) and transitions to a new state. We then propose a simple yet remarkably effective instantiation of our framework, demonstrated on two text-to-SQL datasets (WikiSQL and Spider) with different state-of-the-art base semantic parsers. Compared to an existing interactive semantic parsing approach that treats the base parser as a black box, our approach solicits less user feedback but yields higher run-time accuracy.",
+            "aminer_id": "5da598be3a55ac2466688973"
+        },
+        "IRNETguo2019towards": {
+            "number": "[50]",
+            "title": "Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation",
+            "text": "title={Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation},\n  author={Guo, Jiaqi and Zhan, Zecheng and Gao, Yan and Xiao, Yan and Lou, Jian-Guang and Liu, Ting and Zhang, Dongmei},\n  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},\n  pages={4524--4535},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Towards Complex Text-to-SQL in Cross-Domain Database with Intermediate Representation",
+                "author": "Guo, Jiaqi and Zhan, Zecheng and Gao, Yan and Xiao, Yan and Lou, Jian-Guang and Liu, Ting and Zhang, Dongmei",
+                "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+                "pages": "4524--4535",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a neural approach called IRNet for complex and cross-domain Text-to-SQL. IRNet aims to address two challenges: 1) the mismatch between intents expressed in natural language (NL) and the implementation details in SQL; 2) the challenge in predicting columns caused by the large number of out-of-domain words. Instead of end-to-end synthesizing a SQL query, IRNet decomposes the synthesis process into three phases. In the first phase, IRNet performs a schema linking over a question and a database schema. Then, IRNet adopts a grammar-based neural model to synthesize a SemQL query which is an intermediate representation that we design to bridge NL and SQL. Finally, IRNet deterministically infers a SQL query from the synthesized SemQL query with domain knowledge. On the challenging Text-to-SQL benchmark Spider, IRNet achieves 46.7% accuracy, obtaining 19.5% absolute improvement over previous state-of-the-art approaches. At the time of writing, IRNet achieves the first position on the Spider leaderboard.",
+            "aminer_id": "5ce3ce17e1cd8e512a5bf949"
+        },
+        "xu2018sqlnet": {
+            "number": "[51]",
+            "title": "SQLNet: Generating Structured Queries from Natural Language Without Reinforcement Learning.",
+            "text": "title={SQLNet: Generating Structured Queries From Natural Language Without Reinforcement Learning},\n  author={Xu, Xiaojun and Liu, Chang and Song, Dawn},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "SQLNet: Generating Structured Queries From Natural Language Without Reinforcement Learning",
+                "author": "Xu, Xiaojun and Liu, Chang and Song, Dawn",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Synthesizing SQL queries from natural language is a long-standing open problem and has been attracting considerable interest recently. Toward solving the problem, the de facto approach is to employ a sequence-to-sequence-style model. Such an approach will necessarily require the SQL queries to be serialized. Since the same SQL query may have multiple equivalent serializations, training a sequence-to-sequence-style model is sensitive to the choice from one of them. This phenomenon is documented as the \"order-matters\" problem. Existing state-of-the-art approaches rely on reinforcement learning to reward the decoder when it generates any of the equivalent serializations. However, we observe that the improvement from reinforcement learning is limited. In this paper, we propose a novel approach, i.e., SQLNet, to fundamentally solve this problem by avoiding the sequence-to-sequence structure when the order does not matter. In particular, we employ a sketch-based approach where the sketch contains a dependency graph so that one prediction can be done by taking into consideration only the previous predictions that it depends on. In addition, we propose a sequence-to-set model as well as the column attention mechanism to synthesize the query based on the sketch. By combining all these novel techniques, we show that SQLNet can outperform the prior art by 9% to 13% on the WikiSQL task.",
+            "aminer_id": "5a260c8b17c44a4ba8a3293b"
+        },
+        "zhong2018seqsqlwithreinfolear": {
+            "number": "[52]",
+            "title": "Seq2SQL: Generating Structured Queries from Natural Language Using Reinforcement Learning",
+            "text": "title={Seq2{SQL}: Generating Structured Queries From Natural Language Using Reinforcement Learning },\nauthor={Victor Zhong and Caiming Xiong and Richard Socher},\nyear={2018},\nurl={https://openreview.net/forum?id=Syx6bz-Ab},",
+            "type": "misc",
+            "fields": {
+                "title": "Seq2{SQL}: Generating Structured Queries From Natural Language Using Reinforcement Learning",
+                "author": "Victor Zhong and Caiming Xiong and Richard Socher",
+                "year": "2018",
+                "url": "https://openreview.net/forum?id=Syx6bz-Ab"
+            },
+            "ref_source": "bib",
+            "abstract": "A significant amount of the world's knowledge is stored in relational databases. However, the ability for users to retrieve facts from a database is limited due to a lack of understanding of query languages such as SQL. We propose Seq2SQL, a deep neural network for translating natural language questions to corresponding SQL queries. Our model leverages the structure of SQL queries to significantly reduce the output space of generated queries. Moreover, we use rewards from in-the-loop query execution over the database to learn a policy to generate unordered parts of the query, which we show are less suitable for optimization via cross entropy loss. In addition, we will publish WikiSQL, a dataset of 80654 hand-annotated examples of questions and SQL queries distributed across 24241 tables from Wikipedia. This dataset is required to train our model and is an order of magnitude larger than comparable datasets. By applying policy-based reinforcement learning with a query execution environment to WikiSQL, our model Seq2SQL outperforms attentional sequence to sequence models, improving execution accuracy from 35.9% to 59.4% and logical form accuracy from 23.4% to 48.3%.",
+            "aminer_id": "6673625d38ee31c49d31c3b6"
+        },
+        "yan2020sqlmachineread": {
+            "number": "[53]",
+            "title": "SQL Generation Via Machine Reading Comprehension",
+            "text": "title={SQL Generation via Machine Reading Comprehension},\n  author={Yan, Zeyu and Ma, Jianqiang and Zhang, Yang and Shen, Jianping},\n  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},\n  pages={350--356},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SQL Generation via Machine Reading Comprehension",
+                "author": "Yan, Zeyu and Ma, Jianqiang and Zhang, Yang and Shen, Jianping",
+                "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics",
+                "pages": "350--356",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Text-to-SQL systems offers natural language interfaces to databases, which can automatically generates SQL queries given natural language questions. On the WikiSQL benchmark, state-of- the-art text-to-SQL systems typically take a slot-filling approach by building several specialized models for each type of slot. Despite being effective, such modularized systems are complex and also fall short in jointly learning for different slots. To solve these problems, this paper proposes a novel approach that formulates the task as a question answering problem, where different slots are predicted by a unified machine reading comprehension (MRC) model. For this purpose, we use a BERT-based MRC model, which can also benefit from intermediate training on other MRC datasets. The proposed method can achieve competitive results on WikiSQL, suggesting it being a promising direction for text-to-SQL.",
+            "aminer_id": "5ff880bc91e011c83266aa01"
+        },
+        "chen2020talelinkingdynamic": {
+            "number": "[54]",
+            "title": "A Tale of Two Linkings: Dynamically Gating Between Schema Linking and Structural Linking for Text-to-SQL Parsing",
+            "text": "title={A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing},\n  author={Chen, Sanxing and San, Aidan and Liu, Xiaodong and Ji, Yangfeng},\n  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},\n  pages={2900--2912},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Tale of Two Linkings: Dynamically Gating between Schema Linking and Structural Linking for Text-to-SQL Parsing",
+                "author": "Chen, Sanxing and San, Aidan and Liu, Xiaodong and Ji, Yangfeng",
+                "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics",
+                "pages": "2900--2912",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "In Text-to-SQL semantic parsing, selecting the correct entities (tables and columns) for the generated SQL query is both crucial and challenging; the parser is required to connect the natural language (NL) question and the SQL query to the structured knowledge in the database. We formulate two linking processes to address this challenge: schema linking which links explicit NL mentions to the database and structural linking which links the entities in the output SQL with their structural relationships in the database schema. Intuitively, the effectiveness of these two linking processes changes based on the entity being generated, thus we propose to dynamically choose between them using a gating mechanism. Integrating the proposed method with two graph neural network-based semantic parsers together with BERT representations demonstrates substantial gains in parsing accuracy on the challenging Spider dataset. Analyses show that our proposed method helps to enhance the structure of the model output when generating complicated SQL queries and offers more explainable predictions.",
+            "aminer_id": "5f75ff3491e0111c1eb4dbc1"
+        },
+        "kalajdjieski2020recentbenchmarkdataset": {
+            "number": "[55]",
+            "title": "Recent Advances in SQL Query Generation: A Survey",
+            "text": "title={Recent Advances in SQL Query Generation: A Survey},\n  author={Kalajdjieski, Jovan and Toshevska, Martina and Stojanovska, Frosina},\n  booktitle={Conference for Informatics and Information Technology},\n  pages={16},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Recent Advances in SQL Query Generation: A Survey",
+                "author": "Kalajdjieski, Jovan and Toshevska, Martina and Stojanovska, Frosina",
+                "booktitle": "Conference for Informatics and Information Technology",
+                "pages": "16",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Natural language is hypothetically the best user interface for many domains.However, general models that provide an interface between natural language andany other domain still do not exist. Providing natural language interface torelational databases could possibly attract a vast majority of users that areor are not proficient with query languages. With the rise of deep learningtechniques, there is extensive ongoing research in designing a suitable naturallanguage interface to relational databases.  This survey aims to overview some of the latest methods and models proposedin the area of SQL query generation from natural language. We describe modelswith various architectures such as convolutional neural networks, recurrentneural networks, pointer networks, reinforcement learning, etc. Severaldatasets intended to address the problem of SQL query generation areinterpreted and briefly overviewed. In the end, evaluation metrics utilized inthe field are presented mainly as a combination of execution accuracy andlogical form accuracy.",
+            "aminer_id": "5ec3ae4891e0112b16089c76"
+        },
+        "bogin2019representingschema": {
+            "number": "[56]",
+            "title": "Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing",
+            "text": "title={Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing},\n  author={Bogin, Ben and Berant, Jonathan and Gardner, Matt},\n  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},\n  pages={4560--4565},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Representing Schema Structure with Graph Neural Networks for Text-to-SQL Parsing",
+                "author": "Bogin, Ben and Berant, Jonathan and Gardner, Matt",
+                "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+                "pages": "4560--4565",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Research on parsing language to SQL has largely ignored the structure of the database (DB) schema, either because the DB was very simple, or because it was observed at both training and test time. In Spider, a recently-released text-to-SQL dataset, new and complex DBs are given at test time, and so the structure of the DB schema can inform the predicted SQL query. In this paper, we present an encoder-decoder semantic parser, where the structure of the DB schema is encoded with a graph neural network, and this representation is later used at both encoding and decoding time. Evaluation shows that encoding the schema structure improves our parser accuracy from 33.8% to 39.4%, dramatically above the current state of the art, which is at 19.7%.",
+            "aminer_id": "5cdd3c32e1cd8e6697ca2b2e"
+        },
+        "cineseSQL2019pilot": {
+            "number": "[57]",
+            "title": "A Pilot Study for Chinese SQL Semantic Parsing",
+            "text": "title={A Pilot Study for Chinese SQL Semantic Parsing},\n  author={Min, Qingkai and Shi, Yuefeng and Zhang, Yue},\n  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},\n  pages={3652--3658},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Pilot Study for Chinese SQL Semantic Parsing",
+                "author": "Min, Qingkai and Shi, Yuefeng and Zhang, Yue",
+                "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+                "pages": "3652--3658",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "The task of semantic parsing is highly useful for dialogue and question answering systems. Many datasets have been proposed to map natural language text into SQL, among which the recent Spider dataset provides cross-domain samples with multiple tables and complex queries. We build a Spider dataset for Chinese, which is currently a low-resource language in this task area. Interesting research questions arise from the uniqueness of the language, which requires word segmentation, and also from the fact that SQL keywords and columns of DB tables are typically written in English. We compare character- and word-based encoders for a semantic parser, and different embedding schemes. Results show that word-based semantic parser is subject to segmentation errors and cross-lingual word embeddings are useful for text-to-SQL.",
+            "aminer_id": "5d9323f43a55ac8695a91484"
+        },
+        "yu2018typesql": {
+            "number": "[58]",
+            "title": "TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation",
+            "text": "title={TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation},\n  author={Yu, Tao and Li, Zifan and Zhang, Zilin and Zhang, Rui and Radev, Dragomir},\n  booktitle={Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)},\n  pages={588--594},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "TypeSQL: Knowledge-Based Type-Aware Neural Text-to-SQL Generation",
+                "author": "Yu, Tao and Li, Zifan and Zhang, Zilin and Zhang, Rui and Radev, Dragomir",
+                "booktitle": "Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)",
+                "pages": "588--594",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b1642d68fbcbf6e5a9b7f21"
+        },
+        "yu2019sparc": {
+            "number": "[59]",
+            "title": "SParC: Cross-Domain Semantic Parsing in Context",
+            "text": "title={SParC: Cross-Domain Semantic Parsing in Context},\n  author={Yu, Tao and Zhang, Rui and Yasunaga, Michihiro and Tan, Yi Chern and Lin, Xi Victoria and Li, Suyi and Er, Heyang and Li, Irene and Pang, Bo and Chen, Tao and others},\n  booktitle={Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics},\n  pages={4511--4523},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SParC: Cross-Domain Semantic Parsing in Context",
+                "author": "Yu, Tao and Zhang, Rui and Yasunaga, Michihiro and Tan, Yi Chern and Lin, Xi Victoria and Li, Suyi and Er, Heyang and Li, Irene and Pang, Bo and Chen, Tao and others",
+                "booktitle": "Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics",
+                "pages": "4511--4523",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5cfa706e3a55acc5959c9cbd"
+        },
+        "yu2019cosql": {
+            "number": "[60]",
+            "title": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases.",
+            "text": "title={CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases},\n  author={Yu, Tao and Zhang, Rui and Er, Heyang and Li, Suyi and Xue, Eric and Pang, Bo and Lin, Xi Victoria and Tan, Yi Chern and Shi, Tianze and Li, Zihan and others},\n  booktitle={Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)},\n  pages={1962--1979},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "CoSQL: A Conversational Text-to-SQL Challenge Towards Cross-Domain Natural Language Interfaces to Databases",
+                "author": "Yu, Tao and Zhang, Rui and Er, Heyang and Li, Suyi and Xue, Eric and Pang, Bo and Lin, Xi Victoria and Tan, Yi Chern and Shi, Tianze and Li, Zihan and others",
+                "booktitle": "Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)",
+                "pages": "1962--1979",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We present CoSQL, a corpus for building cross-domain, general-purpose database (DB) querying dialogue systems. It consists of 30k+ turns plus 10k+ annotated SQL queries, obtained from a Wizard-of-Oz (WOZ) collection of 3k dialogues querying 200 complex DBs spanning 138 domains. Each dialogue simulates a real-world DB query scenario with a crowd worker as a user exploring the DB and a SQL expert retrieving answers with SQL, clarifying ambiguous questions, or otherwise informing of unanswerable questions. When user questions are answerable by SQL, the expert describes the SQL and execution results to the user, hence maintaining a natural interaction flow. CoSQL introduces new challenges compared to existing task-oriented dialogue datasets:(1) the dialogue states are grounded in SQL, a domain-independent executable representation, instead of domain-specific slot-value pairs, and (2) because testing is done on unseen databases, success requires generalizing to new domains. CoSQL includes three tasks: SQL-grounded dialogue state tracking, response generation from query results, and user dialogue act prediction. We evaluate a set of strong baselines for each task and show that CoSQL presents significant challenges for future research. The dataset, baselines, and leaderboard will be released at https://yale-lily.github.io/cosql.",
+            "aminer_id": "5d7b71503a55ac064765388c"
+        },
+        "roy2013microsoftMAS": {
+            "number": "[61]",
+            "title": "The microsoft academic search dataset and kdd cup 2013",
+            "text": "title={The microsoft academic search dataset and kdd cup 2013},\n  author={Roy, Senjuti Basu and De Cock, Martine and Mandava, Vani and Savanna, Swapna and Dalessandro, Brian and Perlich, Claudia and Cukierski, William and Hamner, Ben},\n  booktitle={Proceedings of the 2013 KDD cup 2013 workshop},\n  pages={1--6},\n  year={2013}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "The microsoft academic search dataset and kdd cup 2013",
+                "author": "Roy, Senjuti Basu and De Cock, Martine and Mandava, Vani and Savanna, Swapna and Dalessandro, Brian and Perlich, Claudia and Cukierski, William and Hamner, Ben",
+                "booktitle": "Proceedings of the 2013 KDD cup 2013 workshop",
+                "pages": "1--6",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390bd1520f70186a0f440a7"
+        },
+        "imdb2015": {
+            "number": "[62]",
+            "title": "Properties and Applications of the IMDb Film Connections Network",
+            "text": "title={Properties and Applications of the IMDb Film Connections Network},\n  author={Wasserman, Max Philip},\n  year={2015},\n  school={Northwestern University}",
+            "type": "phdthesis",
+            "fields": {
+                "title": "Properties and Applications of the IMDb Film Connections Network",
+                "author": "Wasserman, Max Philip",
+                "year": "2015",
+                "school": "Northwestern University"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "atis-3": {
+            "number": "[63]",
+            "title": "Expanding the scope of the ATIS task: The ATIS-3 corpus",
+            "text": "title={Expanding the scope of the ATIS task: The ATIS-3 corpus},\n  author={Dahl, Deborah A and Bates, Madeleine and Brown, Michael K and Fisher, William M and Hunicke-Smith, Kate and Pallett, David S and Pao, Christine and Rudnicky, Alexander and Shriberg, Elizabeth},\n  booktitle={Human Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8-11, 1994},\n  year={1994}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Expanding the scope of the ATIS task: The ATIS-3 corpus",
+                "author": "Dahl, Deborah A and Bates, Madeleine and Brown, Michael K and Fisher, William M and Hunicke-Smith, Kate and Pallett, David S and Pao, Christine and Rudnicky, Alexander and Shriberg, Elizabeth",
+                "booktitle": "Human Language Technology: Proceedings of a Workshop held at Plainsboro, New Jersey, March 8-11, 1994",
+                "year": "1994"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390985e20f70186a0e08d9c"
+        },
+        "spider18": {
+            "number": "[64]",
+            "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+            "text": "title={Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task},\n  author={Yu, Tao and Zhang, Rui and Yang, Kai and Yasunaga, Michihiro and Wang, Dongxu and Li, Zifan and Ma, James and Li, Irene and Yao, Qingning and Roman, Shanelle and others},\n  booktitle={Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing},\n  pages={3911--3921},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Spider: A Large-Scale Human-Labeled Dataset for Complex and Cross-Domain Semantic Parsing and Text-to-SQL Task",
+                "author": "Yu, Tao and Zhang, Rui and Yang, Kai and Yasunaga, Michihiro and Wang, Dongxu and Li, Zifan and Ma, James and Li, Irene and Yao, Qingning and Roman, Shanelle and others",
+                "booktitle": "Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "3911--3921",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We present Spider, a large-scale complex and cross-domain semantic parsing and text-to-SQL dataset annotated by 11 college students. It consists of 10,181 questions and 5,693 unique complex SQL queries on 200 databases with multiple tables covering 138 different domains. We define a new complex and cross-domain semantic parsing and text-to-SQL task so that different complicated SQL queries and databases appear in train and test sets. In this way, the task requires the model to generalize well to both new SQL queries and new database schemas. Therefore, Spider is distinct from most of the previous semantic parsing tasks because they all use a single database and have the exact same program in the train set and the test set. We experiment with various state-of-the-art models and the best model achieves only 9.7% exact matching accuracy on a database split setting. This shows that Spider presents a strong challenge for future research. Our dataset and task with the most recent updates are publicly available at https://yale-lily.github.io/seq2sql/spider.",
+            "aminer_id": "5bdc315017c44a1f58a05c04"
+        },
+        "wikisql2017": {
+            "number": "[65]",
+            "title": "Seq2SQL: Generating Structured Queries from Natural Language Using Reinforcement Learning",
+            "text": "author    = {Victor Zhong and\n               Caiming Xiong and\n               Richard Socher},\n  title     = {Seq2SQL: Generating Structured Queries from Natural Language using\n               Reinforcement Learning},\n  journal   = {CoRR},\n  volume    = {abs/1709.00103},\n  year      = {2017}",
+            "type": "article",
+            "fields": {
+                "author": "Victor Zhong and Caiming Xiong and Richard Socher",
+                "title": "Seq2SQL: Generating Structured Queries from Natural Language using Reinforcement Learning",
+                "journal": "CoRR",
+                "volume": "abs/1709.00103",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "A significant amount of the world's knowledge is stored in relational databases. However, the ability for users to retrieve facts from a database is limited due to a lack of understanding of query languages such as SQL. We propose Seq2SQL, a deep neural network for translating natural language questions to corresponding SQL queries. Our model leverages the structure of SQL queries to significantly reduce the output space of generated queries. Moreover, we use rewards from in-the-loop query execution over the database to learn a policy to generate unordered parts of the query, which we show are less suitable for optimization via cross entropy loss. In addition, we will publish WikiSQL, a dataset of 80654 hand-annotated examples of questions and SQL queries distributed across 24241 tables from Wikipedia. This dataset is required to train our model and is an order of magnitude larger than comparable datasets. By applying policy-based reinforcement learning with a query execution environment to WikiSQL, our model Seq2SQL outperforms attentional sequence to sequence models, improving execution accuracy from 35.9% to 59.4% and logical form accuracy from 23.4% to 48.3%.",
+            "aminer_id": "6673625d38ee31c49d31c3b6"
+        },
+        "tang2001usinggeoquery": {
+            "number": "[66]",
+            "title": "Using Multiple Clause Constructors in Inductive Logic Programming for Semantic Parsing",
+            "text": "title={Using multiple clause constructors in inductive logic programming for semantic parsing},\n  author={Tang, Lappoon R and Mooney, Raymond J},\n  booktitle={European Conference on Machine Learning},\n  pages={466--477},\n  year={2001},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Using multiple clause constructors in inductive logic programming for semantic parsing",
+                "author": "Tang, Lappoon R and Mooney, Raymond J",
+                "booktitle": "European Conference on Machine Learning",
+                "pages": "466--477",
+                "year": "2001",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we explored a learning approach which combines different learning methods in inductive logic programming (ILP) to allow a learner to produce more expressive hypotheses than that of each individual learner. Such a learning approach may be useful when the performance of the task depends on solving a large amount of classification problems and each has its own characteristics which may or may not fit a particular learning method. The task of semantic parser acquisition in two different domains was attempted and preliminary results demonstrated that such an approach is promising.",
+            "aminer_id": "53908a4020f70186a0d9f327"
+        },
+        "tang2000automatedrestaurant1": {
+            "number": "[67]",
+            "title": "Automated construction of database interfaces: Intergrating statistical and relational learning for semantic parsing",
+            "text": "title={Automated construction of database interfaces: Intergrating statistical and relational learning for semantic parsing},\n  author={Tang, Lappoon R and Mooney, Raymond},\n  booktitle={2000 Joint SIGDAT Conference on Empirical Methods in Natural Language Processing and Very Large Corpora},\n  pages={133--141},\n  year={2000}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Automated construction of database interfaces: Intergrating statistical and relational learning for semantic parsing",
+                "author": "Tang, Lappoon R and Mooney, Raymond",
+                "booktitle": "2000 Joint SIGDAT Conference on Empirical Methods in Natural Language Processing and Very Large Corpora",
+                "pages": "133--141",
+                "year": "2000"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "bhagavatula2015tabel": {
+            "number": "[68]",
+            "title": "TabEL: Entity Linking in Web Tables",
+            "text": "title={Tabel: Entity linking in web tables},\n  author={Bhagavatula, Chandra Sekhar and Noraset, Thanapon and Downey, Doug},\n  booktitle={International Semantic Web Conference},\n  pages={425--441},\n  year={2015},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Tabel: Entity linking in web tables",
+                "author": "Bhagavatula, Chandra Sekhar and Noraset, Thanapon and Downey, Doug",
+                "booktitle": "International Semantic Web Conference",
+                "pages": "425--441",
+                "year": "2015",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Web tables form a valuable source of relational data. TheWeb contains an estimated 154 million HTML tables of relational data, with Wikipedia alone containing 1.6 million high-quality tables. Extracting the semantics of Web tables to produce machine-understandable knowledge has become an active area of research.A key step in extracting the semantics of Web content is entity linking (EL): the task of mapping a phrase in text to its referent entity in a knowledge base (KB). In this paper we present TabEL, a new EL system for Web tables. TabEL differs from previous work by weakening the assumption that the semantics of a table can be mapped to pre-defined types and relations found in the target KB. Instead, TabEL enforces soft constraints in the form of a graphical model that assigns higher likelihood to sets of entities that tend to co-occur in Wikipedia documents and tables. In experiments, TabEL significantly reduces error when compared to current state-of-the-art table EL systems, including a 75% error reduction on Wikipedia tables and a 60% error reduction on Web tables. We also make our parsed Wikipedia table corpus and test datasets publicly available for future work.",
+            "aminer_id": "5736984b6e3b12023e713a76"
+        },
+        "liu2019roberta": {
+            "number": "[69]",
+            "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "text": "title={RoBERTa: A Robustly Optimized BERT Pretraining Approach},\n  author={Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+                "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
+            "aminer_id": "5d3ed2653a55ac61d998598b"
+        },
+        "li2014constructingacademicdata": {
+            "number": "[70]",
+            "title": "Constructing an Interactive Natural Language Interface for Relational Databases",
+            "text": "title={Constructing an interactive natural language interface for relational databases},\n  author={Li, Fei and Jagadish, Hosagrahar V},\n  journal={Proceedings of the VLDB Endowment},\n  volume={8},\n  number={1},\n  pages={73--84},\n  year={2014},\n  publisher={VLDB Endowment}",
+            "type": "article",
+            "fields": {
+                "title": "Constructing an interactive natural language interface for relational databases",
+                "author": "Li, Fei and Jagadish, Hosagrahar V",
+                "journal": "Proceedings of the VLDB Endowment",
+                "volume": "8",
+                "number": "1",
+                "pages": "73--84",
+                "year": "2014",
+                "publisher": "VLDB Endowment"
+            },
+            "ref_source": "bib",
+            "abstract": "Natural language has been the holy grail of query interface designers, but has generally been considered too hard to work with, except in limited specific circumstances. In this paper, we describe the architecture of an interactive natural language query interface for relational databases. Through a carefully limited interaction with the user, we are able to correctly interpret complex natural language queries, in a generic manner across a range of domains. By these means, a logically complex English language sentence is correctly translated into a SQL query, which may include aggregation, nesting, and various types of joins, among other things, and can be evaluated against an RDBMS. We have constructed a system, NaLIR (Natural Language Interface for Relational databases), embodying these ideas. Our experimental assessment, through user studies, demonstrates that NaLIR is good enough to be usable in practice: even naive users are able to specify quite complex ad-hoc queries.",
+            "aminer_id": "5525af310cf26421308b1166"
+        },
+        "yaghmazadeh2017sqlizerYelpdata": {
+            "number": "[71]",
+            "title": "SQLizer: Query Synthesis from Natural Language",
+            "text": "title={SQLizer: query synthesis from natural language},\n  author={Yaghmazadeh, Navid and Wang, Yuepeng and Dillig, Isil and Dillig, Thomas},\n  journal={Proceedings of the ACM on Programming Languages},\n  volume={1},\n  number={OOPSLA},\n  pages={1--26},\n  year={2017},\n  publisher={ACM New York, NY, USA}",
+            "type": "article",
+            "fields": {
+                "title": "SQLizer: query synthesis from natural language",
+                "author": "Yaghmazadeh, Navid and Wang, Yuepeng and Dillig, Isil and Dillig, Thomas",
+                "journal": "Proceedings of the ACM on Programming Languages",
+                "volume": "1",
+                "number": "OOPSLA",
+                "pages": "1--26",
+                "year": "2017",
+                "publisher": "ACM New York, NY, USA"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper presents a new technique for automatically synthesizing SQL queries from natural language (NL). At the core of our technique is a new NL-based program synthesis methodology that combines semantic parsing techniques from the NLP community with type-directed program synthesis and automated program repair. Starting with a program sketch obtained using standard parsing techniques, our approach involves an iterative refinement loop that alternates between probabilistic type inhabitation and automated sketch repair. We use the proposed idea to build an end-to-end system called SQLIZER that can synthesize SQL queries from natural language. Our method is fully automated, works for any database without requiring additional customization, and does not require users to know the underlying database schema. We evaluate our approach on over 450 natural language queries concerning three different databases, namely MAS, IMDB, and YELP. Our experiments show that the desired query is ranked within the top 5 candidates in close to 90% of the cases and that SQLIZER outperforms NALIR, a state-of-the-art tool that won a best paper award at VLDB'14.",
+            "aminer_id": "5a260c8b17c44a4ba8a32dd1"
+        },
+        "iyer2017learningscholardata": {
+            "number": "[72]",
+            "title": "Learning a Neural Semantic Parser from User Feedback",
+            "text": "title={Learning a Neural Semantic Parser from User Feedback},\n  author={Iyer, Srinivasan and Konstas, Ioannis and Cheung, Alvin and Krishnamurthy, Jayant and Zettlemoyer, Luke},\n  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={963--973},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning a Neural Semantic Parser from User Feedback",
+                "author": "Iyer, Srinivasan and Konstas, Ioannis and Cheung, Alvin and Krishnamurthy, Jayant and Zettlemoyer, Luke",
+                "booktitle": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "pages": "963--973",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "59ae3c262bbe271c4c71ea56"
+        },
+        "finegan2018improvingadvisingdata": {
+            "number": "[73]",
+            "title": "Improving Text-to-SQL Evaluation Methodology",
+            "text": "title={Improving Text-to-SQL Evaluation Methodology},\n  author={Finegan-Dollak, Catherine and Kummerfeld, Jonathan K and Zhang, Li and Ramanathan, Karthik and Sadasivam, Sesh and Zhang, Rui and Radev, Dragomir},\n  booktitle={Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={351--360},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Improving Text-to-SQL Evaluation Methodology",
+                "author": "Finegan-Dollak, Catherine and Kummerfeld, Jonathan K and Zhang, Li and Ramanathan, Karthik and Sadasivam, Sesh and Zhang, Rui and Radev, Dragomir",
+                "booktitle": "Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "pages": "351--360",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b67b46b17c44aac1c861ea3"
+        },
+        "wangpointing": {
+            "number": "[74]",
+            "title": "Pointing out SQL Queries from Text",
+            "text": "title={POINTING OUT SQL QUERIES FROM TEXT},\n  author={Wang, Chenglong and Brockschmidt, Marc and Singh, Rishabh}",
+            "type": "article",
+            "fields": {
+                "title": "POINTING OUT SQL QUERIES FROM TEXT",
+                "author": "Wang, Chenglong and Brockschmidt, Marc and Singh, Rishabh"
+            },
+            "ref_source": "bib",
+            "abstract": "The digitization of data has resulted in making datasets available to millions of users in the form of relational databases and spreadsheet tables. However, a majority of these users come from diverse backgrounds and lack the programming expertise to query and analyze such tables. We present a system that allows for querying data tables using natural language questions, where the system translates the question into an executable SQL query. We use a deep sequence to sequence model in wich the decoder uses a simple type system of SQL expressions to structure the output prediction. Based on the type, the decoder either copies an output token from the input question using an attention-based copying mechanism or generates it from a fixed vocabulary. We also introduce a value-based loss function that transforms a distribution over locations to copy from into a distribution over the set of input tokens to improve training of our model. We evaluate our model on the recently released WikiSQL dataset and show that our model trained using only supervised learning significantly outperforms the current state-of-the-art Seq2SQL model that uses reinforcement learning.",
+            "aminer_id": "64b6ba9c3fda6d7f06eedd7e"
+        },
+        "devlin2019bert": {
+            "number": "[75]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "title={BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding},\n  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},\n  booktitle={Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)},\n  pages={4171--4186},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+                "booktitle": "Proceedings of the 2019 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+                "pages": "4171--4186",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "kumar2020challenges": {
+            "number": "[76]",
+            "title": "Challenges in Interpretability of Neural Networks for Eye Movement Data",
+            "text": "title={Challenges in interpretability of neural networks for eye movement data},\n  author={Kumar, Ayush and Howlader, Prantik and Garcia, Rafael and Weiskopf, Daniel and Mueller, Klaus},\n  booktitle={ACM Symposium on Eye Tracking Research and Applications},\n  pages={1--5},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Challenges in interpretability of neural networks for eye movement data",
+                "author": "Kumar, Ayush and Howlader, Prantik and Garcia, Rafael and Weiskopf, Daniel and Mueller, Klaus",
+                "booktitle": "ACM Symposium on Eye Tracking Research and Applications",
+                "pages": "1--5",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Many applications in eye tracking have been increasingly employing neural networks to solve machine learning tasks. In general, neural networks have achieved impressive results in many problems over the past few years, but they still suffer from the lack of interpretability due to their black-box behavior. While previous research on explainable AI has been able to provide high levels of interpretability for models in image classification and natural language processing tasks, little effort has been put into interpreting and understanding networks trained with eye movement datasets. This paper discusses the importance of developing interpretability methods specifically for these models. We characterize the main problems for interpreting neural networks with this type of data, how they differ from the problems faced in other domains, and why existing techniques are not sufficient to address all of these issues. We present preliminary experiments showing the limitations that current techniques have and how we can improve upon them. Finally, based on the evaluation of our experiments, we suggest future research directions that might lead to more interpretable and explainable neural networks for eye tracking.",
+            "aminer_id": "5ec500e79fced0a24b76815f"
+        },
+        "liu2021awakening": {
+            "number": "[77]",
+            "title": "Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing.",
+            "text": "title={Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing},\n  author={Liu, Qian and Yang, Dejian and Zhang, Jiahui and Guo, Jiaqi and Zhou, Bin and Lou, Jian-Guang},\n  booktitle={Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021},\n  pages={1174--1189},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Awakening Latent Grounding from Pretrained Language Models for Semantic Parsing",
+                "author": "Liu, Qian and Yang, Dejian and Zhang, Jiahui and Guo, Jiaqi and Zhou, Bin and Lou, Jian-Guang",
+                "booktitle": "Findings of the Association for Computational Linguistics: ACL-IJCNLP 2021",
+                "pages": "1174--1189",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent years pretrained language models (PLMs) hit a success on several downstream tasks, showing their power on modeling language. To better understand and leverage what PLMs have learned, several techniques have emerged to explore syntactic structures entailed by PLMs. However, few efforts have been made to explore grounding capabilities of PLMs, which are also essential. In this paper, we highlight the ability of PLMs to discover which token should be grounded to which concept, if combined with our proposed erasing-then-awakening approach. Empirical studies on four datasets demonstrate that our approach can awaken latent grounding which is understandable to human experts, even if it is not exposed to such labels during training. More importantly, our approach shows great potential to benefit downstream semantic parsing models. Taking text-to-SQL as a case study, we successfully couple our approach with two off-the-shelf parsers, obtaining an absolute improvement of up to 9.8",
+            "aminer_id": "6103d7ba91e01159791b2139"
+        },
+        "lstm1997": {
+            "number": "[78]",
+            "title": "Long Short-Term Memory",
+            "text": "title={Long Short-Term Memory},\n  author={Sepp Hochreiter and Jurgen Schmidhuber},\n  journal={Neural Computation},\n  year={1997},\n  volume={9},\n  pages={1735-1780}",
+            "type": "article",
+            "fields": {
+                "title": "Long Short-Term Memory",
+                "author": "Sepp Hochreiter and Jurgen Schmidhuber",
+                "journal": "Neural Computation",
+                "year": "1997",
+                "volume": "9",
+                "pages": "1735-1780"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yin2017syntactic": {
+            "number": "[79]",
+            "title": "A Syntactic Neural Model for General-Purpose Code Generation",
+            "text": "title={A Syntactic Neural Model for General-Purpose Code Generation},\n  author={Yin, Pengcheng and Neubig, Graham},\n  booktitle={Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={440--450},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Syntactic Neural Model for General-Purpose Code Generation",
+                "author": "Yin, Pengcheng and Neubig, Graham",
+                "booktitle": "Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "pages": "440--450",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e8d92a39fced0a24b62ca31"
+        },
+        "chung2014empiricalgatedrnn": {
+            "number": "[80]",
+            "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+            "text": "title={Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling},\n  author={Chung, Junyoung and Gulcehre, Caglar and Cho, KyungHyun and Bengio, Yoshua},\n  journal={arXiv preprint arXiv:1412.3555},\n  year={2014}",
+            "type": "article",
+            "fields": {
+                "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+                "author": "Chung, Junyoung and Gulcehre, Caglar and Cho, KyungHyun and Bengio, Yoshua",
+                "journal": "arXiv preprint arXiv:1412.3555",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.",
+            "aminer_id": "5550415d45ce0a409eb3aa60"
+        },
+        "sennrich-etal-2016-improving": {
+            "number": "[81]",
+            "title": "Improving Neural Machine Translation Models with Monolingual Data",
+            "text": "title = {Improving Neural Machine Translation Models with Monolingual Data},\n    author = {Sennrich, Rico  and\n      Haddow, Barry  and\n      Birch, Alexandra},\n    booktitle = {Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n    year = {2016},\n    address = {Berlin, Germany},\n    publisher = {Association for Computational Linguistics},\n    url = {https://aclanthology.org/P16-1009},\n    doi = {10.18653/v1/P16-1009},\n    pages = {86--96},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Improving Neural Machine Translation Models with Monolingual Data",
+                "author": "Sennrich, Rico and Haddow, Barry and Birch, Alexandra",
+                "booktitle": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "year": "2016",
+                "address": "Berlin, Germany",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/P16-1009",
+                "doi": "10.18653/v1/P16-1009",
+                "pages": "86--96"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural Machine Translation (NMT) has obtained state-of-the art performance for several language pairs, while only using parallel data for training. Target-side monolingual data plays an important role in boosting fluency for phrase-based statistical machine translation, and we investigate the use of monolingual data for NMT. In contrast to previous work, which combines NMT models with separately trained language models, we note that encoder-decoder NMT architectures already have the capacity to learn the same information as a language model, and we explore strategies to train with monolingual data without changing the neural network architecture. By pairing monolingual training data with an automatic back-translation, we can treat it as additional parallel training data, and we obtain substantial improvements on the WMT 15 task English German (+2.8-3.7 BLEU), and for the low-resourced IWSLT 14 task Turkish->English (+2.1-3.4 BLEU), obtaining new state-of-the-art results. We also show that fine-tuning on in-domain monolingual and parallel data gives substantial improvements for the IWSLT 15 task English->German.",
+            "aminer_id": "599c7b70601a182cd273925b"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 81,
+        "citation_types": {
+            "other": 81
+        }
+    }
+}

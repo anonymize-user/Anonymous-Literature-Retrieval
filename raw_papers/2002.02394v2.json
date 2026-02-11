@@ -1,0 +1,1872 @@
+{
+    "topic": "FPGA Acceleration of Sequence Alignment: A Survey",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[71]",
+                "[82]",
+                "[78]",
+                "[84]",
+                "[3]",
+                "[83]",
+                "[58]",
+                "[74]",
+                "[69]",
+                "[75]",
+                "[76]",
+                "[68]",
+                "[88]",
+                "[80]",
+                "[77]",
+                "[70]",
+                "[81]",
+                "[79]",
+                "[72]",
+                "[73]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Background and Algorithms",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "FPGAs",
+                    "refs": [
+                        "[90]",
+                        "[89]",
+                        "[87]",
+                        "[94]",
+                        "[85]",
+                        "[95]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Pairwise Sequence Alignment",
+                    "refs": [
+                        "[1]",
+                        "[2]",
+                        "[3]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hash Tables",
+                    "refs": [
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "2.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Burrows-Wheeler Transform with FM-Index",
+                    "refs": [
+                        "[57]",
+                        "[6]",
+                        "[8]",
+                        "[9]",
+                        "[7]",
+                        "[5]"
+                    ],
+                    "subsections": [],
+                    "number": "2.4",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Pairwise Sequence Alignment (PSA)",
+            "refs": [
+                "[13]",
+                "[32]",
+                "[25]",
+                "[23]",
+                "[6]",
+                "[22]",
+                "[58]",
+                "[36]",
+                "[35]",
+                "[12]",
+                "[18]",
+                "[19]",
+                "[16]",
+                "[17]",
+                "[10]",
+                "[15]",
+                "[28]",
+                "[34]",
+                "[27]",
+                "[33]",
+                "[24]",
+                "[21]",
+                "[29]",
+                "[30]",
+                "[31]",
+                "[20]",
+                "[11]",
+                "[26]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Hash Tables",
+            "refs": [
+                "[43]",
+                "[45]",
+                "[47]",
+                "[37]",
+                "[46]",
+                "[39]",
+                "[44]",
+                "[50]",
+                "[4]",
+                "[40]",
+                "[41]",
+                "[42]",
+                "[48]",
+                "[51]",
+                "[52]",
+                "[49]",
+                "[38]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "BWT with FM-Index",
+            "refs": [
+                "[60]",
+                "[64]",
+                "[53]",
+                "[56]",
+                "[61]",
+                "[67]",
+                "[62]",
+                "[66]",
+                "[5]",
+                "[63]",
+                "[54]",
+                "[55]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Algorithmic Comparison",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        }
+    ],
+    "references": {
+        "needleman1970general": {
+            "number": "[1]",
+            "title": "A General Method Applicable to the Search for Similarities in the Amino Acid Sequence of Two Proteins",
+            "text": "title={A general method applicable to the search for similarities in the amino acid sequence of two proteins},\n  author={Needleman, Saul B and Wunsch, Christian D},\n  journal={Journal of molecular biology},\n  volume={48},\n  number={3},\n  pages={443--453},\n  year={1970},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A general method applicable to the search for similarities in the amino acid sequence of two proteins",
+                "author": "Needleman, Saul B and Wunsch, Christian D",
+                "journal": "Journal of molecular biology",
+                "volume": "48",
+                "number": "3",
+                "pages": "443--453",
+                "year": "1970",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "A computer adaptable method for finding similarities in the amino acid sequences of two proteins has been developed. From these findings it is possible to determine whether significant homology exists between the proteins. This information is used to trace their possible evolutionary development.",
+            "aminer_id": "5f0e018f9fced0a24bca3a09"
+        },
+        "smith1981identification": {
+            "number": "[2]",
+            "title": "Identification of common molecular subsequences",
+            "text": "title={Identification of common molecular subsequences},\n  author={Smith, Temple F and Waterman, Michael S and others},\n  journal={Journal of molecular biology},\n  volume={147},\n  number={1},\n  pages={195--197},\n  year={1981},\n  publisher={Elsevier Science}",
+            "type": "article",
+            "fields": {
+                "title": "Identification of common molecular subsequences",
+                "author": "Smith, Temple F and Waterman, Michael S and others",
+                "journal": "Journal of molecular biology",
+                "volume": "147",
+                "number": "1",
+                "pages": "195--197",
+                "year": "1981",
+                "publisher": "Elsevier Science"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a62d27240199498b9900f8"
+        },
+        "al2016survey": {
+            "number": "[3]",
+            "title": "A Survey of Software and Hardware Approaches to Performing Read Alignment in Next Generation Sequencing",
+            "text": "title={A survey of software and hardware approaches to performing read alignment in next generation sequencing},\n  author={Al Kawam, Ahmad and Khatri, Sunil and Datta, Aniruddha},\n  journal={IEEE/ACM transactions on computational biology and bioinformatics},\n  volume={14},\n  number={6},\n  pages={1202--1213},\n  year={2016},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A survey of software and hardware approaches to performing read alignment in next generation sequencing",
+                "author": "Al Kawam, Ahmad and Khatri, Sunil and Datta, Aniruddha",
+                "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+                "volume": "14",
+                "number": "6",
+                "pages": "1202--1213",
+                "year": "2016",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Computational genomics is an emerging field that is enabling us to reveal the origins of life and the genetic basis of diseases such as cancer. Next Generation Sequencing (NGS) technologies have unleashed a wealth of genomic information by producing immense amounts of raw data. Before any functional analysis can be applied to this data, read alignment is applied to find the genomic coordinates of the produced sequences. Alignment algorithms have evolved rapidly with the advancement in sequencing technology, striving to achieve biological accuracy at the expense of increasing space and time complexities. Hardware approaches have been proposed to accelerate the computational bottlenecks created by the alignment process. Although several hardware approaches have achieved remarkable speedups, most have overlooked important biological features, which have hampered their widespread adoption by the genomics community. In this paper, we provide a brief biological introduction to genomics and NGS. We discuss the most popular next generation read alignment tools and algorithms. Furthermore, we provide a comprehensive survey of the hardware implementations used to accelerate these algorithms.",
+            "aminer_id": "5a4aef9017c44a2190f79a0a"
+        },
+        "ning2001ssaha": {
+            "number": "[4]",
+            "title": "Ssaha: A Fast Search Method for Large Dna Databases",
+            "text": "title={SSAHA: a fast search method for large DNA databases},\n  author={Ning, Zemin and Cox, Anthony J and Mullikin, James C},\n  journal={Genome research},\n  volume={11},\n  number={10},\n  pages={1725--1729},\n  year={2001},\n  publisher={Cold Spring Harbor Lab}",
+            "type": "article",
+            "fields": {
+                "title": "SSAHA: a fast search method for large DNA databases",
+                "author": "Ning, Zemin and Cox, Anthony J and Mullikin, James C",
+                "journal": "Genome research",
+                "volume": "11",
+                "number": "10",
+                "pages": "1725--1729",
+                "year": "2001",
+                "publisher": "Cold Spring Harbor Lab"
+            },
+            "ref_source": "bib",
+            "abstract": "We describe an algorithm, SSAHA (SequenceSearch and Alignment by HashingAlgorithm), for performing fast searches on databases containing multiple gigabases of DNA. Sequences in the database are preprocessed by breaking them into consecutive k-tuples ofk contiguous bases and then using a hash table to store the position of each occurrence of each k-tuple. Searching for a query sequence in the database is done by obtaining from the hash table the “hits” for each k-tuple in the query sequence and then performing a sort on the results. We discuss the effect of the tuple length k on the search speed, memory usage, and sensitivity of the algorithm and present the results of computational experiments which show that SSAHA can be three to four orders of magnitude faster than BLAST or FASTA, while requiring less memory than suffix tree methods. The SSAHAalgorithm is used for high-throughput single nucleotide polymorphism (SNP) detection and very large scale sequence assembly. Also, it provides Web-based sequence search facilities for Ensembl projects.",
+            "aminer_id": "53e9aab0b7602d970342b809"
+        },
+        "ferragina2000opportunistic": {
+            "number": "[5]",
+            "title": "Opportunistic data structures with applications",
+            "text": "title={Opportunistic data structures with applications},\n  author={Ferragina, Paolo and Manzini, Giovanni},\n  booktitle={Proceedings 41st Annual Symposium on Foundations of Computer Science},\n  pages={390--398},\n  year={2000},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Opportunistic data structures with applications",
+                "author": "Ferragina, Paolo and Manzini, Giovanni",
+                "booktitle": "Proceedings 41st Annual Symposium on Foundations of Computer Science",
+                "pages": "390--398",
+                "year": "2000",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53908b9320f70186a0dc07a8"
+        },
+        "ng2017reconfigurable": {
+            "number": "[6]",
+            "title": "Reconfigurable Acceleration of Genetic Sequence Alignment: A Survey of Two Decades of Efforts.",
+            "text": "title={Reconfigurable acceleration of genetic sequence alignment: A survey of two decades of efforts},\n  author={Ng, Ho-Cheung and Liu, Shuanglong and Luk, Wayne},\n  booktitle={2017 27th International Conference on Field Programmable Logic and Applications (FPL)},\n  pages={1--8},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Reconfigurable acceleration of genetic sequence alignment: A survey of two decades of efforts",
+                "author": "Ng, Ho-Cheung and Liu, Shuanglong and Luk, Wayne",
+                "booktitle": "2017 27th International Conference on Field Programmable Logic and Applications (FPL)",
+                "pages": "1--8",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Genetic sequence alignment has always been a computational challenge in bioinformatics. Depending on the problem size, software-based aligners can take multiple CPU-days to process the sequence data, creating a bottleneck point in bioinformatic analysis flow. Reconfigurable accelerator can achieve high performance for such computation by providing massive parallelism, but at the expense of programming flexibility and thus has not been commensurately used by practitioners. Therefore, this paper aims to provide a thorough survey of the proposed accelerators by giving a qualitative categorization based on their algorithms and speedup. A comprehensive comparison between work is also presented so as to guide selection for biologist, and to provide insight on future research direction for FPGA scientists.",
+            "aminer_id": "5a260c2e17c44a4ba8a23fe0"
+        },
+        "langmead2009ultrafast": {
+            "number": "[7]",
+            "title": "Ultrafast and Memory-Efficient Alignment of Short DNA Sequences to the Human Genome",
+            "text": "title={Ultrafast and memory-efficient alignment of short DNA sequences to the human genome},\n  author={Langmead, Ben and Trapnell, Cole and Pop, Mihai and Salzberg, Steven L},\n  journal={Genome biology},\n  volume={10},\n  number={3},\n  pages={R25},\n  year={2009},\n  publisher={BioMed Central}",
+            "type": "article",
+            "fields": {
+                "title": "Ultrafast and memory-efficient alignment of short DNA sequences to the human genome",
+                "author": "Langmead, Ben and Trapnell, Cole and Pop, Mihai and Salzberg, Steven L",
+                "journal": "Genome biology",
+                "volume": "10",
+                "number": "3",
+                "pages": "R25",
+                "year": "2009",
+                "publisher": "BioMed Central"
+            },
+            "ref_source": "bib",
+            "abstract": "Bowtie is an ultrafast, memory-efficient alignment program for aligning short DNA sequence reads to large genomes. For the human genome, Burrows-Wheeler indexing allows Bowtie to align more than 25 million reads per CPU hour with a memory footprint of approximately 1.3 gigabytes. Bowtie extends previous Burrows-Wheeler techniques with a novel quality-aware backtracking algorithm that permits mismatches. Multiple processor cores can be used simultaneously to achieve even greater alignment speeds. Bowtie is open source http://bowtie.cbcb.umd.edu.",
+            "aminer_id": "53e9b5d3b7602d970411ec7b"
+        },
+        "li2009soap2": {
+            "number": "[8]",
+            "title": "SOAP2: an Improved Ultrafast Tool for Short Read Alignment",
+            "text": "title={SOAP2: an improved ultrafast tool for short read alignment},\n  author={Li, Ruiqiang and Yu, Chang and Li, Yingrui and Lam, Tak-Wah and Yiu, Siu-Ming and Kristiansen, Karsten and Wang, Jun},\n  journal={Bioinformatics},\n  volume={25},\n  number={15},\n  pages={1966--1967},\n  year={2009},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "SOAP2: an improved ultrafast tool for short read alignment",
+                "author": "Li, Ruiqiang and Yu, Chang and Li, Yingrui and Lam, Tak-Wah and Yiu, Siu-Ming and Kristiansen, Karsten and Wang, Jun",
+                "journal": "Bioinformatics",
+                "volume": "25",
+                "number": "15",
+                "pages": "1966--1967",
+                "year": "2009",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "SUMMARY:SOAP2 is a significantly improved version of the short oligonucleotide alignment program that both reduces computer memory usage and increases alignment speed at an unprecedented rate. We used a Burrows Wheeler Transformation (BWT) compression index to substitute the seed strategy for indexing the reference sequence in the main memory. We tested it on the whole human genome and found that this new algorithm reduced memory usage from 14.7 to 5.4 GB and improved alignment speed by 20-30 times. SOAP2 is compatible with both single- and paired-end reads. Additionally, this tool now supports multiple text and compressed file formats. A consensus builder has also been developed for consensus assembly and SNP detection from alignment of short reads on a reference genome.AVAILABILITY:http://soap.genomics.org.cn.",
+            "aminer_id": "53e999aeb7602d97021f438b"
+        },
+        "li2009fast": {
+            "number": "[9]",
+            "title": "Fast and accurate short read alignment with Burrows--Wheeler transform",
+            "text": "title={Fast and accurate short read alignment with Burrows--Wheeler transform},\n  author={Li, Heng and Durbin, Richard},\n  journal={bioinformatics},\n  volume={25},\n  number={14},\n  pages={1754--1760},\n  year={2009},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "Fast and accurate short read alignment with Burrows--Wheeler transform",
+                "author": "Li, Heng and Durbin, Richard",
+                "journal": "bioinformatics",
+                "volume": "25",
+                "number": "14",
+                "pages": "1754--1760",
+                "year": "2009",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "guccione2002gene": {
+            "number": "[10]",
+            "title": "Gene Matching Using JBits",
+            "text": "title={Gene matching using JBits},\n  author={Guccione, Steven A and Keller, Eric},\n  booktitle={International Conference on Field Programmable Logic and Applications},\n  pages={1168--1171},\n  year={2002},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Gene matching using JBits",
+                "author": "Guccione, Steven A and Keller, Eric",
+                "booktitle": "International Conference on Field Programmable Logic and Applications",
+                "pages": "1168--1171",
+                "year": "2002",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "As the emerging field of bioinformatics continues to expand, the ability to rapidly search large databases of genetic information is becoming increasingly important. Databases containing billions of data elements are routinely compared and searched for matching and near-matching patterns. In this paper we explore the use of run-time reconfiguration using field programmable gate arrays (FPGAs) to provide a compact, high-performance matching solution to accelerate the searching of these genetic databases. This implementation provides approximately an order of magnitude increase in performance while reducing hardware complexity by as much as three orders of magnitude when compared to existing commercial systems.",
+            "aminer_id": "53908b1820f70186a0db5093"
+        },
+        "puttegowda2003run": {
+            "number": "[11]",
+            "title": "A Run-Time Reconfigurable System for Gene-Sequence Searching",
+            "text": "title={A run-time reconfigurable system for gene-sequence searching},\n  author={Puttegowda, Kiran and Worek, William and Pappas, Nicholas and Dandapani, Anusha and Athanas, Peter and Dickerman, Allan},\n  booktitle={16th International Conference on VLSI Design, 2003. Proceedings.},\n  pages={561--566},\n  year={2003},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A run-time reconfigurable system for gene-sequence searching",
+                "author": "Puttegowda, Kiran and Worek, William and Pappas, Nicholas and Dandapani, Anusha and Athanas, Peter and Dickerman, Allan",
+                "booktitle": "16th International Conference on VLSI Design, 2003. Proceedings.",
+                "pages": "561--566",
+                "year": "2003",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Advances in the field of bio-technology has led to an ever increasing demand for computational resources to rapidly search large databases of genetic information. Databases with billions of data elements are routinely compared and searched for matching and near-matching patterns. We present a system developed to search DNA sequence data using run-time reconfiguration of field programmable gate arrays (FPGAs). The system provides an order of magnitude increase in performance while reducing hardware complexity when compared to existing commercial systems.",
+            "aminer_id": "53908bde20f70186a0dc72db"
+        },
+        "lipton1985systolic": {
+            "number": "[12]",
+            "title": "A Systolic Array for Rapid String Comparison",
+            "text": "title={A systolic array for rapid string comparison},\n  author={Lipton, Richard J and Lopresti, Daniel},\n  booktitle={Proceedings of the Chapel Hill Conference on VLSI},\n  pages={363--376},\n  year={1985},\n  organization={Chapel Hill NC}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A systolic array for rapid string comparison",
+                "author": "Lipton, Richard J and Lopresti, Daniel",
+                "booktitle": "Proceedings of the Chapel Hill Conference on VLSI",
+                "pages": "363--376",
+                "year": "1985",
+                "organization": "Chapel Hill NC"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9ac62b7602d9703633666"
+        },
+        "lipton1986comparing": {
+            "number": "[13]",
+            "title": "Comparing long strings on a short systolic array",
+            "text": "title={Comparing long strings on a short systolic array},\n  author={Lipton, Richard J and Lopresti, Daniel Philip},\n  year={1986},\n  publisher={Princeton University, Department of Computer Science}",
+            "type": "book",
+            "fields": {
+                "title": "Comparing long strings on a short systolic array",
+                "author": "Lipton, Richard J and Lopresti, Daniel Philip",
+                "year": "1986",
+                "publisher": "Princeton University, Department of Computer Science"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "61dd46ac6750f82ad426b4a6"
+        },
+        "lopresti1987p": {
+            "number": "[14]",
+            "title": "P-NAC: A systolic array for comparing nucleic acid sequences",
+            "text": "title={P-NAC: A systolic array for comparing nucleic acid sequences},\n  author={Lopresti, Daniel P},\n  journal={Computer},\n  number={7},\n  pages={98--99},\n  year={1987},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "P-NAC: A systolic array for comparing nucleic acid sequences",
+                "author": "Lopresti, Daniel P",
+                "journal": "Computer",
+                "number": "7",
+                "pages": "98--99",
+                "year": "1987",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390878320f70186a0d32152"
+        },
+        "yu2003smith": {
+            "number": "[15]",
+            "title": "A Smith-Waterman Systolic Cell",
+            "text": "title={A Smith-Waterman systolic cell},\n  author={Yu, Chi Wai and Kwong, KH and Lee, Kin-Hong and Leong, Philip Heng Wai},\n  booktitle={International Conference on Field Programmable Logic and Applications},\n  pages={375--384},\n  year={2003},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Smith-Waterman systolic cell",
+                "author": "Yu, Chi Wai and Kwong, KH and Lee, Kin-Hong and Leong, Philip Heng Wai",
+                "booktitle": "International Conference on Field Programmable Logic and Applications",
+                "pages": "375--384",
+                "year": "2003",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "With an aim to understand the information encoded by DNA sequences, databases containing large amount of DNA sequence information are frequently compared and searched for matching or near-matching patterns. This kind of similarity calculation is known as sequence alignment. To date, the most popular algorithms for this operation are heuristic approaches such as BLAST and FASTA which give high speed but low sensitivity, i.e. significant matches may be missed by the searches. Another algorithm, the Smith-Waterman algorithm, is a more computationally expensive algorithm but achieves higher sensitivity. In this paper, an improved systolic processing element cell for implementing the Smith-Waterman on a Xilinx Virtex FPGA is presented.",
+            "aminer_id": "53e9ab6fb7602d97035102dd"
+        },
+        "altschul1986optimal": {
+            "number": "[16]",
+            "title": "Optimal Sequence Alignment Using Affine Gap Costs",
+            "text": "title={Optimal sequence alignment using affine gap costs},\n  author={Altschul, Stephen F and Erickson, Bruce W},\n  journal={Bulletin of mathematical biology},\n  volume={48},\n  number={5-6},\n  pages={603--616},\n  year={1986},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Optimal sequence alignment using affine gap costs",
+                "author": "Altschul, Stephen F and Erickson, Bruce W",
+                "journal": "Bulletin of mathematical biology",
+                "volume": "48",
+                "number": "5-6",
+                "pages": "603--616",
+                "year": "1986",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "When comparing two biological sequences, it is often desirable for a gap to be assigned a cost not directly proportional to its length. If affine gap costs are employed, in other words if opening a gap costsv and each null in the gap costsu, the algorithm of Gotoh (1982,J. molec. Biol.162, 705) finds the minimum cost of aligning two sequences in orderMN steps. Gotoh's algorithm attempts to find only one from among possibly many optimal (minimum-cost) alignments, but does not always succeed. This paper provides an example for which this part of Gotoh's algorithm fails and describes an algorithm that finds all and only the optimal alignments. This modification of Gotoh's algorithm still requires orderMN steps. A more precise form of path graph than previously used is needed to represent accurately all optimal alignments for affine gap costs.",
+            "aminer_id": "53e9ba3fb7602d9704651147"
+        },
+        "myers1988optimal": {
+            "number": "[17]",
+            "title": "Optimal Alignments in Linear Space",
+            "text": "title={Optimal alignments in linear space},\n  author={Myers, Eugene W and Miller, Webb},\n  journal={Bioinformatics},\n  volume={4},\n  number={1},\n  pages={11--17},\n  year={1988},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "Optimal alignments in linear space",
+                "author": "Myers, Eugene W and Miller, Webb",
+                "journal": "Bioinformatics",
+                "volume": "4",
+                "number": "1",
+                "pages": "11--17",
+                "year": "1988",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "Space, not time, is often the limiting factor when computing optimal sequence alignments, and a number of recent papers in the biology literature have proposed space-saving strategies. However, a 1975 computer science paper by Hirschberg presented a method that is superior to the new proposals, both in theory and in practice. The goal of this paper is to give Hirschberg's idea the visibility it deserves by developing a linear-space version of Gotoh's algorithm, which accommodates affine gap penalties. A portable C-software package implementing this algorithm is available on the BIONET free of charge.",
+            "aminer_id": "53e9adf0b7602d97037fbd91"
+        },
+        "kaya2014multiple": {
+            "number": "[18]",
+            "title": "Multiple Sequence Alignment with Affine Gap by Using Multi-Objective Genetic Algorithm",
+            "text": "title={Multiple sequence alignment with affine gap by using multi-objective genetic algorithm},\n  author={Kaya, Mehmet and Sarhan, Abdullah and Alhajj, Reda},\n  journal={Computer methods and programs in biomedicine},\n  volume={114},\n  number={1},\n  pages={38--49},\n  year={2014},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Multiple sequence alignment with affine gap by using multi-objective genetic algorithm",
+                "author": "Kaya, Mehmet and Sarhan, Abdullah and Alhajj, Reda",
+                "journal": "Computer methods and programs in biomedicine",
+                "volume": "114",
+                "number": "1",
+                "pages": "38--49",
+                "year": "2014",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Multiple sequence alignment is of central importance to bioinformatics and computational biology. Although a large number of algorithms for computing a multiple sequence alignment have been designed, the efficient computation of highly accurate and statistically significant multiple alignments is still a challenge. In this paper, we propose an efficient method by using multi-objective genetic algorithm (MSAGMOGA) to discover optimal alignments with affine gap in multiple sequence data. The main advantage of our approach is that a large number of tradeoff (i.e., non-dominated) alignments can be obtained by a single run with respect to conflicting objectives: affine gap penalty minimization and similarity and support maximization. To the best of our knowledge, this is the first effort with three objectives in this direction. The proposed method can be applied to any data set with a sequential character. Furthermore, it allows any choice of similarity measures for finding alignments. By analyzing the obtained optimal alignments, the decision maker can understand the tradeoff between the objectives. We compared our method with the three well-known multiple sequence alignment methods, MUSCLE, SAGA and MSA-GA. As the first of them is a progressive method, and the other two are based on evolutionary algorithms. Experiments on the BAliBASE 2.0 database were conducted and the results confirm that MSAGMOGA obtains the results with better accuracy statistical significance compared with the three well-known methods in aligning multiple sequence alignment with affine gap. The proposed method also finds solutions faster than the other evolutionary approaches mentioned above.",
+            "aminer_id": "5390c04520f70186a0f568e7"
+        },
+        "van2004families": {
+            "number": "[19]",
+            "title": "Families of FPGA-based algorithms for approximate string matching",
+            "text": "title={Families of FPGA-based algorithms for approximate string matching},\n  author={Van Court, Tom and Herbordt, Martin C},\n  booktitle={Proceedings. 15th IEEE International Conference on Application-Specific Systems, Architectures and Processors, 2004.},\n  pages={354--364},\n  year={2004},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Families of FPGA-based algorithms for approximate string matching",
+                "author": "Van Court, Tom and Herbordt, Martin C",
+                "booktitle": "Proceedings. 15th IEEE International Conference on Application-Specific Systems, Architectures and Processors, 2004.",
+                "pages": "354--364",
+                "year": "2004",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "wienbrandt2013bioinformatics": {
+            "number": "[20]",
+            "title": "Bioinformatics applications on the FPGA-based high-performance computer RIVYERA",
+            "text": "title={Bioinformatics applications on the FPGA-based high-performance computer RIVYERA},\n  author={Wienbrandt, Lars},\n  booktitle={High-Performance Computing Using FPGAs},\n  pages={81--103},\n  year={2013},\n  publisher={Springer}",
+            "type": "incollection",
+            "fields": {
+                "title": "Bioinformatics applications on the FPGA-based high-performance computer RIVYERA",
+                "author": "Wienbrandt, Lars",
+                "booktitle": "High-Performance Computing Using FPGAs",
+                "pages": "81--103",
+                "year": "2013",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "rucci2017accelerating": {
+            "number": "[21]",
+            "title": "Accelerating Smith-Waterman Alignment of Long DNA Sequences with OpenCL on FPGA",
+            "text": "title={Accelerating Smith-Waterman Alignment of Long DNA Sequences with OpenCL on FPGA},\n  author={Rucci, Enzo and Garcia, Carlos and Botella, Guillermo and De Giusti, Armando and Naiouf, Marcelo and Prieto-Matias, Manuel},\n  booktitle={International Conference on Bioinformatics and Biomedical Engineering},\n  pages={500--511},\n  year={2017},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Accelerating Smith-Waterman Alignment of Long DNA Sequences with OpenCL on FPGA",
+                "author": "Rucci, Enzo and Garcia, Carlos and Botella, Guillermo and De Giusti, Armando and Naiouf, Marcelo and Prieto-Matias, Manuel",
+                "booktitle": "International Conference on Bioinformatics and Biomedical Engineering",
+                "pages": "500--511",
+                "year": "2017",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "With the greater importance of parallel architectures such as GPUs or Xeon Phi accelerators, the scientific community has developed efficient solutions in the bioinformatics field. In this context, FPGAs begin to stand out as high performance devices with moderate power consumption. This paper presents and evaluates a parallel strategy of the well-known Smith-Waterman algorithm using OpenCL on Intel/Altera's FPGA for long DNA sequences. We efficiently exploit data and pipeline parallelism on a Intel/Altera Stratix V FPGA reaching upto 114 GCUPS in less than 25 watt power requirements.",
+            "aminer_id": "599c7b6e601a182cd2737cea"
+        },
+        "rucci2018swifold": {
+            "number": "[22]",
+            "title": "SWIFOLD: Smith-Waterman Implementation on FPGA with OpenCL for Long DNA Sequences",
+            "text": "title={SWIFOLD: Smith-Waterman implementation on FPGA with OpenCL for long DNA sequences},\n  author={Rucci, Enzo and Garcia, Carlos and Botella, Guillermo and De Giusti, Armando and Naiouf, Marcelo and Prieto-Matias, Manuel},\n  journal={BMC systems biology},\n  volume={12},\n  number={5},\n  pages={96},\n  year={2018},\n  publisher={BioMed Central}",
+            "type": "article",
+            "fields": {
+                "title": "SWIFOLD: Smith-Waterman implementation on FPGA with OpenCL for long DNA sequences",
+                "author": "Rucci, Enzo and Garcia, Carlos and Botella, Guillermo and De Giusti, Armando and Naiouf, Marcelo and Prieto-Matias, Manuel",
+                "journal": "BMC systems biology",
+                "volume": "12",
+                "number": "5",
+                "pages": "96",
+                "year": "2018",
+                "publisher": "BioMed Central"
+            },
+            "ref_source": "bib",
+            "abstract": "BACKGROUND:The Smith-Waterman (SW) algorithm is the best choice for searching similar regions between two DNA or protein sequences. However, it may become impracticable in some contexts due to its high computational demands. Consequently, the computer science community has focused on the use of modern parallel architectures such as Graphics Processing Units (GPUs), Xeon Phi accelerators and Field Programmable Gate Arrays (FGPAs) to speed up large-scale workloads.RESULTS:This paper presents and evaluates SWIFOLD: a Smith-Waterman parallel Implementation on FPGA with OpenCL for Long DNA sequences. First, we evaluate its performance and resource usage for different kernel configurations. Next, we carry out a performance comparison between our tool and other state-of-the-art implementations considering three different datasets. SWIFOLD offers the best average performance for small and medium test sets, achieving a performance that is independent of input size and sequence similarity. In addition, SWIFOLD provides competitive performance rates in comparison with GPU-based implementations on the latest GPU generation for the large dataset.CONCLUSIONS:The results suggest that SWIFOLD can be a serious contender for accelerating the SW alignment of DNA sequences of unrestricted size in an affordable way reaching on average 125 GCUPS and almost a peak of 270 GCUPS.",
+            "aminer_id": "5c04965717c44a2c747073fc"
+        },
+        "zhang2007implementation": {
+            "number": "[23]",
+            "title": "Implementation of the Smith-Waterman Algorithm on a Reconfigurable Supercomputing Platform",
+            "text": "title={Implementation of the Smith-Waterman algorithm on a reconfigurable supercomputing platform},\n  author={Zhang, Peiheng and Tan, Guangming and Gao, Guang R},\n  booktitle={Proceedings of the 1st international workshop on High-performance reconfigurable computing technology and applications: held in conjunction with SC07},\n  pages={39--48},\n  year={2007},\n  organization={ACM}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Implementation of the Smith-Waterman algorithm on a reconfigurable supercomputing platform",
+                "author": "Zhang, Peiheng and Tan, Guangming and Gao, Guang R",
+                "booktitle": "Proceedings of the 1st international workshop on High-performance reconfigurable computing technology and applications: held in conjunction with SC07",
+                "pages": "39--48",
+                "year": "2007",
+                "organization": "ACM"
+            },
+            "ref_source": "bib",
+            "abstract": "An innovative reconfigurable supercomputing platform -- XD1000 is developed by XtremeData Inc. to exploit the rapid progress of FPGA technology and the high-performance of Hyper-Transport interconnection. In this paper, we present the implementations of the Smith-Waterman algorithm for both DNA and protein sequences on the platform. The main features include: (1) we bring forward a multistage PE (processing element) design which significantly reduces the FPGA resource usage and hence allows more parallelism to be exploited; (2) our design features a pipelined control mechanism with uneven stage latencies -- a key to minimize the overall PE pipeline cycle time; (3) we also put forward a compressed substitution matrix storage structure, resulting in substantial decrease of the on-chip SRAM usage. Finally, we implement a 384-PE systolic array running at 66.7MHz, which can achieve 25.6GCUPS peak performance. Compared with the 2.2GHz AMD Opteron host processor, the FPGA coprocessor speedups 185X and 250X respectively.",
+            "aminer_id": "53909fbd20f70186a0e423f7"
+        },
+        "jiang2007reconfigurable": {
+            "number": "[24]",
+            "title": "A reconfigurable accelerator for smith--waterman algorithm",
+            "text": "title={A reconfigurable accelerator for smith--waterman algorithm},\n  author={Jiang, Xianyang and Liu, Xinchun and Xu, Lin and Zhang, Peiheng and Sun, Ninghui},\n  journal={IEEE Transactions on Circuits and Systems II: Express Briefs},\n  volume={54},\n  number={12},\n  pages={1077--1081},\n  year={2007},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A reconfigurable accelerator for smith--waterman algorithm",
+                "author": "Jiang, Xianyang and Liu, Xinchun and Xu, Lin and Zhang, Peiheng and Sun, Ninghui",
+                "journal": "IEEE Transactions on Circuits and Systems II: Express Briefs",
+                "volume": "54",
+                "number": "12",
+                "pages": "1077--1081",
+                "year": "2007",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9bd18b7602d97049a0693"
+        },
+        "oliver2005hyper": {
+            "number": "[25]",
+            "title": "Hyper Customized Processors for Bio-Sequence Database Scanning on FPGAs",
+            "text": "title={Hyper customized processors for bio-sequence database scanning on FPGAs},\n  author={Oliver, Tim and Schmidt, Bertil and Maskell, Douglas},\n  booktitle={Proceedings of the 2005 ACM/SIGDA 13th international symposium on Field-programmable gate arrays},\n  pages={229--237},\n  year={2005},\n  organization={ACM}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyper customized processors for bio-sequence database scanning on FPGAs",
+                "author": "Oliver, Tim and Schmidt, Bertil and Maskell, Douglas",
+                "booktitle": "Proceedings of the 2005 ACM/SIGDA 13th international symposium on Field-programmable gate arrays",
+                "pages": "229--237",
+                "year": "2005",
+                "organization": "ACM"
+            },
+            "ref_source": "bib",
+            "abstract": "Protein sequences with unknown functionality are often compared to a set of known sequences to detect functional similarities. Efficient dynamic-programming algorithms exist for solving this problem, however current solutions still require significant scan times. These scan time requirements are likely to become even more severe due to exponential database growth. In this paper we present a new approach to bio-sequence database scanning using re-configurable FPGA-based hardware platforms to gain high performance at low cost. Efficient mappings of the Smith-Waterman algorithm using fine-grained parallel processing elements (PEs) that are tailored towards the parameters of a query have been designed. We use customization opportunities available at run-time to dynamically hyper customize the systolic array to make better use of available resource. Our FPGA implementation achieves a speedup of approximately 170 for linear gap penalties and 125 for affine gap penalties as compared to a standard desktop computing platform. We show how hyper-customization at run-time can be used to further improve the performance.",
+            "aminer_id": "5390980720f70186a0e02bd3"
+        },
+        "boukerche2007reconfigurable": {
+            "number": "[26]",
+            "title": "Reconfigurable Architecture for Biological Sequence Comparison in Reduced Memory Space",
+            "text": "title={Reconfigurable architecture for biological sequence comparison in reduced memory space},\n  author={Boukerche, Azzedine and Correa, Jan M and de Melo, Alba Cristina MA and Jacobi, Ricardo P and Rocha, Adson F},\n  booktitle={2007 IEEE International Parallel and Distributed Processing Symposium},\n  pages={1--8},\n  year={2007},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Reconfigurable architecture for biological sequence comparison in reduced memory space",
+                "author": "Boukerche, Azzedine and Correa, Jan M and de Melo, Alba Cristina MA and Jacobi, Ricardo P and Rocha, Adson F",
+                "booktitle": "2007 IEEE International Parallel and Distributed Processing Symposium",
+                "pages": "1--8",
+                "year": "2007",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "DNA sequence alignment is a very important problem in bioinformatics. The algorithm proposed by Smith-Waterman (SW) is an exact method that obtains optimal local alignments in quadratic space and time. For long sequences, quadratic complexity makes the use of this algorithm impractical. In this scenario, the use of a reconfigurable architecture is a very attractive alternative. This article presents the design and evaluation of an FPGA-based architecture that obtains the similarity score between DNA sequences, as well as its coordinates. The results obtained in a Xilinx xc2vp70 FPGA prototype presented a speedup of 246.9 over the software solution to compare sequences of size 100 MBP and 100 BP, respectively. Different from others hardware solutions that just calculate alignment scores, our design was able to avoid architecture's bottlenecks and accelerate the most computer intensive part of a sequence alignment software algorithm.",
+            "aminer_id": "53e9b469b7602d9703f6ac6c"
+        },
+        "gok2006efficient": {
+            "number": "[27]",
+            "title": "Efficient Cell Designs for Systolic Smith-Waterman Implementations",
+            "text": "title={Efficient cell designs for systolic smith-waterman implementations},\n  author={Gok, Mustafa and Yilmaz, Caglar},\n  booktitle={2006 International Conference on Field Programmable Logic and Applications},\n  pages={1--4},\n  year={2006},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Efficient cell designs for systolic smith-waterman implementations",
+                "author": "Gok, Mustafa and Yilmaz, Caglar",
+                "booktitle": "2006 International Conference on Field Programmable Logic and Applications",
+                "pages": "1--4",
+                "year": "2006",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Smith-Waterman algorithm is used to search bioinformatics databases. The systolic array implementations of this algorithm can search databases hundreds of times faster than software applications. The performances of the systolic Smith-Waterman implementations mainly depend on the number of cells they contain and the clock frequencies of the cells. This paper presents efficient cell designs for systolic Smith-Waterman implementations. The designs that use the presented cells and the recent reference designs are mapped on the same FPGA platform and compared by syntheses. Syntheses results show that the performance of the presented designs are 1.7 to 3.6 times higher than the reference designs.",
+            "aminer_id": "53e9b62eb7602d9704186d5c"
+        },
+        "faes2006scalable": {
+            "number": "[28]",
+            "title": "Scalable Hardware Accelerator for Comparing DNA and Protein Sequences",
+            "text": "title={Scalable hardware accelerator for comparing DNA and protein sequences},\n  author={Faes, Philippe and Minnaert, Bram and Christiaens, Mark and Bonnet, Eric and Saeys, Yvan and Stroobandt, Dirk and Van de Peer, Yves},\n  booktitle={Proceedings of the 1st international conference on Scalable information systems},\n  pages={33},\n  year={2006},\n  organization={ACM}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Scalable hardware accelerator for comparing DNA and protein sequences",
+                "author": "Faes, Philippe and Minnaert, Bram and Christiaens, Mark and Bonnet, Eric and Saeys, Yvan and Stroobandt, Dirk and Van de Peer, Yves",
+                "booktitle": "Proceedings of the 1st international conference on Scalable information systems",
+                "pages": "33",
+                "year": "2006",
+                "organization": "ACM"
+            },
+            "ref_source": "bib",
+            "abstract": "Comparing genetic sequences is a well-known problem in bioinformatics. Newly determined sequences are being compared to known sequences stored in databases in order to investigate biological functions. In recent years the number of available sequences has increased exponentially. Because of this explosion a speedup in the comparison process is highly required. To meet this demand we implemented a dynamic programming algorithm for sequence alignment on reconfigurable hardware. The algorithm we implemented, Smith-Waterman-Gotoh (SWG) has not been implemented in hardware before. We show a speedup factor of 40 in a design that scales well with the size of the available hardware. We also demonstrate the limits of larger hardware for small problems, and project our design on the largest Field Programmable Gate Array (FPGA) available today.",
+            "aminer_id": "539099a220f70186a0e18e65"
+        },
+        "li2007160": {
+            "number": "[29]",
+            "title": "160-Fold Acceleration of the Smith-Waterman Algorithm Using a Field Programmable Gate Array (FPGA)",
+            "text": "title={160-fold acceleration of the Smith-Waterman algorithm using a field programmable gate array (FPGA)},\n  author={Li, Isaac TS and Shum, Warren and Truong, Kevin},\n  journal={BMC bioinformatics},\n  volume={8},\n  number={1},\n  pages={185},\n  year={2007},\n  publisher={BioMed Central}",
+            "type": "article",
+            "fields": {
+                "title": "160-fold acceleration of the Smith-Waterman algorithm using a field programmable gate array (FPGA)",
+                "author": "Li, Isaac TS and Shum, Warren and Truong, Kevin",
+                "journal": "BMC bioinformatics",
+                "volume": "8",
+                "number": "1",
+                "pages": "185",
+                "year": "2007",
+                "publisher": "BioMed Central"
+            },
+            "ref_source": "bib",
+            "abstract": "Background To infer homology and subsequently gene function, the Smith-Waterman (SW) algorithm is used to find the optimal local alignment between two sequences. When searching sequence databases that may contain hundreds of millions of sequences, this algorithm becomes computationally expensive. Results In this paper, we focused on accelerating the Smith-Waterman algorithm by using FPGA-based hardware that implemented a module for computing the score of a single cell of the SW matrix. Then using a grid of this module, the entire SW matrix was computed at the speed of field propagation through the FPGA circuit. These modifications dramatically accelerated the algorithm's computation time by up to 160 folds compared to a pure software implementation running on the same FPGA with an Altera Nios II softprocessor. Conclusion This design of FPGA accelerated hardware offers a new promising direction to seeking computation improvement of genomic database searching.",
+            "aminer_id": "53e9bd9eb7602d9704a4937e"
+        },
+        "houtgast2015fpga": {
+            "number": "[30]",
+            "title": "An FPGA-based Systolic Array to Accelerate the BWA-MEM Genomic Mapping Algorithm",
+            "text": "title={An FPGA-based systolic array to accelerate the BWA-MEM genomic mapping algorithm},\n  author={Houtgast, Ernst Joachim and Sima, Vlad-Mihai and Bertels, Koen and Al-Ars, Zaid},\n  booktitle={2015 International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)},\n  pages={221--227},\n  year={2015},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "An FPGA-based systolic array to accelerate the BWA-MEM genomic mapping algorithm",
+                "author": "Houtgast, Ernst Joachim and Sima, Vlad-Mihai and Bertels, Koen and Al-Ars, Zaid",
+                "booktitle": "2015 International Conference on Embedded Computer Systems: Architectures, Modeling, and Simulation (SAMOS)",
+                "pages": "221--227",
+                "year": "2015",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "We present the first accelerated implementation of BWA-MEM, a popular genome sequence alignment algorithm widely used in next generation sequencing genomics pipelines. The Smith-Waterman-like sequence alignment kernel requires a significant portion of overall execution time. We propose and evaluate a number of FPGA-based systolic array architectures, presenting optimizations generally applicable to variable length Smith-Waterman execution. Our kernel implementation is up to 3× faster, compared to software-only execution. This translates into an overall application speedup of up to 45%, which is 96% of the theoretically maximum achievable speedup when accelerating only this kernel.",
+            "aminer_id": "5736984e6e3b12023e716d85"
+        },
+        "casale2017design": {
+            "number": "[31]",
+            "title": "Design Space Exploration of Dataflow-Based Smith-Waterman FPGA Implementations",
+            "text": "title={Design space exploration of dataflow-based Smith-Waterman FPGA implementations},\n  author={Casale-Brunet, Simone and Bezati, Endri and Mattavelli, Marco},\n  booktitle={2017 IEEE International Workshop on Signal Processing Systems (SiPS)},\n  pages={1--6},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Design space exploration of dataflow-based Smith-Waterman FPGA implementations",
+                "author": "Casale-Brunet, Simone and Bezati, Endri and Mattavelli, Marco",
+                "booktitle": "2017 IEEE International Workshop on Signal Processing Systems (SiPS)",
+                "pages": "1--6",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The paper presents the results of design space explorations for the implementation of the Smith-Waterman (S-W) algorithm performing DNA and protein sequences alignment. Both design explorations studies and FPGA implementations are obtained by developing a dynamic dataflow program implementing the algorithm and by direct high-level synthesis (HLS) to FPGA HDL. The main feature of the obtained implementation is a low-latency, pipelinable multistage processing element (PE), providing a substantial decrease in resource utilization and increase in computation throughput when compared to state of the art solutions. The implementation solution is also fully scalable and can be efficiently reconfigured according to the DNA sequence sizes and performance requirements of the system architecture. The implementation solution presented in the paper can efficiently scale up to 250MHz obtaining 14746 Alignments/s using a single S-W core with 4 PEs, and up to 31.8 Mega-Alignments/min using 36 S-W cores on the same FPGA for sequences of 160×100 nucleotides.",
+            "aminer_id": "5a260c4017c44a4ba8a267d2"
+        },
+        "wu2019fpga": {
+            "number": "[32]",
+            "title": "FPGA Accelerated INDEL Realignment in the Cloud",
+            "text": "title={FPGA Accelerated INDEL Realignment in the Cloud},\n  author={Wu, Lisa and Bruns-Smith, David and Nothaft, Frank A and Huang, Qijing and Karandikar, Sagar and Le, Johnny and Lin, Andrew and Mao, Howard and Sweeney, Brendan and Asanovi{\\'c}, Krste and others},\n  booktitle={2019 IEEE International Symposium on High Performance Computer Architecture (HPCA)},\n  pages={277--290},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "FPGA Accelerated INDEL Realignment in the Cloud",
+                "author": "Wu, Lisa and Bruns-Smith, David and Nothaft, Frank A and Huang, Qijing and Karandikar, Sagar and Le, Johnny and Lin, Andrew and Mao, Howard and Sweeney, Brendan and Asanovi{\\'c}, Krste and others",
+                "booktitle": "2019 IEEE International Symposium on High Performance Computer Architecture (HPCA)",
+                "pages": "277--290",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The amount of data being generated in genomics is predicted to be between 2 and 40 exabytes per year for the next decade, making genomic analysis the new frontier and the new challenge for precision medicine. This paper explores targeted deployment of hardware accelerators in the cloud to improve the runtime and throughput of immense-scale genomic data analyses. In particular, INDEL (INsertion/DELetion) realignment is a critical operation that enables diagnostic testings of cancer through error correction prior to variant calling. It is the slowest part of the somatic (cancer) genomic analysis pipeline, the alignment refinement pipeline, and represents roughly one-third of the execution time of time-sensitive diagnostics for acute cancer patients. To accelerate genomic analysis, this paper describes a hardware accelerator for INDEL realignment (IR), and a hardware-software framework leveraging FPGAs-as-a-service in the cloud. We chose to implement genomics analytics on FPGAs because genomic algorithms are still rapidly evolving (e.g. the de facto standard \"GATK Best Practices\" has had five releases since January of this year). We chose to deploy genomics accelerators in the cloud to reduce capital expenditure and to provide a more quantitative performance and cost analysis. We built and deployed a sea of IR accelerators using our hardware-software accelerator development framework on AWS EC2 F1 instances. We show that our IR accelerator system performed 81x better than multi-threaded genomic analysis software while being 32x more cost efficient.",
+            "aminer_id": "5c9df4643cb210d271bea0bf"
+        },
+        "benkrid2009highly": {
+            "number": "[33]",
+            "title": "A Highly Parameterized and Efficient FPGA-Based Skeleton for Pairwise Biological Sequence Alignment",
+            "text": "title={A highly parameterized and efficient FPGA-based skeleton for pairwise biological sequence alignment},\n  author={Benkrid, Khaled and Liu, Ying and Benkrid, AbdSamad},\n  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},\n  volume={17},\n  number={4},\n  pages={561--570},\n  year={2009},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A highly parameterized and efficient FPGA-based skeleton for pairwise biological sequence alignment",
+                "author": "Benkrid, Khaled and Liu, Ying and Benkrid, AbdSamad",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "volume": "17",
+                "number": "4",
+                "pages": "561--570",
+                "year": "2009",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper presents the design and implementation of the most parameterisable field-programmable gate array (FPGA)-based skeleton for pairwise biological sequence alignment reported in the literature. The skeleton is parameterised in terms of the sequence symbol type, i.e., DNA, RNA, or protein sequences, the sequence lengths, the match score, i.e., the score attributed to a symbol match, mismatch or gap, and the matching task, i.e., the algorithm used to match sequences, which includes global alignment, local alignment, and overlapped matching. Instances of the skeleton implement the Smith-Waterman and the Needleman-Wunsch algorithms. The skeleton has the advantage of being captured in the Handel-C language, which makes it FPGA platform-independent. Hence, the same code could be ported across a variety of FPGA families. It implements the sequence alignment algorithm in hand using a pipeline of basic processing elements, which are tailored to the algorithm parameters. This paper presents a number of optimizations built into the skeleton and applied at compile-time depending on the user-supplied parameters. These result in high performance FPGA implementations tailored to the algorithm in hand. For instance, actual hardware implementations of the Smith-Waterman algorithm for Protein sequence alignment achieve speedups of two orders of magnitude compared to equivalent standard desktop software implementations.",
+            "aminer_id": "5390aefc20f70186a0ece3f8"
+        },
+        "lloyd2009hardware": {
+            "number": "[34]",
+            "title": "Hardware Accelerated Sequence Alignment with Traceback",
+            "text": "title={Hardware accelerated sequence alignment with traceback},\n  author={Lloyd, Scott and Snell, Quinn O},\n  journal={International Journal of Reconfigurable Computing},\n  volume={2009},\n  pages={9},\n  year={2009},\n  publisher={Hindawi Publishing Corp.}",
+            "type": "article",
+            "fields": {
+                "title": "Hardware accelerated sequence alignment with traceback",
+                "author": "Lloyd, Scott and Snell, Quinn O",
+                "journal": "International Journal of Reconfigurable Computing",
+                "volume": "2009",
+                "pages": "9",
+                "year": "2009",
+                "publisher": "Hindawi Publishing Corp."
+            },
+            "ref_source": "bib",
+            "abstract": "Biological sequence alignment is an essential tool used in molecular biology and biomedical applications. The growing volume of genetic data and the complexity of sequence alignment present a challenge in obtaining alignment results in a timely manner. Knownmethods to accelerate alignment on reconfigurable hardware only address sequence comparison, limit the sequence length, or exhibit memory and I/O bottlenecks. A space-efficient, global sequence alignment algorithm and architecture is presented that accelerates the forward scan and traceback in hardware without memory and I/O limitations. With 256 processing elements in FPGA technology, a performance gain over 300 times that of a desktop computer is demonstrated on sequence lengths of 16000. For greater performance, the architecture is scalable to more processing elements.",
+            "aminer_id": "5390aa7620f70186a0eabed9"
+        },
+        "liao2018adaptively": {
+            "number": "[35]",
+            "title": "Adaptively Banded Smith-Waterman Algorithm for Long Reads and Its Hardware Accelerator",
+            "text": "title={Adaptively Banded Smith-Waterman Algorithm for Long Reads and Its Hardware Accelerator},\n  author={Liao, Yi-Lun and Li, Yu-Cheng and Chen, Nae-Chyun and Lu, Yi-Chang},\n  booktitle={2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP)},\n  pages={1--9},\n  year={2018},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Adaptively Banded Smith-Waterman Algorithm for Long Reads and Its Hardware Accelerator",
+                "author": "Liao, Yi-Lun and Li, Yu-Cheng and Chen, Nae-Chyun and Lu, Yi-Chang",
+                "booktitle": "2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP)",
+                "pages": "1--9",
+                "year": "2018",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose hardware-compatible Adaptively Banded Smith-Waterman algorithm (ABSW) to align long genomic sequences. By utilizing banded Smith-Waterman algorithm to align subsequences of fixed lengths, ABSW finds alignment of a pair of arbitrarily long sequences with constant memory. In addition, a heuristic algorithm, dynamic overlapping, is proposed to make overlaps of bands of subsequences to improve accuracy. To enable hardware acceleration of ABSW, we further propose the hardware architecture of banded Smith-Waterman with traceback. Experiments show that ABSW produces near optimal alignment scores for sequences with up to 40% error rates. Our hardware implementation of ABSW demonstrates more than 200× speedup over software implementation.",
+            "aminer_id": "5b8c9ef817c44af36f8b1042"
+        },
+        "harris2007banded": {
+            "number": "[36]",
+            "title": "A Banded Smith-Waterman FPGA Accelerator for Mercury BLASTP",
+            "text": "title={A banded Smith-Waterman FPGA accelerator for Mercury BLASTP},\n  author={Harris, Brandon and Jacob, Arpith C and Lancaster, Joseph M and Buhler, Jeremy and Chamberlain, Roger D},\n  booktitle={2007 International Conference on Field Programmable Logic and Applications},\n  pages={765--769},\n  year={2007},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A banded Smith-Waterman FPGA accelerator for Mercury BLASTP",
+                "author": "Harris, Brandon and Jacob, Arpith C and Lancaster, Joseph M and Buhler, Jeremy and Chamberlain, Roger D",
+                "booktitle": "2007 International Conference on Field Programmable Logic and Applications",
+                "pages": "765--769",
+                "year": "2007",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Large-scale protein sequence comparison is an important but compute-intensive task in molecular biology. The popular BLASTP software for this task has become a bottleneck for proteomic database search. One third of this software's time is spent executing the Smith-Waterman dynamic programming algorithm. This work describes a novel FPGA design for banded Smith-Waterman, an algorithmic variant tuned to the needs of BLASTP. This design has been implemented in Mercury BLASTP, our FPGA-accelerated version of the BLASTP algorithm. We show that Mercury BLASTP runs 6-16 times faster than software BLASTP on a modern CPU while delivering 99% identical results.",
+            "aminer_id": "53e9b672b7602d97041dbae0"
+        },
+        "altschul1997gapped": {
+            "number": "[37]",
+            "title": "Gapped BLAST and PSI-BLAST: a New Generation of Protein Database Search Programs",
+            "text": "title={Gapped BLAST and PSI-BLAST: a new generation of protein database search programs},\n  author={Altschul, Stephen F and Madden, Thomas L and Sch{\\\"a}ffer, Alejandro A and Zhang, Jinghui and Zhang, Zheng and Miller, Webb and Lipman, David J},\n  journal={Nucleic acids research},\n  volume={25},\n  number={17},\n  pages={3389--3402},\n  year={1997},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "Gapped BLAST and PSI-BLAST: a new generation of protein database search programs",
+                "author": "Altschul, Stephen F and Madden, Thomas L and Sch{\\\"a}ffer, Alejandro A and Zhang, Jinghui and Zhang, Zheng and Miller, Webb and Lipman, David J",
+                "journal": "Nucleic acids research",
+                "volume": "25",
+                "number": "17",
+                "pages": "3389--3402",
+                "year": "1997",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "The BLAST programs are widely used tools for searching protein and DNA databases for sequence similarities. For protein comparisons, a variety of definitional, algorithmic and statistical refinements described here permits the execution time of the BLAST programs to be decreased substantially while enhancing their sensitivity to weak similarities. A new criterion for triggering the extension of word hits, combined with a new heuristic for generating gapped alignments, yields a gapped BLAST program that runs at approximately three times the speed of the original. In addition, a method is introduced for automatically combining statistically significant alignments produced by BLAST into a position-specific score matrix, and searching the database using this matrix. The resulting Position-Specific Iterated BLAST (PSIBLAST) program runs at approximately the same speed per iteration as gapped BLAST, but in many cases is much more sensitive to weak but biologically relevant sequence similarities. PSI-BLAST is used to uncover several new and interesting members of the BRCT superfamily.",
+            "aminer_id": "55a3d233612ca6486879bd94"
+        },
+        "kent2002blat": {
+            "number": "[38]",
+            "title": "BLAT—the BLAST-like alignment tool",
+            "text": "title={BLAT—the BLAST-like alignment tool},\n  author={Kent, W James},\n  journal={Genome research},\n  volume={12},\n  number={4},\n  pages={656--664},\n  year={2002},\n  publisher={Cold Spring Harbor Lab}",
+            "type": "article",
+            "fields": {
+                "title": "BLAT—the BLAST-like alignment tool",
+                "author": "Kent, W James",
+                "journal": "Genome research",
+                "volume": "12",
+                "number": "4",
+                "pages": "656--664",
+                "year": "2002",
+                "publisher": "Cold Spring Harbor Lab"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9b594b7602d97040db689"
+        },
+        "lipman1985rapid": {
+            "number": "[39]",
+            "title": "Rapid and sensitive protein similarity searches",
+            "text": "title={Rapid and sensitive protein similarity searches},\n  author={Lipman, David J and Pearson, William R},\n  journal={Science},\n  volume={227},\n  number={4693},\n  pages={1435--1441},\n  year={1985},\n  publisher={American Association for the Advancement of Science}",
+            "type": "article",
+            "fields": {
+                "title": "Rapid and sensitive protein similarity searches",
+                "author": "Lipman, David J and Pearson, William R",
+                "journal": "Science",
+                "volume": "227",
+                "number": "4693",
+                "pages": "1435--1441",
+                "year": "1985",
+                "publisher": "American Association for the Advancement of Science"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a461942401bde6691b2941"
+        },
+        "homer2009bfast": {
+            "number": "[40]",
+            "title": "BFAST: an Alignment Tool for Large Scale Genome Resequencing",
+            "text": "title={BFAST: an alignment tool for large scale genome resequencing},\n  author={Homer, Nils and Merriman, Barry and Nelson, Stanley F},\n  journal={PloS one},\n  volume={4},\n  number={11},\n  pages={e7767},\n  year={2009},\n  publisher={Public Library of Science}",
+            "type": "article",
+            "fields": {
+                "title": "BFAST: an alignment tool for large scale genome resequencing",
+                "author": "Homer, Nils and Merriman, Barry and Nelson, Stanley F",
+                "journal": "PloS one",
+                "volume": "4",
+                "number": "11",
+                "pages": "e7767",
+                "year": "2009",
+                "publisher": "Public Library of Science"
+            },
+            "ref_source": "bib",
+            "abstract": "BACKGROUND:The new generation of massively parallel DNA sequencers, combined with the challenge of whole human genome resequencing, result in the need for rapid and accurate alignment of billions of short DNA sequence reads to a large reference genome. Speed is obviously of great importance, but equally important is maintaining alignment accuracy of short reads, in the 25-100 base range, in the presence of errors and true biological variation. METHODOLOGY:We introduce a new algorithm specifically optimized for this task, as well as a freely available implementation, BFAST, which can align data produced by any of current sequencing platforms, allows for user-customizable levels of speed and accuracy, supports paired end data, and provides for efficient parallel and multi-threaded computation on a computer cluster. The new method is based on creating flexible, efficient whole genome indexes to rapidly map reads to candidate alignment locations, with arbitrary multiple independent indexes allowed to achieve robustness against read errors and sequence variants. The final local alignment uses a Smith-Waterman method, with gaps to support the detection of small indels. CONCLUSIONS:We compare BFAST to a selection of large-scale alignment tools -- BLAT, MAQ, SHRiMP, and SOAP -- in terms of both speed and accuracy, using simulated and real-world datasets. We show BFAST can achieve substantially greater sensitivity of alignment in the context of errors and true variants, especially insertions and deletions, and minimize false mappings, while maintaining adequate speed compared to other current methods. We show BFAST can align the amount of data needed to fully resequence a human genome, one billion reads, with high sensitivity and accuracy, on a modest computer cluster in less than 24 hours. BFAST is available at (http://bfast.sourceforge.net).",
+            "aminer_id": "53e9b822b7602d97043d65d9"
+        },
+        "sotiriades2006fpga": {
+            "number": "[41]",
+            "title": "FPGA Based Architecture for DNA Sequence Comparison and Database Search",
+            "text": "title={FPGA based architecture for DNA sequence comparison and database search},\n  author={Sotiriades, Euripides and Kozanitis, Christos and Dollas, Apostolos},\n  booktitle={Proceedings 20th IEEE International Parallel \\& Distributed Processing Symposium},\n  pages={8--pp},\n  year={2006},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "FPGA based architecture for DNA sequence comparison and database search",
+                "author": "Sotiriades, Euripides and Kozanitis, Christos and Dollas, Apostolos",
+                "booktitle": "Proceedings 20th IEEE International Parallel \\& Distributed Processing Symposium",
+                "pages": "8--pp",
+                "year": "2006",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "DNA sequence comparison is a computationally intensive problem, known widely since the competition for human DNA decryption. Database search for DNA sequence comparison is of great value to computational biologists. Several algorithms have been developed and implemented to solve this problem efficiently, but from a user base point of view the BLAST algorithm is the most widely used one. In this paper, we present a new architecture for the BLAST algorithm. The new architecture was fully designed, placed and routed. The post place-and-route cycle-accurate simulation, accounting for the I/O, shows a better performance than a cluster of workstations running highly optimized code over identical datasets. The new architecture and detailed performance results are presented in this paper",
+            "aminer_id": "5390ad8920f70186a0ec04e8"
+        },
+        "sotiriades2006some": {
+            "number": "[42]",
+            "title": "Some Initial Results on Hardware BLAST Acceleration with a Reconfigurable Architecture",
+            "text": "title={Some initial results on hardware BLAST acceleration with a reconfigurable architecture},\n  author={Sotiriades, Euripides and Kozanitis, Christos and Dollas, Apostolos},\n  booktitle={Proceedings 20th IEEE International Parallel \\& Distributed Processing Symposium},\n  pages={8--pp},\n  year={2006},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Some initial results on hardware BLAST acceleration with a reconfigurable architecture",
+                "author": "Sotiriades, Euripides and Kozanitis, Christos and Dollas, Apostolos",
+                "booktitle": "Proceedings 20th IEEE International Parallel \\& Distributed Processing Symposium",
+                "pages": "8--pp",
+                "year": "2006",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The BLAST algorithm is the prevalent tool that is used by molecular biologists for DNA sequence matching and database search. In this work we demonstrate that with an appropriate reconfigurable architecture, BLAST performance can be improved with a single-chip solution 5 times over a specialized and optimized computer cluster, or 37 times over a single computer. These initial results account for I/O and are very encouraging for the development of a large scale, reconfigurable BLAST engine",
+            "aminer_id": "5390ad8920f70186a0ec036d"
+        },
+        "sotiriades2007general": {
+            "number": "[43]",
+            "title": "A General Reconfigurable Architecture for the BLAST Algorithm",
+            "text": "title={A general reconfigurable architecture for the BLAST algorithm},\n  author={Sotiriades, Euripides and Dollas, Apostolos},\n  journal={The Journal of VLSI Signal Processing Systems for Signal, Image, and Video Technology},\n  volume={48},\n  number={3},\n  pages={189--208},\n  year={2007},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "A general reconfigurable architecture for the BLAST algorithm",
+                "author": "Sotiriades, Euripides and Dollas, Apostolos",
+                "journal": "The Journal of VLSI Signal Processing Systems for Signal, Image, and Video Technology",
+                "volume": "48",
+                "number": "3",
+                "pages": "189--208",
+                "year": "2007",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "The process of DNA sequence matching and database search is one of the major problems of the bioinformatics community. Major scientific efforts to address this problem have provided algorithms and software tools for molecular biologists since the early 1970s. At the algorithmic and software level BLAST is by far the most popular tool. It has been developed and continues to be maintained and distributed by the NCBI organization. The BLAST algorithm and software is computationally very intensive and as a result several computer vendors use it as a benchmark. On the other hand no systematic approach for hardware speedup of BLAST and its variants for different query and database size has been reported to date. In this paper we present our architecture that implements the BLAST algorithm for all of its major versions, and for any size of database and query. The system has been fully designed and partially implemented with reconfigurable logic. It consists of software and hardware parts and achieves a speedup of several times up to thousands of times vs general purpose computers.",
+            "aminer_id": "53909f6920f70186a0e3ad9c"
+        },
+        "xia2008fpga": {
+            "number": "[44]",
+            "title": "FPGA-based accelerators for BLAST families with multi-seeds detection and parallel extension",
+            "text": "title={FPGA-based accelerators for BLAST families with multi-seeds detection and parallel extension},\n  author={Xia, Fei and Dou, Yong and Xu, Jinbo},\n  booktitle={2008 2nd International Conference on Bioinformatics and Biomedical Engineering},\n  pages={58--62},\n  year={2008},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "FPGA-based accelerators for BLAST families with multi-seeds detection and parallel extension",
+                "author": "Xia, Fei and Dou, Yong and Xu, Jinbo",
+                "booktitle": "2008 2nd International Conference on Bioinformatics and Biomedical Engineering",
+                "pages": "58--62",
+                "year": "2008",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "xia2008families": {
+            "number": "[45]",
+            "title": "Families of FPGA-based accelerators for BLAST algorithm with multi-seeds detection and parallel extension",
+            "text": "title={Families of FPGA-based accelerators for BLAST algorithm with multi-seeds detection and parallel extension},\n  author={Xia, Fei and Dou, Yong and Xu, Jiaqing},\n  booktitle={International Conference on Bioinformatics Research and Development},\n  pages={43--57},\n  year={2008},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Families of FPGA-based accelerators for BLAST algorithm with multi-seeds detection and parallel extension",
+                "author": "Xia, Fei and Dou, Yong and Xu, Jiaqing",
+                "booktitle": "International Conference on Bioinformatics Research and Development",
+                "pages": "43--57",
+                "year": "2008",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "xia2008hardware": {
+            "number": "[46]",
+            "title": "Hardware BLAST Algorithms with Multi-seeds Detection and Parallel Extension",
+            "text": "title={Hardware BLAST algorithms with multi-seeds detection and parallel extension},\n  author={Xia, Fei and Dou, Yong and Xu, Jinbo},\n  booktitle={International Workshop on Applied Reconfigurable Computing},\n  pages={39--50},\n  year={2008},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hardware BLAST algorithms with multi-seeds detection and parallel extension",
+                "author": "Xia, Fei and Dou, Yong and Xu, Jinbo",
+                "booktitle": "International Workshop on Applied Reconfigurable Computing",
+                "pages": "39--50",
+                "year": "2008",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "As one of the most widely used bio-sequence searching tools, BLAST adopts index-based approach to detect the matches between two substrings by looking up a large table and processing one match per query. In this paper, we propose a systolic array approach to detect string matches without using looking up tables. The pipelining systolic array is implemented as a multi-seeds detection and parallel extension pipeline engine to accelerate the first two stages of NCBI BLAST family algorithms. Different from the index-based approach, our implementation consumes little memory resources and eliminates redundant string extensions by merging multiple adjoin seeds into a valid seed. Our FPGA implementation achieves superior performance results in both of processing element number and clock frequency over related works in the area of FPGA BLAST accelerators. The experimental results also show the speedup can reach about 17, 48, 14, 71 and 10 compared to the NCBI BLASTp, TBLASTn, BLASTx, TBLASTx and BLASTn programs for 3072-residue queries on Intel P4 CPU, respectively. Furthermore, the idea of multi-seeds detection also can be adopted in other seed-based heuristic searching applications.",
+            "aminer_id": "5390a1d420f70186a0e56cf0"
+        },
+        "chen2012reconfigurable": {
+            "number": "[47]",
+            "title": "Reconfigurable Accelerator for the Word-Matching Stage of BLASTN",
+            "text": "title={Reconfigurable accelerator for the word-matching stage of BLASTN},\n  author={Chen, Yupeng and Schmidt, Bertil and Maskell, Douglas L},\n  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},\n  volume={21},\n  number={4},\n  pages={659--669},\n  year={2012},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Reconfigurable accelerator for the word-matching stage of BLASTN",
+                "author": "Chen, Yupeng and Schmidt, Bertil and Maskell, Douglas L",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "volume": "21",
+                "number": "4",
+                "pages": "659--669",
+                "year": "2012",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "BLAST is one of the most popular sequence analysis tools used by molecular biologists. It is designed to efficiently find similar regions between two sequences that have biological significance. However, because the size of genomic databases is growing rapidly, the computation time of BLAST, when performing a complete genomic database search, is continuously increasing. Thus, there is a clear need to accelerate this process. In this paper, we present a new approach for genomic sequence database scanning utilizing reconfigurable field programmable gate array (FPGA)-based hardware. In order to derive an efficient structure for BLASTN, we propose a reconfigurable architecture to accelerate the computation of the word-matching stage. The experimental results show that the FPGA implementation achieves a speedup around one order of magnitude compared to the NCBI BLASTN software running on a general purpose computer.",
+            "aminer_id": "5390bb1d20f70186a0f3d9da"
+        },
+        "bekbolat2019hblast": {
+            "number": "[48]",
+            "title": "HBLast: an Open-Source FPGA Library for DNA Sequencing Acceleration",
+            "text": "title={HBLast: An Open-Source FPGA Library for DNA Sequencing Acceleration},\n  author={Bekbolat, Marzhan and Kairatova, Sabina and Shymyrbay, Ayan and Vipin, Kizheppatt},\n  booktitle={2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)},\n  pages={79--82},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "HBLast: An Open-Source FPGA Library for DNA Sequencing Acceleration",
+                "author": "Bekbolat, Marzhan and Kairatova, Sabina and Shymyrbay, Ayan and Vipin, Kizheppatt",
+                "booktitle": "2019 IEEE International Parallel and Distributed Processing Symposium Workshops (IPDPSW)",
+                "pages": "79--82",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Biological sequence alignment algorithms work by identifying the degree of similarity between a newly discovered biological sequence with already known sequences. Exponential growth in the database and query sizes make pure software-based solutions inefficient in finding a solution within the time constraints. This calls for hardware acceleration-based solutions such as those based on field programmable gate arrays (FPGAs). In this work we present the design and implementation of the popular BLAST algorithm for nucleotide sequence alignment, called HBLast, targeting FPGA-based reconfigurable platforms.",
+            "aminer_id": "5d4aaf403a55ac97fc634df1"
+        },
+        "yoshimi2016accelerating": {
+            "number": "[49]",
+            "title": "Accelerating BLAST Computation on an FPGA-enhanced PC Cluster",
+            "text": "title={Accelerating BLAST Computation on an FPGA-enhanced PC Cluster},\n  author={Yoshimi, Masato and Wu, Celimuge and Yoshinaga, Tsutomu},\n  booktitle={2016 Fourth International Symposium on Computing and Networking (CANDAR)},\n  pages={67--76},\n  year={2016},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Accelerating BLAST Computation on an FPGA-enhanced PC Cluster",
+                "author": "Yoshimi, Masato and Wu, Celimuge and Yoshinaga, Tsutomu",
+                "booktitle": "2016 Fourth International Symposium on Computing and Networking (CANDAR)",
+                "pages": "67--76",
+                "year": "2016",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7f36601a182cd28fb3fa"
+        },
+        "sogabe2013acceleration": {
+            "number": "[50]",
+            "title": "An acceleration method of short read mapping using FPGA",
+            "text": "title={An acceleration method of short read mapping using FPGA},\n  author={Sogabe, Yoko and Maruyama, Tsutomu},\n  booktitle={2013 International Conference on Field-Programmable Technology (FPT)},\n  pages={350--353},\n  year={2013},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "An acceleration method of short read mapping using FPGA",
+                "author": "Sogabe, Yoko and Maruyama, Tsutomu",
+                "booktitle": "2013 International Conference on Field-Programmable Technology (FPT)",
+                "pages": "350--353",
+                "year": "2013",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9a16ab7602d9702a5ec64"
+        },
+        "sogabe2014fpga": {
+            "number": "[51]",
+            "title": "FPGA Acceleration of Short Read Mapping Based on Sort and Parallel Comparison",
+            "text": "title={FPGA acceleration of short read mapping based on sort and parallel comparison},\n  author={Sogabe, Youkou and Maruyama, Tsutomu},\n  booktitle={2014 24th International Conference on Field Programmable Logic and Applications (FPL)},\n  pages={1--4},\n  year={2014},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "FPGA acceleration of short read mapping based on sort and parallel comparison",
+                "author": "Sogabe, Youkou and Maruyama, Tsutomu",
+                "booktitle": "2014 24th International Conference on Field Programmable Logic and Applications (FPL)",
+                "pages": "1--4",
+                "year": "2014",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Short read mapping is a process to align the short reads, which are fixed-length fragments of the target genome, to a given reference genome to identify the mutations in the target genome. Because of the rapid development of Next Generation Sequencing (NGS) technologies, faster short read mapping is required. In this paper, we propose an FPGA system for the short read mapping based on sort and parallel comparison of seeds. Seeds are fixed-length sub-strings in the short reads used to map the short read to the reference genome efficiently. In our system, (1) seeds are sorted using bucket sort, and the seeds in a bucket are compared in parallel with the candidate locations on the reference genome, (2) in this comparison, one nucleotide substitution, insertion, and deletion are allowed to achieve higher mapping rate, and (3) two stage search by reconfiguration is used to achieve higher performance. The mapping rate and search time by this approach outperforms existing systems.",
+            "aminer_id": "557c4c326feeaa8086d98c59"
+        },
+        "mcvicar2018fpga": {
+            "number": "[52]",
+            "title": "FPGA Acceleration of Short Read Alignment",
+            "text": "title={FPGA Acceleration of Short Read Alignment},\n  author={McVicar, Nathaniel and Hoshino, Akina and La Torre, Anna and Reh, Thomas A and Ruzzo, Walter L and Hauck, Scott},\n  journal={arXiv preprint arXiv:1805.00106},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "FPGA Acceleration of Short Read Alignment",
+                "author": "McVicar, Nathaniel and Hoshino, Akina and La Torre, Anna and Reh, Thomas A and Ruzzo, Walter L and Hauck, Scott",
+                "journal": "arXiv preprint arXiv:1805.00106",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Aligning millions of short DNA or RNA reads, of 75 to 250 base pairs each, to a reference genome is a significant computation problem in bioinformatics. We present a flexible and fast FPGA-based short read alignment tool. Our aligner makes use of the processing power of FPGAs in conjunction with the greater host memory bandwidth and flexibility of software to improve performance and achieve a high level of configurability. This flexible design supports a variety of reference genome sizes without the performance degradation suffered by other software and FPGA-based aligners. It is also better able to support the features of new alignment algorithms, which frequently crop up in the rapidly evolving field of bioinformatics. We demonstrate these advantages in a case study where we align RNA-Seq data from a hypothesized mouse / human xenograft. In this case study, our aligner provides a speedup of 5.6x over BWA-SW with energy savings of 21%, while also reducing incorrect short read classification by 29%. To demonstrate the flexibility of our system we show that the speedup can be substantially improved while retaining most of the accuracy gains over BWA-SW. The speedup can be increased to 71.3x, while still enjoying a 28% incorrect classification improvement and 52% improvement in unaligned reads.",
+            "aminer_id": "5c8dd6894895d9cbc6a6bb72"
+        },
+        "waidyasooriya2014fpga": {
+            "number": "[53]",
+            "title": "FPGA-accelerator for DNA sequence alignment based on an efficient data-dependent memory access scheme",
+            "text": "title={FPGA-accelerator for DNA sequence alignment based on an efficient data-dependent memory access scheme},\n  author={Waidyasooriya, Hasitha Muthumala and Hariyama, Masanori and Kameyama, Michitaka},\n  journal={Highly-Efficient Accelerators and Reconfigurable Technologies},\n  pages={127--30},\n  year={2014}",
+            "type": "article",
+            "fields": {
+                "title": "FPGA-accelerator for DNA sequence alignment based on an efficient data-dependent memory access scheme",
+                "author": "Waidyasooriya, Hasitha Muthumala and Hariyama, Masanori and Kameyama, Michitaka",
+                "journal": "Highly-Efficient Accelerators and Reconfigurable Technologies",
+                "pages": "127--30",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "fernandez2012multithreaded": {
+            "number": "[54]",
+            "title": "Multithreaded FPGA Acceleration of DNA Sequence Mapping",
+            "text": "title={Multithreaded FPGA acceleration of DNA sequence mapping},\n  author={Fernandez, Edward B and Najjar, Walid A and Lonardi, Stefano and Villarreal, Jason},\n  booktitle={2012 IEEE Conference on High Performance Extreme Computing},\n  pages={1--6},\n  year={2012},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Multithreaded FPGA acceleration of DNA sequence mapping",
+                "author": "Fernandez, Edward B and Najjar, Walid A and Lonardi, Stefano and Villarreal, Jason",
+                "booktitle": "2012 IEEE Conference on High Performance Extreme Computing",
+                "pages": "1--6",
+                "year": "2012",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In bioinformatics, short read alignment is a computationally intensive operation that involves matching millions of short strings (called reads) against a reference genome. At the time of writing, a representative run requires to match tens of millions of reads of length of about 100 symbols against a genome that can consists of a few billion characters. Existing short read aligners are expected to report all the occurrences of each read as well as allow users to control the number of allowed mismatches between reads and reference genome. Popular software implementations such as Bowtie [8] or BWA [10] can take many hours or days to execute, making the problem an ideal candidate for hardware acceleration. In this paper, we describe FHAST (FPGA Hardware Accelerated Sequencing-matching Tool), a hardware accelerator that acts as a drop-in replacement for short read alignment software. Our architecture masks memory latency by executing many concurrent hardware threads accessing memory simultaneously and consists of multiple parallel engines to exploit the parallelism available to us on an FPGA. We have implemented and tested FHAST on the Convey HC-1 [9], taking advantage of the large amount of memory bandwidth available to the system and the shared memory image between hardware and software. By comparing the performance of FHAST against Bowtie on the Convey HC-1 we observed up to ~70X improvement in total end-to-end execution time, reducing runs that take several hours to a few minutes. We also favorably compare the rate of growth when expanding FHAST to utilize multiple FPGAs against multiple CPUs in Bowtie.",
+            "aminer_id": "558c5894e4b00c3c48e1c37d"
+        },
+        "fernandez2011string": {
+            "number": "[55]",
+            "title": "String Matching in Hardware Using the FM-Index",
+            "text": "title={String matching in hardware using the FM-index},\n  author={Fernandez, Edward and Najjar, Walid and Lonardi, Stefano},\n  booktitle={2011 IEEE 19th Annual International Symposium on Field-Programmable Custom Computing Machines},\n  pages={218--225},\n  year={2011},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "String matching in hardware using the FM-index",
+                "author": "Fernandez, Edward and Najjar, Walid and Lonardi, Stefano",
+                "booktitle": "2011 IEEE 19th Annual International Symposium on Field-Programmable Custom Computing Machines",
+                "pages": "218--225",
+                "year": "2011",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "String matching is a ubiquitous problem that arises in a wide range of applications in computing, e.g., packet routing, intrusion detection, web querying, and genome analysis. Due to its importance, dozens of algorithms and several data structures have been developed over the years. A recent breakthrough in this field is the FM-index, a data structure that synergistically combines the Burrows-Wheeler transform and the suffix array. In software, the FM-index allows searching (exact and approximate) in times comparable to the fastest known indices for large texts (suffix trees and suffix arrays), but has the additional advantage of being more space-efficient than those approaches. In this paper, we describe the first FPGA-based hardware implementation of the FM-index for exact pattern matching. We report experimental results on the problem of mapping short DNA sequences to a reference genome. We show that the throughput of the FM-index is significantly higher than the naive (brute force) approach. Like the Bowtie software tool, the FM-index can abandon early the hardware matching. It outperforms Bowtie by two orders of magnitude.",
+            "aminer_id": "5390b00c20f70186a0ed4783"
+        },
+        "fernandez2015fhast": {
+            "number": "[56]",
+            "title": "FHAST: FPGA-Based Acceleration of Bowtie in Hardware",
+            "text": "title={FHAST: FPGA-based acceleration of Bowtie in hardware},\n  author={Fernandez, Edward B and Villarreal, Jason and Lonardi, Stefano and Najjar, Walid A},\n  journal={IEEE/ACM transactions on computational biology and bioinformatics},\n  volume={12},\n  number={5},\n  pages={973--981},\n  year={2015},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "FHAST: FPGA-based acceleration of Bowtie in hardware",
+                "author": "Fernandez, Edward B and Villarreal, Jason and Lonardi, Stefano and Najjar, Walid A",
+                "journal": "IEEE/ACM transactions on computational biology and bioinformatics",
+                "volume": "12",
+                "number": "5",
+                "pages": "973--981",
+                "year": "2015",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "While the sequencing capability of modern instruments continues to increase exponentially, the computational problem of mapping short sequenced reads to a reference genome still constitutes a bottleneck in the analysis pipeline. A variety of mapping tools (e.g., Bowtie, BWA) is available for general-purpose computer architectures. These tools can take many hours or even days to deliver mapping results, depending on the number of input reads, the size of the reference genome and the number of allowed mismatches or insertion/deletions, making the mapping problem an ideal candidate for hardware acceleration. In this paper, we present FHAST (FPGA hardware accelerated sequence-matching tool), a drop-in replacement for Bowtie that uses a hardware design based on field programmable gate arrays (FPGA). Our architecture masks memory latency by executing multiple concurrent hardware threads accessing memory simultaneously. FHAST is composed by multiple parallel engines to exploit the parallelism available to us on an FPGA. We have implemented and tested FHAST on the Convey HC-1 and later ported on the Convey HC-2ex, taking advantage of the large memory bandwidth available to these systems and the shared memory image between hardware and software. A preliminary version of FHAST running on the Convey HC-1 achieved up to 70x speedup compared to Bowtie (single-threaded). An improved version of FHAST running on the Convey HC-2ex FPGAs achieved up to 12x fold speed gain compared to Bowtie running eight threads on an eight-core conventional architecture, while maintaining almost identical mapping accuracy. FHAST is a drop-in replacement for Bowtie, so it can be incorporated in any analysis pipeline that uses Bowtie (e.g., TopHat).",
+            "aminer_id": "55465f020cf2939c2feed5ba"
+        },
+        "jones2004introduction": {
+            "number": "[57]",
+            "title": "An Introduction to Bioinformatics Algorithms",
+            "text": "title={An introduction to bioinformatics algorithms},\n  author={Jones, Neil C and Pevzner, Pavel A and Pevzner, Pavel},\n  year={2004},\n  publisher={MIT press}",
+            "type": "book",
+            "fields": {
+                "title": "An introduction to bioinformatics algorithms",
+                "author": "Jones, Neil C and Pevzner, Pavel A and Pevzner, Pavel",
+                "year": "2004",
+                "publisher": "MIT press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9ab4fb7602d97034e0402"
+        },
+        "turakhia2018darwin": {
+            "number": "[58]",
+            "title": "Darwin: A genomics co-processor provides up to 15,000 x acceleration on long read assembly",
+            "text": "title={Darwin: A genomics co-processor provides up to 15,000 x acceleration on long read assembly},\n  author={Turakhia, Yatish and Bejerano, Gill and Dally, William J},\n booktitle={ACM SIGPLAN Notices},\n  volume={53},\n  number={2},\n  pages={199--213},\n  year={2018},\n  organization={ACM}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Darwin: A genomics co-processor provides up to 15,000 x acceleration on long read assembly",
+                "author": "Turakhia, Yatish and Bejerano, Gill and Dally, William J",
+                "booktitle": "ACM SIGPLAN Notices",
+                "volume": "53",
+                "number": "2",
+                "pages": "199--213",
+                "year": "2018",
+                "organization": "ACM"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "li2013aligning": {
+            "number": "[59]",
+            "title": "Aligning Sequence Reads, Clone Sequences and Assembly Contigs with BWA-MEM",
+            "text": "title={Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM},\n  author={Li, Heng},\n  journal={arXiv preprint arXiv:1303.3997},\n  year={2013}",
+            "type": "article",
+            "fields": {
+                "title": "Aligning sequence reads, clone sequences and assembly contigs with BWA-MEM",
+                "author": "Li, Heng",
+                "journal": "arXiv preprint arXiv:1303.3997",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "Summary: BWA-MEM is a new alignment algorithm for aligning sequence reads or long query sequences against a large reference genome such as human. It automatically chooses between local and end-to-end alignments, supports paired-end reads and performs chimeric alignment. The algorithm is robust to sequencing errors and applicable to a wide range of sequence lengths from 70bp to a few megabases. For mapping 100bp sequences, BWA-MEM shows better performance than several state-of-art read aligners to date. Availability and implementation: BWA-MEM is implemented as a component of BWA, which is available at this http URL. Contact: hengli@broadinstitute.org",
+            "aminer_id": "56d847dadabfae2eeebc7ffb"
+        },
+        "arram2015ramethy": {
+            "number": "[60]",
+            "title": "Ramethy: Reconfigurable acceleration of bisulfite sequence alignment",
+            "text": "title={Ramethy: Reconfigurable acceleration of bisulfite sequence alignment},\n  author={Arram, James and Luk, Wayne and Jiang, Peiyong},\n  booktitle={Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},\n  pages={250--259},\n  year={2015},\n  organization={ACM}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Ramethy: Reconfigurable acceleration of bisulfite sequence alignment",
+                "author": "Arram, James and Luk, Wayne and Jiang, Peiyong",
+                "booktitle": "Proceedings of the 2015 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+                "pages": "250--259",
+                "year": "2015",
+                "organization": "ACM"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5550450545ce0a409eb52ff4"
+        },
+        "arram2013reconfigurable2": {
+            "number": "[61]",
+            "title": "Reconfigurable filtered acceleration of short read alignment",
+            "text": "title={Reconfigurable filtered acceleration of short read alignment},\n  author={Arram, James and Luk, Wayne and Jiang, Peiyong},\n  booktitle={2013 International Conference on Field-Programmable Technology (FPT)},\n  pages={438--441},\n  year={2013},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Reconfigurable filtered acceleration of short read alignment",
+                "author": "Arram, James and Luk, Wayne and Jiang, Peiyong",
+                "booktitle": "2013 International Conference on Field-Programmable Technology (FPT)",
+                "pages": "438--441",
+                "year": "2013",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "arram2013reconfigurable1": {
+            "number": "[62]",
+            "title": "Reconfigurable acceleration of short read mapping",
+            "text": "title={Reconfigurable acceleration of short read mapping},\n  author={Arram, James and Tsoi, Kuen Hung and Luk, Wayne and Jiang, Peiyong},\n  booktitle={2013 IEEE 21st Annual International Symposium on Field-Programmable Custom Computing Machines},\n  pages={210--217},\n  year={2013},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Reconfigurable acceleration of short read mapping",
+                "author": "Arram, James and Tsoi, Kuen Hung and Luk, Wayne and Jiang, Peiyong",
+                "booktitle": "2013 IEEE 21st Annual International Symposium on Field-Programmable Custom Computing Machines",
+                "pages": "210--217",
+                "year": "2013",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390bb1d20f70186a0f3e8dd"
+        },
+        "chacon2013n": {
+            "number": "[63]",
+            "title": "n-step FM-index for faster pattern matching",
+            "text": "title={n-step FM-index for faster pattern matching},\n  author={Chac{\\'o}n, Alejandro and Moure, Juan Carlos and Espinosa, Antonio and Hern{\\'a}ndez, Porfidio},\n  journal={Procedia Computer Science},\n  volume={18},\n  pages={70--79},\n  year={2013},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "n-step FM-index for faster pattern matching",
+                "author": "Chac{\\'o}n, Alejandro and Moure, Juan Carlos and Espinosa, Antonio and Hern{\\'a}ndez, Porfidio",
+                "journal": "Procedia Computer Science",
+                "volume": "18",
+                "pages": "70--79",
+                "year": "2013",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9bb86b7602d97047ce545"
+        },
+        "arram2017leveraging": {
+            "number": "[64]",
+            "title": "Leveraging FPGAs for accelerating short read alignment",
+            "text": "title={Leveraging FPGAs for accelerating short read alignment},\n  author={Arram, James and Kaplan, Thomas and Luk, Wayne and Jiang, Peiyong},\n  journal={IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)},\n  volume={14},\n  number={3},\n  pages={668--677},\n  year={2017},\n  publisher={IEEE Computer Society Press}",
+            "type": "article",
+            "fields": {
+                "title": "Leveraging FPGAs for accelerating short read alignment",
+                "author": "Arram, James and Kaplan, Thomas and Luk, Wayne and Jiang, Peiyong",
+                "journal": "IEEE/ACM Transactions on Computational Biology and Bioinformatics (TCBB)",
+                "volume": "14",
+                "number": "3",
+                "pages": "668--677",
+                "year": "2017",
+                "publisher": "IEEE Computer Society Press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7adc601a182cd26ea829"
+        },
+        "chen2018memory": {
+            "number": "[65]",
+            "title": "A Memory-Efficient FM-Index Constructor for Next-Generation Sequencing Applications on FPGAs",
+            "text": "title={A Memory-Efficient FM-Index Constructor for Next-Generation Sequencing Applications on FPGAs},\n  author={Chen, Nae-Chyun and Li, Yu-Cheng and Lu, Yi-Chang},\n  booktitle={2018 IEEE International Symposium on Circuits and Systems (ISCAS)},\n  pages={1--4},\n  year={2018},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Memory-Efficient FM-Index Constructor for Next-Generation Sequencing Applications on FPGAs",
+                "author": "Chen, Nae-Chyun and Li, Yu-Cheng and Lu, Yi-Chang",
+                "booktitle": "2018 IEEE International Symposium on Circuits and Systems (ISCAS)",
+                "pages": "1--4",
+                "year": "2018",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "FM-index is an efficient data structure for string search and is widely used in next-generation sequencing (NGS) applications such as sequence alignment and de novo assembly. Recently, FM-indexing is even performed down to the read level, raising a demand of an efficient algorithm for FM-index construction. In this work, we propose a hardware-compatible Self-Aided Incremental Indexing (SAII) algorithm and its hardware architecture. This novel algorithm builds FM-index with no memory overhead, and the hardware system for realizing the algorithm can be very compact. Parallel architecture and a special prefetch controller is designed to enhance computational efficiency. An SAII-based FM-index constructor is implemented on an Altera Stratix V FPGA board. The presented constructor can support DNA sequences of sizes up to 131,072-bp, which is enough for small-scale references and reads obtained from current major platforms. Because the proposed constructor needs very few hardware resource, it can be easily integrated into different hardware accelerators designed for FM-index-based applications.",
+            "aminer_id": "5bdc315017c44a1f58a053ce"
+        },
+        "morshedi2017fpga": {
+            "number": "[66]",
+            "title": "FPGA implementation of a short read mapping accelerator",
+            "text": "title={FPGA implementation of a short read mapping accelerator},\n  author={Morshedi, Mostafa and Noori, Hamid},\n  booktitle={International Symposium on Applied Reconfigurable Computing},\n  pages={289--296},\n  year={2017},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "FPGA implementation of a short read mapping accelerator",
+                "author": "Morshedi, Mostafa and Noori, Hamid",
+                "booktitle": "International Symposium on Applied Reconfigurable Computing",
+                "pages": "289--296",
+                "year": "2017",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7d0a601a182cd27f736e"
+        },
+        "waidyasooriya2013implementation": {
+            "number": "[67]",
+            "title": "Implementation of a Custom Hardware-Accelerator for Short-Read Mapping Using Burrows-Wheeler Alignment",
+            "text": "title={Implementation of a custom hardware-accelerator for short-read mapping using Burrows-Wheeler alignment},\n  author={Waidyasooriya, Hasitha Muthumala and Hariyama, Masanori and Kameyama, Michitaka},\n  booktitle={2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)},\n  pages={651--654},\n  year={2013},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Implementation of a custom hardware-accelerator for short-read mapping using Burrows-Wheeler alignment",
+                "author": "Waidyasooriya, Hasitha Muthumala and Hariyama, Masanori and Kameyama, Michitaka",
+                "booktitle": "2013 35th Annual International Conference of the IEEE Engineering in Medicine and Biology Society (EMBC)",
+                "pages": "651--654",
+                "year": "2013",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The mapping of millions of short DNA fragments to a large genome is a great challenge in modern computational biology. Usually, it takes many hours or days to map a large genome using software. However, the recent progress of programmable hardware such as field programmable gate arrays (FPGAs) provides a cost effective solution to this challenge. FPGAs contain millions of programmable logic gates to design massively parallel accelerators. This paper proposes a hardware architecture to accelerate the short-read mapping using Burrows-Wheeler alignment. The speed-up of the proposed architecture is estimated to be at least 10 times compared to its equivalent software application.",
+            "aminer_id": "558bda3484ae6766fdef9b49"
+        },
+        "international2001initial": {
+            "number": "[68]",
+            "title": "Initial Sequencing and Analysis of the Human Genome",
+            "text": "title={Initial sequencing and analysis of the human genome},\n  author={International Human Genome Sequencing Consortium and others},\n  journal={nature},\n  volume={409},\n  number={6822},\n  pages={860},\n  year={2001},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Initial sequencing and analysis of the human genome",
+                "author": "International Human Genome Sequencing Consortium and others",
+                "journal": "nature",
+                "volume": "409",
+                "number": "6822",
+                "pages": "860",
+                "year": "2001",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "The human genome holds an extraordinary trove of information about human development, physiology, medicine and evolution. Here we report the results of an international collaboration to produce and make freely available a draft sequence of the human genome. We also present an initial analysis of the data, describing some of the insights that can be gleaned from the sequence.",
+            "aminer_id": "55a476a1612ca6486897579d"
+        },
+        "pleasance2010comprehensive": {
+            "number": "[69]",
+            "title": "A Comprehensive Catalogue of Somatic Mutations from a Human Cancer Genome",
+            "text": "title={A comprehensive catalogue of somatic mutations from a human cancer genome},\n  author={Pleasance, Erin D and Cheetham, R Keira and Stephens, Philip J and McBride, David J and Humphray, Sean J and Greenman, Chris D and Varela, Ignacio and Lin, Meng-Lay and Ord{\\'o}{\\~n}ez, Gonzalo R and Bignell, Graham R and others},\n  journal={Nature},\n  volume={463},\n  number={7278},\n  pages={191},\n  year={2010},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "A comprehensive catalogue of somatic mutations from a human cancer genome",
+                "author": "Pleasance, Erin D and Cheetham, R Keira and Stephens, Philip J and McBride, David J and Humphray, Sean J and Greenman, Chris D and Varela, Ignacio and Lin, Meng-Lay and Ord{\\'o}{\\~n}ez, Gonzalo R and Bignell, Graham R and others",
+                "journal": "Nature",
+                "volume": "463",
+                "number": "7278",
+                "pages": "191",
+                "year": "2010",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "All cancers carry somatic mutations. A subset of these somatic alterations, termed driver mutations, confer selective growth advantage and are implicated in cancer development, whereas the remainder are passengers. Here we have sequenced the genomes of a malignant melanoma and a lymphoblastoid cell line from the same person, providing the first comprehensive catalogue of somatic mutations from an individual cancer. The catalogue provides remarkable insights into the forces that have shaped this cancer genome. The dominant mutational signature reflects DNA damage due to ultraviolet light exposure, a known risk factor for malignant melanoma, whereas the uneven distribution of mutations across the genome, with a lower prevalence in gene footprints, indicates that DNA repair has been preferentially deployed towards transcribed regions. The results illustrate the power of a cancer genome sequence to reveal traces of the DNA damage, repair, mutation and selection processes that were operative years before the cancer became symptomatic.",
+            "aminer_id": "53e9b2eab7602d9703da2528"
+        },
+        "krumm2015excess": {
+            "number": "[70]",
+            "title": "Excess of Rare, Inherited Truncating Mutations in Autism",
+            "text": "title={Excess of rare, inherited truncating mutations in autism},\n  author={Krumm, Niklas and Turner, Tychele N and Baker, Carl and Vives, Laura and Mohajeri, Kiana and Witherspoon, Kali and Raja, Archana and Coe, Bradley P and Stessman, Holly A and He, Zong-Xiao and others},\n  journal={Nature genetics},\n  volume={47},\n  number={6},\n  pages={582},\n  year={2015},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Excess of rare, inherited truncating mutations in autism",
+                "author": "Krumm, Niklas and Turner, Tychele N and Baker, Carl and Vives, Laura and Mohajeri, Kiana and Witherspoon, Kali and Raja, Archana and Coe, Bradley P and Stessman, Holly A and He, Zong-Xiao and others",
+                "journal": "Nature genetics",
+                "volume": "47",
+                "number": "6",
+                "pages": "582",
+                "year": "2015",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "Evan Eichler and colleagues analyze the relative impact of de novo and rare, inherited variants on autism risk. They show a statistically independent role for rare, inherited mutations and implicate several new candidate genes likely contributing to autism risk. To assess the relative impact of inherited and de novo variants on autism risk, we generated a comprehensive set of exonic single-nucleotide variants (SNVs) and copy number variants (CNVs) from 2,377 families with autism. We find that private, inherited truncating SNVs in conserved genes are enriched in probands (odds ratio = 1.14, P = 0.0002) in comparison to unaffected siblings, an effect involving significant maternal transmission bias to sons. We also observe a bias for inherited CNVs, specifically for small (<100 kb), maternally inherited events (P = 0.01) that are enriched in CHD8 target genes (P = 7.4 × 10−3). Using a logistic regression model, we show that private truncating SNVs and rare, inherited CNVs are statistically independent risk factors for autism, with odds ratios of 1.11 (P = 0.0002) and 1.23 (P = 0.01), respectively. This analysis identifies a second class of candidate genes (for example, RIMS1, CUL7 and LZTR1) where transmitted mutations may create a sensitized background but are unlikely to be completely penetrant.",
+            "aminer_id": "5551c39b0cf2271f82b769c7"
+        },
+        "hamburg2010path": {
+            "number": "[71]",
+            "title": "The path to personalized medicine",
+            "text": "title={The path to personalized medicine},\n  author={Hamburg, Margaret A and Collins, Francis S},\n  journal={New England Journal of Medicine},\n  volume={363},\n  number={4},\n  pages={301--304},\n  year={2010},\n  publisher={Mass Medical Soc}",
+            "type": "article",
+            "fields": {
+                "title": "The path to personalized medicine",
+                "author": "Hamburg, Margaret A and Collins, Francis S",
+                "journal": "New England Journal of Medicine",
+                "volume": "363",
+                "number": "4",
+                "pages": "301--304",
+                "year": "2010",
+                "publisher": "Mass Medical Soc"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "spichenok2011prediction": {
+            "number": "[72]",
+            "title": "Prediction of Eye and Skin Color in Diverse Populations Using Seven SNPs",
+            "text": "title={Prediction of eye and skin color in diverse populations using seven SNPs},\n  author={Spichenok, Olga and Budimlija, Zoran M and Mitchell, Adele A and Jenny, Andreas and Kovacevic, Lejla and Marjanovic, Damir and Caragine, Theresa and Prinz, Mechthild and Wurmbach, Elisa},\n  journal={Forensic Science International: Genetics},\n  volume={5},\n  number={5},\n  pages={472--478},\n  year={2011},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Prediction of eye and skin color in diverse populations using seven SNPs",
+                "author": "Spichenok, Olga and Budimlija, Zoran M and Mitchell, Adele A and Jenny, Andreas and Kovacevic, Lejla and Marjanovic, Damir and Caragine, Theresa and Prinz, Mechthild and Wurmbach, Elisa",
+                "journal": "Forensic Science International: Genetics",
+                "volume": "5",
+                "number": "5",
+                "pages": "472--478",
+                "year": "2011",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "An essential component in identifying human remains is the documentation of the decedent's visible characteristics, such as eye, hair and skin color. However, if a decedent is decomposed or only skeletal remains are found, this critical, visibly identifying information is lost. It would be beneficial to use genetic information to reveal these visible characteristics. In this study, seven single nucleotide polymorphisms (SNPs), located in and nearby genes known for their important role in pigmentation, were validated on 554 samples, donated from non-related individuals of various populations. Six SNPs were used in predicting the eye color of an individual, and all seven were used to describe the skin coloration. The outcome revealed that these markers can be applied to all populations with very low error rates. However, the call-rate to determine the skin coloration varied between populations, demonstrating its complexity. Overall, these results prove the importance of these seven SNPs for potential forensic tests.",
+            "aminer_id": "53e9af46b7602d97039841b9"
+        },
+        "sequencing2005initial": {
+            "number": "[73]",
+            "title": "Initial Sequence of the Chimpanzee Genome and Comparison with the Human Genome",
+            "text": "title={Initial sequence of the chimpanzee genome and comparison with the human genome},\n  author={Sequencing, The Chimpanzee and Waterson, Robert H and Lander, Eric S and Wilson, Richard K and Analysis Consortium and others},\n  journal={Nature},\n  volume={437},\n  number={7055},\n  pages={69},\n  year={2005},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Initial sequence of the chimpanzee genome and comparison with the human genome",
+                "author": "Sequencing, The Chimpanzee and Waterson, Robert H and Lander, Eric S and Wilson, Richard K and Analysis Consortium and others",
+                "journal": "Nature",
+                "volume": "437",
+                "number": "7055",
+                "pages": "69",
+                "year": "2005",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "Here we present a draft genome sequence of the common chimpanzee (Pan troglodytes). Through comparison with the human genome, we have generated a largely complete catalogue of the genetic differences that have accumulated since the human and chimpanzee species diverged from our common ancestor, constituting approximately thirty-five million single-nucleotide changes, five million insertion/deletion events, and various chromosomal rearrangements. We use this catalogue to explore the magnitude and regional variation of mutational forces shaping these two genomes, and the strength of positive and negative selection acting on their genes. In particular, we find that the patterns of evolution in human and chimpanzee protein-coding genes are highly correlated and dominated by the fixation of neutral and slightly deleterious alleles. We also use the chimpanzee genome as an outgroup to investigate human population genetics and identify signatures of selective sweeps in recent human evolution.",
+            "aminer_id": "53e9a7b3b7602d97030f1539"
+        },
+        "mclean2011human": {
+            "number": "[74]",
+            "title": "Human-specific Loss of Regulatory DNA and the Evolution of Human-Specific Traits",
+            "text": "title={Human-specific loss of regulatory DNA and the evolution of human-specific traits},\n  author={McLean, Cory Y and Reno, Philip L and Pollen, Alex A and Bassan, Abraham I and Capellini, Terence D and Guenther, Catherine and Indjeian, Vahan B and Lim, Xinhong and Menke, Douglas B and Schaar, Bruce T and others},\n  journal={Nature},\n  volume={471},\n  number={7337},\n  pages={216},\n  year={2011},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Human-specific loss of regulatory DNA and the evolution of human-specific traits",
+                "author": "McLean, Cory Y and Reno, Philip L and Pollen, Alex A and Bassan, Abraham I and Capellini, Terence D and Guenther, Catherine and Indjeian, Vahan B and Lim, Xinhong and Menke, Douglas B and Schaar, Bruce T and others",
+                "journal": "Nature",
+                "volume": "471",
+                "number": "7337",
+                "pages": "216",
+                "year": "2011",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "A computational survey of the human genome has identified more than 500 human-specific genomic deletions that remove sequences that are highly conserved between chimpanzees and other animals. These are genomic changes that are likely to have contributed to unique features of human biology. Most of the deleted sequences are located in the non-coding regions of the genome. The human deletions are enriched near genes involved in neural development and steroid hormone signalling, consistent with previous suggestions that regulatory changes near key developmental control genes may have important roles in human evolution. Specific examples of human-specific deletions include one that affects penile anatomy and another relating to brain size. This study searched for putative regulatory mutations specific to the human lineage by looking for sequences that are highly conserved between chimpanzees and other species, but are not present in the human genome. The 500-odd human-specific deletions tend to lie in non-coding DNA stretches and near genes involved in steroid hormone signalling and neural function. This is illustrated with two examples, one of which affects penile anatomy whereas the other affects brain size. Humans differ from other animals in many aspects of anatomy, physiology, and behaviour; however, the genotypic basis of most human-specific traits remains unknown1. Recent whole-genome comparisons have made it possible to identify genes with elevated rates of amino acid change or divergent expression in humans, and non-coding sequences with accelerated base pair changes2,3,4,5. Regulatory alterations may be particularly likely to produce phenotypic effects while preserving viability, and are known to underlie interesting evolutionary differences in other species6,7,8. Here we identify molecular events particularly likely to produce significant regulatory changes in humans: complete deletion of sequences otherwise highly conserved between chimpanzees and other mammals. We confirm 510 such deletions in humans, which fall almost exclusively in non-coding regions and are enriched near genes involved in steroid hormone signalling and neural function. One deletion removes a sensory vibrissae and penile spine enhancer from the human androgen receptor (AR) gene, a molecular change correlated with anatomical loss of androgen-dependent sensory vibrissae and penile spines in the human lineage9,10. Another deletion removes a forebrain subventricular zone enhancer near the tumour suppressor gene growth arrest and DNA-damage-inducible, gamma (GADD45G)11,12, a loss correlated with expansion of specific brain regions in humans. Deletions of tissue-specific enhancers may thus accompany both loss and gain traits in the human lineage, and provide specific examples of the kinds of regulatory alterations6,7,8 and inactivation events13 long proposed to have an important role in human evolutionary divergence.",
+            "aminer_id": "55a3fce465ce5cd7b3bf6a33"
+        },
+        "lacour2017genome": {
+            "number": "[75]",
+            "title": "Genome-wide Significant Risk Factors for Alzheimer's Disease: Role in Progression to Dementia Due to Alzheimer's Disease among Subjects with Mild Cognitive Impairment",
+            "text": "title={Genome-wide significant risk factors for Alzheimer’s disease: role in progression to dementia due to Alzheimer's disease among subjects with mild cognitive impairment},\n  author={Lacour, A and Espinosa, A and Louwersheimer, E and Heilmann, S and Hern{\\'a}ndez, I and Wolfsgruber, S and Fern{\\'a}ndez, V and Wagner, H and Rosende-Roca, M and Maule{\\'o}n, A and others},\n  journal={Molecular psychiatry},\n  volume={22},\n  number={1},\n  pages={153},\n  year={2017},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Genome-wide significant risk factors for Alzheimer’s disease: role in progression to dementia due to Alzheimer's disease among subjects with mild cognitive impairment",
+                "author": "Lacour, A and Espinosa, A and Louwersheimer, E and Heilmann, S and Hern{\\'a}ndez, I and Wolfsgruber, S and Fern{\\'a}ndez, V and Wagner, H and Rosende-Roca, M and Maule{\\'o}n, A and others",
+                "journal": "Molecular psychiatry",
+                "volume": "22",
+                "number": "1",
+                "pages": "153",
+                "year": "2017",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "Few data are available concerning the role of risk markers for Alzheimer’s disease (AD) in progression to AD dementia among subjects with mild cognitive impairment (MCI). We therefore investigated the role of well-known AD-associated single-nucleotide polymorphism (SNP) in the progression from MCI to AD dementia. Four independent MCI data sets were included in the analysis: (a) the German study on Aging, Cognition and Dementia in primary care patients ( n =853); (b) the German Dementia Competence Network ( n =812); (c) the Fundació ACE from Barcelona, Spain ( n =1245); and (d) the MCI data set of the Amsterdam Dementia Cohort ( n =306). The effects of single markers and combined polygenic scores were measured using Cox proportional hazards models and meta-analyses. The clusterin ( CLU ) locus was an independent genetic risk factor for MCI to AD progression ( CLU rs9331888: hazard ratio (HR)=1.187 (1.054–1.32); P =0.0035). A polygenic score (PGS1) comprising nine established genome-wide AD risk loci predicted a small effect on the risk of MCI to AD progression in APOE- ɛ4 (apolipoprotein E-ɛ4) carriers (HR=1.746 (1.029–2.965); P =0.038). The novel AD loci reported by the International Genomics of Alzheimer's Project were not implicated in MCI to AD dementia progression. SNP-based polygenic risk scores comprising currently available AD genetic markers did not predict MCI to AD progression. We conclude that SNPs in CLU are potential markers for MCI to AD progression.",
+            "aminer_id": "57dfdb0b05865106b5b00c3d"
+        },
+        "cho2017prevalence": {
+            "number": "[76]",
+            "title": "Prevalence of Rare Genetic Variations and Their Implications in NGS-data Interpretation",
+            "text": "title={Prevalence of rare genetic variations and their implications in NGS-data interpretation},\n  author={Cho, Yangrae and Lee, Chul-Ho and Jeong, Eun-Goo and Kim, Min-Ho and Hong, Jong Hui and Ko, Younhee and Lee, Bomnun and Yun, Gilly and Kim, Byong Joon and Jung, Jongcheol and others},\n  journal={Scientific reports},\n  volume={7},\n  number={1},\n  pages={9810},\n  year={2017},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Prevalence of rare genetic variations and their implications in NGS-data interpretation",
+                "author": "Cho, Yangrae and Lee, Chul-Ho and Jeong, Eun-Goo and Kim, Min-Ho and Hong, Jong Hui and Ko, Younhee and Lee, Bomnun and Yun, Gilly and Kim, Byong Joon and Jung, Jongcheol and others",
+                "journal": "Scientific reports",
+                "volume": "7",
+                "number": "1",
+                "pages": "9810",
+                "year": "2017",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "Next-generation sequencing (NGS) technology has improved enough to discover mutations associated with genetic diseases. Our study evaluated the feasibility of targeted NGS as a primary screening tool to detect causal variants and subsequently predict genetic diseases. We performed parallel computations on 3.7-megabase-targeted regions to detect disease-causing mutations in 103 participants consisting of 81 patients and 22 controls. Data analysis of the participants took about 6 hours using local databases and 200 nodes of a supercomputer. All variants in the selected genes led on average to 3.6 putative diseases for each patient while variants restricted to disease-causing genes identified the correct disease. Notably, only 12% of predicted causal variants were recorded as causal mutations in public databases: 88% had no or insufficient records. In this study, most genetic diseases were caused by rare mutations and public records were inadequate. Most rare variants, however, were not associated with genetic diseases. These data implied that novel, rare variants should not be ignored but interpreted in conjunction with additional clinical data. This step is needed so appropriate advice can be given to primary doctors and parents, thus fulfilling the purpose of this method as a primary screen for rare genetic diseases.",
+            "aminer_id": "59a8c69d0cf2af6c7e5cf549"
+        },
+        "kumar2015metagenomics": {
+            "number": "[77]",
+            "title": "Metagenomics: retrospect and prospects in high throughput age",
+            "text": "title={Metagenomics: retrospect and prospects in high throughput age},\n  author={Kumar, Satish and Krishnani, Kishore Kumar and Bhushan, Bharat and Brahmane, Manoj Pandit},\n  journal={Biotechnology research international},\n  volume={2015},\n  year={2015},\n  publisher={Hindawi}",
+            "type": "article",
+            "fields": {
+                "title": "Metagenomics: retrospect and prospects in high throughput age",
+                "author": "Kumar, Satish and Krishnani, Kishore Kumar and Bhushan, Bharat and Brahmane, Manoj Pandit",
+                "journal": "Biotechnology research international",
+                "volume": "2015",
+                "year": "2015",
+                "publisher": "Hindawi"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d91cc5dabfae2eee84c2a2"
+        },
+        "eisenstein2012oxford": {
+            "number": "[78]",
+            "title": "Oxford Nanopore Announcement Sets Sequencing Sector Abuzz",
+            "text": "title={Oxford Nanopore announcement sets sequencing sector abuzz},\n  author={Eisenstein, Michael},\n  year={2012},\n  publisher={Nature Publishing Group}",
+            "type": "misc",
+            "fields": {
+                "title": "Oxford Nanopore announcement sets sequencing sector abuzz",
+                "author": "Eisenstein, Michael",
+                "year": "2012",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a4a57465ceb7cb02d526f0"
+        },
+        "sanger1977dna": {
+            "number": "[79]",
+            "title": "DNA sequencing with chain-terminating inhibitors",
+            "text": "title={DNA sequencing with chain-terminating inhibitors},\n  author={Sanger, Frederick and Nicklen, Steven and Coulson, Alan R},\n  journal={Proceedings of the national academy of sciences},\n  volume={74},\n  number={12},\n  pages={5463--5467},\n  year={1977},\n  publisher={National Acad Sciences}",
+            "type": "article",
+            "fields": {
+                "title": "DNA sequencing with chain-terminating inhibitors",
+                "author": "Sanger, Frederick and Nicklen, Steven and Coulson, Alan R",
+                "journal": "Proceedings of the national academy of sciences",
+                "volume": "74",
+                "number": "12",
+                "pages": "5463--5467",
+                "year": "1977",
+                "publisher": "National Acad Sciences"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "65b6d303939a5f40828f8004"
+        },
+        "fujiki2018genax": {
+            "number": "[80]",
+            "title": "GenAx: A Genome Sequencing Accelerator",
+            "text": "title={Genax: a genome sequencing accelerator},\n  author={Fujiki, Daichi and Subramaniyan, Aran and Zhang, Tianjun and Zeng, Yu and Das, Reetuparna and Blaauw, David and Narayanasamy, Satish},\n  booktitle={Proceedings of the 45th Annual International Symposium on Computer Architecture},\n  pages={69--82},\n  year={2018},\n  organization={IEEE Press}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Genax: a genome sequencing accelerator",
+                "author": "Fujiki, Daichi and Subramaniyan, Aran and Zhang, Tianjun and Zeng, Yu and Das, Reetuparna and Blaauw, David and Narayanasamy, Satish",
+                "booktitle": "Proceedings of the 45th Annual International Symposium on Computer Architecture",
+                "pages": "69--82",
+                "year": "2018",
+                "organization": "IEEE Press"
+            },
+            "ref_source": "bib",
+            "abstract": "Genomics can transform health-care through precision medicine. Plummeting sequencing costs would soon make genome testing affordable to the masses. Compute efficiency, however, has to improve by orders of magnitude to sequence and analyze the raw genome data. Sequencing software used today can take several hundreds to thousands of CPU hours to align reads to a reference sequence. This paper presents GenAx, an accelerator for read alignment, a time-consuming step in genome sequencing. It consists of a seeding and seed-extension accelerator. The latter is based on an innovative automata design that was designed from the ground-up to enable hardware acceleration. Unlike conventional Levenshtein automata, it is string independent and scales quadratically with edit distance, instead of string length. It supports critical features commonly used in sequencing such as affine gap scoring and traceback. GenAx provides a throughput of 4,058K reads/s for Illumina 101 bp reads. GenAx achieves 31.7× speedup over the standard BWA-MEM sequence aligner running on a 56-thread dualsocket 14-core Xeon E5 server processor, while reducing power consumption by 12× and area by 5.6×.",
+            "aminer_id": "5b67b47917c44aac1c8635af"
+        },
+        "metzker2010sequencing": {
+            "number": "[81]",
+            "title": "Sequencing technologies—the next generation",
+            "text": "title={Sequencing technologies—the next generation},\n  author={Metzker, Michael L},\n  journal={Nature reviews genetics},\n  volume={11},\n  number={1},\n  pages={31},\n  year={2010},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "Sequencing technologies—the next generation",
+                "author": "Metzker, Michael L",
+                "journal": "Nature reviews genetics",
+                "volume": "11",
+                "number": "1",
+                "pages": "31",
+                "year": "2010",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a5414cc91bf3b1cc538414"
+        },
+        "schadt2010window": {
+            "number": "[82]",
+            "title": "A window into third-generation sequencing",
+            "text": "title={A window into third-generation sequencing},\n  author={Schadt, Eric E and Turner, Steve and Kasarskis, Andrew},\n  journal={Human molecular genetics},\n  volume={19},\n  number={R2},\n  pages={R227--R240},\n  year={2010},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "A window into third-generation sequencing",
+                "author": "Schadt, Eric E and Turner, Steve and Kasarskis, Andrew",
+                "journal": "Human molecular genetics",
+                "volume": "19",
+                "number": "R2",
+                "pages": "R227--R240",
+                "year": "2010",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a3ce0165ce5cd7b3b83590"
+        },
+        "gordon2016long": {
+            "number": "[83]",
+            "title": "Long-read Sequence Assembly of the Gorilla Genome",
+            "text": "title={Long-read sequence assembly of the gorilla genome},\n  author={Gordon, David and Huddleston, John and Chaisson, Mark JP and Hill, Christopher M and Kronenberg, Zev N and Munson, Katherine M and Malig, Maika and Raja, Archana and Fiddes, Ian and Hillier, LaDeana W and others},\n  journal={Science},\n  volume={352},\n  number={6281},\n  pages={aae0344},\n  year={2016},\n  publisher={American Association for the Advancement of Science}",
+            "type": "article",
+            "fields": {
+                "title": "Long-read sequence assembly of the gorilla genome",
+                "author": "Gordon, David and Huddleston, John and Chaisson, Mark JP and Hill, Christopher M and Kronenberg, Zev N and Munson, Katherine M and Malig, Maika and Raja, Archana and Fiddes, Ian and Hillier, LaDeana W and others",
+                "journal": "Science",
+                "volume": "352",
+                "number": "6281",
+                "pages": "aae0344",
+                "year": "2016",
+                "publisher": "American Association for the Advancement of Science"
+            },
+            "ref_source": "bib",
+            "abstract": "Accurate sequence and assembly of genomes is a critical first step for studies of genetic variation. We generated a high-quality assembly of the gorilla genome using single-molecule, real-time sequence technology and a string graph de novo assembly algorithm. The new assembly improves contiguity by two to three orders of magnitude with respect to previously released assemblies, recovering 87% of missing reference exons and incomplete gene models. Although regions of large, high-identity segmental duplications remain largely unresolved, this comprehensive assembly provides new biological insight into genetic diversity, structural variation, gene loss, and representation of repeat structures within the gorilla genome. The approach provides a path forward for the routine assembly of mammalian genomes at a level approaching that of the current quality of the human genome.",
+            "aminer_id": "5c75577bf56def9798715668"
+        },
+        "goodwin2015oxford": {
+            "number": "[84]",
+            "title": "Oxford Nanopore Sequencing, Hybrid Error Correction, and De Novo Assembly of a Eukaryotic Genome.",
+            "text": "title={Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome},\n  author={Goodwin, Sara and Gurtowski, James and Ethe-Sayers, Scott and Deshpande, Panchajanya and Schatz, Michael C and McCombie, W Richard},\n  journal={Genome research},\n  volume={25},\n  number={11},\n  pages={1750--1756},\n  year={2015},\n  publisher={Cold Spring Harbor Lab}",
+            "type": "article",
+            "fields": {
+                "title": "Oxford Nanopore sequencing, hybrid error correction, and de novo assembly of a eukaryotic genome",
+                "author": "Goodwin, Sara and Gurtowski, James and Ethe-Sayers, Scott and Deshpande, Panchajanya and Schatz, Michael C and McCombie, W Richard",
+                "journal": "Genome research",
+                "volume": "25",
+                "number": "11",
+                "pages": "1750--1756",
+                "year": "2015",
+                "publisher": "Cold Spring Harbor Lab"
+            },
+            "ref_source": "bib",
+            "abstract": "Monitoring the progress of DNA molecules through a membrane pore has been postulated as a method for sequencing DNA for several decades. Recently, a nanopore-based sequencing instrument, the Oxford Nanopore MinION, has become available, and we used this for sequencing the Saccharomyces cerevisiae genome. To make use of these data, we developed a novel open-source hybrid error correction algorithm Nanocorr specifically for Oxford Nanopore reads, because existing packages were incapable of assembling the long read lengths (5–50 kbp) at such high error rates (between ∼5% and 40% error). With this new method, we were able to perform a hybrid error correction of the nanopore reads using complementary MiSeq data and produce a de novo assembly that is highly contiguous and accurate: The contig N50 length is more than ten times greater than an Illumina-only assembly (678 kb versus 59.9 kbp) and has >99.88% consensus identity when compared to the reference. Furthermore, the assembly with the long nanopore reads presents a much more complete representation of the features of the genome and correctly assembles gene cassettes, rRNAs, transposable elements, and other genomic features that were almost entirely absent in the Illumina-only assembly.",
+            "aminer_id": "56d897a0dabfae2eee1c82bb"
+        },
+        "kuon2008fpga": {
+            "number": "[85]",
+            "title": "FPGA Architecture: Survey and Challenges",
+            "text": "title={FPGA architecture: Survey and challenges},\n  author={Kuon, Ian and Tessier, Russell and Rose, Jonathan and others},\n  journal={Foundations and Trends{\\textregistered} in Electronic Design Automation},\n  volume={2},\n  number={2},\n  pages={135--253},\n  year={2008},\n  publisher={Now Publishers, Inc.}",
+            "type": "article",
+            "fields": {
+                "title": "FPGA architecture: Survey and challenges",
+                "author": "Kuon, Ian and Tessier, Russell and Rose, Jonathan and others",
+                "journal": "Foundations and Trends{\\textregistered} in Electronic Design Automation",
+                "volume": "2",
+                "number": "2",
+                "pages": "135--253",
+                "year": "2008",
+                "publisher": "Now Publishers, Inc."
+            },
+            "ref_source": "bib",
+            "abstract": "Field-Programmable Gate Arrays (FPGAs) have become one of the key digital circuit implementation media over the last decade. A crucial part of their creation lies in their architecture, which governs the nature of their programmable logic functionality and their programmable interconnect. FPGA architecture has a dramatic effect on the quality of the final device's speed performance, area efficiency, and power consumption. This survey reviews the historical development of programmable logic devices, the fundamental programming technologies that the programmability is built on, and then describes the basic understandings gleaned from research on architectures. We include a survey of the key elements of modern commercial FPGA architecture, and look toward future trends in the field.",
+            "aminer_id": "5390a1f820f70186a0e5d7cb"
+        },
+        "imani2019fach": {
+            "number": "[86]",
+            "title": "FACH: FPGA-based Acceleration of Hyperdimensional Computing by Reducing Computational Complexity.",
+            "text": "title={Fach: Fpga-based acceleration of hyperdimensional computing by reducing computational complexity},\n  author={Imani, Mohsen and Salamat, Sahand and Gupta, Saransh and Huang, Jiani and Rosing, Tajana},\n  booktitle={Proceedings of the 24th Asia and South Pacific Design Automation Conference},\n  pages={493--498},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fach: Fpga-based acceleration of hyperdimensional computing by reducing computational complexity",
+                "author": "Imani, Mohsen and Salamat, Sahand and Gupta, Saransh and Huang, Jiani and Rosing, Tajana",
+                "booktitle": "Proceedings of the 24th Asia and South Pacific Design Automation Conference",
+                "pages": "493--498",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Brain-inspired hyperdimensional (HD) computing explores computing with hypervectors for the emulation of cognition as an alternative to computing with numbers. In HD, input symbols are mapped to a hypervector and an associative search is performed for reasoning and classification. An associative memory, which finds the closest match between a set of learned hypervectors and a query hypervector, uses simple Hamming distance metric for similarity check. However, we observe that, in order to provide acceptable classification accuracy HD needs to store non-binarized model in associative memory and uses costly similarity metrics such as cosine to perform a reasoning task. This makes the HD computationally expensive when it is used for realistic classification problems. In this paper, we propose a FPGA-based acceleration of HD (FACH) which significantly improves the computation efficiency by removing majority of multiplications during the reasoning task. FACH identifies representative values in each class hypervector using clustering algorithm. Then, it creates a new HD model with hardware-friendly operations, and accordingly propose an FPGA-based implementation to accelerate such tasks. Our evaluations on several classification problems show that FACH can provide 5.9X energy efficiency improvement and 5.1X speedup as compared to baseline FPGA-based implementation, while ensuring the same quality of classification.",
+            "aminer_id": "5c45b4d03a55ac25e7f0f56c"
+        },
+        "imani2019sparsehd": {
+            "number": "[87]",
+            "title": "SparseHD: Algorithm-Hardware Co-optimization for Efficient High-Dimensional Computing",
+            "text": "title={Sparsehd: Algorithm-hardware co-optimization for efficient high-dimensional computing},\n  author={Imani, Mohsen and Salamat, Sahand and Khaleghi, Behnam and Samragh, Mohammad and Koushanfar, Farinaz and Rosing, Tajana},\n  booktitle={2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)},\n  pages={190--198},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sparsehd: Algorithm-hardware co-optimization for efficient high-dimensional computing",
+                "author": "Imani, Mohsen and Salamat, Sahand and Khaleghi, Behnam and Samragh, Mohammad and Koushanfar, Farinaz and Rosing, Tajana",
+                "booktitle": "2019 IEEE 27th Annual International Symposium on Field-Programmable Custom Computing Machines (FCCM)",
+                "pages": "190--198",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Hyperdimensional (HD) computing is gaining traction as an alternative light-way machine learning approach for cognition tasks. Inspired by the neural activity patterns of the brain, HD computing performs cognition tasks by exploiting longsize vectors, namely hypervectors, rather than working with scalar numbers as used in conventional computing. Since a hypervector is represented by thousands of dimensions (elements), the majority of prior work assume binary elements to simplify the computation and alleviate the processing cost. In this paper, we first demonstrate that the dimensions need to have more than one bit to provide an acceptable accuracy to make HD computing applicable to real-world cognitive tasks. Increasing the bit-width, however, sacrifices energy efficiency and performance, even when using low-bit integers as the hypervector elements. To address this issue, we propose a framework for HD acceleration, dubbed SparseHD, that leverages the advantages of sparsity to improve the efficiency of HD computing. Essentially, SparseHD takes account of statistical properties of a trained HD model and drops the least effective elements of the model, augmented by iterative retraining to compensate the possible quality loss raised by sparsity. Thanks to the bit-level manipulability and abounding parallelism granted by FPGAs, we also propose a novel FPGAbased accelerator to effectively utilize the advantage of sparsity in HD computation. We evaluate the efficiency of our framework for practical classification problems. We observe that SparseHD makes the HD model up to 90% sparse while affording a minimal quality loss (less than 1%) compared to the non-sparse baseline model. Our evaluation shows that, on average, SparseHD provides 48.5× and 15.0× lower energy consumption and faster execution as compared to the AMD R390 GPU implementation.",
+            "aminer_id": "5d0506de8607575390f847ac"
+        },
+        "salamat2017systematic": {
+            "number": "[88]",
+            "title": "Systematic approximate logic optimization using don't care conditions",
+            "text": "title={Systematic approximate logic optimization using don't care conditions},\n  author={Salamat, Sahand and Ahmadi, Mehrnaz and Alizadeh, Bijan and Fujita, Masahiro},\n  booktitle={2017 18th International Symposium on Quality Electronic Design (ISQED)},\n  pages={419--425},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Systematic approximate logic optimization using don't care conditions",
+                "author": "Salamat, Sahand and Ahmadi, Mehrnaz and Alizadeh, Bijan and Fujita, Masahiro",
+                "booktitle": "2017 18th International Symposium on Quality Electronic Design (ISQED)",
+                "pages": "419--425",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7c0e601a182cd2783818"
+        },
+        "imani2019quanthd": {
+            "number": "[89]",
+            "title": "QuantHD: A Quantization Framework for Hyperdimensional Computing",
+            "text": "title={Quanthd: A quantization framework for hyperdimensional computing},\n  author={Imani, Mohsen and Bosch, Samuel and Datta, Sohum and Ramakrishna, Sharadhi and Salamat, Sahand and Rabaey, Jan M and Rosing, Tajana},\n  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},\n  year={2019},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Quanthd: A quantization framework for hyperdimensional computing",
+                "author": "Imani, Mohsen and Bosch, Samuel and Datta, Sohum and Ramakrishna, Sharadhi and Salamat, Sahand and Rabaey, Jan M and Rosing, Tajana",
+                "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "year": "2019",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Brain-inspired hyperdimensional (HD) computing models cognition by exploiting properties of high dimensional statistics—high-dimensional vectors, instead of working with numeric values used in contemporary processors. A fundamental weakness of existing HD computing algorithms is that they require to use floating point models in order to provide acceptable accuracy on realistic classification problems. However, working with floating point values significantly increases the HD computation cost. To address this issue, we proposed QuantHD, a novel framework for quantization of HD computing model during training. QuantHD enables HD computing to work with a low-cost quantized model (binary or ternary model) while providing a similar accuracy as the floating point model. We accordingly propose an FPGA implementation which accelerates HD computing in both training and inference phases. We evaluate QuantHD accuracy and efficiency on various real-world applications, and observe that QuantHD can achieve on average 17.2% accuracy improvement as compared to the existing binarized HD computing algorithms which provide a similar computation cost. In terms of efficiency, QuantHD FPGA implementation can achieve on average $42.3\\times $ and $4.7\\times $ ( $34.1\\times $ and $4.1\\times $ ) energy efficiency improvement and speedup during inference (training) as compared to the state-of-the-art HD computing algorithms.",
+            "aminer_id": "5f6b28a09fced0a24b755bd5"
+        },
+        "salamat2019workload": {
+            "number": "[90]",
+            "title": "Workload-Aware Opportunistic Energy Efficiency in Multi-FPGA Platforms",
+            "text": "title={Workload-Aware Opportunistic Energy Efficiency in Multi-FPGA Platforms},\n  author={Salamat, Sahand and Khaleghi, Behnam and Imani, Mohsen and Rosing, Tajana},\n  booktitle={2019 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\n  pages={1--8},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Workload-Aware Opportunistic Energy Efficiency in Multi-FPGA Platforms",
+                "author": "Salamat, Sahand and Khaleghi, Behnam and Imani, Mohsen and Rosing, Tajana",
+                "booktitle": "2019 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "pages": "1--8",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5d5bc4c03a55ac7b2f19434b"
+        },
+        "ahmadi2018dynamic": {
+            "number": "[91]",
+            "title": "A Dynamic Timing Error Avoidance Technique Using Prediction Logic in High-Performance Designs.",
+            "text": "title={A dynamic timing error avoidance technique using prediction logic in high-performance designs},\n  author={Ahmadi, Mehrnaz and Salamat, Sahand and Alizadeh, Bijan},\n  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},\n  volume={27},\n  number={3},\n  pages={734--737},\n  year={2018},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A dynamic timing error avoidance technique using prediction logic in high-performance designs",
+                "author": "Ahmadi, Mehrnaz and Salamat, Sahand and Alizadeh, Bijan",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "volume": "27",
+                "number": "3",
+                "pages": "734--737",
+                "year": "2018",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Time borrowing techniques have been widely used to mitigate the timing errors in high-performance designs. A new dynamic flip-flop conversion technique is introduced by Ahmadi et al. (2015) which dynamically converts flip-flops into transparent latches to grant the time borrowing from the next stage and prevent setup time violation. However, it is not able to prevent the timing violation in the successive critical path (SCP) and critical feedback path (CFP) structures. In this brief, we introduce a novel idea of using the output of fast prediction logic of the critical path along with dynamic clock stretching in SCP and CFP structures. The results show that our technique, on average, is able to improve the performance by 20.2% and 14.8% during the prelayout and postlayout simulations, respectively. Furthermore, the proposed technique is almost 7.7% more effective in terms of the performance improvement with only 0.1% area overhead in comparison with the best existing technique.",
+            "aminer_id": "5c7141d3f56def979865df51"
+        },
+        "khaleghi2019fpga": {
+            "number": "[92]",
+            "title": "FPGA Energy Efficiency by Leveraging Thermal Margin",
+            "text": "title={FPGA Energy Efficiency by Leveraging Thermal Margin},\n  author={Khaleghi, Behnam and Salamat, Sahand and Imani, Mohsen and Rosing, Tajana},\n  journal={arXiv preprint arXiv:1911.07187},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "FPGA Energy Efficiency by Leveraging Thermal Margin",
+                "author": "Khaleghi, Behnam and Salamat, Sahand and Imani, Mohsen and Rosing, Tajana",
+                "journal": "arXiv preprint arXiv:1911.07187",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "FPGA devices are continuously evolving to meet high computation and performance demand for emerging applications. As a result, cutting edge FPGAs are not energy efficient as conventionally presumed to be, and therefore, aggressive power-saving techniques have become imperative. The clock rate of an FPGA-mapped design is set based on worst-case conditions to ensure reliable operation under all circumstances. This usually leaves a considerable timing margin that can be exploited to reduce power consumption by scaling voltage without lowering clock frequency. There are hurdles for such opportunistic voltage scaling in FPGAs because (a) critical paths change with designs, making timing evaluation difficult as voltage changes, (b) each FPGA resource has particular power-delay trade-off with voltage, (c) data corruption of configuration cells and memory blocks further hampers voltage scaling. In this paper, we propose a systematical approach to leverage the available thermal headroom of FPGA-mapped designs for power and energy improvement. By comprehensively analyzing the timing and power consumption of FPGA building blocks under varying temperatures and voltages, we propose a thermal-aware voltage scaling flow that effectively utilizes the thermal margin to reduce power consumption without degrading performance. We show the proposed flow can be employed for energy optimization as well, whereby power consumption and delay are compromised to accomplish the tasks with minimum energy. Lastly, we propose a simulation framework to be able to examine the efficiency of the proposed method for other applications that are inherently tolerant to a certain amount of error, granting further power saving opportunity. Experimental results over a set of industrial benchmarks indicate up to 36% power reduction with the same performance, and 66% total energy saving when energy is the optimization target.",
+            "aminer_id": "5dd3bf513a55ac1bdd46d818"
+        },
+        "salamat2018high": {
+            "number": "[93]",
+            "title": "High-Level Synthesis of Non-Rectangular Multi-Dimensional Nested Loops Using Reshaping and Vectorization",
+            "text": "title={High-level Synthesis of Non-Rectangular Multi-Dimensional Nested Loops using Reshaping and Vectorization},\n  author={Salamat, Sahand and Azarbad, Mohammad Reza and Alizadeh, Bijan},\n  booktitle={2018 IEEE International Conference on Rebooting Computing (ICRC)},\n  pages={1--10},\n  year={2018},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "High-level Synthesis of Non-Rectangular Multi-Dimensional Nested Loops using Reshaping and Vectorization",
+                "author": "Salamat, Sahand and Azarbad, Mohammad Reza and Alizadeh, Bijan",
+                "booktitle": "2018 IEEE International Conference on Rebooting Computing (ICRC)",
+                "pages": "1--10",
+                "year": "2018",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "High-Ievel synthesis accelerates the process of design space exploration in which various transformations and optimizations can be applied to the high-level description. In this paper, a new method has been proposed to improve the high-level synthesis process for non-rectangular multi-dimensional nested loops using reshaping and vectorization techniques. As the high-level descriptions with non-rectangular iteration spaces do not lend themselves well to efficient high-level synthesis process, our method proposes a reshaping technique to convert nonrectangular iteration spaces with certain inter-iteration dependencies to the rectangular ones. Furthermore, the proposed method suggests a vectorization technique to let the different iterations be executed simultaneously in a manner which does not violate inter-iteration dependencies. Finally, this paper combines the proposed reshaping and vectorization techniques to a hybrid method which supports both 2D and 3D perfect/imperfect nested loops and can be extended for the nested loops of dimensions more than three. According to the experimental results, the proposed hybrid method shows average speed-up of 51.9%, 50.1%, and 15.9% in comparison with the state-of-the-art methods for the pipelined perfect, the pipelined imperfect, and the pipelined 3D nested loops, respectively.",
+            "aminer_id": "5c62d65df56def97988bb274"
+        },
+        "salamat2018rnsnet": {
+            "number": "[94]",
+            "title": "RNSnet: In-Memory Neural Network Acceleration Using Residue Number System",
+            "text": "title={Rnsnet: In-memory neural network acceleration using residue number system},\n  author={Salamat, Sahand and Imani, Mohsen and Gupta, Sarangh and Rosing, Tajana},\n  booktitle={2018 IEEE International Conference on Rebooting Computing (ICRC)},\n  pages={1--12},\n  year={2018},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Rnsnet: In-memory neural network acceleration using residue number system",
+                "author": "Salamat, Sahand and Imani, Mohsen and Gupta, Sarangh and Rosing, Tajana",
+                "booktitle": "2018 IEEE International Conference on Rebooting Computing (ICRC)",
+                "pages": "1--12",
+                "year": "2018",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "We live in a world where technological advances are continually creating more data than what we can deal with. Machine learning algorithms, in particular Deep Neural Networks (DNNs), are essential to process such large data. Computation of DNNs requires loading the trained network on the processing element and storing the result in memory. Therefore, running these applications need a high memory bandwidth. Traditional cores are memory limited in terms of the memory bandwidth. Hence, running DNNs on traditional cores results in high energy consumption and slows down processing speed due to a large amount of data movement between memory and processing units. Several prior works tried to address data movement issue by enabling Processing In-Memory (PIM)using crossbar analog multiplication. However, these designs suffer from the large overhead of data conversion between analog and digital domains. In this work, we propose RNSnet, which uses Residue Number System (RNS)to execute neural network completely in the digital domain in memory. RNSnet simplifies the fundamental neural network operations and maps them to in-memory addition and data access. We test the efficiency of the proposed design on several popular neural network applications. Our experimental result shows that RNSnet consumes 145.5x less energy and obtains 35.4x speedup as compared to NVIDIA GPU GTX 1080. In addition, our results show that RNSnet can achieve 8.5 x higher energy-delay product as compared to the state-of-the-art neural network accelerators.",
+            "aminer_id": "5c62d65df56def97988bb26a"
+        },
+        "salamat2019f5": {
+            "number": "[95]",
+            "title": "F5-hd: Fast flexible fpga-based framework for refreshing hyperdimensional computing",
+            "text": "title={F5-hd: Fast flexible fpga-based framework for refreshing hyperdimensional computing},\n  author={Salamat, Sahand and Imani, Mohsen and Khaleghi, Behnam and Rosing, Tajana},\n  booktitle={Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays},\n  pages={53--62},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "F5-hd: Fast flexible fpga-based framework for refreshing hyperdimensional computing",
+                "author": "Salamat, Sahand and Imani, Mohsen and Khaleghi, Behnam and Rosing, Tajana",
+                "booktitle": "Proceedings of the 2019 ACM/SIGDA International Symposium on Field-Programmable Gate Arrays",
+                "pages": "53--62",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c7ff202da56298ae4277cb7"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 95,
+        "citation_types": {
+            "other": 95
+        }
+    }
+}

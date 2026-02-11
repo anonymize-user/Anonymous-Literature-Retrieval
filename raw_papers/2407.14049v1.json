@@ -1,0 +1,1119 @@
+{
+    "topic": "Prompted Aspect Key Point Analysis for Quantitative Review Summarization",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[3]",
+                "[6]",
+                "[4]",
+                "[5]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Work",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Key Point Analysis",
+                    "refs": [
+                        "[48]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Aspect-based Structured Summarization",
+                    "refs": [
+                        "[25]",
+                        "[24]",
+                        "[27]",
+                        "[28]",
+                        "[26]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Text Summarization",
+                    "refs": [
+                        "[36]",
+                        "[37]",
+                        "[33]"
+                    ],
+                    "subsections": [],
+                    "number": "2.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Prompted Opinion Summarization",
+                    "refs": [
+                        "[46]",
+                        "[44]"
+                    ],
+                    "subsections": [],
+                    "number": "2.4",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Methodology",
+            "refs": [
+                "[25]",
+                "[24]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Prompted Aspect-based Sentiment Analysis of Comments",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Aspect Sentiment-based Comment Clustering",
+                    "refs": [
+                        "[45]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Prompted Aspect-oriented KP Generation",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Experiments",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Implementation Details and Baselines",
+                    "refs": [
+                        "[49]",
+                        "[50]",
+                        "[21]",
+                        "[44]",
+                        "[37]",
+                        "[48]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Datasets and Evaluation Dimensions",
+                    "refs": [
+                        "[20]",
+                        "[47]",
+                        "[18]",
+                        "[48]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Results",
+                    "refs": [
+                        "[44]",
+                        "[18]",
+                        "[48]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Case Studies",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgement",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Ethics Statement",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Prompts for \\texttt{GPT3.5",
+            "refs": [],
+            "subsections": [],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Details of the Experimental Datasets",
+            "refs": [
+                "[48]"
+            ],
+            "subsections": [],
+            "number": "10",
+            "level": 1
+        },
+        {
+            "section_title": "Dimensions of KP Quality Evaluation",
+            "refs": [
+                "[51]"
+            ],
+            "subsections": [],
+            "number": "11",
+            "level": 1
+        },
+        {
+            "section_title": "Pairwise KP Quality Comparison Annotation Guidelines",
+            "refs": [],
+            "subsections": [],
+            "number": "12",
+            "level": 1
+        },
+        {
+            "section_title": "Key Point Matching Annotation Guidelines",
+            "refs": [],
+            "subsections": [],
+            "number": "13",
+            "level": 1
+        },
+        {
+            "section_title": "Comparative Analysis of KP Quality: A Visual Overview",
+            "refs": [],
+            "subsections": [],
+            "number": "14",
+            "level": 1
+        },
+        {
+            "section_title": "Summary of KPA Frameworks and Prompted Opinion Summarization Framework",
+            "refs": [],
+            "subsections": [],
+            "number": "15",
+            "level": 1
+        }
+    ],
+    "references": {
+        "touvron2023llama": {
+            "number": "[1]",
+            "title": "LLaMA: Open and Efficient Foundation Language Models",
+            "text": "title={Llama: Open and efficient foundation language models},\n  author={Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others},\n  journal={arXiv preprint arXiv:2302.13971},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Llama: Open and efficient foundation language models",
+                "author": "Touvron, Hugo and Lavril, Thibaut and Izacard, Gautier and Martinet, Xavier and Lachaux, Marie-Anne and Lacroix, Timoth{\\'e}e and Rozi{\\`e}re, Baptiste and Goyal, Naman and Hambro, Eric and Azhar, Faisal and others",
+                "journal": "arXiv preprint arXiv:2302.13971",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.",
+            "aminer_id": "63fd715e90e50fcafd14767c"
+        },
+        "wan2020target": {
+            "number": "[2]",
+            "title": "Target-Aspect-Sentiment Joint Detection for Aspect-Based Sentiment Analysis",
+            "text": "title={Target-aspect-sentiment joint detection for aspect-based sentiment analysis},\n  author={Wan, Hai and Yang, Yufei and Du, Jianfeng and Liu, Yanan and Qi, Kunxun and Pan, Jeff Z},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={34},\n  number={05},\n  pages={9122--9129},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Target-aspect-sentiment joint detection for aspect-based sentiment analysis",
+                "author": "Wan, Hai and Yang, Yufei and Du, Jianfeng and Liu, Yanan and Qi, Kunxun and Pan, Jeff Z",
+                "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+                "volume": "34",
+                "number": "05",
+                "pages": "9122--9129",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Aspect-based sentiment analysis (ABSA) aims to detect the targets (which are composed by continuous words), aspects and sentiment polarities in text. Published datasets from SemEval-2015 and SemEval-2016 reveal that a sentiment polarity depends on both the target and the aspect. However, most of the existing methods consider predicting sentiment polarities from either targets or aspects but not from both, thus they easily make wrong predictions on sentiment polarities. In particular, where the target is implicit, i.e., it does not appear in the given text, the methods predicting sentiment polarities from targets do not work. To tackle these limitations in ABSA, this paper proposes a novel method for target-aspect-sentiment joint detection. It relies on a pre-trained language model and can capture the dependence on both targets and aspects for sentiment prediction. Experimental results on the SemEval-2015 and SemEval-2016 restaurant datasets show that the proposed method achieves a high performance in detecting target-aspect-sentiment triples even for the implicit target cases; moreover, it even outperforms the state-of-the-art methods for those subtasks of target-aspect-sentiment detection that they are competent to.",
+            "aminer_id": "5e5e190e93d709897ce4b5eb"
+        },
+        "shandilya2018fairness": {
+            "number": "[3]",
+            "title": "Fairness of Extractive Text Summarization",
+            "text": "title={Fairness of extractive text summarization},\n  author={Shandilya, Anurag and Ghosh, Kripabandhu and Ghosh, Saptarshi},\n  booktitle={Companion Proceedings of the The Web Conference 2018},\n  pages={97--98},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fairness of extractive text summarization",
+                "author": "Shandilya, Anurag and Ghosh, Kripabandhu and Ghosh, Saptarshi",
+                "booktitle": "Companion Proceedings of the The Web Conference 2018",
+                "pages": "97--98",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose to evaluate extractive summarization algorithms from a completely new perspective. Considering that an extractive summarization algorithm selects a subset of the textual units in the input data for inclusion in the summary, we investigate whether this selection is fair. We use several summarization algorithms over datasets that have a sensitive attribute (e.g., gender, political leaning) associated with the textual units, and find that the generated summaries often have very different distributions of the said attribute. Specifically, some classes of the textual units are under-represented in the summaries according to the fairness notion of adverse impact. To our knowledge, this is the first work on fairness of summarization, and is likely to open up interesting research problems.",
+            "aminer_id": "5aed148b17c44a443815501f"
+        },
+        "dash2019summarizing": {
+            "number": "[4]",
+            "title": "Summarizing User-generated Textual Content: Motivation and Methods for Fairness in Algorithmic Summaries",
+            "text": "title={Summarizing user-generated textual content: Motivation and methods for fairness in algorithmic summaries},\n  author={Dash, Abhisek and Shandilya, Anurag and Biswas, Arindam and Ghosh, Kripabandhu and Ghosh, Saptarshi and Chakraborty, Abhijnan},\n  journal={Proceedings of the ACM on Human-Computer Interaction},\n  volume={3},\n  number={CSCW},\n  pages={1--28},\n  year={2019},\n  publisher={ACM New York, NY, USA}",
+            "type": "article",
+            "fields": {
+                "title": "Summarizing user-generated textual content: Motivation and methods for fairness in algorithmic summaries",
+                "author": "Dash, Abhisek and Shandilya, Anurag and Biswas, Arindam and Ghosh, Kripabandhu and Ghosh, Saptarshi and Chakraborty, Abhijnan",
+                "journal": "Proceedings of the ACM on Human-Computer Interaction",
+                "volume": "3",
+                "number": "CSCW",
+                "pages": "1--28",
+                "year": "2019",
+                "publisher": "ACM New York, NY, USA"
+            },
+            "ref_source": "bib",
+            "abstract": "As the amount of user-generated textual content grows rapidly, text summarization algorithms are increasingly being used to provide users a quick overview of the information content. Traditionally, summarization algorithms have been evaluated only based on how well they match human-written summaries (e.g. as measured by ROUGE scores). In this work, we propose to evaluate summarization algorithms from a completely new perspective that is important when the user-generated data to be summarized comes from different socially salient user groups, e.g. men or women, Caucasians or African-Americans, or different political groups (Republicans or Democrats). In such cases, we check whether the generated summaries fairly represent these different social groups. Specifically, considering that an extractive summarization algorithm selects a subset of the textual units (e.g. microblogs) in the original data for inclusion in the summary, we investigate whether this selection is fair or not. Our experiments over real-world microblog datasets show that existing summarization algorithms often represent the socially salient user-groups very differently compared to their distributions in the original data. More importantly, some groups are frequently under-represented in the generated summaries, and hence get far less exposure than what they would have obtained in the original data. To reduce such adverse impacts, we propose novel fairness-preserving summarization algorithms which produce high-quality summaries while ensuring fairness among various groups. To our knowledge, this is the first attempt to produce fair text summarization, and is likely to open up an interesting research direction.",
+            "aminer_id": "5cd2b370e1cd8e091e169823"
+        },
+        "mcglohon2010star": {
+            "number": "[5]",
+            "title": "Star quality: Aggregating reviews to rank products and merchants",
+            "text": "title={Star quality: Aggregating reviews to rank products and merchants},\n  author={McGlohon, Mary and Glance, Natalie and Reiter, Zach},\n  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},\n  volume={4},\n  number={1},\n  pages={114--121},\n  year={2010}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Star quality: Aggregating reviews to rank products and merchants",
+                "author": "McGlohon, Mary and Glance, Natalie and Reiter, Zach",
+                "booktitle": "Proceedings of the International AAAI Conference on Web and Social Media",
+                "volume": "4",
+                "number": "1",
+                "pages": "114--121",
+                "year": "2010"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9a797b7602d97030d193f"
+        },
+        "tay2020beyond": {
+            "number": "[6]",
+            "title": "Beyond Mean Rating: Probabilistic Aggregation of Star Ratings Based on Helpfulness",
+            "text": "title={Beyond mean rating: Probabilistic aggregation of star ratings based on helpfulness},\n  author={Tay, Wenyi and Zhang, Xiuzhen and Karimi, Sarvnaz},\n  journal={Journal of the Association for Information Science and Technology},\n  volume={71},\n  number={7},\n  pages={784--799},\n  year={2020},\n  publisher={Wiley Online Library}",
+            "type": "article",
+            "fields": {
+                "title": "Beyond mean rating: Probabilistic aggregation of star ratings based on helpfulness",
+                "author": "Tay, Wenyi and Zhang, Xiuzhen and Karimi, Sarvnaz",
+                "journal": "Journal of the Association for Information Science and Technology",
+                "volume": "71",
+                "number": "7",
+                "pages": "784--799",
+                "year": "2020",
+                "publisher": "Wiley Online Library"
+            },
+            "ref_source": "bib",
+            "abstract": "The star‐rating mechanism of customer reviews is used universally by the online population to compare and select merchants, movies, products, and services. The consensus opinion from aggregation of star ratings is used as a proxy for item quality. Online reviews are noisy and effective aggregation of star ratings to accurately reflect the “true quality” of products and services is challenging. The mean‐rating aggregation model is widely used and other aggregation models are also proposed. These existing aggregation models rely on a large number of reviews to tolerate noise. However, many products rarely have reviews. We propose probabilistic aggregation models for review ratings based on the Dirichlet distribution to combat data sparsity in reviews. We further propose to exploit the “helpfulness” social information and time to filter noisy reviews and effectively aggregate ratings to compute the consensus opinion. Our experiments on an Amazon data set show that our probabilistic aggregation models based on “helpfulness” achieve better performance than the statistical and heuristic baseline approaches.",
+            "aminer_id": "5db92d8547c8f766462667f4"
+        },
+        "Aho:72": {
+            "number": "[7]",
+            "title": "The Theory of Parsing, Translation and Compiling",
+            "text": "author  = {Alfred V. Aho and Jeffrey D. Ullman},\n    title   = {The Theory of Parsing, Translation and Compiling},\n    year    = \"1972\",\n    volume  = \"1\",\n    publisher = {Prentice-Hall},\n    address = {Englewood Cliffs, NJ}",
+            "type": "book",
+            "fields": {
+                "author": "Alfred V. Aho and Jeffrey D. Ullman",
+                "title": "The Theory of Parsing, Translation and Compiling",
+                "year": "1972",
+                "volume": "1",
+                "publisher": "Prentice-Hall",
+                "address": "Englewood Cliffs, NJ"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "539088b920f70186a0d9151d"
+        },
+        "APA:83": {
+            "number": "[8]",
+            "title": "Publications Manual",
+            "text": "author  = {{American Psychological Association}},\n    title   = {Publications Manual},\n    year    = \"1983\",\n    publisher = {American Psychological Association},\n    address = {Washington, DC}",
+            "type": "book",
+            "fields": {
+                "author": "{American Psychological Association}",
+                "title": "Publications Manual",
+                "year": "1983",
+                "publisher": "American Psychological Association",
+                "address": "Washington, DC"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Chandra:81": {
+            "number": "[9]",
+            "title": "Alternation",
+            "text": "author = {Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer},\n\tyear = \"1981\",\n\ttitle = {Alternation},\n\tjournal = {Journal of the Association for Computing Machinery},\n\tvolume = \"28\",\n\tnumber = \"1\",\n\tpages = \"114--133\",\n\tdoi = \"10.1145/322234.322243\",",
+            "type": "article",
+            "fields": {
+                "author": "Ashok K. Chandra and Dexter C. Kozen and Larry J. Stockmeyer",
+                "year": "1981",
+                "title": "Alternation",
+                "journal": "Journal of the Association for Computing Machinery",
+                "volume": "28",
+                "number": "1",
+                "pages": "114--133",
+                "doi": "10.1145/322234.322243"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "andrew2007scalable": {
+            "number": "[10]",
+            "title": "Scalable training of $L_1$-regularized log-linear models",
+            "text": "title={Scalable training of {$L_1$}-regularized log-linear models},\n  author={Andrew, Galen and Gao, Jianfeng},\n  booktitle={Proceedings of the 24th International Conference on Machine Learning},\n  pages={33--40},\n  year={2007},\n  url={https://dl.acm.org/doi/abs/10.1145/1273496.1273501}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Scalable training of {$L_1$}-regularized log-linear models",
+                "author": "Andrew, Galen and Gao, Jianfeng",
+                "booktitle": "Proceedings of the 24th International Conference on Machine Learning",
+                "pages": "33--40",
+                "year": "2007",
+                "url": "https://dl.acm.org/doi/abs/10.1145/1273496.1273501"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Gusfield:97": {
+            "number": "[11]",
+            "title": "Algorithms on Strings, Trees and Sequences",
+            "text": "author  = {Dan Gusfield},\n    title   = {Algorithms on Strings, Trees and Sequences},\n    year    = \"1997\",\n    publisher = {Cambridge University Press},\n    address = {Cambridge, UK},\n    url={https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3}",
+            "type": "book",
+            "fields": {
+                "author": "Dan Gusfield",
+                "title": "Algorithms on Strings, Trees and Sequences",
+                "year": "1997",
+                "publisher": "Cambridge University Press",
+                "address": "Cambridge, UK",
+                "url": "https://www.cambridge.org/core/books/algorithms-on-strings-trees-and-sequences/F0B095049C7E6EF5356F0A26686C20D3"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d8569fdabfae2eee2d6adb"
+        },
+        "rasooli-tetrault-2015": {
+            "number": "[12]",
+            "title": "Yara Parser: A Fast and Accurate Dependency Parser",
+            "text": "author    = {Mohammad Sadegh Rasooli and Joel R. Tetreault},\n    title     = {Yara Parser: {A} Fast and Accurate Dependency Parser},\n    journal   = {Computing Research Repository},\n    volume    = {arXiv:1503.06733},\n    year      = {2015},\n    url       = {http://arxiv.org/abs/1503.06733},\n    note    = {version 2}",
+            "type": "article",
+            "fields": {
+                "author": "Mohammad Sadegh Rasooli and Joel R. Tetreault",
+                "title": "Yara Parser: {A} Fast and Accurate Dependency Parser",
+                "journal": "Computing Research Repository",
+                "volume": "arXiv:1503.06733",
+                "year": "2015",
+                "url": "http://arxiv.org/abs/1503.06733",
+                "note": "version 2"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5550416845ce0a409eb3b043"
+        },
+        "Ando2005": {
+            "number": "[13]",
+            "title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+            "text": "Acmid = {1194905},\n\tAuthor = {Ando, Rie Kubota and Zhang, Tong},\n\tIssn = {1532-4435},\n\tIssue_Date = {12/1/2005},\n\tJournal = {Journal of Machine Learning Research},\n\tMonth = dec,\n\tNumpages = {37},\n\tPages = {1817--1853},\n\tPublisher = {JMLR.org},\n\tTitle = {A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data},\n\tVolume = {6},\n\tYear = {2005},\n\turl={https://www.jmlr.org/papers/volume6/ando05a/ando05a.pdf}",
+            "type": "article",
+            "fields": {
+                "acmid": "1194905",
+                "author": "Ando, Rie Kubota and Zhang, Tong",
+                "issn": "1532-4435",
+                "issue_date": "12/1/2005",
+                "journal": "Journal of Machine Learning Research",
+                "numpages": "37",
+                "pages": "1817--1853",
+                "publisher": "JMLR.org",
+                "title": "A Framework for Learning Predictive Structures from Multiple Tasks and Unlabeled Data",
+                "volume": "6",
+                "year": "2005",
+                "url": "https://www.jmlr.org/papers/volume6/ando05a/ando05a.pdf"
+            },
+            "ref_source": "bib",
+            "abstract": "One of the most important issues in machine learning is whether one can improve the performance of a supervised learning algorithm by including unlabeled data. Methods that use both labeled and unlabeled data are generally referred to as semi-supervised learning. Although a number of such methods are proposed, at the current stage, we still don't have a complete understanding of their effectiveness. This paper investigates a closely related problem, which leads to a novel approach to semi-supervised learning. Specifically we consider learning predictive structures on hypothesis spaces (that is, what kind of classifiers have good predictive power) from multiple learning tasks. We present a general framework in which the structural learning problem can be formulated and analyzed theoretically, and relate it to learning with unlabeled data. Under this framework, algorithms for structural learning will be proposed, and computational issues will be investigated. Experiments will be given to demonstrate the effectiveness of the proposed algorithms in the semi-supervised learning setting.",
+            "aminer_id": "53909a9320f70186a0e231ee"
+        },
+        "ct1965": {
+            "number": "[14]",
+            "title": "An Algorithm for the Machine Calculation of Complex Fourier Series",
+            "text": "title={An algorithm for the machine calculation of complex {F}ourier series},\n  author={Cooley, James W. and Tukey, John W.},\n  journal={Mathematics of Computation},\n  volume={19},\n  number={90},\n  pages={297--301},\n  year={1965},\n  url={https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf}",
+            "type": "article",
+            "fields": {
+                "title": "An algorithm for the machine calculation of complex {F}ourier series",
+                "author": "Cooley, James W. and Tukey, John W.",
+                "journal": "Mathematics of Computation",
+                "volume": "19",
+                "number": "90",
+                "pages": "297--301",
+                "year": "1965",
+                "url": "https://www.ams.org/journals/mcom/1965-19-090/S0025-5718-1965-0178586-1/S0025-5718-1965-0178586-1.pdf"
+            },
+            "ref_source": "bib",
+            "abstract": "An efficient method for the calculation of the interactions of a 2m factorial experiment was introduced by Yates and is widely known by his name.The generalization to 3m was given by Box et al. [1].Good [2] generalized these methods and gave elegant algorithms for which one class of applications is the calculation of Fourier series.In their full generality, Good's methods are applicable to certain problems in which one must multiply an JV-vector by an JV X N matrix which can be factored into m sparse matrices, where m is proportional to log JV.This results in a procedure requiring a number of operations proportional to JV log JV rather than JV2.These methods are applied here to the calculation of complex Fourier series.They are useful in situations where the number of data points is, or can be chosen to be, a highly composite number.The algorithm is here derived and presented in a rather different form.Attention is given to the choice of JV.It is also shown how special advantage can be obtained in the use of a binary computer with JV = 2m and how the entire calculation can be performed within the array of JV data storage locations used for the given Fourier coefficients.Consider the problem of calculating the complex Fourier series",
+            "aminer_id": "53e9a645b7602d9702f72f97"
+        },
+        "hu2004bmining": {
+            "number": "[15]",
+            "title": "Mining Opinion Features in Customer Reviews",
+            "text": "title={Mining opinion features in customer reviews},\n  author={Hu, Minqing and Liu, Bing},\n  booktitle={AAAI},\n  volume={4},\n  number={4},\n  pages={755--760},\n  year={2004}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mining opinion features in customer reviews",
+                "author": "Hu, Minqing and Liu, Bing",
+                "booktitle": "AAAI",
+                "volume": "4",
+                "number": "4",
+                "pages": "755--760",
+                "year": "2004"
+            },
+            "ref_source": "bib",
+            "abstract": "It is a common practice that merchants selling products on the Web ask their customers to review the products and associated services. As e-commerce is becoming more and more popular, the number of customer reviews that a product receives grows rapidly. For a popular product, the number of reviews can be in hundreds. This makes it difficult for a potential customer to read them in order to make a decision on whether to buy the product. In this project, we aim to summarize all the customer reviews of a product. This summarization task is different from traditional text summarization because we are only interested in the specific features of the product that customers have opinions on and also whether the opinions are positive or negative. We do not summarize the reviews by selecting or rewriting a subset of the original sentences from the reviews to capture their main points as in the classic text summarization. In this paper, we only focus on mining opinion/product features that the reviewers have commented on. A number of techniques are presented to mine such features. Our experimental results show that these techniques are highly effective.",
+            "aminer_id": "5390a5dc20f70186a0e7e6d1"
+        },
+        "luo2019doer": {
+            "number": "[16]",
+            "title": "DOER: Dual Cross-Shared RNN for Aspect Term-Polarity Co-Extraction",
+            "text": "title={DOER: Dual cross-shared RNN for aspect term-polarity co-extraction},\n  author={Luo, Huaishao and Li, Tianrui and Liu, Bing and Zhang, Junbo},\n  journal={arXiv preprint arXiv:1906.01794},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "DOER: Dual cross-shared RNN for aspect term-polarity co-extraction",
+                "author": "Luo, Huaishao and Li, Tianrui and Liu, Bing and Zhang, Junbo",
+                "journal": "arXiv preprint arXiv:1906.01794",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper focuses on two related subtasks of aspect-based sentiment analysis, namely aspect term extraction and aspect sentiment classification, which we call aspect term-polarity co-extraction. The former task is to extract aspects of a product or service from an opinion document, and the latter is to identify the polarity expressed in the document about these extracted aspects. Most existing algorithms address them as two separate tasks and solve them one by one, or only perform one task, which can be complicated for real applications. In this paper, we treat these two tasks as two sequence labeling problems and propose a novel Dual crOss-sharEd RNN framework (DOER) to generate all aspect term-polarity pairs of the input sentence simultaneously. Specifically, DOER involves a dual recurrent neural network to extract the respective representation of each task, and a cross-shared unit to consider the relationship between them. Experimental results demonstrate that the proposed framework outperforms state-of-the-art baselines on three benchmark datasets.",
+            "aminer_id": "5cf8e4633a55ac7fe7882c03"
+        },
+        "dai2019neural": {
+            "number": "[17]",
+            "title": "Neural Aspect and Opinion Term Extraction with Mined Rules As Weak Supervision",
+            "text": "title={Neural aspect and opinion term extraction with mined rules as weak supervision},\n  author={Dai, Hongliang and Song, Yangqiu},\n  journal={arXiv preprint arXiv:1907.03750},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Neural aspect and opinion term extraction with mined rules as weak supervision",
+                "author": "Dai, Hongliang and Song, Yangqiu",
+                "journal": "arXiv preprint arXiv:1907.03750",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Lack of labeled training data is a major bottleneck for neural network based aspect and opinion term extraction on product reviews. To alleviate this problem, we first propose an algorithm to automatically mine extraction rules from existing training examples based on dependency parsing results. The mined rules are then applied to label a large amount of auxiliary data. Finally, we study training procedures to train a neural model which can learn from both the data automatically labeled by the rules and a small amount of data accurately annotated by human. Experimental results show that although the mined rules themselves do not perform well due to their limited flexibility, the combination of human annotated data and rule labeled auxiliary data can improve the neural model and allow it to achieve performance better than or comparable with the current state-of-the-art.",
+            "aminer_id": "5d25bcd03a55ac8369528e18"
+        },
+        "miao2020snippext": {
+            "number": "[18]",
+            "title": "Snippext: Semi-supervised Opinion Mining with Augmented Data",
+            "text": "title={Snippext: Semi-supervised opinion mining with augmented data},\n  author={Miao, Zhengjie and Li, Yuliang and Wang, Xiaolan and Tan, Wang-Chiew},\n  booktitle={Proceedings of The Web Conference 2020},\n  pages={617--628},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Snippext: Semi-supervised opinion mining with augmented data",
+                "author": "Miao, Zhengjie and Li, Yuliang and Wang, Xiaolan and Tan, Wang-Chiew",
+                "booktitle": "Proceedings of The Web Conference 2020",
+                "pages": "617--628",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Online services are interested in solutions to opinion mining, which is the problem of extracting aspects, opinions, and sentiments from text. One method to mine opinions is to leverage the recent success of pre-trained language models which can be fine-tuned to obtain high-quality extractions from reviews. However, fine-tuning language models still requires a non-trivial amount of training data. In this paper, we study the problem of how to significantly reduce the amount of labeled training data required in fine-tuning language models for opinion mining. We describe Snippext, an opinion mining system developed over a language model that is fine-tuned through semi-supervised learning with augmented data. A novelty of Snippext is its clever use of a two-prong approach to achieve state-of-the-art (SOTA) performance with little labeled training data through: (1) data augmentation to automatically generate more labeled training data from existing ones, and (2) a semi-supervised learning technique to leverage the massive amount of unlabeled data in addition to the (limited amount of) labeled data. We show with extensive experiments that Snippext performs comparably and can even exceed previous SOTA results on several opinion mining tasks with only half the training data required. Furthermore, it achieves new SOTA results when all training data are leveraged. By comparison to a baseline pipeline, we found that Snippext extracts significantly more fine-grained opinions which enable new opportunities of downstream applications.",
+            "aminer_id": "5e427c893a55acbff4c4074d"
+        },
+        "wang2017coupled": {
+            "number": "[19]",
+            "title": "Coupled Multi-Layer Attentions for Co-Extraction of Aspect and Opinion Terms.",
+            "text": "title={Coupled multi-layer attentions for co-extraction of aspect and opinion terms},\n  author={Wang, Wenya and Pan, Sinno Jialin and Dahlmeier, Daniel and Xiao, Xiaokui},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={31},\n  number={1},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Coupled multi-layer attentions for co-extraction of aspect and opinion terms",
+                "author": "Wang, Wenya and Pan, Sinno Jialin and Dahlmeier, Daniel and Xiao, Xiaokui",
+                "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+                "volume": "31",
+                "number": "1",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "The task of aspect and opinion terms co-extraction aims to explicitly extract aspect terms describing features of an entity and opinion terms expressing emotions from user-generated texts. To achieve this task, one effective approach is to exploit relations between aspect terms and opinion terms by parsing syntactic structure for each sentence. However, this approach requires expensive effort for parsing and highly depends on the quality of the parsing results. In this paper, we offer a novel deep learning model, named coupled multi-layer attentions. The proposed model provides an end-to-end solution and does not require any parsers or other linguistic resources for preprocessing. Specifically, the proposed model is a multi layer attention network, where each layer consists of a couple of attentions with tensor operators. One attention is for extracting aspect terms, while the other is for extracting opinion terms. They are learned interactively to dually propagate information between aspect terms and opinion terms. Through multiple layers, the model can further exploit indirect relations between terms for more precise information extraction. Experimental results on three benchmark datasets in SemEval Challenge 2014 and 2015 show that our model achieves state-of-the-art performances compared with several baselines.",
+            "aminer_id": "599c7ef9601a182cd28ddf08"
+        },
+        "landis1977measurement": {
+            "number": "[20]",
+            "title": "The measurement of observer agreement for categorical data",
+            "text": "title={The measurement of observer agreement for categorical data},\n  author={Landis, J Richard and Koch, Gary G},\n  journal={biometrics},\n  pages={159--174},\n  year={1977},\n  publisher={JSTOR}",
+            "type": "article",
+            "fields": {
+                "title": "The measurement of observer agreement for categorical data",
+                "author": "Landis, J Richard and Koch, Gary G",
+                "journal": "biometrics",
+                "pages": "159--174",
+                "year": "1977",
+                "publisher": "JSTOR"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55a394ff2401aa93797f1413"
+        },
+        "gretz2020large": {
+            "number": "[21]",
+            "title": "A Large-scale Dataset for Argument Quality Ranking: Construction and Analysis",
+            "text": "title={A large-scale dataset for argument quality ranking: Construction and analysis},\n  author={Gretz, Shai and Friedman, Roni and Cohen-Karlik, Edo and Toledo, Assaf and Lahav, Dan and Aharonov, Ranit and Slonim, Noam},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={34},\n  number={05},\n  pages={7805--7813},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A large-scale dataset for argument quality ranking: Construction and analysis",
+                "author": "Gretz, Shai and Friedman, Roni and Cohen-Karlik, Edo and Toledo, Assaf and Lahav, Dan and Aharonov, Ranit and Slonim, Noam",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "34",
+                "number": "05",
+                "pages": "7805--7813",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Identifying the quality of free-text arguments has become an important task in the rapidly expanding field of computational argumentation. In this work, we explore the challenging task of argument quality ranking. To this end, we created a corpus of 30,497 arguments carefully annotated for point-wise quality, released as part of this work. To the best of our knowledge, this is the largest dataset annotated for point-wise argument quality, larger by a factor of five than previously released datasets. Moreover, we address the core issue of inducing a labeled score from crowd annotations by performing a comprehensive evaluation of different approaches to this problem. In addition, we analyze the quality dimensions that characterize this dataset. Finally, we present a neural method for argument quality ranking, which outperforms several baselines on our own dataset, as well as previous methods published for another dataset.",
+            "aminer_id": "5dde4b463a55ac4c42972bb9"
+        },
+        "ganeshbhai2015feature": {
+            "number": "[22]",
+            "title": "Feature Based Opinion Mining: A Survey",
+            "text": "title={Feature based opinion mining: A survey},\n  author={Ganeshbhai, Solanki Yogesh and Shah, Bhumika K},\n  booktitle={2015 IEEE International Advance Computing Conference (IACC)},\n  pages={919--923},\n  year={2015},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Feature based opinion mining: A survey",
+                "author": "Ganeshbhai, Solanki Yogesh and Shah, Bhumika K",
+                "booktitle": "2015 IEEE International Advance Computing Conference (IACC)",
+                "pages": "919--923",
+                "year": "2015",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In olden days people were only information consumers but since advent of Web 2.0 they plays more important role in publishing information on Web in the form of comments and reviews. The user generated content forced organization to pay attention towards analyzing this content for better visualization of public's opinion. Opinion mining or Sentiment analysis is an autonomous text analysis and summarization system for reviews available on Web. Opinion mining aims for distinguishing the emotions expressed within the reviews, classifying them into positive or negative and summarizing into the form that is quickly understood by users. Feature based opinion mining performs fine-grain analysis by recognizing individual features of an object upon which user has expressed opinion. This paper gives an insight of various methods proposed in the area of feature based opinion mining and also discuss the limitations of existing work and future direction in feature based opinion mining.",
+            "aminer_id": "56d87552dabfae2eee13d66b"
+        },
+        "makadia2016feature": {
+            "number": "[23]",
+            "title": "Feature-based Opinion Summarization: A Survey",
+            "text": "title={Feature-based opinion summarization: A survey},\n  author={Makadia, Nirali},\n  journal={International Journal of Engineering Development and Research},\n  volume={8},\n  number={2},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Feature-based opinion summarization: A survey",
+                "author": "Makadia, Nirali",
+                "journal": "International Journal of Engineering Development and Research",
+                "volume": "8",
+                "number": "2",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Significant advancement in e-commerce and Web 2.0 has led to the invention of several websites selling products online. These websites also facilitate the buyers to express their opinions about the products & their features in the form of reviews. Knowing these opinions and the related sentiments plays a vital role in decision making processes involving regular customers to executive managers. But these reviews are available in huge numbers hence referring them becomes a practically impossible task to achieve. Thus a new orientation of natural language processing called Opinion Mining & Summarization has emerged to deal with the problem. Feature-based Opinion Summarization is one of these summarization techniques which provide brief yet most relevant information about different features related to the target product. This paper represents an in-depth literature survey of various techniques for Feature-based Opinion Summarization.",
+            "aminer_id": "5c7572d3f56def979884826a"
+        },
+        "hu2004mining": {
+            "number": "[24]",
+            "title": "Mining and Summarizing Customer Reviews",
+            "text": "title={Mining and summarizing customer reviews},\n  author={Hu, Minqing and Liu, Bing},\n  booktitle={Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining},\n  pages={168--177},\n  year={2004}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mining and summarizing customer reviews",
+                "author": "Hu, Minqing and Liu, Bing",
+                "booktitle": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+                "pages": "168--177",
+                "year": "2004"
+            },
+            "ref_source": "bib",
+            "abstract": "Merchants selling products on the Web often ask their customers to review the products that they have purchased and the associated services. As e-commerce is becoming more and more popular, the number of customer reviews that a product receives grows rapidly. For a popular product, the number of reviews can be in hundreds or even thousands. This makes it difficult for a potential customer to read them to make an informed decision on whether to purchase the product. It also makes it difficult for the manufacturer of the product to keep track and to manage customer opinions. For the manufacturer, there are additional difficulties because many merchant sites may sell the same product and the manufacturer normally produces many kinds of products. In this research, we aim to mine and to summarize all the customer reviews of a product. This summarization task is different from traditional text summarization because we only mine the features of the product on which the customers have expressed their opinions and whether the opinions are positive or negative. We do not summarize the reviews by selecting a subset or rewrite some of the original sentences from the reviews to capture the main points as in the classic text summarization. Our task is performed in three steps: (1) mining product features that have been commented on by customers; (2) identifying opinion sentences in each review and deciding whether each opinion sentence is positive or negative; (3) summarizing the results. This paper proposes several novel techniques to perform these tasks. Our experimental results using reviews of a number of products sold online demonstrate the effectiveness of the techniques.",
+            "aminer_id": "5390972920f70186a0dfbe12"
+        },
+        "ding2008holistic": {
+            "number": "[25]",
+            "title": "A Holistic Lexicon-Based Approach to Opinion Mining",
+            "text": "title={A holistic lexicon-based approach to opinion mining},\n  author={Ding, Xiaowen and Liu, Bing and Yu, Philip S},\n  booktitle={Proceedings of the 2008 international conference on web search and data mining},\n  pages={231--240},\n  year={2008}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A holistic lexicon-based approach to opinion mining",
+                "author": "Ding, Xiaowen and Liu, Bing and Yu, Philip S",
+                "booktitle": "Proceedings of the 2008 international conference on web search and data mining",
+                "pages": "231--240",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "One of the important types of information on the Web is the opinions expressed in the user generated content, e.g., customer reviews of products, forum posts, and blogs. In this paper, we focus on customer reviews of products. In particular, we study the problem of determining the semantic orientations (positive, negative or neutral) of opinions expressed on product features in reviews. This problem has many applications, e.g., opinion mining, summarization and search. Most existing techniques utilize a list of opinion (bearing) words (also called opinion lexicon) for the purpose. Opinion words are words that express desirable (e.g., great, amazing, etc.) or undesirable (e.g., bad, poor, etc) states. These approaches, however, all have some major shortcomings. In this paper, we propose a holistic lexicon-based approach to solving the problem by exploiting external evidences and linguistic conventions of natural language expressions. This approach allows the system to handle opinion words that are context dependent, which cause major difficulties for existing algorithms. It also deals with many special words, phrases and language constructs which have impacts on opinions based on their linguistic patterns. It also has an effective function for aggregating multiple conflicting opinion words in a sentence. A system, called Opinion Observer, based on the proposed technique has been implemented. Experimental results using a benchmark product review data set and some additional reviews show that the proposed technique is highly effective. It outperforms existing methods significantly",
+            "aminer_id": "53909fca20f70186a0e450b3"
+        },
+        "popescu2007extracting": {
+            "number": "[26]",
+            "title": "Extracting Product Features and Opinions from Reviews",
+            "text": "title={Extracting product features and opinions from reviews},\n  author={Popescu, Ana-Maria and Etzioni, Orena},\n  journal={Natural language processing and text mining},\n  pages={9--28},\n  year={2007},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Extracting product features and opinions from reviews",
+                "author": "Popescu, Ana-Maria and Etzioni, Orena",
+                "journal": "Natural language processing and text mining",
+                "pages": "9--28",
+                "year": "2007",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumers are often forced to wade through many on-line reviews in order to make an informed product choice. This paper introduces Opine, an unsupervised information-extraction system which mines reviews in order to build a model of important product features, their evaluation by reviewers, and their relative quality across products.Compared to previous work, Opine achieves 22% higher precision (with only 3% lower recall) on the feature extraction task. Opine's novel use of relaxation labeling for finding the semantic orientation of words in context leads to strong performance on the tasks of finding opinion phrases and their polarity.",
+            "aminer_id": "53909e7c20f70186a0e2c99f"
+        },
+        "blair2008building": {
+            "number": "[27]",
+            "title": "Building a Sentiment Summarizer for Local Service Reviews",
+            "text": "title={Building a sentiment summarizer for local service reviews},\n  author={Blair-Goldensohn, Sasha and Hannan, Kerry and McDonald, Ryan and Neylon, Tyler and Reis, George and Reynar, Jeff},\n  year={2008}",
+            "type": "article",
+            "fields": {
+                "title": "Building a sentiment summarizer for local service reviews",
+                "author": "Blair-Goldensohn, Sasha and Hannan, Kerry and McDonald, Ryan and Neylon, Tyler and Reis, George and Reynar, Jeff",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "Online user reviews are increasingly becoming the de-facto standard for measuring the quality of electronics, restau- rants, merchants, etc. The sheer volume of online reviews makes it difficult for a human to process and extract all meaningful information in order to make an educated pur- chase. As a result, there has been a trend toward systems that can automatically summarize opinions from a set of re- views and display them in an easy to process manner (1, 9). In this paper, we present a system that summarizes the sen- timent of reviews for a local service such as a restaurant or hotel. In particular we focus on aspect-based summarization models (8), where a summary is built by extracting relevant aspects of a service, such as service or value, aggregating the sentiment per aspect, and selecting aspect-relevant text. We describe the details of both the aspect extraction and sentiment detection modules of our system. A novel aspect of these models is that they exploit user provided labels and domain specific characteristics of service reviews to increase quality.",
+            "aminer_id": "53e9b321b7602d9703dec5fb"
+        },
+        "titov2008joint": {
+            "number": "[28]",
+            "title": "A Joint Model of Text and Aspect Ratings for Sentiment Summarization",
+            "text": "title={A joint model of text and aspect ratings for sentiment summarization},\n  author={Titov, Ivan and McDonald, Ryan},\n  booktitle={proceedings of ACL-08: HLT},\n  pages={308--316},\n  year={2008}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A joint model of text and aspect ratings for sentiment summarization",
+                "author": "Titov, Ivan and McDonald, Ryan",
+                "booktitle": "proceedings of ACL-08: HLT",
+                "pages": "308--316",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews are often accompanied with numerical ratings provided by users for a set of service or product aspects. We propose a statistical model which is able to discover corresponding topics in text and extract textual evidence from reviews supporting each of these aspect ratings ‐ a fundamental problem in aspect-based sentiment summarization (Hu and Liu, 2004a). Our model achieves high accuracy, without any explicitly labeled data except the user provided opinion ratings. The proposed approach is general and can be used for segmentation in other applications where sequential data is accompanied with correlated signals.",
+            "aminer_id": "53e9b60db7602d9704162719"
+        },
+        "wu2016aspect": {
+            "number": "[29]",
+            "title": "Aspect-based Opinion Summarization with Convolutional Neural Networks",
+            "text": "title={Aspect-based opinion summarization with convolutional neural networks},\n  author={Wu, Haibing and Gu, Yiwei and Sun, Shangdi and Gu, Xiaodong},\n  booktitle={2016 International Joint Conference on Neural Networks (IJCNN)},\n  pages={3157--3163},\n  year={2016},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect-based opinion summarization with convolutional neural networks",
+                "author": "Wu, Haibing and Gu, Yiwei and Sun, Shangdi and Gu, Xiaodong",
+                "booktitle": "2016 International Joint Conference on Neural Networks (IJCNN)",
+                "pages": "3157--3163",
+                "year": "2016",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper studies Aspect-based Opinion Summarization (AOS) of reviews on particular products. In practice, an AOS system needs to address two core subtasks, aspect extraction and sentiment classification. Most existing approaches to aspect extraction, using linguistic analysis or topic modeling, are general across different products but not precise enough or suitable for particular products. Instead we take a less general but more precise scheme, which directly maps each review sentence into pre-defined aspects. To tackle aspect mapping and sentiment classification, we propose two Convolutional Neural Network (CNN) based methods, cascaded CNN and multitask CNN. Cascaded CNN contains two levels of convolutional networks. Multiple CNNs at level 1 deal with aspect mapping task, and a single CNN at level 2 deals with sentiment classification. Multitask CNN also contains multiple aspect CNNs and a sentiment CNN, but different networks share the same word embeddings. Experimental results show that both cascaded and multitask CNNs with pre-trained word embedding outperform linear classifiers, and multitask CNN generally performs better than cascaded CNN.",
+            "aminer_id": "65675f37939a5f40827823fe"
+        },
+        "mukherjee2020read": {
+            "number": "[30]",
+            "title": "Read What You Need: Controllable Aspect-based Opinion Summarization of Tourist Reviews",
+            "text": "title={Read what you need: Controllable aspect-based opinion summarization of tourist reviews},\n  author={Mukherjee, Rajdeep and Peruri, Hari Chandana and Vishnu, Uppada and Goyal, Pawan and Bhattacharya, Sourangshu and Ganguly, Niloy},\n  booktitle={Proceedings of the 43rd international ACM SIGIR conference on research and development in information retrieval},\n  pages={1825--1828},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Read what you need: Controllable aspect-based opinion summarization of tourist reviews",
+                "author": "Mukherjee, Rajdeep and Peruri, Hari Chandana and Vishnu, Uppada and Goyal, Pawan and Bhattacharya, Sourangshu and Ganguly, Niloy",
+                "booktitle": "Proceedings of the 43rd international ACM SIGIR conference on research and development in information retrieval",
+                "pages": "1825--1828",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Manually extracting relevant aspects and opinions from large volumes ofuser-generated text is a time-consuming process. Summaries, on the other hand,help readers with limited time budgets to quickly consume the key ideas fromthe data. State-of-the-art approaches for multi-document summarization,however, do not consider user preferences while generating summaries. In thiswork, we argue the need and propose a solution for generating personalizedaspect-based opinion summaries from large collections of online touristreviews. We let our readers decide and control several attributes of thesummary such as the length and specific aspects of interest among others.Specifically, we take an unsupervised approach to extract coherent aspects fromtourist reviews posted on TripAdvisor. We then propose an Integer LinearProgramming (ILP) based extractive technique to select an informative subset ofopinions around the identified aspects while respecting the user-specifiedvalues for various control parameters. Finally, we evaluate and compare oursummaries using crowdsourcing and ROUGE-based metrics and obtain competitiveresults.",
+            "aminer_id": "5f1d5a5a9fced0a24b59bdba"
+        },
+        "erkan2004lexrank": {
+            "number": "[31]",
+            "title": "LexRank: Graph-based Lexical Centrality As Salience in Text Summarization",
+            "text": "title={Lexrank: Graph-based lexical centrality as salience in text summarization},\n  author={Erkan, G{\\\"u}nes and Radev, Dragomir R},\n  journal={Journal of artificial intelligence research},\n  volume={22},\n  pages={457--479},\n  year={2004}",
+            "type": "article",
+            "fields": {
+                "title": "Lexrank: Graph-based lexical centrality as salience in text summarization",
+                "author": "Erkan, G{\\\"u}nes and Radev, Dragomir R",
+                "journal": "Journal of artificial intelligence research",
+                "volume": "22",
+                "pages": "457--479",
+                "year": "2004"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a stochastic graph-based method for computing relative importance of textual units for Natural Language Processing. We test the technique on the problem of Text Summarization (TS). Extractive TS relies on the concept of sentence salience to identify the most important sentences in a document or set of documents. Salience is typically defined in terms of the presence of particular important words or in terms of similarity to a centroid pseudo-sentence. We consider a new approach, LexRank, for computing sentence importance based on the concept of eigenvector centrality in a graph representation of sentences. In this model, a connectivity matrix based on intra-sentence cosine similarity is used as the adjacency matrix of the graph representation of sentences. Our system, based on LexRank ranked in first place in more than one task in the recent DUC 2004 evaluation. In this paper we present a detailed analysis of our approach and apply it to a larger data set including data from earlier DUC evaluations. We discuss several methods to compute centrality using the similarity graph. The results show that degree-based methods (including LexRank) outperform both centroid-based methods and other systems participating in DUC in most of the cases. Furthermore, the LexRank with threshold method outperforms the other degree-based techniques including continuous LexRank. We also show that our approach is quite insensitive to the noise in the data that may result from an imperfect topical clustering of documents.",
+            "aminer_id": "5390a6b120f70186a0e843b8"
+        },
+        "ren2017leveraging": {
+            "number": "[32]",
+            "title": "Leveraging Contextual Sentence Relations for Extractive Summarization Using a Neural Attention Model",
+            "text": "title={Leveraging contextual sentence relations for extractive summarization using a neural attention model},\n  author={Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Wei, Furu and Ma, Jun and de Rijke, Maarten},\n  booktitle={Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval},\n  pages={95--104},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Leveraging contextual sentence relations for extractive summarization using a neural attention model",
+                "author": "Ren, Pengjie and Chen, Zhumin and Ren, Zhaochun and Wei, Furu and Ma, Jun and de Rijke, Maarten",
+                "booktitle": "Proceedings of the 40th International ACM SIGIR Conference on Research and Development in Information Retrieval",
+                "pages": "95--104",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "As a framework for extractive summarization, sentence regression has achieved state-of-the-art performance in several widely-used practical systems. The most challenging task within the sentence regression framework is to identify discriminative features to encode a sentence into a feature vector. So far, sentence regression approaches have neglected to use features that capture contextual relations among sentences. We propose a neural network model, Contextual Relation-based Summarization (CRSum), to take advantage of contextual relations among sentences so as to improve the performance of sentence regression. Specifically, we first use sentence relations with a word-level attentive pooling convolutional neural network to construct sentence representations. Then, we use contextual relations with a sentence-level attentive pooling recurrent neural network to construct context representations. Finally, CRSum automatically learns useful contextual features by jointly learning representations of sentences and similarity scores between a sentence and sentences in its context. Using a two-level attention mechanism, CRSum is able to pay attention to important content, i.e., words and sentences, in the surrounding context of a given sentence. We carry out extensive experiments on six benchmark datasets. CRSum alone can achieve comparable performance with state-of-the-art approaches; when combined with a few basic surface features, it significantly outperforms the state-of-the-art in terms of multiple ROUGE metrics.",
+            "aminer_id": "59a0309cb161e8ad1a7b6f10"
+        },
+        "zhao2020weakly": {
+            "number": "[33]",
+            "title": "Weakly-Supervised Opinion Summarization by Leveraging External Information",
+            "text": "title={Weakly-supervised opinion summarization by leveraging external information},\n  author={Zhao, Chao and Chaturvedi, Snigdha},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={34},\n  number={05},\n  pages={9644--9651},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Weakly-supervised opinion summarization by leveraging external information",
+                "author": "Zhao, Chao and Chaturvedi, Snigdha",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "34",
+                "number": "05",
+                "pages": "9644--9651",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Opinion summarization from online product reviews is a challenging task, which involves identifying opinions related to various aspects of the product being reviewed. While previous works require additional human effort to identify relevant aspects, we instead apply domain knowledge from external sources to automatically achieve the same goal. This work proposes AspMem, a generative method that contains an array of memory cells to store aspect-related knowledge. This explicit memory can help obtain a better opinion representation and infer the aspect information more precisely. We evaluate this method on both aspect identification and opinion summarization tasks. Our experiments show that AspMem outperforms the state-of-the-art methods even though, unlike the baselines, it does not rely on human supervision which is carefully handcrafted for the given tasks.",
+            "aminer_id": "5ddba6863a55acfc7e16173f"
+        },
+        "nallapati2016abstractive": {
+            "number": "[34]",
+            "title": "Abstractive text summarization using sequence-to-sequence rnns and beyond",
+            "text": "title={Abstractive text summarization using sequence-to-sequence rnns and beyond},\n  author={Nallapati, Ramesh and Zhou, Bowen and Gulcehre, Caglar and Xiang, Bing and others},\n  journal={arXiv preprint arXiv:1602.06023},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Abstractive text summarization using sequence-to-sequence rnns and beyond",
+                "author": "Nallapati, Ramesh and Zhou, Bowen and Gulcehre, Caglar and Xiang, Bing and others",
+                "journal": "arXiv preprint arXiv:1602.06023",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5843775dac44360f1083c2b4"
+        },
+        "turpin2006user": {
+            "number": "[35]",
+            "title": "User Performance Versus Precision Measures for Simple Search Tasks",
+            "text": "title={User performance versus precision measures for simple search tasks},\n  author={Turpin, Andrew and Scholer, Falk},\n  booktitle={Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval},\n  pages={11--18},\n  year={2006}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "User performance versus precision measures for simple search tasks",
+                "author": "Turpin, Andrew and Scholer, Falk",
+                "booktitle": "Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval",
+                "pages": "11--18",
+                "year": "2006"
+            },
+            "ref_source": "bib",
+            "abstract": "Several recent studies have demonstrated that the type of improvements in information retrieval system effectiveness reported in forums such as SIGIR and TREC do not translate into a benefit for users. Two of the studies used an instance recall task, and a third used a question answering task, so perhaps it is unsurprising that the precision based measures of IR system effectiveness on one-shot query evaluation do not correlate with user performance on these tasks. In this study, we evaluate two different information retrieval tasks on TREC Web-track data: a precision-based user task, measured by the length of time that users need to find a single document that is relevant to a TREC topic; and, a simple recall-based task, represented by the total number of relevant documents that users can identify within five minutes. Users employ search engines with controlled mean average precision (MAP) of between 55% and 95%. Our results show that there is no significant relationship between system effectiveness measured by MAP and the precision-based task. A significant, but weak relationship is present for the precision at one document returned metric. A weak relationship is present between MAP and the simple recall-based task.",
+            "aminer_id": "539099a220f70186a0e191f3"
+        },
+        "chu2019meansum": {
+            "number": "[36]",
+            "title": "MeanSum: A Neural Model for Unsupervised Multi-document Abstractive Summarization",
+            "text": "title={Meansum: A neural model for unsupervised multi-document abstractive summarization},\n  author={Chu, Eric and Liu, Peter},\n  booktitle={International Conference on Machine Learning},\n  pages={1223--1232},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Meansum: A neural model for unsupervised multi-document abstractive summarization",
+                "author": "Chu, Eric and Liu, Peter",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "1223--1232",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Abstractive summarization has been studied using neural sequence transduction methods with datasets of large, paired document-summary examples. However, such datasets are rare and the models trained from them do not generalize to other domains. Recently, some progress has been made in learning sequence-to-sequence mappings with only unpaired examples. In our work, we consider the setting where there are only documents (product or business reviews) with no summaries provided, and propose an end-to-end, neural model architecture to perform unsupervised abstractive summarization. Our proposed model consists of an auto-encoder where the mean of the representations of the input reviews decodes to a reasonable summary-review while not relying on any review-specific features. We consider variants of the proposed architecture and perform an ablation study to show the importance of specific components. We show through automated metrics and human evaluation that the generated summaries are highly abstractive, fluent, relevant, and representative of the average sentiment of the input reviews. Finally, we collect a reference evaluation dataset and show that our model outperforms a strong extractive baseline.",
+            "aminer_id": "5c615efbe1cd8eae1501a10b"
+        },
+        "zhang2020pegasus": {
+            "number": "[37]",
+            "title": "PEGASUS: Pre-training with Extracted Gap-sentences for Abstractive Summarization",
+            "text": "title={Pegasus: Pre-training with extracted gap-sentences for abstractive summarization},\n  author={Zhang, Jingqing and Zhao, Yao and Saleh, Mohammad and Liu, Peter},\n  booktitle={International Conference on Machine Learning},\n  pages={11328--11339},\n  year={2020},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Pegasus: Pre-training with extracted gap-sentences for abstractive summarization",
+                "author": "Zhang, Jingqing and Zhao, Yao and Saleh, Mohammad and Liu, Peter",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "11328--11339",
+                "year": "2020",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent work pre-training Transformers with self-supervised objectives on large text corpora has shown great success when fine-tuned on downstream NLP tasks including text summarization. However, pre-training objectives tailored for abstractive text summarization have not been explored. Furthermore there is a lack of systematic evaluation across diverse domains. In this work, we propose pre-training large Transformer-based encoder-decoder models on massive text corpora with a new self-supervised objective. In PEGASUS, important sentences are removed/masked from an input document and are generated together as one output sequence from the remaining sentences, similar to an extractive summary. We evaluated our best PEGASUS model on 12 downstream summarization tasks spanning news, science, stories, instructions, emails, patents, and legislative bills. Experiments demonstrate it achieves state-of-the-art performance on all 12 downstream datasets measured by ROUGE scores. Our model also shows surprising performance on low-resource summarization, surpassing previous state-of-the-art results on 6 datasets with only 1000 examples. Finally we validated our results using human evaluation and show that our model summaries achieve human performance on multiple datasets.",
+            "aminer_id": "687c14b8163c01c850528e79"
+        },
+        "liu2019roberta": {
+            "number": "[38]",
+            "title": "RoBERTa: A Robustly Optimized BERT Pretraining Approach",
+            "text": "title={Roberta: A robustly optimized bert pretraining approach},\n  author={Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin},\n  journal={arXiv preprint arXiv:1907.11692},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Roberta: A robustly optimized bert pretraining approach",
+                "author": "Liu, Yinhan and Ott, Myle and Goyal, Naman and Du, Jingfei and Joshi, Mandar and Chen, Danqi and Levy, Omer and Lewis, Mike and Zettlemoyer, Luke and Stoyanov, Veselin",
+                "journal": "arXiv preprint arXiv:1907.11692",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Language model pretraining has led to significant performance gains but careful comparison between different approaches is challenging. Training is computationally expensive, often done on private datasets of different sizes, and, as we will show, hyperparameter choices have significant impact on the final results. We present a replication study of BERT pretraining (Devlin et al., 2019) that carefully measures the impact of many key hyperparameters and training data size. We find that BERT was significantly undertrained, and can match or exceed the performance of every model published after it. Our best model achieves state-of-the-art results on GLUE, RACE and SQuAD. These results highlight the importance of previously overlooked design choices, and raise questions about the source of recently reported improvements. We release our models and code.",
+            "aminer_id": "5d3ed2653a55ac61d998598b"
+        },
+        "devlin2018bert": {
+            "number": "[39]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "title={Bert: Pre-training of deep bidirectional transformers for language understanding},\n  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},\n  journal={arXiv preprint arXiv:1810.04805},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+                "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+                "journal": "arXiv preprint arXiv:1810.04805",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "bravzinskas2020few": {
+            "number": "[40]",
+            "title": "Few-shot learning for opinion summarization",
+            "text": "title={Few-shot learning for opinion summarization},\n  author={Bra{\\v{z}}inskas, Arthur and Lapata, Mirella and Titov, Ivan},\n  journal={arXiv preprint arXiv:2004.14884},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Few-shot learning for opinion summarization",
+                "journal": "arXiv preprint arXiv:2004.14884",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "61949dc5e1ef29355221c305"
+        },
+        "samin2022arguments": {
+            "number": "[41]",
+            "title": "Arguments to Key Points Mapping with Prompt-based Learning",
+            "text": "title={Arguments to Key Points Mapping with Prompt-based Learning},\n  author={Samin, Ahnaf Mozib and Nikandish, Behrooz and Chen, Jingyan},\n  journal={arXiv preprint arXiv:2211.14995},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Arguments to Key Points Mapping with Prompt-based Learning",
+                "author": "Samin, Ahnaf Mozib and Nikandish, Behrooz and Chen, Jingyan",
+                "journal": "arXiv preprint arXiv:2211.14995",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Handling and digesting a huge amount of information in an efficient manner has been a long-term demand in modern society. Some solutions to map key points (short textual summaries capturing essential information and filtering redundancies) to a large number of arguments/opinions have been provided recently (Bar-Haim et al., 2020). To complement the full picture of the argument-to-keypoint mapping task, we mainly propose two approaches in this paper. The first approach is to incorporate prompt engineering for fine-tuning the pre-trained language models (PLMs). The second approach utilizes prompt-based learning in PLMs to generate intermediary texts, which are then combined with the original argument-keypoint pairs and fed as inputs to a classifier, thereby mapping them. Furthermore, we extend the experiments to cross/in-domain to conduct an in-depth analysis. In our evaluation, we find that i) using prompt engineering in a more direct way (Approach 1) can yield promising results and improve the performance; ii) Approach 2 performs considerably worse than Approach 1 due to the negation issue of the PLM.",
+            "aminer_id": "6385788590e50fcafdf49d67"
+        },
+        "cattan2023key": {
+            "number": "[42]",
+            "title": "From Key Points to Key Point Hierarchy: Structured and Expressive Opinion Summarization",
+            "text": "title={From Key Points to Key Point Hierarchy: Structured and Expressive Opinion Summarization},\n  author={Cattan, Arie and Eden, Lilach and Kantor, Yoav and Bar-Haim, Roy},\n  journal={arXiv preprint arXiv:2306.03853},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "From Key Points to Key Point Hierarchy: Structured and Expressive Opinion Summarization",
+                "author": "Cattan, Arie and Eden, Lilach and Kantor, Yoav and Bar-Haim, Roy",
+                "journal": "arXiv preprint arXiv:2306.03853",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Key Point Analysis (KPA) has been recently proposed for deriving fine-grained insights from collections of textual comments. KPA extracts the main points in the data as a list of concise sentences or phrases, termed key points, and quantifies their prevalence. While key points are more expressive than word clouds and key phrases, making sense of a long, flat list of key points, which often express related ideas in varying levels of granularity, may still be challenging. To address this limitation of KPA, we introduce the task of organizing a given set of key points into a hierarchy, according to their specificity. Such hierarchies may be viewed as a novel type of Textual Entailment Graph. We develop ThinkP, a high quality benchmark dataset of key point hierarchies for business and product reviews, obtained by consolidating multiple annotations. We compare different methods for predicting pairwise relations between key points, and for inferring a hierarchy from these pairwise predictions. In particular, for the task of computing pairwise key point relations, we achieve significant gains over existing strong baselines by applying directional distributional similarity methods to a novel distributional representation of key points, and further boost performance via weak supervision.",
+            "aminer_id": "64a29646d68f896efa29692e"
+        },
+        "li2023you": {
+            "number": "[43]",
+            "title": "Do You Hear the People Sing? Key Point Analysis Via Iterative Clustering and Abstractive Summarisation.",
+            "text": "title={Do You Hear The People Sing? Key Point Analysis via Iterative Clustering and Abstractive Summarisation},\n  author={Li, Hao and Schlegel, Viktor and Batista-Navarro, Riza and Nenadic, Goran},\n  journal={arXiv preprint arXiv:2305.16000},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Do You Hear The People Sing? Key Point Analysis via Iterative Clustering and Abstractive Summarisation",
+                "author": "Li, Hao and Schlegel, Viktor and Batista-Navarro, Riza and Nenadic, Goran",
+                "journal": "arXiv preprint arXiv:2305.16000",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Argument summarisation is a promising but currently under-explored field. Recent work has aimed to provide textual summaries in the form of concise and salient short texts, i.e., key points (KPs), in a task known as Key Point Analysis (KPA). One of the main challenges in KPA is finding high-quality key point candidates from dozens of arguments even in a small corpus. Furthermore, evaluating key points is crucial in ensuring that the automatically generated summaries are useful. Although automatic methods for evaluating summarisation have considerably advanced over the years, they mainly focus on sentence-level comparison, making it difficult to measure the quality of a summary (a set of KPs) as a whole. Aggravating this problem is the fact that human evaluation is costly and unreproducible. To address the above issues, we propose a two-step abstractive summarisation framework based on neural topic modelling with an iterative clustering procedure, to generate key points which are aligned with how humans identify key points. Our experiments show that our framework advances the state of the art in KPA, with performance improvement of up to 14 (absolute) percentage points, in terms of both ROUGE and our own proposed evaluation metrics. Furthermore, we evaluate the generated summaries using a novel set-based evaluation toolkit. Our quantitative analysis demonstrates the effectiveness of our proposed evaluation metrics in assessing the quality of generated KPs. Human evaluation further demonstrates the advantages of our approach and validates that our proposed evaluation metric is more consistent with human judgment than ROUGE scores.",
+            "aminer_id": "64702deed68f896efa52018a"
+        },
+        "bhaskar2023prompted": {
+            "number": "[44]",
+            "title": "Prompted Opinion Summarization with GPT-3.5",
+            "text": "title={Prompted opinion summarization with GPT-3.5},\n  author={Bhaskar, Adithya and Fabbri, Alex and Durrett, Greg},\n  booktitle={Findings of the Association for Computational Linguistics: ACL 2023},\n  pages={9282--9300},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Prompted opinion summarization with GPT-3.5",
+                "author": "Bhaskar, Adithya and Fabbri, Alex and Durrett, Greg",
+                "booktitle": "Findings of the Association for Computational Linguistics: ACL 2023",
+                "pages": "9282--9300",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Large language models have shown impressive performance across a wide variety of tasks, including text summarization. In this paper, we show that this strong performance extends to opinion summarization. We explore several pipeline methods for applying GPT-3.5 to summarize a large collection of user reviews in a prompted fashion. To handle arbitrarily large numbers of user reviews, we explore recursive summarization as well as methods for selecting salient content to summarize through supervised clustering or extraction. On two datasets, an aspect-oriented summarization dataset of hotel reviews (SPACE) and a generic summarization dataset of Amazon and Yelp reviews (FewSum), we show that GPT-3.5 models achieve very strong performance in human evaluation. We argue that standard evaluation metrics do not reflect this, and introduce three new metrics targeting faithfulness, factuality, and genericity to contrast these different methods.",
+            "aminer_id": "6386c9e090e50fcafdfa0b02"
+        },
+        "honnibal:2020": {
+            "number": "[45]",
+            "title": "spaCy: Industrial-strength Natural Language Processing in Python",
+            "text": "author = {Honnibal, Matthew and Montani, Ines and Van Landeghem, Sofie and Boyd, Adriane},\n  title = {{spaCy: Industrial-strength Natural Language Processing in Python}},\n  year = 2020,\n  publisher = {Zenodo},\n  doi = {10.5281/zenodo.1212303},\n  url = {https://doi.org/10.5281/zenodo.1212303}",
+            "type": "software",
+            "fields": {
+                "author": "Honnibal, Matthew and Montani, Ines and Van Landeghem, Sofie and Boyd, Adriane",
+                "title": "{spaCy: Industrial-strength Natural Language Processing in Python}",
+                "publisher": "Zenodo",
+                "doi": "10.5281/zenodo.1212303",
+                "url": "https://doi.org/10.5281/zenodo.1212303"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "adams-etal-2023-sparse": {
+            "number": "[46]",
+            "title": "From Sparse to Dense: GPT-4 Summarization with Chain of Density Prompting.",
+            "text": "title = \"From Sparse to Dense: {GPT}-4 Summarization with Chain of Density Prompting\",\n    author = \"Adams, Griffin  and\n      Fabbri, Alex  and\n      Ladhak, Faisal  and\n      Lehman, Eric  and\n      Elhadad, No{\\'e}mie\",\n    editor = \"Dong, Yue  and\n      Xiao, Wen  and\n      Wang, Lu  and\n      Liu, Fei  and\n      Carenini, Giuseppe\",\n    booktitle = \"Proceedings of the 4th New Frontiers in Summarization Workshop\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2023.newsum-1.7\",\n    doi = \"10.18653/v1/2023.newsum-1.7\",\n    pages = \"68--74\",\n    abstract = \"Selecting the {``}right{''} amount of information to include in a summary is a difficult task. A good summary should be detailed and entity-centric without being overly dense and hard to follow. To better understand this tradeoff, we solicit increasingly dense GPT-4 summaries with what we refer to as a {``}Chain of Density{''} (CoD) prompt. Specifically, GPT-4 generates an initial entity-sparse summary before iteratively incorporating missing salient entities without increasing the length. Summaries generated by CoD are more abstractive, exhibit more fusion, and have less of a lead bias than GPT-4 summaries generated by a vanilla prompt. We conduct a human preference study on 100 CNN DailyMail articles and find that humans prefer GPT-4 summaries that are more dense than those generated by a vanilla prompt and almost as dense as human written summaries. Qualitative analysis supports the notion that there exists a tradeoff between informativeness and readability. 500 annotated CoD summaries, as well as an extra 5,000 unannotated summaries, are freely available on HuggingFace (https://huggingface.co/datasets/griffin/chain{\\_}of{\\_}density).\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "From Sparse to Dense: {GPT}-4 Summarization with Chain of Density Prompting",
+                "author": "Adams, Griffin and Fabbri, Alex and Ladhak, Faisal and Lehman, Eric and Elhadad, No{\\'e}mie",
+                "editor": "Dong, Yue and Xiao, Wen and Wang, Lu and Liu, Fei and Carenini, Giuseppe",
+                "booktitle": "Proceedings of the 4th New Frontiers in Summarization Workshop",
+                "year": "2023",
+                "address": "Singapore",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2023.newsum-1.7",
+                "doi": "10.18653/v1/2023.newsum-1.7",
+                "pages": "68--74",
+                "abstract": "Selecting the {``}right{''} amount of information to include in a summary is a difficult task. A good summary should be detailed and entity-centric without being overly dense and hard to follow. To better understand this tradeoff, we solicit increasingly dense GPT-4 summaries with what we refer to as a {``}Chain of Density{''} (CoD) prompt. Specifically, GPT-4 generates an initial entity-sparse summary before iteratively incorporating missing salient entities without increasing the length. Summaries generated by CoD are more abstractive, exhibit more fusion, and have less of a lead bias than GPT-4 summaries generated by a vanilla prompt. We conduct a human preference study on 100 CNN DailyMail articles and find that humans prefer GPT-4 summaries that are more dense than those generated by a vanilla prompt and almost as dense as human written summaries. Qualitative analysis supports the notion that there exists a tradeoff between informativeness and readability. 500 annotated CoD summaries, as well as an extra 5,000 unannotated summaries, are freely available on HuggingFace (https://huggingface.co/datasets/griffin/chain{\\_}of{\\_}density)."
+            },
+            "ref_source": "bib",
+            "abstract": "Selecting the “right” amount of information to include in a summary is a difficult task. A good summary should be detailed and entity-centric without being overly dense and hard to follow. To better understand this tradeoff, we solicit increasingly dense GPT-4 summaries with what we refer to as a “Chain of Density” (CoD) prompt. Specifically, GPT-4 generates an initial entity-sparse summary before iteratively incorporating missing salient entities without increasing the length. Summaries generated by CoD are more abstractive, exhibit more fusion, and have less of a lead bias than GPT-4 summaries generated by a vanilla prompt. We conduct a human preference study on 100 CNN DailyMail articles and find that that humans prefer GPT-4 summaries that are more dense than those generated by a vanilla prompt and almost as dense as human written summaries. Qualitative analysis supports the notion that there exists a tradeoff between informativeness and readability. 500 annotated CoD summaries, as well as an extra 5,000 unannotated summaries, are freely available on HuggingFace (https://huggingface.co/datasets/griffin/chain_of_density).",
+            "aminer_id": "64fe78f03fda6d7f06a43a80"
+        },
+        "yuan2021bartscore": {
+            "number": "[47]",
+            "title": "Bartscore: Evaluating generated text as text generation",
+            "text": "title={Bartscore: Evaluating generated text as text generation},\n  author={Yuan, Weizhe and Neubig, Graham and Liu, Pengfei},\n  journal={Advances in Neural Information Processing Systems},\n  volume={34},\n  pages={27263--27277},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Bartscore: Evaluating generated text as text generation",
+                "author": "Yuan, Weizhe and Neubig, Graham and Liu, Pengfei",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "34",
+                "pages": "27263--27277",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "60d42f2691e0112ca5d189c3"
+        },
+        "2024aspectbased": {
+            "number": "[48]",
+            "title": "Aspect-based Key Point Analysis for Quantitative Summarization of Reviews",
+            "text": "title={Aspect-based Key Point Analysis for Quantitative Summarization of Reviews},\n  author={Tang, An and Zhang, Xiuzhen and Dinh, Minh},\n  booktitle={18th Conference of the European Chapter of the Association for Computational Linguistics},\n  year={2024},\n  url={https://openreview.net/forum?id=I2BJGAANT1}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect-based Key Point Analysis for Quantitative Summarization of Reviews",
+                "author": "Tang, An and Zhang, Xiuzhen and Dinh, Minh",
+                "booktitle": "18th Conference of the European Chapter of the Association for Computational Linguistics",
+                "year": "2024",
+                "url": "https://openreview.net/forum?id=I2BJGAANT1"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6909d775163c01c8504ff688"
+        },
+        "grootendorst2022bertopic": {
+            "number": "[49]",
+            "title": "BERTopic: Neural Topic Modeling with a Class-Based TF-IDF Procedure",
+            "text": "author    = {Maarten Grootendorst},\n  title     = {BERTopic: Neural topic modeling with a class-based {TF-IDF} procedure},\n  journal   = {CoRR},\n  volume    = {abs/2203.05794},\n  year      = {2022}",
+            "type": "article",
+            "fields": {
+                "author": "Maarten Grootendorst",
+                "title": "BERTopic: Neural topic modeling with a class-based {TF-IDF} procedure",
+                "journal": "CoRR",
+                "volume": "abs/2203.05794",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Topic models can be useful tools to discover latent topics in collections of documents. Recent studies have shown the feasibility of approach topic modeling as a clustering task. We present BERTopic, a topic model that extends this process by extracting coherent topic representation through the development of a class-based variation of TF-IDF. More specifically, BERTopic generates document embedding with pre-trained transformer-based language models, clusters these embeddings, and finally, generates topic representations with the class-based TF-IDF procedure. BERTopic generates coherent topics and remains competitive across a variety of benchmarks involving classical models and those that follow the more recent clustering approach of topic modeling.",
+            "aminer_id": "622eb2495aee126c0f62b12a"
+        },
+        "chung2022scaling": {
+            "number": "[50]",
+            "title": "Scaling Instruction-Finetuned Language Models",
+            "text": "author       = {Hyung Won Chung and\n                  Le Hou and\n                  Shayne Longpre and\n                  Barret Zoph and\n                  Yi Tay and\n                  William Fedus and\n                  Eric Li and\n                  Xuezhi Wang and\n                  Mostafa Dehghani and\n                  Siddhartha Brahma and\n                  Albert Webson and\n                  Shixiang Shane Gu and\n                  Zhuyun Dai and\n                  Mirac Suzgun and\n                  Xinyun Chen and\n                  Aakanksha Chowdhery and\n                  Sharan Narang and\n                  Gaurav Mishra and\n                  Adams Yu and\n                  Vincent Y. Zhao and\n                  Yanping Huang and\n                  Andrew M. Dai and\n                  Hongkun Yu and\n                  Slav Petrov and\n                  Ed H. Chi and\n                  Jeff Dean and\n                  Jacob Devlin and\n                  Adam Roberts and\n                  Denny Zhou and\n                  Quoc V. Le and\n                  Jason Wei},\n  title        = {Scaling Instruction-Finetuned Language Models},\n  journal      = {CoRR},\n  volume       = {abs/2210.11416},\n  year         = {2022}",
+            "type": "article",
+            "fields": {
+                "author": "Hyung Won Chung and Le Hou and Shayne Longpre and Barret Zoph and Yi Tay and William Fedus and Eric Li and Xuezhi Wang and Mostafa Dehghani and Siddhartha Brahma and Albert Webson and Shixiang Shane Gu and Zhuyun Dai and Mirac Suzgun and Xinyun Chen and Aakanksha Chowdhery and Sharan Narang and Gaurav Mishra and Adams Yu and Vincent Y. Zhao and Yanping Huang and Andrew M. Dai and Hongkun Yu and Slav Petrov and Ed H. Chi and Jeff Dean and Jacob Devlin and Adam Roberts and Denny Zhou and Quoc V. Le and Jason Wei",
+                "title": "Scaling Instruction-Finetuned Language Models",
+                "journal": "CoRR",
+                "volume": "abs/2210.11416",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Finetuning language models on a collection of datasets phrased as instructions has been shown to improve model performance and generalization to unseen tasks. In this paper we explore instruction finetuning with a particular focus on (1) scaling the number of tasks, (2) scaling the model size, and (3) finetuning on chain-of-thought data. We find that instruction finetuning with the above aspects dramatically improves performance on a variety of model classes (PaLM, T5, U-PaLM), prompting setups (zero-shot, few-shot, CoT), and evaluation benchmarks (MMLU, BBH, TyDiQA, MGSM, open-ended generation). For instance, Flan-PaLM 540B instruction-finetuned on 1.8K tasks outperforms PALM 540B by a large margin (+9.4% on average). Flan-PaLM 540B achieves state-of-the-art performance on several benchmarks, such as 75.2% on five-shot MMLU. We also publicly release Flan-T5 checkpoints, which achieve strong few-shot performance even compared to much larger models, such as PaLM 62B. Overall, instruction finetuning is a general method for improving the performance and usability of pretrained language models.",
+            "aminer_id": "63520de890e50fcafd60f4dd"
+        },
+        "bradley_terry": {
+            "number": "[51]",
+            "title": "Rank analysis of incomplete block designs the method of paired comparisons",
+            "text": "author = {Bradley, Ralph Allan and Terry, Milton E.},\n    title = \"{RANK ANALYSIS OF INCOMPLETE BLOCK DESIGNS: THE METHOD OF PAIRED COMPARISONS}\",\n    journal = {Biometrika},\n    volume = {39},\n    number = {3-4},\n    pages = {324-345},\n    year = {1952},\n    month = {12},\n    issn = {0006-3444},\n    doi = {10.1093/biomet/39.3-4.324},\n    url = {https://doi.org/10.1093/biomet/39.3-4.324},\n    eprint = {https://academic.oup.com/biomet/article-pdf/39/3-4/324/930466/39-3-4-324.pdf},",
+            "type": "article",
+            "fields": {
+                "author": "Bradley, Ralph Allan and Terry, Milton E.",
+                "title": "{RANK ANALYSIS OF INCOMPLETE BLOCK DESIGNS: THE METHOD OF PAIRED COMPARISONS}",
+                "journal": "Biometrika",
+                "volume": "39",
+                "number": "3-4",
+                "pages": "324-345",
+                "year": "1952",
+                "month": "12",
+                "issn": "0006-3444",
+                "doi": "10.1093/biomet/39.3-4.324",
+                "url": "https://doi.org/10.1093/biomet/39.3-4.324",
+                "eprint": "https://academic.oup.com/biomet/article-pdf/39/3-4/324/930466/39-3-4-324.pdf"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d82fc3dabfae2eee1ad77e"
+        },
+        "yang2022tanet": {
+            "number": "[52]",
+            "title": "TANet: Thread-Aware Pretraining for Abstractive Conversational Summarization",
+            "text": "title={TANet: Thread-Aware Pretraining for Abstractive Conversational Summarization},\n  author={Yang, Ze and Wang, Christian and Tian, Zhoujin and Wu, Wei and Li, Zhoujun},\n  booktitle={Findings of the Association for Computational Linguistics: NAACL 2022},\n  pages={2594--2607},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "TANet: Thread-Aware Pretraining for Abstractive Conversational Summarization",
+                "author": "Yang, Ze and Wang, Christian and Tian, Zhoujin and Wu, Wei and Li, Zhoujun",
+                "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2022",
+                "pages": "2594--2607",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62563f775aee126c0f6f14a7"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 52,
+        "citation_types": {
+            "other": 52
+        }
+    }
+}

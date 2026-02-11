@@ -1,0 +1,741 @@
+{
+    "topic": "Towards Cognitive AI Systems: a Survey and Prospective on Neuro-Symbolic\n  AI",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[17]",
+                "[12]",
+                "[35]",
+                "[4]",
+                "[7]",
+                "[34]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Neuro-Symbolic AI Algorithms",
+            "refs": [
+                "[1]",
+                "[12]",
+                "[16]",
+                "[15]",
+                "[24]",
+                "[25]",
+                "[31]",
+                "[2]",
+                "[19]",
+                "[20]",
+                "[32]",
+                "[27]",
+                "[39]",
+                "[11]",
+                "[22]",
+                "[18]",
+                "[30]",
+                "[13]",
+                "[10]",
+                "[9]",
+                "[7]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "NSAI System Profiling",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "NSAI Model and Experimental Methodology",
+                    "refs": [
+                        "[11]",
+                        "[1]",
+                        "[3]",
+                        "[2]",
+                        "[30]",
+                        "[6]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "NSAI Model Profiling Results",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Challenges and Opportunities",
+            "refs": [
+                "[5]",
+                "[23]",
+                "[29]",
+                "[26]",
+                "[28]",
+                "[37]",
+                "[38]",
+                "[36]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgements",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        }
+    ],
+    "references": {
+        "riegel2020logical": {
+            "number": "[1]",
+            "title": "Logical neural networks",
+            "text": "title={Logical neural networks},\n  author={Riegel, Ryan and Gray, Alexander and Luus, Francois and Khan, Naweed and Makondo, Ndivhuwo and Akhalwaya, Ismail Yunus and Qian, Haifeng and Fagin, Ronald and Barahona, Francisco and Sharma, Udit and others},\n  journal={arXiv preprint arXiv:2006.13155},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Logical neural networks",
+                "author": "Riegel, Ryan and Gray, Alexander and Luus, Francois and Khan, Naweed and Makondo, Ndivhuwo and Akhalwaya, Ismail Yunus and Qian, Haifeng and Fagin, Ronald and Barahona, Francisco and Sharma, Udit and others",
+                "journal": "arXiv preprint arXiv:2006.13155",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "badreddine2022logic": {
+            "number": "[2]",
+            "title": "Logic tensor networks",
+            "text": "title={Logic tensor networks},\n  author={Badreddine, Samy and Garcez, Artur d'Avila and Serafini, Luciano and Spranger, Michael},\n  journal={Artificial Intelligence},\n  volume={303},\n  pages={103649},\n  year={2022},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Logic tensor networks",
+                "author": "Badreddine, Samy and Garcez, Artur d'Avila and Serafini, Luciano and Spranger, Michael",
+                "journal": "Artificial Intelligence",
+                "volume": "303",
+                "pages": "103649",
+                "year": "2022",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58437767ac44360f1083dd40"
+        },
+        "susskind2021neuro": {
+            "number": "[3]",
+            "title": "Neuro-Symbolic AI: an Emerging Class of AI Workloads and Their Characterization.",
+            "text": "title={Neuro-symbolic AI: An emerging class of AI workloads and their characterization},\n  author={Susskind, Zachary and Arden, Bryce and John, Lizy K and Stockton, Patrick and John, Eugene B},\n  journal={arXiv preprint arXiv:2109.06133},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Neuro-symbolic AI: An emerging class of AI workloads and their characterization",
+                "author": "Susskind, Zachary and Arden, Bryce and John, Lizy K and Stockton, Patrick and John, Eugene B",
+                "journal": "arXiv preprint arXiv:2109.06133",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Neuro-symbolic artificial intelligence is a novel area of AI research which seeks to combine traditional rules-based AI approaches with modern deep learning techniques. Neuro-symbolic models have already demonstrated the capability to outperform state-of-the-art deep learning models in domains such as image and video reasoning. They have also been shown to obtain high accuracy with significantly less training data than traditional models. Due to the recency of the field's emergence and relative sparsity of published results, the performance characteristics of these models are not well understood. In this paper, we describe and analyze the performance characteristics of three recent neuro-symbolic models. We find that symbolic models have less potential parallelism than traditional neural models due to complex control flow and low-operational-intensity operations, such as scalar multiplication and tensor addition. However, the neural aspect of computation dominates the symbolic part in cases where they are clearly separable. We also find that data movement poses a potential bottleneck, as it does in many ML workloads.",
+            "aminer_id": "614012c55244ab9dcb816dac"
+        },
+        "wan2021analyzing": {
+            "number": "[4]",
+            "title": "Analyzing and Improving Fault Tolerance of Learning-Based Navigation Systems",
+            "text": "title={Analyzing and improving fault tolerance of learning-based navigation systems},\n  author={Wan, Zishen and Anwar, Aqeel and Hsiao, Yu-Shun and Jia, Tianyu and Reddi, Vijay Janapa and Raychowdhury, Arijit},\n  booktitle={2021 58th ACM/IEEE Design Automation Conference (DAC)},\n  pages={841--846},\n  year={2021},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Analyzing and improving fault tolerance of learning-based navigation systems",
+                "author": "Wan, Zishen and Anwar, Aqeel and Hsiao, Yu-Shun and Jia, Tianyu and Reddi, Vijay Janapa and Raychowdhury, Arijit",
+                "booktitle": "2021 58th ACM/IEEE Design Automation Conference (DAC)",
+                "pages": "841--846",
+                "year": "2021",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning-based navigation systems are widely used in autonomous applications, such as robotics, unmanned vehicles and drones. Specialized hardware accelerators have been proposed for high-performance and energy-efficiency for such navigational tasks. However, transient and permanent faults are increasing in hardware systems and can catastrophically violate tasks safety. Meanwhile, traditional redundancy-based protection methods are challenging to deploy on resource-constrained edge applications. In this paper, we experimentally evaluate the resilience of navigation systems with respect to algorithms, fault models and data types from both RL training and inference. We further propose two efficient fault mitigation techniques that achieve 2x success rate and 39% quality-of-flight improvement in learning-based navigation systems.",
+            "aminer_id": "618b38575244ab9dcb710d96"
+        },
+        "wan2022robotic": {
+            "number": "[5]",
+            "title": "Robotic Computing on FPGAs: Current Progress, Research Challenges, and Opportunities",
+            "text": "title={Robotic computing on fpgas: Current progress, research challenges, and opportunities},\n  author={Wan, Zishen and Lele, Ashwin and Yu, Bo and Liu, Shaoshan and Wang, Yu and Reddi, Vijay Janapa and Hao, Cong and Raychowdhury, Arijit},\n  booktitle={2022 IEEE 4th International Conference on Artificial Intelligence Circuits and Systems (AICAS)},\n  pages={291--295},\n  year={2022},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Robotic computing on fpgas: Current progress, research challenges, and opportunities",
+                "author": "Wan, Zishen and Lele, Ashwin and Yu, Bo and Liu, Shaoshan and Wang, Yu and Reddi, Vijay Janapa and Hao, Cong and Raychowdhury, Arijit",
+                "booktitle": "2022 IEEE 4th International Conference on Artificial Intelligence Circuits and Systems (AICAS)",
+                "pages": "291--295",
+                "year": "2022",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Robotic computing has reached a tipping point, with a myriad of robots (e.g., drones, self-driving cars, logistic robots) being widely applied in diverse scenarios. The continuous proliferation of robotics, however, critically depends on efficient computing substrates, driven by real-time requirements, robotic size-weight-and-power constraints, cybersecurity considerations, and dynamically changing scenarios. Within all platforms, FPGA is able to deliver both software and hardware solutions with low power, high performance, reconfigurability, reliability, and adaptivity characteristics, serving as the promising computing substrate for robotic applications. This paper highlights the current progress, design techniques, challenges, and open research challenges in the domain of robotic computing on FPGAs.",
+            "aminer_id": "628304515aee126c0f6f0ce1"
+        },
+        "pytorch_profiler": {
+            "number": "[6]",
+            "title": "Introducing PyTorch Profiler - the new and improved performance tool",
+            "text": "author={{Maxim Lukiyanov, Guoliang Hua, Geeta Chauhan, and Gisle Dankel}},\n    title={{Introducing PyTorch Profiler - the new and improved performance tool}},\n    year = {2021},\n    note={https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/, accessed 2021-05-21},",
+            "type": "misc",
+            "fields": {
+                "author": "{Maxim Lukiyanov, Guoliang Hua, Geeta Chauhan, and Gisle Dankel}",
+                "title": "{Introducing PyTorch Profiler - the new and improved performance tool}",
+                "year": "2021",
+                "note": "https://pytorch.org/blog/introducing-pytorch-profiler-the-new-and-improved-performance-tool/, accessed 2021-05-21"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yang2020neurasp": {
+            "number": "[7]",
+            "title": "Neurasp: Embracing neural networks into answer set programming",
+            "text": "title={Neurasp: Embracing neural networks into answer set programming},\n  author={Yang, Zhun and Ishay, Adam and Lee, Joohyung},\n  booktitle={29th International Joint Conference on Artificial Intelligence (IJCAI 2020)},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Neurasp: Embracing neural networks into answer set programming",
+                "author": "Yang, Zhun and Ishay, Adam and Lee, Joohyung",
+                "booktitle": "29th International Joint Conference on Artificial Intelligence (IJCAI 2020)",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f0c30d491e01165a98e1b73"
+        },
+        "marinescu2022logical": {
+            "number": "[8]",
+            "title": "Logical Credal Networks",
+            "text": "title={Logical Credal Networks},\n  author={Marinescu, Radu and Qian, Haifeng and Gray, Alexander G and Bhattacharjya, Debarun and Barahona, Francisco and Gao, Tian and Riegel, Ryan and Sahu, Pravinda},\n  booktitle={Advances in Neural Information Processing Systems},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Logical Credal Networks",
+                "author": "Marinescu, Radu and Qian, Haifeng and Gray, Alexander G and Bhattacharjya, Debarun and Barahona, Francisco and Gao, Tian and Riegel, Ryan and Sahu, Pravinda",
+                "booktitle": "Advances in Neural Information Processing Systems",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper introduces Logical Credal Networks, an expressive probabilistic logic that generalizes many prior models that combine logic and probability. Given imprecise information represented by probability bounds and conditional probability bounds of logic formulas, this logic specifies a set of probability distributions over all interpretations. On the one hand, our approach allows propositional and first-order logic formulas with few restrictions, e.g., without requiring acyclicity. On the other hand, it has a Markov condition similar to Bayesian networks and Markov random fields that is critical in real-world applications. Having both these properties makes this logic unique, and we investigate its performance on maximum a posteriori inference tasks, including solving Mastermind games with uncertainty and detecting credit card fraud. The results show that the proposed method outperforms existing approaches, and its advantage lies in aggregating multiple sources of imprecise information.",
+            "aminer_id": "67514fe4ae8580e7ff7d0e98"
+        },
+        "lamb2020graph": {
+            "number": "[9]",
+            "title": "Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective.",
+            "text": "title={Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective},\n  author={Lamb, Luis C and Garcez, Artur and Gori, Marco and Prates, Marcelo and Avelar, Pedro and Vardi, Moshe},\n  booktitle={IJCAI-PRICAI 2020-29th International Joint Conference on Artificial Intelligence-Pacific Rim International Conference on Artificial Intelligence},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Graph Neural Networks Meet Neural-Symbolic Computing: A Survey and Perspective",
+                "author": "Lamb, Luis C and Garcez, Artur and Gori, Marco and Prates, Marcelo and Avelar, Pedro and Vardi, Moshe",
+                "booktitle": "IJCAI-PRICAI 2020-29th International Joint Conference on Artificial Intelligence-Pacific Rim International Conference on Artificial Intelligence",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural-symbolic computing has now become the subject of interest of both academic and industry research laboratories. Graph Neural Networks (GNNs) have been widely used in relational and symbolic domains, with widespread application of GNNs in combinatorial optimization, constraint satisfaction, relational reasoning and other scientific domains. The need for improved explainability, interpretability and trust of AI systems in general demands principled methodologies, as suggested by neural-symbolic computing. In this paper, we review the state-of-the-art on the use of GNNs as a model of neural-symbolic computing. This includes the application of GNNs in several domains as well as their relationship to current developments in neural-symbolic computing.",
+            "aminer_id": "5e5f7c3d91e011df604ec803"
+        },
+        "silver2017mastering": {
+            "number": "[10]",
+            "title": "Mastering Chess and Shogi by Self-Play with a General Reinforcement Learning Algorithm.",
+            "text": "title={Mastering chess and shogi by self-play with a general reinforcement learning algorithm},\n  author={Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and others},\n  journal={arXiv preprint arXiv:1712.01815},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Mastering chess and shogi by self-play with a general reinforcement learning algorithm",
+                "author": "Silver, David and Hubert, Thomas and Schrittwieser, Julian and Antonoglou, Ioannis and Lai, Matthew and Guez, Arthur and Lanctot, Marc and Sifre, Laurent and Kumaran, Dharshan and Graepel, Thore and others",
+                "journal": "arXiv preprint arXiv:1712.01815",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "The game of chess is the most widely-studied domain in the history of artificial intelligence. The strongest programs are based on a combination of sophisticated search techniques, domain-specific adaptations, and handcrafted evaluation functions that have been refined by human experts over several decades. In contrast, the AlphaGo Zero program recently achieved superhuman performance in the game of Go, by tabula rasa reinforcement learning from games of self-play. In this paper, we generalise this approach into a single AlphaZero algorithm that can achieve, tabula rasa, superhuman performance in many challenging domains. Starting from random play, and given no domain knowledge except the game rules, AlphaZero achieved within 24 hours a superhuman level of play in the games of chess and shogi (Japanese chess) as well as Go, and convincingly defeated a world-champion program in each case.",
+            "aminer_id": "5a73cbcc17c44a0b3035f7b3"
+        },
+        "hersche2023neuro": {
+            "number": "[11]",
+            "title": "A neuro-vector-symbolic architecture for solving Raven’s progressive matrices",
+            "text": "title={A neuro-vector-symbolic architecture for solving Raven’s progressive matrices},\n  author={Hersche, Michael and Zeqiri, Mustafa and Benini, Luca and Sebastian, Abu and Rahimi, Abbas},\n  journal={Nature Machine Intelligence},\n  pages={1--13},\n  year={2023},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "A neuro-vector-symbolic architecture for solving Raven’s progressive matrices",
+                "author": "Hersche, Michael and Zeqiri, Mustafa and Benini, Luca and Sebastian, Abu and Rahimi, Abbas",
+                "journal": "Nature Machine Intelligence",
+                "pages": "1--13",
+                "year": "2023",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62296c7a5aee126c0f57d658"
+        },
+        "maoneuro": {
+            "number": "[12]",
+            "title": "The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences from Natural Supervision",
+            "text": "title={The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision},\n  author={Mao, Jiayuan and Gan, Chuang and Kohli, Pushmeet and Tenenbaum, Joshua B and Wu, Jiajun},\n  booktitle={International Conference on Learning Representations},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "The Neuro-Symbolic Concept Learner: Interpreting Scenes, Words, and Sentences From Natural Supervision",
+                "author": "Mao, Jiayuan and Gan, Chuang and Kohli, Pushmeet and Tenenbaum, Joshua B and Wu, Jiajun",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose the Neuro-Symbolic Concept Learner (NS-CL), a model that learns visual concepts, words, and semantic parsing of sentences without explicit supervision on any of them; instead, our model learns by simply looking at images and reading paired questions and answers. Our model builds an object-based scene representation and translates sentences into executable, symbolic programs. To bridge the learning of two modules, we use a neuro-symbolic reasoning module that executes these programs on the latent scene representation. Analogical to human concept learning, the perception module learns visual concepts based on the language description of the object being referred to. Meanwhile, the learned visual concepts facilitate learning new words and parsing new sentences. We use curriculum learning to guide the searching over the large compositional space of images and language. Extensive experiments demonstrate the accuracy and efficiency of our model on learning visual concepts, word representations, and semantic parsing of sentences. Further, our method allows easy generalization to new object attributes, compositions, language concepts, scenes and questions, and even new program domains. It also empowers applications including visual question answering and bidirectional image-text retrieval.",
+            "aminer_id": "5cc8228fe1cd8e018e4cfcec"
+        },
+        "pryor2022neupsl": {
+            "number": "[13]",
+            "title": "NeuPSL: Neural Probabilistic Soft Logic",
+            "text": "title={NeuPSL: Neural Probabilistic Soft Logic},\n  author={Pryor, Connor and Dickens, Charles and Augustine, Eriq and Albalak, Alon and Wang, William and Getoor, Lise},\n  journal={arXiv preprint arXiv:2205.14268},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "NeuPSL: Neural Probabilistic Soft Logic",
+                "author": "Pryor, Connor and Dickens, Charles and Augustine, Eriq and Albalak, Alon and Wang, William and Getoor, Lise",
+                "journal": "arXiv preprint arXiv:2205.14268",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we introduce Neural Probabilistic Soft Logic (NeuPSL), a novel neuro-symbolic (NeSy) framework that unites state-of-the-art symbolic reasoning with the low-level perception of deep neural networks. To model the boundary between neural and symbolic representations, we propose a family of energy-based models, NeSy Energy-Based Models, and show that they are general enough to include NeuPSL and many other NeSy approaches. Using this framework, we show how to seamlessly integrate neural and symbolic parameter learning and inference in NeuPSL. Through an extensive empirical evaluation, we demonstrate the benefits of using NeSy methods, achieving upwards of 30% improvement over independent neural network models. On a well-established NeSy task, MNIST-Addition, NeuPSL demonstrates its joint reasoning capabilities by outperforming existing NeSy approaches by up to 10% in low-data settings. Furthermore, NeuPSL achieves a 5% boost in performance over state-of-the-art NeSy methods in a canonical citation network task with up to a 40 times speed up.",
+            "aminer_id": "6295873d5aee126c0fe142fc"
+        },
+        "yiclevrer": {
+            "number": "[14]",
+            "title": "CLEVRER: CoLlision Events for Video REpresentation and Reasoning",
+            "text": "title={CLEVRER: Collision Events for Video Representation and Reasoning},\n  author={Yi, Kexin and Gan, Chuang and Li, Yunzhu and Kohli, Pushmeet and Wu, Jiajun and Torralba, Antonio and Tenenbaum, Joshua B},\n  booktitle={International Conference on Learning Representations},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "CLEVRER: Collision Events for Video Representation and Reasoning",
+                "author": "Yi, Kexin and Gan, Chuang and Li, Yunzhu and Kohli, Pushmeet and Wu, Jiajun and Torralba, Antonio and Tenenbaum, Joshua B",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "The ability to reason about temporal and causal events from videos lies at the core of human intelligence. Most video reasoning benchmarks, however, focus on pattern recognition from complex visual and language input, instead of on causal structure. We study the complementary problem, exploring the temporal and causal structures behind videos of objects with simple visual appearance. To this end, we introduce the CoLlision Events for Video REpresentation and Reasoning (CLEVRER), a diagnostic video dataset for systematic evaluation of computational models on a wide range of reasoning tasks. Motivated by the theory of human casual judgment, CLEVRER includes four types of questions: descriptive (e.g., \"what color\"), explanatory (\"what is responsible for\"), predictive (\"what will happen next\"), and counterfactual (\"what if\"). We evaluate various state-of-the-art models for visual reasoning on our benchmark. While these models thrive on the perception-based task (descriptive), they perform poorly on the causal tasks (explanatory, predictive and counterfactual), suggesting that a principled approach for causal reasoning should incorporate the capability of both perceiving complex visual and language inputs, and understanding the underlying dynamics and causal relations. We also study an oracle model that explicitly combines these components via symbolic representations.",
+            "aminer_id": "5d9718543a55ac1975e3c17b"
+        },
+        "hohenecker2020ontology": {
+            "number": "[15]",
+            "title": "Ontology reasoning with deep neural networks",
+            "text": "title={Ontology reasoning with deep neural networks},\n  author={Hohenecker, Patrick and Lukas, Thomas},\n  journal={Journal of Artificial Intelligence Research},\n  volume={68},\n  pages={503--540},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Ontology reasoning with deep neural networks",
+                "author": "Hohenecker, Patrick and Lukas, Thomas",
+                "journal": "Journal of Artificial Intelligence Research",
+                "volume": "68",
+                "pages": "503--540",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b8c9f5317c44af36f8b770e"
+        },
+        "lampledeep": {
+            "number": "[16]",
+            "title": "Deep Learning for Symbolic Mathematics",
+            "text": "title={Deep Learning For Symbolic Mathematics},\n  author={Lample, Guillaume and Charton, Fran{\\c{c}}ois},\n  booktitle={International Conference on Learning Representations},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Deep Learning For Symbolic Mathematics",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural networks have a reputation for being better at solving statistical or approximate problems than at performing calculations or working with symbolic data. In this paper, we show that they can be surprisingly good at more elaborated tasks in mathematics, such as symbolic integration and solving differential equations. We propose a syntax for representing mathematical problems, and methods for generating large datasets that can be used to train sequence-to-sequence models. We achieve results that outperform commercial Computer Algebra Systems such as Matlab or Mathematica.",
+            "aminer_id": "5de783d33a55ac74ccc86ba8"
+        },
+        "garcez2023neurosymbolic": {
+            "number": "[17]",
+            "title": "Neurosymbolic AI: The 3 rd wave",
+            "text": "title={Neurosymbolic AI: The 3 rd wave},\n  author={Garcez, Artur d’Avila and Lamb, Luis C},\n  journal={Artificial Intelligence Review},\n  pages={1--20},\n  year={2023},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Neurosymbolic AI: The 3 rd wave",
+                "author": "Garcez, Artur d’Avila and Lamb, Luis C",
+                "journal": "Artificial Intelligence Review",
+                "pages": "1--20",
+                "year": "2023",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "dongneural": {
+            "number": "[18]",
+            "title": "Neural Logic Machines",
+            "text": "title={Neural Logic Machines},\n  author={Dong, Honghua and Mao, Jiayuan and Lin, Tian and Wang, Chong and Li, Lihong and Zhou, Denny},\n  booktitle={International Conference on Learning Representations},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Neural Logic Machines",
+                "author": "Dong, Honghua and Mao, Jiayuan and Lin, Tian and Wang, Chong and Li, Lihong and Zhou, Denny",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose the Neural Logic Machine (NLM), a neural-symbolic architecture for both inductive learning and logic reasoning. NLMs exploit the power of both neural networks—as function approximators, and logic programming—as a symbolic processor for objects with properties, relations, logic connectives, and quantifiers. After being trained on small-scale tasks (such as sorting short arrays), NLMs can recover lifted rules, and generalize to large-scale tasks (such as sorting longer arrays). In our experiments, NLMs achieve perfect generalization in a number of tasks, from relational reasoning tasks on the family tree and general graphs, to decision making tasks including sorting arrays, finding shortest paths, and playing the blocks world. Most of these tasks are hard to accomplish for neural networks or inductive logic programming alone.",
+            "aminer_id": "5cc6cc43e1cd8e77ee676765"
+        },
+        "dai2019bridging": {
+            "number": "[19]",
+            "title": "Bridging Machine Learning and Logical Reasoning by Abductive Learning.",
+            "text": "title={Bridging machine learning and logical reasoning by abductive learning},\n  author={Dai, Wang-Zhou and Xu, Qiuling and Yu, Yang and Zhou, Zhi-Hua},\n  journal={Advances in Neural Information Processing Systems},\n  volume={32},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Bridging machine learning and logical reasoning by abductive learning",
+                "author": "Dai, Wang-Zhou and Xu, Qiuling and Yu, Yang and Zhou, Zhi-Hua",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "32",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Perception and reasoning are two representative abilities of intelligence that are integrated seamlessly during human problem-solving processes. In the area of artificial intelligence (AI), the two abilities are usually realised by machine learning and logic programming, respectively. However, the two categories of techniques were developed separately throughout most of the history of AI. In this paper, we present the abductive learning targeted at unifying the two AI paradigms in a mutually beneficial way, where the machine learning model learns to perceive primitive logic facts from data, while logical reasoning can exploit symbolic domain knowledge and correct the wrongly perceived facts for improving the machine learning models. Furthermore, we propose a novel approach to optimise the machine learning model and the logical reasoning model jointly. We demonstrate that by using abductive learning, machines can learn to recognise numbers and resolve unknown mathematical operations simultaneously from images of simple hand-written equations. Moreover, the learned models can be generalised to longer equations and adapted to different tasks, which is beyond the capability of state-of-the-art deep learning models.",
+            "aminer_id": "5db9293547c8f766461f08b3"
+        },
+        "evans2018learning": {
+            "number": "[20]",
+            "title": "Learning explanatory rules from noisy data",
+            "text": "title={Learning explanatory rules from noisy data},\n  author={Evans, Richard and Grefenstette, Edward},\n  journal={Journal of Artificial Intelligence Research},\n  volume={61},\n  pages={1--64},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Learning explanatory rules from noisy data",
+                "author": "Evans, Richard and Grefenstette, Edward",
+                "journal": "Journal of Artificial Intelligence Research",
+                "volume": "61",
+                "pages": "1--64",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a260c8117c44a4ba8a307dc"
+        },
+        "wang2019satnet": {
+            "number": "[21]",
+            "title": "SATNet: Bridging Deep Learning and Logical Reasoning Using a Differentiable Satisfiability Solver",
+            "text": "title={Satnet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver},\n  author={Wang, Po-Wei and Donti, Priya and Wilder, Bryan and Kolter, Zico},\n  booktitle={International Conference on Machine Learning},\n  pages={6545--6554},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Satnet: Bridging deep learning and logical reasoning using a differentiable satisfiability solver",
+                "author": "Wang, Po-Wei and Donti, Priya and Wilder, Bryan and Kolter, Zico",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "6545--6554",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Integrating logical reasoning within deep learning architectures has been a major goal of modern AI systems. In this paper, we propose a new direction toward this goal by introducing a differentiable (smoothed) maximum satisfiability (MAXSAT) solver that can be integrated into the loop of larger deep learning systems. Our (approximate) solver is based upon a fast coordinate descent approach to solving the semidefinite program (SDP) associated with the MAXSAT problem. We show how to analytically differentiate through the solution to this SDP and efficiently solve the associated backward pass. We demonstrate that by integrating this solver into end-to-end learning systems, we can learn the logical structure of challenging problems in a minimally supervised fashion. In particular, we show that we can learn the parity function using single-bit supervision (a traditionally hard task for deep networks) and learn how to play 9x9 Sudoku solely from examples. We also solve a \"visual Sudok\" problem that maps images of Sudoku puzzles to their associated logical solutions by combining our MAXSAT solver with a traditional convolutional architecture. Our approach thus shows promise in integrating logical structures within deep learning.",
+            "aminer_id": "5f0e8e289fced0a24bce1c3f"
+        },
+        "yi2018neural": {
+            "number": "[22]",
+            "title": "Neural-symbolic vqa: Disentangling reasoning from vision and language understanding",
+            "text": "title={Neural-symbolic vqa: Disentangling reasoning from vision and language understanding},\n  author={Yi, Kexin and Wu, Jiajun and Gan, Chuang and Torralba, Antonio and Kohli, Pushmeet and Tenenbaum, Josh},\n  journal={Advances in neural information processing systems},\n  volume={31},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Neural-symbolic vqa: Disentangling reasoning from vision and language understanding",
+                "author": "Yi, Kexin and Wu, Jiajun and Gan, Chuang and Torralba, Antonio and Kohli, Pushmeet and Tenenbaum, Josh",
+                "journal": "Advances in neural information processing systems",
+                "volume": "31",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c2348ceda562935fc1d589f"
+        },
+        "aditya2023pyreason": {
+            "number": "[23]",
+            "title": "PyReason: Software for Open World Temporal Logic",
+            "text": "title={PyReason: Software for Open World Temporal Logic},\n  author={Aditya, Dyuman and Mukherji, Kaustuv and Balasubramanian, Srikar and Chaudhary, Abhiraj and Shakarian, Paulo},\n  journal={arXiv preprint arXiv:2302.13482},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "PyReason: Software for Open World Temporal Logic",
+                "author": "Aditya, Dyuman and Mukherji, Kaustuv and Balasubramanian, Srikar and Chaudhary, Abhiraj and Shakarian, Paulo",
+                "journal": "arXiv preprint arXiv:2302.13482",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "The growing popularity of neuro symbolic reasoning has led to the adoption of various forms of differentiable (i.e., fuzzy) first order logic. We introduce PyReason, a software framework based on generalized annotated logic that both captures the current cohort of differentiable logics and temporal extensions to support inference over finite periods of time with capabilities for open world reasoning. Further, PyReason is implemented to directly support reasoning over graphical structures (e.g., knowledge graphs, social networks, biological networks, etc.), produces fully explainable traces of inference, and includes various practical features such as type checking and a memory-efficient implementation. This paper reviews various extensions of generalized annotated logic integrated into our implementation, our modern, efficient Python-based implementation that conducts exact yet scalable deductive inference, and a suite of experiments. PyReason is available at: github.com/lab-v2/pyreason.",
+            "aminer_id": "63fd715990e50fcafd146e70"
+        },
+        "zhang2020alphazero": {
+            "number": "[24]",
+            "title": "AlphaZero",
+            "text": "title={AlphaZero},\n  author={Zhang, Hongming and Yu, Tianyang},\n  journal={Deep Reinforcement Learning: Fundamentals, Research and Applications},\n  pages={391--415},\n  year={2020},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "AlphaZero",
+                "author": "Zhang, Hongming and Yu, Tianyang",
+                "journal": "Deep Reinforcement Learning: Fundamentals, Research and Applications",
+                "pages": "391--415",
+                "year": "2020",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "manhaeve2021neural": {
+            "number": "[25]",
+            "title": "Neural Probabilistic Logic Programming in DeepProbLog",
+            "text": "title={Neural probabilistic logic programming in DeepProbLog},\n  author={Manhaeve, Robin and Duman{\\v{c}}i{\\'c}, Sebastijan and Kimmig, Angelika and Demeester, Thomas and De Raedt, Luc},\n  journal={Artificial Intelligence},\n  volume={298},\n  pages={103504},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Neural probabilistic logic programming in DeepProbLog",
+                "journal": "Artificial Intelligence",
+                "volume": "298",
+                "pages": "103504",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce DeepProbLog, a neural probabilistic logic programming language that incorporates deep learning by means of neural predicates. We show how existing inference and learning techniques of the underlying probabilistic logic programming language ProbLog can be adapted for the new language. We theoretically and experimentally demonstrate that DeepProbLog supports (i) both symbolic and subsymbolic representations and inference, (ii) program induction, (iii) probabilistic (logic) programming, and (iv) (deep) learning from examples. To the best of our knowledge, this work is the first to propose a framework where general-purpose neural networks and expressive probabilistic-logical modeling and reasoning are integrated in a way that exploits the full expressiveness and strengths of both worlds and can be trained end-to-end based on examples.",
+            "aminer_id": "5b3d98d617c44a510f802613"
+        },
+        "krishnan2022automatic": {
+            "number": "[26]",
+            "title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+            "text": "title={Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles},\n  author={Krishnan, Srivatsan and Wan, Zishen and Bhardwaj, Kshitij and Whatmough, Paul and Faust, Aleksandra and Neuman, Sabrina and Wei, Gu-Yeon and Brooks, David and Reddi, Vijay Janapa},\n  booktitle={2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO)},\n  pages={300--317},\n  year={2022},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Automatic Domain-Specific SoC Design for Autonomous Unmanned Aerial Vehicles",
+                "author": "Krishnan, Srivatsan and Wan, Zishen and Bhardwaj, Kshitij and Whatmough, Paul and Faust, Aleksandra and Neuman, Sabrina and Wei, Gu-Yeon and Brooks, David and Reddi, Vijay Janapa",
+                "booktitle": "2022 55th IEEE/ACM International Symposium on Microarchitecture (MICRO)",
+                "pages": "300--317",
+                "year": "2022",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Building domain-specific accelerators is becoming increasingly paramount to meet the high-performance requirements under stringent power and real-time constraints. However, emerging application domains like autonomous vehicles are complex systems with constraints extending beyond the computing stack. Manually selecting and navigating the design space to design custom and efficient domain-specific SoCs (DSSoC) is tedious and expensive. Hence, there is a need for automated DSSoC design methodologies. In this paper, we use agile and autonomous UAVs as a case study to understand how to automate domain-specific SoCs design for autonomous vehicles. Architecting a UAV DSSoC requires consideration of parameters such as sensor rate, compute throughput, and other physical characteristics (e.g., payload weight, thrust-to-weight ratio) that affect overall performance. Iterating over several component choices results in a combinatorial explosion of the number of possible combinations: from tens of thousands to billions, depending on implementation details. To navigate the DSSoC design space efficiently, we introduce AutoPilot, a systematic methodology for automatically designing DSSoC for autonomous UAVs. AutoPilot uses machine learning to navigate the large DSSoC design space and automatically select a combination of autonomy algorithm and hardware accelerator while considering the cross-product effect across different UAV components. AutoPilot consistently outperforms general-purpose hardware selections like Xavier NX and Jetson TX2, as well as dedicated hardware accelerators built for autonomous UAVs. DSSoC designs generated by AutoPilot increase the number of missions on average by up to 2.25×, 1.62×, and 1.43× for nano, micro, and mini-UAVs, respectively, over baselines. Further, we discuss the potential application of AutoPilot methodology to other related autonomous vehicles.",
+            "aminer_id": "63649ecb90e50fcafd39085c"
+        },
+        "yi2020clevrer": {
+            "number": "[27]",
+            "title": "CLEVRER: CoLlision Events for Video REpresentation and Reasoning",
+            "text": "title={CLEVRER: CoLlision Events for Video REpresentation and Reasoning},\n  author={Yi, Kexin and Gan, Chuang and Li, Yunzhu and Kohli, Pushmeet and Wu, Jiajun and Torralba, Antonio and Tenenbaum, Joshua B},\n  booktitle={International Conference on Learning Representations},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "CLEVRER: CoLlision Events for Video REpresentation and Reasoning",
+                "author": "Yi, Kexin and Gan, Chuang and Li, Yunzhu and Kohli, Pushmeet and Wu, Jiajun and Torralba, Antonio and Tenenbaum, Joshua B",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "The ability to reason about temporal and causal events from videos lies at the core of human intelligence. Most video reasoning benchmarks, however, focus on pattern recognition from complex visual and language input, instead of on causal structure. We study the complementary problem, exploring the temporal and causal structures behind videos of objects with simple visual appearance. To this end, we introduce the CoLlision Events for Video REpresentation and Reasoning (CLEVRER), a diagnostic video dataset for systematic evaluation of computational models on a wide range of reasoning tasks. Motivated by the theory of human casual judgment, CLEVRER includes four types of questions: descriptive (e.g., \"what color\"), explanatory (\"what is responsible for\"), predictive (\"what will happen next\"), and counterfactual (\"what if\"). We evaluate various state-of-the-art models for visual reasoning on our benchmark. While these models thrive on the perception-based task (descriptive), they perform poorly on the causal tasks (explanatory, predictive and counterfactual), suggesting that a principled approach for causal reasoning should incorporate the capability of both perceiving complex visual and language inputs, and understanding the underlying dynamics and causal relations. We also study an oracle model that explicitly combines these components via symbolic representations.",
+            "aminer_id": "5d9718543a55ac1975e3c17b"
+        },
+        "crafton2022improving": {
+            "number": "[28]",
+            "title": "Improving Compute In-Memory ECC Reliability with Successive Correction",
+            "text": "title={Improving compute in-memory ECC reliability with successive correction},\n  author={Crafton, Brian and Wan, Zishen and Spetalnick, Samuel and Yoon, Jong-Hyeok and Wu, Wei and Tokunaga, Carlos and De, Vivek and Raychowdhury, Arijit},\n  booktitle={Proceedings of the 59th ACM/IEEE Design Automation Conference},\n  pages={745--750},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Improving compute in-memory ECC reliability with successive correction",
+                "author": "Crafton, Brian and Wan, Zishen and Spetalnick, Samuel and Yoon, Jong-Hyeok and Wu, Wei and Tokunaga, Carlos and De, Vivek and Raychowdhury, Arijit",
+                "booktitle": "Proceedings of the 59th ACM/IEEE Design Automation Conference",
+                "pages": "745--750",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Compute in-memory (CIM) is an exciting technique that minimizes data transport, maximizes memory throughput, and performs computation on the bitline of memory sub-arrays. This is especially interesting for machine learning applications, where increased memory bandwidth and analog domain computation offer improved area and energy efficiency. Unfortunately, CIM faces new challenges traditional CMOS architectures have avoided. In this work, we explore the impact of device variation (calibrated with measured data on foundry RRAM arrays) and propose a new class of error correcting codes (ECC) for hard and soft errors in CIM. We demonstrate single, double, and triple error correction offering over 16,000× reduction in bit error rate over a design without ECC and over 427× over prior work, while consuming only 29.1% area and 26.3% power overhead.",
+            "aminer_id": "634d805490e50fcafd4e0336"
+        },
+        "krishnan2022roofline": {
+            "number": "[29]",
+            "title": "Roofline Model for UAVs: A Bottleneck Analysis Tool for Onboard Compute Characterization of Autonomous Unmanned Aerial Vehicles",
+            "text": "title={Roofline model for uavs: A bottleneck analysis tool for onboard compute characterization of autonomous unmanned aerial vehicles},\n  author={Krishnan, Srivatsan and Wan, Zishen and Bhardwaj, Kshitij and Jadhav, Ninad and Faust, Aleksandra and Reddi, Vijay Janapa},\n  booktitle={2022 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)},\n  pages={162--174},\n  year={2022},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Roofline model for uavs: A bottleneck analysis tool for onboard compute characterization of autonomous unmanned aerial vehicles",
+                "author": "Krishnan, Srivatsan and Wan, Zishen and Bhardwaj, Kshitij and Jadhav, Ninad and Faust, Aleksandra and Reddi, Vijay Janapa",
+                "booktitle": "2022 IEEE International Symposium on Performance Analysis of Systems and Software (ISPASS)",
+                "pages": "162--174",
+                "year": "2022",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce an early-phase bottleneck analysis and characterization model called the F-1 for designing computing systems that target autonomous Unmanned Aerial Vehicles (UAVs). The model provides insights by exploiting the fundamental relationships between various components in the autonomous UAV, such as sensor, compute, and body dynamics. To guarantee safe operation while maximizing the performance (e.g., velocity) of the UAV, the compute, sensor, and other mechanical properties must be carefully selected or designed. The F-1 model provides visual insights that can aid a system architect in understanding the optimal compute design or selection for autonomous UAVs. The model is experimentally validated using real UAVs, and the error is between 5.1% to 9.5% compared to real-world flight tests. An interactive web-based tool for the F-1 model called Skyline is available for free of cost use at: https://bit.ly/skyline-tool",
+            "aminer_id": "626754bb5aee126c0fbccb6c"
+        },
+        "zhang2019raven": {
+            "number": "[30]",
+            "title": "RAVEN: A Dataset for Relational and Analogical Visual Reasoning",
+            "text": "title={Raven: A dataset for relational and analogical visual reasoning},\n  author={Zhang, Chi and Gao, Feng and Jia, Baoxiong and Zhu, Yixin and Zhu, Song-Chun},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={5317--5327},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Raven: A dataset for relational and analogical visual reasoning",
+                "author": "Zhang, Chi and Gao, Feng and Jia, Baoxiong and Zhu, Yixin and Zhu, Song-Chun",
+                "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+                "pages": "5317--5327",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Dramatic progress has been witnessed in basic vision tasks involving low-level perception, such as object recognition, detection, and tracking. Unfortunately, there is still enormous performance gap between artificial vision systems and human intelligence in terms of higher-level vision problems, especially ones involving reasoning. Earlier attempts in equipping machines with high-level reasoning have hovered around Visual Question Answering (VQA), one typical task associating vision and language understanding. In this work, we propose a new dataset, built in the context of Raven's Progressive Matrices (RPM) and aimed at lifting machine intelligence by associating vision with structural, relational, and analogical reasoning in a hierarchical representation. Unlike previous works in measuring abstract reasoning using RPM, we establish a semantic link between vision and reasoning by providing structure representation. This addition enables a new type of abstract reasoning by jointly operating on the structure representation. Machine reasoning ability using modern computer vision is evaluated in this newly proposed dataset. Additionally, we also provide human performance as a reference. Finally, we show consistent improvement across all models by incorporating a simple neural module that combines visual understanding and structure reasoning.",
+            "aminer_id": "5c82572be1cd8e05b8ab6e0c"
+        },
+        "hu2021stratified": {
+            "number": "[31]",
+            "title": "Stratified rule-aware network for abstract visual reasoning",
+            "text": "title={Stratified rule-aware network for abstract visual reasoning},\n  author={Hu, Sheng and Ma, Yuqing and Liu, Xianglong and Wei, Yanlu and Bai, Shihao},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={35},\n  number={2},\n  pages={1567--1574},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Stratified rule-aware network for abstract visual reasoning",
+                "author": "Hu, Sheng and Ma, Yuqing and Liu, Xianglong and Wei, Yanlu and Bai, Shihao",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "35",
+                "number": "2",
+                "pages": "1567--1574",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e4d083f3a55ac8cfd7709df"
+        },
+        "garcez2019neural": {
+            "number": "[32]",
+            "title": "Neural-Symbolic Computing: an Effective Methodology for Principled Integration of Machine Learning and Reasoning",
+            "text": "title={Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning},\n  author={Garcez, Artur d'Avila and Gori, Marco and Lamb, Luis C and Serafini, Luciano and Spranger, Michael and Tran, Son N},\n  journal={arXiv preprint arXiv:1905.06088},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Neural-symbolic computing: An effective methodology for principled integration of machine learning and reasoning",
+                "author": "Garcez, Artur d'Avila and Gori, Marco and Lamb, Luis C and Serafini, Luciano and Spranger, Michael and Tran, Son N",
+                "journal": "arXiv preprint arXiv:1905.06088",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Current advances in Artificial Intelligence and machine learning in general, and deep learning in particular have reached unprecedented impact not only across research communities, but also over popular media channels. However, concerns about interpretability and accountability of AI have been raised by influential thinkers. In spite of the recent impact of AI, several works have identified the need for principled knowledge representation and reasoning mechanisms integrated with deep learning-based systems to provide sound and explainable models for such systems. Neural-symbolic computing aims at integrating, as foreseen by Valiant, two most fundamental cognitive abilities: the ability to learn from the environment, and the ability to reason from what has been learned. Neural-symbolic computing has been an active topic of research for many years, reconciling the advantages of robust learning in neural networks and reasoning and interpretability of symbolic representation. In this paper, we survey recent accomplishments of neural-symbolic computing as a principled methodology for integrated machine learning and reasoning. We illustrate the effectiveness of the approach by outlining the main characteristics of the methodology: principled integration of neural learning with symbolic knowledge representation and reasoning allowing for the construction of explainable AI systems. The insights provided by neural-symbolic computing shed new light on the increasingly prominent need for interpretable and accountable AI systems.",
+            "aminer_id": "5cdd3c32e1cd8e6697ca2a95"
+        },
+        "thirdAI": {
+            "number": "[33]",
+            "title": "The third AI summer",
+            "text": "title={{The third AI summer}},\n  howpublished = \"\\url{https://roc-hci.com/announcements/the-third-ai-summer/}\"",
+            "type": "misc",
+            "fields": {
+                "title": "{The third AI summer}",
+                "howpublished": "\\url{https://roc-hci.com/announcements/the-third-ai-summer/}"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "wu2022sustainable": {
+            "number": "[34]",
+            "title": "Sustainable ai: Environmental implications, challenges and opportunities",
+            "text": "title={Sustainable ai: Environmental implications, challenges and opportunities},\n  author={Wu, Carole-Jean and Raghavendra, Ramya and Gupta, Udit and Acun, Bilge and Ardalani, Newsha and Maeng, Kiwan and Chang, Gloria and Aga, Fiona and Huang, Jinshi and Bai, Charles and others},\n  journal={Proceedings of Machine Learning and Systems},\n  volume={4},\n  pages={795--813},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Sustainable ai: Environmental implications, challenges and opportunities",
+                "author": "Wu, Carole-Jean and Raghavendra, Ramya and Gupta, Udit and Acun, Bilge and Ardalani, Newsha and Maeng, Kiwan and Chang, Gloria and Aga, Fiona and Huang, Jinshi and Bai, Charles and others",
+                "journal": "Proceedings of Machine Learning and Systems",
+                "volume": "4",
+                "pages": "795--813",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6180ac435244ab9dcb793c30"
+        },
+        "dwivedi2023explainable": {
+            "number": "[35]",
+            "title": "Explainable AI (XAI): Core ideas, techniques, and solutions",
+            "text": "title={Explainable AI (XAI): Core ideas, techniques, and solutions},\n  author={Dwivedi, Rudresh and Dave, Devam and Naik, Het and Singhal, Smiti and Omer, Rana and Patel, Pankesh and Qian, Bin and Wen, Zhenyu and Shah, Tejal and Morgan, Graham and others},\n  journal={ACM Computing Surveys},\n  volume={55},\n  number={9},\n  pages={1--33},\n  year={2023},\n  publisher={ACM New York, NY}",
+            "type": "article",
+            "fields": {
+                "title": "Explainable AI (XAI): Core ideas, techniques, and solutions",
+                "author": "Dwivedi, Rudresh and Dave, Devam and Naik, Het and Singhal, Smiti and Omer, Rana and Patel, Pankesh and Qian, Bin and Wen, Zhenyu and Shah, Tejal and Morgan, Graham and others",
+                "journal": "ACM Computing Surveys",
+                "volume": "55",
+                "number": "9",
+                "pages": "1--33",
+                "year": "2023",
+                "publisher": "ACM New York, NY"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "642512a690e50fcafdbec8e6"
+        },
+        "booch2021thinking": {
+            "number": "[36]",
+            "title": "Thinking Fast and Slow in AI",
+            "text": "title={Thinking fast and slow in AI},\n  author={Booch, Grady and Fabiano, Francesco and Horesh, Lior and Kate, Kiran and Lenchner, Jonathan and Linck, Nick and Loreggia, Andreas and Murgesan, Keerthiram and Mattei, Nicholas and Rossi, Francesca and others},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={35},\n  number={17},\n  pages={15042--15046},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Thinking fast and slow in AI",
+                "author": "Booch, Grady and Fabiano, Francesco and Horesh, Lior and Kate, Kiran and Lenchner, Jonathan and Linck, Nick and Loreggia, Andreas and Murgesan, Keerthiram and Mattei, Nicholas and Rossi, Francesca and others",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "35",
+                "number": "17",
+                "pages": "15042--15046",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper proposes a research direction to advance AI which draws inspiration from cognitive theories of human decision making. The premise is that if we gain insights about the causes of some human capabilities that are still lacking in AI (for instance, adaptability, generalizability, common sense, and causal reasoning), we may obtain similar capabilities in an AI system by embedding these causal components. We hope that the high-level description of our vision included in this paper, as well as the several research questions that we propose to consider, can stimulate the AI research community to define, try and evaluate new methodologies, frameworks, and evaluation metrics, in the spirit of achieving a better understanding of both human and machine intelligence.",
+            "aminer_id": "5f86c1f991e011dbc7eba1e7"
+        },
+        "garcez2022neural": {
+            "number": "[37]",
+            "title": "Neural-symbolic learning and reasoning: a survey and interpretation",
+            "text": "title={Neural-symbolic learning and reasoning: a survey and interpretation},\n  author={Garcez, Artur d’Avila and Bader, Sebastian and Bowman, Howard and Lamb, Luis C and de Penning, Leo and Illuminoo, BV and Poon, Hoifung and Zaverucha, COPPE Gerson},\n  journal={Neuro-Symbolic Artificial Intelligence: The State of the Art},\n  volume={342},\n  number={1},\n  year={2022},\n  publisher={IOS Press}",
+            "type": "article",
+            "fields": {
+                "title": "Neural-symbolic learning and reasoning: a survey and interpretation",
+                "author": "Garcez, Artur d’Avila and Bader, Sebastian and Bowman, Howard and Lamb, Luis C and de Penning, Leo and Illuminoo, BV and Poon, Hoifung and Zaverucha, COPPE Gerson",
+                "journal": "Neuro-Symbolic Artificial Intelligence: The State of the Art",
+                "volume": "342",
+                "number": "1",
+                "year": "2022",
+                "publisher": "IOS Press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a260c8617c44a4ba8a324c9"
+        },
+        "wang2022towards": {
+            "number": "[38]",
+            "title": "Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing",
+            "text": "title={Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing},\n  author={Wang, Wenguan and Yang, Yi},\n  journal={arXiv preprint arXiv:2210.15889},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Towards Data-and Knowledge-Driven Artificial Intelligence: A Survey on Neuro-Symbolic Computing",
+                "author": "Wang, Wenguan and Yang, Yi",
+                "journal": "arXiv preprint arXiv:2210.15889",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "henry2020taxonomy": {
+            "number": "[39]",
+            "title": "Robert S. Engelmore Memorial Lecture at AAAI 2020",
+            "text": "title={Robert S. Engelmore Memorial Lecture at AAAI 2020},\n  author={Henry Kaut},\n  journal={https://roc-hci.com/announcements/the-third-ai-summer/},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Robert S. Engelmore Memorial Lecture at AAAI 2020",
+                "author": "Henry Kaut",
+                "journal": "https://roc-hci.com/announcements/the-third-ai-summer/",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 39,
+        "citation_types": {
+            "other": 39
+        }
+    }
+}

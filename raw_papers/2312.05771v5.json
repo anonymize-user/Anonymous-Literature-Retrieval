@@ -1,0 +1,1512 @@
+{
+    "topic": "Hacking Task Confounder in Meta-Learning",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[63]",
+                "[9]",
+                "[13]",
+                "[36]",
+                "[68]",
+                "[51]",
+                "[43]",
+                "[61]",
+                "[25]",
+                "[8]",
+                "[50]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Work",
+            "refs": [
+                "[23]",
+                "[29]",
+                "[27]",
+                "[20]",
+                "[30]",
+                "[26]",
+                "[24]",
+                "[22]",
+                "[67]",
+                "[28]",
+                "[31]",
+                "[21]",
+                "[32]",
+                "[47]",
+                "[25]",
+                "[33]",
+                "[15]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Problem Formulation and Analysis",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Preliminaries",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Empirical Evidence",
+                    "refs": [
+                        "[9]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Causal Analysis and Motivation",
+                    "refs": [
+                        "[38]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Methodology",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Disentangling Module",
+                    "refs": [
+                        "[64]",
+                        "[60]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Causal Module",
+                    "refs": [
+                        "[46]",
+                        "[58]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Overall Objective",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Experiments",
+            "refs": [
+                "[16]",
+                "[15]",
+                "[49]",
+                "[53]",
+                "[30]",
+                "[24]",
+                "[47]",
+                "[25]",
+                "[14]",
+                "[18]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Sinusoid Regression",
+                    "refs": [
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Image Classification",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Drug Activity Prediction",
+                    "refs": [
+                        "[24]",
+                        "[54]"
+                    ],
+                    "subsections": [],
+                    "number": "5.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Pose Prediction",
+                    "refs": [
+                        "[24]",
+                        "[55]"
+                    ],
+                    "subsections": [],
+                    "number": "5.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ablation Study",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "5.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Visualization",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "5.6",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgements",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Contribution Statement",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Proof of Theorem 1",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Problem Definition",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Proof",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.2",
+                    "level": 2
+                }
+            ],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Pseudo Code and Pipeline",
+            "refs": [],
+            "subsections": [],
+            "number": "10",
+            "level": 1
+        },
+        {
+            "section_title": "Datasets",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Sinusoid Regression",
+                    "refs": [
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "11.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Image Classification",
+                    "refs": [
+                        "[36]",
+                        "[66]",
+                        "[65]",
+                        "[37]"
+                    ],
+                    "subsections": [],
+                    "number": "11.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Drug Activity Prediction",
+                    "refs": [
+                        "[59]",
+                        "[54]",
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "11.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Pose Prediction",
+                    "refs": [
+                        "[55]"
+                    ],
+                    "subsections": [],
+                    "number": "11.4",
+                    "level": 2
+                }
+            ],
+            "number": "11",
+            "level": 1
+        },
+        {
+            "section_title": "Baselines",
+            "refs": [
+                "[49]",
+                "[30]",
+                "[53]",
+                "[24]",
+                "[18]",
+                "[25]"
+            ],
+            "subsections": [],
+            "number": "12",
+            "level": 1
+        },
+        {
+            "section_title": "Implementation and Architecture",
+            "refs": [
+                "[25]",
+                "[30]"
+            ],
+            "subsections": [],
+            "number": "13",
+            "level": 1
+        },
+        {
+            "section_title": "Additional Results",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Full Results of Empirical Evidence",
+                    "refs": [
+                        "[37]",
+                        "[52]",
+                        "[49]",
+                        "[18]"
+                    ],
+                    "subsections": [],
+                    "number": "14.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hyperparameter Sensitivity",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "14.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Results together with Task Augmentation",
+                    "refs": [
+                        "[24]"
+                    ],
+                    "subsections": [],
+                    "number": "14.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Full Results of Comparison Experiments",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "14.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Full Results of Ablation Studies",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "14.5",
+                    "level": 2
+                }
+            ],
+            "number": "14",
+            "level": 1
+        }
+    ],
+    "references": {
+        "hospedales2021meta": {
+            "number": "[1]",
+            "title": "Meta-Learning in Neural Networks: A Survey",
+            "text": "title={Meta-learning in neural networks: A survey},\n  author={Hospedales, Timothy and Antoniou, Antreas and Micaelli, Paul and Storkey, Amos},\n  journal={IEEE transactions on pattern analysis and machine intelligence},\n  volume={44},\n  number={9},\n  pages={5149--5169},\n  year={2021},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning in neural networks: A survey",
+                "author": "Hospedales, Timothy and Antoniou, Antreas and Micaelli, Paul and Storkey, Amos",
+                "journal": "IEEE transactions on pattern analysis and machine intelligence",
+                "volume": "44",
+                "number": "9",
+                "pages": "5149--5169",
+                "year": "2021",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The field of meta-learning, or learning-to-learn, has seen a dramatic rise in interest in recent years. Contrary to conventional approaches to AI where tasks are solved from scratch using a fixed learning algorithm, meta-learning aims to improve the learning algorithm itself, given the experience of multiple learning episodes. This paradigm provides an opportunity to tackle many conventional challenges of deep learning, including data and computation bottlenecks, as well as generalization. This survey describes the contemporary meta-learning landscape. We first discuss definitions of meta-learning and position it with respect to related fields, such as transfer learning and hyperparameter optimization. We then propose a new taxonomy that provides a more comprehensive breakdown of the space of meta-learning methods today. We survey promising applications and successes of meta-learning such as few-shot learning and reinforcement learning. Finally, we discuss outstanding challenges and promising areas for future research.",
+            "aminer_id": "5e96db3891e01129d1a03eed"
+        },
+        "du2020learning": {
+            "number": "[2]",
+            "title": "Learning to Learn with Variational Information Bottleneck for Domain Generalization",
+            "text": "title={Learning to learn with variational information bottleneck for domain generalization},\n  author={Du, Yingjun and Xu, Jun and Xiong, Huan and Qiu, Qiang and Zhen, Xiantong and Snoek, Cees GM and Shao, Ling},\n  booktitle={Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part X 16},\n  pages={200--216},\n  year={2020},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to learn with variational information bottleneck for domain generalization",
+                "author": "Du, Yingjun and Xu, Jun and Xiong, Huan and Qiu, Qiang and Zhen, Xiantong and Snoek, Cees GM and Shao, Ling",
+                "booktitle": "Computer Vision--ECCV 2020: 16th European Conference, Glasgow, UK, August 23--28, 2020, Proceedings, Part X 16",
+                "pages": "200--216",
+                "year": "2020",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Domain generalization models learn to generalize to previously unseen domains, but suffer from prediction uncertainty and domain shift. In this paper, we address both problems. We introduce a probabilistic meta-learning model for domain generalization, in which classifier parameters shared across domains are modeled as distributions. This enables better handling of prediction uncertainty on unseen domains. To deal with domain shift, we learn domain-invariant representations by the proposed principle of meta variational information bottleneck, we call MetaVIB. MetaVIB is derived from novel variational bounds of mutual information, by leveraging the meta-learning setting of domain generalization. Through episodic training, MetaVIB learns to gradually narrow domain gaps to establish domain-invariant representations, while simultaneously maximizing prediction accuracy. We conduct experiments on three benchmarks for cross-domain visual recognition. Comprehensive ablation studies validate the benefits of MetaVIB for domain generalization. The comparison results demonstrate our method outperforms previous approaches consistently.",
+            "aminer_id": "5f08098d9e795e9fed0c1753"
+        },
+        "li2018learning": {
+            "number": "[3]",
+            "title": "Learning to Generalize: Meta-Learning for Domain Generalization",
+            "text": "title={Learning to generalize: Meta-learning for domain generalization},\n  author={Li, Da and Yang, Yongxin and Song, Yi-Zhe and Hospedales, Timothy},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={32},\n  number={1},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to generalize: Meta-learning for domain generalization",
+                "author": "Li, Da and Yang, Yongxin and Song, Yi-Zhe and Hospedales, Timothy",
+                "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+                "volume": "32",
+                "number": "1",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Domain shift refers to the well known problem that a model trained in one source domain performs poorly when applied to a target domain with different statistics. Domain Generalization (DG) techniques attempt to alleviate this issue by producing models which by design generalize well to novel testing domains. We propose a novel meta-learning method for domain generalization. Rather than designing a specific model that is robust to domain shift as in most previous DG work, we propose a model agnostic training procedure for DG. Our algorithm simulates train/test domain shift during training by synthesizing virtual testing domains within each mini-batch. The meta-optimization objective requires that steps to improve training domain performance should also improve testing domain performance. This meta-learning procedure trains models with good generalization ability to novel domains. We evaluate our method and achieve state of the art results on a recent cross-domain image classification benchmark, as well demonstrating its potential on two classic reinforcement learning tasks.",
+            "aminer_id": "5a260c8117c44a4ba8a30f78"
+        },
+        "wang2016learning": {
+            "number": "[4]",
+            "title": "Learning to reinforcement learn",
+            "text": "title={Learning to reinforcement learn},\n  author={Wang, Jane X and Kurth-Nelson, Zeb and Tirumala, Dhruva and Soyer, Hubert and Leibo, Joel Z and Munos, Remi and Blundell, Charles and Kumaran, Dharshan and Botvinick, Matt},\n  journal={arXiv preprint arXiv:1611.05763},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Learning to reinforcement learn",
+                "author": "Wang, Jane X and Kurth-Nelson, Zeb and Tirumala, Dhruva and Soyer, Hubert and Leibo, Joel Z and Munos, Remi and Blundell, Charles and Kumaran, Dharshan and Botvinick, Matt",
+                "journal": "arXiv preprint arXiv:1611.05763",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d82fc8d649053542fd59c5"
+        },
+        "mitchell2021offline": {
+            "number": "[5]",
+            "title": "Offline meta-reinforcement learning with advantage weighting",
+            "text": "title={Offline meta-reinforcement learning with advantage weighting},\n  author={Mitchell, Eric and Rafailov, Rafael and Peng, Xue Bin and Levine, Sergey and Finn, Chelsea},\n  booktitle={International Conference on Machine Learning},\n  pages={7780--7791},\n  year={2021},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Offline meta-reinforcement learning with advantage weighting",
+                "author": "Mitchell, Eric and Rafailov, Rafael and Peng, Xue Bin and Levine, Sergey and Finn, Chelsea",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "7780--7791",
+                "year": "2021",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f366b8891e011372ac2da15"
+        },
+        "gui2018few": {
+            "number": "[6]",
+            "title": "Few-shot human motion prediction via meta-learning",
+            "text": "title={Few-shot human motion prediction via meta-learning},\n  author={Gui, Liang-Yan and Wang, Yu-Xiong and Ramanan, Deva and Moura, Jos{\\'e} MF},\n  booktitle={Proceedings of the European Conference on Computer Vision (ECCV)},\n  pages={432--450},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Few-shot human motion prediction via meta-learning",
+                "author": "Gui, Liang-Yan and Wang, Yu-Xiong and Ramanan, Deva and Moura, Jos{\\'e} MF",
+                "booktitle": "Proceedings of the European Conference on Computer Vision (ECCV)",
+                "pages": "432--450",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5bdc315817c44a1f58a05f60"
+        },
+        "mahadevkar2022review": {
+            "number": "[7]",
+            "title": "A Review on Machine Learning Styles in Computer Vision—Techniques and Future Directions",
+            "text": "title={A review on machine learning styles in computer vision-techniques and future directions},\n  author={Mahadevkar, Supriya V and Khemani, Bharti and Patil, Shruti and Kotecha, Ketan and Vora, Deepali and Abraham, Ajith and Gabralla, Lubina Abdelkareim},\n  journal={IEEE Access},\n  year={2022},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A review on machine learning styles in computer vision-techniques and future directions",
+                "author": "Mahadevkar, Supriya V and Khemani, Bharti and Patil, Shruti and Kotecha, Ketan and Vora, Deepali and Abraham, Ajith and Gabralla, Lubina Abdelkareim",
+                "journal": "IEEE Access",
+                "year": "2022",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Computer applications have considerably shifted from single data processing to machine learning in recent years due to the accessibility and availability of massive volumes of data obtained through the internet and various sources. Machine learning is automating human assistance by training an algorithm on relevant data. Supervised, Unsupervised, and Reinforcement Learning are the three fundamental categories of machine learning techniques. In this paper, we have discussed the different learning styles used in the field of Computer vision, Deep Learning, Neural networks, and machine learning. Some of the most recent applications of machine learning in computer vision include object identification, object classification, and extracting usable information from images, graphic documents, and videos. Some machine learning techniques frequently include zero-shot learning, active learning, contrastive learning, self-supervised learning, life-long learning, semi-supervised learning, ensemble learning, sequential learning, and multi-view learning used in computer vision until now. There is a lack of systematic reviews about all learning styles. This paper presents literature analysis of how different machine learning styles evolved in the field of Artificial Intelligence (AI) for computer vision. This research examines and evaluates machine learning applications in computer vision and future forecasting. This paper will be helpful for researchers working with learning styles as it gives a deep insight into future directions.",
+            "aminer_id": "656d8aea939a5f4082a3d7c8"
+        },
+        "schrum2022mind": {
+            "number": "[8]",
+            "title": "MIND MELD: Personalized Meta-Learning for Robot-Centric Imitation Learning",
+            "text": "title={Mind meld: Personalized meta-learning for robot-centric imitation learning},\n  author={Schrum, Mariah L and Hedlund-Botti, Erin and Moorman, Nina and Gombolay, Matthew C},\n  booktitle={2022 17th ACM/IEEE International Conference on Human-Robot Interaction (HRI)},\n  pages={157--165},\n  year={2022},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mind meld: Personalized meta-learning for robot-centric imitation learning",
+                "author": "Schrum, Mariah L and Hedlund-Botti, Erin and Moorman, Nina and Gombolay, Matthew C",
+                "booktitle": "2022 17th ACM/IEEE International Conference on Human-Robot Interaction (HRI)",
+                "pages": "157--165",
+                "year": "2022",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning from demonstration (LfD) techniques seek to enable users without computer programming experience to teach robots novel tasks. There are generally two types of LfD: human- and robot-centric. While human-centric learning is intuitive, human centric learning suffers from performance degradation due to covariate shift. Robot-centric approaches, such as Dataset Aggregation (DAgger), address covariate shift but can struggle to learn from suboptimal human teachers. To create a more human-aware version of robot-centric LfD, we present Mutual Information-driven Meta-learning from Demonstration (MIND MELD). MIND MELD meta-learns a mapping from suboptimal and heterogeneous human feedback to optimal labels, thereby improving the learning signal for robot-centric LfD. The key to our approach is learning an informative personalized em-bedding using mutual information maximization via variational inference. The embedding then informs a mapping from human provided labels to optimal labels. We evaluate our framework in a human-subjects experiment, demonstrating that our approach improves corrective labels provided by human demonstrators. Our framework outperforms baselines in terms of ability to reach the goal $(p <. 001)$ , average distance from the goal $(p=.006)$ , and various subjective ratings $(p=.008)$ .",
+            "aminer_id": "62b94d05b25ec0000d8a8674"
+        },
+        "wang2021bridging": {
+            "number": "[9]",
+            "title": "Bridging Multi-Task Learning and Meta-Learning: Towards Efficient Training and Effective Adaptation.",
+            "text": "title={Bridging multi-task learning and meta-learning: Towards efficient training and effective adaptation},\n  author={Wang, Haoxiang and Zhao, Han and Li, Bo},\n  booktitle={International conference on machine learning},\n  pages={10991--11002},\n  year={2021},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Bridging multi-task learning and meta-learning: Towards efficient training and effective adaptation",
+                "author": "Wang, Haoxiang and Zhao, Han and Li, Bo",
+                "booktitle": "International conference on machine learning",
+                "pages": "10991--11002",
+                "year": "2021",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Multi-task learning (MTL) aims to improve the generalization of several related tasks by learning them jointly. As a comparison, in addition to the joint training scheme, modern meta-learning allows unseen tasks with limited labels during the test phase, in the hope of fast adaptation over them. Despite the subtle difference between MTL and meta-learning in the problem formulation, both learning paradigms share the same insight that the shared structure between existing training tasks could lead to better generalization and adaptation. In this paper, we take one important step further to understand the close connection between these two learning paradigms, through both theoretical analysis and empirical investigation. Theoretically, we first demonstrate that MTL shares the same optimization formulation with a class of gradient-based meta-learning (GBML) algorithms. We then prove that for over-parameterized neural networks with sufficient depth, the learned predictive functions of MTL and GBML are close. In particular, this result implies that the predictions given by these two models are similar over the same unseen task. Empirically, we corroborate our theoretical findings by showing that, with proper implementation, MTL is competitive against state-of-the-art GBML algorithms on a set of few-shot image classification benchmarks. Since existing GBML algorithms often involve costly second-order bi-level optimization, our first-order MTL method is an order of magnitude faster on large-scale datasets such as mini-ImageNet. We believe this work could help bridge the gap between these two learning paradigms, and provide a computationally efficient alternative to GBML that also supports fast task adaptation.",
+            "aminer_id": "60cd76dc91e011329faa22ed"
+        },
+        "song2022efficient": {
+            "number": "[10]",
+            "title": "Efficient and Effective Multi-task Grouping Via Meta Learning on Task Combinations.",
+            "text": "title={Efficient and effective multi-task grouping via meta learning on task combinations},\n  author={Song, Xiaozhuang and Zheng, Shun and Cao, Wei and Yu, James and Bian, Jiang},\n  journal={Advances in Neural Information Processing Systems},\n  volume={35},\n  pages={37647--37659},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Efficient and effective multi-task grouping via meta learning on task combinations",
+                "author": "Song, Xiaozhuang and Zheng, Shun and Cao, Wei and Yu, James and Bian, Jiang",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "35",
+                "pages": "37647--37659",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "As a longstanding learning paradigm, multi-task learning has been widely applied into a variety of machine learning applications. Nonetheless, identifying which tasks should be learned together is still a challenging fundamental problem because the possible task combinations grow exponentially with the number of tasks, and existing solutions heavily relying on heuristics may probably lead to ineffective groupings with severe performance degradation. To bridge this gap, we develop a systematic multi-task grouping framework with a new meta-learning problem on task combinations, which is to predict the per-task performance gains of multi-task learning over single-task learning for any combination. Our underlying assumption is that no matter how large the space of task combinations is, the relationships between task combinations and performance gains lie in some low-dimensional manifolds and thus can be learnable. Accordingly, we develop a neural meta learner, MTG-Net, to capture these relationships, and design an active learning strategy to progressively select meta-training samples. In this way, even with limited meta samples, MTG-Net holds the potential to produce reasonable gain estimations on arbitrary task combinations. Extensive experiments on diversified multi-task scenarios demonstrate the efficiency and effectiveness of our method. Specifically, in a large-scale evaluation with 27 tasks, which produce over one hundred million task combinations, our method almost doubles the performance obtained by the existing best solution given roughly the same computational cost. Data and code are available at https://github.com/ShawnKS/MTG-Net .",
+            "aminer_id": "63a413f790e50fcafd6d231e"
+        },
+        "maslovat2004contextual": {
+            "number": "[11]",
+            "title": "Contextual Interference: Single Task Versus Multi-task Learning",
+            "text": "title={Contextual interference: single task versus multi-task learning},\n  author={Maslovat, Dana and Chua, Romeo and Lee, Timothy D and Franks, Ian M},\n  journal={Motor control},\n  volume={8},\n  number={2},\n  pages={213--233},\n  year={2004},\n  publisher={Human Kinetics, Inc.}",
+            "type": "article",
+            "fields": {
+                "title": "Contextual interference: single task versus multi-task learning",
+                "author": "Maslovat, Dana and Chua, Romeo and Lee, Timothy D and Franks, Ian M",
+                "journal": "Motor control",
+                "volume": "8",
+                "number": "2",
+                "pages": "213--233",
+                "year": "2004",
+                "publisher": "Human Kinetics, Inc."
+            },
+            "ref_source": "bib",
+            "abstract": "This experiment examined contextual interference in producing a bimanual coordination pattern of 90 degree angle relative phase. Acquisition, retention, and transfer performance were compared in a single-task control group and groups that performed 2 tasks in either a blocked or random presentation. Surprisingly, acquisition data revealed that both the random and control groups outperformed the blocked group. Retention data showed a typical CI effect for performance variability, with the random group outperforming the blocked group. Neither the random nor blocked groups outperformed the control group, suggesting interference of a second task may be as beneficial to learning as extra practice on the initial task. No group effects were found during transfer performance. Results suggest that random practice is beneficial for learning only one task.",
+            "aminer_id": "55a59bfa612c6b12ab263510"
+        },
+        "sanh2021multitask": {
+            "number": "[12]",
+            "title": "Multitask Prompted Training Enables Zero-Shot Task Generalization",
+            "text": "title={Multitask prompted training enables zero-shot task generalization},\n  author={Sanh, Victor and Webson, Albert and Raffel, Colin and Bach, Stephen H and Sutawika, Lintang and Alyafeai, Zaid and Chaffin, Antoine and Stiegler, Arnaud and Scao, Teven Le and Raja, Arun and others},\n  journal={arXiv preprint arXiv:2110.08207},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Multitask prompted training enables zero-shot task generalization",
+                "author": "Sanh, Victor and Webson, Albert and Raffel, Colin and Bach, Stephen H and Sutawika, Lintang and Alyafeai, Zaid and Chaffin, Antoine and Stiegler, Arnaud and Scao, Teven Le and Raja, Arun and others",
+                "journal": "arXiv preprint arXiv:2110.08207",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Large language models have recently been shown to attain reasonable zero-shot generalization on a diverse set of tasks (Brown et al., 2020). It has been hypothesized that this is a consequence of implicit multitask learning in language models' pretraining (Radford et al., 2019). Can zero-shot generalization instead be directly induced by explicit multitask learning? To test this question at scale, we develop a system for easily mapping any natural language tasks into a human-readable prompted form. We convert a large set of supervised datasets, each with multiple prompts with diverse wording. These prompted datasets allow for benchmarking the ability of a model to perform completely held-out tasks. We fine-tune a pretrained encoder-decoder model (Raffel et al., 2020; Lester et al., 2021) on this multitask mixture covering a wide variety of tasks. The model attains strong zero-shot performance on several standard datasets, often outperforming models up to 16x its size. Further, our approach attains strong performance on a subset of tasks from the BIG-bench benchmark, outperforming models up to 6x its size. All trained models are available at https://github.com/bigscience-workshop/t-zero and all prompts are available at https://github.com/bigscience-workshop/promptsource.",
+            "aminer_id": "616ce5a55244ab9dcbacff30"
+        },
+        "rivolli2022meta": {
+            "number": "[13]",
+            "title": "Meta-features for Meta-Learning",
+            "text": "title={Meta-features for meta-learning},\n  author={Rivolli, Adriano and Garcia, Lu{\\'\\i}s PF and Soares, Carlos and Vanschoren, Joaquin and de Carvalho, Andr{\\'e} CPLF},\n  journal={Knowledge-Based Systems},\n  volume={240},\n  pages={108101},\n  year={2022},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-features for meta-learning",
+                "author": "Rivolli, Adriano and Garcia, Lu{\\'\\i}s PF and Soares, Carlos and Vanschoren, Joaquin and de Carvalho, Andr{\\'e} CPLF",
+                "journal": "Knowledge-Based Systems",
+                "volume": "240",
+                "pages": "108101",
+                "year": "2022",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Meta-learning is increasingly used to support the recommendation of machine learning algorithms and their configurations. These recommendations are made based on meta-data, consisting of performance evaluations of algorithms and characterizations on prior datasets. These characterizations, also called meta-features, describe properties of the data which are predictive for the performance of machine learning algorithms trained on them. Unfortunately, despite being used in many studies, meta-features are not uniformly described, organized and computed, making many empirical studies irreproducible and hard to compare. This paper aims to deal with this by systematizing and standardizing data characterization measures for classification datasets used in meta-learning. Moreover, it presents an extensive list of meta-features and characterization tools, which can be used as a guide for new practitioners. By identifying particularities and subtle issues related to the characterization measures, this survey points out possible future directions that the development of meta-features for meta-learning can assume.",
+            "aminer_id": "5d64ff5d3a55acf547f205e3"
+        },
+        "meta-aug": {
+            "number": "[14]",
+            "title": "Meta-learning requires meta-augmentation",
+            "text": "title={Meta-learning requires meta-augmentation},\n  author={Rajendran, Janarthanan and Irpan, Alexander and Jang, Eric},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={5705--5715},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning requires meta-augmentation",
+                "author": "Rajendran, Janarthanan and Irpan, Alexander and Jang, Eric",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "33",
+                "pages": "5705--5715",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f0d75d591e011047aff9697"
+        },
+        "yin2019meta": {
+            "number": "[15]",
+            "title": "Meta-learning without memorization",
+            "text": "title={Meta-learning without memorization},\n  author={Yin, Mingzhang and Tucker, George and Zhou, Mingyuan and Levine, Sergey and Finn, Chelsea},\n  journal={arXiv preprint arXiv:1912.03820},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning without memorization",
+                "author": "Yin, Mingzhang and Tucker, George and Zhou, Mingyuan and Levine, Sergey and Finn, Chelsea",
+                "journal": "arXiv preprint arXiv:1912.03820",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5def90423a55ac809f1812dc"
+        },
+        "bengio2019meta": {
+            "number": "[16]",
+            "title": "A Meta-Transfer Objective for Learning to Disentangle Causal Mechanisms",
+            "text": "title={A meta-transfer objective for learning to disentangle causal mechanisms},\n  author={Bengio, Yoshua and Deleu, Tristan and Rahaman, Nasim and Ke, Rosemary and Lachapelle, S{\\'e}bastien and Bilaniuk, Olexa and Goyal, Anirudh and Pal, Christopher},\n  journal={arXiv preprint arXiv:1901.10912},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "A meta-transfer objective for learning to disentangle causal mechanisms",
+                "author": "Bengio, Yoshua and Deleu, Tristan and Rahaman, Nasim and Ke, Rosemary and Lachapelle, S{\\'e}bastien and Bilaniuk, Olexa and Goyal, Anirudh and Pal, Christopher",
+                "journal": "arXiv preprint arXiv:1901.10912",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose to meta-learn causal structures based on how fast a learner adapts to new distributions arising from sparse distributional changes, e.g. due to interventions, actions of agents and other sources of non-stationarities. We show that under this assumption, the correct causal structural choices lead to faster adaptation to modified distributions because the changes are concentrated in one or just a few mechanisms when the learned knowledge is modularized appropriately. This leads to sparse expected gradients and a lower effective number of degrees of freedom needing to be relearned while adapting to the change. It motivates using the speed of adaptation to a modified distribution as a meta-learning objective. We demonstrate how this can be used to determine the cause-effect relationship between two observed variables. The distributional changes do not need to correspond to standard interventions (clamping a variable), and the learner has no direct knowledge of these interventions. We show that causal structures can be parameterized via continuous variables and learned end-to-end. We then explore how these ideas could be used to also learn an encoder that would map low-level observed variables to unobserved causal variables leading to faster adaptation out-of-distribution, learning a representation space where one can satisfy the assumptions of independent mechanisms and of small and sparse changes in these mechanisms due to actions and non-stationarities.",
+            "aminer_id": "5c616054e1cd8eae1501db95"
+        },
+        "rajendran2020meta": {
+            "number": "[17]",
+            "title": "Meta-learning requires meta-augmentation",
+            "text": "title={Meta-learning requires meta-augmentation},\n  author={Rajendran, Janarthanan and Irpan, Alexander and Jang, Eric},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={5705--5715},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning requires meta-augmentation",
+                "author": "Rajendran, Janarthanan and Irpan, Alexander and Jang, Eric",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "33",
+                "pages": "5705--5715",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f0d75d591e011047aff9697"
+        },
+        "raghu2019rapid": {
+            "number": "[18]",
+            "title": "Rapid Learning or Feature Reuse? Towards Understanding the Effectiveness of MAML.",
+            "text": "title={Rapid learning or feature reuse? towards understanding the effectiveness of maml},\n  author={Raghu, Aniruddh and Raghu, Maithra and Bengio, Samy and Vinyals, Oriol},\n  journal={arXiv preprint arXiv:1909.09157},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Rapid learning or feature reuse? towards understanding the effectiveness of maml",
+                "author": "Raghu, Aniruddh and Raghu, Maithra and Bengio, Samy and Vinyals, Oriol",
+                "journal": "arXiv preprint arXiv:1909.09157",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "An important research direction in machine learning has centered around developing meta-learning algorithms to tackle few-shot learning. An especially successful algorithm has been Model Agnostic Meta-Learning (MAML), a method that consists of two optimization loops, with the outer loop finding a meta-initialization, from which the inner loop can efficiently learn new tasks. Despite MAML's popularity, a fundamental open question remains -- is the effectiveness of MAML due to the meta-initialization being primed for rapid learning (large, efficient changes in the representations) or due to feature reuse, with the meta initialization already containing high quality features? We investigate this question, via ablation studies and analysis of the latent representations, finding that feature reuse is the dominant factor. This leads to the ANIL (Almost No Inner Loop) algorithm, a simplification of MAML where we remove the inner loop for all but the (task-specific) head of a MAML-trained network. ANIL matches MAML's performance on benchmark few-shot image classification and RL and offers computational improvements over MAML. We further study the precise contributions of the head and body of the network, showing that performance on the test tasks is entirely determined by the quality of the learned features, and we can remove even the head of the network (the NIL algorithm). We conclude with a discussion of the rapid learning vs feature reuse question for meta-learning algorithms more broadly.",
+            "aminer_id": "5d8898013a55acdc5ca0880c"
+        },
+        "oreshkin2018tadam": {
+            "number": "[19]",
+            "title": "Tadam: Task dependent adaptive metric for improved few-shot learning",
+            "text": "title={Tadam: Task dependent adaptive metric for improved few-shot learning},\n  author={Oreshkin, Boris and Rodr{\\'\\i}guez L{\\'o}pez, Pau and Lacoste, Alexandre},\n  journal={Advances in neural information processing systems},\n  volume={31},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Tadam: Task dependent adaptive metric for improved few-shot learning",
+                "author": "Oreshkin, Boris and Rodr{\\'\\i}guez L{\\'o}pez, Pau and Lacoste, Alexandre",
+                "journal": "Advances in neural information processing systems",
+                "volume": "31",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f8180f6c6c3b86a50618843"
+        },
+        "chen2020variational": {
+            "number": "[20]",
+            "title": "Variational Metric Scaling for Metric-Based Meta-Learning",
+            "text": "title={Variational metric scaling for metric-based meta-learning},\n  author={Chen, Jiaxin and Zhan, Li-Ming and Wu, Xiao-Ming and Chung, Fu-lai},\n  booktitle={Proceedings of the AAAI conference on artificial intelligence},\n  volume={34},\n  number={04},\n  pages={3478--3485},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Variational metric scaling for metric-based meta-learning",
+                "author": "Chen, Jiaxin and Zhan, Li-Ming and Wu, Xiao-Ming and Chung, Fu-lai",
+                "booktitle": "Proceedings of the AAAI conference on artificial intelligence",
+                "volume": "34",
+                "number": "04",
+                "pages": "3478--3485",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Metric-based meta-learning has attracted a lot of attention due to its effectiveness and efficiency in few-shot learning. Recent studies show that metric scaling plays a crucial role in the performance of metric-based meta-learning algorithms. However. there still lacks a principled method for learning the metric scaling parameter automatically. In this paper. we recast metric-based meta-learning from a Bayesian perspective and develop a variational metric scaling framework for learning a proper metric scaling parameter. Firstly, we propose a stochastic variational method to learn a single global scaling parameter. To better fit the embedding space to a given data distribution, we extend our method to learn a dimensional scaling vector to transform the embedding space. Furthermore, to learn task-specific embeddings, we generate task-dependent dimensional scaling vectors with amortized variational inference. Our method is end-to-end without any pre-training and can be used as a simple plug-and-play module for existing metric-based meta-algorithms. Experiments on minilmageNet show that our methods can be used to consistently improve the performance of existing metric-based meta-algorithms including prototypical networks and TADAM.",
+            "aminer_id": "5e09cab43a55ac662f721a5e"
+        },
+        "lee2020meta": {
+            "number": "[21]",
+            "title": "Meta dropout: Learning to perturb latent features for generalization",
+            "text": "title={Meta dropout: Learning to perturb latent features for generalization},\n  author={Lee, Hae Beom and Nam, Taewook and Yang, Eunho and Hwang, Sung Ju},\n  booktitle={Proceedings of the International Conference on Learning Representations (ICLR)},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Meta dropout: Learning to perturb latent features for generalization",
+                "author": "Lee, Hae Beom and Nam, Taewook and Yang, Eunho and Hwang, Sung Ju",
+                "booktitle": "Proceedings of the International Conference on Learning Representations (ICLR)",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "jamal2019task": {
+            "number": "[22]",
+            "title": "Task agnostic meta-learning for few-shot learning",
+            "text": "title={Task agnostic meta-learning for few-shot learning},\n  author={Jamal, Muhammad Abdullah and Qi, Guo-Jun},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={11719--11727},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Task agnostic meta-learning for few-shot learning",
+                "author": "Jamal, Muhammad Abdullah and Qi, Guo-Jun",
+                "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                "pages": "11719--11727",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "619ba2a61c45e57ce9717ed7"
+        },
+        "oh2020boil": {
+            "number": "[23]",
+            "title": "Boil: Towards representation change for few-shot learning",
+            "text": "title={Boil: Towards representation change for few-shot learning},\n  author={Oh, Jaehoon and Yoo, Hyungjun and Kim, ChangHwan and Yun, Se-Young},\n  journal={arXiv preprint arXiv:2008.08882},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Boil: Towards representation change for few-shot learning",
+                "author": "Oh, Jaehoon and Yoo, Hyungjun and Kim, ChangHwan and Yun, Se-Young",
+                "journal": "arXiv preprint arXiv:2008.08882",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "60d5b36f91e011c8cebefe25"
+        },
+        "yao2021improving": {
+            "number": "[24]",
+            "title": "Improving Generalization in Meta-learning Via Task Augmentation",
+            "text": "title={Improving generalization in meta-learning via task augmentation},\n  author={Yao, Huaxiu and Huang, Long-Kai and Zhang, Linjun and Wei, Ying and Tian, Li and Zou, James and Huang, Junzhou and others},\n  booktitle={International conference on machine learning},\n  pages={11887--11897},\n  year={2021},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Improving generalization in meta-learning via task augmentation",
+                "author": "Yao, Huaxiu and Huang, Long-Kai and Zhang, Linjun and Wei, Ying and Tian, Li and Zou, James and Huang, Junzhou and others",
+                "booktitle": "International conference on machine learning",
+                "pages": "11887--11897",
+                "year": "2021",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Meta-learning has proven to be a powerful paradigm for transferring the knowledge from previous tasks to facilitate the learning of a novel task. Current dominant algorithms train a well-generalized model initialization which is adapted to each task via the support set. The crux lies in optimizing the generalization capability of the initialization, which is measured by the performance of the adapted model on the query set of each task. Unfortunately, this generalization measure, evidenced by empirical results, pushes the initialization to overfit the meta-training tasks, which significantly impairs the generalization and adaptation to novel tasks. To address this issue, we actively augment a meta-training task with \"more data\" when evaluating the generalization. Concretely, we propose two task augmentation methods, including MetaMix and Channel Shuffle. MetaMix linearly combines features and labels of samples from both the support and query sets. For each class of samples, Channel Shuffle randomly replaces a subset of their channels with the corresponding ones from a different class. Theoretical studies show how task augmentation improves the generalization of meta-learning. Moreover, both MetaMix and Channel Shuffle outperform state-of-the-art results by a large margin across many datasets and are compatible with existing meta-learning algorithms.",
+            "aminer_id": "5f1ff68f91e011d50a621a88"
+        },
+        "finn2017model": {
+            "number": "[25]",
+            "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+            "text": "title={Model-agnostic meta-learning for fast adaptation of deep networks},\n  author={Finn, Chelsea and Abbeel, Pieter and Levine, Sergey},\n  booktitle={International conference on machine learning},\n  pages={1126--1135},\n  year={2017},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Model-agnostic meta-learning for fast adaptation of deep networks",
+                "author": "Finn, Chelsea and Abbeel, Pieter and Levine, Sergey",
+                "booktitle": "International conference on machine learning",
+                "pages": "1126--1135",
+                "year": "2017",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7974601a182cd263f01c"
+        },
+        "nichol2018reptile": {
+            "number": "[26]",
+            "title": "Reptile: a Scalable Metalearning Algorithm",
+            "text": "title={Reptile: a scalable metalearning algorithm},\n  author={Nichol, Alex and Schulman, John},\n  journal={arXiv preprint arXiv:1803.02999},\n  volume={2},\n  number={3},\n  pages={4},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Reptile: a scalable metalearning algorithm",
+                "author": "Nichol, Alex and Schulman, John",
+                "journal": "arXiv preprint arXiv:1803.02999",
+                "volume": "2",
+                "number": "3",
+                "pages": "4",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper considers metalearning problems, where there is a distribution of tasks, and we would like to obtain an agent that performs well (i.e., learns quickly) when presented with a previously unseen task sampled from this distribution. We present a remarkably simple metalearning algorithm called Reptile, which learns a parameter initialization that can be fine-tuned quickly on a new task. Reptile works by repeatedly sampling a task, training on it, and moving the initialization towards the trained weights on that task. Unlike MAML, which also learns an initialization, Reptile doesn't require differentiating through the optimization process, making it more suitable for optimization problems where many update steps are required. We show that Reptile performs well on some well-established benchmarks for few-shot classification. We provide some theoretical analysis aimed at understanding why Reptile works.",
+            "aminer_id": "5c757432f56def979891dacf"
+        },
+        "snell2017prototypical": {
+            "number": "[27]",
+            "title": "Prototypical networks for few-shot learning",
+            "text": "title={Prototypical networks for few-shot learning},\n  author={Snell, Jake and Swersky, Kevin and Zemel, Richard},\n  journal={Advances in neural information processing systems},\n  volume={30},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Prototypical networks for few-shot learning",
+                "author": "Snell, Jake and Swersky, Kevin and Zemel, Richard",
+                "journal": "Advances in neural information processing systems",
+                "volume": "30",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c794e601a182cd262e8f1"
+        },
+        "sung2018learning": {
+            "number": "[28]",
+            "title": "Learning to Compare: Relation Network for Few-Shot Learning",
+            "text": "title={Learning to compare: Relation network for few-shot learning},\n  author={Sung, Flood and Yang, Yongxin and Zhang, Li and Xiang, Tao and Torr, Philip HS and Hospedales, Timothy M},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={1199--1208},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to compare: Relation network for few-shot learning",
+                "author": "Sung, Flood and Yang, Yongxin and Zhang, Li and Xiang, Tao and Torr, Philip HS and Hospedales, Timothy M",
+                "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+                "pages": "1199--1208",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a conceptually simple, flexible, and general framework for few-shot learning, where a classifier must learn to recognise new classes given only few examples from each. Our method, called the Relation Network (RN), is trained end-to-end from scratch. During meta-learning, it learns to learn a deep distance metric to compare a small number of images within episodes, each of which is designed to simulate the few-shot setting. Once trained, a RN is able to classify images of new classes by computing relation scores between query images and the few examples of each new class without further updating the network. Besides providing improved performance on few-shot learning, our framework is easily extended to zero-shot learning. Extensive experiments on five benchmarks demonstrate that our simple approach provides a unified and effective approach for both of these two tasks.",
+            "aminer_id": "5c0495ae17c44a2c74701bdc"
+        },
+        "ton2021meta": {
+            "number": "[29]",
+            "title": "Meta Learning for Causal Direction",
+            "text": "title={Meta learning for causal direction},\n  author={Ton, Jean-Fran{\\c{c}}ois and Sejdinovic, Dino and Fukumizu, Kenji},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={35},\n  number={11},\n  pages={9897--9905},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Meta learning for causal direction",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "35",
+                "number": "11",
+                "pages": "9897--9905",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "The inaccessibility of controlled randomized trials due to inherent constraints in many fields of science has been a fundamental issue in causal inference. In this paper, we focus on distinguishing the cause from effect in the bivariate setting under limited observational data. Based on recent developments in meta learning as well as in causal inference, we introduce a novel generative model that allows distinguishing cause and effect in the small data setting. Using a learnt task variable that contains distributional information of each dataset, we propose an end-to-end algorithm that makes use of similar training datasets at test time. We demonstrate our method on various synthetic as well as real-world data and show that it is able to maintain high accuracy in detecting directions across varying dataset sizes.",
+            "aminer_id": "5f045ccf91e0114d4aaa4ba2"
+        },
+        "jiang2022role": {
+            "number": "[30]",
+            "title": "The Role of Deconfounding in Meta-learning",
+            "text": "title={The Role of Deconfounding in Meta-learning},\n  author={Jiang, Yinjie and Chen, Zhengyu and Kuang, Kun and Yuan, Luotian and Ye, Xinhai and Wang, Zhihua and Wu, Fei and Wei, Ying},\n  booktitle={International Conference on Machine Learning},\n  pages={10161--10176},\n  year={2022},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "The Role of Deconfounding in Meta-learning",
+                "author": "Jiang, Yinjie and Chen, Zhengyu and Kuang, Kun and Yuan, Luotian and Ye, Xinhai and Wang, Zhihua and Wu, Fei and Wei, Ying",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "10161--10176",
+                "year": "2022",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Meta-learning has emerged as a potent paradigm for quick learning of few-shot tasks, by leveraging the meta-knowledge learned from meta-training tasks. Well-generalized meta-knowledge that facilitates fast adaptation in each task is preferred; however, recent evidence suggests the undesirable memorization effect where the meta-knowledge simply memorizing all meta-training tasks dis-courages task-specific adaptation and poorly generalizes. There have been several solutions to mitigating the effect, including both regularizer-based and augmentation-based methods, while a systematic understanding of these methods in a single framework is still lacking. In this paper, we offer a novel causal perspective of meta-learning. Through the lens of causality, we conclude the universal label space as a confounder to be the causing factor of memorization and frame the two lines of prevailing methods as different deconfounder approaches. Remarkably, derived from the causal inference principle of front-door adjustment, we propose two frustratingly easy but effective deconfounder algorithms, i.e., sampling multiple versions of the meta-knowledge via Dropout and grouping the meta-knowledge into multiple bins. The proposed causal perspective not only brings in the two deconfounder algorithms that surpass previous works in four benchmark datasets towards combating memorization, but also opens a promising direction for meta-learning.",
+            "aminer_id": "62c28ae65aee126c0f8a221e"
+        },
+        "yang2021deconfounded": {
+            "number": "[31]",
+            "title": "Deconfounded image captioning: A causal retrospect",
+            "text": "title={Deconfounded image captioning: A causal retrospect},\n  author={Yang, Xu and Zhang, Hanwang and Cai, Jianfei},\n  journal={IEEE Transactions on Pattern Analysis and Machine Intelligence},\n  year={2021},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Deconfounded image captioning: A causal retrospect",
+                "author": "Yang, Xu and Zhang, Hanwang and Cai, Jianfei",
+                "journal": "IEEE Transactions on Pattern Analysis and Machine Intelligence",
+                "year": "2021",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e67655391e011e0d179121c"
+        },
+        "zhang2020causal": {
+            "number": "[32]",
+            "title": "Causal intervention for weakly-supervised semantic segmentation",
+            "text": "title={Causal intervention for weakly-supervised semantic segmentation},\n  author={Zhang, Dong and Zhang, Hanwang and Tang, Jinhui and Hua, Xian-Sheng and Sun, Qianru},\n  journal={Advances in Neural Information Processing Systems},\n  volume={33},\n  pages={655--666},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Causal intervention for weakly-supervised semantic segmentation",
+                "author": "Zhang, Dong and Zhang, Hanwang and Tang, Jinhui and Hua, Xian-Sheng and Sun, Qianru",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "33",
+                "pages": "655--666",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f75a27f91e0111c1eb4d2eb"
+        },
+        "nogueira2022methods": {
+            "number": "[33]",
+            "title": "Methods and Tools for Causal Discovery and Causal Inference",
+            "text": "title={Methods and tools for causal discovery and causal inference},\n  author={Nogueira, Ana Rita and Pugnana, Andrea and Ruggieri, Salvatore and Pedreschi, Dino and Gama, Jo{\\~a}o},\n  journal={Wiley interdisciplinary reviews: data mining and knowledge discovery},\n  volume={12},\n  number={2},\n  pages={e1449},\n  year={2022},\n  publisher={Wiley Online Library}",
+            "type": "article",
+            "fields": {
+                "title": "Methods and tools for causal discovery and causal inference",
+                "author": "Nogueira, Ana Rita and Pugnana, Andrea and Ruggieri, Salvatore and Pedreschi, Dino and Gama, Jo{\\~a}o",
+                "journal": "Wiley interdisciplinary reviews: data mining and knowledge discovery",
+                "volume": "12",
+                "number": "2",
+                "pages": "e1449",
+                "year": "2022",
+                "publisher": "Wiley Online Library"
+            },
+            "ref_source": "bib",
+            "abstract": "Causality is a complex concept, which roots its developments across several fields, such as statistics, economics, epidemiology, computer science, and philosophy. In recent years, the study of causal relationships has become a crucial part of the Artificial Intelligence community, as causality can be a key tool for overcoming some limitations of correlation-based Machine Learning systems. Causality research can generally be divided into two main branches, that is, causal discovery and causal inference. The former focuses on obtaining causal knowledge directly from observational data. The latter aims to estimate the impact deriving from a change of a certain variable over an outcome of interest. This article aims at covering several methodologies that have been developed for both tasks. This survey does not only focus on theoretical aspects. But also provides a practical toolkit for interested researchers and practitioners, including software, datasets, and running examples. This article is categorized under: Algorithmic Development > Causality Discovery Fundamental Concepts of Data and Knowledge > Explainable AI Technologies > Machine Learning",
+            "aminer_id": "622a53bd5aee126c0fe0ef5c"
+        },
+        "gordon2018meta": {
+            "number": "[34]",
+            "title": "Meta-learning probabilistic inference for prediction",
+            "text": "title={Meta-learning probabilistic inference for prediction},\n  author={Gordon, Jonathan and Bronskill, John and Bauer, Matthias and Nowozin, Sebastian and Turner, Richard E},\n  journal={arXiv preprint arXiv:1805.09921},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning probabilistic inference for prediction",
+                "author": "Gordon, Jonathan and Bronskill, John and Bauer, Matthias and Nowozin, Sebastian and Turner, Richard E",
+                "journal": "arXiv preprint arXiv:1805.09921",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5d3c233f3a55acd386d4dcaa"
+        },
+        "chi2022metafscil": {
+            "number": "[35]",
+            "title": "MetaFSCIL: A Meta-Learning Approach for Few-Shot Class Incremental Learning",
+            "text": "title={Metafscil: A meta-learning approach for few-shot class incremental learning},\n  author={Chi, Zhixiang and Gu, Li and Liu, Huan and Wang, Yang and Yu, Yuanhao and Tang, Jin},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={14166--14175},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Metafscil: A meta-learning approach for few-shot class incremental learning",
+                "author": "Chi, Zhixiang and Gu, Li and Liu, Huan and Wang, Yang and Yu, Yuanhao and Tang, Jin",
+                "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+                "pages": "14166--14175",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we tackle the problem of few-shot class incremental learning (FSCIL). FSCIL aims to incrementally learn new classes with only a few samples in each class. Most existing methods only consider the incremental steps at test time. The learning objective of these methods is often hand-engineered and is not directly tied to the objective (i.e. incrementally learning new classes) during testing. Those methods are sub-optimal due to the misalignment between the training objectives and what the methods are expected to do during evaluation. In this work, we proposed a bi-level optimization based on meta-learning to directly optimize the network to learn how to incrementally learn in the setting of FSCIL. Concretely, we propose to sample sequences of incremental tasks from base classes for training to simulate the evaluation protocol. For each task, the model is learned using a meta-objective such that it is capable to perform fast adaptation without forgetting. Furthermore, we propose a bi-directional guided modulation, which is learned to automatically modulate the activations to reduce catastrophic forgetting. Extensive experimental results demonstrate that the proposed method outperforms the baseline and achieves the state-of-the-art results on CIFARIOO, MiniImageNet, and CUB200 datasets.",
+            "aminer_id": "62c2a7a85aee126c0fce2663"
+        },
+        "vinyals2016matching": {
+            "number": "[36]",
+            "title": "Matching Networks for One Shot Learning",
+            "text": "title={Matching networks for one shot learning},\n  author={Vinyals, Oriol and Blundell, Charles and Lillicrap, Timothy and Wierstra, Daan and others},\n  journal={Advances in neural information processing systems},\n  volume={29},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Matching networks for one shot learning",
+                "author": "Vinyals, Oriol and Blundell, Charles and Lillicrap, Timothy and Wierstra, Daan and others",
+                "journal": "Advances in neural information processing systems",
+                "volume": "29",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning from a few examples remains a key challenge in machine learning. Despite recent advances in important domains such as vision and language, the standard supervised deep learning paradigm does not offer a satisfactory solution for learning new concepts rapidly from little data. In this work, we employ ideas from metric learning based on deep neural features and from recent advances that augment neural networks with external memories. Our framework learns a network that maps a small labelled support set and an unlabelled example to its label, obviating the need for fine-tuning to adapt to new class types. We then define one-shot learning problems on vision (using Omniglot, ImageNet) and language tasks. Our algorithm improves one-shot accuracy on ImageNet from 87.6% to 93.2% and from 88.0% to 93.8% on Omniglot compared to competing approaches. We also demonstrate the usefulness of the same model on language modeling by introducing a one-shot task on the Penn Treebank.",
+            "aminer_id": "57a4e91dac44365e35c9844d"
+        },
+        "lake2019omniglot": {
+            "number": "[37]",
+            "title": "The Omniglot Challenge: a 3-Year Progress Report",
+            "text": "title={The Omniglot challenge: a 3-year progress report},\n  author={Lake, Brenden M and Salakhutdinov, Ruslan and Tenenbaum, Joshua B},\n  journal={Current Opinion in Behavioral Sciences},\n  volume={29},\n  pages={97--104},\n  year={2019},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "The Omniglot challenge: a 3-year progress report",
+                "author": "Lake, Brenden M and Salakhutdinov, Ruslan and Tenenbaum, Joshua B",
+                "journal": "Current Opinion in Behavioral Sciences",
+                "volume": "29",
+                "pages": "97--104",
+                "year": "2019",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Three years ago, we released the Omniglot dataset for one-shot learning, along with five challenge tasks and a computational model that addresses these tasks. The model was not meant to be the final word on Omniglot; we hoped that the community would build on our work and develop new approaches. In the time since, we have been pleased to see wide adoption of the dataset. There has been notable progress on one-shot classification, but researchers have adopted new splits and procedures that make the task easier. There has been less progress on the other four tasks. We conclude that recent approaches are still far from human-like concept learning on Omniglot, a challenge that requires performing many tasks with a single model.",
+            "aminer_id": "5c62e427da56297e28454ec1"
+        },
+        "hu2022improving": {
+            "number": "[38]",
+            "title": "Improving Multi-Task Generalization Via Regularizing Spurious Correlation",
+            "text": "title={Improving multi-task generalization via regularizing spurious correlation},\n  author={Hu, Ziniu and Zhao, Zhe and Yi, Xinyang and Yao, Tiansheng and Hong, Lichan and Sun, Yizhou and Chi, Ed},\n  journal={Advances in Neural Information Processing Systems},\n  volume={35},\n  pages={11450--11466},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Improving multi-task generalization via regularizing spurious correlation",
+                "author": "Hu, Ziniu and Zhao, Zhe and Yi, Xinyang and Yao, Tiansheng and Hong, Lichan and Sun, Yizhou and Chi, Ed",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "35",
+                "pages": "11450--11466",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Multi-Task Learning (MTL) is a powerful learning paradigm to improve generalization performance via knowledge sharing. However, existing studies find that MTL could sometimes hurt generalization, especially when two tasks are less correlated. One possible reason that hurts generalization is spurious correlation, i.e., some knowledge is spurious and not causally related to task labels, but the model could mistakenly utilize them and thus fail when such correlation changes. In MTL setup, there exist several unique challenges of spurious correlation. First, the risk of having non-causal knowledge is higher, as the shared MTL model needs to encode all knowledge from different tasks, and causal knowledge for one task could be potentially spurious to the other. Second, the confounder between task labels brings in a different type of spurious correlation to MTL. We theoretically prove that MTL is more prone to taking non-causal knowledge from other tasks than single-task learning, and thus generalize worse. To solve this problem, we propose Multi-Task Causal Representation Learning framework, aiming to represent multi-task knowledge via disentangled neural modules, and learn which module is causally related to each task via MTL-specific invariant regularization. Experiments show that it could enhance MTL model's performance by 5.5% on average over Multi-MNIST, MovieLens, Taskonomy, CityScape, and NYUv2, via alleviating spurious correlation problem.",
+            "aminer_id": "628afb4b5aee126c0f04e28a"
+        },
+        "suter2019robustly": {
+            "number": "[39]",
+            "title": "Robustly Disentangled Causal Mechanisms: Validating Deep Representations for Interventional Robustness",
+            "text": "title={Robustly disentangled causal mechanisms: Validating deep representations for interventional robustness},\n  author={Suter, Raphael and Miladinovic, Djordje and Sch{\\\"o}lkopf, Bernhard and Bauer, Stefan},\n  booktitle={International Conference on Machine Learning},\n  pages={6056--6065},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Robustly disentangled causal mechanisms: Validating deep representations for interventional robustness",
+                "author": "Suter, Raphael and Miladinovic, Djordje and Sch{\\\"o}lkopf, Bernhard and Bauer, Stefan",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "6056--6065",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "The ability to learn disentangled representations that split underlyingsources of variation in high dimensional, unstructured data is important fordata efficient and robust use of neural networks. While various approachesaiming towards this goal have been proposed in recent times, a commonlyaccepted definition and validation procedure is missing. We provide a causalperspective on representation learning which covers disentanglement and domainshift robustness as special cases. Our causal framework allows us to introducea new metric for the quantitative evaluation of deep latent variable models. Weshow how this metric can be estimated from labeled observational data andfurther provide an efficient estimation algorithm that scales linearly in thedataset size.",
+            "aminer_id": "5cdbeb32e1cd8e2fdc3b8c76"
+        },
+        "scholkopf2021toward": {
+            "number": "[40]",
+            "title": "Toward Causal Representation Learning",
+            "text": "title={Toward causal representation learning},\n  author={Sch{\\\"o}lkopf, Bernhard and Locatello, Francesco and Bauer, Stefan and Ke, Nan Rosemary and Kalchbrenner, Nal and Goyal, Anirudh and Bengio, Yoshua},\n  journal={Proceedings of the IEEE},\n  volume={109},\n  number={5},\n  pages={612--634},\n  year={2021},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Toward causal representation learning",
+                "author": "Sch{\\\"o}lkopf, Bernhard and Locatello, Francesco and Bauer, Stefan and Ke, Nan Rosemary and Kalchbrenner, Nal and Goyal, Anirudh and Bengio, Yoshua",
+                "journal": "Proceedings of the IEEE",
+                "volume": "109",
+                "number": "5",
+                "pages": "612--634",
+                "year": "2021",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The two fields of machine learning and graphical causality arose and developed separately. However, there is now cross-pollination and increasing interest in both fields to benefit from the advances of the other. In the present paper, we review fundamental concepts of causal inference and relate them to crucial open problems of machine learning, including transfer and generalization, thereby assaying how causality can contribute to modern machine learning research. This also applies in the opposite direction: we note that most work in causality starts from the premise that the causal variables are given. A central problem for AI and causality is, thus, causal representation learning, the discovery of high-level causal variables from low-level observations. Finally, we delineate some implications of causality for machine learning and propose key research areas at the intersection of both communities.",
+            "aminer_id": "6034f37491e01122c046f9a2"
+        },
+        "locatello2019challenging": {
+            "number": "[41]",
+            "title": "Challenging Common Assumptions in the Unsupervised Learning of Disentangled Representations",
+            "text": "title={Challenging common assumptions in the unsupervised learning of disentangled representations},\n  author={Locatello, Francesco and Bauer, Stefan and Lucic, Mario and Raetsch, Gunnar and Gelly, Sylvain and Sch{\\\"o}lkopf, Bernhard and Bachem, Olivier},\n  booktitle={international conference on machine learning},\n  pages={4114--4124},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Challenging common assumptions in the unsupervised learning of disentangled representations",
+                "author": "Locatello, Francesco and Bauer, Stefan and Lucic, Mario and Raetsch, Gunnar and Gelly, Sylvain and Sch{\\\"o}lkopf, Bernhard and Bachem, Olivier",
+                "booktitle": "international conference on machine learning",
+                "pages": "4114--4124",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "The key idea behind the unsupervised learning of disentangled representations is that real-world data is generated by a few explanatory factors of variation which can be recovered by unsupervised learning algorithms. In this paper, we provide a sober look at recent progress in the field and challenge some common assumptions. We first theoretically show that the unsupervised learning of disentangled representations is fundamentally impossible without inductive biases on both the models and the data. Then, we train more than 12000 models covering most prominent methods and evaluation metrics in a reproducible large-scale experimental study on seven different data sets. We observe that while the different methods successfully enforce properties “encouraged” by the corresponding losses, well-disentangled models seemingly cannot be identified without supervision. Furthermore, increased disentanglement does not seem to lead to a decreased sample complexity of learning for downstream tasks. Our results suggest that future work on disentanglement learning should be explicit about the role of inductive biases and (implicit) supervision, investigate concrete benefits of enforcing disentanglement of the learned representations, and consider a reproducible experimental setup covering several data sets.",
+            "aminer_id": "5c7fab1ce1cd8e61f06a483c"
+        },
+        "wang2023amsa": {
+            "number": "[42]",
+            "title": "AMSA: adaptive multimodal learning for sentiment analysis",
+            "text": "title={AMSA: adaptive multimodal learning for sentiment analysis},\n  author={Wang, Jingyao and Mou, Luntian and Ma, Lei and Huang, Tiejun and Gao, Wen},\n  journal={ACM Transactions on Multimedia Computing, Communications and Applications},\n  volume={19},\n  number={3s},\n  pages={1--21},\n  year={2023},\n  publisher={ACM New York, NY}",
+            "type": "article",
+            "fields": {
+                "title": "AMSA: adaptive multimodal learning for sentiment analysis",
+                "author": "Wang, Jingyao and Mou, Luntian and Ma, Lei and Huang, Tiejun and Gao, Wen",
+                "journal": "ACM Transactions on Multimedia Computing, Communications and Applications",
+                "volume": "19",
+                "number": "3s",
+                "pages": "1--21",
+                "year": "2023",
+                "publisher": "ACM New York, NY"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "64252b7590e50fcafd0ccbea"
+        },
+        "wang2023awesome": {
+            "number": "[43]",
+            "title": "Awesome-META+: Meta-Learning Research and Learning Platform",
+            "text": "title={Awesome-META+: Meta-Learning Research and Learning Platform},\n  author={Wang, Jingyao and Zhang, Chuyuan and Ding, Ye and Yang, Yuxuan},\n  journal={arXiv preprint arXiv:2304.12921},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Awesome-META+: Meta-Learning Research and Learning Platform",
+                "author": "Wang, Jingyao and Zhang, Chuyuan and Ding, Ye and Yang, Yuxuan",
+                "journal": "arXiv preprint arXiv:2304.12921",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6479e3add68f896efa4e6484"
+        },
+        "hainmueller2012entropy": {
+            "number": "[44]",
+            "title": "Entropy Balancing for Causal Effects: A Multivariate Reweighting Method to Produce Balanced Samples in Observational Studies",
+            "text": "title={Entropy balancing for causal effects: A multivariate reweighting method to produce balanced samples in observational studies},\n  author={Hainmueller, Jens},\n  journal={Political analysis},\n  volume={20},\n  number={1},\n  pages={25--46},\n  year={2012},\n  publisher={Cambridge University Press}",
+            "type": "article",
+            "fields": {
+                "title": "Entropy balancing for causal effects: A multivariate reweighting method to produce balanced samples in observational studies",
+                "author": "Hainmueller, Jens",
+                "journal": "Political analysis",
+                "volume": "20",
+                "number": "1",
+                "pages": "25--46",
+                "year": "2012",
+                "publisher": "Cambridge University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper proposes entropy balancing, a data preprocessing method to achieve covariate balance in observational studies with binary treatments. Entropy balancing relies on a maximum entropy reweighting scheme that calibrates unit weights so that the reweighted treatment and control group satisfy a potentially large set of prespecified balance conditions that incorporate information about known sample moments. Entropy balancing thereby exactly adjusts inequalities in representation with respect to the first, second, and possibly higher moments of the covariate distributions. These balance improvements can reduce model dependence for the subsequent estimation of treatment effects. The method assures that balance improves on all covariate moments included in the reweighting. It also obviates the need for continual balance checking and iterative searching over propensity score models that may stochastically balance the covariate moments. We demonstrate the use of entropy balancing with Monte Carlo simulations and empirical applications.",
+            "aminer_id": "621772ff5aee126c0f196ec4"
+        },
+        "lachapelle2022disentanglement": {
+            "number": "[45]",
+            "title": "Disentanglement Via Mechanism Sparsity Regularization: A New Principle for Nonlinear ICA",
+            "text": "title={Disentanglement via mechanism sparsity regularization: A new principle for nonlinear ICA},\n  author={Lachapelle, S{\\'e}bastien and Rodriguez, Pau and Sharma, Yash and Everett, Katie E and Le Priol, R{\\'e}mi and Lacoste, Alexandre and Lacoste-Julien, Simon},\n  booktitle={Conference on Causal Learning and Reasoning},\n  pages={428--484},\n  year={2022},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Disentanglement via mechanism sparsity regularization: A new principle for nonlinear ICA",
+                "author": "Lachapelle, S{\\'e}bastien and Rodriguez, Pau and Sharma, Yash and Everett, Katie E and Le Priol, R{\\'e}mi and Lacoste, Alexandre and Lacoste-Julien, Simon",
+                "booktitle": "Conference on Causal Learning and Reasoning",
+                "pages": "428--484",
+                "year": "2022",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "This work introduces a novel principle we call disentanglement via mechanism sparsity regularization, which can be applied when the latent factors of interest depend sparsely on past latent factors and/or observed auxiliary variables. We propose a representation learning method that induces disentanglement by simultaneously learning the latent factors and the sparse causal graphical model that relates them. We develop a rigorous identifiability theory, building on recent nonlinear independent component analysis (ICA) results, that formalizes this principle and shows how the latent variables can be recovered up to permutation if one regularizes the latent mechanisms to be sparse and if some graph connectivity criterion is satisfied by the data generating process. As a special case of our framework, we show how one can leverage unknown-target interventions on the latent factors to disentangle them, thereby drawing further connections between ICA and causality. We propose a VAE-based method in which the latent mechanisms are learned and regularized via binary masks, and validate our theory by showing it learns disentangled representations in simulations.",
+            "aminer_id": "60f92b095244ab9dcb59b67f"
+        },
+        "koyama2020invariance": {
+            "number": "[46]",
+            "title": "When is invariance useful in an Out-of-Distribution Generalization problem?",
+            "text": "title={When is invariance useful in an Out-of-Distribution Generalization problem?},\n  author={Koyama, Masanori and Yamaguchi, Shoichiro},\n  journal={arXiv preprint arXiv:2008.01883},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "When is invariance useful in an Out-of-Distribution Generalization problem?",
+                "author": "Koyama, Masanori and Yamaguchi, Shoichiro",
+                "journal": "arXiv preprint arXiv:2008.01883",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "61c6cdf75244ab9dcb855580"
+        },
+        "yue2020interventional": {
+            "number": "[47]",
+            "title": "Interventional few-shot learning",
+            "text": "title={Interventional few-shot learning},\n  author={Yue, Zhongqi and Zhang, Hanwang and Sun, Qianru and Hua, Xian-Sheng},\n  journal={Advances in neural information processing systems},\n  volume={33},\n  pages={2734--2746},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Interventional few-shot learning",
+                "author": "Yue, Zhongqi and Zhang, Hanwang and Sun, Qianru and Hua, Xian-Sheng",
+                "journal": "Advances in neural information processing systems",
+                "volume": "33",
+                "pages": "2734--2746",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f75b71191e0111c1eb4d4b0"
+        },
+        "hung2011multiple": {
+            "number": "[48]",
+            "title": "Multiple Distributed Generator Placement in Primary Distribution Networks for Loss Reduction",
+            "text": "title={Multiple distributed generator placement in primary distribution networks for loss reduction},\n  author={Hung, Duong Quoc and Mithulananthan, Nadarajah},\n  journal={IEEE Transactions on industrial electronics},\n  volume={60},\n  number={4},\n  pages={1700--1708},\n  year={2011},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Multiple distributed generator placement in primary distribution networks for loss reduction",
+                "author": "Hung, Duong Quoc and Mithulananthan, Nadarajah",
+                "journal": "IEEE Transactions on industrial electronics",
+                "volume": "60",
+                "number": "4",
+                "pages": "1700--1708",
+                "year": "2011",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper investigates the problem of multiple distributed generator (DG units) placement to achieve a high loss reduction in large-scale primary distribution networks. An improved analytical (IA) method is proposed in this paper. This method is based on IA expressions to calculate the optimal size of four different DG types and a methodology to identify the best location for DG allocation. A technique to get the optimal power factor is presented for DG capable of delivering real and reactive power. Moreover, loss sensitivity factor (LSF) and exhaustive load flow (ELF) methods are also introduced. IA method was tested and validated on three distribution test systems with varying sizes and complexity. Results show that IA method is effective as compared with LSF and ELF solutions. Some interesting results are also discussed in this paper.",
+            "aminer_id": "53e9a95db7602d97032b67cf"
+        },
+        "li2017meta": {
+            "number": "[49]",
+            "title": "Meta-SGD: Learning to Learn Quickly for Few-Shot Learning",
+            "text": "title={Meta-sgd: Learning to learn quickly for few-shot learning},\n  author={Li, Zhenguo and Zhou, Fengwei and Chen, Fei and Li, Hang},\n  journal={arXiv preprint arXiv:1707.09835},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-sgd: Learning to learn quickly for few-shot learning",
+                "author": "Li, Zhenguo and Zhou, Fengwei and Chen, Fei and Li, Hang",
+                "journal": "arXiv preprint arXiv:1707.09835",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Few-shot learning is challenging for learning algorithms that learn each task in isolation and from scratch. In contrast, meta-learning learns from many related tasks a meta-learner that can learn a new task more accurately and faster with fewer examples, where the choice of meta-learners is crucial. In this paper, we develop Meta-SGD, an SGD-like, easily trainable meta-learner that can initialize and adapt any differentiable learner in just one step, on both supervised learning and reinforcement learning. Compared to the popular meta-learner LSTM, Meta-SGD is conceptually simpler, easier to implement, and can be learned more efficiently. Compared to the latest meta-learner MAML, Meta-SGD has a much higher capacity by learning to learn not just the learner initialization, but also the learner update direction and learning rate, all in a single meta-learning process. Meta-SGD shows highly competitive performance for few-shot learning on regression, classification, and reinforcement learning.",
+            "aminer_id": "59ae3bf12bbe271c4c71c067"
+        },
+        "multimodalmeta": {
+            "number": "[50]",
+            "title": "Revisit Multimodal Meta-Learning Through the Lens of Multi-Task Learning —supplementary Material—",
+            "text": "title={Revisit multimodal meta-learning through the lens of multi-task learning},\n  author={Abdollahzadeh, Milad and Malekzadeh, Touba and Cheung, Ngai-Man Man},\n  journal={Advances in Neural Information Processing Systems},\n  volume={34},\n  pages={14632--14644},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Revisit multimodal meta-learning through the lens of multi-task learning",
+                "author": "Abdollahzadeh, Milad and Malekzadeh, Touba and Cheung, Ngai-Man Man",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "34",
+                "pages": "14632--14644",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "This supplementary material provides results for additional experiments and details to reproduce our results that could not be included in the paper submission due to space limitations.",
+            "aminer_id": "68a7acb82855152d9fe6c8fe"
+        },
+        "fifty2020measuring": {
+            "number": "[51]",
+            "title": "Measuring and Harnessing Transference in Multi-Task Learning",
+            "text": "title={Measuring and harnessing transference in multi-task learning},\n  author={Fifty, Christopher and Amid, Ehsan and Zhao, Zhe and Yu, Tianhe and Anil, Rohan and Finn, Chelsea},\n  journal={arXiv preprint arXiv:2010.15413},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Measuring and harnessing transference in multi-task learning",
+                "author": "Fifty, Christopher and Amid, Ehsan and Zhao, Zhe and Yu, Tianhe and Anil, Rohan and Finn, Chelsea",
+                "journal": "arXiv preprint arXiv:2010.15413",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Multi-task learning can leverage information learned by one task to benefit the training of other tasks. Despite this capacity, naive formulations often degrade performance and in particular, identifying the tasks that would benefit from co-training remains a challenging design question. In this paper, we analyze the dynamics of information transfer, or transference, across tasks throughout training. Specifically, we develop a similarity measure that can quantify transference among tasks and use this quantity to both better understand the optimization dynamics of multi-task learning as well as improve overall learning performance. In the latter case, we propose two methods to leverage our transference metric. The first operates at a macro-level by selecting which tasks should train together while the second functions at a micro-level by determining how to combine task gradients at each training step. We find these methods can lead to significant improvement over prior work on three supervised multi-task learning benchmarks and one multi-task reinforcement learning paradigm.",
+            "aminer_id": "5f9be34391e011dcf482d8ef"
+        },
+        "protonet": {
+            "number": "[52]",
+            "title": "Prototypical networks for few-shot learning",
+            "text": "title={Prototypical networks for few-shot learning},\n  author={Snell, Jake and Swersky, Kevin and Zemel, Richard},\n  journal={Advances in neural information processing systems},\n  volume={30},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Prototypical networks for few-shot learning",
+                "author": "Snell, Jake and Swersky, Kevin and Zemel, Richard",
+                "journal": "Advances in neural information processing systems",
+                "volume": "30",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c794e601a182cd262e8f1"
+        },
+        "lee2018gradient": {
+            "number": "[53]",
+            "title": "Gradient-based meta-learning with learned layerwise metric and subspace",
+            "text": "title={Gradient-based meta-learning with learned layerwise metric and subspace},\n  author={Lee, Yoonho and Choi, Seungjin},\n  booktitle={International Conference on Machine Learning},\n  pages={2927--2936},\n  year={2018},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Gradient-based meta-learning with learned layerwise metric and subspace",
+                "author": "Lee, Yoonho and Choi, Seungjin",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "2927--2936",
+                "year": "2018",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a9cb66717c44a376ffb8656"
+        },
+        "martin2019all": {
+            "number": "[54]",
+            "title": "All-Assay-Max2 Pqsar: Activity Predictions As Accurate As Four-Concentration IC50s for 8558 Novartis Assays",
+            "text": "title={All-assay-Max2 pQSAR: activity predictions as accurate as four-concentration IC50s for 8558 Novartis assays},\n  author={Martin, Eric J and Polyakov, Valery R and Zhu, Xiang-Wei and Tian, Li and Mukherjee, Prasenjit and Liu, Xin},\n  journal={Journal of chemical information and modeling},\n  volume={59},\n  number={10},\n  pages={4450--4459},\n  year={2019},\n  publisher={ACS Publications}",
+            "type": "article",
+            "fields": {
+                "title": "All-assay-Max2 pQSAR: activity predictions as accurate as four-concentration IC50s for 8558 Novartis assays",
+                "author": "Martin, Eric J and Polyakov, Valery R and Zhu, Xiang-Wei and Tian, Li and Mukherjee, Prasenjit and Liu, Xin",
+                "journal": "Journal of chemical information and modeling",
+                "volume": "59",
+                "number": "10",
+                "pages": "4450--4459",
+                "year": "2019",
+                "publisher": "ACS Publications"
+            },
+            "ref_source": "bib",
+            "abstract": "Profile-quantitative structure-activity relationship (pQSAR) is a massively multitask, two-step machine learning method with unprecedented scope, accuracy, and applicability domain. In step one, a \"profile\" of conventional single-assay random forest regression models are trained on a very large number of biochemical and cellular pIC(50) assays using Morgan 2 substructural fingerprints as compound descriptors. In step two, a panel of partial least squares (PLS) models are built using the profile of pIC(50) predictions from those random forest regression models as compound descriptors (hence the name). Previously described for a panel of 728 biochemical and cellular kinase assays, we have now built an enormous pQSAR from 11 805 diverse Novartis (NVS) IC50 and EC50 assays. This large number of assays, and hence of compound descriptors for PLS, dictated reducing the profile by only including random forest regression models whose predictions correlate with the assay being modeled. The random forest regression and pQSAR models were evaluated with our \"realistically novel\" held-out test set, whose median average similarity to the nearest training set member across the 11 805 assays was only 0.34, comparable to the novelty of compounds actually selected from virtual screens. For the 11 805 single-assay random forest regression models, the median correlation of prediction with the experiment was only r(ext)(2) = 0.05, virtually random, and only 8% of the models achieved our standard success threshold of r(ext)(2) = 0.30. For pQSAR, the median correlation was r(ext)(2) = 0.53, comparable to four-concentration experimental IC(50)s, and 72% of the models met our r(ext)(2) > 0.30 standard, totaling 8558 successful models. The successful models included assays from all of the 51 annotated target subclasses, as well as 4196 phenotypic assays, indicating that pQSAR can be applied to virtually any disease area. Every month, all models are updated to include new measurements, and predictions are made for 5.5 million NVS compounds, totaling 50 billion predictions. Common uses have included virtual screening, selectivity design, toxicity and promiscuity prediction, mechanism-of-action prediction, and others. Several such actual applications are described.",
+            "aminer_id": "5d7e0fa147c8f76646dc4ac2"
+        },
+        "xiang2014beyond": {
+            "number": "[55]",
+            "title": "Beyond PASCAL: A Benchmark for 3D Object Detection in the Wild",
+            "text": "title={Beyond pascal: A benchmark for 3d object detection in the wild},\n  author={Xiang, Yu and Mottaghi, Roozbeh and Savarese, Silvio},\n  booktitle={IEEE winter conference on applications of computer vision},\n  pages={75--82},\n  year={2014},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Beyond pascal: A benchmark for 3d object detection in the wild",
+                "author": "Xiang, Yu and Mottaghi, Roozbeh and Savarese, Silvio",
+                "booktitle": "IEEE winter conference on applications of computer vision",
+                "pages": "75--82",
+                "year": "2014",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "3D object detection and pose estimation methods have become popular in recent years since they can handle ambiguities in 2D images and also provide a richer description for objects compared to 2D object detectors. However, most of the datasets for 3D recognition are limited to a small amount of images per category or are captured in controlled environments. In this paper, we contribute PASCAL3D+ dataset, which is a novel and challenging dataset for 3D object detection and pose estimation. PASCAL3D+ augments 12 rigid categories of the PASCAL VOC 2012 [4] with 3D annotations. Furthermore, more images are added for each category from ImageNet [3]. PASCAL3D+ images exhibit much more variability compared to the existing 3D datasets, and on average there are more than 3,000 object instances per category. We believe this dataset will provide a rich testbed to study 3D detection and pose estimation and will help to significantly push forward research in this area. We provide the results of variations of DPM [6] on our new dataset for object detection and viewpoint estimation in different scenarios, which can be used as baselines for the community. Our benchmark is available online at http://cvgl.stanford.edu/projects/pascal3d.",
+            "aminer_id": "5550484845ce0a409eb6d1b9"
+        },
+        "ren2018meta": {
+            "number": "[56]",
+            "title": "Meta-learning for semi-supervised few-shot classification",
+            "text": "title={Meta-learning for semi-supervised few-shot classification},\n  author={Ren, Mengye and Triantafillou, Eleni and Ravi, Sachin and Snell, Jake and Swersky, Kevin and Tenenbaum, Joshua B and Larochelle, Hugo and Zemel, Richard S},\n  journal={arXiv preprint arXiv:1803.00676},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning for semi-supervised few-shot classification",
+                "author": "Ren, Mengye and Triantafillou, Eleni and Ravi, Sachin and Snell, Jake and Swersky, Kevin and Tenenbaum, Joshua B and Larochelle, Hugo and Zemel, Richard S",
+                "journal": "arXiv preprint arXiv:1803.00676",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5aed14d117c44a4438158aa4"
+        },
+        "bertinetto2018meta": {
+            "number": "[57]",
+            "title": "[Re] Meta-learning with differentiable closed-form solvers",
+            "text": "title={Meta-learning with differentiable closed-form solvers},\n  author={Bertinetto, Luca and Henriques, Joao F and Torr, Philip HS and Vedaldi, Andrea},\n  journal={arXiv preprint arXiv:1805.08136},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Meta-learning with differentiable closed-form solvers",
+                "author": "Bertinetto, Luca and Henriques, Joao F and Torr, Philip HS and Vedaldi, Andrea",
+                "journal": "arXiv preprint arXiv:1805.08136",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "The ability to adapt to new situations and learn quickly is a cornerstone of human intelligence. When given a previously unseen task, humans can use their previous experience and learning abilities to perform well on this new task in a matter of seconds and with a relatively small amount of new data. Artificial learning methods have been shown to be very effective for specific tasks, often times surpassing human performance 1, 2). However, by relying on standard supervised-learning or reinforcement learning training paradigms, these artificial methods still require much training data and training time to adapt to a new task. An area of machine learning that learns and adapts from a small amount of data is called few-shot learning 3. A shot corresponds to a single example, eg an image and its label. In few-shot learning the learning scope is expanded from the classic setting of a single task with many shots to a variety of tasks with a few shots each. A promising approach for few-shot learning is the field of meta-learning. Meta-learning, also known as learning-to-learn, is a paradigm that exploits cross-task information and training experience to perform well on a new unseen task.In this work we reproduce the paper of Bertinetto et al. 4 (referenced as” their paper”); it falls into the class of gradient-based meta-learning algorithms that learn a model parameter initialization for rapid fine-tuning with a few shots 5, 6. The authors present a new meta-learning method that combines a deep neural network feature extractor with differentiable learning algorithms that have closed-form solutions. This reduces the overall complexity of the gradient based meta …",
+            "aminer_id": "5f0eb0b59e795ea8ce745025"
+        },
+        "DBLP:journals/corr/abs-1907-02893": {
+            "number": "[58]",
+            "title": "Invariant Risk Minimization",
+            "text": "author       = {Mart{\\'{\\i}}n Arjovsky and\n                  L{\\'{e}}on Bottou and\n                  Ishaan Gulrajani and\n                  David Lopez{-}Paz},\n  title        = {Invariant Risk Minimization},\n  journal      = {CoRR},\n  volume       = {abs/1907.02893},\n  year         = {2019},\n  url          = {http://arxiv.org/abs/1907.02893},\n  eprinttype    = {arXiv},\n  eprint       = {1907.02893},\n  timestamp    = {Mon, 08 Jul 2019 14:12:33 +0200},\n  biburl       = {https://dblp.org/rec/journals/corr/abs-1907-02893.bib},\n  bibsource    = {dblp computer science bibliography, https://dblp.org}",
+            "type": "article",
+            "fields": {
+                "title": "Invariant Risk Minimization",
+                "journal": "CoRR",
+                "volume": "abs/1907.02893",
+                "year": "2019",
+                "url": "http://arxiv.org/abs/1907.02893",
+                "eprinttype": "arXiv",
+                "eprint": "1907.02893",
+                "timestamp": "Mon, 08 Jul 2019 14:12:33 +0200",
+                "biburl": "https://dblp.org/rec/journals/corr/abs-1907-02893.bib",
+                "bibsource": "dblp computer science bibliography, https://dblp.org"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce Invariant Risk Minimization (IRM), a learning paradigm to estimate invariant correlations across multiple training distributions. To achieve this goal, IRM learns a data representation such that the optimal classifier, on top of that data representation, matches for all training distributions. Through theory and experiments, we show how the invariances learned by IRM relate to the causal structures governing the data and enable out-of-distribution generalization.",
+            "aminer_id": null
+        },
+        "gaulton2012chembl": {
+            "number": "[59]",
+            "title": "ChEMBL: a Large-Scale Bioactivity Database for Drug Discovery",
+            "text": "title={ChEMBL: a large-scale bioactivity database for drug discovery},\n  author={Gaulton, Anna and Bellis, Louisa J and Bento, A Patricia and Chambers, Jon and Davies, Mark and Hersey, Anne and Light, Yvonne and McGlinchey, Shaun and Michalovich, David and Al-Lazikani, Bissan and others},\n  journal={Nucleic acids research},\n  volume={40},\n  number={D1},\n  pages={D1100--D1107},\n  year={2012},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "ChEMBL: a large-scale bioactivity database for drug discovery",
+                "author": "Gaulton, Anna and Bellis, Louisa J and Bento, A Patricia and Chambers, Jon and Davies, Mark and Hersey, Anne and Light, Yvonne and McGlinchey, Shaun and Michalovich, David and Al-Lazikani, Bissan and others",
+                "journal": "Nucleic acids research",
+                "volume": "40",
+                "number": "D1",
+                "pages": "D1100--D1107",
+                "year": "2012",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "ChEMBL is an Open Data database containing binding, functional and ADMET information for a large number of drug-like bioactive compounds. These data are manually abstracted from the primary published literature on a regular basis, then further curated and standardized to maximize their quality and utility across a wide range of chemical biology and drug-discovery research problems. Currently, the database contains 5.4 million bioactivity measurements for more than 1 million compounds and 5200 protein targets. Access is available through a web-based interface, data downloads and web services at: https://www.ebi.ac.uk/chembldb.",
+            "aminer_id": "53e9a26bb7602d9702b74d9b"
+        },
+        "islam2020much": {
+            "number": "[60]",
+            "title": "How Much Position Information Do Convolutional Neural Networks Encode?",
+            "text": "title={How much position information do convolutional neural networks encode?},\n  author={Islam, Md Amirul and Jia, Sen and Bruce, Neil DB},\n  journal={arXiv preprint arXiv:2001.08248},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "How much position information do convolutional neural networks encode?",
+                "author": "Islam, Md Amirul and Jia, Sen and Bruce, Neil DB",
+                "journal": "arXiv preprint arXiv:2001.08248",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "In contrast to fully connected networks, Convolutional Neural Networks (CNNs) achieve efficiency by learning weights associated with local filters with a finite spatial extent. An implication of this is that a filter may know what it is looking at, but not where it is positioned in the image. Information concerning absolute position is inherently useful, and it is reasonable to assume that deep CNNs may implicitly learn to encode this information if there is a means to do so. In this paper, we test this hypothesis revealing the surprising degree of absolute position information that is encoded in commonly used neural networks. A comprehensive set of experiments show the validity of this hypothesis and shed light on how and where this information is represented while offering clues to where positional information is derived from in deep CNNs.",
+            "aminer_id": "5e2ac03c3a55ac8999c1ad28"
+        },
+        "zimmermann2021contrastive": {
+            "number": "[61]",
+            "title": "Contrastive learning inverts the data generating process",
+            "text": "title={Contrastive learning inverts the data generating process},\n  author={Zimmermann, Roland S and Sharma, Yash and Schneider, Steffen and Bethge, Matthias and Brendel, Wieland},\n  booktitle={International Conference on Machine Learning},\n  pages={12979--12990},\n  year={2021},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Contrastive learning inverts the data generating process",
+                "author": "Zimmermann, Roland S and Sharma, Yash and Schneider, Steffen and Bethge, Matthias and Brendel, Wieland",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "12979--12990",
+                "year": "2021",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "602e44a391e01144a29ccdc9"
+        },
+        "devlin2018bert": {
+            "number": "[62]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "title={Bert: Pre-training of deep bidirectional transformers for language understanding},\n  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},\n  journal={arXiv preprint arXiv:1810.04805},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+                "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+                "journal": "arXiv preprint arXiv:1810.04805",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "li2023compound": {
+            "number": "[63]",
+            "title": "Compound Expression Recognition In-the-Wild With AU-Assisted Meta Multi-Task Learning",
+            "text": "title={Compound Expression Recognition In-the-Wild With AU-Assisted Meta Multi-Task Learning},\n  author={Li, Ximan and Deng, Weihong and Li, Shan and Li, Yong},\n  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},\n  pages={5734--5743},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Compound Expression Recognition In-the-Wild With AU-Assisted Meta Multi-Task Learning",
+                "author": "Li, Ximan and Deng, Weihong and Li, Shan and Li, Yong",
+                "booktitle": "Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition",
+                "pages": "5734--5743",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "64f5616f3fda6d7f06f1fd60"
+        },
+        "jensen2004semantics": {
+            "number": "[64]",
+            "title": "Semantics-preserving Dimensionality Reduction: Rough and Fuzzy-Rough-based Approaches",
+            "text": "title={Semantics-preserving dimensionality reduction: rough and fuzzy-rough-based approaches},\n  author={Jensen, Richard and Shen, Qiang},\n  journal={IEEE Transactions on knowledge and data engineering},\n  volume={16},\n  number={12},\n  pages={1457--1471},\n  year={2004},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Semantics-preserving dimensionality reduction: rough and fuzzy-rough-based approaches",
+                "author": "Jensen, Richard and Shen, Qiang",
+                "journal": "IEEE Transactions on knowledge and data engineering",
+                "volume": "16",
+                "number": "12",
+                "pages": "1457--1471",
+                "year": "2004",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantics-preserving dimensionality reduction refers to the problem of selecting those input features that are most predictive of a given outcome; a problem encountered in many areas such as machine learning, pattern recognition, and signal processing. This has found successful application in tasks that involve data sets containing huge numbers of features ( in the order of tens of thousands), which would be impossible to process further. Recent examples include text processing and Web content classification. One of the many successful applications of rough set theory has been to this feature selection area. This paper reviews those techniques that preserve the underlying semantics of the data, using crisp and fuzzy rough set-based methodologies. Several approaches to feature selection based on rough set theory are experimentally compared. Additionally, a new area in feature selection, feature grouping, is highlighted and a rough set-based feature grouping technique is detailed.",
+            "aminer_id": "5390979920f70186a0dffe57"
+        },
+        "li2022metaug": {
+            "number": "[65]",
+            "title": "MetAug: Contrastive Learning Via Meta Feature Augmentation",
+            "text": "title={Metaug: Contrastive learning via meta feature augmentation},\n  author={Li, Jiangmeng and Qiang, Wenwen and Zheng, Changwen and Su, Bing and Xiong, Hui},\n  booktitle={International Conference on Machine Learning},\n  pages={12964--12978},\n  year={2022},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Metaug: Contrastive learning via meta feature augmentation",
+                "author": "Li, Jiangmeng and Qiang, Wenwen and Zheng, Changwen and Su, Bing and Xiong, Hui",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "12964--12978",
+                "year": "2022",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "What matters for contrastive learning? We argue that contrastive learning heavily relies on informative features, or\"hard\"(positive or negative) features. Early works include more informative features by applying complex data augmentations and large batch size or memory bank, and recent works design elaborate sampling approaches to explore informative features. The key challenge toward exploring such features is that the source multi-view data is generated by applying random data augmentations, making it infeasible to always add useful information in the augmented data. Consequently, the informativeness of features learned from such augmented data is limited. In response, we propose to directly augment the features in latent space, thereby learning discriminative representations without a large amount of input data. We perform a meta learning technique to build the augmentation generator that updates its network parameters by considering the performance of the encoder. However, insufficient input data may lead the encoder to learn collapsed features and therefore malfunction the augmentation generator. A new margin-injected regularization is further added in the objective function to avoid the encoder learning a degenerate mapping. To contrast all features in one gradient back-propagation step, we adopt the proposed optimization-driven unified contrastive loss instead of the conventional contrastive loss. Empirically, our method achieves state-of-the-art results on several benchmark datasets.",
+            "aminer_id": "622abdd05aee126c0f56ba30"
+        },
+        "qiang2022interventional": {
+            "number": "[66]",
+            "title": "Interventional Contrastive Learning with Meta Semantic Regularizer",
+            "text": "title={Interventional contrastive learning with meta semantic regularizer},\n  author={Qiang, Wenwen and Li, Jiangmeng and Zheng, Changwen and Su, Bing and Xiong, Hui},\n  booktitle={International Conference on Machine Learning},\n  pages={18018--18030},\n  year={2022},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Interventional contrastive learning with meta semantic regularizer",
+                "author": "Qiang, Wenwen and Li, Jiangmeng and Zheng, Changwen and Su, Bing and Xiong, Hui",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "18018--18030",
+                "year": "2022",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Contrastive learning (CL)-based self-supervised learning models learn visual representations in a pairwise manner. Although the prevailing CL model has achieved great progress, in this paper, we uncover an ever-overlooked phenomenon: When the CL model is trained with full images, the performance tested in full images is better than that in foreground areas; when the CL model is trained with foreground areas, the performance tested in full images is worse than that in foreground areas. This observation reveals that backgrounds in images may interfere with the model learning semantic information and their influence has not been fully eliminated. To tackle this issue, we build a Structural Causal Model (SCM) to model the background as a confounder. We propose a backdoor adjustment-based regularization method, namely Interventional Contrastive Learning with Meta Semantic Regularizer (ICL-MSR), to perform causal intervention towards the proposed SCM. ICL-MSR can be incorporated into any existing CL methods to alleviate background distractions from representation learning. Theoretically, we prove that ICL-MSR achieves a tighter error bound. Empirically, our experiments on multiple benchmark datasets demonstrate that ICL-MSR is able to improve the performances of different state-of-the-art CL methods.",
+            "aminer_id": "62bd156f5aee126c0f624fcc"
+        },
+        "guo2024self": {
+            "number": "[67]",
+            "title": "Self-Supervised Representation Learning with Meta Comprehensive Regularization",
+            "text": "title={Self-Supervised Representation Learning with Meta Comprehensive Regularization},\n  author={Guo, Huijie and Ba, Ying and Hu, Jie and Si, Lingyu and Qiang, Wenwen and Shi, Lei},\n  booktitle={Proceedings of the AAAI Conference on Artificial Intelligence},\n  volume={38},\n  number={3},\n  pages={1959--1967},\n  year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Self-Supervised Representation Learning with Meta Comprehensive Regularization",
+                "author": "Guo, Huijie and Ba, Ying and Hu, Jie and Si, Lingyu and Qiang, Wenwen and Shi, Lei",
+                "booktitle": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "volume": "38",
+                "number": "3",
+                "pages": "1959--1967",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Self-Supervised Learning (SSL) methods harness the concept of semanticinvariance by utilizing data augmentation strategies to produce similarrepresentations for different deformations of the same input. Essentially, themodel captures the shared information among multiple augmented views ofsamples, while disregarding the non-shared information that may be beneficialfor downstream tasks. To address this issue, we introduce a module calledCompMod with Meta Comprehensive Regularization (MCR), embedded into existingself-supervised frameworks, to make the learned representations morecomprehensive. Specifically, we update our proposed model through a bi-leveloptimization mechanism, enabling it to capture comprehensive features.Additionally, guided by the constrained extraction of features using maximumentropy coding, the self-supervised learning model learns more comprehensivefeatures on top of learning consistent features. In addition, we providetheoretical support for our proposed method from information theory and causalcounterfactual perspective. Experimental results show that our method achievessignificant improvement in classification, object detection and instancesegmentation tasks on multiple benchmark datasets.",
+            "aminer_id": "65e7dcad13fb2c6cf6fdc8f9"
+        },
+        "qiang2023meta": {
+            "number": "[68]",
+            "title": "Meta Attention-Generation Network for Cross-Granularity Few-Shot Learning",
+            "text": "title={Meta attention-generation network for cross-granularity few-shot learning},\n  author={Qiang, Wenwen and Li, Jiangmeng and Su, Bing and Fu, Jianlong and Xiong, Hui and Wen, Ji-Rong},\n  journal={International Journal of Computer Vision},\n  volume={131},\n  number={5},\n  pages={1211--1233},\n  year={2023},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Meta attention-generation network for cross-granularity few-shot learning",
+                "author": "Qiang, Wenwen and Li, Jiangmeng and Su, Bing and Fu, Jianlong and Xiong, Hui and Wen, Ji-Rong",
+                "journal": "International Journal of Computer Vision",
+                "volume": "131",
+                "number": "5",
+                "pages": "1211--1233",
+                "year": "2023",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Fine-grained classification with few labeled samples has urgent needs in practice since fine-grained samples are more difficult and expensive to collect and annotate. Standard few-shot learning (FSL) focuses on generalising across seen and unseen classes, where the classes are at the same level of granularity. Therefore, when applying existing FSL methods to tackle this problem, large amounts of labeled samples for some fine-grained classes are required. Since samples of coarse-grained classes are much cheaper and easier to obtain, it is desired to learn knowledge from coarse-grained categories that can be transferred to fine-grained classes with a few samples. In this paper, we propose a novel learning problem called cross-granularity few-shot learning (CG-FSL), where sufficient samples of coarse-grained classes are available for training, but in the test stage, the goal is to classify the fine-grained subclasses. This learning paradigm follows the laws of cognitive neurology. We first give an analysis of CG-FSL through the Structural Causal Model (SCM) and figure out that the standard FSL model learned at the coarse-grained level is actually a confounder. We thus perform backdoor adjustment to decouple the interferences and consequently derive a causal CG-FSL model called Meta Attention-Generation Network (MAGN), which is trained in a bilevel optimization manner. We construct benchmarks from several fine-grained image datasets for the CG-FSL problem and empirically show that our model significantly outperforms standard FSL methods and baseline CG-FSL methods.",
+            "aminer_id": "6456476fd68f896efae1ca05"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 68,
+        "citation_types": {
+            "other": 68
+        }
+    }
+}

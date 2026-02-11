@@ -1,0 +1,1557 @@
+{
+    "topic": "Bengali Fake Reviews: A Benchmark Dataset and Detection System",
+    "sections": [
+        {
+            "section_title": "Introduction \\label{sec1",
+            "refs": [
+                "[63]",
+                "[28]",
+                "[11]",
+                "[24]",
+                "[7]",
+                "[42]",
+                "[26]",
+                "[10]",
+                "[8]",
+                "[31]",
+                "[13]",
+                "[29]",
+                "[19]",
+                "[17]",
+                "[12]",
+                "[30]",
+                "[60]",
+                "[21]",
+                "[44]",
+                "[23]",
+                "[51]",
+                "[27]",
+                "[45]",
+                "[52]",
+                "[14]",
+                "[25]",
+                "[64]",
+                "[58]",
+                "[9]",
+                "[18]",
+                "[4]",
+                "[22]",
+                "[43]",
+                "[20]",
+                "[50]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Works \\label{sec2",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Traditional Approaches",
+                    "refs": [
+                        "[29]",
+                        "[28]",
+                        "[32]",
+                        "[30]",
+                        "[38]",
+                        "[37]",
+                        "[33]",
+                        "[35]",
+                        "[39]",
+                        "[41]",
+                        "[34]",
+                        "[40]",
+                        "[36]",
+                        "[31]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Deep Learning Approaches",
+                    "refs": [
+                        "[48]",
+                        "[55]",
+                        "[45]",
+                        "[51]",
+                        "[49]",
+                        "[52]",
+                        "[53]",
+                        "[54]",
+                        "[56]",
+                        "[46]",
+                        "[44]",
+                        "[57]",
+                        "[43]",
+                        "[50]",
+                        "[47]",
+                        "[42]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Problem Definition \\label{sec3",
+            "refs": [],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Corpus Creation \\label{sec4",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Data Collection",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Data Pre-processing",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Data Annotation",
+                    "refs": [
+                        "[59]",
+                        "[61]",
+                        "[62]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Dataset Statistics",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Methodology \\label{sec5",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Text Augmentation",
+                    "refs": [
+                        "[63]",
+                        "[16]",
+                        "[14]",
+                        "[64]",
+                        "[15]"
+                    ],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Pre-processing",
+                    "refs": [
+                        "[6]"
+                    ],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Detection Methods",
+                    "refs": [
+                        "[12]",
+                        "[11]",
+                        "[7]",
+                        "[13]",
+                        "[10]",
+                        "[9]",
+                        "[8]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "CNN and LSTM based models",
+                            "refs": [
+                                "[7]",
+                                "[10]",
+                                "[9]",
+                                "[8]"
+                            ],
+                            "subsections": [],
+                            "number": "5.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Transformer based Models",
+                            "refs": [
+                                "[12]",
+                                "[13]",
+                                "[11]",
+                                "[14]"
+                            ],
+                            "subsections": [],
+                            "number": "5.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "5.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Proposed Ensemble Model",
+                    "refs": [
+                        "[63]",
+                        "[4]",
+                        "[14]",
+                        "[2]",
+                        "[1]",
+                        "[3]",
+                        "[5]"
+                    ],
+                    "subsections": [],
+                    "number": "5.4",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Experiments and Result Analysis \\label{sec6",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Experimental Setup",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hyper-parameter Settings",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Results",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Quantitative Analysis",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Deep Learning and Transformer Models",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "6.4.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Ensemble Approaches",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "6.4.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Summary of Quantitative Analysis",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "6.4.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "6.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Qualitative Analysis",
+                    "refs": [
+                        "[60]"
+                    ],
+                    "subsections": [],
+                    "number": "6.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Misclassification Analysis",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.6",
+                    "level": 2
+                },
+                {
+                    "section_title": "Comparison with an Existing Ensemble Approach",
+                    "refs": [
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "6.7",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations and Future Work",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Declarations",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Credit authorship contribution statement",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ethical Approval and Consent to participate",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Consent for publication",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Human and Animal Ethics",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Competing interests",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Funding",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.6",
+                    "level": 2
+                }
+            ],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Some more Instances of Fake Reviews",
+            "refs": [],
+            "subsections": [],
+            "number": "10",
+            "level": 1
+        },
+        {
+            "section_title": "Conversion with LLM -- Llama 2 (70B)",
+            "refs": [],
+            "subsections": [],
+            "number": "11",
+            "level": 1
+        },
+        {
+            "section_title": "Algorithm of the Proposed Ensemble Model ",
+            "refs": [],
+            "subsections": [],
+            "number": "12",
+            "level": 1
+        },
+        {
+            "section_title": "Details of Evaluation Metrics",
+            "refs": [],
+            "subsections": [],
+            "number": "13",
+            "level": 1
+        },
+        {
+            "section_title": "Hyperparameter Settings",
+            "refs": [],
+            "subsections": [],
+            "number": "14",
+            "level": 1
+        },
+        {
+            "section_title": "Performance of Models for Approach 2 and 3 ",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Deep Learning and Transformer Models:",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "15.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ensemble Approaches:",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "15.2",
+                    "level": 2
+                }
+            ],
+            "number": "15",
+            "level": 1
+        },
+        {
+            "section_title": "Performance Analysis on Some Unseen Test Reviews",
+            "refs": [],
+            "subsections": [],
+            "number": "16",
+            "level": 1
+        }
+    ],
+    "references": {
+        "gutierrez2020ensemble": {
+            "number": "[1]",
+            "title": "Ensemble Learning for Detecting Fake Reviews",
+            "text": "title={Ensemble learning for detecting fake reviews},\n  author={Gutierrez-Espinoza, Luis and Abri, Faranak and Namin, Akbar Siami and Jones, Keith S and Sears, David RW},\n  booktitle={2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)},\n  pages={1320--1325},\n  year={2020},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Ensemble learning for detecting fake reviews",
+                "author": "Gutierrez-Espinoza, Luis and Abri, Faranak and Namin, Akbar Siami and Jones, Keith S and Sears, David RW",
+                "booktitle": "2020 IEEE 44th Annual Computers, Software, and Applications Conference (COMPSAC)",
+                "pages": "1320--1325",
+                "year": "2020",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Customers represent their satisfactions of consuming products by sharing their experiences through the utilization of online reviews. Several machine learning-based approaches can automatically detect deceptive and fake reviews. Recently, there have been studies reporting the performance of ensemble learning-based approaches in comparison to conventional machine learning techniques. Motivated by the recent trends in ensemble learning, this paper evaluates the performance of ensemble learning-based approaches to identify bogus online information. The application of a number of ensemble learning-based approaches to a collection of fake restaurant reviews that we developed show that these ensemble learning-based approaches detect deceptive information better than conventional machine learning algorithms.",
+            "aminer_id": "5ff882ba91e011c8326706ea"
+        },
+        "gundapu2021transformer": {
+            "number": "[2]",
+            "title": "Transformer Based Automatic COVID-19 Fake News Detection System",
+            "text": "title={Transformer based automatic COVID-19 fake news detection system},\n  author={Gundapu, Sunil and Mamidi, Radhika},\n  journal={arXiv preprint arXiv:2101.00180},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Transformer based automatic COVID-19 fake news detection system",
+                "author": "Gundapu, Sunil and Mamidi, Radhika",
+                "journal": "arXiv preprint arXiv:2101.00180",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent rapid technological advancements in online social networks such as Twitter have led to a great incline in spreading false information and fake news. Misinformation is especially prevalent in the ongoing coronavirus disease (COVID-19) pandemic, leading to individuals accepting bogus and potentially deleterious claims and articles. Quick detection of fake news can reduce the spread of panic and confusion among the public. For our analysis in this paper, we report a methodology to analyze the reliability of information shared on social media pertaining to the COVID-19 pandemic. Our best approach is based on an ensemble of three transformer models (BERT, ALBERT, and XLNET) to detecting fake news. This model was trained and evaluated in the context of the ConstraintAI 2021 shared task COVID19 Fake News Detection in English. Our system obtained 0.9855 f1-score on testset and ranked 5th among 160 teams.",
+            "aminer_id": "5ff432dc91e01130648dc2ea"
+        },
+        "shifath2021transformer": {
+            "number": "[3]",
+            "title": "A Transformer Based Approach for Fighting COVID-19 Fake News",
+            "text": "title={A transformer based approach for fighting COVID-19 fake news},\n  author={Shifath, SM and Khan, Mohammad Faiyaz and Islam, Md and others},\n  journal={arXiv preprint arXiv:2101.12027},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "A transformer based approach for fighting COVID-19 fake news",
+                "author": "Shifath, SM and Khan, Mohammad Faiyaz and Islam, Md and others",
+                "journal": "arXiv preprint arXiv:2101.12027",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "The rapid outbreak of COVID-19 has caused humanity to come to a stand-still and brought with it a plethora of other problems. COVID-19 is the first pandemic in history when humanity is the most technologically advanced and relies heavily on social media platforms for connectivity and other benefits. Unfortunately, fake news and misinformation regarding this virus is also available to people and causing some massive problems. So, fighting this infodemic has become a significant challenge. We present our solution for the \"Constraint@AAAI2021 - COVID19 Fake News Detection in English\" challenge in this work. After extensive experimentation with numerous architectures and techniques, we use eight different transformer-based pre-trained models with additional layers to construct a stacking ensemble classifier and fine-tuned them for our purpose. We achieved 0.979906542 accuracy, 0.979913119 precision, 0.979906542 recall, and 0.979907901 f1-score on the test dataset of the competition.",
+            "aminer_id": "60140d3291e01120e4ab5936"
+        },
+        "sharif2022tackling": {
+            "number": "[4]",
+            "title": "Tackling cyber-aggression: Identification and fine-grained categorization of aggressive texts on social media using weighted ensemble of transformers",
+            "text": "title={Tackling cyber-aggression: Identification and fine-grained categorization of aggressive texts on social media using weighted ensemble of transformers},\n  author={Sharif, Omar and Hoque, Mohammed Moshiul},\n  journal={Neurocomputing},\n  volume={490},\n  pages={462--481},\n  year={2022},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Tackling cyber-aggression: Identification and fine-grained categorization of aggressive texts on social media using weighted ensemble of transformers",
+                "author": "Sharif, Omar and Hoque, Mohammed Moshiul",
+                "journal": "Neurocomputing",
+                "volume": "490",
+                "pages": "462--481",
+                "year": "2022",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "The pervasiveness of aggressive content in social media has become a serious concern for government organizations and tech companies because of its pernicious societal effects. In recent years, social media has been repeatedly used as a tool to incite communal aggression, spread distorted propaganda, damage social harmony and demean the identity of individuals or a community in the public spaces. Therefore, restraining the proliferation of aggressive content and detecting them has become an urgent duty. Studies of the identification of aggressive content have mostly been done for English and other high-resource languages. Automatic systems developed for those languages can not accurately identify detrimental contents written in regional languages like Bengali. To compensate this insufficiency, this work presents a novel Bengali aggressive text dataset (called 'BAD') with two-level annotation. In level-A, 14158 texts are labeled as either aggressive or non-aggressive. While in level-B, 6807 aggressive texts are categorized into religious, political, verbal and gendered aggression classes each having 2217, 2085, 2043 and 462 texts respectively. This paper proposes a weighted ensemble technique including m-BERT, distil-BERT, Bangla-BERT and XLM-R as the base classifiers to identify and classify the aggressive texts in Bengali. The proposed model can readdress the softmax probabilities of the participating classifiers depending on their primary outcomes. This weighting technique has enabled the model to outdo the simple average ensemble and all other machine learning (ML), deep learning (DL) baselines. It has acquired the highest weighted f(1)-score of 93.43% in the identification task and 93.11% in the categorization task. (C) 2021 Elsevier B.V. All rights reserved.",
+            "aminer_id": "625d07ee5aee126c0f60a666"
+        },
+        "javed2021fake": {
+            "number": "[5]",
+            "title": "Fake Reviews Classification Using Deep Learning Ensemble of Shallow Convolutions",
+            "text": "title={Fake reviews classification using deep learning ensemble of shallow convolutions},\n  author={Javed, Muhammad Saad and Majeed, Hammad and Mujtaba, Hasan and Beg, Mirza Omer},\n  journal={Journal of Computational Social Science},\n  pages={1--20},\n  year={2021},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Fake reviews classification using deep learning ensemble of shallow convolutions",
+                "author": "Javed, Muhammad Saad and Majeed, Hammad and Mujtaba, Hasan and Beg, Mirza Omer",
+                "journal": "Journal of Computational Social Science",
+                "pages": "1--20",
+                "year": "2021",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews have a decisive impact on consumers’ purchasing decisions. This opens the doors for spammers and scammers to post fake reviews for promoting non-existent products or undermine competitor products to affect social behavior. Thus, the identification of reviews as fake and real has become ever more important. Traditional approaches for text classification use a bag-of-words model to represent text which causes sparsity and word representations learnt from neural networks with limited ability to handle unknown words. In this paper, we propose a technique based on three different models trained on the idea of a multi-view learning technique and create an ensemble of all models by employing an aggregation technique for generating final predictions. The core idea of our methodology is to extract rich information from the text of reviews by combining bag-of-n-grams and parallel convolution neural networks(CNNs). By using an n-gram embedding layer with small kernel sizes we can use local context with the same computation power as required to train deep and complex CNNs. Our CNN-based architecture consumes n-gram embeddings as input and uses the parallel convolutional blocks to extract richer feature representations from text. Our approach for the detection of fake reviews also combines textual linguistic features and non-textual features related to reviewer behavior. We evaluate our approach on publically available Yelp Filtered Dataset and achieve F1 scores of up to 92% for classifying fake reviews.",
+            "aminer_id": "609a73fae4510cd7c89b2222"
+        },
+        "hasan-etal-2020-low": {
+            "number": "[6]",
+            "title": "Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for Bengali-English Machine Translation.",
+            "text": "title = \"Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for {B}engali-{E}nglish Machine Translation\",\n    author = \"Hasan, Tahmid  and\n      Bhattacharjee, Abhik  and\n      Samin, Kazi  and\n      Hasan, Masum  and\n      Basak, Madhusudan  and\n      Rahman, M. Sohel  and\n      Shahriyar, Rifat\",\n    booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://www.aclweb.org/anthology/2020.emnlp-main.207\",\n    doi = \"10.18653/v1/2020.emnlp-main.207\",\n    pages = \"2612--2623\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Not Low-Resource Anymore: Aligner Ensembling, Batch Filtering, and New Datasets for {B}engali-{E}nglish Machine Translation",
+                "author": "Hasan, Tahmid and Bhattacharjee, Abhik and Samin, Kazi and Hasan, Masum and Basak, Madhusudan and Rahman, M. Sohel and Shahriyar, Rifat",
+                "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                "year": "2020",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://www.aclweb.org/anthology/2020.emnlp-main.207",
+                "doi": "10.18653/v1/2020.emnlp-main.207",
+                "pages": "2612--2623"
+            },
+            "ref_source": "bib",
+            "abstract": "Despite being the seventh most widely spoken language in the world, Bengali has received much less attention in machine translation literature due to being low in resources. Most publicly available parallel corpora for Bengali are not large enough; and have rather poor quality, mostly because of incorrect sentence alignments resulting from erroneous sentence segmentation, and also because of a high volume of noise present in them. In this work, we build a customized sentence segmenter for Bengali and propose two novel methods for parallel corpus creation on low-resource setups: aligner ensembling and batch filtering. With the segmenter and the two methods combined, we compile a high-quality Bengali-English parallel corpus comprising of 2.75 million sentence pairs, more than 2 million of which were not available before. Training on neural models, we achieve an improvement of more than 9 BLEU score over previous approaches to Bengali-English machine translation. We also evaluate on a new test set of 1000 pairs made with extensive quality control. We release the segmenter, parallel corpus, and the evaluation set, thus elevating Bengali from its low-resource status. To the best of our knowledge, this is the first ever large scale study on Bengali-English machine translation. We believe our study will pave the way for future research on Bengali-English machine translation as well as other low-resource languages. Our data and code are available at this https URL.",
+            "aminer_id": "5f69d8ab91e011a2f02707e2"
+        },
+        "lecun1998gradient": {
+            "number": "[7]",
+            "title": "Gradient-based Learning Applied to Document Recognition",
+            "text": "title={Gradient-based learning applied to document recognition},\n  author={LeCun, Yann and Bottou, L{\\'e}on and Bengio, Yoshua and Haffner, Patrick},\n  journal={Proceedings of the IEEE},\n  volume={86},\n  number={11},\n  pages={2278--2324},\n  year={1998},\n  publisher={Ieee}",
+            "type": "article",
+            "fields": {
+                "title": "Gradient-based learning applied to document recognition",
+                "author": "LeCun, Yann and Bottou, L{\\'e}on and Bengio, Yoshua and Haffner, Patrick",
+                "journal": "Proceedings of the IEEE",
+                "volume": "86",
+                "number": "11",
+                "pages": "2278--2324",
+                "year": "1998",
+                "publisher": "Ieee"
+            },
+            "ref_source": "bib",
+            "abstract": "Multilayer neural networks trained with the back-propagation algorithm constitute the best example of a successful gradient based learning technique. Given an appropriate network architecture, gradient-based learning algorithms can be used to synthesize a complex decision surface that can classify high-dimensional patterns, such as handwritten characters, with minimal preprocessing. This paper reviews various methods applied to handwritten character recognition and compares them on a standard handwritten digit recognition task. Convolutional neural networks, which are specifically designed to deal with the variability of 2D shapes, are shown to outperform all other techniques. Real-life document recognition systems are composed of multiple modules including field extraction, segmentation recognition, and language modeling. A new learning paradigm, called graph transformer networks (GTN), allows such multimodule systems to be trained globally using gradient-based methods so as to minimize an overall performance measure. Two systems for online handwriting recognition are described. Experiments demonstrate the advantage of global training, and the flexibility of graph transformer networks. A graph transformer network for reading a bank cheque is also described. It uses convolutional neural network character recognizers combined with global training techniques to provide record accuracy on business and personal cheques. It is deployed commercially and reads several million cheques per day.",
+            "aminer_id": "558a817fe4b0b32fcb373598"
+        },
+        "graves2005framewise": {
+            "number": "[8]",
+            "title": "Framewise phoneme classification with bidirectional LSTM and other neural network architectures",
+            "text": "title={Framewise phoneme classification with bidirectional LSTM and other neural network architectures},\n  author={Graves, Alex and Schmidhuber, J{\\\"u}rgen},\n  journal={Neural networks},\n  volume={18},\n  number={5-6},\n  pages={602--610},\n  year={2005},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Framewise phoneme classification with bidirectional LSTM and other neural network architectures",
+                "author": "Graves, Alex and Schmidhuber, J{\\\"u}rgen",
+                "journal": "Neural networks",
+                "volume": "18",
+                "number": "5-6",
+                "pages": "602--610",
+                "year": "2005",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390994d20f70186a0e13201"
+        },
+        "rhanoui2019cnn": {
+            "number": "[9]",
+            "title": "A CNN-BiLSTM Model for Document-Level Sentiment Analysis",
+            "text": "title={A CNN-BiLSTM model for document-level sentiment analysis},\n  author={Rhanoui, Maryem and Mikram, Mounia and Yousfi, Siham and Barzali, Soukaina},\n  journal={Machine Learning and Knowledge Extraction},\n  volume={1},\n  number={3},\n  pages={832--847},\n  year={2019},\n  publisher={MDPI}",
+            "type": "article",
+            "fields": {
+                "title": "A CNN-BiLSTM model for document-level sentiment analysis",
+                "author": "Rhanoui, Maryem and Mikram, Mounia and Yousfi, Siham and Barzali, Soukaina",
+                "journal": "Machine Learning and Knowledge Extraction",
+                "volume": "1",
+                "number": "3",
+                "pages": "832--847",
+                "year": "2019",
+                "publisher": "MDPI"
+            },
+            "ref_source": "bib",
+            "abstract": "Document-level sentiment analysis is a challenging task given the large size of the text, which leads to an abundance of words and opinions, at times contradictory, in the same document. This analysis is particularly useful in analyzing press articles and blog posts about a particular product or company, and it requires a high concentration, especially when the topic being discussed is sensitive. Nevertheless, most existing models and techniques are designed to process short text from social networks and collaborative platforms. In this paper, we propose a combination of Convolutional Neural Networks (CNN) and Bidirectional Long Short-Term Memory (BiLSTM) models, with Doc2vec embedding, suitable for opinion analysis in long texts. The CNN-BiLSTM model is compared with CNN, LSTM, BiLSTM and CNN-LSTM models with Word2vec/Doc2vec embeddings. The Doc2vec with CNN-BiLSTM model was applied on French newspapers articles and outperformed the other models with 90.66% accuracy.",
+            "aminer_id": "5dcd285adf1a9c0c4155dedd"
+        },
+        "lu2021cnn": {
+            "number": "[10]",
+            "title": "A CNN-BiLSTM-AM Method for Stock Price Prediction",
+            "text": "title={A CNN-BiLSTM-AM method for stock price prediction},\n  author={Lu, Wenjie and Li, Jiazheng and Wang, Jingyang and Qin, Lele},\n  journal={Neural Computing and Applications},\n  volume={33},\n  pages={4741--4753},\n  year={2021},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "A CNN-BiLSTM-AM method for stock price prediction",
+                "author": "Lu, Wenjie and Li, Jiazheng and Wang, Jingyang and Qin, Lele",
+                "journal": "Neural Computing and Applications",
+                "volume": "33",
+                "pages": "4741--4753",
+                "year": "2021",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "In recent years, with the rapid development of the economy, more and more people begin to invest into the stock market. Accurately predicting the change of stock price can reduce the investment risk of stock investors and effectively improve the investment return. Due to the volatility characteristics of the stock market, stock price prediction is often a nonlinear time series prediction. Stock price is affected by many factors. It is difficult to predict through a simple model. Therefore, this paper proposes a CNN-BiLSTM-AM method to predict the stock closing price of the next day. This method is composed of convolutional neural networks (CNN), bi-directional long short-term Memory (BiLSTM), and attention mechanism (AM). CNN is used to extract the features of the input data. BiLSTM uses the extracted feature data to predict stock closing price of the next day. AM is used to capture the influence of feature states on the stock closing price at different times in the past to improve the prediction accuracy. In order to prove the effectiveness of this method, this method and other seven methods are used to predict the stock closing price of the next day for 1000 trading days of the Shanghai Composite Index. The results show that the performance of this method is the best, MAE and RMSE are the smallest (which are 21.952 and 31.694). R-2 is the largest (its value is 0.9804). Compared with other methods, the CNN-BiLSTM-AM method is more suitable for the prediction of stock price and for providing a reliable way for investors' to make stock investment decisions.",
+            "aminer_id": "609666bce4510cd7c8027b5b"
+        },
+        "devlin-etal-2019-bert": {
+            "number": "[11]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "title = \"{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding\",\n    author = \"Devlin, Jacob  and\n      Chang, Ming-Wei  and\n      Lee, Kenton  and\n      Toutanova, Kristina\",\n    booktitle = \"Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)\",\n    month = jun,\n    year = \"2019\",\n    address = \"Minneapolis, Minnesota\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N19-1423\",\n    doi = \"10.18653/v1/N19-1423\",\n    pages = \"4171--4186\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+                "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+                "booktitle": "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+                "year": "2019",
+                "address": "Minneapolis, Minnesota",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/N19-1423",
+                "doi": "10.18653/v1/N19-1423",
+                "pages": "4171--4186"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "clark2020electra": {
+            "number": "[12]",
+            "title": "Electra: Pre-training text encoders as discriminators rather than generators",
+            "text": "title={Electra: Pre-training text encoders as discriminators rather than generators},\n  author={Clark, Kevin and Luong, Minh-Thang and Le, Quoc V and Manning, Christopher D},\n  journal={arXiv preprint arXiv:2003.10555},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Electra: Pre-training text encoders as discriminators rather than generators",
+                "author": "Clark, Kevin and Luong, Minh-Thang and Le, Quoc V and Manning, Christopher D",
+                "journal": "arXiv preprint arXiv:2003.10555",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e7b2bc691e011a93a4bc643"
+        },
+        "lan2019albert": {
+            "number": "[13]",
+            "title": "[RE] ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+            "text": "title={Albert: A lite bert for self-supervised learning of language representations},\n  author={Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu},\n  journal={arXiv preprint arXiv:1909.11942},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Albert: A lite bert for self-supervised learning of language representations",
+                "author": "Lan, Zhenzhong and Chen, Mingda and Goodman, Sebastian and Gimpel, Kevin and Sharma, Piyush and Soricut, Radu",
+                "journal": "arXiv preprint arXiv:1909.11942",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "In this report, in-depth comparisons between BERT and ALBERT are made using various open-source interpretability 2 and testing tools to verify the claim that ALBERT achieves better performance and faster inference compared to BERT. 3 ALBERT achieves higher benchmarks across many different downstream tasks and demonstrates appropriate sentence 4 embeddings visualization. However, experiment results from behavioral testings and adversarial attacks suggest that 5 ALBERT has relatively worse capabilities, particularly in terms of Robustness and Fairness. 6",
+            "aminer_id": "61ca12c15244ab9dcbe63505"
+        },
+        "bhattacharjee-etal-2022-banglabert": {
+            "number": "[14]",
+            "title": "BanglaBERT: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in Bangla",
+            "text": "title = \"{B}angla{BERT}: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in {B}angla\",\n    author = \"Bhattacharjee, Abhik  and\n      Hasan, Tahmid  and\n      Ahmad, Wasi  and\n      Mubasshir, Kazi Samin  and\n      Islam, Md Saiful  and\n      Iqbal, Anindya  and\n      Rahman, M. Sohel  and\n      Shahriyar, Rifat\",\n    booktitle = \"Findings of the Association for Computational Linguistics: NAACL 2022\",\n    month = jul,\n    year = \"2022\",\n    address = \"Seattle, United States\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2022.findings-naacl.98\",\n    pages = \"1318--1327\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{B}angla{BERT}: Language Model Pretraining and Benchmarks for Low-Resource Language Understanding Evaluation in {B}angla",
+                "author": "Bhattacharjee, Abhik and Hasan, Tahmid and Ahmad, Wasi and Mubasshir, Kazi Samin and Islam, Md Saiful and Iqbal, Anindya and Rahman, M. Sohel and Shahriyar, Rifat",
+                "booktitle": "Findings of the Association for Computational Linguistics: NAACL 2022",
+                "year": "2022",
+                "address": "Seattle, United States",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2022.findings-naacl.98",
+                "pages": "1318--1327"
+            },
+            "ref_source": "bib",
+            "abstract": "In this work, we introduce BanglaBERT, a BERT-based Natural Language Understanding (NLU) model pretrained in Bangla, a widely spoken yet low-resource language in the NLP literature. To pretrain BanglaBERT, we collect 27.5 GB of Bangla pretraining data (dubbed `Bangla2B+') by crawling 110 popular Bangla sites. We introduce two downstream task datasets on natural language inference and question answering and benchmark on four diverse NLU tasks covering text classification, sequence labeling, and span prediction. In the process, we bring them under the first-ever Bangla Language Understanding Benchmark (BLUB). BanglaBERT achieves state-of-the-art results outperforming multilingual and monolingual models. We are making the models, datasets, and a leaderboard publicly available at https://github.com/csebuetnlp/banglabert to advance Bangla NLP.",
+            "aminer_id": "5ff433fa91e01130648dc302"
+        },
+        "akil2022banglaparaphrase": {
+            "number": "[15]",
+            "title": "BanglaParaphrase: A High-Quality Bangla Paraphrase Dataset",
+            "text": "title={BanglaParaphrase: A High-Quality Bangla Paraphrase Dataset},\n  author={Akil, Ajwad and Sultana, Najrin and Bhattacharjee, Abhik and Shahriyar, Rifat},\n  journal={arXiv preprint arXiv:2210.05109},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "BanglaParaphrase: A High-Quality Bangla Paraphrase Dataset",
+                "author": "Akil, Ajwad and Sultana, Najrin and Bhattacharjee, Abhik and Shahriyar, Rifat",
+                "journal": "arXiv preprint arXiv:2210.05109",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6392ac4190e50fcafd9f6650"
+        },
+        "bhattacharjee2022banglanlg": {
+            "number": "[16]",
+            "title": "BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla",
+            "text": "author    = {Abhik Bhattacharjee and Tahmid Hasan and Wasi Uddin Ahmad and Rifat Shahriyar},\n  title     = {BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla},\n  journal   = {CoRR},\n  volume    = {abs/2205.11081},\n  year      = {2022},\n  url       = {https://arxiv.org/abs/2205.11081},\n  eprinttype = {arXiv},\n  eprint    = {2205.11081}",
+            "type": "article",
+            "fields": {
+                "author": "Abhik Bhattacharjee and Tahmid Hasan and Wasi Uddin Ahmad and Rifat Shahriyar",
+                "title": "BanglaNLG: Benchmarks and Resources for Evaluating Low-Resource Natural Language Generation in Bangla",
+                "journal": "CoRR",
+                "volume": "abs/2205.11081",
+                "year": "2022",
+                "url": "https://arxiv.org/abs/2205.11081",
+                "eprinttype": "arXiv",
+                "eprint": "2205.11081"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "businessinsiderFakeReviews": {
+            "number": "[17]",
+            "title": "Fake Reviews Are Becoming An Even Bigger Problem For Businesses --- businessinsider.com",
+            "text": "author = {Max Nisen},\n\ttitle = {{F}ake {R}eviews {A}re {B}ecoming {A}n {E}ven {B}igger {P}roblem {F}or {B}usinesses  --- businessinsider.com},\n\thowpublished = {\\url{https://www.businessinsider.com/fake-reviews-are-becoming-a-huge-problem-for-businesses-2012-9}},\n\tyear = {},\n\tnote = {[Accessed 06-May-2023]},",
+            "type": "misc",
+            "fields": {
+                "author": "Max Nisen",
+                "title": "{F}ake {R}eviews {A}re {B}ecoming {A}n {E}ven {B}igger {P}roblem {F}or {B}usinesses --- businessinsider.com",
+                "howpublished": "\\url{https://www.businessinsider.com/fake-reviews-are-becoming-a-huge-problem-for-businesses-2012-9}",
+                "year": "",
+                "note": "[Accessed 06-May-2023]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ha2015impact": {
+            "number": "[18]",
+            "title": "Impact of Online Consumer Reviews on Product Sales: Quantitative Analysis of the Source Effect",
+            "text": "title={Impact of online consumer reviews on product sales: Quantitative analysis of the source effect},\n  author={Ha, Sung Ho and Bae, SY and Son, Lee Kyeong},\n  journal={Applied Mathematics and Information Sciences},\n  volume={9},\n  number={2L},\n  pages={373--387},\n  year={2015}",
+            "type": "article",
+            "fields": {
+                "title": "Impact of online consumer reviews on product sales: Quantitative analysis of the source effect",
+                "author": "Ha, Sung Ho and Bae, SY and Son, Lee Kyeong",
+                "journal": "Applied Mathematics and Information Sciences",
+                "volume": "9",
+                "number": "2L",
+                "pages": "373--387",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d8c512dabfae2eee46b52f"
+        },
+        "mukherjee2012spotting": {
+            "number": "[19]",
+            "title": "Spotting Fake Reviewer Groups in Consumer Reviews",
+            "text": "title={Spotting fake reviewer groups in consumer reviews},\n  author={Mukherjee, Arjun and Liu, Bing and Glance, Natalie},\n  booktitle={Proceedings of the 21st international conference on World Wide Web},\n  pages={191--200},\n  year={2012}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Spotting fake reviewer groups in consumer reviews",
+                "author": "Mukherjee, Arjun and Liu, Bing and Glance, Natalie",
+                "booktitle": "Proceedings of the 21st international conference on World Wide Web",
+                "pages": "191--200",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "Opinionated social media such as product reviews are now widely used by individuals and organizations for their decision making. However, due to the reason of profit or fame, people try to game the system by opinion spamming (e.g., writing fake reviews) to promote or demote some target products. For reviews to reflect genuine user experiences and opinions, such spam reviews should be detected. Prior works on opinion spam focused on detecting fake reviews and individual fake reviewers. However, a fake reviewer group (a group of reviewers who work collaboratively to write fake reviews) is even more damaging as they can take total control of the sentiment on the target product due to its size. This paper studies spam detection in the collaborative setting, i.e., to discover fake reviewer groups. The proposed method first uses a frequent itemset mining method to find a set of candidate groups. It then uses several behavioral models derived from the collusion phenomenon among fake reviewers and relation models based on the relationships among groups, individual reviewers, and products they reviewed to detect fake reviewer groups. Additionally, we also built a labeled dataset of fake reviewer groups. Although labeling individual fake reviews and reviewers is very hard, to our surprise labeling fake reviewer groups is much easier. We also note that the proposed technique departs from the traditional supervised learning approach for spam detection because of the inherent nature of our problem which makes the classic supervised learning approach less effective. Experimental results show that the proposed method outperforms multiple strong baselines including the state-of-the-art supervised classification, regression, and learning to rank algorithms.",
+            "aminer_id": "5390b4c420f70186a0efe9c1"
+        },
+        "jindal2007review": {
+            "number": "[20]",
+            "title": "Review spam detection",
+            "text": "title={Review spam detection},\n  author={Jindal, Nitin and Liu, Bing},\n  booktitle={Proceedings of the 16th international conference on World Wide Web},\n  pages={1189--1190},\n  year={2007}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Review spam detection",
+                "author": "Jindal, Nitin and Liu, Bing",
+                "booktitle": "Proceedings of the 16th international conference on World Wide Web",
+                "pages": "1189--1190",
+                "year": "2007"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "duan2008online": {
+            "number": "[21]",
+            "title": "Do online reviews matter?—An empirical investigation of panel data",
+            "text": "title={Do online reviews matter?—An empirical investigation of panel data},\n  author={Duan, Wenjing and Gu, Bin and Whinston, Andrew B},\n  journal={Decision support systems},\n  volume={45},\n  number={4},\n  pages={1007--1016},\n  year={2008},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Do online reviews matter?—An empirical investigation of panel data",
+                "author": "Duan, Wenjing and Gu, Bin and Whinston, Andrew B",
+                "journal": "Decision support systems",
+                "volume": "45",
+                "number": "4",
+                "pages": "1007--1016",
+                "year": "2008",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390a1f820f70186a0e5ca86"
+        },
+        "mukherjee2013yelp": {
+            "number": "[22]",
+            "title": "What Yelp Fake Review Filter Might Be Doing?",
+            "text": "title={What yelp fake review filter might be doing?},\n  author={Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie},\n  booktitle={Proceedings of the international AAAI conference on web and social media},\n  volume={7},\n  number={1},\n  pages={409--418},\n  year={2013}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "What yelp fake review filter might be doing?",
+                "author": "Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie",
+                "booktitle": "Proceedings of the international AAAI conference on web and social media",
+                "volume": "7",
+                "number": "1",
+                "pages": "409--418",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews have become a valuable resource for decision making. However, its usefulness brings forth a curse ‒ deceptive opinion spam. In recent years, fake review detection has attracted significant attention. However, most review sites still do not publicly filter fake reviews. Yelp is an exception which has been filtering reviews over the past few years. However, Yelp’s algorithm is trade secret. In this work, we attempt to find out what Yelp might be doing by analyzing its filtered reviews. The results will be useful to other review hosting sites in their filtering effort. There are two main approaches to filtering: supervised and unsupervised learning. In terms of features used, there are also roughly two types: linguistic features and behavioral features. In this work, we will take a supervised approach as we can make use of Yelp’s filtered reviews for training. Existing approaches based on supervised learning are all based on pseudo fake reviews rather than fake reviews filtered by a commercial Web site. Recently, supervised learning using linguistic n-gram features has been shown to perform extremely well (attaining around 90% accuracy) in detecting crowdsourced fake reviews generated using Amazon Mechanical Turk (AMT). We put these existing research methods to the test and evaluate performance on the real-life Yelp data. To our surprise, the behavioral features perform very well, but the linguistic features are not as effective. To investigate, a novel information theoretic analysis is proposed to uncover the precise psycholinguistic difference between AMT reviews and Yelp reviews (crowdsourced vs. commercial fake reviews). We find something quite interesting. This analysis and experimental results allow us to postulate that Yelp’s filtering is reasonable and its filtering algorithm seems to be correlated with abnormal spamming behaviors.",
+            "aminer_id": "53e9a2e4b7602d9702bed949"
+        },
+        "luca2016reviews": {
+            "number": "[23]",
+            "title": "Reviews, reputation, and revenue: The case of Yelp. com",
+            "text": "title={Reviews, reputation, and revenue: The case of Yelp. com},\n  author={Luca, Michael},\n  journal={Com (March 15, 2016). Harvard Business School NOM Unit Working Paper},\n  number={12-016},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Reviews, reputation, and revenue: The case of Yelp. com",
+                "author": "Luca, Michael",
+                "journal": "Com (March 15, 2016). Harvard Business School NOM Unit Working Paper",
+                "number": "12-016",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "luca2015user": {
+            "number": "[24]",
+            "title": "User-Generated Content and Social Media",
+            "text": "title={User-generated content and social media},\n  author={Luca, Michael},\n  booktitle={Handbook of media Economics},\n  volume={1},\n  pages={563--592},\n  year={2015},\n  publisher={Elsevier}",
+            "type": "incollection",
+            "fields": {
+                "title": "User-generated content and social media",
+                "author": "Luca, Michael",
+                "booktitle": "Handbook of media Economics",
+                "volume": "1",
+                "pages": "563--592",
+                "year": "2015",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "This chapter documents what economists have learned about user-generated content (UGC) and social media. A growing body of evidence suggests that UGC on platforms ranging from Yelp to Facebook has a large causal impact on economic and social outcomes ranging from restaurant decisions to voting behavior. These findings often leverage unique datasets and methods ranging from regression discontinuity to field experiments, and researchers often work directly with the companies they study. I then survey the factors that influence the quality of UGC. Quality is influenced by factors including promotional content, peer effects between contributors, biases of contributors, and self-selection into the decision to contribute. Non-pecuniary incentives, such as \"badges\" and social status on a platform, are often used to encourage and steer contributions. I then discuss other issues including business models, network effects, and privacy. Throughout the chapter, I discuss open questions in this area.",
+            "aminer_id": null
+        },
+        "luca2016fake": {
+            "number": "[25]",
+            "title": "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud",
+            "text": "title={Fake it till you make it: Reputation, competition, and Yelp review fraud},\n  author={Luca, Michael and Zervas, Georgios},\n  journal={Management Science},\n  volume={62},\n  number={12},\n  pages={3412--3427},\n  year={2016},\n  publisher={INFORMS}",
+            "type": "article",
+            "fields": {
+                "title": "Fake it till you make it: Reputation, competition, and Yelp review fraud",
+                "author": "Luca, Michael and Zervas, Georgios",
+                "journal": "Management Science",
+                "volume": "62",
+                "number": "12",
+                "pages": "3412--3427",
+                "year": "2016",
+                "publisher": "INFORMS"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumer reviews are now part of everyday decision making. Yet the credibility of these reviews is fundamentally undermined when businesses commit review fraud, creating fake reviews for themselves or their competitors. We investigate the economic incentives to commit review fraud on the popular review platform Yelp, using two complementary approaches and data sets. We begin by analyzing restaurant reviews that are identified by Yelp's filtering algorithm as suspicious, or fake-and treat these as a proxy for review fraud (an assumption we provide evidence for). We present four main findings. First, roughly 16% of restaurant reviews on Yelp are filtered. These reviews tend to be more extreme (favorable or unfavorable) than other reviews, and the prevalence of suspicious reviews has grown significantly over time. Second, a restaurant is more likely to commit review fraud when its reputation is weak, i.e., when it has few reviews or it has recently received bad reviews. Third, chain restaurants-which benefit less from Yelp-are also less likely to commit review fraud. Fourth, when restaurants face increased competition, they become more likely to receive unfavorable fake reviews. Using a separate data set, we analyze businesses that were caught soliciting fake reviews through a sting conducted by Yelp. These data support our main results and shed further light on the economic incentives behind a business's decision to leave fake reviews.",
+            "aminer_id": "56d85fa2dabfae2eee720a39"
+        },
+        "salminen2022creating": {
+            "number": "[26]",
+            "title": "Creating and Detecting Fake Reviews of Online Products",
+            "text": "title={Creating and detecting fake reviews of online products},\n  author={Salminen, Joni and Kandpal, Chandrashekhar and Kamel, Ahmed Mohamed and Jung, Soon-gyo and Jansen, Bernard J},\n  journal={Journal of Retailing and Consumer Services},\n  volume={64},\n  pages={102771},\n  year={2022},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Creating and detecting fake reviews of online products",
+                "author": "Salminen, Joni and Kandpal, Chandrashekhar and Kamel, Ahmed Mohamed and Jung, Soon-gyo and Jansen, Bernard J",
+                "journal": "Journal of Retailing and Consumer Services",
+                "volume": "64",
+                "pages": "102771",
+                "year": "2022",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Customers increasingly rely on reviews for product information. However, the usefulness of online reviews is impeded by fake reviews that give an untruthful picture of product quality. Therefore, detection of fake reviews is needed. Unfortunately, so far, automatic detection has only had partial success in this challenging task. In this research, we address the creation and detection of fake reviews. First, we experiment with two language models, ULMFiT and GPT-2, to generate fake product reviews based on an Amazon e-commerce dataset. Using the better model, GPT-2, we create a dataset for a classification task of fake review detection. We show that a machine classifier can accomplish this goal near-perfectly, whereas human raters exhibit significantly lower accuracy and agreement than the tested algorithms. The model was also effective on detected human generated fake reviews. The results imply that, while fake review detection is challenging for humans, “machines can fight machines” in the task of detecting fake reviews. Our findings have implications for consumer protection, defense of firms from unfair competition, and responsibility of review platforms.",
+            "aminer_id": "619bbb9c1c45e57ce97bf866"
+        },
+        "rao2021review": {
+            "number": "[27]",
+            "title": "A Review on Social Spam Detection: Challenges, Open Issues, and Future Directions.",
+            "text": "title={A review on social spam detection: Challenges, open issues, and future directions},\n  author={Rao, Sanjeev and Verma, Anil Kumar and Bhatia, Tarunpreet},\n  journal={Expert Systems with Applications},\n  volume={186},\n  pages={115742},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A review on social spam detection: Challenges, open issues, and future directions",
+                "author": "Rao, Sanjeev and Verma, Anil Kumar and Bhatia, Tarunpreet",
+                "journal": "Expert Systems with Applications",
+                "volume": "186",
+                "pages": "115742",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Online Social Networks are perpetually evolving and used in plenteous applications such as content sharing, chatting, making friends/followers, customer engagements, commercials, product reviews/promotions, online games, and news, etc. The substantial issues related to the colossal flood of social spam in social media are polarizing sentiments, impacting users’ online interaction time, degrading available information quality, network bandwidth, computing power, and speed. Simultaneously, groups of coordinated automated accounts/bots often use social networking sites to spread spam, rumors, bogus reviews, and fake news for targeted users or mass communication. The latest developments in the form of artificial intelligence-enabled Deepfakes have exacerbated these issues at large. Consequently, it becomes extremely relevant to review recent work concerning social spam and spammer detection to counter this issue and its effect. This paper provides a brief introduction to social spam, the spamming process, and social spam taxonomy. The comprehensive review entails several dimensionality reduction techniques used for feature selection/extraction, features used, various machine learning and deep learning techniques used for social spam and spammer detection, and their merits and demerits. Artificial intelligence and deep learning empowered Deepfake (text, image, and video) spam, and their countermeasures are also explored. Furthermore, meticulous discussions, existing challenges, and emerging issues such as robustness of detection systems, scalability, real-time datasets, evade strategies used by spammers, coordinated inauthentic behavior, and adversarial attacks on machine learning-based spam detectors, etc., have been discussed with possible directions for future research.",
+            "aminer_id": "6183c2cf5244ab9dcbb90d3c"
+        },
+        "jindal2008opinion": {
+            "number": "[28]",
+            "title": "Opinion spam and analysis",
+            "text": "title={Opinion spam and analysis},\n  author={Jindal, Nitin and Liu, Bing},\n  booktitle={Proceedings of the 2008 international conference on web search and data mining},\n  pages={219--230},\n  year={2008}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Opinion spam and analysis",
+                "author": "Jindal, Nitin and Liu, Bing",
+                "booktitle": "Proceedings of the 2008 international conference on web search and data mining",
+                "pages": "219--230",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53909fca20f70186a0e450b2"
+        },
+        "ott-etal-2011-finding": {
+            "number": "[29]",
+            "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+            "text": "title = \"Finding Deceptive Opinion Spam by Any Stretch of the Imagination\",\n    author = \"Ott, Myle  and\n      Choi, Yejin  and\n      Cardie, Claire  and\n      Hancock, Jeffrey T.\",\n    booktitle = \"Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies\",\n    month = jun,\n    year = \"2011\",\n    address = \"Portland, Oregon, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/P11-1032\",\n    pages = \"309--319\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+                "author": "Ott, Myle and Choi, Yejin and Cardie, Claire and Hancock, Jeffrey T.",
+                "booktitle": "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+                "year": "2011",
+                "address": "Portland, Oregon, USA",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/P11-1032",
+                "pages": "309--319"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumers increasingly rate, review and research products online (Jansen, 2010; Litvin et al., 2008). Consequently, websites containing consumer reviews are becoming targets of opinion spam. While recent work has focused primarily on manually identifiable instances of opinion spam, in this work we study deceptive opinion spam---fictitious opinions that have been deliberately written to sound authentic. Integrating work from psychology and computational linguistics, we develop and compare three approaches to detecting deceptive opinion spam, and ultimately develop a classifier that is nearly 90% accurate on our gold-standard opinion spam dataset. Based on feature analysis of our learned models, we additionally make several theoretical contributions, including revealing a relationship between deceptive opinions and imaginative writing.",
+            "aminer_id": "5390b04120f70186a0ed6d9b"
+        },
+        "mukherjee2013fake": {
+            "number": "[30]",
+            "title": "Fake review detection: Classification and analysis of real and pseudo reviews",
+            "text": "title={Fake review detection: Classification and analysis of real and pseudo reviews},\n  author={Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie and others},\n  journal={UIC-CS-03-2013. Technical Report},\n  year={2013}",
+            "type": "article",
+            "fields": {
+                "title": "Fake review detection: Classification and analysis of real and pseudo reviews",
+                "author": "Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie and others",
+                "journal": "UIC-CS-03-2013. Technical Report",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "605ae79c9e795e05e0f3da43"
+        },
+        "banerjee2015using": {
+            "number": "[31]",
+            "title": "Using Supervised Learning to Classify Authentic and Fake Online Reviews",
+            "text": "title={Using supervised learning to classify authentic and fake online reviews},\n  author={Banerjee, Snehasish and Chua, Alton YK and Kim, Jung-Jae},\n  booktitle={Proceedings of the 9th international conference on ubiquitous information management and communication},\n  pages={1--7},\n  year={2015}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Using supervised learning to classify authentic and fake online reviews",
+                "author": "Banerjee, Snehasish and Chua, Alton YK and Kim, Jung-Jae",
+                "booktitle": "Proceedings of the 9th international conference on ubiquitous information management and communication",
+                "pages": "1--7",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "Before making a purchase, users are increasingly inclined to browse online reviews that are posted to share post-purchase experiences of products and services. However, not all reviews are necessarily authentic. Some entries could be fake yet written to appear authentic. Conceivably, authentic and fake reviews are not easy to differentiate. Hence, this paper uses supervised learning algorithms to analyze the extent to which authentic and fake reviews could be distinguished based on four linguistic clues, namely, understandability, level of details, writing style, and cognition indicators. The model performance was compared with two baselines. The results were generally promising.",
+            "aminer_id": "5550480a45ce0a409eb6b473"
+        },
+        "etaiwi2017impact": {
+            "number": "[32]",
+            "title": "The Impact of Applying Different Preprocessing Steps on Review Spam Detection",
+            "text": "title={The impact of applying different preprocessing steps on review spam detection},\n  author={Etaiwi, Wael and Naymat, Ghazi},\n  journal={Procedia computer science},\n  volume={113},\n  pages={273--279},\n  year={2017},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "The impact of applying different preprocessing steps on review spam detection",
+                "author": "Etaiwi, Wael and Naymat, Ghazi",
+                "journal": "Procedia computer science",
+                "volume": "113",
+                "pages": "273--279",
+                "year": "2017",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews become a valuable source of information that indicate the overall opinion about products and services, which affect customer’s decision to purchase a product or service. Since not all online reviews and comments are truthful, it is important to detect fake and poison reviews. Many machine learning techniques could be applied to detect spam reviews by extracting a useful features from review’s text using Natural Language Processing (NLP). Many types of features could be used in this manor such as linguistic features, Word Count, n-gram feature sets and number of pronouns. In order to extract such features, many types of preprocessing steps could be performed before applying the classification method, this steps may include POS tagging, n-gram term frequencies, stemming, stop word and punctuation marks filtering, etc. this preprocessing steps may affect the overall accuracy of the review spam detection task. In this research, we will investigate the effects of preprocessing steps on the accuracy of reviews spam detection. Different machine learning algorithms will be applied such as Support Victor Machine (SVM) and Naïve Bayes (NB), and a labeled dataset of Hotels reviews will be analyze and process. The efficiency will be evaluated according to many evaluation measures such as: precision, recall and accuracy.",
+            "aminer_id": "5a260c3b17c44a4ba8a25657"
+        },
+        "shan2021conflicts": {
+            "number": "[33]",
+            "title": "From Conflicts and Confusion to Doubts: Examining Review Inconsistency for Fake Review Detection.",
+            "text": "title={From conflicts and confusion to doubts: Examining review inconsistency for fake review detection},\n  author={Shan, Guohou and Zhou, Lina and Zhang, Dongsong},\n  journal={Decision Support Systems},\n  volume={144},\n  pages={113513},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "From conflicts and confusion to doubts: Examining review inconsistency for fake review detection",
+                "author": "Shan, Guohou and Zhou, Lina and Zhang, Dongsong",
+                "journal": "Decision Support Systems",
+                "volume": "144",
+                "pages": "113513",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Inconsistency in online consumer reviews (OCRs) may cause uncertainty and confusion to consumers when they make purchase decisions. However, there is a lack of a systematic and empirical investigation of review inconsistency in the literature. This research characterizes review inconsistency from multiple aspects, including rating-sentiment, content, and language, and proposes hypotheses about their effects on fake OCR detection by drawing upon deception and attitude-behavior consistency theories. We characterize review inconsistency with 22 features, and test the hypotheses with machine learning models developed for fake OCR detection. Our empirical evaluation results using real OCRs not only confirm the presence of review inconsistency, but also demonstrate significant positive effects of review inconsistency on the performance of fake OCR detection. The research findings have important implications for improving the effectiveness of consumer decision making and the trustworthiness of OCRs.",
+            "aminer_id": "60893671e4510cd7c8621ab4"
+        },
+        "mohawesh2021analysis": {
+            "number": "[34]",
+            "title": "Analysis of Concept Drift in Fake Reviews Detection",
+            "text": "title={Analysis of concept drift in fake reviews detection},\n  author={Mohawesh, Rami and Tran, Son and Ollington, Robert and Xu, Shuxiang},\n  journal={Expert Systems with Applications},\n  volume={169},\n  pages={114318},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Analysis of concept drift in fake reviews detection",
+                "author": "Mohawesh, Rami and Tran, Son and Ollington, Robert and Xu, Shuxiang",
+                "journal": "Expert Systems with Applications",
+                "volume": "169",
+                "pages": "114318",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews have a substantial impact on decision making in various areas of society, predominantly in the arena of buying and selling of goods. As such, the truthfulness of internet reviews is critical for both consumers and vendors. Fake reviews not only mislead innocent clients and influence customers' choice, leading to inaccurate descriptions and sales. This raises the need for efficient fake review detection models and tools that can address these issues. Analysing a text data stream of fake reviews in concept drift appears to reduce the effectiveness of the detection models. Despite several efforts to develop algorithms for detecting fake reviews, one crucial aspect that has not been addressed is finding a real correlation between the concept drift score and the classification of performance over-time in the real-world data stream. Consequently, we have introduced a comprehensive analysis to investigate the concept drift problem within fake review detection. There are two methods to achieve this goal: benchmarking concept drift detection method and content-based classification methods. We conducted our experiment using four real-world datasets from Yelp.com. The results demonstrated that there is a strong negative correlation between concept drift and the performance of fake review detection/prediction models, which indicates the difficulty of building more efficient models.",
+            "aminer_id": "5ff68d5bd4150a363cd52715"
+        },
+        "sedighi2017rlosd": {
+            "number": "[35]",
+            "title": "RLOSD: Representation Learning Based Opinion Spam Detection",
+            "text": "title={RLOSD: Representation learning based opinion spam detection},\n  author={Sedighi, Zeinab and Ebrahimpour-Komleh, Hossein and Bagheri, Ayoub},\n  booktitle={2017 3rd Iranian Conference on Intelligent Systems and Signal Processing (ICSPIS)},\n  pages={74--80},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "RLOSD: Representation learning based opinion spam detection",
+                "author": "Sedighi, Zeinab and Ebrahimpour-Komleh, Hossein and Bagheri, Ayoub",
+                "booktitle": "2017 3rd Iranian Conference on Intelligent Systems and Signal Processing (ICSPIS)",
+                "pages": "74--80",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Nowadays, by vastly increasing in online reviews, harmful influence of spam reviews on decision making causes irrecoverable outcomes for both customers and organizations. Existing methods investigate for a way to contradistinction between spam and non-spam reviews. Most algorithms focus on feature engineering approaches to expose an accommodation of data representation. In this paper we propose a decision tree-based method to reveal deceptive reviews from trustworthy ones. We use unsupervised representation learning along with traditional feature selection methods to extract appropriate features and evaluate them with a decision tree. Our model takes data correlation into consideration to opt suitable features. The result shows the better performance in detecting opinion spam, comparing most common methods in this area.",
+            "aminer_id": "619bab5e1c45e57ce9d37e4b"
+        },
+        "khurshid2017recital": {
+            "number": "[36]",
+            "title": "Recital of Supervised Learning on Review Spam Detection: an Empirical Analysis",
+            "text": "title={Recital of supervised learning on review spam detection: An empirical analysis},\n  author={Khurshid, Faisal and Zhu, Yan and Yohannese, Chubato Wondaferaw and Iqbal, Muhammad},\n  booktitle={2017 12th International Conference on Intelligent Systems and Knowledge Engineering (ISKE)},\n  pages={1--6},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Recital of supervised learning on review spam detection: An empirical analysis",
+                "author": "Khurshid, Faisal and Zhu, Yan and Yohannese, Chubato Wondaferaw and Iqbal, Muhammad",
+                "booktitle": "2017 12th International Conference on Intelligent Systems and Knowledge Engineering (ISKE)",
+                "pages": "1--6",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Online purchasing became an integral part of our lives in this digital era where E-commerce websites allow people to buy as well as share their experiences about products or services in the form of reviews. Customers as well as companies use these reviews for decision making. This facility helps people to derive their buying decisions whereas malicious users use this as their tool to promote or demote products or services intentionally. This phenomenon is called review spam. Review spam detection is the classification of reviews into malign or benign. Therefore, our aim is to evaluate performance of supervised machine learning algorithms for review spam detection based on different feature sets extracted from real life dataset instead of Amazon Mechanical Turkers (AMT) tailored dataset. We study various factors including Recall, Precision, and Receiver Operating Characteristic (ROC) through experimentation. AdaBoost outperforms all others with 0.83 precision and has correctly identified all spams whereas misclassified minuscule number of normal reviews.",
+            "aminer_id": "5a73cb7417c44a0b3035a527"
+        },
+        "hernandez2017cross": {
+            "number": "[37]",
+            "title": "Cross-domain Deception Detection Using Support Vector Networks",
+            "text": "title={Cross-domain deception detection using support vector networks},\n  author={Hern{\\'a}ndez-Casta{\\~n}eda, {\\'A}ngel and Calvo, Hiram and Gelbukh, Alexander and Flores, Jorge J Garc{\\'\\i}a},\n  journal={Soft Computing},\n  volume={21},\n  pages={585--595},\n  year={2017},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Cross-domain deception detection using support vector networks",
+                "author": "Hern{\\'a}ndez-Casta{\\~n}eda, {\\'A}ngel and Calvo, Hiram and Gelbukh, Alexander and Flores, Jorge J Garc{\\'\\i}a",
+                "journal": "Soft Computing",
+                "volume": "21",
+                "pages": "585--595",
+                "year": "2017",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Our motivation is to assess the effectiveness of support vector networks (SVN) on the task of detecting deception in texts, as well as to investigate to which degree it is possible to build a domain-independent detector of deception in text using SVN. We experimented with different feature sets for training the SVN: a continuous semantic space model source represented by the latent Dirichlet allocation topics, a word-space model, and dictionary-based features. In this way, a comparison of performance between semantic information and behavioral information is made. We tested several combinations of these features on different datasets designed to identify deception. The datasets used include the DeRev dataset (a corpus of deceptive and truthful opinions about books obtained from Amazon), OpSpam (a corpus of fake and truthful opinions about hotels), and three corpora on controversial topics (abortion, death penalty, and a best friend) on which the subjects were asked to write an idea contrary to what they really believed. We experimented with one-domain setting by training and testing our models separately on each dataset (with fivefold cross-validation), with mixed-domain setting by merging all datasets into one large corpus (again, with fivefold cross-validation), and with cross-domain setting: using one dataset for testing and a concatenation of all other datasets for training. We obtained an average accuracy of 86% in one-domain setting, 75% in mixed-domain setting, and 52 to 64% in cross-domain setting.",
+            "aminer_id": "58c9a4690cf2b22b9f9eebcb"
+        },
+        "hammad2013approach": {
+            "number": "[38]",
+            "title": "An approach for detecting spam in Arabic opinion reviews",
+            "text": "title={An approach for detecting spam in Arabic opinion reviews},\n  author={Hammad, AS Abu and El-Halees, Alaa},\n  journal={The International Arab Journal of Information Technology},\n  volume={12},\n  year={2013},\n  publisher={Citeseer}",
+            "type": "article",
+            "fields": {
+                "title": "An approach for detecting spam in Arabic opinion reviews",
+                "author": "Hammad, AS Abu and El-Halees, Alaa",
+                "journal": "The International Arab Journal of Information Technology",
+                "volume": "12",
+                "year": "2013",
+                "publisher": "Citeseer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c79df601a182cd2670257"
+        },
+        "yao2021ensemble": {
+            "number": "[39]",
+            "title": "An Ensemble Model for Fake Online Review Detection Based on Data Resampling, Feature Pruning, and Parameter Optimization",
+            "text": "title={An ensemble model for fake online review detection based on data resampling, feature pruning, and parameter optimization},\n  author={Yao, Jianrong and Zheng, Yuan and Jiang, Hui},\n  journal={IEEE Access},\n  volume={9},\n  pages={16914--16927},\n  year={2021},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "An ensemble model for fake online review detection based on data resampling, feature pruning, and parameter optimization",
+                "author": "Yao, Jianrong and Zheng, Yuan and Jiang, Hui",
+                "journal": "IEEE Access",
+                "volume": "9",
+                "pages": "16914--16927",
+                "year": "2021",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "With the widespread of fake online reviews, the detection of fake reviews has become a hot research issue. Despite the efforts of existing studies on fake review detection, the issues of imbalanced data and feature pruning still lack sufficient attention. To address these gaps, the present study proposes an ensemble model for the detection of fake online reviews. The model consists of four steps, and the first three steps are proposed to optimize the base classifiers: (i) Data resampling: We propose a novel way to address the data imbalance problem by combining the resampling and the grid search technique. (ii) Feature pruning: We propose an ablation study to drop unimportant features. (iii) Parameters optimization: We apply the grid search algorithm to determine suitable values of the relevant parameters for each base classifier. (iv) Classifier ensembling: We apply majority voting and stacking strategies to integrate the optimized base classifiers. The proposed data resampling method is also applied for the meta-classifier in the stacking ensemble model. This study produces advances in terms of combining different methods or algorithms into a model and the results show that the proposed ensemble model outperforms some existing techniques, thereby providing a new way to solve the data imbalance and feature pruning issues in the field of fake review detection.",
+            "aminer_id": "61949dc7e1ef293552223ed2"
+        },
+        "khurshid2019enactment": {
+            "number": "[40]",
+            "title": "Enactment of Ensemble Learning for Review Spam Detection on Selected Features.",
+            "text": "title={Enactment of ensemble learning for review spam detection on selected features},\n  author={Khurshid, Faisal and Zhu, Yan and Xu, Zhuang and Ahmad, Mushtaq and Ahmad, Muqeet},\n  journal={International Journal of Computational Intelligence Systems},\n  volume={12},\n  number={1},\n  pages={387--394},\n  year={2019},\n  publisher={Atlantis Press}",
+            "type": "article",
+            "fields": {
+                "title": "Enactment of ensemble learning for review spam detection on selected features",
+                "author": "Khurshid, Faisal and Zhu, Yan and Xu, Zhuang and Ahmad, Mushtaq and Ahmad, Muqeet",
+                "journal": "International Journal of Computational Intelligence Systems",
+                "volume": "12",
+                "number": "1",
+                "pages": "387--394",
+                "year": "2019",
+                "publisher": "Atlantis Press"
+            },
+            "ref_source": "bib",
+            "abstract": "In the ongoing era of flourishing e-commerce, people prefer online purchasing products and services to save time. These online purchase decisions are mostly influenced by the reviews/opinions of others who already have experienced them. Malicious users use this experience sharing to promote or degrade products/ services for their iniquitous monetary benefits, known as review spam. This study aims to evaluate the performance of ensemble learning on review spam detection with selected features extracted from real and semi-real-life datasets. We study various performance metrics including Precision, Recall, F-Measure, and Receiver Operating Characteristic (RoC). Our proposed ensemble learning module (ELM) with ChiSquared feature selection technique outperformed all others with 0.851 Precision.",
+            "aminer_id": "5ce2d1f5ced107d4c6485c5c"
+        },
+        "mani2018spam": {
+            "number": "[41]",
+            "title": "Spam review detection using ensemble machine learning",
+            "text": "title={Spam review detection using ensemble machine learning},\n  author={Mani, Shwet and Kumari, Sneha and Jain, Ayushi and Kumar, Prabhat},\n  booktitle={Machine Learning and Data Mining in Pattern Recognition: 14th International Conference, MLDM 2018, New York, NY, USA, July 15-19, 2018, Proceedings, Part II 14},\n  pages={198--209},\n  year={2018},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Spam review detection using ensemble machine learning",
+                "author": "Mani, Shwet and Kumari, Sneha and Jain, Ayushi and Kumar, Prabhat",
+                "booktitle": "Machine Learning and Data Mining in Pattern Recognition: 14th International Conference, MLDM 2018, New York, NY, USA, July 15-19, 2018, Proceedings, Part II 14",
+                "pages": "198--209",
+                "year": "2018",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b67b46f17c44aac1c863138"
+        },
+        "li2015learning": {
+            "number": "[42]",
+            "title": "Learning document representation for deceptive opinion spam detection",
+            "text": "title={Learning document representation for deceptive opinion spam detection},\n  author={Li, Luyang and Ren, Wenjing and Qin, Bing and Liu, Ting},\n  booktitle={Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data: 14th China National Conference, CCL 2015 and Third International Symposium, NLP-NABD 2015, Guangzhou, China, November 13-14, 2015, Proceedings 14},\n  pages={393--404},\n  year={2015},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning document representation for deceptive opinion spam detection",
+                "author": "Li, Luyang and Ren, Wenjing and Qin, Bing and Liu, Ting",
+                "booktitle": "Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data: 14th China National Conference, CCL 2015 and Third International Symposium, NLP-NABD 2015, Guangzhou, China, November 13-14, 2015, Proceedings 14",
+                "pages": "393--404",
+                "year": "2015",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "573696cd6e3b12023e5cd99f"
+        },
+        "zhao2018towards": {
+            "number": "[43]",
+            "title": "Towards Accurate Deceptive Opinions Detection Based on Word Order-Preserving CNN",
+            "text": "title={Towards accurate deceptive opinions detection based on word order-preserving CNN},\n  author={Zhao, Siyuan and Xu, Zhiwei and Liu, Limin and Guo, Mengjie and Yun, Jing},\n  journal={Mathematical Problems in Engineering},\n  volume={2018},\n  year={2018},\n  publisher={Hindawi}",
+            "type": "article",
+            "fields": {
+                "title": "Towards accurate deceptive opinions detection based on word order-preserving CNN",
+                "author": "Zhao, Siyuan and Xu, Zhiwei and Liu, Limin and Guo, Mengjie and Yun, Jing",
+                "journal": "Mathematical Problems in Engineering",
+                "volume": "2018",
+                "year": "2018",
+                "publisher": "Hindawi"
+            },
+            "ref_source": "bib",
+            "abstract": "Convolutional neural network (CNN) has revolutionized the field of natural language processing, which is considerably efficient at semantics analysis that underlies difficult natural language processing problems in a variety of domains. The deceptive opinion detection is an important application of the existing CNN models. The detection mechanism based on CNN models has better self-adaptability and can effectively identify all kinds of deceptive opinions. Online opinions are quite short, varying in their types and content. In order to effectively identify deceptive opinions, we need to comprehensively study the characteristics of deceptive opinions and explore novel characteristics besides the textual semantics and emotional polarity that have been widely used in text analysis. In this paper, we optimize the convolutional neural network model by embedding the word order characteristics in its convolution layer and pooling layer, which makes convolutional neural network more suitable for short text classification and deceptive opinions detection. The TensorFlow-based experiments demonstrate that the proposed detection mechanism achieves more accurate deceptive opinion detection results.",
+            "aminer_id": "5a4aef9e17c44a2190f7a807"
+        },
+        "wang2018detecting": {
+            "number": "[44]",
+            "title": "Detecting Deceptive Review Spam Via Attention-Based Neural Networks",
+            "text": "title={Detecting deceptive review spam via attention-based neural networks},\n  author={Wang, Xuepeng and Liu, Kang and Zhao, Jun},\n  booktitle={Natural Language Processing and Chinese Computing: 6th CCF International Conference, NLPCC 2017, Dalian, China, November 8--12, 2017, Proceedings 6},\n  pages={866--876},\n  year={2018},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Detecting deceptive review spam via attention-based neural networks",
+                "author": "Wang, Xuepeng and Liu, Kang and Zhao, Jun",
+                "booktitle": "Natural Language Processing and Chinese Computing: 6th CCF International Conference, NLPCC 2017, Dalian, China, November 8--12, 2017, Proceedings 6",
+                "pages": "866--876",
+                "year": "2018",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "In recent years, the influence of deceptive review spam has further strengthened in purchasing decisions, election choices and product design. Detecting deceptive review spam has attracted more and more researchers. Existing work makes utmost efforts to explore effective linguistic and behavioral features, and utilizes the off-the-shelf classification algorithms to detect spam. But the models are usually compromised training results on the whole datasets. They failed to distinguish whether a review is linguistically suspicious or behaviorally suspicious or both. In this paper, we propose an attention-based neural networks to detect deceptive review spam by distinguishingly using linguistic and behavioral features. Experimental results on real commercial public datasets show the effectiveness of our model over the state-of-the-art methods.",
+            "aminer_id": "5a73cb7117c44a0b30359bf2"
+        },
+        "zhang2018dri": {
+            "number": "[45]",
+            "title": "DRI-RCNN: an Approach to Deceptive Review Identification Using Recurrent Convolutional Neural Network",
+            "text": "title={DRI-RCNN: An approach to deceptive review identification using recurrent convolutional neural network},\n  author={Zhang, Wen and Du, Yuhang and Yoshida, Taketoshi and Wang, Qing},\n  journal={Information Processing \\& Management},\n  volume={54},\n  number={4},\n  pages={576--592},\n  year={2018},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "DRI-RCNN: An approach to deceptive review identification using recurrent convolutional neural network",
+                "author": "Zhang, Wen and Du, Yuhang and Yoshida, Taketoshi and Wang, Qing",
+                "journal": "Information Processing \\& Management",
+                "volume": "54",
+                "number": "4",
+                "pages": "576--592",
+                "year": "2018",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "With the widespread of deceptive opinions in the Internet, how to identify online deceptive reviews automatically has become an attractive topic in research field. Traditional methods concentrate on extracting different features from online reviews and training machine learning classifiers to produce models to decide whether an incoming review is deceptive or not. This paper proposes an approach called DRI-RCNN (Deceptive Review Identification by Recurrent Convolutional Neural Network) to identify deceptive reviews by using word contexts and deep learning. The basic idea is that since deceptive reviews and truthful reviews are written by writers without and with real experience respectively, the writers of the reviews should have different contextual knowledge on their target objectives under description. In order to differentiate the deceptive and truthful contextual knowledge embodied in the online reviews, we represent each word in a review with six components as a recurrent convolutional vector. The first and second components are two numerical word vectors derived from training deceptive and truthful reviews, respectively. The third and fourth components are left neighboring deceptive and truthful context vectors derived by training a recurrent convolutional neural network on context vectors and word vectors of left words. The fifth and six components are right neighboring deceptive and truthful context vectors of right words. Further, we employ max-pooling and ReLU (Rectified Linear Unit) filter to transfer recurrent convolutional vectors of words in a review to a review vector by extracting positive maximum feature elements in recurrent convolutional vectors of words in the review. Experiment results on the spam dataset and the deception dataset demonstrate that the proposed DRI-RCNN approach outperforms the state-of-the-art techniques in deceptive review identification.",
+            "aminer_id": "5b16430b8fbcbf6e5a9b9990"
+        },
+        "ren2016deceptive": {
+            "number": "[46]",
+            "title": "Deceptive opinion spam detection using neural network",
+            "text": "title={Deceptive opinion spam detection using neural network},\n  author={Ren, Yafeng and Zhang, Yue},\n  booktitle={Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},\n  pages={140--150},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Deceptive opinion spam detection using neural network",
+                "author": "Ren, Yafeng and Zhang, Yue",
+                "booktitle": "Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers",
+                "pages": "140--150",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d83051d649053542fe9a88"
+        },
+        "wang2018lstm": {
+            "number": "[47]",
+            "title": "Detecting spamming reviews using long short-term memory recurrent neural network framework",
+            "text": "title={Detecting spamming reviews using long short-term memory recurrent neural network framework},\n  author={Wang, Chih-Chien and Day, Min-Yuh and Chen, Chien-Chang and Liou, Jia-Wei},\n  booktitle={Proceedings of the 2nd International Conference on E-commerce, E-Business and E-Government},\n  pages={16--20},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Detecting spamming reviews using long short-term memory recurrent neural network framework",
+                "author": "Wang, Chih-Chien and Day, Min-Yuh and Chen, Chien-Chang and Liou, Jia-Wei",
+                "booktitle": "Proceedings of the 2nd International Conference on E-commerce, E-Business and E-Government",
+                "pages": "16--20",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Some unethical companies may hire workers (fake review spammers) to write reviews to influence consumers' purchasing decisions. However, it is not easy for consumers to distinguish real reviews posted by ordinary users or fake reviews post by fake review spammers. In this current study, we attempt to use Long Short-Term Memory (LSTM) Recurrent Neural Network (RNN) framework to detect spammers. In the current, we used a real case of fake review in Taiwan, and compared the analytical results of the current study with results of previous literature. We found that the LSTM method was more effective than Support Vector Machine (SVM) for detecting fake reviews. We concluded that deep learning could be use to detect fake reviews.",
+            "aminer_id": "6218c37a5aee126c0f9eb53b"
+        },
+        "liu2020incorporating": {
+            "number": "[48]",
+            "title": "Incorporating feature representation into BiLSTM for deceptive review detection",
+            "text": "title={Incorporating feature representation into BiLSTM for deceptive review detection},\n  author={Liu, Wentao and Jing, Weipeng and Li, Yang},\n  journal={Computing},\n  volume={102},\n  pages={701--715},\n  year={2020},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Incorporating feature representation into BiLSTM for deceptive review detection",
+                "author": "Liu, Wentao and Jing, Weipeng and Li, Yang",
+                "journal": "Computing",
+                "volume": "102",
+                "pages": "701--715",
+                "year": "2020",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5fc77cb1a84b2957c5bd5d12"
+        },
+        "zeng2019review": {
+            "number": "[49]",
+            "title": "A Review Structure Based Ensemble Model for Deceptive Review Spam",
+            "text": "title={A review structure based ensemble model for deceptive review spam},\n  author={Zeng, Zhi-Yuan and Lin, Jyun-Jie and Chen, Mu-Sheng and Chen, Meng-Hui and Lan, Yan-Qi and Liu, Jun-Lin},\n  journal={Information},\n  volume={10},\n  number={7},\n  pages={243},\n  year={2019},\n  publisher={MDPI}",
+            "type": "article",
+            "fields": {
+                "title": "A review structure based ensemble model for deceptive review spam",
+                "author": "Zeng, Zhi-Yuan and Lin, Jyun-Jie and Chen, Mu-Sheng and Chen, Meng-Hui and Lan, Yan-Qi and Liu, Jun-Lin",
+                "journal": "Information",
+                "volume": "10",
+                "number": "7",
+                "pages": "243",
+                "year": "2019",
+                "publisher": "MDPI"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumers' purchase behavior increasingly relies on online reviews. Accordingly, there are more and more deceptive reviews which are harmful to customers. Existing methods to detect spam reviews mainly take the problem as a general text classification task, but they ignore the important features of spam reviews. In this paper, we propose a novel model, which splits a review into three parts: first sentence, middle context, and last sentence, based on the discovery that the first and last sentence express stronger emotion than the middle context. Then, the model uses four independent bidirectional long-short term memory (LSTM) models to encode the beginning, middle, end of a review and the whole review into four document representations. After that, the four representations are integrated into one document representation by a self-attention mechanism layer and an attention mechanism layer. Based on three domain datasets, the results of in-domain and mix-domain experiments show that our proposed method performs better than the compared methods.",
+            "aminer_id": "5d53dd99a74a1962372e038d"
+        },
+        "dhamani2019using": {
+            "number": "[50]",
+            "title": "Using Deep Networks and Transfer Learning to Address Disinformation",
+            "text": "title={Using deep networks and transfer learning to address disinformation},\n  author={Dhamani, Numa and Azunre, Paul and Gleason, Jeffrey L and Corcoran, Craig and Honke, Garrett and Kramer, Steve and Morgan, Jonathon},\n  journal={arXiv preprint arXiv:1905.10412},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Using deep networks and transfer learning to address disinformation",
+                "author": "Dhamani, Numa and Azunre, Paul and Gleason, Jeffrey L and Corcoran, Craig and Honke, Garrett and Kramer, Steve and Morgan, Jonathon",
+                "journal": "arXiv preprint arXiv:1905.10412",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We apply an ensemble pipeline composed of a character-level convolutional neural network (CNN) and a long short-term memory (LSTM) as a general tool for addressing a range of disinformation problems. We also demonstrate the ability to use this architecture to transfer knowledge from labeled data in one domain to related (supervised and unsupervised) tasks. Character-level neural networks and transfer learning are particularly valuable tools in the disinformation space because of the messy nature of social media, lack of labeled data, and the multi-channel tactics of influence campaigns. We demonstrate their effectiveness in several tasks relevant for detecting disinformation: spam emails, review bombing, political sentiment, and conversation clustering.",
+            "aminer_id": "5ced81663a55ac3a96fe482e"
+        },
+        "shiblispam": {
+            "number": "[51]",
+            "title": "Spam Review Detection Using Deep Learning",
+            "text": "author={Shahariar, G. M. and Biswas, Swapnil and Omar, Faiza and Shah, Faisal Muhammad and Binte Hassan, Samiha},\n    booktitle={2019 IEEE 10th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)}, \n    title={Spam Review Detection Using Deep Learning}, \n    year={2019},\n    volume={},\n    number={},\n    pages={0027-0033},\n    doi={10.1109/IEMCON.2019.8936148}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Shahariar, G. M. and Biswas, Swapnil and Omar, Faiza and Shah, Faisal Muhammad and Binte Hassan, Samiha",
+                "booktitle": "2019 IEEE 10th Annual Information Technology, Electronics and Mobile Communication Conference (IEMCON)",
+                "title": "Spam Review Detection Using Deep Learning",
+                "year": "2019",
+                "volume": "",
+                "number": "",
+                "pages": "0027-0033",
+                "doi": "10.1109/IEMCON.2019.8936148"
+            },
+            "ref_source": "bib",
+            "abstract": "A robust and reliable system of detecting spam reviews is a crying need in todays world in order to purchase products without being cheated from online sites. In many online sites, there are options for posting reviews, and thus creating scopes for fake paid reviews or untruthful reviews. These concocted reviews can mislead the general public and put them in a perplexity whether to believe the review or not. Prominent machine learning techniques have been introduced to solve the problem of spam review detection. The majority of current research has concentrated on supervised learning methods, which require labeled data - an inadequacy when it comes to online review. Our focus in this article is to detect any deceptive text reviews. In order to achieve that we have worked with both labeled and unlabeled data and proposed deep learning methods for spam review detection which includes Multi-Layer Perceptron (MLP), Convolutional Neural Network (CNN) and a variant of Recurrent Neural Network (RNN) that is Long Short-Term Memory (LSTM). We have also applied some traditional machine learning classifiers such as Nave Bayes (NB), K Nearest Neighbor (KNN) and Support Vector Machine (SVM) to detect spam reviews and finally, we have shown the performance comparison for both traditional and deep learning classifiers.",
+            "aminer_id": "64a7fa22d68f896efa5bebb6"
+        },
+        "gupta2021leveraging": {
+            "number": "[52]",
+            "title": "Leveraging transfer learning techniques-bert, roberta, albert and distilbert for fake review detection",
+            "text": "title={Leveraging transfer learning techniques-bert, roberta, albert and distilbert for fake review detection},\n  author={Gupta, Priyanka and Gandhi, Shriya and Chakravarthi, Bharathi Raja},\n  booktitle={Forum for Information Retrieval Evaluation},\n  pages={75--82},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Leveraging transfer learning techniques-bert, roberta, albert and distilbert for fake review detection",
+                "author": "Gupta, Priyanka and Gandhi, Shriya and Chakravarthi, Bharathi Raja",
+                "booktitle": "Forum for Information Retrieval Evaluation",
+                "pages": "75--82",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "620e48b691e011f318acface"
+        },
+        "mir2023online": {
+            "number": "[53]",
+            "title": "Online Fake Review Detection Using Supervised Machine Learning and BERT Model",
+            "text": "title={Online Fake Review Detection Using Supervised Machine Learning And BERT Model},\n  author={Mir, Abrar Qadir and Khan, Furqan Yaqub and Chishti, Mohammad Ahsan},\n  journal={arXiv preprint arXiv:2301.03225},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Online Fake Review Detection Using Supervised Machine Learning And BERT Model",
+                "author": "Mir, Abrar Qadir and Khan, Furqan Yaqub and Chishti, Mohammad Ahsan",
+                "journal": "arXiv preprint arXiv:2301.03225",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Online shopping stores have grown steadily over the past few years. Due to the massive growth of these businesses, the detection of fake reviews has attracted attention. Fake reviews are seriously trying to mislead customers and thereby undermine the honesty and authenticity of online shopping environments. So far, various fake review classifiers have been proposed that take into account the actual content of the review. To improve the accuracies of existing fake review classification or detection approaches, we propose to use BERT (Bidirectional Encoder Representation from Transformers) model to extract word embeddings from texts (i.e. reviews). Word embeddings are obtained in various basic methods such as SVM (Support vector machine), Random Forests, Naive Bayes, and others. The confusion matrix method was also taken into account to evaluate and graphically represent the results. The results indicate that the SVM classifiers outperform the others in terms of accuracy and f1-score with an accuracy of 87.81%, which is 7.6% higher than the classifier used in the previous study [5].",
+            "aminer_id": "63bcd73690e50fcafdefa1f5"
+        },
+        "guo2023spam": {
+            "number": "[54]",
+            "title": "Spam Detection Using Bidirectional Transformers and Machine Learning Classifier Algorithms",
+            "text": "title={Spam Detection Using Bidirectional Transformers and Machine Learning Classifier Algorithms},\n  author={Guo, Yanhui and Mustafaoglu, Zelal and Koundal, Deepika},\n  journal={Journal of Computational and Cognitive Engineering},\n  volume={2},\n  number={1},\n  pages={5--9},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Spam Detection Using Bidirectional Transformers and Machine Learning Classifier Algorithms",
+                "author": "Guo, Yanhui and Mustafaoglu, Zelal and Koundal, Deepika",
+                "journal": "Journal of Computational and Cognitive Engineering",
+                "volume": "2",
+                "number": "1",
+                "pages": "5--9",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": ": Spam email has accountedfor a high percentage of email traffic and has created problems worldwide. Thedeep learning transformer model is an efficient tool in natural language processing. This study proposed an efficient spam detection approach using a pretrained bidirectional encoder representation from transformer (BERT) and machine learning algorithms to classify ham or spam emails. Email texts were fed into the BERT, and features obtained from the BERT outputs were used to represent the texts. Four classifier algorithms in machine learning were employed to classify the features of the text into ham or spam categories. The proposed model was tested using two public datasets in the experiments. The results of the evaluation metrics demonstrate that the logistic regression algorithm achieved the best classification performance in both datasets. They also justified the efficient ability of the proposed model in detecting spam emails.",
+            "aminer_id": "63f5a22d90e50fcafd57f5fa"
+        },
+        "rojas2021using": {
+            "number": "[55]",
+            "title": "Using BERT Encoding to Tackle the Mad-lib Attack in SMS Spam Detection",
+            "text": "title={Using bert encoding to tackle the mad-lib attack in sms spam detection},\n  author={Rojas-Galeano, Sergio},\n  journal={arXiv preprint arXiv:2107.06400},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Using bert encoding to tackle the mad-lib attack in sms spam detection",
+                "author": "Rojas-Galeano, Sergio",
+                "journal": "arXiv preprint arXiv:2107.06400",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "One of the stratagems used to deceive spam filters is to substitute vocables with synonyms or similar words that turn the message unrecognisable by the detection algorithms. In this paper we investigate whether the recent development of language models sensitive to the semantics and context of words, such as Google's BERT, may be useful to overcome this adversarial attack (called\"Mad-lib\"as per the word substitution game). Using a dataset of 5572 SMS spam messages, we first established a baseline of detection performance using widely known document representation models (BoW and TFIDF) and the novel BERT model, coupled with a variety of classification algorithms (Decision Tree, kNN, SVM, Logistic Regression, Naive Bayes, Multilayer Perceptron). Then, we built a thesaurus of the vocabulary contained in these messages, and set up a Mad-lib attack experiment in which we modified each message of a held out subset of data (not used in the baseline experiment) with different rates of substitution of original words with synonyms from the thesaurus. Lastly, we evaluated the detection performance of the three representation models (BoW, TFIDF and BERT) coupled with the best classifier from the baseline experiment (SVM). We found that the classic models achieved a 94% Balanced Accuracy (BA) in the original dataset, whereas the BERT model obtained 96%. On the other hand, the Mad-lib attack experiment showed that BERT encodings manage to maintain a similar BA performance of 96% with an average substitution rate of 1.82 words per message, and 95% with 3.34 words substituted per message. In contrast, the BA performance of the BoW and TFIDF encoders dropped to chance. These results hint at the potential advantage of BERT models to combat these type of ingenious attacks, offsetting to some extent for the inappropriate use of semantic relationships in language.",
+            "aminer_id": "60efbbc35244ab9dcbd567a5"
+        },
+        "liu2021spam": {
+            "number": "[56]",
+            "title": "A Spam Transformer Model for SMS Spam Detection",
+            "text": "title={A spam transformer model for SMS spam detection},\n  author={Liu, Xiaoxu and Lu, Haoye and Nayak, Amiya},\n  journal={IEEE Access},\n  volume={9},\n  pages={80253--80263},\n  year={2021},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A spam transformer model for SMS spam detection",
+                "author": "Liu, Xiaoxu and Lu, Haoye and Nayak, Amiya",
+                "journal": "IEEE Access",
+                "volume": "9",
+                "pages": "80253--80263",
+                "year": "2021",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we aim to explore the possibility of the Transformer model in detecting the spam Short Message Service (SMS) messages by proposing a modified Transformer model that is designed for detecting SMS spam messages. The evaluation of our proposed spam Transformer is performed on SMS Spam Collection v.1 dataset and UtkMl's Twitter Spam Detection Competition dataset, with the benchmark of multiple established machine learning classifiers and state-of-the-art SMS spam detection approaches. In comparison to all other candidates, our experiments on SMS spam detection show that the proposed modified spam Transformer has the optimal results on the accuracy, recall, and F1-Score with the values of 98.92%, 0.9451, and 0.9613, respectively. Besides, the proposed model also achieves good performance on the UtkMl's Twitter dataset, which indicates a promising possibility of adapting the model to other similar problems.",
+            "aminer_id": "60e2dc245244ab9dcbfae6a5"
+        },
+        "sahmoud2022spam": {
+            "number": "[57]",
+            "title": "Spam Detection Using BERT",
+            "text": "title={Spam detection using BERT},\n  author={Sahmoud, Thaer and Mikki, Dr and others},\n  journal={arXiv preprint arXiv:2206.02443},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Spam detection using BERT",
+                "author": "Sahmoud, Thaer and Mikki, Dr and others",
+                "journal": "arXiv preprint arXiv:2206.02443",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Emails and SMSs are the most popular tools in today communications, and as the increase of emails and SMSs users are increase, the number of spams is also increases. Spam is any kind of unwanted, unsolicited digital communication that gets sent out in bulk, spam emails and SMSs are causing major resource wastage by unnecessarily flooding the network links. Although most spam mail originate with advertisers looking to push their products, some are much more malicious in their intent like phishing emails that aims to trick victims into giving up sensitive information like website logins or credit card information this type of cybercrime is known as phishing. To countermeasure spams, many researches and efforts are done to build spam detectors that are able to filter out messages and emails as spam or ham. In this research we build a spam detector using BERT pre-trained model that classifies emails and messages by understanding to their context, and we trained our spam detector model using multiple corpuses like SMS collection corpus, Enron corpus, SpamAssassin corpus, Ling-Spam corpus and SMS spam collection corpus, our spam detector performance was 98.62%, 97.83%, 99.13% and 99.28% respectively. Keywords: Spam Detector, BERT, Machine learning, NLP, Transformer, Enron Corpus, SpamAssassin Corpus, SMS Spam Detection Corpus, Ling-Spam Corpus.",
+            "aminer_id": "629ec1f95aee126c0fb700e3"
+        },
+        "wikipediaListLanguages": {
+            "number": "[58]",
+            "title": "List of languages by total number of speakers - Wikipedia --- en.wikipedia.org",
+            "text": "author ={Wikipedia},\n\ttitle ={List of languages by total number of speakers - {W}ikipedia --- en.wikipedia.org},\n\thowpublished = {\\url{https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers}},\n\tyear = {},\n\tnote = {[Accessed 07-May-2023]},",
+            "type": "misc",
+            "fields": {
+                "author": "Wikipedia",
+                "title": "List of languages by total number of speakers - {W}ikipedia --- en.wikipedia.org",
+                "howpublished": "\\url{https://en.wikipedia.org/wiki/List_of_languages_by_total_number_of_speakers}",
+                "year": "",
+                "note": "[Accessed 07-May-2023]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "price2020six": {
+            "number": "[59]",
+            "title": "Six attributes of unhealthy conversation",
+            "text": "title={Six attributes of unhealthy conversation},\n  author={Price, Ilan and Gifford-Moore, Jordan and Fleming, Jory and Musker, Saul and Roichman, Maayan and Sylvain, Guillaume and Thain, Nithum and Dixon, Lucas and Sorensen, Jeffrey},\n  journal={arXiv preprint arXiv:2010.07410},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Six attributes of unhealthy conversation",
+                "author": "Price, Ilan and Gifford-Moore, Jordan and Fleming, Jory and Musker, Saul and Roichman, Maayan and Sylvain, Guillaume and Thain, Nithum and Dixon, Lucas and Sorensen, Jeffrey",
+                "journal": "arXiv preprint arXiv:2010.07410",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ribeiro-etal-2016-trust": {
+            "number": "[60]",
+            "title": "``Why Should I Trust You?'': Explaining the Predictions of Any Classifier",
+            "text": "title = \"{``}Why Should {I} Trust You?{''}: Explaining the Predictions of Any Classifier\",\n    author = \"Ribeiro, Marco  and\n      Singh, Sameer  and\n      Guestrin, Carlos\",\n    booktitle = \"Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Demonstrations\",\n    month = jun,\n    year = \"2016\",\n    address = \"San Diego, California\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N16-3020\",\n    doi = \"10.18653/v1/N16-3020\",\n    pages = \"97--101\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{``}Why Should {I} Trust You?{''}: Explaining the Predictions of Any Classifier",
+                "author": "Ribeiro, Marco and Singh, Sameer and Guestrin, Carlos",
+                "booktitle": "Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Demonstrations",
+                "year": "2016",
+                "address": "San Diego, California",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/N16-3020",
+                "doi": "10.18653/v1/N16-3020",
+                "pages": "97--101"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "573695fd6e3b12023e51117d"
+        },
+        "fleiss1971measuring": {
+            "number": "[61]",
+            "title": "Measuring nominal scale agreement among many raters.",
+            "text": "title={Measuring nominal scale agreement among many raters.},\n  author={Fleiss, Joseph L},\n  journal={Psychological bulletin},\n  volume={76},\n  number={5},\n  pages={378},\n  year={1971},\n  publisher={American Psychological Association}",
+            "type": "article",
+            "fields": {
+                "title": "Measuring nominal scale agreement among many raters.",
+                "author": "Fleiss, Joseph L",
+                "journal": "Psychological bulletin",
+                "volume": "76",
+                "number": "5",
+                "pages": "378",
+                "year": "1971",
+                "publisher": "American Psychological Association"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e999d8b7602d970221e527"
+        },
+        "cohen1960coefficient": {
+            "number": "[62]",
+            "title": "A Coefficient of Agreement for Nominal Scales",
+            "text": "title={A coefficient of agreement for nominal scales},\n  author={Cohen, Jacob},\n  journal={Educational and psychological measurement},\n  volume={20},\n  number={1},\n  pages={37--46},\n  year={1960},\n  publisher={Sage Publications Sage CA: Thousand Oaks, CA}",
+            "type": "article",
+            "fields": {
+                "title": "A coefficient of agreement for nominal scales",
+                "author": "Cohen, Jacob",
+                "journal": "Educational and psychological measurement",
+                "volume": "20",
+                "number": "1",
+                "pages": "37--46",
+                "year": "1960",
+                "publisher": "Sage Publications Sage CA: Thousand Oaks, CA"
+            },
+            "ref_source": "bib",
+            "abstract": "CONSIDER Table 1. It represents in its formal characteristics a situation which arises in the clinical-social-personality areas of psychology, where it frequently occurs that the only useful level of measurement obtainable is nominal scaling (Stevens, 1951, pp. 2526), i.e. placement in a set of k unordered categories. Because the categorizing of the units is a consequence of some complex judgment process performed by a &dquo;two-legged meter&dquo; (Stevens, 1958), it becomes important to determine the extent to which these judgments are reproducible, i.e., reliable. The procedure which suggests itself is that of having two (or more) judges independently categorize a sample of units and determine the degree, significance, and",
+            "aminer_id": "600baf2566e4cca20d32d459"
+        },
+        "Sagor_2020": {
+            "number": "[63]",
+            "title": "BanglaBERT: Bengali Mask Language Model for Bengali Language Understanding",
+            "text": "title   = {BanglaBERT: Bengali Mask Language Model for Bengali Language Understanding},\n  author  = {Sagor Sarker},\n  year    = {2020},\n  url    = {https://github.com/sagorbrur/bangla-bert}",
+            "type": "misc",
+            "fields": {
+                "title": "BanglaBERT: Bengali Mask Language Model for Bengali Language Understanding",
+                "author": "Sagor Sarker",
+                "year": "2020",
+                "url": "https://github.com/sagorbrur/bangla-bert"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ma2019nlpaug": {
+            "number": "[64]",
+            "title": "NLP Augmentation",
+            "text": "title={NLP Augmentation},\n  author={Edward Ma},\n  url={https://github.com/makcedward/nlpaug},\n  year={2019}",
+            "type": "misc",
+            "fields": {
+                "title": "NLP Augmentation",
+                "author": "Edward Ma",
+                "url": "https://github.com/makcedward/nlpaug",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 64,
+        "citation_types": {
+            "other": 64
+        }
+    }
+}

@@ -1,0 +1,1345 @@
+{
+    "topic": "A Survey on Recognizing Textual Entailment as an NLP Evaluation",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Natural Language Inference or Recognizing Textual Entailment?",
+                    "refs": [
+                        "[35]",
+                        "[63]",
+                        "[109]",
+                        "[48]",
+                        "[113]",
+                        "[51]",
+                        "[91]",
+                        "[69]",
+                        "[20]",
+                        "[68]",
+                        "[88]",
+                        "[1]",
+                        "[52]",
+                        "[103]",
+                        "[3]",
+                        "[77]",
+                        "[87]",
+                        "[16]",
+                        "[61]",
+                        "[34]",
+                        "[129]",
+                        "[73]"
+                    ],
+                    "subsections": [],
+                    "number": "1.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Intrinsic vs Extrinsic Evaluations",
+                    "refs": [
+                        "[85]",
+                        "[96]",
+                        "[104]",
+                        "[121]",
+                        "[131]",
+                        "[45]",
+                        "[75]",
+                        "[21]",
+                        "[55]",
+                        "[67]",
+                        "[106]",
+                        "[127]",
+                        "[105]",
+                        "[119]",
+                        "[30]",
+                        "[14]",
+                        "[44]",
+                        "[82]",
+                        "[6]",
+                        "[81]",
+                        "[19]",
+                        "[43]"
+                    ],
+                    "subsections": [],
+                    "number": "1.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "General Purpose vs Task Specific Evaluations",
+                    "refs": [
+                        "[74]",
+                        "[31]",
+                        "[28]",
+                        "[87]",
+                        "[57]",
+                        "[102]",
+                        "[12]",
+                        "[29]",
+                        "[5]",
+                        "[98]",
+                        "[89]",
+                        "[64]",
+                        "[66]",
+                        "[70]"
+                    ],
+                    "subsections": [],
+                    "number": "1.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Probing Deep Learning NLP Models",
+                    "refs": [
+                        "[126]",
+                        "[125]",
+                        "[33]",
+                        "[32]",
+                        "[13]",
+                        "[10]",
+                        "[41]",
+                        "[56]",
+                        "[11]"
+                    ],
+                    "subsections": [],
+                    "number": "1.4",
+                    "level": 2
+                }
+            ],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Recognizing Textual Entailment",
+            "refs": [
+                "[120]",
+                "[58]",
+                "[135]",
+                "[130]",
+                "[36]",
+                "[53]",
+                "[134]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Entailment as a Downstream NLP Task",
+                    "refs": [
+                        "[60]",
+                        "[78]",
+                        "[110]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Revisiting RTE as an NLP Evaluation",
+            "refs": [
+                "[92]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Automatically Created",
+                    "refs": [
+                        "[95]",
+                        "[27]",
+                        "[46]",
+                        "[114]",
+                        "[80]",
+                        "[18]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Semi-Automatically Created",
+                    "refs": [
+                        "[59]",
+                        "[93]",
+                        "[65]",
+                        "[108]",
+                        "[50]",
+                        "[111]",
+                        "[117]",
+                        "[38]",
+                        "[132]",
+                        "[123]",
+                        "[133]",
+                        "[62]",
+                        "[128]",
+                        "[100]",
+                        "[84]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Manually Created",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Recommendations",
+            "refs": [
+                "[72]",
+                "[54]",
+                "[83]",
+                "[86]",
+                "[97]",
+                "[124]",
+                "[71]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgements",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Pascal RTE Annotation Guidelines",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "RTE1 Guidelines",
+                    "refs": [
+                        "[36]"
+                    ],
+                    "subsections": [],
+                    "number": "7.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "RTE2 Guidelines",
+                    "refs": [
+                        "[7]"
+                    ],
+                    "subsections": [],
+                    "number": "7.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "RTE3 Guidelines",
+                    "refs": [
+                        "[47]"
+                    ],
+                    "subsections": [],
+                    "number": "7.3",
+                    "level": 2
+                }
+            ],
+            "number": "7",
+            "level": 1
+        }
+    ],
+    "references": {
+        "ws-2001-mt": {
+            "number": "[1]",
+            "title": "Workshop on MT Evaluation: Hands-On Evaluation",
+            "text": "\\bibitem[{ws-(2001)}]{ws-2001-mt} 2001. \\newblock \\emph{Workshop on {MT} Evaluation: Hands-On Evaluation}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "adi2017fine": {
+            "number": "[2]",
+            "title": "Fine-grained Analysis of Sentence Embeddings Using Auxiliary Prediction Tasks",
+            "text": "\\bibitem[{Adi et~al.(2017)Adi, Kermany, Belinkov, Lavi, and Goldberg}]{adi2017fine} Yossi Adi, Einat Kermany, Yonatan Belinkov, Ofer Lavi, and Yoav Goldberg. 2017. \\newblock Fine-grained analysis of sentence embeddings using auxiliary prediction tasks. \\newblock In \\emph{ICLR}.",
+            "ref_source": "bbl",
+            "abstract": "There is a lot of research interest in encoding variable length sentences into fixed length vectors, in a way that preserves the sentence meanings. Two common methods include representations based on averaging word vectors, and representations based on the hidden states of recurrent neural networks such as LSTMs. The sentence vectors are used as features for subsequent machine learning tasks or for pre-training in the context of deep learning. However, not much is known about the properties that are encoded in these sentence representations and about the language information they capture. We propose a framework that facilitates better understanding of the encoded representations. We define prediction tasks around isolated aspects of sentence structure (namely sentence length, word content, and word order), and score representations by the ability to train a classifier to solve each prediction task when using the representation as input. We demonstrate the potential contribution of the approach by analyzing different sentence representation mechanisms. The analysis sheds light on the relative strengths of different sentence embedding methods with respect to these low level prediction tasks, and on the effect of the encoded vector's dimensionality on the resulting representations.",
+            "aminer_id": "58437722ac44360f1082ece5"
+        },
+        "agosti2007future": {
+            "number": "[3]",
+            "title": "The Future of Large-Scale Evaluation Campaigns for Information Retrieval in Europe",
+            "text": "\\bibitem[{Agosti et~al.(2007)Agosti, Di~Nunzio, Ferro, Harman, and Peters}]{agosti2007future} Maristella Agosti, Giorgio~Maria Di~Nunzio, Nicola Ferro, Donna Harman, and Carol Peters. 2007. \\newblock The future of large-scale evaluation campaigns for information retrieval in europe. \\newblock In \\emph{International Conference on Theory and Practice of Digital Libraries}, pages 509--512. Springer.",
+            "ref_source": "bbl",
+            "abstract": "A Workshop on “The Future of Large-scale Evaluation Campaigns” was organised jointly by the University of Padua and the DELOS Network of Excellence and held in Padua, Italy, March 2007. The aim was to perform a critical assessment of the scientific results of such initiatives and to formulate recommendations for the future. This poster summarises the outcome of the discussion with respect to the major European activity in this area: the Cross Language Evaluation Forum.",
+            "aminer_id": "5390a1bc20f70186a0e567a8"
+        },
+        "amoia:tel-01748535": {
+            "number": "[4]",
+            "title": "Linguistic-based Computational Treatment of Textual Entailment Recognition",
+            "text": "\\bibitem[{Amoia(2008)}]{amoia:tel-01748535} Marilisa Amoia. 2008. \\newblock \\href {https://hal.univ-lorraine.fr/tel-01748535} {\\emph{{Linguistic-Based Computational Treatment of Textual Entailment Recognition}}}. \\newblock Theses, {Universit{\\'e} Henri Poincar{\\'e} - Nancy 1}.",
+            "ref_source": "bbl",
+            "abstract": "In this thesis, I investigate how lexical resources based on the organisation of lexical knowledge in classes which share common (syntactic, semantic, etc.) features support natural language processing and in particular symbolic recognition of textual entailment. First, I present a robust and wide coverage approach to lexico-structural verb paraphrase recognition based on Levin's (1993) classification of English verbs. Then, I show that by extending Levin's framework to general inference patterns, a classification of English adjectives can be obtained that compared with previous approaches, provides a more fine grained semantic characterisation of their inferential properties. Further, I develop a compositional semantic framework to assign a semantic representation to adjectives based on an ontologically promiscuous approach (Hobbs, 1985) and thereby supporting first order inference for all types of adjectives including extensional ones. Finally, I present a test suite for adjectival inference I developed as a resource for the evaluation of computational systems handling natural language inference.  In der vorliegenden Dissertation habe ich untersucht, wie lexikalische Ressourcen, die auf der Gliederung lexikalischen Wissens in Klassen mit gemeinsamen Eigenschaften (lexikalische, semantische etc,) basieren, die computergestutzte Verarbeitung naturlicher Sprache und insbesondere die symbolische Erkennung von Entailment unterstutzen. Basierend auf Levins (1993) Klassifikation englischer Verben, wurde zuerst ein robuster, fur die Verarbeitung beliebiger Texte geeigneter Ansatz zur Paraphrasenerkennung vorgestellt. Dann habe ich aufgezeigt, dass man durch eine Erweiterung von Levins Systematik zur Behandlung allgemeiner Inferenzmuster, eine Klassifikation von englischen Adjektiven erhalt, die verglichen mit fruheren Ansatzen, eine feinkornige semantische Charakterisierung ihrer inferentiellen Eigenschaften gestattet und so die Basis fur die computergestutzte Behandlung von Inferenz bei Adjektiven bildet. Ein anderes beachtliches Ergebnis der vorliegenden Arbeit ist die Test Suite, die ich entwickelt habe und die als Ressource fur NPL Anwendungen, die Inferenzen (insbesondere Inferenzen bei Adjektiven) behandeln, genutzt werden kann. Durch die Konstruktion dieser Test Suite beabsichtige ich, den Weg fur die Schaffung von Ressourcen zu ebnen, die einen tieferen Einblick in die fur Inferenz verantwortlichen Phanomene ermoglichen.",
+            "aminer_id": "6678708493c353b3235db620"
+        },
+        "avramidis-etal-2019-linguistic": {
+            "number": "[5]",
+            "title": "Linguistic Evaluation of German-English Machine Translation Using a Test Suite",
+            "text": "\\bibitem[{Avramidis et~al.(2019)Avramidis, Macketanz, Strohriegel, and Uszkoreit}]{avramidis-etal-2019-linguistic} Eleftherios Avramidis, Vivien Macketanz, Ursula Strohriegel, and Hans Uszkoreit. 2019. \\newblock \\href {https://doi.org/10.18653/v1/W19-5351} {Linguistic evaluation of {G}erman-{E}nglish machine translation using a test suite}. \\newblock In \\emph{Proceedings of the Fourth Conference on Machine Translation (Volume 2: Shared Task Papers, Day 1)}, pages 445--454, Florence, Italy. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We present the results of the application of a grammatical test suite for German -> English MT on the systems submitted at WMT19, with a detailed analysis for 107 phenomena organized in 14 categories. The systems still translate wrong one out of four test items in average. Low performance is indicated for idioms, modals, pseudo-clefts, multi-word expressions and verb valency. When compared to last year, there has been a improvement of function words, non verbal agreement and punctuation. More detailed conclusions about particular systems and phenomena are also presented.",
+            "aminer_id": "5da83cf73a55ac549a8d12b3"
+        },
+        "baker-etal-2014-unsupervised": {
+            "number": "[6]",
+            "title": "An unsupervised model for instance level subcategorization acquisition",
+            "text": "\\bibitem[{Baker et~al.(2014)Baker, Reichart, and Korhonen}]{baker-etal-2014-unsupervised} Simon Baker, Roi Reichart, and Anna Korhonen. 2014. \\newblock \\href {https://doi.org/10.3115/v1/D14-1034} {An unsupervised model for instance level subcategorization acquisition}. \\newblock In \\emph{Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing ({EMNLP})}, pages 278--289, Doha, Qatar. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5550456345ce0a409eb55d59"
+        },
+        "BarHaim2006TheSP": {
+            "number": "[7]",
+            "title": "The Second PASCAL Recognising Textual Entailment Challenge",
+            "text": "\\bibitem[{Bar-Haim et~al.(2006)Bar-Haim, Dagan, Dolan, Ferro, Giampiccolo, and Magnini}]{BarHaim2006TheSP} Roy Bar-Haim, Ido Dagan, Bill Dolan, Lisa Ferro, Danilo Giampiccolo, and Bernardo Magnini. 2006. \\newblock The second pascal recognising textual entailment challenge.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes the Second PASCAL Recognising Textual Entailment Challenge (RTE-2). 1 We describe the RTE-2 dataset and overview the submissions for the challenge. One of the main goals for this year’s dataset was to provide more “realistic” text-hypothesis examples, based mostly on outputs of actual systems. The 23 submissions for the challenge present diverse approaches and research directions, and the best results achieved this year are considerably higher than last year’s state of the art.",
+            "aminer_id": "53e9b8dab7602d97044b97c6"
+        },
+        "barrantes2020adversarial": {
+            "number": "[8]",
+            "title": "Adversarial NLI for Factual Correctness in Text Summarisation Models",
+            "text": "\\bibitem[{Barrantes et~al.(2020)Barrantes, Herudek, and Wang}]{barrantes2020adversarial} Mario Barrantes, Benedikt Herudek, and Richard Wang. 2020. \\newblock \\href {http://arxiv.org/abs/2005.11739} {Adversarial nli for factual correctness in text summarisation models}.",
+            "ref_source": "bbl",
+            "abstract": "  We apply the Adversarial NLI dataset to train the NLI model and show that the model has the potential to enhance factual correctness in abstract summarization. We follow the work of Falke et al. (2019), which rank multiple generated summaries based on the entailment probabilities between an source document and summaries and select the summary that has the highest entailment probability. The authors' earlier study concluded that current NLI models are not sufficiently accurate for the ranking task. We show that the Transformer models fine-tuned on the new dataset achieve significantly higher accuracy and have the potential of selecting a coherent summary. ",
+            "aminer_id": "5ecce8ec91e0119170395bfd"
+        },
+        "belinkov2018internal": {
+            "number": "[9]",
+            "title": "On Internal Language Representations in Deep Learning : an Analysis of Machine Translation and Speech Recognition",
+            "text": "\\bibitem[{Belinkov(2018)}]{belinkov2018internal} Yonatan Belinkov. 2018. \\newblock \\emph{On internal language representations in deep learning: An analysis of machine translation and speech recognition}. \\newblock Ph.D. thesis, Massachusetts Institute of Technology.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "65b2116f939a5f4082e1fe4b"
+        },
+        "P17-1080": {
+            "number": "[10]",
+            "title": "What Do Neural Machine Translation Models Learn about Morphology?",
+            "text": "\\bibitem[{Belinkov et~al.(2017{\\natexlab{a}})Belinkov, Durrani, Dalvi, Sajjad, and Glass}]{P17-1080} Yonatan Belinkov, Nadir Durrani, Fahim Dalvi, Hassan Sajjad, and James Glass. 2017{\\natexlab{a}}. \\newblock \\href {https://doi.org/10.18653/v1/P17-1080} {What do neural machine translation models learn about morphology?} \\newblock In \\emph{Proceedings of the 55th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 861--872. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Neural machine translation (MT) models obtain state-of-the-art performance while maintaining a simple, end-to-end architecture. However, little is known about what these models learn about source and target languages during the training process. In this work, we analyze the representations learned by neural MT models at various levels of granularity and empirically evaluate the quality of the representations for learning morphology through extrinsic part-of-speech and morphological tagging tasks. We conduct a thorough investigation along several parameters: word-based vs. character-based representations, depth of the encoding layer, the identity of the target language, and encoder vs. decoder representations. Our data-driven, quantitative evaluation sheds light on important aspects in the neural MT system and its ability to capture word structure.",
+            "aminer_id": "59ae3c262bbe271c4c71e9f1"
+        },
+        "NIPS2017_6838": {
+            "number": "[11]",
+            "title": "Analyzing hidden representations in end-to-end automatic speech recognition systems",
+            "text": "\\bibitem[{Belinkov and Glass(2017)}]{NIPS2017_6838} Yonatan Belinkov and James Glass. 2017. \\newblock \\href {http://papers.nips.cc/paper/6838-analyzing-hidden-representations-in-end-to-end-automatic-speech-recognition-systems.pdf} {Analyzing hidden representations in end-to-end automatic speech recognition systems}. \\newblock In I.~Guyon, U.~V. Luxburg, S.~Bengio, H.~Wallach, R.~Fergus, S.~Vishwanathan, and R.~Garnett, editors, \\emph{Advances in Neural Information Processing Systems 30}, pages 2441--2451. Curran Associates, Inc.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260c0917c44a4ba8a1df65"
+        },
+        "belinkov2019survey": {
+            "number": "[12]",
+            "title": "Analysis methods in neural language processing: A survey",
+            "text": "\\bibitem[{Belinkov and Glass(2019)}]{belinkov2019survey} Yonatan Belinkov and James Glass. 2019. \\newblock \\href {https://doi.org/10.1162/tacl\\_a\\_00254} {Analysis methods in neural language processing: A survey}. \\newblock \\emph{Transactions of the Association for Computational Linguistics}, 7:49--72.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c5ce4fd17c44a400fc38ae0"
+        },
+        "belinkov-EtAl:2017:I17-1": {
+            "number": "[13]",
+            "title": "Evaluating Layers of Representation in Neural Machine Translation on Part-of-Speech and Semantic Tagging Tasks.",
+            "text": "\\bibitem[{Belinkov et~al.(2017{\\natexlab{b}})Belinkov, M\\`{a}rquez, Sajjad, Durrani, Dalvi, and Glass}]{belinkov-EtAl:2017:I17-1} Yonatan Belinkov, Llu\\'{i}s M\\`{a}rquez, Hassan Sajjad, Nadir Durrani, Fahim Dalvi, and James Glass. 2017{\\natexlab{b}}. \\newblock Evaluating layers of representation in neural machine translation on part-of-speech and semantic tagging tasks. \\newblock In \\emph{Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pages 1--10, Taipei, Taiwan. Asian Federation of Natural Language Processing.",
+            "ref_source": "bbl",
+            "abstract": "While neural machine translation (NMT) models provide improved translation quality in an elegant, end-to-end framework, it is less clear what they learn about language. Recent work has started evaluating the quality of vector representations learned by NMT models on morphological and syntactic tasks. In this paper, we investigate the representations learned at different layers of NMT encoders. We train NMT systems on parallel data and use the trained models to extract features for training a classifier on two tasks: part-of-speech and semantic tagging. We then measure the performance of the classifier as a proxy to the quality of the original NMT model for the given task. Our quantitative analysis yields interesting insights regarding representation learning in NMT models. For instance, we find that higher layers are better at learning semantics while lower layers tend to be better for part-of-speech tagging. We also observe little effect of the target language on source-side representations, especially with higher quality NMT models.",
+            "aminer_id": "5a73cb5d17c44a0b303573cc"
+        },
+        "belz-gatt-2008-intrinsic": {
+            "number": "[14]",
+            "title": "Intrinsic Vs. Extrinsic Evaluation Measures for Referring Expression Generation",
+            "text": "\\bibitem[{Belz and Gatt(2008)}]{belz-gatt-2008-intrinsic} Anja Belz and Albert Gatt. 2008. \\newblock \\href {https://www.aclweb.org/anthology/P08-2050} {Intrinsic vs. extrinsic evaluation measures for referring expression generation}. \\newblock In \\emph{Proceedings of ACL-08: HLT, Short Papers}, pages 197--200, Columbus, Ohio. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "In this paper we present research in which we apply (i) the kind of intrinsic evaluation metrics that are characteristic of current comparative HLT evaluation, and (ii) extrinsic, human task-performance evaluations more in keeping with NLG traditions, to 15 systems implementing a language generation task. We analyse the evaluation results and find that there are no significant correlations between intrinsic and extrinsic evaluation measures for this task.",
+            "aminer_id": "5390a4cc20f70186a0e75293"
+        },
+        "Blake:2007:RSS:1654536.1654557": {
+            "number": "[15]",
+            "title": "The Role of Sentence Structure in Recognizing Textual Entailment",
+            "text": "\\bibitem[{Blake(2007)}]{Blake:2007:RSS:1654536.1654557} Catherine Blake. 2007. \\newblock \\href {http://dl.acm.org/citation.cfm?id=1654536.1654557} {The role of sentence structure in recognizing textual entailment}. \\newblock In \\emph{Proceedings of the ACL-PASCAL Workshop on Textual Entailment and Paraphrasing}, RTE '07, pages 101--106, Stroudsburg, PA, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Recent research suggests that sentence structure can improve the accuracy of recognizing textual entailments and paraphrasing. Although background knowledge such as gazetteers, WordNet and custom built knowledge bases are also likely to improve performance, our goal in this paper is to characterize the syntactic features alone that aid in accurate entailment prediction. We describe candidate features, the role of machine learning, and two final decision rules. These rules resulted in an accuracy of 60.50 and 65.87% and average precision of 58.97 and 60.96% in RTE3Test and suggest that sentence structure alone can improve entailment accuracy by 9.25 to 14.62% over the baseline majority class.",
+            "aminer_id": "5390a72320f70186a0e8b1c7"
+        },
+        "ws-2017-evaluating": {
+            "number": "[16]",
+            "title": "Proceedings of the 2nd Workshop on Evaluating Vector Space Representations for NLP.",
+            "text": "\\bibitem[{Bowman et~al.(2017)Bowman, Goldberg, Hill, Lazaridou, Levy, Reichart, and S{\\o}gaard}]{ws-2017-evaluating} Samuel Bowman, Yoav Goldberg, Felix Hill, Angeliki Lazaridou, Omer Levy, Roi Reichart, and Anders S{\\o}gaard, editors. 2017. \\newblock \\href {https://doi.org/10.18653/v1/W17-53} {\\emph{Proceedings of the 2nd Workshop on Evaluating Vector Space Representations for {NLP}}}. Association for Computational Linguistics, Copenhagen, Denmark.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents the results of the RepEval 2017 Shared Task, which evaluated neural network sentence representation learning models on the Multi-Genre Natural Language Inference corpus (MultiNLI) recently introduced by Williams et al. (2017).All of the five participating teams beat the bidirectional LSTM (BiLSTM) and continuous bag of words baselines reported in Williams et al..The best single model used stacked BiLSTMs with residual connections to extract sentence features and reached 74.5% accuracy on the genre-matched test set.Surprisingly, the results of the competition were fairly consistent across the genrematched and genre-mismatched test sets, and across subsets of the test data representing a variety of linguistic phenomena, suggesting that all of the submitted systems learned reasonably domainindependent representations for sentence meaning.",
+            "aminer_id": "5a260c3517c44a4ba8a24e96"
+        },
+        "snli:emnlp2015": {
+            "number": "[17]",
+            "title": "A large annotated corpus for learning natural language inference",
+            "text": "\\bibitem[{Bowman et~al.(2015)Bowman, Angeli, Potts, and Manning}]{snli:emnlp2015} Samuel~R. Bowman, Gabor Angeli, Christopher Potts, and Christopher~D. Manning. 2015. \\newblock A large annotated corpus for learning natural language inference. \\newblock In \\emph{Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing (EMNLP)}. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736974d6e3b12023e63873d"
+        },
+        "Brinton2000TheSO": {
+            "number": "[18]",
+            "title": "The Structure of Modern English: A Linguistic Introduction",
+            "text": "\\bibitem[{Brinton(2000)}]{Brinton2000TheSO} L.~Brinton. 2000. \\newblock \\emph{The Structure of Modern English: A linguistic introduction}.",
+            "ref_source": "bbl",
+            "abstract": "The Structure of Modern English is an extensive introduction to all aspects of Modern English structure, including: Phonology Morphology Lexical and sentence semantics Syntax Pragmatics This text is for advanced undergraduate (and graduate) students interested in contemporary English, especially those whose primary area of interest is English as a second language, primary or secondary-school education, English stylistics, theoretical and applied linguistics, or speech pathology. Focus is exclusively on English data, providing an empirical explication of the structure of the language, rather than exploring theoretical questions ortheory for theory's sake. The text does use linguistic theory but presupposes little or no background in linguistics or any particular linguistic predilection.The textbook begins with units on English phonology and morphology, including a full discussion of the grammatical categories of English. A section on lexical semantics follows which examines structural semantics,modal auxiliaries, lexical aspect and related topics. The next section analyzes - in detail - English syntax from a broadly generative perspective. Then there is an examination of the interaction of syntax and semantics with respect to thematic roles and event structure. A final section covers the study of information structuring, speech act theory, and conversational maxims. Accompanying the text is a pedagogically useful CD-ROM that is a complete workbook with numerous self-testing exercises. Additionally, the CD presents suggestions for pedagogical applications of the material in the textbook in a teachers section.",
+            "aminer_id": "65ba7266939a5f4082e5e5f5"
+        },
+        "bruni2012distributional": {
+            "number": "[19]",
+            "title": "Distributional Semantics in Technicolor",
+            "text": "\\bibitem[{Bruni et~al.(2012)Bruni, Boleda, Baroni, and Tran}]{bruni2012distributional} Elia Bruni, Gemma Boleda, Marco Baroni, and Nam-Khanh Tran. 2012. \\newblock Distributional semantics in technicolor. \\newblock In \\emph{Proceedings of the 50th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 136--145.",
+            "ref_source": "bbl",
+            "abstract": "Our research aims at building computational models of word meaning that are perceptually grounded. Using computer vision techniques, we build visual and multimodal distributional models and compare them to standard textual models. Our results show that, while visual models with state-of-the-art computer vision techniques perform worse than textual models in general tasks (accounting for semantic relatedness), they are as good or better models of the meaning of words with visual correlates such as color terms, even in a nontrivial task that involves nonliteral uses of such words. Moreover, we show that visual and textual information are tapping on different aspects of meaning, and indeed combining them in multimodal models often improves performance.",
+            "aminer_id": "5390b86b20f70186a0f28d1a"
+        },
+        "NIPS2018_8163": {
+            "number": "[20]",
+            "title": "e-snli: Natural language inference with natural language explanations",
+            "text": "\\bibitem[{Camburu et~al.(2018)Camburu, Rockt\\\"{a}schel, Lukasiewicz, and Blunsom}]{NIPS2018_8163} Oana-Maria Camburu, Tim Rockt\\\"{a}schel, Thomas Lukasiewicz, and Phil Blunsom. 2018. \\newblock \\href {http://papers.nips.cc/paper/8163-e-snli-natural-language-inference-with-natural-language-explanations.pdf} {e-snli: Natural language inference with natural language explanations}. \\newblock In S.~Bengio, H.~Wallach, H.~Larochelle, K.~Grauman, N.~Cesa-Bianchi, and R.~Garnett, editors, \\emph{Advances in Neural Information Processing Systems 31}, pages 9539--9549. Curran Associates, Inc.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c2348ceda562935fc1d5565"
+        },
+        "caporaso2008intrinsic": {
+            "number": "[21]",
+            "title": "Intrinsic Evaluation of Text Mining Tools May Not Predict Performance on Realistic Tasks.",
+            "text": "\\bibitem[{Caporaso et~al.(2008)Caporaso, Deshpande, Fink, Bourne, Cohen, and Hunter}]{caporaso2008intrinsic} J~Gregory Caporaso, Nita Deshpande, J~Lynn Fink, Philip~E Bourne, K~Bretonnel Cohen, and Lawrence Hunter. 2008. \\newblock Intrinsic evaluation of text mining tools may not predict performance on realistic tasks. \\newblock In \\emph{Biocomputing 2008}, pages 640--651. World Scientific.",
+            "ref_source": "bbl",
+            "abstract": "Biomedical text mining and other automated techniques are beginning to achieve performance which suggests that they could be applied to aid database curators. However, few studies have evaluated how these systems might work in practice. In this article we focus on the problem of annotating mutations in Protein Data Bank (PDB) entries, and evaluate the relationship between performance of two automated techniques, a text-mining-based approach (MutationFinder) and an alignment-based approach, in intrinsic versus extrinsic evaluations. We find that high performance on gold standard data (an intrinsic evaluation) does not necessarily translate to high performance for database annotation (an extrinsic evaluation). We show that this is in part a result of lack of access to the full text of journal articles, which appears to be critical for comprehensive database annotation by text mining. Additionally, we evaluate the accuracy and completeness of manually annotated mutation data in the PDB, and find that it is far from perfect. We conclude that currently the most cost-effective and reliable approach for database annotation might incorporate manual and automatic annotation methods.",
+            "aminer_id": "53e99b63b7602d9702409a91"
+        },
+        "W17-7203": {
+            "number": "[22]",
+            "title": "An Overview of Natural Language Inference Data Collection: the Way Forward?",
+            "text": "\\bibitem[{Chatzikyriakidis et~al.(2017)Chatzikyriakidis, Cooper, Dobnik, and Larsson}]{W17-7203} Stergios Chatzikyriakidis, Robin Cooper, Simon Dobnik, and Staffan Larsson. 2017. \\newblock \\href {http://aclweb.org/anthology/W17-7203} {An overview of natural language inference data collection: The way forward?} \\newblock In \\emph{Proceedings of the Computing Natural Language Inference Workshop}.",
+            "ref_source": "bbl",
+            "abstract": "Understanding a Natural Language (NL) sentence amounts to understanding its consequences as well as the sentences that it is a consequence of. As Cooper et al. (1996) aptly put it ‘inferential ability is not only a central manifestation of semantic competence but is in fact centrally constitutive of it’ . Given the latter claim, it is no surprise that the same authors argue that the best way to test the semantic adequacy of NLP systems is to look at how well they perform with regard to Natural Language Inference (NLI). It is very hard not to agree with this statement. Indeed, NLI is considered by many researchers to be the crux of computational semantics. This paper is about the datasets created for this need. In particular, we discuss the most common NLI resources arguing that all these a) fail to capture the wealth of inferential mechanisms present in NLI and b) seem to be driven by the dominant discourse in the field at the time of their creation. In light of these observations, we want to discuss the requirements that an adequate NLI platform must satisfy both in terms of the range of inference patterns found in reasoning with NL as well as the range of the data collection mechanisms that are needed in order to acquire this range of inferential patterns.",
+            "aminer_id": "5f0e64969fced0a24b172992"
+        },
+        "chen2020counterfactual": {
+            "number": "[23]",
+            "title": "Counterfactual Samples Synthesizing for Robust Visual Question Answering",
+            "text": "\\bibitem[{Chen et~al.(2020{\\natexlab{a}})Chen, Yan, Xiao, Zhang, Pu, and Zhuang}]{chen2020counterfactual} Long Chen, Xin Yan, Jun Xiao, Hanwang Zhang, Shiliang Pu, and Yueting Zhuang. 2020{\\natexlab{a}}. \\newblock Counterfactual samples synthesizing for robust visual question answering. \\newblock In \\emph{Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 10800--10809.",
+            "ref_source": "bbl",
+            "abstract": "Despite Visual Question Answering (VQA) has realized impressive progress over the last few years, today's VQA models tend to capture superficial linguistic correlations in the train set and fail to generalize to the test set with different QA distributions. To reduce the language biases, several recent works introduce an auxiliary question-only model to regularize the training of targeted VQA model, and achieve dominating performance on VQA-CP. However, since the complexity of design, current methods are unable to equip the ensemble-based models with two indispensable characteristics of an ideal VQA model: 1) visual-explainable: the model should rely on the right visual regions when making decisions. 2) question-sensitive: the model should be sensitive to the linguistic variations in question. To this end, we propose a model-agnostic Counterfactual Samples Synthesizing (CSS) training scheme. The CSS generates numerous counterfactual training samples by masking critical objects in images or words in questions, and assigning different ground-truth answers. After training with the complementary samples (ie, the original and generated samples), the VQA models are forced to focus on all critical objects and words, which significantly improves both visual-explainable and question-sensitive abilities. In return, the performance of these models is further boosted. Extensive ablations have shown the effectiveness of CSS. Particularly, by building on top of the model LMH, we achieve a record-breaking performance of 58.95% on VQA-CP v2, with 6.5% gains.",
+            "aminer_id": "5e71f49891e0115656f5ceeb"
+        },
+        "chen-etal-2018-neural": {
+            "number": "[24]",
+            "title": "Neural Natural Language Inference Models Enhanced with External Knowledge",
+            "text": "\\bibitem[{Chen et~al.(2018)Chen, Zhu, Ling, Inkpen, and Wei}]{chen-etal-2018-neural} Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Diana Inkpen, and Si~Wei. 2018. \\newblock \\href {https://doi.org/10.18653/v1/P18-1224} {Neural natural language inference models enhanced with external knowledge}. \\newblock In \\emph{Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 2406--2417, Melbourne, Australia. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Modeling natural language inference is a very challenging task. With the availability of large annotated data, it has recently become feasible to train complex models such as neural-network-based inference models, which have shown to achieve the state-of-the-art performance. Although there exist relatively large annotated data, can machines learn all knowledge needed to perform natural language inference (NLI) from these data? If not, how can neural-network-based NLI models benefit from external knowledge and how to build NLI models to leverage it? In this paper, we enrich the state-of-the-art neural natural language inference models with external knowledge. We demonstrate that the proposed models improve neural NLI models to achieve the state-of-the-art performance on the SNLI and MultiNLI datasets.",
+            "aminer_id": "5b67b46b17c44aac1c861f11"
+        },
+        "chen-etal-2017-recurrent": {
+            "number": "[25]",
+            "title": "Recurrent Neural Network-Based Sentence Encoder with Gated Attention for Natural Language Inference.",
+            "text": "\\bibitem[{Chen et~al.(2017)Chen, Zhu, Ling, Wei, Jiang, and Inkpen}]{chen-etal-2017-recurrent} Qian Chen, Xiaodan Zhu, Zhen-Hua Ling, Si~Wei, Hui Jiang, and Diana Inkpen. 2017. \\newblock \\href {https://doi.org/10.18653/v1/W17-5307} {Recurrent neural network-based sentence encoder with gated attention for natural language inference}. \\newblock In \\emph{Proceedings of the 2nd Workshop on Evaluating Vector Space Representations for {NLP}}, pages 36--40, Copenhagen, Denmark. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "The RepEval 2017 Shared Task aims to evaluate natural language understanding models for sentence representation, in which a sentence is represented as a fixed-length vector with neural networks and the quality of the representation is tested with a natural language inference task. This paper describes our system (alpha) that is ranked among the top in the Shared Task, on both the in-domain test set (obtaining a 74.9% accuracy) and on the cross-domain test set (also attaining a 74.9% accuracy), demonstrating that the model generalizes well to the cross-domain data. Our model is equipped with intra-sentence gated-attention composition which helps achieve a better performance. In addition to submitting our model to the Shared Task, we have also tested it on the Stanford Natural Language Inference (SNLI) dataset. We obtain an accuracy of 85.5%, which is the best reported result on SNLI when cross-sentence attention is not allowed, the same condition enforced in RepEval 2017.",
+            "aminer_id": "5a260c3517c44a4ba8a24ea4"
+        },
+        "chen2020uncertain": {
+            "number": "[26]",
+            "title": "Uncertain Natural Language Inference",
+            "text": "\\bibitem[{Chen et~al.(2020{\\natexlab{b}})Chen, Jiang, Poliak, Sakaguchi, and Van~Durme}]{chen2020uncertain} Tongfei Chen, Zhengping Jiang, Adam Poliak, Keisuke Sakaguchi, and Benjamin Van~Durme. 2020{\\natexlab{b}}. \\newblock Uncertain natural language inference. \\newblock In \\emph{ACL}.",
+            "ref_source": "bbl",
+            "abstract": "We introduce Uncertain Natural Language Inference (UNLI), a refinement ofNatural Language Inference (NLI) that shifts away from categorical labels,targeting instead the direct prediction of subjective probability assessments.We demonstrate the feasibility of collecting annotations for UNLI by relabelinga portion of the SNLI dataset under a probabilistic scale, where items evenwith the same categorical label differ in how likely people judge them to betrue given a premise. We describe a direct scalar regression modeling approach,and find that existing categorically labeled NLI data can be used inpre-training. Our best models approach human performance, demonstrating modelsmay be capable of more subtle inferences than the categorical bin assignmentemployed in current NLI tasks.",
+            "aminer_id": "5d7622ad3a55ac9ba9239cd4"
+        },
+        "chierchia2000meaning": {
+            "number": "[27]",
+            "title": "Meaning and grammar: An introduction to semantics",
+            "text": "\\bibitem[{Chierchia and McConnell-Ginet(2000)}]{chierchia2000meaning} Gennaro Chierchia and Sally McConnell-Ginet. 2000. \\newblock \\emph{Meaning and grammar: An introduction to semantics}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "56d8183bdabfae2eee808ca0"
+        },
+        "chinchor-1991-muc-3": {
+            "number": "[28]",
+            "title": "MUC-3 Linguistic Phenomena Test Experiment",
+            "text": "\\bibitem[{Chinchor(1991)}]{chinchor-1991-muc-3} Nancy Chinchor. 1991. \\newblock \\href {https://www.aclweb.org/anthology/M91-1004} {{MUC}-3 linguistic phenomena test experiment}. \\newblock In \\emph{{T}hird {M}essage {U}understanding {C}onference ({MUC}-3): Proceedings of a Conference Held in {S}an {D}iego, {C}alifornia, {M}ay 21-23, 1991}.",
+            "ref_source": "bbl",
+            "abstract": "The evaluation of data extraction systems can be supplemented by determining performance of the systems on a representative selection of linguistic phenomena. The experiment performed as part of the MUC-3 evaluation was aimed at determining whether linguistic phenomena can be tested in isolation for state-of-the-art data extraction. Although not all of the methods of data extraction used by the participants in MUC-3 directly process linguistic phenomena, the methods are dealing with those phenomena in some manner because they are present in the input. Phenomena testing in MUC-3 is testing according to the characteristics of the messages rather than characteristics of the systems processing those messages. In order to determine the validity of phenomena testing at the current level of system performance, an experiment was run. The results of the experiment indicate that linguistic phenomena are isolatable and that performance for linguistic phenomena can be measured using the MUC-3 scoring system.",
+            "aminer_id": "5390985d20f70186a0e08168"
+        },
+        "chinchor-etal-1993-evaluating": {
+            "number": "[29]",
+            "title": "Evaluating Message Understanding Systems: an Analysis of the Third Message Understanding Conference (MUC-3).",
+            "text": "\\bibitem[{Chinchor et~al.(1993)Chinchor, Hirschman, and Lewis}]{chinchor-etal-1993-evaluating} Nancy Chinchor, Lynette Hirschman, and David~D. Lewis. 1993. \\newblock \\href {https://www.aclweb.org/anthology/J93-3001} {Evaluating message understanding systems: An analysis of the third message understanding conference ({MUC}-3)}. \\newblock \\emph{Computational Linguistics}, 19(3):409--450.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes and analyzes the results of the Third Message Understanding Conference (MUC-3). It reviews the purpose, history, and methodology of the conference, summarizes the participating systems, discusses issues of measuring system effectiveness, describes the linguistic phenomena tests, and provides a critical look at the evaluation in terms of the lessons learned. One of the common problems with evaluations is that the statistical significance of the results is unknown. In the discussion of system performance, the statistical significance of the evaluation results is reported and the use of approximate randomization to calculate the statistical significance of the results of MUC-3 is described.",
+            "aminer_id": "5390962020f70186a0df3ae3"
+        },
+        "chiu-etal-2016-intrinsic": {
+            "number": "[30]",
+            "title": "Intrinsic Evaluation of Word Vectors Fails to Predict Extrinsic Performance.",
+            "text": "\\bibitem[{Chiu et~al.(2016)Chiu, Korhonen, and Pyysalo}]{chiu-etal-2016-intrinsic} Billy Chiu, Anna Korhonen, and Sampo Pyysalo. 2016. \\newblock \\href {https://doi.org/10.18653/v1/W16-2501} {Intrinsic evaluation of word vectors fails to predict extrinsic performance}. \\newblock In \\emph{Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}}, pages 1--6, Berlin, Germany. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "The quality of word representations is frequently assessed using correlation with human judgements of word similarity. Here, we question whether such intrinsic evaluation can predict the merits of the representations for downstream tasks. We study the correlation between results on ten word similarity benchmarks and tagger performance on three standard sequence labeling tasks using a variety of word vectors induced from an unannotated corpus of 3.8 billion words, and demonstrate that most intrinsic evaluations are poor predictors of downstream performance. We argue that this issue can be traced in part to a failure to distinguish specific similarity from relatedness in intrinsic evaluation datasets. We make our evaluation tools openly available to facilitate further study.",
+            "aminer_id": "5a260c3517c44a4ba8a24e85"
+        },
+        "choshen-abend-2019-automatically": {
+            "number": "[31]",
+            "title": "Automatically Extracting Challenge Sets for Non-Local Phenomena in Neural Machine Translation.",
+            "text": "\\bibitem[{Choshen and Abend(2019)}]{choshen-abend-2019-automatically} Leshem Choshen and Omri Abend. 2019. \\newblock \\href {https://doi.org/10.18653/v1/K19-1028} {Automatically extracting challenge sets for non-local phenomena in neural machine translation}. \\newblock In \\emph{Proceedings of the 23rd Conference on Computational Natural Language Learning (CoNLL)}, pages 291--303, Hong Kong, China. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We show that the state of the art Transformer Machine Translation (MT) model is not biased towards monotonic reordering (unlike previous recurrent neural network models), but that nevertheless, long-distance dependencies remain a challenge for the model. Since most dependencies are short-distance, common evaluation metrics will be little influenced by how well systems perform on them. We, therefore, propose an automatic approach for extracting challenge sets replete with long-distance dependencies and argue that evaluation using this methodology provides a complementary perspective on system performance. To support our claim, we compile challenge sets for English-German and German-English, which are much larger than any previously released challenge set for MT. The extracted sets are large enough to allow reliable automatic evaluation, which makes the proposed approach a scalable and practical solution for evaluating MT performance on the long-tail of syntactic phenomena.",
+            "aminer_id": "5d80b6e23a55acb8a2d78213"
+        },
+        "conneau-kiela-2018-senteval": {
+            "number": "[32]",
+            "title": "SentEval: An evaluation toolkit for universal sentence representations",
+            "text": "\\bibitem[{Conneau and Kiela(2018)}]{conneau-kiela-2018-senteval} Alexis Conneau and Douwe Kiela. 2018. \\newblock \\href {https://www.aclweb.org/anthology/L18-1269} {{S}ent{E}val: An evaluation toolkit for universal sentence representations}. \\newblock In \\emph{Proceedings of the Eleventh International Conference on Language Resources and Evaluation ({LREC} 2018)}, Miyazaki, Japan. European Language Resources Association (ELRA).",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5aed14d617c44a44381590bd"
+        },
+        "conneau2018probe": {
+            "number": "[33]",
+            "title": "What You Can Cram into a Single Vector: Probing Sentence Embeddings for Linguistic Properties",
+            "text": "\\bibitem[{Conneau et~al.(2018)Conneau, Kruszewski, Lample, Barrault, and Baroni}]{conneau2018probe} Alexis Conneau, GermÃ¡n Kruszewski, Guillaume Lample, LoÃc Barrault, and Marco Baroni. 2018. \\newblock \\href {http://www.aclweb.org/anthology/P18-1198} {What you can cram into a single \\$\\&!\\#* vector: Probing sentence embeddings for linguistic properties}. \\newblock In \\emph{Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 2126--2136, Melbourne, Australia. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Although much effort has recently been devoted to training high-quality sentence embeddings, we still have a poor understanding of what they are capturing. “Downstream” tasks, often based on sentence classification, are commonly used to evaluate the quality of sentence representations. The complexity of the tasks makes it however difficult to infer what kind of information is present in the representations. We introduce here 10 probing tasks designed to capture simple linguistic features of sentences, and we use them to study embeddings generated by three different encoders trained in eight distinct ways, uncovering intriguing properties of both encoders and training methods.",
+            "aminer_id": "619b93ed1c45e57ce9c7d7da"
+        },
+        "ws-2012-evaluation": {
+            "number": "[34]",
+            "title": "Proceedings of Workshop on Evaluation Metrics and System Comparison for Automatic Summarization",
+            "text": "\\bibitem[{Conroy et~al.(2012)Conroy, Dang, Nenkova, and Owczarzak}]{ws-2012-evaluation} John~M. Conroy, Hoa~Trang Dang, Ani Nenkova, and Karolina Owczarzak, editors. 2012. \\newblock \\href {https://www.aclweb.org/anthology/W12-2600} {\\emph{Proceedings of Workshop on Evaluation Metrics and System Comparison for Automatic Summarization}}. Association for Computational Linguistics, Montr{\\'e}al, Canada.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "611b5a6f6750f84ba1320f74"
+        },
+        "cooper1996using": {
+            "number": "[35]",
+            "title": "Using the framework",
+            "text": "\\bibitem[{Cooper et~al.(1996)Cooper, Crouch, Van~Eijck, Fox, Van~Genabith, Jaspars, Kamp, Milward, Pinkal, Poesio et~al.}]{cooper1996using} Robin Cooper, Dick Crouch, Jan Van~Eijck, Chris Fox, Johan Van~Genabith, Jan Jaspars, Hans Kamp, David Milward, Manfred Pinkal, Massimo Poesio, et~al. 1996. \\newblock Using the framework.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "dagan2006pascal": {
+            "number": "[36]",
+            "title": "The Second PASCAL Recognising Textual Entailment Challenge",
+            "text": "\\bibitem[{Dagan et~al.(2006)Dagan, Glickman, and Magnini}]{dagan2006pascal} Ido Dagan, Oren Glickman, and Bernardo Magnini. 2006. \\newblock The pascal recognising textual entailment challenge. \\newblock In \\emph{Machine learning challenges. evaluating predictive uncertainty, visual object classification, and recognising tectual entailment}, pages 177--190. Springer.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes the Second PASCAL Recognising Textual Entailment Challenge (RTE-2). 1 We describe the RTE-2 dataset and overview the submissions for the challenge. One of the main goals for this year’s dataset was to provide more “realistic” text-hypothesis examples, based mostly on outputs of actual systems. The 23 submissions for the challenge present diverse approaches and research directions, and the best results achieved this year are considerably higher than last year’s state of the art.",
+            "aminer_id": "53e9b8dab7602d97044b97c6"
+        },
+        "dai2015semi": {
+            "number": "[37]",
+            "title": "Semi-supervised Sequence Learning",
+            "text": "\\bibitem[{Dai and Le(2015)}]{dai2015semi} Andrew~M Dai and Quoc~V Le. 2015. \\newblock Semi-supervised sequence learning. \\newblock In \\emph{Advances in neural information processing systems}, pages 3079--3087.",
+            "ref_source": "bbl",
+            "abstract": "We present two approaches that use unlabeled data to improve sequence learning with recurrent networks. The first approach is to predict what comes next in a sequence, which is a conventional language model in natural language processing. The second approach is to use a sequence autoencoder, which reads the input sequence into a vector and predicts the input sequence again. These two algorithms can be used as a \"pretraining\" step for a later supervised sequence learning algorithm. In other words, the parameters obtained from the unsupervised step can be used as a starting point for other supervised training models. In our experiments, we find that long short term memory recurrent networks after being pretrained with the two approaches are more stable and generalize better. With pretraining, we are able to train long short term memory recurrent networks up to a few hundred timesteps, thereby achieving strong performance in many text classification tasks, such as IMDB, DBpedia and 20 Newsgroups.",
+            "aminer_id": "5736986b6e3b12023e72fb73"
+        },
+        "dasgupta2018evaluating": {
+            "number": "[38]",
+            "title": "Evaluating compositionality in sentence embeddings",
+            "text": "\\bibitem[{Dasgupta et~al.(2018)Dasgupta, Guo, Stuhlm{\\\"u}ller, Gershman, and Goodman}]{dasgupta2018evaluating} Ishita Dasgupta, Demi Guo, Andreas Stuhlm{\\\"u}ller, Samuel~J Gershman, and Noah~D Goodman. 2018. \\newblock Evaluating compositionality in sentence embeddings. \\newblock \\emph{arXiv preprint arXiv:1802.04302}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5cb6fa36e1cd8e0447f80c84"
+        },
+        "dzikovska-EtAl:2013:SemEval-2013": {
+            "number": "[39]",
+            "title": "SemEval-2013 Task 7: the Joint Student Response Analysis and 8th Recognizing Textual Entailment Challenge.",
+            "text": "\\bibitem[{Dzikovska et~al.(2013)Dzikovska, Nielsen, Brew, Leacock, Giampiccolo, Bentivogli, Clark, Dagan, and Dang}]{dzikovska-EtAl:2013:SemEval-2013} Myroslava Dzikovska, Rodney Nielsen, Chris Brew, Claudia Leacock, Danilo Giampiccolo, Luisa Bentivogli, Peter Clark, Ido Dagan, and Hoa~Trang Dang. 2013. \\newblock \\href {http://www.aclweb.org/anthology/S13-2045} {Semeval-2013 task 7: The joint student response analysis and 8th recognizing textual entailment challenge}. \\newblock In \\emph{Second Joint Conference on Lexical and Computational Semantics (*SEM), Volume 2: Proceedings of the Seventh International Workshop on Semantic Evaluation (SemEval 2013)}, pages 263--274, Atlanta, Georgia, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We present the results of the Joint Student Response Analysis and 8th Recognizing Textual Entailment Challenge, aiming to bring together researchers in educational NLP technology and textual entailment. The task of giving feedback on student answers requires semantic inference and therefore is related to recognizing textual entailment. Thus, we offered to the community a 5-way student response labeling task, as well as 3-way and 2way RTE-style tasks on educational data. In addition, a partial entailment task was piloted. We present and compare results from 9 participating teams, and discuss future directions.",
+            "aminer_id": "56d88fb1dabfae2eeedd0dd2"
+        },
+        "estival1997karen": {
+            "number": "[40]",
+            "title": "Karen Sparck Jones & Julia R. Galliers, Evaluating Natural Language Processing Systems: an Analysis and Review. Lecture Notes in Artificial Intelligence 1083.",
+            "text": "\\bibitem[{Estival(1997)}]{estival1997karen} Dominique Estival. 1997. \\newblock Karen sparck jones \\& julia r. galliers, evaluating natural language processing systems: An analysis and review. lecture notes in artificial intelligence 1083. \\newblock \\emph{Machine Translation}, 12(4):375--379.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390893e20f70186a0d948c3"
+        },
+        "ettinger-etal-2018-assessing": {
+            "number": "[41]",
+            "title": "Assessing Composition in Sentence Vector Representations",
+            "text": "\\bibitem[{Ettinger et~al.(2018)Ettinger, Elgohary, Phillips, and Resnik}]{ettinger-etal-2018-assessing} Allyson Ettinger, Ahmed Elgohary, Colin Phillips, and Philip Resnik. 2018. \\newblock \\href {https://www.aclweb.org/anthology/C18-1152} {Assessing composition in sentence vector representations}. \\newblock In \\emph{Proceedings of the 27th International Conference on Computational Linguistics}, pages 1790--1801, Santa Fe, New Mexico, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "An important component of achieving language understanding is mastering the composition of sentence meaning, but an immediate challenge to solving this problem is the opacity of sentence vector representations produced by current neural sentence composition models. We present a method to address this challenge, developing tasks that directly target compositional meaning information in sentence vector representations with a high degree of precision and control. To enable the creation of these controlled tasks, we introduce a specialized sentence generation system that produces large, annotated sentence sets meeting specified syntactic, semantic and lexical constraints. We describe the details of the method and generation system, and then present results of experiments applying our method to probe for compositional information in embeddings from a number of existing sentence composition models. We find that the method is able to extract useful information about the differing capacities of these models, and we discuss the implications of our results with respect to these systems' capturing of sentence information. We make available for public use the datasets used for these experiments, as well as the generation system.",
+            "aminer_id": "5b8c9f0f17c44af36f8b236a"
+        },
+        "falke-etal-2019-ranking": {
+            "number": "[42]",
+            "title": "Ranking Generated Summaries by Correctness: an Interesting but Challenging Application for Natural Language Inference",
+            "text": "\\bibitem[{Falke et~al.(2019)Falke, Ribeiro, Utama, Dagan, and Gurevych}]{falke-etal-2019-ranking} Tobias Falke, Leonardo F.~R. Ribeiro, Prasetya~Ajie Utama, Ido Dagan, and Iryna Gurevych. 2019. \\newblock \\href {https://doi.org/10.18653/v1/P19-1213} {Ranking generated summaries by correctness: An interesting but challenging application for natural language inference}. \\newblock In \\emph{Proceedings of the 57th Annual Meeting of the Association for Computational Linguistics}, pages 2214--2220, Florence, Italy. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "While recent progress on abstractive summarization has led to remarkably fluent summaries, factual errors in generated summaries still severely limit their use in practice. In this paper, we evaluate summaries produced by state-of-the-art models via crowdsourcing and show that such errors occur frequently, in particular with more abstractive models. We study whether textual entailment predictions can be used to detect such errors and if they can be reduced by reranking alternative predicted summaries. That leads to an interesting downstream application for entailment models. In our experiments, we find that out-of-the-box entailment models trained on NLI datasets do not yet offer the desired performance for the downstream task and we therefore release our annotations as additional test data for future extrinsic evaluations of NLI.",
+            "aminer_id": "5d9ed38d47c8f76646f91452"
+        },
+        "faruqui-etal-2016-problems": {
+            "number": "[43]",
+            "title": "Problems with evaluation of word embeddings using word similarity tasks",
+            "text": "\\bibitem[{Faruqui et~al.(2016)Faruqui, Tsvetkov, Rastogi, and Dyer}]{faruqui-etal-2016-problems} Manaal Faruqui, Yulia Tsvetkov, Pushpendre Rastogi, and Chris Dyer. 2016. \\newblock \\href {https://doi.org/10.18653/v1/W16-2506} {Problems with evaluation of word embeddings using word similarity tasks}. \\newblock In \\emph{Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}}, pages 30--35, Berlin, Germany. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "57a4e91dac44365e35c98953"
+        },
+        "farzindar2004letsum": {
+            "number": "[44]",
+            "title": "LetSum, an Automatic Legal Text Summarizing System",
+            "text": "\\bibitem[{Farzindar and Lapalme(2004)}]{farzindar2004letsum} Atefeh Farzindar and Guy Lapalme. 2004. \\newblock Letsum, an automatic legal text summarizing system. \\newblock In \\emph{Legal knowledge and information systems, JURIX}.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents our work on the development of a new methodology for automatic summarization of justice decision. We describe LetSum (Legal text Sum- marizer), a prototype system, which determines the thematic structure of a judgment in four themes INTRODUCTION, CONTEXT, JURIDICAL ANALYSIS and CONCLUSION. Then it identifies the relevant sentences for each theme. We discuss the evaluation of produced summaries with statistical method and also human evaluation based on jurist judgment. The results so far indicate good performance of the system when compared with other summarization technologies.",
+            "aminer_id": "53e9ace8b7602d97036c4e55"
+        },
+        "finkelstein2001placing": {
+            "number": "[45]",
+            "title": "Placing Search in Context: the Concept Revisited",
+            "text": "\\bibitem[{Finkelstein et~al.(2001)Finkelstein, Gabrilovich, Matias, Rivlin, Solan, Wolfman, and Ruppin}]{finkelstein2001placing} Lev Finkelstein, Evgeniy Gabrilovich, Yossi Matias, Ehud Rivlin, Zach Solan, Gadi Wolfman, and Eytan Ruppin. 2001. \\newblock Placing search in context: The concept revisited. \\newblock In \\emph{Proceedings of the 10th international conference on World Wide Web}, pages 406--414.",
+            "ref_source": "bbl",
+            "abstract": "Keyword-based search engines are in widespread use today as a popular means for Web-based information retrieval. Although such systems seem deceptively simple, a considerable amount of skill is required in order to satisfy non-trivial information needs. This paper presents a new conceptual paradigm for performing search in context, that largely automates the search process, providing even non-professional users with highly relevant results. This paradigm is implemented in practice in the IntelliZap system, where search is initiated from a text query marked by the user in a document she views, and is guided by the text surrounding the marked query in that document (\"the context\"). The context-driven information retrieval process involves semantic keyword extraction and clustering to automatically generate new, augmented queries. The latter are submitted to a host of general and domain-specific search engines. Search results are then semantically reranked, using context. Experimental results testify that using context to guide search, effectively offers even inexperienced users an advanced search tool on the Web.",
+            "aminer_id": "5390881220f70186a0d7d64e"
+        },
+        "gardner2019question": {
+            "number": "[46]",
+            "title": "Question Answering is a Format; When is it Useful?",
+            "text": "\\bibitem[{Gardner et~al.(2019)Gardner, Berant, Hajishirzi, Talmor, and Min}]{gardner2019question} Matt Gardner, Jonathan Berant, Hannaneh Hajishirzi, Alon Talmor, and Sewon Min. 2019. \\newblock Question answering is a format; when is it useful? \\newblock \\emph{arXiv preprint arXiv:1909.11291}.",
+            "ref_source": "bbl",
+            "abstract": "  Recent years have seen a dramatic expansion of tasks and datasets posed as question answering, from reading comprehension, semantic role labeling, and even machine translation, to image and video understanding. With this expansion, there are many differing views on the utility and definition of \"question answering\" itself. Some argue that its scope should be narrow, or broad, or that it is overused in datasets today. In this opinion piece, we argue that question answering should be considered a format which is sometimes useful for studying particular phenomena, not a phenomenon or task in itself. We discuss when a task is correctly described as question answering, and when a task is usefully posed as question answering, instead of using some other format. ",
+            "aminer_id": "5d8c8dbd3a55acc79177b98d"
+        },
+        "giampiccolo-etal-2007-third": {
+            "number": "[47]",
+            "title": "The Third PASCAL Recognizing Textual Entailment Challenge",
+            "text": "\\bibitem[{Giampiccolo et~al.(2007)Giampiccolo, Magnini, Dagan, and Dolan}]{giampiccolo-etal-2007-third} Danilo Giampiccolo, Bernardo Magnini, Ido Dagan, and Bill Dolan. 2007. \\newblock \\href {https://www.aclweb.org/anthology/W07-1401} {The third {PASCAL} recognizing textual entailment challenge}. \\newblock In \\emph{Proceedings of the {ACL}-{PASCAL} Workshop on Textual Entailment and Paraphrasing}, pages 1--9, Prague. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents the Third PASCAL Recognising Textual Entailment Challenge (RTE-3), providing an overview of the dataset creating methodology and the submitted systems. In creating this year's dataset, a number of longer texts were introduced to make the challenge more oriented to realistic scenarios. Additionally, a pool of resources was offered so that the participants could share common tools. A pilot task was also set up, aimed at differentiating unknown entailments from identified contradictions and providing justifications for overall system decisions. 26 participants submitted 44 runs, using different approaches and generally presenting new entailment models and achieving higher scores than in the previous challenges.",
+            "aminer_id": "5390a72320f70186a0e8b1b7"
+        },
+        "ws-2017-multiling": {
+            "number": "[48]",
+            "title": "Proceedings of the MultiLing 2017 Workshop on Summarization and Summary Evaluation Across Source Types and Genres",
+            "text": "\\bibitem[{Giannakopoulos et~al.(2017)Giannakopoulos, Lloret, Conroy, Steinberger, Litvak, Rankel, and Favre}]{ws-2017-multiling} George Giannakopoulos, Elena Lloret, John~M. Conroy, Josef Steinberger, Marina Litvak, Peter Rankel, and Benoit Favre, editors. 2017. \\newblock \\href {https://doi.org/10.18653/v1/W17-10} {\\emph{Proceedings of the {M}ulti{L}ing 2017 Workshop on Summarization and Summary Evaluation Across Source Types and Genres}}. Association for Computational Linguistics, Valencia, Spain.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "glickman2006applied": {
+            "number": "[49]",
+            "title": "Applied textual entailment",
+            "text": "\\bibitem[{Glickman(2006)}]{glickman2006applied} Oren Glickman. 2006. \\newblock \\emph{Applied textual entailment}. \\newblock Ph.D. thesis, Bar Ilan University.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "glockner-shwartz-goldberg:2018:Short": {
+            "number": "[50]",
+            "title": "Breaking NLI Systems with Sentences That Require Simple Lexical Inferences.",
+            "text": "\\bibitem[{Glockner et~al.(2018)Glockner, Shwartz, and Goldberg}]{glockner-shwartz-goldberg:2018:Short} Max Glockner, Vered Shwartz, and Yoav Goldberg. 2018. \\newblock \\href {http://www.aclweb.org/anthology/P18-2103} {Breaking nli systems with sentences that require simple lexical inferences}. \\newblock In \\emph{Proceedings of the 56th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)}, pages 650--655, Melbourne, Australia. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We create a new NLI test set that shows the deficiency of state-of-the-art models in inferences that require lexical and world knowledge. The new examples are simpler than the SNLI test set, containing sentences that differ by at most one word from sentences in the training set. Yet, the performance on the new test set is substantially worse across systems trained on SNLI, demonstrating that these systems are limited in their generalization ability, failing to capture many simple inferences.",
+            "aminer_id": "5b3d98cc17c44a510f801cd8"
+        },
+        "ws-2005-acl-intrinsic": {
+            "number": "[51]",
+            "title": "Proceedings of the ACL Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization",
+            "text": "\\bibitem[{Goldstein et~al.(2005)Goldstein, Lavie, Lin, and Voss}]{ws-2005-acl-intrinsic} Jade Goldstein, Alon Lavie, Chin-Yew Lin, and Clare Voss, editors. 2005. \\newblock \\href {https://www.aclweb.org/anthology/W05-0900} {\\emph{Proceedings of the {ACL} Workshop on Intrinsic and Extrinsic Evaluation Measures for Machine Translation and/or Summarization}}. Association for Computational Linguistics, Ann Arbor, Michigan.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c756d38f56def9798508285"
+        },
+        "gong2018natural": {
+            "number": "[52]",
+            "title": "Natural language inference over interaction space",
+            "text": "\\bibitem[{Gong et~al.(2018)Gong, Luo, and Zhang}]{gong2018natural} Yichen Gong, Heng Luo, and Jian Zhang. 2018. \\newblock Natural language inference over interaction space. \\newblock In \\emph{International Conference on Learning Representations}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260c8417c44a4ba8a317a5"
+        },
+        "Gururangan2018": {
+            "number": "[53]",
+            "title": "Annotation artifacts in natural language inference data",
+            "text": "\\bibitem[{Gururangan et~al.(2018)Gururangan, Swayamdipta, Levy, Schwartz, Bowman, and Smith}]{Gururangan2018} Suchin Gururangan, Swabha Swayamdipta, Omer Levy, Roy Schwartz, Samuel Bowman, and Noah~A. Smith. 2018. \\newblock \\href {http://www.aclweb.org/anthology/N18-2017} {Annotation artifacts in natural language inference data}. \\newblock In \\emph{Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)}, pages 107--112, New Orleans, Louisiana. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5aed14e217c44a4438159ad4"
+        },
+        "hewitt-liang-2019-designing": {
+            "number": "[54]",
+            "title": "Designing and interpreting probes with control tasks",
+            "text": "\\bibitem[{Hewitt and Liang(2019)}]{hewitt-liang-2019-designing} John Hewitt and Percy Liang. 2019. \\newblock \\href {https://doi.org/10.18653/v1/D19-1275} {Designing and interpreting probes with control tasks}. \\newblock In \\emph{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}, pages 2733--2743, Hong Kong, China. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5d7775b43a55ac32631363dd"
+        },
+        "hill-etal-2015-simlex": {
+            "number": "[55]",
+            "title": "SimLex-999: Evaluating semantic models with (genuine) similarity estimation",
+            "text": "\\bibitem[{Hill et~al.(2015)Hill, Reichart, and Korhonen}]{hill-etal-2015-simlex} Felix Hill, Roi Reichart, and Anna Korhonen. 2015. \\newblock \\href {https://doi.org/10.1162/COLI_a_00237} {{S}im{L}ex-999: Evaluating semantic models with (genuine) similarity estimation}. \\newblock \\emph{Computational Linguistics}, 41(4):665--695.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5550415445ce0a409eb3a509"
+        },
+        "hupkes2018visualisation": {
+            "number": "[56]",
+            "title": "Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure",
+            "text": "\\bibitem[{Hupkes et~al.(2018)Hupkes, Veldhoen, and Zuidema}]{hupkes2018visualisation} Dieuwke Hupkes, Sara Veldhoen, and Willem Zuidema. 2018. \\newblock Visualisation and'diagnostic classifiers' reveal how recurrent and recursive neural networks process hierarchical structure. \\newblock \\emph{Journal of Artificial Intelligence Research}, 61:907--926.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "isabelle-etal-2017-challenge": {
+            "number": "[57]",
+            "title": "A challenge set approach to evaluating machine translation",
+            "text": "\\bibitem[{Isabelle et~al.(2017)Isabelle, Cherry, and Foster}]{isabelle-etal-2017-challenge} Pierre Isabelle, Colin Cherry, and George Foster. 2017. \\newblock \\href {https://doi.org/10.18653/v1/D17-1263} {A challenge set approach to evaluating machine translation}. \\newblock In \\emph{Proceedings of the 2017 Conference on Empirical Methods in Natural Language Processing}, pages 2486--2496, Copenhagen, Denmark. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7987601a182cd2647c8c"
+        },
+        "sep-montague-semantics": {
+            "number": "[58]",
+            "title": "Montague semantics",
+            "text": "\\bibitem[{Janssen(2011)}]{sep-montague-semantics} Theo M.~V. Janssen. 2011. \\newblock Montague semantics. \\newblock In Edward~N. Zalta, editor, \\emph{The Stanford Encyclopedia of Philosophy}, winter 2011 edition. Metaphysics Research Lab, Stanford University.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "jeretic2020natural": {
+            "number": "[59]",
+            "title": "Are Natural Language Inference Models IMPPRESsive? Learning IMPlicature and PRESupposition",
+            "text": "\\bibitem[{Jeretic et~al.(2020)Jeretic, Warstadt, Bhooshan, and Williams}]{jeretic2020natural} Paloma Jeretic, Alex Warstadt, Suvrat Bhooshan, and Adina Williams. 2020. \\newblock \\href {https://doi.org/10.18653/v1/2020.acl-main.768} {Are natural language inference models {IMPPRESsive}? {L}earning {IMPlicature} and {PRESupposition}}. \\newblock In \\emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 8690--8705, Online. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Natural language inference (NLI) is an increasingly important task for natural language understanding, which requires one to infer whether a sentence entails another. However, the ability of NLI models to make pragmatic inferences remains understudied. We create an IMPlicature and PRESupposition diagnostic dataset (IMPPRES), consisting of 32K semi-automatically generated sentence pairs illustrating well-studied pragmatic inference types. We use IMPPRES to evaluate whether BERT, InferSent, and BOW NLI models trained on MultiNLI (Williams et al., 2018) learn to make pragmatic inferences. Although MultiNLI appears to contain very few pairs illustrating these inference types, we find that BERT learns to draw pragmatic inferences. It reliably treats scalar implicatures triggered by “some” as entailments. For some presupposition triggers like “only”, BERT reliably recognizes the presupposition as an entailment, even when the trigger is embedded under an entailment canceling operator like negation. BOW and InferSent show weaker evidence of pragmatic reasoning. We conclude that NLI training encourages models to learn some, but not all, pragmatic inferences.",
+            "aminer_id": "5e8da0c991e011f2de5839f9"
+        },
+        "Khot2018": {
+            "number": "[60]",
+            "title": "SCITAIL: A Textual Entailment Dataset from Science Question Answering",
+            "text": "\\bibitem[{Khot et~al.(2018)Khot, Sabharwal, and Clark}]{Khot2018} Tushar Khot, Ashish Sabharwal, and Peter Clark. 2018. \\newblock {SciTail}: A textual entailment dataset from science question answering. \\newblock In \\emph{AAAI}.",
+            "ref_source": "bbl",
+            "abstract": "We present a new dataset and model for textual entailment, derived from treating multiple-choice question-answering as an entailment problem. SciTail is the first entailment set that is created solely from natural sentences that already exist independently ``in the wild'' rather than sentences authored specifically for the entailment task. Different from existing entailment datasets, we create hypotheses from science questions and the corresponding answer candidates, and premises from relevant web sentences retrieved from a large corpus. These sentences are often linguistically challenging. This, combined with the high lexical similarity of premise and hypothesis for both entailed and non-entailed pairs, makes this new entailment task particularly difficult. The resulting challenge is evidenced by state-of-the-art textual entailment systems achieving mediocre performance on SciTail, especially in comparison to a simple majority class baseline. As a step forward, we demonstrate that one can improve accuracy on SciTail by 5% using a new neural model that exploits linguistic structure.",
+            "aminer_id": "5b1642388fbcbf6e5a9b5504"
+        },
+        "kilgarriff1998senseval": {
+            "number": "[61]",
+            "title": "SENSEVAL: an Exercise in Evaluating World Sense Disambiguation Programs",
+            "text": "\\bibitem[{Kilgarriff(1998)}]{kilgarriff1998senseval} Adam Kilgarriff. 1998. \\newblock Senseval: an exercise in evaluating world sense disambiguation programs. \\newblock In \\emph{First International Conference on language resources \\& evaluation: Granada, Spain, 28-30 May 1998}, pages 581--588. European Language Resources Association.",
+            "ref_source": "bbl",
+            "abstract": "There are now many computer programs for automatically determining which sense a word is being used in. One would like to be able to say which were better, which worse, and also which words, or varieties of language, presented particular problems to which programs. In this paper I describe a pilot evaluation exercise (‘SENSEVAL’) taking place under the auspices of ACL SIGLEX (the Lexicons Special Interest Group of the Association for Computational Linguistics) and EURALEX (European Association for Lexicography), ELSNET, and EU Projects SPARKLE and ECRAN, in 1998.",
+            "aminer_id": "53e9b716b7602d97042b011f"
+        },
+        "kim-etal-2019-probing": {
+            "number": "[62]",
+            "title": "Probing What Different NLP Tasks Teach Machines about Function Word Comprehension",
+            "text": "\\bibitem[{Kim et~al.(2019)Kim, Patel, Poliak, Xia, Wang, McCoy, Tenney, Ross, Linzen, Van~Durme, Bowman, and Pavlick}]{kim-etal-2019-probing} Najoung Kim, Roma Patel, Adam Poliak, Patrick Xia, Alex Wang, Tom McCoy, Ian Tenney, Alexis Ross, Tal Linzen, Benjamin Van~Durme, Samuel~R. Bowman, and Ellie Pavlick. 2019. \\newblock \\href {https://doi.org/10.18653/v1/S19-1026} {Probing what different {NLP} tasks teach machines about function word comprehension}. \\newblock In \\emph{Proceedings of the Eighth Joint Conference on Lexical and Computational Semantics (*{SEM} 2019)}, pages 235--249, Minneapolis, Minnesota. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We introduce a set of nine challenge tasks that test for the understanding of function words. These tasks are created by structurally mutating sentences from existing datasets to target the comprehension of specific types of function words (e.g., prepositions, wh-words). Using these probing tasks, we explore the effects of various pretraining objectives for sentence encoders (e.g., language modeling, CCG supertagging and natural language inference (NLI)) on the learned representations. Our results show that pretraining on language modeling performs the best on average across our probing tasks, supporting its widespread use for pretraining state-of-the-art NLP models, and CCG supertagging and NLI pretraining perform comparably. Overall, no pretraining objective dominates across the board, and our function word probing tasks highlight several intuitive differences between pretraining objectives, e.g., that NLI helps the comprehension of negation.",
+            "aminer_id": "5cc6cc43e1cd8e77ee6766cf"
+        },
+        "eagles95": {
+            "number": "[63]",
+            "title": "Eagles: Evaluation of natural language processing systems. final report",
+            "text": "\\bibitem[{King et~al.(1995)King, MAEGAARD, SCHÜTZ, TOMBE, BECH, NEVILLE, ARPPE, BALKAN, BRACE, BUNT, CARLSON, DOUGLAS, HÖGE, KRAUWER, MANZI, MAZZI, SIELEMANN, and STEENBAKKERS}]{eagles95} Maghi King, Bente MAEGAARD, Jorg SCHÜTZ, Louis~des TOMBE, Annelise BECH, Ann NEVILLE, Antti ARPPE, Lorna BALKAN, Colin BRACE, Harry BUNT, Lauri CARLSON, Shona DOUGLAS, Monika HÖGE, Steven KRAUWER, Sandra MANZI, Cristina MAZZI, {Ann June} SIELEMANN, and Ragna STEENBAKKERS. 1995. \\newblock \\href {https://www.issco.unige.ch/en/research/projects/ewg95} {Eagles: Evaluation of natural language processing systems. final report}. \\newblock Technical report.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "king-falkedal-1990-using": {
+            "number": "[64]",
+            "title": "Using Test Suites in Evaluation of Machine Translation Systems",
+            "text": "\\bibitem[{King and Falkedal(1990)}]{king-falkedal-1990-using} Margaret King and Kirsten Falkedal. 1990. \\newblock \\href {https://www.aclweb.org/anthology/C90-2037} {Using test suites in evaluation of machine translation systems}. \\newblock In \\emph{{COLING} 1990 Volume 2: Papers presented to the 13th International Conference on Computational Linguistics}.",
+            "ref_source": "bbl",
+            "abstract": "Article Free AccessUsing test suites in evaluation of machine translation systems Share on Authors: Margaret King University of Geneva, Geneva University of Geneva, GenevaView Profile , Kirsten Falkedal University of Geneva, Geneva University of Geneva, GenevaView Profile Authors Info & Claims COLING '90: Proceedings of the 13th conference on Computational linguistics - Volume 2August 1990 Pages 211–216https://doi.org/10.3115/997939.997976Online:20 August 1990Publication History 8citation507DownloadsMetricsTotal Citations8Total Downloads507Last 12 Months4Last 6 weeks2 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteeReaderPDF",
+            "aminer_id": "5390972920f70186a0df9fd2"
+        },
+        "kober-etal-2019-temporal": {
+            "number": "[65]",
+            "title": "Temporal and aspectual entailment",
+            "text": "\\bibitem[{Kober et~al.(2019)Kober, de~Vroe, and Steedman}]{kober-etal-2019-temporal} Thomas Kober, Sander~Bijl de~Vroe, and Mark Steedman. 2019. \\newblock \\href {https://doi.org/10.18653/v1/W19-0409} {Temporal and aspectual entailment}. \\newblock In \\emph{Proceedings of the 13th International Conference on Computational Semantics - Long Papers}, pages 103--119, Gothenburg, Sweden. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ca5deb5e1cd8e2c77f98ca2"
+        },
+        "koh2001test": {
+            "number": "[66]",
+            "title": "A Test Suite for Evaluation of English-to-Korean Machine Translation Systems.",
+            "text": "\\bibitem[{Koh et~al.(2001)Koh, Maeng, Lee, Chae, and Choi}]{koh2001test} Sungryong Koh, Jinee Maeng, Ji-Young Lee, Young-Sook Chae, and Key-Sun Choi. 2001. \\newblock A test suite for evaluation of english-to-korean machine translation systems. \\newblock In \\emph{MT Summit’conference, Santiago de Compostela}.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes KORTERM’s test suite and their practicability. The test-sets have been being constructed on the basis of fine-grained classification of linguistic phenomena to evaluate the technical status of English-to-Korean MT systems systematically. They consist of about 5000 test-sets and are growing. Each test-set contains an English sentence, a model Korean translation, a linguistic phenomenon category, and a yes/no question about the linguistic phenomenon. Two commercial systems were evaluated with a yes/no test of prepared questions. Total accuracy rates of the two systems were different (50% vs. 66%). In addition, a comprehension test was carried out. We found that one system was more comprehensible than the other system. These results seem to show that our test suite is practicable.",
+            "aminer_id": "53e99d2fb7602d97025e3124"
+        },
+        "kovaz2016evaluation": {
+            "number": "[67]",
+            "title": "On Evaluation of Natural Language Processing Tasks",
+            "text": "\\bibitem[{Kov{\\'a}{\\'z} et~al.(2016)Kov{\\'a}{\\'z}, Jakub{\\'\\i}{\\'z}ek, and Hor{\\'a}k}]{kovaz2016evaluation} Vojt{\\'z}ch Kov{\\'a}{\\'z}, Milo{\\'z} Jakub{\\'\\i}{\\'z}ek, and Ale{\\'z} Hor{\\'a}k. 2016. \\newblock On evaluation of natural language processing tasks. \\newblock In \\emph{Proceedings of the 8th International Conference on Agents and Artificial Intelligence}, pages 540--545. SCITEPRESS-Science and Technology Publications, Lda.",
+            "ref_source": "bbl",
+            "abstract": "The paper discusses problems in state of the art evaluation methods used in natural language processing (NLP). Usually, some form of gold standard data is used for evaluation of various NLP tasks, ranging from morphological annotation to semantic analysis. We discuss problems and validity of this type of evaluation, for various tasks, and illustrate the problems on examples. Then we propose using application-driven evaluations, wherever it is possible. Although it is more expensive, more complicated and not so precise, it is the only way to find out if a particular tool is useful at all.",
+            "aminer_id": "5ce2b27fced107d4c6e33e84"
+        },
+        "lehmann-etal-1996-tsnlp": {
+            "number": "[68]",
+            "title": "TSNLP - test suites for natural language processing",
+            "text": "\\bibitem[{Lehmann et~al.(1996)Lehmann, Oepen, Regnier-Prost, Netter, Lux, Klein, Falkedal, Fouvry, Estival, Dauphin, Compagnion, Baur, Balkan, and Arnold}]{lehmann-etal-1996-tsnlp} Sabine Lehmann, Stephan Oepen, Sylvie Regnier-Prost, Klaus Netter, Veronika Lux, Judith Klein, Kirsten Falkedal, Frederik Fouvry, Dominique Estival, Eva Dauphin, Herve Compagnion, Judith Baur, Lorna Balkan, and Doug Arnold. 1996. \\newblock \\href {https://www.aclweb.org/anthology/C96-2120} {{TSNLP} - test suites for natural language processing}. \\newblock In \\emph{{COLING} 1996 Volume 2: The 16th International Conference on Computational Linguistics}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "68a734862855152d9fd1942d"
+        },
+        "ws-2016-evaluating": {
+            "number": "[69]",
+            "title": "Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for NLP",
+            "text": "\\bibitem[{Levy et~al.(2016)Levy, Hill, Korhonen, Cho, Reichart, Goldberg, and Bordes}]{ws-2016-evaluating} Omer Levy, Felix Hill, Anna Korhonen, Kyunghyun Cho, Roi Reichart, Yoav Goldberg, and Antione Bordes, editors. 2016. \\newblock \\href {https://doi.org/10.18653/v1/W16-25} {\\emph{Proceedings of the 1st Workshop on Evaluating Vector-Space Representations for {NLP}}}. Association for Computational Linguistics, Berlin, Germany.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c756dbcf56def979855b597"
+        },
+        "lin-2004-rouge": {
+            "number": "[70]",
+            "title": "ROUGE: a package for automatic evaluation of summaries",
+            "text": "\\bibitem[{Lin(2004)}]{lin-2004-rouge} Chin-Yew Lin. 2004. \\newblock \\href {https://www.aclweb.org/anthology/W04-1013} {{ROUGE}: A package for automatic evaluation of summaries}. \\newblock In \\emph{Text Summarization Branches Out}, pages 74--81, Barcelona, Spain. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "ROUGE stands for Recall-Oriented Understudy for Gisting Evaluation. It includes measures to auto- matically determine the quality of a summary by comparing it to other (ideal) summaries created by humans. The measures count the number of ove r- lapping units such as n-gram, word sequences, and word pairs between the computer-generated sum- mary to be evaluated and the ideal summaries cre- ated by humans. This paper introduces four different ROUGE measures: ROUGE-N, ROUGE-L, ROUGE-W, and ROUGE-S included in the ROUGE summariza- tion evaluation package and their evaluatio ns. Three of them have been used in the Document Under- standing Conference (DUC) 2004, a large -scale summarization evaluation sponsored by NIST.",
+            "aminer_id": "62299bb45aee126c0f1bd121"
+        },
+        "ws-2018-2018": {
+            "number": "[71]",
+            "title": "Proceedings of the 2018 EMNLP Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+            "text": "\\bibitem[{Linzen et~al.(2018)Linzen, Chrupa{\\l}a, and Alishahi}]{ws-2018-2018} Tal Linzen, Grzegorz Chrupa{\\l}a, and Afra Alishahi, editors. 2018. \\newblock \\href {https://www.aclweb.org/anthology/W18-5400} {\\emph{Proceedings of the 2018 {EMNLP} Workshop {B}lackbox{NLP}: Analyzing and Interpreting Neural Networks for {NLP}}}. Association for Computational Linguistics, Brussels, Belgium.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ed28e929e795e4b73b755c7"
+        },
+        "ws-2019-2019-acl": {
+            "number": "[72]",
+            "title": "Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP",
+            "text": "\\bibitem[{Linzen et~al.(2019)Linzen, Chrupa{\\l}a, Belinkov, and Hupkes}]{ws-2019-2019-acl} Tal Linzen, Grzegorz Chrupa{\\l}a, Yonatan Belinkov, and Dieuwke Hupkes, editors. 2019. \\newblock \\href {https://www.aclweb.org/anthology/W19-4800} {\\emph{Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP}}. Association for Computational Linguistics, Florence, Italy.",
+            "ref_source": "bbl",
+            "abstract": "BlackboxNLP is the workshop on analyzing and interpreting neural networks for NLP. In the last few years, neural networks have rapidly become a central component in NLP systems. The improvement in accuracy and performance brought by the introduction of neural networks has typically come at the cost of our understanding of the system: How do we assess what the representations and computations are that the network learns? The goal of this workshop is to bring together people who are attempting to peek inside the neural network black box, taking inspiration from machine learning, psychology, linguistics, and neuroscience.In this second edition of the workshop, hosted by the 2019 Annual Meeting of the Association of Computational Linguistics in Florence, Italy, we accepted 29 archival papers and 16 extended abstracts. We hope this workshop continues to bring together ideas and stimulating new ways of building methods and resources for the analysis and understanding of the inner-dynamics of neural networks for NLP.",
+            "aminer_id": "5ecd49e69e795e5cc5717614"
+        },
+        "liu2016learning": {
+            "number": "[73]",
+            "title": "Learning Natural Language Inference Using Bidirectional LSTM Model and Inner-Attention",
+            "text": "\\bibitem[{Liu et~al.(2016)Liu, Sun, Lin, and Wang}]{liu2016learning} Yang Liu, Chengjie Sun, Lei Lin, and Xiaolong Wang. 2016. \\newblock Learning natural language inference using bidirectional lstm model and inner-attention. \\newblock \\emph{arXiv preprint arXiv:1605.09090}.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we proposed a sentence encoding-based model for recognizing text entailment. In our approach, the encoding of sentence is a two-stage process. Firstly, average pooling was used over word-level bidirectional LSTM (biLSTM) to generate a first-stage sentence representation. Secondly, attention mechanism was employed to replace average pooling on the same sentence for better representations. Instead of using target sentence to attend words in source sentence, we utilized the sentence's first-stage representation to attend words appeared in itself, which is called \"Inner-Attention\" in our paper . Experiments conducted on Stanford Natural Language Inference (SNLI) Corpus has proved the effectiveness of \"Inner-Attention\" mechanism. With less number of parameters, our model outperformed the existing best sentence encoding-based approach by a large margin.",
+            "aminer_id": "57a4e91dac44365e35c98580"
+        },
+        "lloberes-etal-2015-suitability": {
+            "number": "[74]",
+            "title": "Suitability of ParTes Test Suite for Parsing Evaluation",
+            "text": "\\bibitem[{Lloberes et~al.(2015)Lloberes, Castell{\\'o}n, and Padr{\\'o}}]{lloberes-etal-2015-suitability} Marina Lloberes, Irene Castell{\\'o}n, and Llu{\\'\\i}s Padr{\\'o}. 2015. \\newblock \\href {https://doi.org/10.18653/v1/W15-2207} {Suitability of {P}ar{T}es test suite for parsing evaluation}. \\newblock In \\emph{Proceedings of the 14th International Conference on Parsing Technologies}, pages 61--65, Bilbao, Spain. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Parsers have evolved significantly in the last decades, but currently big and accurate improvements are needed to enhance their performance. ParTes, a test suite in Spanish and Catalan for parsing evaluation, aims to contribute to this situation by pointing to the main factors that can decisively improve the parser performance",
+            "aminer_id": "62182a605aee126c0f00ab1c"
+        },
+        "luong-etal-2013-better": {
+            "number": "[75]",
+            "title": "Better word representations with recursive neural networks for morphology",
+            "text": "\\bibitem[{Luong et~al.(2013)Luong, Socher, and Manning}]{luong-etal-2013-better} Thang Luong, Richard Socher, and Christopher Manning. 2013. \\newblock \\href {https://www.aclweb.org/anthology/W13-3512} {Better word representations with recursive neural networks for morphology}. \\newblock In \\emph{Proceedings of the Seventeenth Conference on Computational Natural Language Learning}, pages 104--113, Sofia, Bulgaria. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5550452c45ce0a409eb54584"
+        },
+        "maccartney2009natural": {
+            "number": "[76]",
+            "title": "Natural language inference",
+            "text": "\\bibitem[{MacCartney(2009)}]{maccartney2009natural} Bill MacCartney. 2009. \\newblock \\emph{Natural language inference}. \\newblock Ph.D. thesis, Stanford University.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "manning2006local": {
+            "number": "[77]",
+            "title": "Local textual inference: it’s hard to circumscribe, but you know it when you see it--and nlp needs it.",
+            "text": "\\bibitem[{Manning(2006)}]{manning2006local} Christopher~D Manning. 2006. \\newblock Local textual inference: it’s hard to circumscribe, but you know it when you see it--and nlp needs it.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b024b7602d9703a82419"
+        },
+        "manning2015computational": {
+            "number": "[78]",
+            "title": "Computational Linguistics and Deep Learning",
+            "text": "\\bibitem[{Manning(2015)}]{manning2015computational} Christopher~D Manning. 2015. \\newblock Computational linguistics and deep learning. \\newblock \\emph{Computational Linguistics}, 41(4):701--707.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "56d92d08dabfae2eeee35b10"
+        },
+        "P08-1118": {
+            "number": "[79]",
+            "title": "Finding contradictions in text",
+            "text": "\\bibitem[{de~Marneffe et~al.(2008)de~Marneffe, Rafferty, and Manning}]{P08-1118} Marie-Catherine de~Marneffe, Anna~N. Rafferty, and Christopher~D. Manning. 2008. \\newblock \\href {https://www.aclweb.org/anthology/P08-1118} {Finding contradictions in text}. \\newblock In \\emph{Proceedings of ACL-08: HLT}, pages 1039--1047, Columbus, Ohio. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99a26b7602d970227daba"
+        },
+        "mccann2018natural": {
+            "number": "[80]",
+            "title": "The Natural Language Decathlon: Multitask Learning As Question Answering",
+            "text": "\\bibitem[{McCann et~al.(2018)McCann, Keskar, Xiong, and Socher}]{mccann2018natural} Bryan McCann, Nitish~Shirish Keskar, Caiming Xiong, and Richard Socher. 2018. \\newblock The natural language decathlon: Multitask learning as question answering. \\newblock \\emph{arXiv preprint arXiv:1806.08730}.",
+            "ref_source": "bbl",
+            "abstract": "Presented on August 28, 2018 at 12:15 p.m. in the Pettit Microelectronics Research Center, Room 102 A/B.",
+            "aminer_id": "5b67b4b417c44aac1c86756a"
+        },
+        "10.1007/978-3-030-33110-8_14": {
+            "number": "[81]",
+            "title": "Performance Evaluation of Word and Sentence Embeddings for Finance Headlines Sentiment Analysis.",
+            "text": "\\bibitem[{Mishev et~al.(2019)Mishev, Gjorgjevikj, Stojanov, Mishkovski, Vodenska, Chitkushev, and Trajanov}]{10.1007/978-3-030-33110-8_14} Kostadin Mishev, Ana Gjorgjevikj, Riste Stojanov, Igor Mishkovski, Irena Vodenska, Ljubomir Chitkushev, and Dimitar Trajanov. 2019. \\newblock Performance evaluation of word and sentence embeddings for finance headlines sentiment analysis. \\newblock In \\emph{ICT Innovations 2019. Big Data Processing and Mining}, pages 161--172, Cham. Springer International Publishing.",
+            "ref_source": "bbl",
+            "abstract": "Nowadays, tremendous number of financial online articles are published every day. Numerous natural language processing (NLP) algorithms and methodologies have arose, not only for correct, but also for fast financial sentiment extraction. Currently, word and sentence encoders are popular topic in NLP field, due to their ability to represent them as dense vectors in a continuous real numbers space, referred to as embeddings. These low dimensional embedding vectors are appropriate for deep neural networks (DNN) inputs, and their invention boosted the performance of multiple of NLP tasks. In this paper, we evaluate different word and sentence embeddings in combination with standard machine learning and deep-learning classifiers for financial texts sentiment extraction. Our evaluation shows the BiGRU+Attention architecture with word embedding as features, give the best score in overall evaluation.",
+            "aminer_id": "5db2c9033a55ac2521ce4e15"
+        },
+        "molla-hutchinson-2003-intrinsic": {
+            "number": "[82]",
+            "title": "Intrinsic Versus Extrinsic Evaluations of Parsing Systems",
+            "text": "\\bibitem[{Moll{\\'a} and Hutchinson(2003)}]{molla-hutchinson-2003-intrinsic} Diego Moll{\\'a} and Ben Hutchinson. 2003. \\newblock \\href {https://www.aclweb.org/anthology/W03-2806} {Intrinsic versus extrinsic evaluations of parsing systems}. \\newblock In \\emph{Proceedings of the {EACL} 2003 Workshop on Evaluation Initiatives in Natural Language Processing: are evaluation methods, metrics and resources reusable?}, pages 43--50, Columbus, Ohio. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "A wide range of parser and/or grammar evaluation methods have been reported in the literature. However, in most cases these evaluations take the parsers independently (intrinsic evaluations), and only in a few cases has the effect of different parsers in real applications been measured (extrinsic evaluations). This paper compares two evaluations of the Link Grammar parser and the Conexor Functional Dependency Grammar parser. The parsing systems, despite both being dependency-based, return different types of dependencies, making a direct comparison impossible. In the intrinsic evaluation, the accuracy of the parsers is compared independently by converting the dependencies into grammatical relations and using the methodology of Carroll et al. (1998) for parser comparison. In the extrinsic evaluation, the parsers' impact in a practical application is compared within the context of answer extraction. The differences in the results are significant.",
+            "aminer_id": "5390a6d920f70186a0e884bc"
+        },
+        "mu2020compositional": {
+            "number": "[83]",
+            "title": "Compositional explanations of neurons",
+            "text": "\\bibitem[{Mu and Andreas(2020)}]{mu2020compositional} Jesse Mu and Jacob Andreas. 2020. \\newblock Compositional explanations of neurons. \\newblock In \\emph{Advances in Neural Information Processing Systems 33 (NeurIPS)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ef5c78b91e011b29a698380"
+        },
+        "naik-EtAl:2018:C18-1": {
+            "number": "[84]",
+            "title": "Stress test evaluation for natural language inference",
+            "text": "\\bibitem[{Naik et~al.(2018)Naik, Ravichander, Sadeh, Rose, and Neubig}]{naik-EtAl:2018:C18-1} Aakanksha Naik, Abhilasha Ravichander, Norman Sadeh, Carolyn Rose, and Graham Neubig. 2018. \\newblock \\href {http://www.aclweb.org/anthology/C18-1198} {Stress test evaluation for natural language inference}. \\newblock In \\emph{Proceedings of the 27th International Conference on Computational Linguistics}, pages 2340--2353, Santa Fe, New Mexico, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5eff93a4dfae5482196fadf5"
+        },
+        "nayak2016evaluating": {
+            "number": "[85]",
+            "title": "Evaluating Word Embeddings Using a Representative Suite of Practical Tasks.",
+            "text": "\\bibitem[{Nayak et~al.(2016)Nayak, Angeli, and Manning}]{nayak2016evaluating} Neha Nayak, Gabor Angeli, and Christopher~D Manning. 2016. \\newblock Evaluating word embeddings using a representative suite of practical tasks. \\newblock In \\emph{Proceedings of the 1st workshop on evaluating vector-space representations for nlp}, pages 19--23.",
+            "ref_source": "bbl",
+            "abstract": "Word embeddings are increasingly used in natural language understanding tasks requiring sophisticated semantic information. However, the quality of new embedding methods is usually evaluated based on simple word similarity benchmarks. We propose evaluating word embeddings in vivo by evaluating them on a suite of popular downstream tasks. To ensure the ease of use of the evaluation, we take care to ﬁnd a good point in the tradeoff space between (1) creating a thorough evaluation – i.e., we evaluate on a diverse set of tasks; and (2) ensuring an easy and fast evaluation – by using simple models with few tuned hyperparameters. This allows us to release this evaluation as a standardized script and online evaluation, available at http://veceval.com/ .",
+            "aminer_id": "5a260c3517c44a4ba8a24e88"
+        },
+        "nie-etal-2020-adversarial": {
+            "number": "[86]",
+            "title": "Adversarial NLI: A new benchmark for natural language understanding",
+            "text": "\\bibitem[{Nie et~al.(2020)Nie, Williams, Dinan, Bansal, Weston, and Kiela}]{nie-etal-2020-adversarial} Yixin Nie, Adina Williams, Emily Dinan, Mohit Bansal, Jason Weston, and Douwe Kiela. 2020. \\newblock \\href {https://doi.org/10.18653/v1/2020.acl-main.441} {Adversarial {NLI}: A new benchmark for natural language understanding}. \\newblock In \\emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 4885--4901, Online. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ef5c81691e011b33003b79d"
+        },
+        "Oepen95tsnlp": {
+            "number": "[87]",
+            "title": "Tsnlp - test suites for natural language processing",
+            "text": "\\bibitem[{Oepen and Netter(1995)}]{Oepen95tsnlp} Stephan Oepen and Klaus Netter. 1995. \\newblock Tsnlp - test suites for natural language processing. \\newblock In \\emph{In J. Nerbonne (Ed.), Linguistic Databases (pp. 13 – 36}, pages 711--716. CSLI Publications.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "68a734862855152d9fd1942d"
+        },
+        "palmer-finin-1990-workshop": {
+            "number": "[88]",
+            "title": "Workshop on the evaluation of natural language processing systems",
+            "text": "\\bibitem[{Palmer and Finin(1990)}]{palmer-finin-1990-workshop} Martha Palmer and Tim Finin. 1990. \\newblock \\href {https://www.aclweb.org/anthology/J90-3005} {Workshop on the evaluation of natural language processing systems}. \\newblock \\emph{Computational Linguistics}, 16(3):175--181.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390879920f70186a0d41cdf"
+        },
+        "papineni-etal-2002-bleu": {
+            "number": "[89]",
+            "title": "Bleu: a Method for Automatic Evaluation of Machine Translation Bleu: a Method for Automatic Evaluation of Machine Translation, 2001",
+            "text": "\\bibitem[{Papineni et~al.(2002)Papineni, Roukos, Ward, and Zhu}]{papineni-etal-2002-bleu} Kishore Papineni, Salim Roukos, Todd Ward, and Wei-Jing Zhu. 2002. \\newblock \\href {https://doi.org/10.3115/1073083.1073135} {{B}leu: a method for automatic evaluation of machine translation}. \\newblock In \\emph{Proceedings of the 40th Annual Meeting of the Association for Computational Linguistics}, pages 311--318, Philadelphia, Pennsylvania, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ecb66539e795ec6f2ba5a53"
+        },
+        "paroubek2007principles": {
+            "number": "[90]",
+            "title": "Principles of Evaluation in Natural Language Processing",
+            "text": "\\bibitem[{Paroubek et~al.(2007)Paroubek, Chaudiron, and Hirschman}]{paroubek2007principles} Patrick Paroubek, St{\\'e}phane Chaudiron, and Lynette Hirschman. 2007. \\newblock Principles of evaluation in natural language processing. \\newblock \\emph{Traitement Automatique des Langues}, 48(1):7--31.",
+            "ref_source": "bbl",
+            "abstract": "In this special issue of TAL, we look at the fundamental principles underlying evaluation in natural language processing. We adopt a global point of view that goes beyond the horizon of a single evaluation campaign or a particular protocol. After a brief review of history and terminology, we will address the topic of a gold standard for natural language processing, of annotation quality, of the amount of data, of the difference between technology evaluation and usage evaluation, of dialog systems, and of standards, before concluding with a short discussion of the articles in this special issue and some prospective remarks.",
+            "aminer_id": "56d8caf9dabfae2eee751b8e"
+        },
+        "ws-2003-eacl": {
+            "number": "[91]",
+            "title": "Proceedings of the EACL 2003 Workshop on Evaluation Initiatives in Natural Language Processing: Are Evaluation Methods, Metrics and Resources Reusable?",
+            "text": "\\bibitem[{Pastra(2003)}]{ws-2003-eacl} Katerina Pastra, editor. 2003. \\newblock \\href {https://www.aclweb.org/anthology/W03-2800} {\\emph{Proceedings of the {EACL} 2003 Workshop on Evaluation Initiatives in Natural Language Processing: are evaluation methods, metrics and resources reusable?}} Association for Computational Linguistics, Columbus, Ohio.",
+            "ref_source": "bbl",
+            "abstract": "Systems that accomplish different Natural Language Processing (NLP) tasks have different characteristics and therefore, it would seem, different requirements for evaluation. However, are there common features in evaluation methods used in various language technologies? Could the evaluation methods established for one type of systems be ported/adapted to another NLP research area? Could automatic evaluation metrics be ported? For instance, could Papineni's MT evaluation metric be used for the evaluation of generated summaries? Could the extrinsic evaluation method used within SUMMAC be applied to the evaluation of Natural Language Generation systems? What are the reusability obstacles encountered and how could they be overcome? What are the evaluation needs of system types such as dialogue systems, which have been less strenuously evaluated till now, and how could they benefit from current practices in evaluating Language Engineering technologies? What are the evaluation challenges that emerge from systems that integrate a number of different language processing functions (e.g. multimodal dialogue systems such as Smartkom)? Could resources (e.g. corpora) used for a specific NLP task, be reused for the evaluation of an NLP system and if so, what adaptations would this require?",
+            "aminer_id": "5390a6d920f70186a0e884b5"
+        },
+        "pavlick:2017:thesis": {
+            "number": "[92]",
+            "title": "Compositional Lexical Entailment for Natural Language Inference",
+            "text": "\\bibitem[{Pavlick(2017)}]{pavlick:2017:thesis} Ellie Pavlick. 2017. \\newblock \\emph{Compositional Lexical Entailment for Natural Language Inference}. \\newblock Ph.D. thesis, University of Pennsylvania.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "P16-1204": {
+            "number": "[93]",
+            "title": "Most \"babies\" are \"little\" and most \"problems\" are \"huge\": Compositional entailment in adjective-nouns",
+            "text": "\\bibitem[{Pavlick and Callison-Burch(2016)}]{P16-1204} Ellie Pavlick and Chris Callison-Burch. 2016. \\newblock \\href {https://doi.org/10.18653/v1/P16-1204} {Most ``babies'' are ``little'' and most ``problems'' are ``huge'': Compositional entailment in adjective-nouns}. \\newblock In \\emph{Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 2164--2173. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "57d063b9ac4436735428ea4c"
+        },
+        "pavlick-kwiatkowski-2019-inherent": {
+            "number": "[94]",
+            "title": "Inherent Disagreements in Human Textual Inferences",
+            "text": "\\bibitem[{Pavlick and Kwiatkowski(2019)}]{pavlick-kwiatkowski-2019-inherent} Ellie Pavlick and Tom Kwiatkowski. 2019. \\newblock \\href {https://doi.org/10.1162/tacl_a_00293} {Inherent disagreements in human textual inferences}. \\newblock \\emph{Transactions of the Association for Computational Linguistics}, 7:677--694.",
+            "ref_source": "bbl",
+            "abstract": "We analyze human’s disagreements about the validity of natural language inferences. We show that, very often, disagreements are not dismissible as annotation “noise”, but rather persist as we collect more ratings and as we vary the amount of context provided to raters. We further show that the type of uncertainty captured by current state-of-the-art models for natural language inference is not reflective of the type of uncertainty present in human disagreements. We discuss implications of our results in relation to the recognizing textual entailment (RTE)/natural language inference (NLI) task. We argue for a refined evaluation objective that requires models to explicitly capture the full distribution of plausible human judgments.",
+            "aminer_id": "5e09a892df1a9c0c4168e1ea"
+        },
+        "pavlick-EtAl:2015:ACL-IJCNLP2": {
+            "number": "[95]",
+            "title": "FrameNet+: Fast Paraphrastic Tripling of FrameNet",
+            "text": "\\bibitem[{Pavlick et~al.(2015)Pavlick, Wolfe, Rastogi, Callison-Burch, Dredze, and Van~Durme}]{pavlick-EtAl:2015:ACL-IJCNLP2} Ellie Pavlick, Travis Wolfe, Pushpendre Rastogi, Chris Callison-Burch, Mark Dredze, and Benjamin Van~Durme. 2015. \\newblock Framenet+: Fast paraphrastic tripling of framenet. \\newblock In \\emph{Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers)}, pages 408--413, Beijing, China. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We increase the lexical coverage of FrameNet through automatic paraphrasing. We use crowdsourcing to manually filter out bad paraphrases in order to ensure a high-precision resource. Our expanded FrameNet contains an additional 22K lexical units, a 3-fold increase over the current FrameNet, and achieves 40% better coverage when evaluated in a practical setting on New York Times data.",
+            "aminer_id": "573696da6e3b12023e5d99db"
+        },
+        "petrolito2018word": {
+            "number": "[96]",
+            "title": "Word embeddings in sentiment analysis",
+            "text": "\\bibitem[{Petrolito(2018)}]{petrolito2018word} Ruggero Petrolito. 2018. \\newblock Word embeddings in sentiment analysis. \\newblock In \\emph{Italian Conference on Computational Linguistics}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c2348abda562935fc1d53a8"
+        },
+        "pimentel-etal-2020-information": {
+            "number": "[97]",
+            "title": "Information-Theoretic Probing for Linguistic Structure",
+            "text": "\\bibitem[{Pimentel et~al.(2020)Pimentel, Valvoda, Hall~Maudslay, Zmigrod, Williams, and Cotterell}]{pimentel-etal-2020-information} Tiago Pimentel, Josef Valvoda, Rowan Hall~Maudslay, Ran Zmigrod, Adina Williams, and Ryan Cotterell. 2020. \\newblock \\href {https://doi.org/10.18653/v1/2020.acl-main.420} {Information-theoretic probing for linguistic structure}. \\newblock In \\emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 4609--4622, Online. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "The success of neural networks on a diverse set of NLP tasks has led researchers to question how much these networks actually “know” about natural language. Probes are a natural way of assessing this. When probing, a researcher chooses a linguistic task and trains a supervised model to predict annotations in that linguistic task from the network’s learned representations. If the probe does well, the researcher may conclude that the representations encode knowledge related to the task. A commonly held belief is that using simpler models as probes is better; the logic is that simpler models will identify linguistic structure, but not learn the task itself. We propose an information-theoretic operationalization of probing as estimating mutual information that contradicts this received wisdom: one should always select the highest performing probe one can, even if it is more complex, since it will result in a tighter estimate, and thus reveal more of the linguistic information inherent in the representation. The experimental portion of our paper focuses on empirically estimating the mutual information between a linguistic property and BERT, comparing these estimates to several baselines. We evaluate on a set of ten typologically diverse languages often underrepresented in NLP research—plus English—totalling eleven languages. Our implementation is available in https://github.com/rycolab/info-theoretic-probing.",
+            "aminer_id": "5e8da0c991e011f2de5839f4"
+        },
+        "pitler-etal-2010-automatic": {
+            "number": "[98]",
+            "title": "Automatic Evaluation of Linguistic Quality in Multi-Document Summarization",
+            "text": "\\bibitem[{Pitler et~al.(2010)Pitler, Louis, and Nenkova}]{pitler-etal-2010-automatic} Emily Pitler, Annie Louis, and Ani Nenkova. 2010. \\newblock \\href {https://www.aclweb.org/anthology/P10-1056} {Automatic evaluation of linguistic quality in multi-document summarization}. \\newblock In \\emph{Proceedings of the 48th Annual Meeting of the Association for Computational Linguistics}, pages 544--554, Uppsala, Sweden. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "To date, few attempts have been made to develop and validate methods for automatic evaluation of linguistic quality in text summarization. We present the first systematic assessment of several diverse classes of metrics designed to capture various aspects of well-written text. We train and test linguistic quality models on consecutive years of NIST evaluation data in order to show the generality of results. For grammaticality, the best results come from a set of syntactic features. Focus, coherence and referential clarity are best evaluated by a class of features measuring local coherence on the basis of cosine similarity between sentences, coreference information, and summarization specific features. Our best results are 90% accuracy for pairwise comparisons of competing systems over a test set of several inputs and 70% for ranking summaries of a specific input.",
+            "aminer_id": "5390aca820f70186a0eb7b05"
+        },
+        "poliakNAACL18": {
+            "number": "[99]",
+            "title": "On the Evaluation of Semantic Phenomena in Neural Machine Translation Using Natural Language Inference.",
+            "text": "\\bibitem[{Poliak et~al.(2018{\\natexlab{a}})Poliak, Belinkov, Glass, and Van~Durme}]{poliakNAACL18} Adam Poliak, Yonatan Belinkov, James Glass, and Benjamin Van~Durme. 2018{\\natexlab{a}}. \\newblock \\href {http://www.aclweb.org/anthology/N18-2082} {On the evaluation of semantic phenomena in neural machine translation using natural language inference}. \\newblock In \\emph{Proceedings of the 2018 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 2 (Short Papers)}, pages 513--523, New Orleans, Louisiana. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We propose a process for investigating the extent to which sentence representations arising from neural machine translation (NMT) systems encode distinct semantic phenomena. We use these representations as features to train a natural language inference (NLI) classifier based on datasets recast from existing semantic annotations. In applying this process to a representative NMT system, we find its encoder appears most suited to supporting inferences at the syntax-semantics interface, as compared to anaphora resolution requiring world-knowledge. We conclude with a discussion on the merits and potential deficiencies of the existing process, and how it may be improved and extended as a broader framework for evaluating semantic coverage.",
+            "aminer_id": "5b1642a68fbcbf6e5a9b7e0d"
+        },
+        "D18-1007": {
+            "number": "[100]",
+            "title": "Collecting Diverse Natural Language Inference Problems for Sentence Representation Evaluation.",
+            "text": "\\bibitem[{Poliak et~al.(2018{\\natexlab{b}})Poliak, Haldar, Rudinger, Hu, Pavlick, White, and Van~Durme}]{D18-1007} Adam Poliak, Aparajita Haldar, Rachel Rudinger, J.~Edward Hu, Ellie Pavlick, Aaron~Steven White, and Benjamin Van~Durme. 2018{\\natexlab{b}}. \\newblock \\href {http://aclweb.org/anthology/D18-1007} {Collecting diverse natural language inference problems for sentence representation evaluation}. \\newblock In \\emph{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, pages 67--81. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We present a large-scale collection of diverse natural language inference (NLI) datasets that help provide insight into how well a sentence representation captures distinct types of reasoning. The collection results from recasting 13 existing datasets from 7 semantic phenomena into a common NLI structure, resulting in over half a million labeled context-hypothesis pairs in total. We refer to our collection as the DNC: Diverse Natural Language Inference Collection. The DNC is available online at https://www.decomp.net, and will grow over time as additional resources are recast and added from novel sources.",
+            "aminer_id": "5bdc315017c44a1f58a05b57"
+        },
+        "Poliak2018StarSem": {
+            "number": "[101]",
+            "title": "Hypothesis only baselines in natural language inference",
+            "text": "\\bibitem[{Poliak et~al.(2018{\\natexlab{c}})Poliak, Naradowsky, Haldar, Rudinger, and Van~Durme}]{Poliak2018StarSem} Adam Poliak, Jason Naradowsky, Aparajita Haldar, Rachel Rudinger, and Benjamin Van~Durme. 2018{\\natexlab{c}}. \\newblock \\href {http://aclweb.org/anthology/S18-2023} {Hypothesis only baselines in natural language inference}. \\newblock In \\emph{Proceedings of the Seventh Joint Conference on Lexical and Computational Semantics}, pages 180--191. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5b16426b8fbcbf6e5a9b5d50"
+        },
+        "popovic-castilho-2019-challenge": {
+            "number": "[102]",
+            "title": "Challenge Test Sets for MT Evaluation",
+            "text": "\\bibitem[{Popovi{\\'c} and Castilho(2019)}]{popovic-castilho-2019-challenge} Maja Popovi{\\'c} and Sheila Castilho. 2019. \\newblock Challenge test sets for {MT} evaluation. \\newblock In \\emph{Proceedings of Machine Translation Summit XVII Volume 3: Tutorial Abstracts}, Dublin, Ireland. European Association for Machine Translation.",
+            "ref_source": "bbl",
+            "abstract": "Most of the test sets used for the evaluation of MT systems reflect the frequency distribution of different phenomena found in naturally occurring data (”standard” or ”natural” test sets). However, to better understand particular strengths and weaknesses of MT systems, especially those based on neural networks, it is necessary to apply more focused evaluation procedures. Therefore, another type of test sets (”challenge” test sets, also called ”test suites”) is being increasingly employed in order to highlight points of difficulty which are relevant to model development, training, or using of the given system. This tutorial will be useful for anyone (researchers, developers, users, translators) interested in detailed evaluation and getting a better understanding of machine translation (MT) systems and models. The attendees will learn about the motivation and linguistic background of challenge test sets and a range of testing possibilities applied to the state-of-the-art MT systems, as well as a number of practical aspects and challenges.",
+            "aminer_id": "61c6f7f25244ab9dcbd66fa6"
+        },
+        "punyakanok2004natural": {
+            "number": "[103]",
+            "title": "Natural Language Inference Via Dependency Tree Mapping: an Application to Question Answering",
+            "text": "\\bibitem[{Punyakanok et~al.(2004)Punyakanok, Roth, and Yih}]{punyakanok2004natural} Vasin Punyakanok, Dan Roth, and Wen-tau Yih. 2004. \\newblock Natural language inference via dependency tree mapping: An application to question answering. \\newblock Technical report.",
+            "ref_source": "bbl",
+            "abstract": "We describe an approach for answer selection in a free form question answering task. In order to go beyond a key-word based matching in selecting answers to questions, one would like to develop a principled way for the answer selection process that incorporates both syntactic and semantic information. We achieve this goal by (1) representing both questions and candidate passages using dependency trees, augmented with semantic information such as named entities, and (2) computing a generalized edit distance between a candidate passage representation and the question representation, a distance which aims to capture some level of meaning similarity. The sentence that best answers a question is determined to be the one that minimizes the generalized edit distance we define, computed via a dynamic programming based approximate tree matching algorithm. We evaluate the approach on question-answer pairs taken from previous TREC Q/A competitions. Preliminary experiments show its potential by significantly outperforming common bag-of-word scoring methods.",
+            "aminer_id": "56d87456dabfae2eee0cecf2"
+        },
+        "qiu2018revisiting": {
+            "number": "[104]",
+            "title": "Revisiting Correlations between Intrinsic and Extrinsic Evaluations of Word Embeddings.",
+            "text": "\\bibitem[{Qiu et~al.(2018)Qiu, Li, Li, Jiang, Hu, and Yang}]{qiu2018revisiting} Yuanyuan Qiu, Hongzheng Li, Shen Li, Yingdi Jiang, Renfen Hu, and Lijiao Yang. 2018. \\newblock Revisiting correlations between intrinsic and extrinsic evaluations of word embeddings. \\newblock In \\emph{Chinese Computational Linguistics and Natural Language Processing Based on Naturally Annotated Big Data}, pages 209--221. Springer.",
+            "ref_source": "bbl",
+            "abstract": "The evaluation of word embeddings has received a considerable amount of attention in recent years, but there have been some debates about whether intrinsic measures can predict the performance of downstream tasks. To investigate this question, this paper presents the first study on the correlation between results of intrinsic evaluation and extrinsic evaluation with Chinese word embeddings. We use word similarity and word analogy as the intrinsic tasks, Named Entity Recognition and Sentiment Classification as the extrinsic tasks. A variety of Chinese word embeddings trained with different corpora and context features are used in the experiments. From the data analysis, we reach some interesting conclusions: there are strong correlations between intrinsic and extrinsic evaluations, and the performance of different tasks can be affected by training corpora and context features to varying degrees.",
+            "aminer_id": "5bdc316717c44a1f58a071b2"
+        },
+        "doi:10.1162": {
+            "number": "[105]",
+            "title": "A Structured Review of the Validity of BLEU",
+            "text": "\\bibitem[{Reiter(2018)}]{doi:10.1162} Ehud Reiter. 2018. \\newblock A structured review of the validity of bleu. \\newblock \\emph{Computational Linguistics}, 44(3):393--401.",
+            "ref_source": "bbl",
+            "abstract": "The BLEU metric has been widely used in NLP for over 15 years to evaluate NLP systems, especially in machine translation and natural language generation. I present a structured review of the evidence on whether BLEU is a valid evaluation technique—in other words, whether BLEU scores correlate with real-world utility and user-satisfaction of NLP systems; this review covers 284 correlations reported in 34 papers. Overall, the evidence supports using BLEU for diagnostic evaluation of MT systems (which is what it was originally proposed for), but does not support using BLEU outside of MT, for evaluation of individual texts, or for scientific hypothesis testing.",
+            "aminer_id": "5bbacb9e17c44aecc4eafc2d"
+        },
+        "resnik201011": {
+            "number": "[106]",
+            "title": "11 evaluation of nlp systems",
+            "text": "\\bibitem[{Resnik and Lin(2010)}]{resnik201011} Philip Resnik and Jimmy Lin. 2010. \\newblock 11 evaluation of nlp systems. \\newblock \\emph{The handbook of computational linguistics and natural language processing}, 57.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "resnik2006using": {
+            "number": "[107]",
+            "title": "Using Intrinsic and Extrinsic Metrics to Evaluate Accuracy and Facilitation in Computer-assisted Coding",
+            "text": "\\bibitem[{Resnik et~al.(2006)Resnik, Niv, Nossal, and Schnitzer}]{resnik2006using} Philip Resnik, Michael Niv, Michael Nossal, and Gregory Schnitzer. 2006. \\newblock Using intrinsic and extrinsic metrics to evaluate accuracy and facilitation in computer-assisted coding. \\newblock In \\emph{Perspectives in Health Information Management Computer Assisted Coding Conference Proceedings}.",
+            "ref_source": "bbl",
+            "abstract": "Computer-assisted coding (CAC) evaluation can be viewed from two related but distinct perspectives: accurately identifying codes, and more generally facilitating the process of human coding and information flow within and among healthcare organizations. The first perspective calls for intrinsic metrics, grounded in comparison with a gold standard. The second perspective calls for extrinsic techniques, grounded in the real-world task. We discuss this distinction and present an experimental evaluation of CAC using both intrinsic and extrinsic measures.",
+            "aminer_id": "5f0de7e79fced0a24b26fe82"
+        },
+        "Richardson2020ProbingNL": {
+            "number": "[108]",
+            "title": "Probing natural language inference models through semantic fragments",
+            "text": "\\bibitem[{Richardson et~al.(2020)Richardson, Hu, Moss, and Sabharwal}]{Richardson2020ProbingNL} Kyle Richardson, Hai~Na Hu, Lawrence~S. Moss, and Ashish Sabharwal. 2020. \\newblock Probing natural language inference models through semantic fragments. \\newblock In \\emph{AAAI}, volume abs/1909.07521.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5d820a9f3a55acb050f66bb8"
+        },
+        "ws-2019-evaluating": {
+            "number": "[109]",
+            "title": "Proceedings of the 3rd Workshop on Evaluating Vector Space Representations for NLP",
+            "text": "\\bibitem[{Rogers et~al.(2019)Rogers, Drozd, Rumshisky, and Goldberg}]{ws-2019-evaluating} Anna Rogers, Aleksandr Drozd, Anna Rumshisky, and Yoav Goldberg, editors. 2019. \\newblock \\href {https://www.aclweb.org/anthology/W19-2000} {\\emph{Proceedings of the 3rd Workshop on Evaluating Vector Space Representations for {NLP}}}. Association for Computational Linguistics, Minneapolis, USA.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "romanov-shivade-2018-lessons": {
+            "number": "[110]",
+            "title": "Lessons from natural language inference in the clinical domain",
+            "text": "\\bibitem[{Romanov and Shivade(2018)}]{romanov-shivade-2018-lessons} Alexey Romanov and Chaitanya Shivade. 2018. \\newblock \\href {https://doi.org/10.18653/v1/D18-1187} {Lessons from natural language inference in the clinical domain}. \\newblock In \\emph{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, pages 1586--1596, Brussels, Belgium. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5b8c9f5317c44af36f8b7583"
+        },
+        "ross-pavlick-2019-well": {
+            "number": "[111]",
+            "title": "How Well Do NLI Models Capture Verb Veridicality?",
+            "text": "\\bibitem[{Ross and Pavlick(2019)}]{ross-pavlick-2019-well} Alexis Ross and Ellie Pavlick. 2019. \\newblock \\href {https://doi.org/10.18653/v1/D19-1228} {How well do {NLI} models capture verb veridicality?} \\newblock In \\emph{Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing and the 9th International Joint Conference on Natural Language Processing (EMNLP-IJCNLP)}, pages 2230--2240, Hong Kong, China. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "In natural language inference (NLI), contexts are considered veridical if they allow us to infer that their underlying propositions make true claims about the real world. We investigate whether a state-of-the-art natural language inference model (BERT) learns to make correct inferences about veridicality in verb-complement constructions. We introduce an NLI dataset for veridicality evaluation consisting of 1,500 sentence pairs, covering 137 unique verbs. We find that both human and model inferences generally follow theoretical patterns, but exhibit a systematic bias towards assuming that verbs are veridical–a bias which is amplified in BERT. We further show that, encouragingly, BERT’s inferences are sensitive not only to the presence of individual verb types, but also to the syntactic role of the verb, the form of the complement clause (to- vs. that-complements), and negation.",
+            "aminer_id": "5db929b747c8f766461fa9f6"
+        },
+        "rudinger-may-vandurme:2017:EthNLP": {
+            "number": "[112]",
+            "title": "Social Bias in Elicited Natural Language Inferences",
+            "text": "\\bibitem[{Rudinger et~al.(2017)Rudinger, May, and Van~Durme}]{rudinger-may-vandurme:2017:EthNLP} Rachel Rudinger, Chandler May, and Benjamin Van~Durme. 2017. \\newblock Social bias in elicited natural language inferences. \\newblock In \\emph{Proceedings of the First ACL Workshop on Ethics in Natural Language Processing}, pages 74--79, Valencia, Spain. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We analyze the Stanford Natural Language Inference (SNLI) corpus in an investigation of bias and stereotyping in NLP data. The SNLI human-elicitation protocol makes it prone to amplifying bias and stereotypical associations, which we demonstrate statistically (using pointwise mutual information) and with qualitative examples.",
+            "aminer_id": "5a73cb7117c44a0b303593e9"
+        },
+        "schwarcz1970deductive": {
+            "number": "[113]",
+            "title": "A Deductive Question-Answerer for Natural Language Inference",
+            "text": "\\bibitem[{Schwarcz et~al.(1970)Schwarcz, Burger, and Simmons}]{schwarcz1970deductive} Robert~M Schwarcz, John~F Burger, and Robert~F Simmons. 1970. \\newblock A deductive question-answerer for natural language inference. \\newblock \\emph{Communications of the ACM}, 13(3):167--183.",
+            "ref_source": "bbl",
+            "abstract": "The question-answering aspects of the Protosynthex III prototype language processing system are described and exemplified in detail. The system is written in LISP 1.5 and operates on the Q-32 time-sharing system. The system's data structures and their semantic organization, the deductive question-answering formalism of relational properties and complex-relation-forming operators, and the question-answering procedures which employ these features in their operation are all described and illustrated. Examples of the system's performance and of the limitations of its question-answering capability are presented and discussed. It is shown that the use of semantic information in deductive question answering greatly facilitates the process, and that a top-down procedure which works from question to answer enables effective use to be made of this information. It is concluded that the development of Protosynthex III into a practically useful system to work with large data bases is possible but will require changes in both the data structures and the algorithms used for question answering.",
+            "aminer_id": "5390880d20f70186a0d7b5a0"
+        },
+        "westernling1998": {
+            "number": "[114]",
+            "title": "Western linguistics: An historical introduction",
+            "text": "\\bibitem[{Seuren(1998)}]{westernling1998} P.A.M. Seuren. 1998. \\newblock \\href {https://doi.org/10.1002/9781444307467} {\\emph{Western Linguistics: An Historical Introduction}}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b489b7602d9703f92282"
+        },
+        "sparck-jones-1994-towards": {
+            "number": "[115]",
+            "title": "Towards better NLP system evaluation",
+            "text": "\\bibitem[{Sparck~Jones(1994)}]{sparck-jones-1994-towards} Karen Sparck~Jones. 1994. \\newblock \\href {https://www.aclweb.org/anthology/H94-1018} {Towards better {NLP} system evaluation}. \\newblock In \\emph{{H}uman {L}anguage {T}echnology: Proceedings of a Workshop held at {P}lainsboro, {N}ew {J}ersey, {M}arch 8-11, 1994}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390985e20f70186a0e08da3"
+        },
+        "10.5555/547445": {
+            "number": "[116]",
+            "title": "Evaluating Natural Language Processing Systems: an Analysis and Review",
+            "text": "\\bibitem[{{Sparck Jones} and Galliers(1996)}]{10.5555/547445} Karen {Sparck Jones} and Julia~R. Galliers. 1996. \\newblock \\emph{Evaluating Natural Language Processing Systems: An Analysis and Review}. \\newblock Springer-Verlag, Berlin, Heidelberg.",
+            "ref_source": "bbl",
+            "abstract": "From the Publisher:This comprehensive state-of-the-art book is the first devoted to the important and timely issue of evaluating NLP systems. It addresses the whole area of NLP system evaluation, including aims and scope, problems and methodology. The authors provide a wide-ranging and careful analysis of evaluation concepts, reinforced with extensive illustrations; they relate systems to their environments and develop a framework for proper evaluation. The discussion of principles is completed by a detailed review of practice and strategies in the field, covering both systems for specific tasks, like translation, and core language processors. The methodology lessons drawn from the analysis and review are applied in a series of example cases. The book also refers NLP system evaluation to the neighbouring areas of information and speech processing, and addresses issues of tool and data provision for evaluation. A comprehensive bibliography and subject index are included as well as a term glossary. This monograph will be a valuable source of inspiration in research, practice, and teaching.",
+            "aminer_id": "619b9e181c45e57ce93d6e35"
+        },
+        "staliunaite2018learning": {
+            "number": "[117]",
+            "title": "Learning about non-veridicality in textual entailment",
+            "text": "\\bibitem[{Stali{\\=u}nait{\\.e}(2018)}]{staliunaite2018learning} Ieva Stali{\\=u}nait{\\.e}. 2018. \\newblock Learning about non-veridicality in textual entailment. \\newblock Master's thesis, Utrecht University.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "tay-etal-2018-compare": {
+            "number": "[118]",
+            "title": "Compare, Compress and Propagate: Enhancing Neural Architectures with Alignment Factorization for Natural Language Inference",
+            "text": "\\bibitem[{Tay et~al.(2018)Tay, Luu, and Hui}]{tay-etal-2018-compare} Yi~Tay, Anh~Tuan Luu, and Siu~Cheung Hui. 2018. \\newblock \\href {https://doi.org/10.18653/v1/D18-1185} {Compare, compress and propagate: Enhancing neural architectures with alignment factorization for natural language inference}. \\newblock In \\emph{Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing}, pages 1565--1575, Brussels, Belgium. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents a new deep learning architecture for Natural Language Inference (NLI). Firstly, we introduce a new architecture where alignment pairs are compared, compressed and then propagated to upper layers for enhanced representation learning. Secondly, we adopt factorization layers for efficient and expressive compression of alignment vectors into scalar features, which are then used to augment the base word representations. The design of our approach is aimed to be conceptually simple, compact and yet powerful. We conduct experiments on three popular benchmarks, SNLI, MultiNLI and SciTail, achieving competitive performance on all. A lightweight parameterization of our model also enjoys a 3 times reduction in parameter size compared to the existing state-of-the-art models, e.g., ESIM and DIIN, while maintaining competitive performance. Additionally, visual analysis shows that our propagated features are highly interpretable.",
+            "aminer_id": "5bdc315017c44a1f58a05b46"
+        },
+        "thawani-etal-2019-swow": {
+            "number": "[119]",
+            "title": "SWOW-8500: Word Association task for Intrinsic Evaluation of Word Embeddings",
+            "text": "\\bibitem[{Thawani et~al.(2019)Thawani, Srivastava, and Singh}]{thawani-etal-2019-swow} Avijit Thawani, Biplav Srivastava, and Anil Singh. 2019. \\newblock \\href {https://doi.org/10.18653/v1/W19-2006} {{SWOW}-8500: Word association task for intrinsic evaluation of word embeddings}. \\newblock In \\emph{Proceedings of the 3rd Workshop on Evaluating Vector Space Representations for {NLP}}, pages 43--51, Minneapolis, USA. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Downstream evaluation of pretrained word embeddings is expensive, more so for tasks where current state of the art models are very large architectures. Intrinsic evaluation using word similarity or analogy datasets, on the other hand, suffers from several disadvantages. We propose a novel intrinsic evaluation task employing large word association datasets (particularly the Small World of Words dataset). We observe correlations not just between performances on SWOW-8500 and previously proposed intrinsic tasks of word similarity prediction, but also with downstream tasks (eg. Text Classification and Natural Language Inference). Most importantly, we report better confidence intervals for scores on our word association task, with no fall in correlation with downstream performance.",
+            "aminer_id": "5ff686f7d4150a363cc3dd50"
+        },
+        "Tsuchiya2018": {
+            "number": "[120]",
+            "title": "Performance Impact Caused by Hidden Bias of Training Data for Recognizing Textual Entailment.",
+            "text": "\\bibitem[{Tsuchiya(2018)}]{Tsuchiya2018} Masatoshi Tsuchiya. 2018. \\newblock Performance impact caused by hidden bias of training data for recognizing textual entailment. \\newblock In \\emph{11th International Conference on Language Resources and Evaluation (LREC2018)}.",
+            "ref_source": "bbl",
+            "abstract": "The quality of training data is one of the crucial problems when a learning-centered approach is employed. This paper proposes a new method to investigate the quality of a large corpus designed for the recognizing textual entailment (RTE) task. The proposed method, which is inspired by a statistical hypothesis test, consists of two phases: the first phase is to introduce the predictability of textual entailment labels as a null hypothesis which is extremely unacceptable if a target corpus has no hidden bias, and the second phase is to test the null hypothesis using a Naive Bayes model. The experimental result of the Stanford Natural Language Inference (SNLI) corpus does not reject the null hypothesis. Therefore, it indicates that the SNLI corpus has a hidden bias which allows prediction of textual entailment labels from hypothesis sentences even if no context information is given by a premise sentence. This paper also presents the performance impact of NN models for RTE caused by this hidden bias.",
+            "aminer_id": "5b1642d68fbcbf6e5a9b8585"
+        },
+        "tsvetkov-etal-2015-evaluation": {
+            "number": "[121]",
+            "title": "Evaluation of word vector representations by subspace alignment",
+            "text": "\\bibitem[{Tsvetkov et~al.(2015)Tsvetkov, Faruqui, Ling, Lample, and Dyer}]{tsvetkov-etal-2015-evaluation} Yulia Tsvetkov, Manaal Faruqui, Wang Ling, Guillaume Lample, and Chris Dyer. 2015. \\newblock \\href {https://doi.org/10.18653/v1/D15-1243} {Evaluation of word vector representations by subspace alignment}. \\newblock In \\emph{Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing}, pages 2049--2054, Lisbon, Portugal. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736974d6e3b12023e6386b1"
+        },
+        "vanderwende2006syntax": {
+            "number": "[122]",
+            "title": "What Syntax Can Contribute in the Entailment Task",
+            "text": "\\bibitem[{Vanderwende and Dolan(2006)}]{vanderwende2006syntax} Lucy Vanderwende and William~B Dolan. 2006. \\newblock What syntax can contribute in the entailment task. \\newblock In \\emph{Machine Learning Challenges. Evaluating Predictive Uncertainty, Visual Object Classification, and Recognising Tectual Entailment}, pages 205--216. Springer.",
+            "ref_source": "bbl",
+            "abstract": "We describe our submission to the PASCAL Recognizing Textual Entailment Challenge, which attempts to isolate the set of Text-Hypothesis pairs whose categorization can be accurately predicted based solely on syntactic cues. Two human annotators examined each pair, showing that a surprisingly large proportion of the data – 34% of the test items – can be handled with syntax alone, while adding information from a general-purpose thesaurus increases this to 48%.",
+            "aminer_id": "5390b2d620f70186a0eebb45"
+        },
+        "Vashishtha:emnlp:2020": {
+            "number": "[123]",
+            "title": "Temporal reasoning in natural language inference",
+            "text": "\\bibitem[{Vashishtha et~al.(2020)Vashishtha, Poliak, Lal, {Van Durme}, and White}]{Vashishtha:emnlp:2020} Siddharth Vashishtha, Adam Poliak, {Yash Kumar} Lal, Benjamin {Van Durme}, and {Aaron Steven} White. 2020. \\newblock Temporal reasoning in natural language inference. \\newblock In \\emph{Proceedings of the Findings of EMNLP}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ff8839291e011c832673a9e"
+        },
+        "voita2020informationtheoretic": {
+            "number": "[124]",
+            "title": "Information-Theoretic Probing with Minimum Description Length",
+            "text": "\\bibitem[{Voita and Titov(2020)}]{voita2020informationtheoretic} Elena Voita and Ivan Titov. 2020. \\newblock \\href {http://arxiv.org/abs/2003.12298} {Information-theoretic probing with minimum description length}.",
+            "ref_source": "bbl",
+            "abstract": "To measure how well pretrained representations encode some linguistic property, it is common to use accuracy of a probe, i.e. a classifier trained to predict the property from the representations. Despite widespread adoption of probes, differences in their accuracy fail to adequately reflect differences in representations. For example, they do not substantially favour pretrained representations over randomly initialized ones. Analogously, their accuracy can be similar when probing for genuine linguistic labels and probing for random synthetic tasks. To see reasonable differences in accuracy with respect to these random baselines, previous work had to constrain either the amount of probe training data or its model size. Instead, we propose an alternative to the standard probes, information-theoretic probing with minimum description length (MDL). With MDL probing, training a probe to predict labels is recast as teaching it to effectively transmit the data. Therefore, the measure of interest changes from probe accuracy to the description length of labels given representations. In addition to probe quality, the description length evaluates \"the amount of effort\" needed to achieve the quality. This amount of effort characterizes either (i) size of a probing model, or (ii) the amount of data needed to achieve the high quality. We consider two methods for estimating MDL which can be easily implemented on top of the standard probing pipelines: variational coding and online coding. We show that these methods agree in results and are more informative and stable than the standard probes.",
+            "aminer_id": "5e81c33091e011b2b7821ec6"
+        },
+        "wang2019superglue": {
+            "number": "[125]",
+            "title": "Superglue: A stickier benchmark for general-purpose language understanding systems",
+            "text": "\\bibitem[{Wang et~al.(2019{\\natexlab{a}})Wang, Pruksachatkun, Nangia, Singh, Michael, Hill, Levy, and Bowman}]{wang2019superglue} Alex Wang, Yada Pruksachatkun, Nikita Nangia, Amanpreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel Bowman. 2019{\\natexlab{a}}. \\newblock Superglue: A stickier benchmark for general-purpose language understanding systems. \\newblock In \\emph{Advances in Neural Information Processing Systems}, pages 3261--3275.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ccc1df4e1cd8ed9603db28b"
+        },
+        "wang2018glue": {
+            "number": "[126]",
+            "title": "GLUE: A Multi-Task Benchmark and Analysis Platform for Natural Language Understanding",
+            "text": "\\bibitem[{Wang et~al.(2018)Wang, Singh, Michael, Hill, Levy, and Bowman}]{wang2018glue} Alex Wang, Amapreet Singh, Julian Michael, Felix Hill, Omer Levy, and Samuel~R Bowman. 2018. \\newblock Glue: A multi-task benchmark and analysis platform for natural language understanding. \\newblock \\emph{arXiv preprint arXiv:1804.07461}.",
+            "ref_source": "bbl",
+            "abstract": "Human ability to understand language is general, flexible, and robust. In contrast, most NLU models above the word level are designed for a specific task and struggle with out-of-domain data. If we aspire to develop models with understanding beyond the detection of superficial correspondences between inputs and outputs, then it is critical to develop a unified model that can execute a range of linguistic tasks across different domains. To facilitate research in this direction, we present the General Language Understanding Evaluation (GLUE, gluebenchmark.com): a benchmark of nine diverse NLU tasks, an auxiliary dataset for probing models for understanding of specific linguistic phenomena, and an online platform for evaluating and comparing models. For some benchmark tasks, training data is plentiful, but for others it is limited or does not match the genre of the test set. GLUE thus favors models that can represent linguistic knowledge in a way that facilitates sample-efficient learning and effective knowledge-transfer across tasks. While none of the datasets in GLUE were created from scratch for the benchmark, four of them feature privately-held test data, which is used to ensure that the benchmark is used fairly. We evaluate baselines that use ELMo (Peters et al., 2018), a powerful transfer learning technique, as well as state-of-the-art sentence representation models. The best models still achieve fairly low absolute scores. Analysis with our diagnostic dataset yields similarly weak performance over all phenomena tested, with some exceptions.",
+            "aminer_id": "5b1643998fbcbf6e5a9bc3b6"
+        },
+        "wang2019evaluating": {
+            "number": "[127]",
+            "title": "Evaluating Word Embedding Models: Methods and Experimental Results",
+            "text": "\\bibitem[{Wang et~al.(2019{\\natexlab{b}})Wang, Wang, Chen, Wang, and Kuo}]{wang2019evaluating} Bin Wang, Angela Wang, Fenxiao Chen, Yuncheng Wang, and C-C~Jay Kuo. 2019{\\natexlab{b}}. \\newblock Evaluating word embedding models: Methods and experimental results. \\newblock \\emph{APSIPA transactions on signal and information processing}, 8.",
+            "ref_source": "bbl",
+            "abstract": "Extensive evaluation on a large number of word embedding models for language processing applications is conducted in this work. First, we introduce popular word embedding models and discuss desired properties of word models and evaluation methods (or evaluators). Then, we categorize evaluators into intrinsic and extrinsic two types. Intrinsic evaluators test the quality of a representation independent of specific natural language processing tasks while extrinsic evaluators use word embeddings as input features to a downstream task and measure changes in performance metrics specific to that task. We report experimental results of intrinsic and extrinsic evaluators on six word embedding models. It is shown that different evaluators focus on different aspects of word models, and some are more correlated with natural language processing tasks. Finally, we adopt correlation analysis to study performance consistency of extrinsic and intrinsic evaluators.",
+            "aminer_id": "5c616026e1cd8eae1501d72e"
+        },
+        "white-EtAl:2017:I17-1": {
+            "number": "[128]",
+            "title": "Inference is Everything: Recasting Semantic Resources into a Unified Evaluation Framework",
+            "text": "\\bibitem[{White et~al.(2017)White, Rastogi, Duh, and Van~Durme}]{white-EtAl:2017:I17-1} Aaron~Steven White, Pushpendre Rastogi, Kevin Duh, and Benjamin Van~Durme. 2017. \\newblock Inference is everything: Recasting semantic resources into a unified evaluation framework. \\newblock In \\emph{Proceedings of the Eighth International Joint Conference on Natural Language Processing (Volume 1: Long Papers)}, pages 996--1005, Taipei, Taiwan. Asian Federation of Natural Language Processing.",
+            "ref_source": "bbl",
+            "abstract": "We propose to unify a variety of existing semantic classification tasks, such as semantic role labeling, anaphora resolution, and paraphrase detection, under the heading of Recognizing Textual Entailment (RTE). We present a general strategy to automatically generate one or more sentential hypotheses based on an input sentence and pre-existing manual semantic annotations. The resulting suite of datasets enables us to probe a statistical RTE model’s performance on different aspects of semantics. We demonstrate the value of this approach by investigating the behavior of a popular neural network RTE model.",
+            "aminer_id": "5a73cb5d17c44a0b3035738e"
+        },
+        "wilks1975preferential": {
+            "number": "[129]",
+            "title": "A Preferential, Pattern-Seeking, Semantics for Natural Language Inference",
+            "text": "\\bibitem[{Wilks(1975)}]{wilks1975preferential} Yorick Wilks. 1975. \\newblock A preferential, pattern-seeking, semantics for natural language inference. \\newblock \\emph{Artificial intelligence}, 6(1):53--74.",
+            "ref_source": "bbl",
+            "abstract": "The paper describes the way in which a Preference Semantics system for natural language analysis and generation tackles a difficult class of anaphoric inference problems: those requiring either analytic (conceptual) knowledge of a complex sort, or requiring weak inductive knowledge of the course of events in the real world. The method employed converts all available knowledge to a canonical template form and endeavors to create chains of non-reductive inferences from the unknowns to the possible referents. Its method for this is consistent with the overall principle of “semantic preference” used to set up the original meaning representation.",
+            "aminer_id": "53e9ace9b7602d97036c86b9"
+        },
+        "williams2017broad": {
+            "number": "[130]",
+            "title": "A broad-coverage challenge corpus for sentence understanding through inference",
+            "text": "\\bibitem[{Williams et~al.(2017)Williams, Nangia, and Bowman}]{williams2017broad} Adina Williams, Nikita Nangia, and Samuel~R Bowman. 2017. \\newblock A broad-coverage challenge corpus for sentence understanding through inference. \\newblock \\emph{arXiv preprint arXiv:1704.05426}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7978601a182cd2641b24"
+        },
+        "wu2015study": {
+            "number": "[131]",
+            "title": "A Study of Neural Word Embeddings for Named Entity Recognition in Clinical Text.",
+            "text": "\\bibitem[{Wu et~al.(2015)Wu, Xu, Jiang, Zhang, and Xu}]{wu2015study} Yonghui Wu, Jun Xu, Min Jiang, Yaoyun Zhang, and Hua Xu. 2015. \\newblock A study of neural word embeddings for named entity recognition in clinical text. \\newblock In \\emph{AMIA Annual Symposium Proceedings}, volume 2015, page 1326. American Medical Informatics Association.",
+            "ref_source": "bbl",
+            "abstract": "Clinical Named Entity Recognition (NER) is a critical task for extracting important patient information from clinical text to support clinical and translational research. This study explored the neural word embeddings derived from a large unlabeled clinical corpus for clinical NER. We systematically compared two neural word embedding algorithms and three different strategies for deriving distributed word representations. Two neural word embeddings were derived from the unlabeled Multiparameter Intelligent Monitoring in Intensive Care (MIMIC) II corpus (403,871 notes). The results from both 2010 i2b2 and 2014 Semantic Evaluation (SemEval) data showed that the binarized word embedding features outperformed other strategies for deriving distributed word representations. The binarized embedding features improved the F1-score of the Conditional Random Fields based clinical NER system by 2.3% on i2b2 data and 2.4% on SemEval data. The combined feature from the binarized embeddings and the Brown clusters improved the F1-score of the clinical NER system by 2.9% on i2b2 data and 2.7% on SemEval data. Our study also showed that the distributed word embedding features derived from a large unlabeled corpus can be better than the widely used Brown clusters. Further analysis found that the neural word embeddings captured a wide range of semantic relations, which could be discretized into distributed word representations to benefit the clinical NER system. The low-cost distributed feature representation can be adapted to any other clinical natural language processing research.",
+            "aminer_id": "5843777aac44360f10840844"
+        },
+        "yanaka2020neural": {
+            "number": "[132]",
+            "title": "Do Neural Models Learn Systematicity of Monotonicity Inference in Natural Language?",
+            "text": "\\bibitem[{Yanaka et~al.(2020)Yanaka, Mineshima, Bekki, and Inui}]{yanaka2020neural} Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, and Kentaro Inui. 2020. \\newblock Do neural models learn systematicity of monotonicity inference in natural language? \\newblock In \\emph{ACL}.",
+            "ref_source": "bbl",
+            "abstract": "Despite the success of language models using neural networks, it remains unclear to what extent neural models have the generalization ability to perform inferences. In this paper, we introduce a method for evaluating whether neural models can learn systematicity of monotonicity inference in natural language, namely, the regularity for performing arbitrary inferences with generalization on composition. We consider four aspects of monotonicity inferences and test whether the models can systematically interpret lexical and logical phenomena on different training/test splits. A series of experiments show that three neural models systematically draw inferences on unseen combinations of lexical and logical phenomena when the syntactic structures of the sentences are similar between the training and test sets. However, the performance of the models significantly decreases when the structures are slightly changed in the test set while retaining all vocabularies and constituents already appearing in the training set. This indicates that the generalization ability of neural models is limited to cases where the syntactic structures are nearly the same as those in the training set.",
+            "aminer_id": "5eabf34c91e011664ffd2989"
+        },
+        "yanaka-etal-2019-neural": {
+            "number": "[133]",
+            "title": "Can Neural Networks Understand Monotonicity Reasoning?",
+            "text": "\\bibitem[{Yanaka et~al.(2019)Yanaka, Mineshima, Bekki, Inui, Sekine, Abzianidze, and Bos}]{yanaka-etal-2019-neural} Hitomi Yanaka, Koji Mineshima, Daisuke Bekki, Kentaro Inui, Satoshi Sekine, Lasha Abzianidze, and Johan Bos. 2019. \\newblock \\href {https://doi.org/10.18653/v1/W19-4804} {Can neural networks understand monotonicity reasoning?} \\newblock In \\emph{Proceedings of the 2019 ACL Workshop BlackboxNLP: Analyzing and Interpreting Neural Networks for NLP}, pages 31--40, Florence, Italy. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Monotonicity reasoning is one of the important reasoning skills for any intelligent natural language inference (NLI) model in that it requires the ability to capture the interaction between lexical and syntactic structures. Since no test set has been developed for monotonicity reasoning with wide coverage, it is still unclear whether neural models can perform monotonicity reasoning in a proper way. To investigate this issue, we introduce the Monotonicity Entailment Dataset (MED). Performance by state-of-the-art NLI models on the new test set is substantially worse, under 55%, especially on downward reasoning. In addition, analysis using a monotonicity-driven data augmentation method showed that these models might be limited in their generalization ability in upward and downward reasoning.",
+            "aminer_id": "5d08b64b3a55ac56858eb6f5"
+        },
+        "young2014image": {
+            "number": "[134]",
+            "title": "From Image Descriptions to Visual Denotations: New Similarity Metrics for Semantic Inference over Event Descriptions.",
+            "text": "\\bibitem[{Young et~al.(2014)Young, Lai, Hodosh, and Hockenmaier}]{young2014image} Peter Young, Alice Lai, Micah Hodosh, and Julia Hockenmaier. 2014. \\newblock From image descriptions to visual denotations: New similarity metrics for semantic inference over event descriptions. \\newblock \\emph{Transactions of the Association for Computational Linguistics}, 2:67--78.",
+            "ref_source": "bbl",
+            "abstract": "We propose to use the visual denotations of linguistic expressions (i.e. the set of images they describe) to define novel denotational similarity metrics, which we show to be at least as beneficial as distributional similarities for two tasks that require semantic inference. To compute these denotational similarities, we construct a denotation graph, i.e. a subsumption hierarchy over constituents and their denotations, based on a large corpus of 30K images and 150K descriptive captions.",
+            "aminer_id": "53e9a0d8b7602d97029bf9f9"
+        },
+        "W05-1206": {
+            "number": "[135]",
+            "title": "Local Textual Inference: Can It Be Defined or Circumscribed?",
+            "text": "\\bibitem[{Zaenen et~al.(2005)Zaenen, Karttunen, and Crouch}]{W05-1206} Annie Zaenen, Lauri Karttunen, and Richard Crouch. 2005. \\newblock \\href {https://www.aclweb.org/anthology/W05-1206} {Local textual inference: Can it be defined or circumscribed?} \\newblock In \\emph{Proceedings of the ACL Workshop on Empirical Modeling of Semantic Equivalence and Entailment}, pages 31--36, Ann Arbor, Michigan. Association for Computational Linguistics. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "This paper argues that local textual inferences come in three well-defined varieties (entailments, conventional implicatures/presuppositions, and conversational implicatures) and one less clearly defined one, generally available world knowledge. Based on this taxonomy, it discusses some of the examples in the Pascal text suite and shows that these examples do not fall into any of them. It proposes to enlarge the test suite with examples that are more directly related to the inference patterns discussed.",
+            "aminer_id": "5390a6d920f70186a0e8644b"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 135,
+        "citation_types": {
+            "unknown": 135
+        }
+    }
+}

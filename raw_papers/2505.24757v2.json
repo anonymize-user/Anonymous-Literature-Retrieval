@@ -1,0 +1,909 @@
+{
+    "topic": "LGAR: Zero-Shot LLM-Guided Neural Ranking for Abstract Screening in\n  Systematic Literature Reviews",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[59]",
+                "[22]",
+                "[52]",
+                "[37]",
+                "[32]",
+                "[69]",
+                "[46]",
+                "[1]",
+                "[9]",
+                "[56]",
+                "[34]",
+                "[51]",
+                "[18]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Background and Related Work",
+            "refs": [
+                "[6]",
+                "[31]",
+                "[62]",
+                "[5]",
+                "[7]",
+                "[11]",
+                "[70]",
+                "[57]",
+                "[44]",
+                "[30]",
+                "[48]",
+                "[36]",
+                "[28]",
+                "[65]",
+                "[45]",
+                "[64]",
+                "[53]",
+                "[68]",
+                "[60]",
+                "[55]",
+                "[19]",
+                "[40]",
+                "[25]",
+                "[3]",
+                "[10]",
+                "[63]",
+                "[39]",
+                "[1]",
+                "[26]",
+                "[54]",
+                "[15]",
+                "[58]",
+                "[42]",
+                "[50]",
+                "[29]",
+                "[69]",
+                "[49]",
+                "[2]",
+                "[38]",
+                "[21]",
+                "[41]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Dataset Extensions",
+            "refs": [
+                "[18]",
+                "[9]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Extension with Inclusion/Exclusion Criteria and Research Questions",
+                    "refs": [
+                        "[1]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Validation",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "LLM-Guided Abstract Ranking",
+            "refs": [
+                "[16]",
+                "[70]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Graded Relevance Judgments by LLM",
+                    "refs": [
+                        "[23]",
+                        "[67]",
+                        "[66]",
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Neural Dense Re-Ranking",
+                    "refs": [
+                        "[64]",
+                        "[11]",
+                        "[20]",
+                        "[35]",
+                        "[33]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Experiments",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Model Selection and Experimental Settings",
+                    "refs": [
+                        "[47]",
+                        "[12]",
+                        "[1]",
+                        "[34]",
+                        "[15]",
+                        "[35]"
+                    ],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Evaluation Metrics",
+                    "refs": [
+                        "[24]",
+                        "[18]",
+                        "[1]",
+                        "[8]"
+                    ],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Baselines",
+                    "refs": [
+                        "[43]",
+                        "[64]",
+                        "[61]",
+                        "[1]",
+                        "[35]"
+                    ],
+                    "subsections": [],
+                    "number": "5.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Main Results and Findings",
+                    "refs": [
+                        "[1]"
+                    ],
+                    "subsections": [],
+                    "number": "5.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ablation Tests and Analysis",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Effectiveness of different LLMs",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "5.5.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Impact of scale size",
+                            "refs": [
+                                "[70]"
+                            ],
+                            "subsections": [],
+                            "number": "5.5.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Effectiveness of dense rankers",
+                            "refs": [
+                                "[64]"
+                            ],
+                            "subsections": [],
+                            "number": "5.5.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Comparison to fine-tuned model",
+                            "refs": [
+                                "[64]",
+                                "[13]",
+                                "[27]"
+                            ],
+                            "subsections": [],
+                            "number": "5.5.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Performance distribution across SLRs",
+                            "refs": [
+                                "[1]"
+                            ],
+                            "subsections": [],
+                            "number": "5.5.5",
+                            "level": 3
+                        }
+                    ],
+                    "number": "5.5",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion and Outlook",
+            "refs": [
+                "[1]",
+                "[14]",
+                "[17]"
+            ],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations",
+            "refs": [
+                "[62]",
+                "[64]",
+                "[1]",
+                "[65]"
+            ],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgments",
+            "refs": [],
+            "subsections": [],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Appendix",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Initial Interactive Tuning of LGAR",
+                    "refs": [
+                        "[15]"
+                    ],
+                    "subsections": [],
+                    "number": "10.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Detailed Evaluation of LGAR",
+                    "refs": [
+                        "[64]",
+                        "[1]"
+                    ],
+                    "subsections": [],
+                    "number": "10.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Detailed Results of Ablations",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "10.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "2-shot Experiments",
+                    "refs": [
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "10.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hardware and Experiment Statistics",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "10.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Use of AI Assistants",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "10.6",
+                    "level": 2
+                }
+            ],
+            "number": "10",
+            "level": 1
+        }
+    ],
+    "references": {
+        "Akinseloyin2024Question": {
+            "number": "[1]",
+            "title": "A Question-Answering Framework for Automated Abstract Screening Using Large Language Models.",
+            "text": "\\bibitem[{Akinseloyin et~al.(2024)Akinseloyin, Jiang, and Palade}]{Akinseloyin2024Question} Opeoluwa Akinseloyin, Xiaorui Jiang, and Vasile Palade. 2024. \\newblock \\href {https://doi.org/10.1093/jamia/ocae166} {{A question-answering framework for automated abstract screening using large language models}}. \\newblock \\emph{Journal of the American Medical Informatics Association}, page ocae166.",
+            "ref_source": "bbl",
+            "abstract": "OBJECTIVE:This paper aims to address the challenges in abstract screening within systematic reviews (SR) by leveraging the zero-shot capabilities of large language models (LLMs). METHODS:We employ LLM to prioritize candidate studies by aligning abstracts with the selection criteria outlined in an SR protocol. Abstract screening was transformed into a novel question-answering (QA) framework, treating each selection criterion as a question addressed by LLM. The framework involves breaking down the selection criteria into multiple questions, properly prompting LLM to answer each question, scoring and re-ranking each answer, and combining the responses to make nuanced inclusion or exclusion decisions. RESULTS AND DISCUSSION:Large-scale validation was performed on the benchmark of CLEF eHealth 2019 Task 2: Technology-Assisted Reviews in Empirical Medicine. Focusing on GPT-3.5 as a case study, the proposed QA framework consistently exhibited a clear advantage over traditional information retrieval approaches and bespoke BERT-family models that were fine-tuned for prioritizing candidate studies (ie, from the BERT to PubMedBERT) across 31 datasets of 4 categories of SRs, underscoring their high potential in facilitating abstract screening. The experiments also showcased the viability of using selection criteria as a query for reference prioritization. The experiments also showcased the viability of the framework using different LLMs. CONCLUSION:Investigation justified the indispensable value of leveraging selection criteria to improve the performance of automated abstract screening. LLMs demonstrated proficiency in prioritizing candidate studies for abstract screening using the proposed QA framework. Significant performance improvements were obtained by re-ranking answers using the semantic alignment between abstracts and selection criteria. This further highlighted the pertinence of utilizing selection criteria to enhance abstract screening.",
+            "aminer_id": "6583e2de939a5f4082c2fd5c"
+        },
+        "alharbi-2018-retrieving": {
+            "number": "[2]",
+            "title": "Retrieving and Ranking Studies for Systematic Reviews: University of Sheffield's Approach to CLEF Ehealth 2018 Task 2.",
+            "text": "\\bibitem[{Alharbi et~al.(2018)Alharbi, Briggs, and Stevenson}]{alharbi-2018-retrieving} Amal Alharbi, William Briggs, and Mark Stevenson. 2018. \\newblock \\href {https://ceur-ws.org/Vol-2125/paper\\_169.pdf} {Retrieving and ranking studies for systematic reviews: University of sheffield's approach to {CLEF} ehealth 2018 task 2}. \\newblock In \\emph{Working Notes of {CLEF} 2018 - Conference and Labs of the Evaluation Forum, Avignon, France, September 10-14, 2018}, volume 2125 of \\emph{{CEUR} Workshop Proceedings}. CEUR-WS.org.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes the University of Sheffield's approach to CLEF 2018 eHealth Task 2: Technologically Assisted Reviews in Empirical Medicine. This task focuses on identifying relevant studies for systematic reviews. The University of Sheffield participated in both subtasks. Our approach to subtask 1 was to extract keywords from search protocols and form them into queries designed to retrieve relevant documents. Our approach to subtask 2 was to enrich queries with terms designed to identify diagnostic test accuracy studies and also by making use of relevance feedback. A total of six official runs were submitted.",
+            "aminer_id": "5b8c9f1f17c44af36f8b3b5c"
+        },
+        "anagnostou-2017-combining": {
+            "number": "[3]",
+            "title": "Combining Inter-Review Learning-to-Rank and Intra-Review Incremental Training for Title and Abstract Screening in Systematic Reviews.",
+            "text": "\\bibitem[{Anagnostou et~al.(2017)Anagnostou, Lagopoulos, Tsoumakas, and Vlahavas}]{anagnostou-2017-combining} Antonios Anagnostou, Athanasios Lagopoulos, Grigorios Tsoumakas, and Ioannis~P. Vlahavas. 2017. \\newblock \\href {https://ceur-ws.org/Vol-1866/paper\\_89.pdf} {Combining inter-review learning-to-rank and intra-review incremental training for title and abstract screening in systematic reviews}. \\newblock In \\emph{Working Notes of {CLEF} 2017 - Conference and Labs of the Evaluation Forum, Dublin, Ireland, September 11-14, 2017}, volume 1866 of \\emph{{CEUR} Workshop Proceedings}. CEUR-WS.org.",
+            "ref_source": "bbl",
+            "abstract": "We describe the approach we employed for Task II of CLEF eHealth 2017, concerning title and abstract screening in diagnostic test accuracy reviews. Our approach combines a learning-to-rank model trained across multiple reviews with a model focused on the given review, incrementally trained based on relevance feedback. Our learning-to-rank model is built using extreme gradient boosting on features computed by considering the similarity of different fields of the documents (title, abstract), with different fields of the topics (title, query). Our incrementally trained model is a support vector machine trained on a TF-IDF representation of title and abstract of the documents. The results of our approach are promising, reaching 0.658 normalized cumulative gain in the top 10 ranked documents in the simple evaluation setting and 0.846 in the cost-effective evaluation setting, the latter assuming feedback can be obtained from an intermediate user/oracle instead of the end-user.",
+            "aminer_id": "59ae3c662bbe271c4c721f35"
+        },
+        "Brown2020Language": {
+            "number": "[4]",
+            "title": "Language models are few-shot learners",
+            "text": "\\bibitem[{Brown et~al.(2020)Brown, Mann, Ryder, Subbiah, Kaplan, Dhariwal, Neelakantan, Shyam, Sastry, Askell, Agarwal, Herbert{-}Voss, Krueger, Henighan, Child, Ramesh, Ziegler, Wu, Winter, Hesse, Chen, Sigler, Litwin, Gray, Chess, Clark, Berner, McCandlish, Radford, Sutskever, and Amodei}]{Brown2020Language} Tom~B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda Askell, Sandhini Agarwal, Ariel Herbert{-}Voss, Gretchen Krueger, Tom Henighan, Rewon Child, Aditya Ramesh, Daniel~M. Ziegler, Jeffrey Wu, Clemens Winter, Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Benjamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, Ilya Sutskever, and Dario Amodei. 2020. \\newblock \\href {https://proceedings.neurips.cc/paper/2020/hash/1457c0d6bfcb4967418bfb8ac142f64a-Abstract.html} {Language models are few-shot learners}. \\newblock In \\emph{Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5ed0e04291e011915d9e43ee"
+        },
+        "Bui2016Extractive": {
+            "number": "[5]",
+            "title": "Extractive Text Summarization System to Aid Data Extraction from Full Text in Systematic Review Development",
+            "text": "\\bibitem[{Bui et~al.(2016)Bui, Fiol, Hurdle, and Jonnalagadda}]{Bui2016Extractive} Duy Duc~An Bui, Guilherme~Del Fiol, John~F. Hurdle, and Siddhartha Jonnalagadda. 2016. \\newblock \\href {https://doi.org/10.1016/J.JBI.2016.10.014} {Extractive text summarization system to aid data extraction from full text in systematic review development}. \\newblock \\emph{J. Biomed. Informatics}, 64:265--272.",
+            "ref_source": "bbl",
+            "abstract": "Objectives: Extracting data from publication reports is a standard process in systematic review (SR) development. However, the data extraction process still relies too much on manual effort which is slow, costly, and subject to human error. In this study, we developed a text summarization system aimed at enhancing productivity and reducing errors in the traditional data extraction process.Methods: We developed a computer system that used machine learning and natural language processing approaches to automatically generate summaries of full-text scientific publications. The summaries at the sentence and fragment levels were evaluated in finding common clinical SR data elements such as sample size, group size, and PICO values. We compared the computer-generated summaries with human written summaries (title and abstract) in terms of the presence of necessary information for the data extraction as presented in the Cochrane review's study characteristics tables.Results: At the sentence level, the computer-generated summaries covered more information than humans do for systematic reviews (recall 91.2% vs. 83.8%, p < 0.001). They also had a better density of relevant sentences (precision 59% vs. 39%, p < 0.001). At the fragment level, the ensemble approach combining rule-based, concept mapping, and dictionary-based methods performed better than individual methods alone, achieving an 84.7% F-measure.Conclusion: Computer-generated summaries are potential alternative information sources for data extraction in systematic review development. Machine learning and natural language processing are promising approaches to the development of such an extractive summarization system. (C) 2016 Elsevier Inc. All rights reserved.",
+            "aminer_id": "58d82fa5d649053542fd05c2"
+        },
+        "carvallo-2019-comparing": {
+            "number": "[6]",
+            "title": "Comparing Word Embeddings for Document Screening Based on Active Learning.",
+            "text": "\\bibitem[{Carvallo and Parra(2019)}]{carvallo-2019-comparing} Andres Carvallo and Denis Parra. 2019. \\newblock \\href {https://ceur-ws.org/Vol-2414/paper10.pdf} {Comparing word embeddings for document screening based on active learning}. \\newblock In \\emph{Proceedings of the 4th Joint Workshop on Bibliometric-enhanced Information Retrieval and Natural Language Processing for Digital Libraries {(BIRNDL} 2019) co-located with the 42nd International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval {(SIGIR} 2019), Paris, France, July 25, 2019}, volume 2414 of \\emph{{CEUR} Workshop Proceedings}, pages 100--107. CEUR-WS.org.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5d3c23443a55acd386d4df09"
+        },
+        "cheng2018using": {
+            "number": "[7]",
+            "title": "Using Machine Learning to Advance Synthesis and Use of Conservation and Environmental Evidence",
+            "text": "\\bibitem[{Cheng et~al.(2018)Cheng, Augustin, Bethel, Gill, Anzaroot, Brun, DeWilde, Minnich, Garside, Masuda et~al.}]{cheng2018using} SH~Cheng, C~Augustin, A~Bethel, D~Gill, S~Anzaroot, J~Brun, B~DeWilde, RC~Minnich, R~Garside, YJ~Masuda, et~al. 2018. \\newblock Using machine learning to advance synthesis and use of conservation and environmental evidence. \\newblock \\emph{Conservation Biology}, 32(4):762--764.",
+            "ref_source": "bbl",
+            "abstract": "Article impact statement: Machine learning optimizes processes of systematic evidence synthesis and improves its utility for evidence‐based conservation.",
+            "aminer_id": "5fc77ce8a84b2957c5bd8974"
+        },
+        "Cohen2006Reducing": {
+            "number": "[8]",
+            "title": "Research paper: Reducing workload in systematic review preparation using automated citation classification",
+            "text": "\\bibitem[{Cohen et~al.(2006)Cohen, Hersh, Peterson, and Yen}]{Cohen2006Reducing} Aaron~M. Cohen, William~R. Hersh, K.~Peterson, and Po{-}Yin Yen. 2006. \\newblock \\href {https://doi.org/10.1197/JAMIA.M1929} {Research paper: Reducing workload in systematic review preparation using automated citation classification}. \\newblock \\emph{J. Am. Medical Informatics Assoc.}, 13(2):206--219.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "DeBruin2023SYNERGY": {
+            "number": "[9]",
+            "title": "SYNERGY - Open machine learning dataset on study selection in systematic reviews",
+            "text": "\\bibitem[{De~Bruin et~al.(2023)De~Bruin, Ma, Ferdinands, Teijema, and Van~de Schoot}]{DeBruin2023SYNERGY} Jonathan De~Bruin, Yongchao Ma, Gerbrich Ferdinands, Jelle Teijema, and Rens Van~de Schoot. 2023. \\newblock \\href {https://doi.org/10.34894/HE6NAQ} {{SYNERGY - Open machine learning dataset on study selection in systematic reviews}}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "dettmers2024qlora": {
+            "number": "[10]",
+            "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+            "text": "\\bibitem[{Dettmers et~al.(2024)Dettmers, Pagnoni, Holtzman, and Zettlemoyer}]{dettmers2024qlora} Tim Dettmers, Artidoro Pagnoni, Ari Holtzman, and Luke Zettlemoyer. 2024. \\newblock Qlora: Efficient finetuning of quantized llms. \\newblock \\emph{Advances in Neural Information Processing Systems}, 36.",
+            "ref_source": "bbl",
+            "abstract": "We present QLoRA, an efficient finetuning approach that reduces memory usage enough to finetune a 65B parameter model on a single 48GB GPU while preserving full 16-bit finetuning task performance. QLoRA backpropagates gradients through a frozen, 4-bit quantized pretrained language model into Low Rank Adapters~(LoRA). Our best model family, which we name Guanaco, outperforms all previous openly released models on the Vicuna benchmark, reaching 99.3% of the performance level of ChatGPT while only requiring 24 hours of finetuning on a single GPU. QLoRA introduces a number of innovations to save memory without sacrificing performance: (a) 4-bit NormalFloat (NF4), a new data type that is information-theoretically optimal for normally distributed weights (b) Double Quantization to reduce the average memory footprint by quantizing the quantization constants, and (c) Paged Optimziers to manage memory spikes. We use QLoRA to finetune more than 1,000 models, providing a detailed analysis of instruction following and chatbot performance across 8 instruction datasets, multiple model types (LLaMA, T5), and model scales that would be infeasible to run with regular finetuning (e.g. 33B and 65B parameter models). Our results show that QLoRA finetuning on a small, high-quality dataset leads to state-of-the-art results, even when using smaller models than the previous SoTA. We provide a detailed analysis of chatbot performance based on both human and GPT-4 evaluations, showing that GPT-4 evaluations are a cheap and reasonable alternative to human evaluation. Furthermore, we find that current chatbot benchmarks are not trustworthy to accurately evaluate the performance levels of chatbots. A lemon-picked analysis demonstrates where Guanaco fails compared to ChatGPT. We release all of our models and code, including CUDA kernels for 4-bit training.",
+            "aminer_id": "646d8643d68f896efa0a326e"
+        },
+        "devlin-etal-2019-bert": {
+            "number": "[11]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "\\bibitem[{Devlin et~al.(2019)Devlin, Chang, Lee, and Toutanova}]{devlin-etal-2019-bert} Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2019. \\newblock \\href {https://doi.org/10.18653/v1/N19-1423} {{BERT}: Pre-training of deep bidirectional transformers for language understanding}. \\newblock In \\emph{Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)}, pages 4171--4186, Minneapolis, Minnesota. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "Dubey2024Llama": {
+            "number": "[12]",
+            "title": "The Llama 3 Herd of Models",
+            "text": "\\bibitem[{Dubey et~al.(2024)Dubey, Jauhri, Pandey, Kadian, and et~al.}]{Dubey2024Llama} Abhimanyu Dubey, Abhinav Jauhri, Abhinav Pandey, Abhishek Kadian, and et~al. 2024. \\newblock \\href {https://doi.org/10.48550/ARXIV.2407.21783} {{The Llama 3 Herd of Models}}. \\newblock \\emph{CoRR}, abs/2407.21783.",
+            "ref_source": "bbl",
+            "abstract": "Modern artificial intelligence (AI) systems are powered by foundation models. This paper presents a new set of foundation models, called Llama 3. It is a herd of language models that natively support multilinguality, coding, reasoning, and tool usage. Our largest model is a dense Transformer with 405B parameters and a context window of up to 128K tokens. This paper presents an extensive empirical evaluation of Llama 3. We find that Llama 3 delivers comparable quality to leading language models such as GPT-4 on a plethora of tasks. We publicly release Llama 3, including pre-trained and post-trained versions of the 405B parameter language model and our Llama Guard 3 model for input and output safety. The paper also presents the results of experiments in which we integrate image, video, and speech capabilities into Llama 3 via a compositional approach. We observe this approach performs competitively with the state-of-the-art on image, video, and speech recognition tasks. The resulting models are not yet being broadly released as they are still under development.",
+            "aminer_id": "66aaeef501d2a3fbfca99b9d"
+        },
+        "Gao2021Rethink": {
+            "number": "[13]",
+            "title": "Rethink Training of BERT Rerankers in Multi-Stage Retrieval Pipeline",
+            "text": "\\bibitem[{Gao et~al.(2021)Gao, Dai, and Callan}]{Gao2021Rethink} Luyu Gao, Zhuyun Dai, and Jamie Callan. 2021. \\newblock \\href {https://doi.org/10.1007/978-3-030-72240-1\\_26} {Rethink training of {BERT} rerankers in multi-stage retrieval pipeline}. \\newblock In \\emph{Advances in Information Retrieval - 43rd European Conference on {IR} Research, {ECIR} 2021, Virtual Event, March 28 - April 1, 2021, Proceedings, Part {II}}, volume 12657 of \\emph{Lecture Notes in Computer Science}, pages 280--286. Springer.",
+            "ref_source": "bbl",
+            "abstract": "Pre-trained deep language models~(LM) have advanced the state-of-the-art of text retrieval. Rerankers fine-tuned from deep LM estimates candidate relevance based on rich contextualized matching signals. Meanwhile, deep LMs can also be leveraged to improve search index, building retrievers with better recall. One would expect a straightforward combination of both in a pipeline to have additive performance gain. In this paper, we discover otherwise and that popular reranker cannot fully exploit the improved retrieval result. We, therefore, propose a Localized Contrastive Estimation (LCE) for training rerankers and demonstrate it significantly improves deep two-stage models.",
+            "aminer_id": "600aba1d91e0115cfb85a971"
+        },
+        "Gautam2023a": {
+            "number": "[14]",
+            "title": "A Lightweight Method to Generate Unanswerable Questions in English",
+            "text": "\\bibitem[{Gautam et~al.(2023)Gautam, Zhang, and Klakow}]{Gautam2023a} Vagrant Gautam, Miaoran Zhang, and Dietrich Klakow. 2023. \\newblock \\href {https://openreview.net/forum?id=XySq36VD0U} {A lightweight method to generate unanswerable questions in english}. \\newblock In \\emph{The 2023 Conference on Empirical Methods in Natural Language Processing}.",
+            "ref_source": "bbl",
+            "abstract": "If a question cannot be answered with the available information, robust systems for question answering (QA) should know _not_ to answer. One way to build QA models that do this is with additional training data comprised of unanswerable questions, created either by employing annotators or through automated methods for unanswerable question generation. To show that the model complexity of existing automated approaches is not justified, we examine a simpler data augmentation method for unanswerable question generation in English: performing antonym and entity swaps on answerable questions. Compared to the prior state-of-the-art, data generated with our training-free and lightweight strategy results in better models (+1.6 F1 points on SQuAD 2.0 data with BERT-large), and has higher human-judged relatedness and readability. We quantify the raw benefits of our approach compared to no augmentation across multiple encoder models, using different amounts of generated data, and also on TydiQA-MinSpan data (+9.3 F1 points with BERT-large). Our results establish swaps as a simple but strong baseline for future work.",
+            "aminer_id": "6541f356939a5f4082ce36c6"
+        },
+        "Guo2023Automated": {
+            "number": "[15]",
+            "title": "Automated Paper Screening for Clinical Reviews Using Large Language Models",
+            "text": "\\bibitem[{Guo et~al.(2023)Guo, Gupta, Deng, Park, Paget, and Naugler}]{Guo2023Automated} Eddie Guo, Mehul Gupta, Jiawen Deng, Ye{-}Jean Park, Mike Paget, and Christopher Naugler. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2305.00844} {Automated paper screening for clinical reviews using large language models}. \\newblock \\emph{CoRR}, abs/2305.00844.",
+            "ref_source": "bbl",
+            "abstract": "Objective: To assess the performance of the OpenAI GPT API in accurately and efficiently identifying relevant titles and abstracts from real-world clinical review datasets and compare its performance against ground truth labelling by two independent human reviewers. Methods: We introduce a novel workflow using the OpenAI GPT API for screening titles and abstracts in clinical reviews. A Python script was created to make calls to the GPT API with the screening criteria in natural language and a corpus of title and abstract datasets that have been filtered by a minimum of two human reviewers. We compared the performance of our model against human-reviewed papers across six review papers, screening over 24,000 titles and abstracts. Results: Our results show an accuracy of 0.91, a sensitivity of excluded papers of 0.91, and a sensitivity of included papers of 0.76. On a randomly selected subset of papers, the GPT API demonstrated the ability to provide reasoning for its decisions and corrected its initial decision upon being asked to explain its reasoning for a subset of incorrect classifications. Conclusion: The GPT API has the potential to streamline the clinical review process, save valuable time and effort for researchers, and contribute to the overall quality of clinical reviews. By prioritizing the workflow and acting as an aid rather than a replacement for researchers and reviewers, the GPT API can enhance efficiency and lead to more accurate and reliable conclusions in medical research.",
+            "aminer_id": "687b9e7e163c01c8500447ff"
+        },
+        "Guo2024Generating": {
+            "number": "[16]",
+            "title": "MCRanker: Generating Diverse Criteria On-the-Fly to Improve Point-wise LLM Rankers",
+            "text": "\\bibitem[{Guo et~al.(2024)Guo, Li, Zhuang, Luo, Li, Yan, and Zhang}]{Guo2024Generating} Fang Guo, Wenyu Li, Honglei Zhuang, Yun Luo, Yafu Li, Le~Yan, and Yue Zhang. 2024. \\newblock \\href {https://doi.org/10.48550/ARXIV.2404.11960} {Generating diverse criteria on-the-fly to improve point-wise {LLM} rankers}. \\newblock \\emph{CoRR}, abs/2404.11960.",
+            "ref_source": "bbl",
+            "abstract": "The most recent pointwise Large Language Model (LLM) rankers have achieved remarkable ranking results. However, these rankers are hindered by two major drawbacks: (1) they fail to follow a standardized comparison guidance during the ranking process, and (2) they struggle with comprehensive considerations when dealing with complicated passages. To address these shortcomings, we propose to build a ranker that generates ranking scores based on a set of criteria from various perspectives. These criteria are intended to direct each perspective in providing a distinct yet synergistic evaluation. Our research, which examines eight datasets from the BEIR benchmark demonstrates that incorporating this multi-perspective criteria ensemble approach markedly enhanced the performance of pointwise LLM rankers.",
+            "aminer_id": "6621cfe113fb2c6cf6c4614d"
+        },
+        "Ji2022Answer": {
+            "number": "[17]",
+            "title": "To Answer or Not to Answer? Improving Machine Reading Comprehension Model with Span-based Contrastive Learning.",
+            "text": "\\bibitem[{Ji et~al.(2022)Ji, Chen, Dou, Ma, and Li}]{Ji2022Answer} Yunjie Ji, Liangyu Chen, Chenxiao Dou, Baochang Ma, and Xiangang Li. 2022. \\newblock \\href {https://doi.org/10.18653/v1/2022.findings-naacl.96} {To answer or not to answer? improving machine reading comprehension model with span-based contrastive learning}. \\newblock In \\emph{Findings of the Association for Computational Linguistics: NAACL 2022}, pages 1292--1300, Seattle, United States. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Machine Reading Comprehension with Unanswerable Questions is a difficult NLP task, challenged by the questions which can not be answered from passages.It is observed that subtle literal changes often make an answerable question unanswerable, however, most MRC models fail to recognize such changes.To address this problem, in this paper, we propose a span-based method of Contrastive Learning (spanCL) which explicitly contrast answerable questions with their answerable and unanswerable counterparts at the answer span level.With spanCL, MRC models are forced to perceive crucial semantic changes from slight literal differences.Experiments on SQuAD 2.0 dataset show that spanCL can improve baselines significantly, yielding 0.86~2.14 absolute EM improvements. Additional experiments also show that spanCL is an effective way to utilize generated questions.",
+            "aminer_id": "62ea18e05aee126c0fca2d9c"
+        },
+        "Kanoulas2019CLEF": {
+            "number": "[18]",
+            "title": "CLEF 2019 Technology Assisted Reviews in Empirical Medicine Overview",
+            "text": "\\bibitem[{Kanoulas et~al.(2019)Kanoulas, Li, Azzopardi, and Spijker}]{Kanoulas2019CLEF} Evangelos Kanoulas, Dan Li, Leif Azzopardi, and Rene Spijker. 2019. \\newblock Clef 2019 technology assisted reviews in empirical medicine overview. \\newblock \\emph{CEUR Workshop Proceedings}, 2380. \\newblock 20th Working Notes of CLEF Conference and Labs of the Evaluation Forum, CLEF 2019 ; Conference date: 09-09-2019 Through 12-09-2019.",
+            "ref_source": "bbl",
+            "abstract": ". Systematic reviews are a widely used method to provide an overview over the current scientiﬁc consensus, by bringing together multiple studies in a systematic, reliable, and transparent way. The large and growing number of published studies, and their increasing rate of publication, makes the task of identifying all relevant studies in an unbiased way both complex and time consuming to the extent that jeopardizes the validity of their ﬁndings and the ability to inform policy and practice in a timely manner. The CLEF 2019 e-Health TAR Lab accommodated two tasks. Task 1 focused on retrieving relevant studies from PubMed without the use of a Boolean query, while Task 2 focused on the eﬃcient and eﬀective ranking of studies during the abstract and title screening phase of conducting a systematic review. In the 2019 lab we also expanded upon the type of systematics reviews considered. Hence, beyond Diagnostic Test Accuracy reviews, we also included Intervention, Prognosis, and Qualitative systematic reviews. We constructed a benchmark collection of 31 reviews published by Cochrane, and the corresponding relevant and irrelevant articles found by the original Boolean query. Three teams participated in Task 2, submitting automatic and semi-automatic runs, using information retrieval and machine learning algorithms over a variety of text representations, in a batch and iterative manner. This paper reports both the methodology used to construct the benchmark collection, and the results of the evaluation.",
+            "aminer_id": "61c8c6775244ab9dcbb4a37f"
+        },
+        "Khabsa2016Learning": {
+            "number": "[19]",
+            "title": "Learning to Identify Relevant Studies for Systematic Reviews Using Random Forest and External Information",
+            "text": "\\bibitem[{Khabsa et~al.(2016)Khabsa, Elmagarmid, Ilyas, Hammady, and Ouzzani}]{Khabsa2016Learning} Madian Khabsa, Ahmed~K. Elmagarmid, Ihab~F. Ilyas, Hossam Hammady, and Mourad Ouzzani. 2016. \\newblock \\href {https://doi.org/10.1007/S10994-015-5535-7} {Learning to identify relevant studies for systematic reviews using random forest and external information}. \\newblock \\emph{Mach. Learn.}, 102(3):465--482.",
+            "ref_source": "bbl",
+            "abstract": "We tackle the problem of automatically filtering studies while preparing Systematic Reviews (SRs) which normally entails manually inspecting thousands of studies to identify the few to be included. The problem is modeled as an imbalanced data classification task where the cost of misclassifying the minority class is higher than the cost of misclassifying the majority class. This work introduces a novel method for representing systematic reviews based not only on lexical features, but also utilizing word clustering and citation features. This novel representation is shown to outperform previously used features in representing systematic reviews, regardless of the classifier. Our work utilizes a random forest classifier with the novel features to accurately predict included studies with high recall. The parameters of the random forest are automatically configured using heuristics methods thus allowing us to provide a product that is usable in real scenarios. Experiments on a dataset containing 15 systematic reviews that were prepared by health care professionals show that our approach can achieve high recall while helping the SR author save time.",
+            "aminer_id": "599c7aca601a182cd26e1cc7"
+        },
+        "khattab-2020-colbert": {
+            "number": "[20]",
+            "title": "ColBERT: Efficient and Effective Passage Search Via Contextualized Late Interaction over BERT",
+            "text": "\\bibitem[{Khattab and Zaharia(2020)}]{khattab-2020-colbert} Omar Khattab and Matei Zaharia. 2020. \\newblock \\href {https://doi.org/10.1145/3397271.3401075} {Colbert: Efficient and effective passage search via contextualized late interaction over {BERT}}. \\newblock In \\emph{Proceedings of the 43rd International {ACM} {SIGIR} conference on research and development in Information Retrieval, {SIGIR} 2020, Virtual Event, China, July 25-30, 2020}, pages 39--48. {ACM}.",
+            "ref_source": "bbl",
+            "abstract": "Recent progress in Natural Language Understanding (NLU) is driving fast-paced advances in Information Retrieval (IR), largely owed to fine-tuning deep language models (LMs) for document ranking. While remarkably effective, the ranking models based on these LMs increase computational cost by orders of magnitude over prior approaches, particularly as they must feed each query-document pair through a massive neural network to compute a single relevance score. To tackle this, we present ColBERT, a novel ranking model that adapts deep LMs (in particular, BERT) for efficient retrieval. ColBERT introduces a late interaction architecture that independently encodes the query and the document using BERT and then employs a cheap yet powerful interaction step that models their fine-grained similarity. By delaying and yet retaining this fine-granular interaction, ColBERT can leverage the expressiveness of deep LMs while simultaneously gaining the ability to pre-compute document representations offline, considerably speeding up query processing. Crucially, ColBERT's pruning-friendly interaction mechanism enables leveraging vector-similarity indexes for end-to-end retrieval directly from millions of documents. We extensively evaluate ColBERT using two recent passage search datasets. Results show that ColBERT's effectiveness is competitive with existing BERT-based models (and outperforms every non-BERT baseline), while executing two orders-of-magnitude faster and requiring up to four orders-of-magnitude fewer FLOPs per query.",
+            "aminer_id": "5ea8009091e0111d387ee911"
+        },
+        "Kim2014SVM": {
+            "number": "[21]",
+            "title": "An svm-based high-quality article classifier for systematic reviews",
+            "text": "\\bibitem[{Kim and Choi(2014)}]{Kim2014SVM} Seunghee Kim and Jinwook Choi. 2014. \\newblock \\href {https://doi.org/10.1016/J.JBI.2013.10.005} {An svm-based high-quality article classifier for systematic reviews}. \\newblock \\emph{J. Biomed. Informatics}, 47:153--159.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390bfa220f70186a0f54a2a"
+        },
+        "Kitchenham2013Systematic": {
+            "number": "[22]",
+            "title": "A systematic review of systematic review process research in software engineering",
+            "text": "\\bibitem[{Kitchenham and Brereton(2013)}]{Kitchenham2013Systematic} Barbara Kitchenham and Pearl Brereton. 2013. \\newblock \\href {https://doi.org/10.1016/j.infsof.2013.07.010} {A systematic review of systematic review process research in software engineering}. \\newblock \\emph{Information and Software Technology}, 55(12):2049--2075.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c79a7601a182cd2655ddc"
+        },
+        "Kojima2022Large": {
+            "number": "[23]",
+            "title": "Large Language Models Are Zero-Shot Reasoners",
+            "text": "\\bibitem[{Kojima et~al.(2022)Kojima, Gu, Reid, Matsuo, and Iwasawa}]{Kojima2022Large} Takeshi Kojima, Shixiang~Shane Gu, Machel Reid, Yutaka Matsuo, and Yusuke Iwasawa. 2022. \\newblock \\href {http://papers.nips.cc/paper\\_files/paper/2022/hash/8bb0d291acd4acf06ef112099c16f326-Abstract-Conference.html} {Large language models are zero-shot reasoners}. \\newblock In \\emph{Advances in Neural Information Processing Systems 35: Annual Conference on Neural Information Processing Systems 2022, NeurIPS 2022, New Orleans, LA, USA, November 28 - December 9, 2022}.",
+            "ref_source": "bbl",
+            "abstract": "Pretrained large language models (LLMs) are widely used in many sub-fields of natural language processing (NLP) and generally known as excellent few-shot learners with task-specific exemplars. Notably, chain of thought (CoT) prompting, a recent technique for eliciting complex multi-step reasoning through step-by-step answer examples, achieved the state-of-the-art performances in arithmetics and symbolic reasoning, difficult system-2 tasks that do not follow the standard scaling laws for LLMs. While these successes are often attributed to LLMs' ability for few-shot learning, we show that LLMs are decent zero-shot reasoners by simply adding \"Let's think step by step\" before each answer. Experimental results demonstrate that our Zero-shot-CoT, using the same single prompt template, significantly outperforms zero-shot LLM performances on diverse benchmark reasoning tasks including arithmetics (MultiArith, GSM8K, AQUA-RAT, SVAMP), symbolic reasoning (Last Letter, Coin Flip), and other logical reasoning tasks (Date Understanding, Tracking Shuffled Objects), without any hand-crafted few-shot examples, e.g. increasing the accuracy on MultiArith from 17.7% to 78.7% and GSM8K from 10.4% to 40.7% with large InstructGPT model (text-davinci-002), as well as similar magnitudes of improvements with another off-the-shelf large model, 540B parameter PaLM. The versatility of this single prompt across very diverse reasoning tasks hints at untapped and understudied fundamental zero-shot capabilities of LLMs, suggesting high-level, multi-task broad cognitive capabilities may be extracted by simple prompting. We hope our work not only serves as the minimal strongest zero-shot baseline for the challenging reasoning benchmarks, but also highlights the importance of carefully exploring and analyzing the enormous zero-shot knowledge hidden inside LLMs before crafting finetuning datasets or few-shot exemplars.",
+            "aminer_id": "628d9e805aee126c0f979789"
+        },
+        "Kusa2023Analysis": {
+            "number": "[24]",
+            "title": "An Analysis of Work Saved over Sampling in the Evaluation of Automated Citation Screening in Systematic Literature Reviews",
+            "text": "\\bibitem[{Kusa et~al.(2023)Kusa, Lipani, Knoth, and Hanbury}]{Kusa2023Analysis} Wojciech Kusa, Aldo Lipani, Petr Knoth, and Allan Hanbury. 2023. \\newblock \\href {https://doi.org/10.1016/J.ISWA.2023.200193} {An analysis of work saved over sampling in the evaluation of automated citation screening in systematic literature reviews}. \\newblock \\emph{Intell. Syst. Appl.}, 18:200193.",
+            "ref_source": "bbl",
+            "abstract": "Citation screening is an essential and time-consuming step of the systematic literature review process in medicine. Multiple previous studies have proposed various automation techniques to assist manual annotators in this tedious task. The most widely used measure for the evaluation of automated citation screening techniques is Work Saved over Sampling (WSS). In this work, we analyse this measure and examine its drawbacks. We subsequently propose to normalise WSS which enables citation screening performance comparisons across different systematic reviews. We analytically show that normalised WSS is equivalent to the True Negative Rate (TNR). Finally, we provide benchmark scores for fifteen systematic review datasets with TNR@95% recall measure and compare the measure with Precision and AUC.",
+            "aminer_id": "63f5a17290e50fcafd56e0fa"
+        },
+        "lagopoulos-2018-learningtorank": {
+            "number": "[25]",
+            "title": "Learning-to-Rank and Relevance Feedback for Literature Appraisal in Empirical Medicine",
+            "text": "\\bibitem[{Lagopoulos et~al.(2018)Lagopoulos, Anagnostou, Minas, and Tsoumakas}]{lagopoulos-2018-learningtorank} Athanasios Lagopoulos, Antonios Anagnostou, Adamantios Minas, and Grigorios Tsoumakas. 2018. \\newblock \\href {https://doi.org/10.1007/978-3-319-98932-7\\_5} {Learning-to-rank and relevance feedback for literature appraisal in empirical medicine}. \\newblock In \\emph{Experimental {IR} Meets Multilinguality, Multimodality, and Interaction - 9th International Conference of the {CLEF} Association, {CLEF} 2018, Avignon, France, September 10-14, 2018, Proceedings}, volume 11018 of \\emph{Lecture Notes in Computer Science}, pages 52--63. Springer.",
+            "ref_source": "bbl",
+            "abstract": "The constantly expanding medical libraries contain immense amounts of information, including evidence from healthcare research. Gathering and interpreting this evidence can be both challenging and time-consuming for researchers conducting systematic reviews. Technologically assisted review (TAR) aims to assist this process by finding as much relevant information as possible with the least effort. Toward this, we present an incremental learning method that ranks documents, previously retrieved, by automating the process of title and abstract screening. Our approach combines a learning-to-rank model trained across multiple reviews with a model focused on the given review, incrementally trained based on relevance feedback. The classifiers use as features several similarity metrics between the documents and the research topic, such as Levenshtein distance, cosine similarity and BM25, and vectors derived from word embedding methods such as Word2Vec and Doc2Vec. We test our approach using the dataset provided by the Task II of CLEF eHealth 2017 and we empirically compare it with other approaches participated in the task.",
+            "aminer_id": "5b8c9f1f17c44af36f8b3ac1"
+        },
+        "lee-2017-study": {
+            "number": "[26]",
+            "title": "A Study of Convolutional Neural Networks for Clinical Document Classification in Systematic Reviews: SysReview at CLEF Ehealth 2017.",
+            "text": "\\bibitem[{Lee(2017)}]{lee-2017-study} Grace~Eunkyung Lee. 2017. \\newblock \\href {https://ceur-ws.org/Vol-1866/paper\\_88.pdf} {A study of convolutional neural networks for clinical document classification in systematic reviews: Sysreview at {CLEF} ehealth 2017}. \\newblock In \\emph{Working Notes of {CLEF} 2017 - Conference and Labs of the Evaluation Forum, Dublin, Ireland, September 11-14, 2017}, volume 1866 of \\emph{{CEUR} Workshop Proceedings}. CEUR-WS.org.",
+            "ref_source": "bbl",
+            "abstract": "Identifying eligible documents for systematic reviews is one of the most time-consuming steps in writing the reviews. From retrieving numerous clinical documents to manually checking the documents with detailed criteria requires a tremendous amount of time and skilled workforce. In this paper, to increase the efficiency of the process we examine the role of convolutional neural networks for classifying medical documents for systematic reviews. The analysis is carried out in the context of the CLEF 2017 eHealth Task 2 as a participant. The evaluation demonstrates that the suggested methods show slightly better performance for full document screening than abstract screening.",
+            "aminer_id": "59ae3c662bbe271c4c721e9e"
+        },
+        "Lee2020BioBERT": {
+            "number": "[27]",
+            "title": "BioBERT: a Pre-Trained Biomedical Language Representation Model for Biomedical Text Mining.",
+            "text": "\\bibitem[{Lee et~al.(2020)Lee, Yoon, Kim, Kim, Kim, So, and Kang}]{Lee2020BioBERT} Jinhyuk Lee, Wonjin Yoon, Sungdong Kim, Donghyeon Kim, Sunkyu Kim, Chan~Ho So, and Jaewoo Kang. 2020. \\newblock \\href {https://doi.org/10.1093/BIOINFORMATICS/BTZ682} {Biobert: a pre-trained biomedical language representation model for biomedical text mining}. \\newblock \\emph{Bioinform.}, 36(4):1234--1240.",
+            "ref_source": "bbl",
+            "abstract": "Abstract Motivation Biomedical text mining is becoming increasingly important as the number of biomedical documents rapidly grows. With the progress in natural language processing (NLP), extracting valuable information from biomedical literature has gained popularity among researchers, and deep learning has boosted the development of effective biomedical text mining models. However, directly applying the advancements in NLP to biomedical text mining often yields unsatisfactory results due to a word distribution shift from general domain corpora to biomedical corpora. In this article, we investigate how the recently introduced pre-trained language model BERT can be adapted for biomedical corpora. Results We introduce BioBERT (Bidirectional Encoder Representations from Transformers for Biomedical Text Mining), which is a domain-specific language representation model pre-trained on large-scale biomedical corpora. With almost the same architecture across tasks, BioBERT largely outperforms BERT and previous state-of-the-art models in a variety of biomedical text mining tasks when pre-trained on biomedical corpora. While BERT obtains performance comparable to that of previous state-of-the-art models, BioBERT significantly outperforms them on the following three representative biomedical text mining tasks: biomedical named entity recognition (0.62% F1 score improvement), biomedical relation extraction (2.80% F1 score improvement) and biomedical question answering (12.24% MRR improvement). Our analysis results show that pre-training BERT on biomedical corpora helps it to understand complex biomedical texts. Availability and implementation We make the pre-trained weights of BioBERT freely available at https://github.com/naver/biobert-pretrained, and the source code for fine-tuning BioBERT available at https://github.com/dmis-lab/biobert.",
+            "aminer_id": "5c616010e1cd8eae1501d31f"
+        },
+        "lewis-etal-2020-bart": {
+            "number": "[28]",
+            "title": "BART: Denoising Sequence-to-Sequence Pre-training for Natural Language Generation, Translation, and Comprehension",
+            "text": "\\bibitem[{Lewis et~al.(2020)Lewis, Liu, Goyal, Ghazvininejad, Mohamed, Levy, Stoyanov, and Zettlemoyer}]{lewis-etal-2020-bart} Mike Lewis, Yinhan Liu, Naman Goyal, Marjan Ghazvininejad, Abdelrahman Mohamed, Omer Levy, Veselin Stoyanov, and Luke Zettlemoyer. 2020. \\newblock \\href {https://doi.org/10.18653/v1/2020.acl-main.703} {{BART}: Denoising sequence-to-sequence pre-training for natural language generation, translation, and comprehension}. \\newblock In \\emph{Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics}, pages 7871--7880, Online. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We present BART, a denoising autoencoder for pretraining sequence-to-sequence models. BART is trained by (1) corrupting text with an arbitrary noising function, and (2) learning a model to reconstruct the original text. It uses a standard Tranformer-based neural machine translation architecture which, despite its simplicity, can be seen as generalizing BERT (due to the bidirectional encoder), GPT (with the left-to-right decoder), and many other more recent pretraining schemes. We evaluate a number of noising approaches, finding the best performance by both randomly shuffling the order of the original sentences and using a novel in-filling scheme, where spans of text are replaced with a single mask token. BART is particularly effective when fine tuned for text generation but also works well for comprehension tasks. It matches the performance of RoBERTa with comparable training resources on GLUE and SQuAD, achieves new state-of-the-art results on a range of abstractive dialogue, question answering, and summarization tasks, with gains of up to 6 ROUGE. BART also provides a 1.1 BLEU increase over a back-translation system for machine translation, with only target language pretraining. We also report ablation experiments that replicate other pretraining schemes within the BART framework, to better measure which factors most influence end-task performance.",
+            "aminer_id": "5dbab2523a55acea3c05b02b"
+        },
+        "Liang2023Holistic": {
+            "number": "[29]",
+            "title": "Holistic Evaluation of Language Models",
+            "text": "\\bibitem[{Liang et~al.(2023)Liang, Bommasani, Lee, Tsipras, Soylu, Yasunaga, Zhang, Narayanan, Wu, Kumar, Newman, Yuan, Yan, Zhang, Cosgrove, Manning, R{\\'{e}}, Acosta{-}Navas, Hudson, Zelikman, Durmus, Ladhak, Rong, Ren, Yao, Wang, Santhanam, Orr, Zheng, Y{\\\"{u}}ksekg{\\\"{o}}n{\\\"{u}}l, Suzgun, Kim, Guha, Chatterji, Khattab, Henderson, Huang, Chi, Xie, Santurkar, Ganguli, Hashimoto, Icard, Zhang, Chaudhary, Wang, Li, Mai, Zhang, and Koreeda}]{Liang2023Holistic} Percy Liang, Rishi Bommasani, Tony Lee, Dimitris Tsipras, Dilara Soylu, Michihiro Yasunaga, Yian Zhang, Deepak Narayanan, Yuhuai Wu, Ananya Kumar, Benjamin Newman, Binhang Yuan, Bobby Yan, Ce~Zhang, Christian Cosgrove, Christopher~D. Manning, Christopher R{\\'{e}}, Diana Acosta{-}Navas, Drew~A. Hudson, Eric Zelikman, Esin Durmus, Faisal Ladhak, Frieda Rong, Hongyu Ren, Huaxiu Yao, Jue Wang, Keshav Santhanam, Laurel~J. Orr, Lucia Zheng, Mert Y{\\\"{u}}ksekg{\\\"{o}}n{\\\"{u}}l, Mirac Suzgun, Nathan Kim, Neel Guha, Niladri~S. Chatterji, Omar Khattab, Peter Henderson, Qian Huang, Ryan Chi, Sang~Michael Xie, Shibani Santurkar, Surya Ganguli, Tatsunori Hashimoto, Thomas Icard, Tianyi Zhang, Vishrav Chaudhary, William Wang, Xuechen Li, Yifan Mai, Yuhui Zhang, and Yuta Koreeda. 2023. \\newblock \\href {https://openreview.net/forum?id=iO4LZibEqW} {Holistic evaluation of language models}. \\newblock \\emph{Trans. Mach. Learn. Res.}, 2023.",
+            "ref_source": "bbl",
+            "abstract": "Language models (LMs) are becoming the foundation for almost all major language technologies, but their capabilities, limitations, and risks are not well understood. We present Holistic Evaluation of Language Models (HELM) to improve the transparency of language models. First, we taxonomize the vast space of potential scenarios (i.e. use cases) and metrics (i.e. desiderata) that are of interest for LMs. Then we select a broad subset based on coverage and feasibility, noting what's missing or underrepresented (e.g. question answering for neglected English dialects, metrics for trustworthiness). Second, we adopt a multi-metric approach: We measure 7 metrics (accuracy, calibration, robustness, fairness, bias, toxicity, and efficiency) for each of 16 core scenarios when possible (87.5% of the time). This ensures metrics beyond accuracy don't fall to the wayside, and that trade-offs are clearly exposed. We also perform 7 targeted evaluations, based on 26 targeted scenarios, to analyze specific aspects (e.g. reasoning, disinformation). Third, we conduct a large-scale evaluation of 30 prominent language models (spanning open, limited-access, and closed models) on all 42 scenarios, 21 of which were not previously used in mainstream LM evaluation. Prior to HELM, models on average were evaluated on just 17.9% of the core HELM scenarios, with some prominent models not sharing a single scenario in common. We improve this to 96.0%: now all 30 models have been densely benchmarked on the same core scenarios and metrics under standardized conditions. Our evaluation surfaces 25 top-level findings. For full transparency, we release all raw model prompts and completions publicly for further analysis, as well as a general modular toolkit. We intend for HELM to be a living benchmark for the community, continuously updated with new scenarios, metrics, and models.",
+            "aminer_id": "6375a67190e50fcafd3e1d5e"
+        },
+        "Matwin2010New": {
+            "number": "[30]",
+            "title": "A New Algorithm for Reducing the Workload of Experts in Performing Systematic Reviews.",
+            "text": "\\bibitem[{Matwin et~al.(2010)Matwin, Kouznetsov, Inkpen, Frunza, and O'Blenis}]{Matwin2010New} Stan Matwin, Alexandre Kouznetsov, Diana Inkpen, Oana Frunza, and Peter O'Blenis. 2010. \\newblock \\href {https://doi.org/10.1136/JAMIA.2010.004325} {A new algorithm for reducing the workload of experts in performing systematic reviews}. \\newblock \\emph{J. Am. Medical Informatics Assoc.}, 17(4):446--453.",
+            "ref_source": "bbl",
+            "abstract": "OBJECTIVETo determine whether a factorized version of the complement naïve Bayes (FCNB) classifier can reduce the time spent by experts reviewing journal articles for inclusion in systematic reviews of drug class efficacy for disease treatment.DESIGNThe proposed classifier was evaluated on a test collection built from 15 systematic drug class reviews used in previous work. The FCNB classifier was constructed to classify each article as containing high-quality, drug class-specific evidence or not. Weight engineering (WE) techniques were added to reduce underestimation for Medical Subject Headings (MeSH)-based and Publication Type (PubType)-based features. Cross-validation experiments were performed to evaluate the classifier's parameters and performance.MEASUREMENTSWork saved over sampling (WSS) at no less than a 95% recall was used as the main measure of performance.RESULTSThe minimum workload reduction for a systematic review for one topic, achieved with a FCNB/WE classifier, was 8.5%; the maximum was 62.2% and the average over the 15 topics was 33.5%. This is 15.0% higher than the average workload reduction obtained using a voting perceptron-based automated citation classification system.CONCLUSIONThe FCNB/WE classifier is simple, easy to implement, and produces significantly better results in reducing the workload than previously achieved. The results support it being a useful algorithm for machine-learning-based automation of systematic reviews of drug class efficacy for disease treatment.",
+            "aminer_id": "53e9b8aeb7602d970448cdef"
+        },
+        "Matwin2012Direct": {
+            "number": "[31]",
+            "title": "Direct Comparison Between Support Vector Machine and Multinomial Naive Bayes Algorithms for Medical Abstract Classification.",
+            "text": "\\bibitem[{Matwin and Sazonova(2012)}]{Matwin2012Direct} Stan Matwin and Vera Sazonova. 2012. \\newblock \\href {https://doi.org/10.1136/amiajnl-2012-001072} {Direct comparison between support vector machine and multinomial naive bayes algorithms for medical abstract classification}. \\newblock \\emph{Journal of the American Medical Informatics Association}, 19(5):917--917.",
+            "ref_source": "bbl",
+            "abstract": "In 2011 Matwin et al published a letter to JAMIA entitled ‘Performance of SVM and Bayesian classifiers on the systematic review classification task’.1 This letter continued a discussion on the relative benefits of using support vector machine (SVM) and Bayesian techniques for performing systematic reviews.2–4 In particular, it was suggested that the running time of algorithms must be taken into consideration when comparing their performances as it becomes very important for large datasets. Following up on this idea, we attempted to directly compare the performance of a Bayesian method with the SVM algorithm used by Cohen in his original work.4 The same SVM system (SVMlight5) with the same parameters as was …",
+            "aminer_id": "53e9a6e6b7602d97030183fc"
+        },
+        "Michelson2019Significant": {
+            "number": "[32]",
+            "title": "The Significant Cost of Systematic Reviews and Meta-Analyses: A Call for Greater Involvement of Machine Learning to Assess the Promise of Clinical Trials",
+            "text": "\\bibitem[{Michelson and Reuter(2019)}]{Michelson2019Significant} Matthew Michelson and Katja Reuter. 2019. \\newblock \\href {https://doi.org/10.1016/j.conctc.2019.100443} {The significant cost of systematic reviews and meta-analyses: {A} call for greater involvement of machine learning to assess the promise of clinical trials}. \\newblock \\emph{Contemporary Clinical Trials Communications}, 16:100443.",
+            "ref_source": "bbl",
+            "abstract": "Background: More than 90% of clinical-trial compounds fail to demonstrate sufficient efficacy and safety. To help alleviate this issue, systematic literature review and meta-analysis (SLR), which synthesize current evidence for a research question, can be applied to preclinical evidence to identify the most promising therapeutics. However, these methods remain time-consuming and labor-intensive. Here, we introduce an economic formula to estimate the expense of SLR for academic institutions and pharmaceutical companies. Methods: We estimate the manual effort involved in SLR by quantifying the amount of labor required and the total associated labor cost. We begin with an empirical estimation and derive a formula that quantifies and describes the cost. Results: The formula estimated that each SLR costs approximately $141,194.80. We found that on average, the ten largest pharmaceutical companies publish 118.71 and the ten major academic institutions publish 132.16 SLRs per year. On average, the total cost of all SLRs per year to each academic institution amounts to $18,660,304.77 and for each pharmaceutical company is $16,761,234.71. Discussion: It appears that SLR is an important, but costly mechanisms to assess the totality of evidence. Conclusions: With the increase in the number of publications, the significant time and cost of SLR may pose a barrier to their consistent application to assess the promise of clinical trials thoroughly. We call on investigators and developers to develop automated solutions to help with the assessment of preclinical evidence particularly. The formula we introduce provides a cost baseline against which the efficiency of automation can be measured.",
+            "aminer_id": "5d77759747c8f76646d17af0"
+        },
+        "Nguyen2016MSMARCO": {
+            "number": "[33]",
+            "title": "MS MARCO: A human generated machine reading comprehension dataset",
+            "text": "\\bibitem[{Nguyen et~al.(2016)Nguyen, Rosenberg, Song, Gao, Tiwary, Majumder, and Deng}]{Nguyen2016MSMARCO} Tri Nguyen, Mir Rosenberg, Xia Song, Jianfeng Gao, Saurabh Tiwary, Rangan Majumder, and Li~Deng. 2016. \\newblock \\href {https://arxiv.org/abs/1611.09268} {{MS} {MARCO:} {A} human generated machine reading comprehension dataset}. \\newblock \\emph{CoRR}, abs/1611.09268.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7f08601a182cd28e59bf"
+        },
+        "nogueira-etal-2020-document": {
+            "number": "[34]",
+            "title": "Document Ranking with a Pretrained Sequence-to-Sequence Model",
+            "text": "\\bibitem[{Nogueira et~al.(2020)Nogueira, Jiang, Pradeep, and Lin}]{nogueira-etal-2020-document} Rodrigo Nogueira, Zhiying Jiang, Ronak Pradeep, and Jimmy Lin. 2020. \\newblock \\href {https://doi.org/10.18653/v1/2020.findings-emnlp.63} {Document ranking with a pretrained sequence-to-sequence model}. \\newblock In \\emph{Findings of the Association for Computational Linguistics: EMNLP 2020}, pages 708--718, Online. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "This work proposes a novel adaptation of a pretrained sequence-to-sequence model to the task of document ranking. Our approach is fundamentally different from a commonly-adopted classification-based formulation of ranking, based on encoder-only pretrained transformer architectures such as BERT. We show how a sequence-to-sequence model can be trained to generate relevance labels as \"target words\", and how the underlying logits of these target words can be interpreted as relevance probabilities for ranking. On the popular MS MARCO passage ranking task, experimental results show that our approach is at least on par with previous classification-based models and can surpass them with larger, more-recent models. On the test collection from the TREC 2004 Robust Track, we demonstrate a zero-shot transfer-based approach that outperforms previous state-of-the-art models requiring in-dataset cross-validation. Furthermore, we find that our approach significantly outperforms an encoder-only model in a data-poor regime (i.e., with few training examples). We investigate this observation further by varying target words to probe the model's use of latent knowledge.",
+            "aminer_id": "5e71f49891e0115656f5cf74"
+        },
+        "Nogueira2019Passage": {
+            "number": "[35]",
+            "title": "Passage Re-ranking with BERT",
+            "text": "\\bibitem[{Nogueira and Cho(2019)}]{Nogueira2019Passage} Rodrigo~Frassetto Nogueira and Kyunghyun Cho. 2019. \\newblock \\href {https://arxiv.org/abs/1901.04085} {Passage re-ranking with {BERT}}. \\newblock \\emph{CoRR}, abs/1901.04085.",
+            "ref_source": "bbl",
+            "abstract": "Recently, neural models pretrained on a language modeling task, such as ELMo (Peters et al., 2017), OpenAI GPT (Radford et al., 2018), and BERT (Devlin et al., 2018), have achieved impressive results on various natural language processing tasks such as question-answering and natural language inference. In this paper, we describe a simple re-implementation of BERT for query-based passage re-ranking. Our system is the state of the art on the TREC-CAR dataset and the top entry in the leaderboard of the MS MARCO passage retrieval task, outperforming the previous state of the art by 27% (relative) in MRR@10. The code to reproduce our results is available at this https URL",
+            "aminer_id": "5c615fb4e1cd8eae1501c0ea"
+        },
+        "monoBERT": {
+            "number": "[36]",
+            "title": "Multi-Stage Document Ranking with BERT",
+            "text": "\\bibitem[{Nogueira et~al.(2019)Nogueira, Yang, Cho, and Lin}]{monoBERT} Rodrigo~Frassetto Nogueira, Wei Yang, Kyunghyun Cho, and Jimmy Lin. 2019. \\newblock \\href {https://arxiv.org/abs/1910.14424} {Multi-stage document ranking with {BERT}}. \\newblock \\emph{CoRR}, abs/1910.14424.",
+            "ref_source": "bbl",
+            "abstract": "  The advent of deep neural networks pre-trained via language modeling tasks has spurred a number of successful applications in natural language processing. This work explores one such popular model, BERT, in the context of document ranking. We propose two variants, called monoBERT and duoBERT, that formulate the ranking problem as pointwise and pairwise classification, respectively. These two models are arranged in a multi-stage ranking architecture to form an end-to-end search system. One major advantage of this design is the ability to trade off quality against latency by controlling the admission of candidates into each pipeline stage, and by doing so, we are able to find operating points that offer a good balance between these two competing metrics. On two large-scale datasets, MS MARCO and TREC CAR, experiments show that our model produces results that are either at or comparable to the state of the art. Ablation studies show the contributions of each component and characterize the latency/quality tradeoff space. ",
+            "aminer_id": "5dbc02463a55ac76d0e350fb"
+        },
+        "oliveira2022global": {
+            "number": "[37]",
+            "title": "Global Scientific Production in the Pre-Covid-19 Era: an Analysis of 53 Countries for 22 Years",
+            "text": "\\bibitem[{Oliveira et~al.(2022)Oliveira, Oliveira, Colosimo, Martelli, Silva, Silva, and Martelli-J{\\'u}nior}]{oliveira2022global} Eduardo~A Oliveira, Maria Christina~L Oliveira, Enrico~A Colosimo, Daniella~B Martelli, Ludmila~R Silva, Ana Cristina Sim{\\~o}es~E Silva, and Herc{\\'\\i}lio Martelli-J{\\'u}nior. 2022. \\newblock Global scientific production in the pre-covid-19 era: An analysis of 53 countries for 22 years. \\newblock \\emph{Anais da Academia Brasileira de Ci{\\^e}ncias}, 94(suppl 3):e20201428.",
+            "ref_source": "bbl",
+            "abstract": "Based on an extensive analysis of public databases, we provide an overview of the global scientific output and describe the dynamics of the profound changes in the scientific enterprise during the last decades. The analysis included the scientific production of 53 countries over the 1996-2018 period. During this period, the production of articles per year has tripled. There was a strong correlation between the growth of the global gross domestic product and the increase in the number of articles (R2 = 0.973, P<0.001). Six countries showed a robust increment of their scientific production and are currently among the top 20 in the ranking of world scientific production (China, India, South Korea, Brazil, Turkey, and Iran). The mean annual growth rate was about 12.7% for these six countries. The share of the global scientific production of these countries increased from 7% in 1996 to 27.8% in 2018. Conversely, the participation of the 10 most traditional countries has dropped from 73% to 45% during the same period. In conclusion, we believe that our findings may contribute to further studies aiming to evaluate the impact and changes of the scientific endeavor over the next years in light of the forthcoming new world framework.",
+            "aminer_id": "63809d3290e50fcafd7974e5"
+        },
+        "ouzzani2016rayyan": {
+            "number": "[38]",
+            "title": "Rayyan—a Web and Mobile App for Systematic Reviews",
+            "text": "\\bibitem[{Ouzzani et~al.(2016)Ouzzani, Hammady, Fedorowicz, and Elmagarmid}]{ouzzani2016rayyan} Mourad Ouzzani, Hossam Hammady, Zbys Fedorowicz, and Ahmed Elmagarmid. 2016. \\newblock Rayyan—a web and mobile app for systematic reviews. \\newblock \\emph{Systematic reviews}, 5:1--10.",
+            "ref_source": "bbl",
+            "abstract": "Background: Synthesis of multiple randomized controlled trials (RCTs) in a systematic review can summarize the effects of individual outcomes and provide numerical answers about the effectiveness of interventions. Filtering of searches is time consuming, and no single method fulfills the principal requirements of speed with accuracy. Automation of systematic reviews is driven by a necessity to expedite the availability of current best evidence for policy and clinical decision-making.We developed Rayyan (http://rayyan.qcri.org), a free web and mobile app, that helps expedite the initial screening of abstracts and titles using a process of semi-automation while incorporating a high level of usability. For the beta testing phase, we used two published Cochrane reviews in which included studies had been selected manually. Their searches, with 1030 records and 273 records, were uploaded to Rayyan. Different features of Rayyan were tested using these two reviews. We also conducted a survey of Rayyan's users and collected feedback through a built-in feature.Results: Pilot testing of Rayyan focused on usability, accuracy against manual methods, and the added value of the prediction feature. The \"taster\" review (273 records) allowed a quick overview of Rayyan for early comments on usability. The second review (1030 records) required several iterations to identify the previously identified 11 trials. The \"suggestions\" and \"hints,\"based on the \"prediction model,\"appeared as testing progressed beyond five included studies. Post rollout user experiences and a reflexive response by the developers enabled real-time modifications and improvements. The survey respondents reported 40% average time savings when using Rayyan compared to others tools, with 34% of the respondents reporting more than 50% time savings. In addition, around 75% of the respondents mentioned that screening and labeling studies as well as collaborating on reviews to be the two most important features of Rayyan.As of November 2016, Rayyan users exceed 2000 from over 60 countries conducting hundreds of reviews totaling more than 1.6M citations. Feedback from users, obtained mostly through the app web site and a recent survey, has highlighted the ease in exploration of searches, the time saved, and simplicity in sharing and comparing include-exclude decisions. The strongest features of the app, identified and reported in user feedback, were its ability to help in screening and collaboration as well as the time savings it affords to users.Conclusions: Rayyan is responsive and intuitive in use with significant potential to lighten the load of reviewers.",
+            "aminer_id": "58d555110cf221de03622b48"
+        },
+        "Panayi2023Evaluation": {
+            "number": "[39]",
+            "title": "Evaluation of a Prototype Machine Learning Tool to Semi-Automate Data Extraction for Systematic Literature Reviews.",
+            "text": "\\bibitem[{Panayi et~al.(2023)Panayi, Ward, Benhadji-Schaff, Ibanez-Lopez, Xia, and Barzilay}]{Panayi2023Evaluation} Antonia Panayi, Katherine Ward, Amir Benhadji-Schaff, A~Santiago Ibanez-Lopez, Andrew Xia, and Regina Barzilay. 2023. \\newblock \\href {https://doi.org/10.1186/s13643-023-02351-w} {Evaluation of a prototype machine learning tool to semi-automate data extraction for systematic literature reviews}. \\newblock \\emph{Systematic Reviews}, 12(1):187.",
+            "ref_source": "bbl",
+            "abstract": "BACKGROUND:Evidence-based medicine requires synthesis of research through rigorous and time-intensive systematic literature reviews (SLRs), with significant resource expenditure for data extraction from scientific publications. Machine learning may enable the timely completion of SLRs and reduce errors by automating data identification and extraction.METHODS:We evaluated the use of machine learning to extract data from publications related to SLRs in oncology (SLR 1) and Fabry disease (SLR 2). SLR 1 predominantly contained interventional studies and SLR 2 observational studies. Predefined key terms and data were manually annotated to train and test bidirectional encoder representations from transformers (BERT) and bidirectional long-short-term memory machine learning models. Using human annotation as a reference, we assessed the ability of the models to identify biomedical terms of interest (entities) and their relations. We also pretrained BERT on a corpus of 100,000 open access clinical publications and/or enhanced context-dependent entity classification with a conditional random field (CRF) model. Performance was measured using the F1 score, a metric that combines precision and recall. We defined successful matches as partial overlap of entities of the same type.RESULTS:For entity recognition, the pretrained BERT+CRF model had the best performance, with an F1 score of 73% in SLR 1 and 70% in SLR 2. Entity types identified with the highest accuracy were metrics for progression-free survival (SLR 1, F1 score 88%) or for patient age (SLR 2, F1 score 82%). Treatment arm dosage was identified less successfully (F1 scores 60% [SLR 1] and 49% [SLR 2]). The best-performing model for relation extraction, pretrained BERT relation classification, exhibited F1 scores higher than 90% in cases with at least 80 relation examples for a pair of related entity types.CONCLUSIONS:The performance of BERT is enhanced by pretraining with biomedical literature and by combining with a CRF model. With refinement, machine learning may assist with manual data extraction for SLRs.",
+            "aminer_id": "6522446c3fda6d7f068a77ec"
+        },
+        "przybyla2018prioritising": {
+            "number": "[40]",
+            "title": "Prioritising References for Systematic Reviews with RobotAnalyst: A User Study",
+            "text": "\\bibitem[{Przyby{\\l}a et~al.(2018)Przyby{\\l}a, Brockmeier, Kontonatsios, Le~Pogam, McNaught, von Elm, Nolan, and Ananiadou}]{przybyla2018prioritising} Piotr Przyby{\\l}a, Austin~J Brockmeier, Georgios Kontonatsios, Marie-Annick Le~Pogam, John McNaught, Erik von Elm, Kay Nolan, and Sophia Ananiadou. 2018. \\newblock Prioritising references for systematic reviews with robotanalyst: a user study. \\newblock \\emph{Research synthesis methods}, 9(3):470--488.",
+            "ref_source": "bbl",
+            "abstract": "Screening references is a time‐consuming step necessary for systematic reviews and guideline development. Previous studies have shown that human effort can be reduced by using machine learning software to prioritise large reference collections such that most of the relevant references are identified before screening is completed. We describe and evaluate RobotAnalyst, a Web‐based software system that combines text‐mining and machine learning algorithms for organising references by their content and actively prioritising them based on a relevancy classification model trained and updated throughout the process. We report an evaluation over 22 reference collections (most are related to public health topics) screened using RobotAnalyst with a total of 43 610 abstract‐level decisions. The number of references that needed to be screened to identify 95% of the abstract‐level inclusions for the evidence review was reduced on 19 of the 22 collections. Significant gains over random sampling were achieved for all reviews conducted with active prioritisation, as compared with only two of five when prioritisation was not used. RobotAnalyst's descriptive clustering and topic modelling functionalities were also evaluated by public health analysts. Descriptive clustering provided more coherent organisation than topic modelling, and the content of the clusters was apparent to the users across a varying number of clusters. This is the first large‐scale study using technology‐assisted screening to perform new reviews, and the positive results provide empirical evidence that RobotAnalyst can accelerate the identification of relevant studies. The results also highlight the issue of user complacency and the need for a stopping criterion to realise the work savings.",
+            "aminer_id": "5c0f8422da562944ac8de68c"
+        },
+        "Qin2021Natural": {
+            "number": "[41]",
+            "title": "Natural Language Processing Was Effective in Assisting Rapid Title and Abstract Screening when Updating Systematic Reviews",
+            "text": "\\bibitem[{Qin et~al.(2021)Qin, Liu, Wang, Liu, Deng, Ma, Zou, Li, and Sun}]{Qin2021Natural} Xuan Qin, Jiali Liu, Yuning Wang, Yanmei Liu, Ke~Deng, Yu~Ma, Kang Zou, Ling Li, and Xin Sun. 2021. \\newblock \\href {https://doi.org/10.1016/j.jclinepi.2021.01.010} {Natural language processing was effective in assisting rapid title and abstract screening when updating systematic reviews}. \\newblock \\emph{Journal of Clinical Epidemiology}, 133:121--129.",
+            "ref_source": "bbl",
+            "abstract": "BACKGROUND AND OBJECTIVE:To examine whether the use of natural language processing (NLP) technology is effective in assisting rapid title and abstract screening when updating a systematic review.STUDY DESIGN:Using the searched literature from a published systematic review, we trained and tested an NLP model that enables rapid title and abstract screening when updating a systematic review. The model was a light gradient boosting machine (LightGBM), an ensemble learning classifier which integrates four pretrained Bidirectional Encoder Representations from Transformers (BERT) models. We divided the searched citations into two sets (ie, training and test sets). The model was trained using the training set and assessed for screening performance using the test set. The searched citations, whose eligibility was determined by two independent reviewers, were treated as the reference standard.RESULTS:The test set included 947 citations; our model included 340 citations, excluded 607 citations, and achieved 96% sensitivity, and 78% specificity. If the classifier assessment in the case study was accepted, reviewers would lose 8 of 180 eligible citations (4%), none of which were ultimately included in the systematic review after full-text consideration, while decreasing the workload by 64.1%.CONCLUSION:NLP technology using the ensemble learning method may effectively assist in rapid literature screening when updating systematic reviews.",
+            "aminer_id": "600fe9e0d4150a363c25c7bc"
+        },
+        "Qin2024Large": {
+            "number": "[42]",
+            "title": "Large Language Models Are Effective Text Rankers with Pairwise Ranking Prompting.",
+            "text": "\\bibitem[{Qin et~al.(2024)Qin, Jagerman, Hui, Zhuang, Wu, Yan, Shen, Liu, Liu, Metzler, Wang, and Bendersky}]{Qin2024Large} Zhen Qin, Rolf Jagerman, Kai Hui, Honglei Zhuang, Junru Wu, Le~Yan, Jiaming Shen, Tianqi Liu, Jialu Liu, Donald Metzler, Xuanhui Wang, and Michael Bendersky. 2024. \\newblock \\href {https://doi.org/10.18653/V1/2024.FINDINGS-NAACL.97} {Large language models are effective text rankers with pairwise ranking prompting}. \\newblock In \\emph{Findings of the Association for Computational Linguistics: {NAACL} 2024, Mexico City, Mexico, June 16-21, 2024}, pages 1504--1518. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Ranking documents using Large Language Models (LLMs) by directly feeding the query and candidate documents into the prompt is an interesting and practical problem. However, researchers have found it difficult to outperform fine-tuned baseline rankers on benchmark datasets. We analyze pointwise and listwise ranking prompts used by existing methods and argue that off-the-shelf LLMs do not fully understand these challenging ranking formulations. In this paper, we propose to significantly reduce the burden on LLMs by using a new technique called Pairwise Ranking Prompting (PRP). Our results are the first in the literature to achieve state-of-the-art ranking performance on standard benchmarks using moderate-sized open-sourced LLMs. On TREC-DL 2019&2020, PRP based on the Flan-UL2 model with 20B parameters performs favorably with the previous best approach in the literature, which is based on the blackbox commercial GPT-4 that has 50x (estimated) model size, while outperforming other LLM-based solutions, such as InstructGPT which has 175B parameters, by over 10% for all ranking metrics. By using the same prompt template on seven BEIR tasks, PRP outperforms supervised baselines and outperforms the blackbox commercial ChatGPT solution by 4.2% and pointwise LLM-based solutions by more than 10% on average NDCG@10. Furthermore, we propose several variants of PRP to improve efficiency and show that it is possible to achieve competitive results even with linear complexity.",
+            "aminer_id": "64a407dbd68f896efaf1b930"
+        },
+        "RobertsonZ09": {
+            "number": "[43]",
+            "title": "The Probabilistic Relevance Framework: BM25 and Beyond",
+            "text": "\\bibitem[{Robertson and Zaragoza(2009)}]{RobertsonZ09} Stephen~E. Robertson and Hugo Zaragoza. 2009. \\newblock \\href {https://doi.org/10.1561/1500000019} {The probabilistic relevance framework: {BM25} and beyond}. \\newblock \\emph{Found. Trends Inf. Retr.}, 3(4):333--389.",
+            "ref_source": "bbl",
+            "abstract": "The Probabilistic Relevance Framework (PRF) is a formal framework for document retrieval, grounded in work done in the 1970—1980s, which led to the development of one of the most successful text-retrieval algorithms, BM25. In recent years, research in the PRF has yielded new retrieval models capable of taking into account document meta-data (especially structure and link-graph information). Again, this has led to one of the most successful Web-search and corporate-search algorithms, BM25F. This work presents the PRF from a conceptual point of view, describing the probabilistic modelling assumptions behind the framework and the different ranking algorithms that result from its application: the binary independence model, relevance feedback models, BM25 and BM25F. It also discusses the relation between the PRF and other statistical models for IR, and covers some related topics, such as the use of non-textual features, and parameter optimisation for models with free parameters.",
+            "aminer_id": "5390a80f20f70186a0e961df"
+        },
+        "Robinson2023Bio-SIEVE": {
+            "number": "[44]",
+            "title": "Bio-SIEVE: Exploring Instruction Tuning Large Language Models for Systematic Review Automation",
+            "text": "\\bibitem[{Robinson et~al.(2023)Robinson, Thorne, Wu, Pandor, Essat, Stevenson, and Song}]{Robinson2023Bio-SIEVE} Ambrose Robinson, William Thorne, Ben~P. Wu, Abdullah Pandor, Munira Essat, Mark Stevenson, and Xingyi Song. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2308.06610} {Bio-sieve: Exploring instruction tuning large language models for systematic review automation}. \\newblock \\emph{CoRR}, abs/2308.06610.",
+            "ref_source": "bbl",
+            "abstract": "Medical systematic reviews can be very costly and resource intensive. We explore how Large Language Models (LLMs) can support and be trained to perform literature screening when provided with a detailed set of selection criteria. Specifically, we instruction tune LLaMA and Guanaco models to perform abstract screening for medical systematic reviews. Our best model, Bio-SIEVE, outperforms both ChatGPT and trained traditional approaches, and generalises better across medical domains. However, there remains the challenge of adapting the model to safety-first scenarios. We also explore the impact of multi-task training with Bio-SIEVE-Multi, including tasks such as PICO extraction and exclusion reasoning, but find that it is unable to match single-task Bio-SIEVE's performance. We see Bio-SIEVE as an important step towards specialising LLMs for the biomedical systematic review process and explore its future developmental opportunities. We release our models, code and a list of DOIs to reconstruct our dataset for reproducibility.",
+            "aminer_id": "64dafb293fda6d7f064e2ba6"
+        },
+        "Sachan2022Improving": {
+            "number": "[45]",
+            "title": "Improving Passage Retrieval with Zero-Shot Question Generation",
+            "text": "\\bibitem[{Sachan et~al.(2022)Sachan, Lewis, Joshi, Aghajanyan, Yih, Pineau, and Zettlemoyer}]{Sachan2022Improving} Devendra~Singh Sachan, Mike Lewis, Mandar Joshi, Armen Aghajanyan, Wen{-}tau Yih, Joelle Pineau, and Luke Zettlemoyer. 2022. \\newblock \\href {https://doi.org/10.18653/V1/2022.EMNLP-MAIN.249} {Improving passage retrieval with zero-shot question generation}. \\newblock In \\emph{Proceedings of the 2022 Conference on Empirical Methods in Natural Language Processing, {EMNLP} 2022, Abu Dhabi, United Arab Emirates, December 7-11, 2022}, pages 3781--3797. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "We propose a simple and effective re-ranking method for improving passage retrieval in open question answering. The re-ranker re-scores retrieved passages with a zero-shot question generation model, which uses a pre-trained language model to compute the probability of the input question conditioned on a retrieved passage. This approach can be applied on top of any retrieval method (e.g. neural or keyword-based), does not require any domain- or task-specific training (and therefore is expected to generalize better to data distribution shifts), and provides rich cross-attention between query and passage (i.e. it must explain every token in the question). When evaluated on a number of open-domain retrieval datasets, our re-ranker improves strong unsupervised retrieval models by 6%-18% absolute and strong supervised models by up to 12% in terms of top-20 passage retrieval accuracy. We also obtain new state-of-the-art results on full open-domain question answering by simply adding the new re-ranker to existing models with no further changes.",
+            "aminer_id": "625cd6b85aee126c0f3c6fcd"
+        },
+        "Sandner2024ScreeningAF": {
+            "number": "[46]",
+            "title": "Screening Automation for Systematic Reviews: A 5-Tier Prompting Approach Meeting Cochrane’s Sensitivity Requirement",
+            "text": "\\bibitem[{Sandner et~al.(2024)Sandner, Hu, Simiceanu, Fontana, Jakovljevic, Henriques, Wagner, and G{\\\"u}tl}]{Sandner2024ScreeningAF} Elias Sandner, Bing Hu, Alice Simiceanu, Luca Fontana, Igor Jakovljevic, Andre Henriques, Andreas Wagner, and Christian G{\\\"u}tl. 2024. \\newblock \\href {https://api.semanticscholar.org/CorpusID:275956648} {Screening automation for systematic reviews: A 5-tier prompting approach meeting cochrane’s sensitivity requirement}. \\newblock \\emph{2024 2nd International Conference on Foundation and Large Language Models (FLLM)}, pages 150--159.",
+            "ref_source": "bbl",
+            "abstract": "Systematic Reviews are essential for synthesizing evidence from multiple studies, but the process, particularly the title and abstract screening phase, is time-consuming and labour-intensive. Traditional machine learning methods for automating this phase often fall short of the sensitivity required by Cochrane, which is set at greater than 0.99. This paper introduces a novel 5-tier prompting approach leveraging a foundational Large Language Model to automate the screening process. First, each study is assigned to one of five classes based on its likelihood of meeting predefined inclusion and exclusion criteria. Using a specified threshold, these classifications are then converted into binary decisions. This approach minimizes the risk of excluding relevant papers while automatically excluding the majority of irrelevant ones.Evaluation conducted on 5,643 records from four published systematic reviews resulted in zero wrong excludes when compared to human full-text screening decisions. The executed experiments resulted in a 68% average reduction in human workload, which enables a 50% decrease in the time needed to complete the screening process, all without compromising the accuracy of the results. These findings suggest that the 5-tier prompting approach offers a promising solution for enhancing the efficiency of systematic reviews.",
+            "aminer_id": "67996940ae8580e7ffcf4336"
+        },
+        "santhanam-etal-2022-colbertv2": {
+            "number": "[47]",
+            "title": "ColBERTv2: Effective and Efficient Retrieval Via Lightweight Late Interaction",
+            "text": "\\bibitem[{Santhanam et~al.(2022)Santhanam, Khattab, Saad-Falcon, Potts, and Zaharia}]{santhanam-etal-2022-colbertv2} Keshav Santhanam, Omar Khattab, Jon Saad-Falcon, Christopher Potts, and Matei Zaharia. 2022. \\newblock \\href {https://doi.org/10.18653/v1/2022.naacl-main.272} {{C}ol{BERT}v2: Effective and efficient retrieval via lightweight late interaction}. \\newblock In \\emph{Proceedings of the 2022 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies}, pages 3715--3734, Seattle, United States. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Neural information retrieval (IR) has greatly advanced search and other knowledge-intensive language tasks. While many neural IR methods encode queries and documents into single-vector representations, late interaction models produce multi-vector representations at the granularity of each token and decompose relevance modeling into scalable token-level computations. This decomposition has been shown to make late interaction more effective, but it inflates the space footprint of these models by an order of magnitude. In this work, we introduce Maize, a retriever that couples an aggressive residual compression mechanism with a denoised supervision strategy to simultaneously improve the quality and space footprint of late interaction. We evaluate Maize across a wide range of benchmarks, establishing state-of-the-art quality within and outside the training domain while reducing the space footprint of late interaction models by 6–10x.",
+            "aminer_id": "61a98aff5244ab9dcb955eb6"
+        },
+        "scells-2020-teach": {
+            "number": "[48]",
+            "title": "You Can Teach an Old Dog New Tricks: Rank Fusion Applied to Coordination Level Matching for Ranking in Systematic Reviews",
+            "text": "\\bibitem[{Scells et~al.(2020{\\natexlab{a}})Scells, Zuccon, and Koopman}]{scells-2020-teach} Harrisen Scells, Guido Zuccon, and Bevan Koopman. 2020{\\natexlab{a}}. \\newblock \\href {https://doi.org/10.1007/978-3-030-45439-5\\_27} {You can teach an old dog new tricks: Rank fusion applied to coordination level matching for ranking in systematic reviews}. \\newblock In \\emph{Advances in Information Retrieval - 42nd European Conference on {IR} Research, {ECIR} 2020, Lisbon, Portugal, April 14-17, 2020, Proceedings, Part {I}}, volume 12035 of \\emph{Lecture Notes in Computer Science}, pages 399--414. Springer.",
+            "ref_source": "bbl",
+            "abstract": "Coordination level matching is a ranking method originally proposed to rank documents given Boolean queries that is now several decades old. Rank fusion is a relatively recent method for combining runs from multiple systems into a single ranking, and has been shown to significantly improve the ranking. This paper presents a novel extension to coordination level matching, by applying rank fusion to each sub-clause of a Boolean query. We show that, for the tasks of systematic review screening prioritisation and stopping estimation, our method significantly outperforms the state-of-the-art learning to rank and bag-of-words-based systems for this domain. Our fully automatic, unsupervised method has (i) the potential for significant real-world cost savings (ii) does not rely on any intervention from the user, and (iii) is significantly better at ranking documents given only a Boolean query in the context of systematic reviews when compared to other approaches.",
+            "aminer_id": "64a725d1d68f896efab0b832"
+        },
+        "Scells2020Automatic": {
+            "number": "[49]",
+            "title": "Automatic Boolean Query Formulation for Systematic Review Literature Search",
+            "text": "\\bibitem[{Scells et~al.(2020{\\natexlab{b}})Scells, Zuccon, Koopman, and Clark}]{Scells2020Automatic} Harrisen Scells, Guido Zuccon, Bevan Koopman, and Justin Clark. 2020{\\natexlab{b}}. \\newblock \\href {https://doi.org/10.1145/3366423.3380185} {Automatic boolean query formulation for systematic review literature search}. \\newblock In \\emph{{WWW} '20: The Web Conference 2020, Taipei, Taiwan, April 20-24, 2020}, pages 1071--1081. {ACM} / {IW3C2}.",
+            "ref_source": "bbl",
+            "abstract": "Formulating Boolean queries for systematic review literature search is a challenging task. Commonly, queries are formulated by information specialists using the protocol specified in the review and interactions with the research team. Information specialists have in-depth experience on how to formulate queries in this domain, but may not have in-depth knowledge about the reviews' topics. Query formulation requires a significant amount of time and effort, and is performed interactively; specialists repeatedly formulate queries, attempt to validate their results, and reformulate specific Boolean clauses. In this paper, we investigate the possibility of automatically formulating a Boolean query from the systematic review protocol. We propose a novel five-step approach to automatic query formulation, specific to Boolean queries in this domain, which approximates the process by which information specialists formulate queries. In this process, we use syntax parsing to derive the logical structure of high-level concepts in a query, automatically extract and map concepts to entities in order to perform entity expansion, and finally apply post-processing operations (such as stemming and search filters). Automatic query formulation for systematic review literature search has several benefits: (i) it can provide reviewers with an indication of the types of studies that will be retrieved, without the involvement of an information specialist, (ii) it can provide information specialists with an initial query to begin the formulation process, (iii) it can provide researchers that perform rapid reviews with a method to quickly perform searches.",
+            "aminer_id": "5cd7fa07ced107d4c65bf33d"
+        },
+        "Scells2020Computational": {
+            "number": "[50]",
+            "title": "A Computational Approach for Objectively Derived Systematic Review Search Strategies",
+            "text": "\\bibitem[{Scells et~al.(2020{\\natexlab{c}})Scells, Zuccon, Koopman, and Clark}]{Scells2020Computational} Harrisen Scells, Guido Zuccon, Bevan Koopman, and Justin Clark. 2020{\\natexlab{c}}. \\newblock \\href {https://doi.org/10.1007/978-3-030-45439-5\\_26} {A computational approach for objectively derived systematic review search strategies}. \\newblock In \\emph{Advances in Information Retrieval - 42nd European Conference on {IR} Research, {ECIR} 2020, Lisbon, Portugal, April 14-17, 2020, Proceedings, Part {I}}, volume 12035 of \\emph{Lecture Notes in Computer Science}, pages 385--398. Springer.",
+            "ref_source": "bbl",
+            "abstract": "Searching literature for a systematic review begins with a manually constructed search strategy by an expert information specialist. The typical process of constructing search strategies is often undocumented, ad-hoc, and subject to individual expertise, which may introduce bias in the systematic review. A new method for objectively deriving search strategies has arisen from information specialists attempting to address these shortcomings. However, this proposed method still presents a number of manual, ad-hoc interventions, and trial-and-error processes, potentially still introducing bias into systematic reviews. Moreover, this method has not been rigorously evaluated on a large set of systematic review cases, thus its generalisability is unknown. In this work, we present a computational adaptation of this proposed objective method. Our adaptation removes the human-in-the-loop processes involved in the initial steps of creating a search strategy for a systematic review; reducing bias due to human factors and increasing the objectivity of the originally proposed method. Our proposed computational adaptation further enables a formal and rigorous evaluation over a large set of systematic reviews. We find that our computational adaptation of the original objective method provides an effective starting point for information specialists to continue refining. We also identify a number of avenues for extending and improving our adaptation to further promote supporting information specialists.",
+            "aminer_id": "6577350a939a5f4082fdbab8"
+        },
+        "Schneider2023Publications": {
+            "number": "[51]",
+            "title": "Publications output: Us trends and international comparisons. science & engineering indicators 2024. nsb-2023-33",
+            "text": "\\bibitem[{Schneider(2023)}]{Schneider2023Publications} Benjamin Schneider. 2023. \\newblock Publications output: Us trends and international comparisons. science \\& engineering indicators 2024. nsb-2023-33. \\newblock \\emph{National Science Foundation}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "sujau2024accelerating": {
+            "number": "[52]",
+            "title": "Accelerating Disease Model Parameter Extraction: an LLM-based Ranking Approach to Select Initial Studies for Literature Review Automation",
+            "text": "\\bibitem[{Sujau et~al.(2025)Sujau, Wada, Vallee, Hillis, and Susnjak}]{sujau2024accelerating} Masood Sujau, Masako Wada, Emilie Vallee, Natalie Hillis, and Teo Susnjak. 2025. \\newblock \\href {https://doi.org/10.20944/preprints202501.1513.v1} {Accelerating disease model parameter extraction: An llm-based ranking approach to select initial studies for literature review automation}. \\newblock \\emph{Preprints}.",
+            "ref_source": "bbl",
+            "abstract": "As climate change transforms our environment and human intrusion into natural ecosystems escalates, there is a growing demand for disease spread models to forecast and plan for the next zoonotic disease outbreak. Accurate parametrization of these models requires data from diverse sources, including the scientific literature. Despite the abundance of scientific publications, the manual extraction of these data via systematic literature reviews remains a significant bottleneck, requiring extensive time and resources, and is susceptible to human error. This study examines the application of a large language model (LLM) as an assessor for screening prioritisation in climate-sensitive zoonotic disease research. By framing the selection criteria of articles as a question–answer task and utilising zero-shot chain-of-thought prompting, the proposed method achieves a saving of at least 70% work effort compared to manual screening at a recall level of 95% (NWSS@95%). This was validated across four datasets containing four distinct zoonotic diseases and a critical climate variable (rainfall). The approach additionally produces explainable AI rationales for each ranked article. The effectiveness of the approach across multiple diseases demonstrates the potential for broad application in systematic literature reviews. The substantial reduction in screening effort, along with the provision of explainable AI rationales, marks an important step toward automated parameter extraction from the scientific literature.",
+            "aminer_id": "67910cecae8580e7ff4bc193"
+        },
+        "Sun2023Instruction": {
+            "number": "[53]",
+            "title": "Instruction distillation makes large language models efficient zero-shot rankers",
+            "text": "\\bibitem[{Sun et~al.(2023)Sun, Chen, Ma, Yan, Wang, Ren, Chen, Yin, and Ren}]{Sun2023Instruction} Weiwei Sun, Zheng Chen, Xinyu Ma, Lingyong Yan, Shuaiqiang Wang, Pengjie Ren, Zhumin Chen, Dawei Yin, and Zhaochun Ren. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2311.01555} {Instruction distillation makes large language models efficient zero-shot rankers}. \\newblock \\emph{CoRR}, abs/2311.01555.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "65484bfd939a5f4082af5b62"
+        },
+        "Syriani2023Assessing": {
+            "number": "[54]",
+            "title": "Assessing the Ability of ChatGPT to Screen Articles for Systematic Reviews",
+            "text": "\\bibitem[{Syriani et~al.(2023)Syriani, David, and Kumar}]{Syriani2023Assessing} Eugene Syriani, Istvan David, and Gauransh Kumar. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2307.06464} {Assessing the ability of chatgpt to screen articles for systematic reviews}. \\newblock \\emph{CoRR}, abs/2307.06464.",
+            "ref_source": "bbl",
+            "abstract": "By organizing knowledge within a research field, Systematic Reviews (SR) provide valuable leads to steer research. Evidence suggests that SRs have become first-class artifacts in software engineering. However, the tedious manual effort associated with the screening phase of SRs renders these studies a costly and error-prone endeavor. While screening has traditionally been considered not amenable to automation, the advent of generative AI-driven chatbots, backed with large language models is set to disrupt the field. In this report, we propose an approach to leverage these novel technological developments for automating the screening of SRs. We assess the consistency, classification performance, and generalizability of ChatGPT in screening articles for SRs and compare these figures with those of traditional classifiers used in SR automation. Our results indicate that ChatGPT is a viable option to automate the SR processes, but requires careful considerations from developers when integrating ChatGPT into their SR tools.",
+            "aminer_id": "68a7c2e12855152d9feafc20"
+        },
+        "Tang2024Found": {
+            "number": "[55]",
+            "title": "Found in the Middle: Permutation Self-Consistency Improves Listwise Ranking in Large Language Models",
+            "text": "\\bibitem[{Tang et~al.(2024)Tang, Zhang, Ma, Lin, and Ture}]{Tang2024Found} Raphael Tang, Xinyu~Crystina Zhang, Xueguang Ma, Jimmy Lin, and Ferhan Ture. 2024. \\newblock \\href {https://doi.org/10.18653/V1/2024.NAACL-LONG.129} {Found in the middle: Permutation self-consistency improves listwise ranking in large language models}. \\newblock In \\emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 1: Long Papers), {NAACL} 2024, Mexico City, Mexico, June 16-21, 2024}, pages 2327--2340. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "Large language models (LLMs) exhibit positional bias in how they use context,which especially complicates listwise ranking. To address this, we proposepermutation self-consistency, a form of self-consistency over ranking listoutputs of black-box LLMs. Our key idea is to marginalize out different listorders in the prompt to produce an order-independent ranking with lesspositional bias. First, given some input prompt, we repeatedly shuffle the listin the prompt and pass it through the LLM while holding the instructions thesame. Next, we aggregate the resulting sample of rankings by computing thecentral ranking closest in distance to all of them, marginalizing out promptorder biases in the process. Theoretically, we prove the robustness of ourmethod, showing convergence to the true ranking in the presence of randomperturbations. Empirically, on five list-ranking datasets in sorting andpassage reranking, our approach improves scores from conventional inference byup to 7-18state of the art in passage reranking. Our code is athttps://github.com/castorini/perm-sc.",
+            "aminer_id": "65275736939a5f4082a46c50"
+        },
+        "Tran2023SensitivitySA": {
+            "number": "[56]",
+            "title": "Sensitivity, Specificity and Avoidable Workload of Using a Large Language Models for Title and Abstract Screening in Systematic Reviews and Meta-Analyses",
+            "text": "\\bibitem[{thi Tran et~al.(2023)thi Tran, Gartlehner, Yaacoub, Boutron, Schwingshackl, Stadelmaier, Sommer, Aboulayeh, Afach, Meerpohl, Ravaud, Est, and MD}]{Tran2023SensitivitySA} Viet thi Tran, Gerald Gartlehner, Sally Yaacoub, Isabelle Boutron, Lukas Schwingshackl, Julia Stadelmaier, Isolde Sommer, Farzaneh Aboulayeh, Sivem Afach, Joerg Meerpohl, Philippe Ravaud, Paris Est, and PhD Viet-Thi~Tran MD. 2023. \\newblock \\href {https://api.semanticscholar.org/CorpusID:266335201} {Sensitivity, specificity and avoidable workload of using a large language models for title and abstract screening in systematic reviews and meta-analyses}. \\newblock In \\emph{medRxiv}.",
+            "ref_source": "bbl",
+            "abstract": "Importance: Systematic reviews are time-consuming and are still performed predominately manually by researchers despite the exponential growth of scientific literature. Objective: To investigate the sensitivity, specificity and estimate the avoidable workload when using an AI-based large language model (LLM) (Generative Pre-trained Transformer [GPT] version 3.5-Turbo from OpenAI) to perform title and abstract screening in systematic reviews. Data Sources: Unannotated bibliographic databases from five systematic reviews conducted by researchers from Cochrane Austria, Germany and France, all published after January 2022 and hence not in the training data set from GPT 3.5-Turbo. Design: We developed a set of prompts for GPT models aimed at mimicking the process of title and abstract screening by human researchers. We compared recommendations from LLM to rule out citations based on title and abstract with decisions from authors, with a systematic reappraisal of all discrepancies between LLM and their original decisions. We used bivariate models for meta-analyses of diagnostic accuracy to estimate pooled estimates of sensitivity and specificity. We performed a simulation to assess the avoidable workload from limiting human screening on title and abstract to citations which were not \"ruled out\" by the LLM in a random sample of 100 systematic reviews published between 01/07/2022 and 31/12/2022. We extrapolated estimates of avoidable workload for health-related systematic reviews assessing therapeutic interventions in humans published per year. Results: Performance of GPT models was tested across 22,666 citations. Pooled estimates of sensitivity and specificity were 97.1% (95%CI 89.6% to 99.2%) and 37.7%, (95%CI 18.4% to 61.9%), respectively. In 2022, we estimated the workload of title and abstract screening for systematic reviews to range from 211,013 to 422,025 person-hours. Limiting human screening to citations which were not \"ruled out\" by GPT models could reduce workload by 65% and save up from 106,268 to 276,053-person work hours (i.e.,66 to 172-person years of work), every year. Conclusions and Relevance: AI systems based on large language models provide highly sensitive and moderately specific recommendations to rule out citations during title and abstract screening in systematic reviews. Their use to \"triage\" citations before human assessment could reduce the workload of evidence synthesis.### Competing Interest StatementThe authors have declared no competing interest.### Funding StatementThis study did not receive any funding### Author DeclarationsI confirm all relevant ethical guidelines have been followed, and any necessary IRB and/or ethics committee approvals have been obtained.YesI confirm that all necessary patient/participant consent has been obtained and the appropriate institutional forms have been archived, and that any patient/participant/sample identifiers included were not known to anyone (e.g., hospital staff, patients or participants themselves) outside the research group so cannot be used to identify individuals.YesI understand that all clinical trials and any other prospective interventional studies must be registered with an ICMJE-approved registry, such as ClinicalTrials.gov. I confirm that any such study reported in the manuscript has been registered and the trial registration ID is provided (note: if posting a prospective study registered retrospectively, please provide a statement in the trial ID field explaining why the study was not registered in advance).YesI have followed all appropriate research reporting guidelines, such as any relevant EQUATOR Network research reporting checklist(s) and other pertinent material, if applicable.YesData from reviews is available upon request to original authors.",
+            "aminer_id": "65803464939a5f4082bd59dd"
+        },
+        "Touvron2023Llama": {
+            "number": "[57]",
+            "title": "LLaMA: Open and Efficient Foundation Language Models",
+            "text": "\\bibitem[{Touvron et~al.(2023)Touvron, Lavril, Izacard, Martinet, Lachaux, Lacroix, Rozi{\\`{e}}re, Goyal, Hambro, Azhar, Rodriguez, Joulin, Grave, and Lample}]{Touvron2023Llama} Hugo Touvron, Thibaut Lavril, Gautier Izacard, Xavier Martinet, Marie{-}Anne Lachaux, Timoth{\\'{e}}e Lacroix, Baptiste Rozi{\\`{e}}re, Naman Goyal, Eric Hambro, Faisal Azhar, Aur{\\'{e}}lien Rodriguez, Armand Joulin, Edouard Grave, and Guillaume Lample. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2302.13971} {Llama: Open and efficient foundation language models}. \\newblock \\emph{CoRR}, abs/2302.13971.",
+            "ref_source": "bbl",
+            "abstract": "We introduce LLaMA, a collection of foundation language models ranging from 7B to 65B parameters. We train our models on trillions of tokens, and show that it is possible to train state-of-the-art models using publicly available datasets exclusively, without resorting to proprietary and inaccessible datasets. In particular, LLaMA-13B outperforms GPT-3 (175B) on most benchmarks, and LLaMA-65B is competitive with the best models, Chinchilla-70B and PaLM-540B. We release all our models to the research community.",
+            "aminer_id": "63fd715e90e50fcafd14767c"
+        },
+        "VanDeSchoot2021Open": {
+            "number": "[58]",
+            "title": "An Open Source Machine Learning Framework for Efficient and Transparent Systematic Reviews",
+            "text": "\\bibitem[{van~de Schoot et~al.(2021)van~de Schoot, de~Bruin, Schram, Zahedi, de~Boer, Weijdema, Kramer, Huijts, Hoogerwerf, Ferdinands, Harkema, Willemsen, Ma, Fang, Hindriks, Tummers, and Oberski}]{VanDeSchoot2021Open} Rens van~de Schoot, Jonathan de~Bruin, Raoul Schram, Parisa Zahedi, Jan de~Boer, Felix Weijdema, Bianca Kramer, Martijn Huijts, Maarten Hoogerwerf, Gerbrich Ferdinands, Albert Harkema, Joukje Willemsen, Yongchao Ma, Qixiang Fang, Sybren Hindriks, Lars Tummers, and Daniel~L. Oberski. 2021. \\newblock \\href {https://doi.org/10.1038/s42256-020-00287-7} {An open source machine learning framework for efficient and transparent systematic reviews}. \\newblock \\emph{Nature Machine Intelligence}, 3(2):125--133. \\newblock Publisher: Nature Publishing Group.",
+            "ref_source": "bbl",
+            "abstract": "To help researchers conduct a systematic review or meta-analysis as efficiently and transparently as possible, we designed a tool to accelerate the step of screening titles and abstracts. For many tasks—including but not limited to systematic reviews and meta-analyses—the scientific literature needs to be checked systematically. Scholars and practitioners currently screen thousands of studies by hand to determine which studies to include in their review or meta-analysis. This is error prone and inefficient because of extremely imbalanced data: only a fraction of the screened studies is relevant. The future of systematic reviewing will be an interaction with machine learning algorithms to deal with the enormous increase of available text. We therefore developed an open source machine learning-aided pipeline applying active learning: ASReview. We demonstrate by means of simulation studies that active learning can yield far more efficient reviewing than manual reviewing while providing high quality. Furthermore, we describe the options of the free and open source research software and present the results from user experience tests. We invite the community to contribute to open source projects such as our own that provide measurable and reproducible improvements over current practice. It is a challenging task for any research field to screen the literature and determine what needs to be included in a systematic review in a transparent way. A new open source machine learning framework called ASReview, which employs active learning and offers a range of machine learning models, can check the literature efficiently and systemically.",
+            "aminer_id": "605aa26ce4510cd7c86b72b7"
+        },
+        "VanDinter2021Automation": {
+            "number": "[59]",
+            "title": "Automation of Systematic Literature Reviews: A Systematic Literature Review",
+            "text": "\\bibitem[{van Dinter et~al.(2021)van Dinter, Tekinerdogan, and Catal}]{VanDinter2021Automation} Raymon van Dinter, Bedir Tekinerdogan, and Cagatay Catal. 2021. \\newblock \\href {https://doi.org/10.1016/j.infsof.2021.106589} {Automation of systematic literature reviews: {A} systematic literature review}. \\newblock \\emph{Information and Software Technology}, 136:106589.",
+            "ref_source": "bbl",
+            "abstract": "Systematic Literature Review (SLR) studies aim to identify relevant primary papers, extract the required data, analyze, and synthesize results to gain further and broader insight into the investigated domain. Multiple SLR studies have been conducted in several domains, such as software engineering, medicine, and pharmacy. Conducting an SLR is a time-consuming, laborious, and costly effort. As such, several researchers developed different techniques to automate the SLR process. However, a systematic overview of the current state-of-the-art in SLR automation seems to be lacking. This study aims to collect and synthesize the studies that focus on the automation of SLR to pave the way for further research. A systematic literature review is conducted on published primary studies on the automation of SLR studies, in which 41 primary studies have been analyzed. This SLR identifies the objectives of automation studies, application domains, automated steps of the SLR, automation techniques, and challenges and solution directions. According to our study, the leading automated step is the Selection of Primary Studies. Although many studies have provided automation approaches for systematic literature reviews, no study has been found to apply automation techniques in the planning and reporting phase. Further research is needed to support the automation of the other activities of the SLR process.",
+            "aminer_id": "60c33c72e4510cd7c82ddf38"
+        },
+        "Wallace2012Deploying": {
+            "number": "[60]",
+            "title": "Deploying an Interactive Machine Learning System in an Evidence-Based Practice Center: Abstrackr",
+            "text": "\\bibitem[{Wallace et~al.(2012)Wallace, Small, Brodley, Lau, and Trikalinos}]{Wallace2012Deploying} Byron~C. Wallace, Kevin Small, Carla~E. Brodley, Joseph Lau, and Thomas~A. Trikalinos. 2012. \\newblock \\href {https://doi.org/10.1145/2110363.2110464} {Deploying an interactive machine learning system in an evidence-based practice center: abstrackr}. \\newblock In \\emph{Proceedings of the 2nd ACM SIGHIT International Health Informatics Symposium}, IHI '12, page 819–824, New York, NY, USA. Association for Computing Machinery.",
+            "ref_source": "bbl",
+            "abstract": "Medical researchers looking for evidence pertinent to a specific clinical question must navigate an increasingly voluminous corpus of published literature. This data deluge has motivated the development of machine learning and data mining technologies to facilitate efficient biomedical research. Despite the obvious labor-saving potential of these technologies and the concomitant academic interest therein, however, adoption of machine learning techniques by medical researchers has been relatively sluggish. One explanation for this is that while many machine learning methods have been proposed and retrospectively evaluated, they are rarely (if ever) actually made accessible to the practitioners whom they would benefit. In this work, we describe the ongoing development of an end-to-end interactive machine learning system at the Tufts Evidence-based Practice Center. More specifically, we have developed abstrackr, an online tool for the task of citation screening for systematic reviews. This tool provides an interface to our machine learning methods. The main aim of this work is to provide a case study in deploying cutting-edge machine learning methods that will actually be used by experts in a clinical research setting.",
+            "aminer_id": "5390b2fc20f70186a0eede6a"
+        },
+        "wang2024improving-text": {
+            "number": "[61]",
+            "title": "Improving Text Embeddings with Large Language Models",
+            "text": "\\bibitem[{Wang et~al.(2024{\\natexlab{a}})Wang, Yang, Huang, Yang, Majumder, and Wei}]{wang2024improving-text} Liang Wang, Nan Yang, Xiaolong Huang, Linjun Yang, Rangan Majumder, and Furu Wei. 2024{\\natexlab{a}}. \\newblock \\href {https://doi.org/10.18653/v1/2024.acl-long.642} {Improving text embeddings with large language models}. \\newblock In \\emph{Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)}, pages 11897--11916, Bangkok, Thailand. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we introduce a novel and simple method for obtaininghigh-quality text embeddings using only synthetic data and less than 1ktraining steps. Unlike existing methods that often depend on multi-stageintermediate pre-training with billions of weakly-supervised text pairs,followed by fine-tuning with a few labeled datasets, our method does notrequire building complex training pipelines or relying on manually collecteddatasets that are often constrained by task diversity and language coverage. Weleverage proprietary LLMs to generate diverse synthetic data for hundreds ofthousands of text embedding tasks across nearly 100 languages. We thenfine-tune open-source decoder-only LLMs on the synthetic data using standardcontrastive loss. Experiments demonstrate that our method achieves strongperformance on highly competitive text embedding benchmarks without using anylabeled data. Furthermore, when fine-tuned with a mixture of synthetic andlabeled data, our model sets new state-of-the-art results on the BEIR and MTEBbenchmarks.",
+            "aminer_id": "65939159939a5f4082e677b6"
+        },
+        "Wang2023Generating": {
+            "number": "[62]",
+            "title": "Generating Natural Language Queries for More Effective Systematic Review Screening Prioritisation",
+            "text": "\\bibitem[{Wang et~al.(2023{\\natexlab{a}})Wang, Scells, Koopman, Potthast, and Zuccon}]{Wang2023Generating} Shuai Wang, Harrisen Scells, Bevan Koopman, Martin Potthast, and Guido Zuccon. 2023{\\natexlab{a}}. \\newblock \\href {https://doi.org/10.1145/3624918.3625322} {Generating natural language queries for more effective systematic review screening prioritisation}. \\newblock In \\emph{Proceedings of the Annual International ACM SIGIR Conference on Research and Development in Information Retrieval in the Asia Pacific Region}, SIGIR-AP '23, page 73–83, New York, NY, USA. Association for Computing Machinery.",
+            "ref_source": "bbl",
+            "abstract": "Screening prioritisation in medical systematic reviews aims to rank the set of documents retrieved by complex Boolean queries. Prioritising the most important documents ensures that subsequent review steps can be carried out more efficiently and effectively. The current state of the art uses the final title of the review as a query to rank the documents using BERT-based neural rankers. However, the final title is only formulated at the end of the review process, which makes this approach impractical as it relies on ex post facto information. At the time of screening, only a rough working title is available, with which the BERT-based ranker performs significantly worse than with the final title. In this paper, we explore alternative sources of queries for prioritising screening, such as the Boolean query used to retrieve the documents to be screened and queries generated by instruction-based generative large-scale language models such as ChatGPT and Alpaca. Our best approach is not only viable based on the information available at the time of screening, but also has similar effectiveness to the final title.",
+            "aminer_id": "64ffca703fda6d7f06cd8b86"
+        },
+        "Wang2023Can": {
+            "number": "[63]",
+            "title": "Can ChatGPT Write a Good Boolean Query for Systematic Review Literature Search?",
+            "text": "\\bibitem[{Wang et~al.(2023{\\natexlab{b}})Wang, Scells, Koopman, and Zuccon}]{Wang2023Can} Shuai Wang, Harrisen Scells, Bevan Koopman, and Guido Zuccon. 2023{\\natexlab{b}}. \\newblock \\href {https://doi.org/10.1145/3539618.3591703} {Can chatgpt write a good boolean query for systematic review literature search?} \\newblock In \\emph{Proceedings of the 46th International {ACM} {SIGIR} Conference on Research and Development in Information Retrieval, {SIGIR} 2023, Taipei, Taiwan, July 23-27, 2023}, pages 1426--1436. {ACM}.",
+            "ref_source": "bbl",
+            "abstract": "Systematic reviews are comprehensive literature reviews for a highly focused research question. These reviews are considered the highest form of evidence in medicine. Complex Boolean queries are developed as part of the systematic review creation process to retrieve literature, as they permit reproducibility and understandability. However, it is difficult and time-consuming to develop high-quality Boolean queries, often requiring the expertise of expert searchers like librarians. Recent advances in transformer-based generative models have shown their ability to effectively follow user instructions and generate answers based on these instructions. In this paper, we investigate ChatGPT as a means for automatically formulating and refining complex Boolean queries for systematic review literature search. Overall, our research finds that ChatGPT has the potential to generate effective Boolean queries. The ability of ChatGPT to follow complex instructions and generate highly precise queries makes it a tool of potential value for researchers conducting systematic reviews, particularly for rapid reviews where time is a constraint and where one can trade off higher precision for lower recall. We also identify several caveats in using ChatGPT for this task, highlighting that this technology needs further validation before it is suitable for widespread uptake.",
+            "aminer_id": "63e312f590e50fcafdc1a0e3"
+        },
+        "Wang2023Neural": {
+            "number": "[64]",
+            "title": "Neural Rankers for Effective Screening Prioritisation in Medical Systematic Review Literature Search",
+            "text": "\\bibitem[{Wang et~al.(2023{\\natexlab{c}})Wang, Scells, Koopman, and Zuccon}]{Wang2023Neural} Shuai Wang, Harrisen Scells, Bevan Koopman, and Guido Zuccon. 2023{\\natexlab{c}}. \\newblock \\href {https://doi.org/10.1145/3572960.3572980} {Neural rankers for effective screening prioritisation in medical systematic review literature search}. \\newblock In \\emph{Proceedings of the 26th Australasian Document Computing Symposium}, ADCS '22, New York, NY, USA. Association for Computing Machinery.",
+            "ref_source": "bbl",
+            "abstract": "Medical systematic reviews typically require assessing all the documents retrieved by a search. The reason is two-fold: the task aims for “total recall”; and documents retrieved using Boolean search are an unordered set, and thus it is unclear how an assessor could examine only a subset. Screening prioritisation is the process of ranking the (unordered) set of retrieved documents, allowing assessors to begin the downstream processes of the systematic review creation earlier, leading to earlier completion of the review, or even avoiding screening documents ranked least relevant. Screening prioritisation requires highly effective ranking methods. Pre-trained language models are state-of-the-art on many IR tasks but have yet to be applied to systematic review screening prioritisation. In this paper, we apply several pre-trained language models to the systematic review document ranking task, both directly and fine-tuned. An empirical analysis compares how effective neural methods compare to traditional methods for this task. We also investigate different types of document representations for neural methods and their impact on ranking performance. Our results show that BERT-based rankers outperform the current state-of-the-art screening prioritisation methods. However, BERT rankers and existing methods can actually be complementary, and thus, further improvements may be achieved if used in conjunction.",
+            "aminer_id": "63a1751690e50fcafd1f4595"
+        },
+        "Wang2024Zero-Shot": {
+            "number": "[65]",
+            "title": "Zero-shot Generative Large Language Models for Systematic Review Screening Automation",
+            "text": "\\bibitem[{Wang et~al.(2024{\\natexlab{b}})Wang, Scells, Zhuang, Potthast, Koopman, and Zuccon}]{Wang2024Zero-Shot} Shuai Wang, Harrisen Scells, Shengyao Zhuang, Martin Potthast, Bevan Koopman, and Guido Zuccon. 2024{\\natexlab{b}}. \\newblock \\href {https://doi.org/10.1007/978-3-031-56027-9_25} {Zero-shot generative large language models for systematic review screening automation}. \\newblock In \\emph{Advances in Information Retrieval}, pages 403--420, Cham. Springer Nature Switzerland.",
+            "ref_source": "bbl",
+            "abstract": "Systematic reviews are crucial for evidence-based medicine as they comprehensively analyse published research findings on specific questions. Conducting such reviews is often resource- and time-intensive, especially in the screening phase, where abstracts of publications are assessed for inclusion in a review. This study investigates the effectiveness of using zero-shot large language models~(LLMs) for automatic screening. We evaluate the effectiveness of eight different LLMs and investigate a calibration technique that uses a predefined recall threshold to determine whether a publication should be included in a systematic review. Our comprehensive evaluation using five standard test collections shows that instruction fine-tuning plays an important role in screening, that calibration renders LLMs practical for achieving a targeted recall, and that combining both with an ensemble of zero-shot models saves significant screening time compared to state-of-the-art approaches.",
+            "aminer_id": "65a499b4939a5f4082eb3102"
+        },
+        "Wang2023Self": {
+            "number": "[66]",
+            "title": "Self-Consistency Improves Chain of Thought Reasoning in Language Models",
+            "text": "\\bibitem[{Wang et~al.(2023{\\natexlab{d}})Wang, Wei, Schuurmans, Le, Chi, Narang, Chowdhery, and Zhou}]{Wang2023Self} Xuezhi Wang, Jason Wei, Dale Schuurmans, Quoc~V. Le, Ed~H. Chi, Sharan Narang, Aakanksha Chowdhery, and Denny Zhou. 2023{\\natexlab{d}}. \\newblock \\href {https://openreview.net/forum?id=1PL1NIMMrw} {Self-consistency improves chain of thought reasoning in language models}. \\newblock In \\emph{The Eleventh International Conference on Learning Representations, {ICLR} 2023, Kigali, Rwanda, May 1-5, 2023}. OpenReview.net.",
+            "ref_source": "bbl",
+            "abstract": "Chain-of-thought prompting combined with pre-trained large language models has achieved encouraging results on complex reasoning tasks. In this paper, we propose a new decoding strategy, self-consistency, to replace the naive greedy decoding used in chain-of-thought prompting. It first samples a diverse set of reasoning paths instead of only taking the greedy one, and then selects the most consistent answer by marginalizing out the sampled reasoning paths. Self-consistency leverages the intuition that a complex reasoning problem typically admits multiple different ways of thinking leading to its unique correct answer. Our extensive empirical evaluation shows that self-consistency boosts the performance of chain-of-thought prompting with a striking margin on a range of popular arithmetic and commonsense reasoning benchmarks, including GSM8K (+17.9%), SVAMP (+11.0%), AQuA (+12.2%), StrategyQA (+6.4%) and ARC-challenge (+3.9%).",
+            "aminer_id": "62393e845aee126c0f1265e1"
+        },
+        "wu2023chain": {
+            "number": "[67]",
+            "title": "Chain of Thought Prompting Elicits Knowledge Augmentation",
+            "text": "\\bibitem[{Wu et~al.(2023)Wu, Zhang, and Huang}]{wu2023chain} Dingjun Wu, Jing Zhang, and Xinmei Huang. 2023. \\newblock \\href {https://doi.org/10.18653/v1/2023.findings-acl.408} {Chain of thought prompting elicits knowledge augmentation}. \\newblock In \\emph{Findings of the Association for Computational Linguistics: ACL 2023}, pages 6519--6534, Toronto, Canada. Association for Computational Linguistics.",
+            "ref_source": "bbl",
+            "abstract": "The knowledge-augmented deep learning paradigm refers to a paradigm in which domain knowledge is identified and integrated into deep models. Conventional methods typically employ task-specific approaches to gather external knowledge from various sources. In contrast, large language models are extensively pre-trained and can serve as a comprehensive source of external knowledge. In this paper, we propose CoT-KA, a Chain-of-Thought-based method that augments knowledge for deep learning. CoT-KA avoids the need for additional knowledge retrieval or knowledge reasoning models, as required in conventional augmentation methods. Our results demonstrate that CoT-KA outperforms both pure CoT-based methods and the non-augmented method across the majority of eleven publicly available benchmarks for various reasoning tasks.",
+            "aminer_id": "64a63bbad68f896efaec481f"
+        },
+        "Yu2018Finding": {
+            "number": "[68]",
+            "title": "Finding Better Active Learners for Faster Literature Reviews",
+            "text": "\\bibitem[{Yu et~al.(2018)Yu, Kraft, and Menzies}]{Yu2018Finding} Zhe Yu, Nicholas~A. Kraft, and Tim Menzies. 2018. \\newblock \\href {https://doi.org/10.1007/S10664-017-9587-0} {Finding better active learners for faster literature reviews}. \\newblock \\emph{Empir. Softw. Eng.}, 23(6):3161--3186.",
+            "ref_source": "bbl",
+            "abstract": "Literature reviews can be time-consuming and tedious to complete. By cataloging and refactoring three state-of-the-art active learning techniques from evidence-based medicine and legal electronic discovery, this paper finds and implements FASTREAD, a faster technique for studying a large corpus of documents, combining and parametrizing the most efficient active learning algorithms. This paper assesses FASTREAD using datasets generated from existing SE literature reviews (Hall, Wahono, Radjenović, Kitchenham et al.). Compared to manual methods, FASTREAD lets researchers find 95% relevant studies after reviewing an order of magnitude fewer papers. Compared to other state-of-the-art automatic methods, FASTREAD reviews 20–50% fewer studies while finding same number of relevant primary studies in a systematic literature review.",
+            "aminer_id": "5c209558df5b8c0b3cfa9ac0"
+        },
+        "Zhu2023Large": {
+            "number": "[69]",
+            "title": "Large language models for information retrieval: A survey",
+            "text": "\\bibitem[{Zhu et~al.(2023)Zhu, Yuan, Wang, Liu, Liu, Deng, Dou, and Wen}]{Zhu2023Large} Yutao Zhu, Huaying Yuan, Shuting Wang, Jiongnan Liu, Wenhan Liu, Chenlong Deng, Zhicheng Dou, and Ji{-}Rong Wen. 2023. \\newblock \\href {https://doi.org/10.48550/ARXIV.2308.07107} {Large language models for information retrieval: {A} survey}. \\newblock \\emph{CoRR}, abs/2308.07107.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "64dafb293fda6d7f064e2d9e"
+        },
+        "Zhuang2024Beyond": {
+            "number": "[70]",
+            "title": "Beyond Yes and No: Improving Zero-Shot LLM Rankers Via Scoring Fine-Grained Relevance Labels",
+            "text": "\\bibitem[{Zhuang et~al.(2024)Zhuang, Qin, Hui, Wu, Yan, Wang, and Bendersky}]{Zhuang2024Beyond} Honglei Zhuang, Zhen Qin, Kai Hui, Junru Wu, Le~Yan, Xuanhui Wang, and Michael Bendersky. 2024. \\newblock \\href {https://doi.org/10.18653/v1/2024.naacl-short.31} {Beyond yes and no: Improving zero-shot {LLM} rankers via scoring fine-grained relevance labels}. \\newblock In \\emph{Proceedings of the 2024 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies (Volume 2: Short Papers)}, pages 358--370, Mexico City, Mexico. Association for Computational Linguistics. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "Zero-shot text rankers powered by recent LLMs achieve remarkable rankingperformance by simply prompting. Existing prompts for pointwise LLM rankersmostly ask the model to choose from binary relevance labels like \"Yes\" and\"No\". However, the lack of intermediate relevance label options may cause theLLM to provide noisy or biased answers for documents that are partiallyrelevant to the query. We propose to incorporate fine-grained relevance labelsinto the prompt for LLM rankers, enabling them to better differentiate amongdocuments with different levels of relevance to the query and thus derive amore accurate ranking. We study two variants of the prompt template, coupledwith different numbers of relevance levels. Our experiments on 8 BEIR data setsshow that adding fine-grained relevance labels significantly improves theperformance of LLM rankers.",
+            "aminer_id": "653728b8939a5f408235e42d"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 70,
+        "citation_types": {
+            "unknown": 70
+        }
+    }
+}

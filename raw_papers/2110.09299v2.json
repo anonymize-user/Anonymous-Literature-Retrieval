@@ -1,0 +1,993 @@
+{
+    "topic": "A Review of 3D Face Reconstruction From a Single Image",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[57]",
+                "[92]",
+                "[71]",
+                "[47]",
+                "[87]",
+                "[12]",
+                "[36]",
+                "[70]",
+                "[46]",
+                "[49]",
+                "[48]",
+                "[11]",
+                "[93]",
+                "[89]",
+                "[60]",
+                "[86]",
+                "[72]",
+                "[28]",
+                "[90]",
+                "[58]",
+                "[83]",
+                "[75]",
+                "[84]",
+                "[38]",
+                "[91]",
+                "[65]",
+                "[81]",
+                "[59]",
+                "[45]",
+                "[88]",
+                "[37]",
+                "[74]",
+                "[25]",
+                "[82]",
+                "[68]",
+                "[94]",
+                "[40]",
+                "[39]",
+                "[85]",
+                "[73]",
+                "[64]",
+                "[44]",
+                "[32]",
+                "[27]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Approaches",
+            "refs": [
+                "[5]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "3DMM-based methods",
+                    "refs": [
+                        "[23]",
+                        "[35]",
+                        "[15]",
+                        "[26]",
+                        "[20]",
+                        "[1]",
+                        "[55]",
+                        "[51]",
+                        "[56]",
+                        "[21]",
+                        "[63]",
+                        "[6]",
+                        "[19]",
+                        "[69]",
+                        "[80]",
+                        "[18]",
+                        "[99]",
+                        "[41]",
+                        "[53]",
+                        "[76]",
+                        "[14]",
+                        "[61]",
+                        "[7]",
+                        "[100]",
+                        "[42]",
+                        "[66]",
+                        "[16]",
+                        "[8]",
+                        "[52]",
+                        "[30]",
+                        "[9]",
+                        "[62]",
+                        "[79]",
+                        "[78]",
+                        "[77]",
+                        "[3]",
+                        "[33]",
+                        "[43]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Other methods",
+                    "refs": [
+                        "[4]",
+                        "[98]",
+                        "[31]",
+                        "[61]",
+                        "[22]",
+                        "[96]",
+                        "[24]",
+                        "[17]",
+                        "[18]",
+                        "[50]",
+                        "[29]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Performance Analysis",
+            "refs": [
+                "[35]",
+                "[17]",
+                "[15]",
+                "[20]",
+                "[63]",
+                "[41]",
+                "[19]",
+                "[80]",
+                "[18]",
+                "[99]",
+                "[76]",
+                "[100]",
+                "[42]",
+                "[66]",
+                "[29]",
+                "[16]",
+                "[96]",
+                "[79]",
+                "[78]",
+                "[77]",
+                "[33]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "3D Face Datasets",
+            "refs": [
+                "[34]",
+                "[54]",
+                "[100]",
+                "[10]",
+                "[67]",
+                "[13]",
+                "[97]",
+                "[2]",
+                "[95]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Future Prospects",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        }
+    ],
+    "references": {
+        "amberg2008expression": {
+            "number": "[1]",
+            "title": "Expression Invariant 3D Face Recognition with a Morphable Model",
+            "text": "\\bibitem{amberg2008expression} Brian Amberg, Reinhard Knothe, and Thomas Vetter. \\newblock Expression invariant 3d face recognition with a morphable model. \\newblock In {\\em 2008 8th IEEE International Conference on Automatic Face \\& Gesture Recognition}, pages 1--6. IEEE, 2008.",
+            "ref_source": "bbl",
+            "abstract": "We describe an expression-invariant method for face recognition by fitting an identity/expression separated 3D Morphable Model to shape data. The expression model greatly improves recognition and retrieval rates in the uncooperative setting, while achieving recognition rates on par with the best recognition algorithms in the face recognition great vendor test. The fitting is performed with a robust nonrigid ICP algorithm. It is able to perform face recognition in a fully automated scenario and on noisy data. The system was evaluated on two datasets, one with a high noise level and strong expressions, and the standard UND range scan database, showing that while expression invariance increases recognition and retrieval performance for the expression dataset, it does not decrease performance on the neutral dataset. The high recognition rates are achieved even with a purely shape based method, without taking image data into account.",
+            "aminer_id": "558b1bcce4b031bae1fb89de"
+        },
+        "bagdanov2011florence": {
+            "number": "[2]",
+            "title": "The Florence 2D/3D Hybrid Face Dataset",
+            "text": "\\bibitem{bagdanov2011florence} Andrew~D Bagdanov, Alberto Del~Bimbo, and Iacopo Masi. \\newblock The florence 2d/3d hybrid face dataset. \\newblock In {\\em Proceedings of the 2011 joint ACM workshop on Human gesture and behavior understanding}, pages 79--80, 2011.",
+            "ref_source": "bbl",
+            "abstract": "This article describes a new dataset under construction at the Media Integration and Communication Center and the University of Florence. The dataset consists of high-resolution 3D scans of human faces along with several video sequences of varying resolution and zoom level. Each subject is recorded under various scenarios, settings and conditions. This dataset is being constructed specifically to support research on techniques that bridge the gap between 2D, appearance-based recognition techniques, and fully 3D approaches. It is designed to simulate, in a controlled fashion, realistic surveillance conditions and to probe the efficacy of exploiting 3D models in real scenarios.",
+            "aminer_id": "5390b20120f70186a0ee5ba6"
+        },
+        "bas20173d": {
+            "number": "[3]",
+            "title": "3d morphable models as spatial transformer networks",
+            "text": "\\bibitem{bas20173d} Anil Bas, Patrik Huber, William~AP Smith, Muhammad Awais, and Josef Kittler. \\newblock 3d morphable models as spatial transformer networks. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision Workshops}, pages 904--912, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a73cb6317c44a0b303580cf"
+        },
+        "bhagavatula2017faster": {
+            "number": "[4]",
+            "title": "Faster Than Real-time Facial Alignment: A 3D Spatial Transformer Network Approach in Unconstrained Poses",
+            "text": "\\bibitem{bhagavatula2017faster} Chandrasekhar Bhagavatula, Chenchen Zhu, Khoa Luu, and Marios Savvides. \\newblock Faster than real-time facial alignment: A 3d spatial transformer network approach in unconstrained poses. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision}, pages 3980--3989, 2017.",
+            "ref_source": "bbl",
+            "abstract": "Facial alignment involves finding a set of landmark points on an image with a known semantic meaning. However, this semantic meaning of landmark points is often lost in 2D approaches where landmarks are either moved to visible boundaries or ignored as the pose of the face changes. In order to extract consistent alignment points across large poses, the 3D structure of the face must be considered in the alignment step. However, extracting a 3D structure from a single 2D image usually requires alignment in the first place. We present our novel approach to simultaneously extract the 3D shape of the face and the semantically consistent 2D alignment through a 3D Spatial Transformer Network (3DSTN) to model both the camera projection matrix and the warping parameters of a 3D model. By utilizing a generic 3D model and a Thin Plate Spline (TPS) warping function, we are able to generate subject specific 3D shapes without the need for a large 3D shape basis. In addition, our proposed network can be trained in an end-to-end framework on entirely synthetic data from the 300W-LP dataset. Unlike other 3D methods, our approach only requires one pass through the network resulting in a faster than real-time alignment. Evaluations of our model on the Annotated Facial Landmarks in the Wild (AFLW) and AFLW2000-3D datasets show our method achieves state-of-the-art performance over other 3D approaches to alignment.",
+            "aminer_id": "59ae3be32bbe271c4c71b722"
+        },
+        "blanz1999morphable": {
+            "number": "[5]",
+            "title": "A Morphable Model for the Synthesis of 3D Faces",
+            "text": "\\bibitem{blanz1999morphable} Volker Blanz and Thomas Vetter. \\newblock A morphable model for the synthesis of 3d faces. \\newblock In {\\em Proceedings of the 26th annual conference on Computer graphics and interactive techniques}, pages 187--194, 1999.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, a new technique for modeling textured 3D faces is introduced. 3D faces can either be generated automatically from one or more photographs, or modeled directly through an intuitive user interface. Users are assisted in two key problems of computer aided face modeling. First, new face images or new 3D face models can be registered automatically by computing dense one-to-one correspondence to an internal face model. Second, the approach regulates the naturalness of modeled faces avoiding faces with an \"unlikely\" appearance. Starting from an example set of 3D face models, we derive a morphable face model by transforming the shape and texture of the examples into a vector space representation. New faces and expressions can be modeled by forming linear combinations of the prototypes. Shape and texture constraints derived from the statistics of our example faces are used to guide manual modeling or automated matching algorithms. We show 3D face reconstructions from single images and their applications for photo-realistic image manipulations. We also demonstrate face manipulations according to complex parameters such as gender, fullness of a face or its distinctiveness.",
+            "aminer_id": "539087f320f70186a0d70f9e"
+        },
+        "blanz2003face": {
+            "number": "[6]",
+            "title": "Face Recognition Based on Fitting a 3D Morphable Model",
+            "text": "\\bibitem{blanz2003face} Volker Blanz and Thomas Vetter. \\newblock Face recognition based on fitting a 3d morphable model. \\newblock {\\em IEEE Transactions on pattern analysis and machine intelligence}, 25(9):1063--1074, 2003.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents a method for face recognition across variations in pose, ranging from frontal to profile views, and across a wide range of illuminations, including cast shadows and specular reflections. To account for these variations, the algorithm simulates the process of image formation in 3D space, using computer graphics, and it estimates 3D shape and texture of faces from single images. The estimate is achieved by fitting a statistical, morphable model of 3D faces to images. The model is learned from a set of textured 3D scans of heads. We describe the construction of the morphable model, an algorithm to fit the model to images, and a framework for face identification. In this framework, faces are represented by model parameters for 3D shape and texture. We present results obtained with 4,488 images from the publicly available CMU-PIE database and 1,940 images from the FERET database.",
+            "aminer_id": "5390958920f70186a0dee38c"
+        },
+        "blinn1978simulation": {
+            "number": "[7]",
+            "title": "Simulation of wrinkled surfaces",
+            "text": "\\bibitem{blinn1978simulation} James~F Blinn. \\newblock Simulation of wrinkled surfaces. \\newblock {\\em ACM SIGGRAPH computer graphics}, 12(3):286--292, 1978.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390879920f70186a0d411ef"
+        },
+        "booth20173d": {
+            "number": "[8]",
+            "title": "3d face morphable models\" in-the-wild\"",
+            "text": "\\bibitem{booth20173d} James Booth, Epameinondas Antonakos, Stylianos Ploumpis, George Trigeorgis, Yannis Panagakis, and Stefanos Zafeiriou. \\newblock 3d face morphable models\" in-the-wild\". \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 48--57, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "58d82fc8d649053542fd5ba6"
+        },
+        "booth20163d": {
+            "number": "[9]",
+            "title": "A 3d morphable model learnt from 10,000 faces",
+            "text": "\\bibitem{booth20163d} James Booth, Anastasios Roussos, Stefanos Zafeiriou, Allan Ponniah, and David Dunaway. \\newblock A 3d morphable model learnt from 10,000 faces. \\newblock In {\\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages 5543--5552, 2016.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "cao2013facewarehouse": {
+            "number": "[10]",
+            "title": "FaceWarehouse: A 3D Facial Expression Database for Visual Computing",
+            "text": "\\bibitem{cao2013facewarehouse} Chen Cao, Yanlin Weng, Shun Zhou, Yiying Tong, and Kun Zhou. \\newblock Facewarehouse: A 3d facial expression database for visual computing. \\newblock {\\em IEEE Transactions on Visualization and Computer Graphics}, 20(3):413--425, 2013.",
+            "ref_source": "bbl",
+            "abstract": "We present FaceWarehouse, a database of 3D facial expressions for visual computing applications. We use Kinect, an off-the-shelf RGBD camera, to capture 150 individuals aged 7-80 from various ethnic backgrounds. For each person, we captured the RGBD data of her different expressions, including the neutral expression and 19 other expressions such as mouth-opening, smile, kiss, etc. For every RGBD raw data record, a set of facial feature points on the color image such as eye corners, mouth contour, and the nose tip are automatically localized, and manually adjusted if better accuracy is required. We then deform a template facial mesh to fit the depth data as closely as possible while matching the feature points on the color image to their corresponding points on the mesh. Starting from these fitted face meshes, we construct a set of individual-specific expression blendshapes for each person. These meshes with consistent topology are assembled as a rank-3 tensor to build a bilinear face model with two attributes: identity and expression. Compared with previous 3D facial databases, for every person in our database, there is a much richer matching collection of expressions, enabling depiction of most human facial actions. We demonstrate the potential of FaceWarehouse for visual computing with four applications: facial image manipulation, face component transfer, real-time performance-based facial image animation, and facial animation retargeting from video to image.",
+            "aminer_id": "5390bf1320f70186a0f502e1"
+        },
+        "chen2021bal": {
+            "number": "[11]",
+            "title": "Bal-r2cnn: High quality recurrent object detection with balance optimization",
+            "text": "\\bibitem{chen2021bal} Xiaoyu Chen, Hongliang Li, Qingbo Wu, Fanman Meng, and Heqian Qiu. \\newblock Bal-r2cnn: High quality recurrent object detection with balance optimization. \\newblock {\\em IEEE Transactions on Multimedia}, 2021.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chen2020high": {
+            "number": "[12]",
+            "title": "High-Quality R-CNN Object Detection Using Multi-Path Detection Calibration Network",
+            "text": "\\bibitem{chen2020high} Xiaoyu Chen, Hongliang Li, Qingbo Wu, King~Ngi Ngan, and Linfeng Xu. \\newblock High-quality r-cnn object detection using multi-path detection calibration network. \\newblock {\\em IEEE Transactions on Circuits and Systems for Video Technology}, 31(2):715--727, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Object proposals are used in two-stage detectors, such as R-CNN, to generate detection results, including category predictions and refined bounding-boxes. As a result, classification scores are assigned to refined bounding-boxes rather than object proposals. However, this procedure ignores the discrepancy of data distribution between object proposals and refined bounding-boxes. We consider this discrepancy could limit the detection accuracy. Specifically, the foreground/background imbalance on object proposals and inaccurate information from low-IoU proposals could hinder the category prediction. In this paper, we propose a detector called the Multi-Path Detection Calibration Network (PDC-Net) to address this problem. The key idea behind PDC-Net is calibrating detection results from R-CNN by considering the statistical discrepancy between object proposals and refined bounding-boxes. PDC-Net is built on Faster R-CNN. The core component in PDC-Net is the multi-path detection head, in which the base detector (from Faster R-CNN) generates detection results from object proposals and multiple calibration detectors fix incorrect outputs from the base detector using refined bounding-boxes. Experiments reveal that PDC-Net can boost detection results. Our method could reach 83.1% and 43.3% mAP respectively on PASCAL VOC and MSCOCO benchmarks, which is comparable to several state-of-the-art methods.",
+            "aminer_id": "5ecbc78e9fced0a24b5060fc"
+        },
+        "cheng20174dfab": {
+            "number": "[13]",
+            "title": "4dfab: A large scale 4d facial expression database for biometric applications",
+            "text": "\\bibitem{cheng20174dfab} Shiyang Cheng, Irene Kotsia, Maja Pantic, and Stefanos Zafeiriou. \\newblock 4dfab: A large scale 4d facial expression database for biometric applications. \\newblock {\\em arXiv preprint arXiv:1712.01443}, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "deng2019arcface": {
+            "number": "[14]",
+            "title": "ArcFace: Additive Angular Margin Loss for Deep Face Recognition",
+            "text": "\\bibitem{deng2019arcface} Jiankang Deng, Jia Guo, Niannan Xue, and Stefanos Zafeiriou. \\newblock Arcface: Additive angular margin loss for deep face recognition. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 4690--4699, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Recently, a popular line of research in face recognition is adopting margins in the well-established softmax loss function to maximize class separability. In this paper, we first introduce an Additive Angular Margin Loss (ArcFace), which not only has a clear geometric interpretation but also significantly enhances the discriminative power. Since ArcFace is susceptible to the massive label noise, we further propose sub-center ArcFace, in which each class contains K sub-centers and training samples only need to be close to any of the K positive sub-centers. Sub-center ArcFace encourages one dominant sub-class that contains the majority of clean faces and non-dominant sub-classes that include hard or noisy faces. Based on this self-propelled isolation, we boost the performance through automatically purifying raw web faces under massive real-world noise. Besides discriminative feature embedding, we also explore the inverse problem, mapping feature vectors to face images. Without training any additional generator or discriminator, the pre-trained ArcFace model can generate identity-preserved face images for both subjects inside and outside the training data only by using the network gradient and Batch Normalization (BN) priors. Extensive experiments demonstrate that ArcFace can enhance the discriminative feature embedding as well as strengthen the generative face synthesis.",
+            "aminer_id": "5a9cb65d17c44a376ffb80d9"
+        },
+        "deng2019accurate": {
+            "number": "[15]",
+            "title": "Accurate 3D Face Reconstruction with Weakly-Supervised Learning: from Single Image to Image Set",
+            "text": "\\bibitem{deng2019accurate} Yu~Deng, Jiaolong Yang, Sicheng Xu, Dong Chen, Yunde Jia, and Xin Tong. \\newblock Accurate 3d face reconstruction with weakly-supervised learning: From single image to image set. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition Workshops}, pages 0--0, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Recently, deep learning based 3D face reconstruction methods have shown promising results in both quality and efficiency. However, training deep neural networks typically requires a large volume of data, whereas face images with ground-truth 3D face shapes are scarce. In this paper, we propose a novel deep 3D face reconstruction approach that 1) leverages a robust, hybrid loss function for weakly-supervised learning which takes into account both low-level and perception-level information for supervision, and 2) performs multi-image face reconstruction by exploiting complementary information from different images for shape aggregation. Our method is fast, accurate, and robust to occlusion and large pose. We provide comprehensive experiments on MICC Florence and Facewarehouse datasets, systematically comparing our method with fifteen recent methods and demonstrating its state-of-the-art performance. Code available at https://github.com/Microsoft/Deep3DFaceReconstruction.",
+            "aminer_id": "5c936887e1cd8e540c9113c4"
+        },
+        "dou2017end": {
+            "number": "[16]",
+            "title": "End-to-end 3d face reconstruction with deep neural networks",
+            "text": "\\bibitem{dou2017end} Pengfei Dou, Shishir~K Shah, and Ioannis~A Kakadiaris. \\newblock End-to-end 3d face reconstruction with deep neural networks. \\newblock In {\\em proceedings of the IEEE conference on computer vision and pattern recognition}, pages 5908--5917, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260bfb17c44a4ba8a1c65b"
+        },
+        "feng20183d": {
+            "number": "[17]",
+            "title": "3D Face Reconstruction from Light Field Images: A Model-Free Approach.",
+            "text": "\\bibitem{feng20183d} Mingtao Feng, Syed~Zulqarnain Gilani, Yaonan Wang, and Ajmal Mian. \\newblock 3d face reconstruction from light field images: A model-free approach. \\newblock In {\\em Proceedings of the European Conference on Computer Vision (ECCV)}, pages 501--518, 2018.",
+            "ref_source": "bbl",
+            "abstract": "Reconstructing 3D facial geometry from a single RGB image has recently instigated wide research interest. However, it is still an ill-posed problem and most methods rely on prior models hence undermining the accuracy of the recovered 3D faces. In this paper, we exploit the Epipolar Plane Images (EPI) obtained from light field cameras and learn CNN models that recover horizontal and vertical 3D facial curves from the respective horizontal and vertical EPIs. Our 3D face reconstruction network (FaceLFnet) comprises a densely connected architecture to learn accurate 3D facial curves from low resolution EPIs. To train the proposed FaceLFnets from scratch, we synthesize photo-realistic light field images from 3D facial scans. The curve by curve 3D face estimation approach allows the networks to learn from only 14K images of 80 identities, which still comprises over 11 Million EPIs/curves. The estimated facial curves are merged into a single pointcloud to which a surface is fitted to get the final 3D face. Our method is model-free, requires only a few training samples to learn FaceLFnet and can reconstruct 3D faces with high accuracy from single light field images under varying poses, expressions and lighting conditions. Comparison on the BU-3DFE and BU-4DFE datasets show that our method reduces reconstruction errors by over 20% compared to recent state of the art.",
+            "aminer_id": "5a4aef9e17c44a2190f7a724"
+        },
+        "feng2018joint": {
+            "number": "[18]",
+            "title": "Joint 3D Face Reconstruction and Dense Alignment with Position Map Regression Network",
+            "text": "\\bibitem{feng2018joint} Yao Feng, Fan Wu, Xiaohu Shao, Yanfeng Wang, and Xi~Zhou. \\newblock Joint 3d face reconstruction and dense alignment with position map regression network. \\newblock In {\\em Proceedings of the European Conference on Computer Vision (ECCV)}, pages 534--551, 2018.",
+            "ref_source": "bbl",
+            "abstract": "We propose a straightforward method that simultaneously reconstructs the 3D facial structure and provides dense alignment. To achieve this, we design a 2D representation called UV position map which records the 3D shape of a complete face in UV space, then train a simple Convolutional Neural Network to regress it from a single 2D image. We also integrate a weight mask into the loss function during training to improve the performance of the network. Our method does not rely on any prior face model, and can reconstruct full facial geometry along with semantic meaning. Meanwhile, our network is very light-weighted and spends only 9.8 ms to process an image, which is extremely faster than previous works. Experiments on multiple challenging datasets show that our method surpasses other state-of-the-art methods on both reconstruction and alignment tasks by a large margin. Code is available at https://github.com/YadiraF/PRNet .",
+            "aminer_id": "5aed14d117c44a44381589f0"
+        },
+        "gecer2019ganfit": {
+            "number": "[19]",
+            "title": "Ganfit: Generative adversarial network fitting for high fidelity 3d face reconstruction",
+            "text": "\\bibitem{gecer2019ganfit} Baris Gecer, Stylianos Ploumpis, Irene Kotsia, and Stefanos Zafeiriou. \\newblock Ganfit: Generative adversarial network fitting for high fidelity 3d face reconstruction. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 1155--1164, 2019.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "genova2018unsupervised": {
+            "number": "[20]",
+            "title": "Unsupervised Training for 3D Morphable Model Regression",
+            "text": "\\bibitem{genova2018unsupervised} Kyle Genova, Forrester Cole, Aaron Maschinot, Aaron Sarna, Daniel Vlasic, and William~T Freeman. \\newblock Unsupervised training for 3d morphable model regression. \\newblock In {\\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages 8377--8386, 2018.",
+            "ref_source": "bbl",
+            "abstract": "  We present a method for training a regression network from image pixels to 3D morphable model coordinates using only unlabeled photographs. The training loss is based on features from a facial recognition network, computed on-the-fly by rendering the predicted faces with a differentiable renderer. To make training from features feasible and avoid network fooling effects, we introduce three objectives: a batch distribution loss that encourages the output distribution to match the distribution of the morphable model, a loopback loss that ensures the network can correctly reinterpret its own output, and a multi-view identity loss that compares the features of the predicted 3D face and the input photograph from multiple viewing angles. We train a regression network using these objectives, a set of unlabeled photographs, and the morphable model itself, and demonstrate state-of-the-art results. ",
+            "aminer_id": "5b67b4b417c44aac1c8677d5"
+        },
+        "gerig2018morphable": {
+            "number": "[21]",
+            "title": "Morphable face models-an open framework",
+            "text": "\\bibitem{gerig2018morphable} Thomas Gerig, Andreas Morel-Forster, Clemens Blumer, Bernhard Egger, Marcel Luthi, Sandro Sch{\\\"o}nborn, and Thomas Vetter. \\newblock Morphable face models-an open framework. \\newblock In {\\em 2018 13th IEEE International Conference on Automatic Face \\& Gesture Recognition (FG 2018)}, pages 75--82. IEEE, 2018.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260c8117c44a4ba8a30da3"
+        },
+        "goodfellow2014generative": {
+            "number": "[22]",
+            "title": "Generative adversarial nets",
+            "text": "\\bibitem{goodfellow2014generative} Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. \\newblock Generative adversarial nets. \\newblock {\\em Advances in neural information processing systems}, 27, 2014.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "648d64f1d68f896efad4a333"
+        },
+        "2017R": {
+            "number": "[23]",
+            "title": "R-net: Machine reading comprehension with self-matching networks",
+            "text": "\\bibitem{2017R} Nlc Group. \\newblock R-net: Machine reading comprehension with self-matching networks. \\newblock 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "han2013high": {
+            "number": "[24]",
+            "title": "High Quality Shape from a Single RGB-D Image under Uncalibrated Natural Illumination",
+            "text": "\\bibitem{han2013high} Yudeog Han, Joon-Young Lee, and In~So~Kweon. \\newblock High quality shape from a single rgb-d image under uncalibrated natural illumination. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision}, pages 1617--1624, 2013.",
+            "ref_source": "bbl",
+            "abstract": "We present a novel framework to estimate detailed shape of diffuse objects with uniform albedo from a single RGB-D image. To estimate accurate lighting in natural illumination environment, we introduce a general lighting model consisting of two components: global and local models. The global lighting model is estimated from the RGB-D input using the low-dimensional characteristic of a diffuse reflectance model. The local lighting model represents spatially varying illumination and it is estimated by using the smoothly-varying characteristic of illumination. With both the global and local lighting model, we can estimate complex lighting variations in uncontrolled natural illumination conditions accurately. For high quality shape capture, a shape-from-shading approach is applied with the estimated lighting model. Since the entire process is done with a single RGB-D input, our method is capable of capturing the high quality shape details of a dynamic object under natural illumination. Experimental results demonstrate the feasibility and effectiveness of our method that dramatically improves shape details of the rough depth input.",
+            "aminer_id": "5390bfa220f70186a0f52e83"
+        },
+        "he2016deep": {
+            "number": "[25]",
+            "title": "Deep Residual Learning for Image Recognition",
+            "text": "\\bibitem{he2016deep} Kaiming He, Xiangyu Zhang, Shaoqing Ren, and Jian Sun. \\newblock Deep residual learning for image recognition. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 770--778, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
+            "aminer_id": "573696026e3b12023e515eec"
+        },
+        "hu2016face": {
+            "number": "[26]",
+            "title": "Face Recognition Using a Unified 3D Morphable Model",
+            "text": "\\bibitem{hu2016face} Guosheng Hu, Fei Yan, Chi-Ho Chan, Weihong Deng, William Christmas, Josef Kittler, and Neil~M Robertson. \\newblock Face recognition using a unified 3d morphable model. \\newblock In {\\em European Conference on Computer Vision}, pages 73--89. Springer, 2016.",
+            "ref_source": "bbl",
+            "abstract": "We address the problem of 3D-assisted 2D face recognition in scenarios when the input image is subject to degradations or exhibits intra-personal variations not captured by the 3D model. The proposed solution involves a novel approach to learn a subspace spanned by perturbations caused by the missing modes of variation and image degradations, using 3D face data reconstructed from 2D images rather than 3D capture. This is accomplished by modelling the difference in the texture map of the 3D aligned input and reference images. A training set of these texture maps then defines a perturbation space which can be represented using PCA bases. Assuming that the image perturbation subspace is orthogonal to the 3D face model space, then these additive components can be recovered from an unseen input image, resulting in an improved fit of the 3D face model. The linearity of the model leads to efficient fitting. Experiments show that our method achieves very competitive face recognition performance on Multi-PIE and AR databases. We also present baseline face recognition results on a new data set exhibiting combined pose and illumination variations as well as occlusion.",
+            "aminer_id": "58437777ac44360f10840154"
+        },
+        "huang2016qualitynet": {
+            "number": "[27]",
+            "title": "Qualitynet: Segmentation quality evaluation with deep convolutional networks",
+            "text": "\\bibitem{huang2016qualitynet} Chao Huang, Qingbo Wu, and Fanman Meng. \\newblock Qualitynet: Segmentation quality evaluation with deep convolutional networks. \\newblock In {\\em 2016 Visual Communications and Image Processing (VCIP)}, pages 1--4. IEEE, 2016.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "58d8302ed649053542fe5a14"
+        },
+        "huang2017densely": {
+            "number": "[28]",
+            "title": "Densely connected convolutional networks",
+            "text": "\\bibitem{huang2017densely} Gao Huang, Zhuang Liu, Laurens Van Der~Maaten, and Kilian~Q Weinberger. \\newblock Densely connected convolutional networks. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 4700--4708, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "687c3535163c01c850697b46"
+        },
+        "jackson2017large": {
+            "number": "[29]",
+            "title": "Large Pose 3D Face Reconstruction from a Single Image Via Direct Volumetric CNN Regression.",
+            "text": "\\bibitem{jackson2017large} Aaron~S Jackson, Adrian Bulat, Vasileios Argyriou, and Georgios Tzimiropoulos. \\newblock Large pose 3d face reconstruction from a single image via direct volumetric cnn regression. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision}, pages 1031--1039, 2017.",
+            "ref_source": "bbl",
+            "abstract": "3D face reconstruction is a fundamental Computer Vision problem of extraordinary difficulty. Current systems often assume the availability of multiple facial images (sometimes from the same subject) as input, and must address a number of methodological challenges such as establishing dense correspondences across large facial poses, expressions, and non-uniform illumination. In general these methods require complex and inefficient pipelines for model building and fitting. In this work, we propose to address many of these limitations by training a Convolutional Neural Network (CNN) on an appropriate dataset consisting of 2D images and 3D facial models or scans. Our CNN works with just a single 2D facial image, does not require accurate alignment nor establishes dense correspondence between images, works for arbitrary facial poses and expressions, and can be used to reconstruct the whole 3D facial geometry (including the non-visible parts of the face) bypassing the construction (during training) and fitting (during testing) of a 3D Morphable Model. We achieve this via a simple CNN architecture that performs direct regression of a volumetric representation of the 3D facial geometry from a single 2D image. We also demonstrate how the related task of facial landmark localization can be incorporated into the proposed framework and help improve reconstruction quality, especially for the cases of large poses and facial expressions. Code and models will be made available at http://aaronsplace.co.uk.",
+            "aminer_id": "599c795b601a182cd2634746"
+        },
+        "jaderberg2015spatial": {
+            "number": "[30]",
+            "title": "Spatial transformer networks",
+            "text": "\\bibitem{jaderberg2015spatial} Max Jaderberg, Karen Simonyan, Andrew Zisserman, et~al. \\newblock Spatial transformer networks. \\newblock {\\em Advances in neural information processing systems}, 28:2017--2025, 2015.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736986c6e3b12023e73037b"
+        },
+        "kemelmacher20103d": {
+            "number": "[31]",
+            "title": "3D Face Reconstruction from a Single Image Using a Single Reference Face Shape",
+            "text": "\\bibitem{kemelmacher20103d} Ira Kemelmacher-Shlizerman and Ronen Basri. \\newblock 3d face reconstruction from a single image using a single reference face shape. \\newblock {\\em IEEE transactions on pattern analysis and machine intelligence}, 33(2):394--405, 2010.",
+            "ref_source": "bbl",
+            "abstract": "Human faces are remarkably similar in global properties, including size, aspect ratio, and location of main features, but can vary considerably in details across individuals, gender, race, or due to facial expression. We propose a novel method for 3D shape recovery of faces that exploits the similarity of faces. Our method obtains as input a single image and uses a mere single 3D reference model of a different person's face. Classical reconstruction methods from single images, i.e., shape-from-shading, require knowledge of the reflectance properties and lighting as well as depth values for boundary conditions. Recent methods circumvent these requirements by representing input faces as combinations (of hundreds) of stored 3D models. We propose instead to use the input image as a guide to \"mold” a single reference model to reach a reconstruction of the sought 3D shape. Our method assumes Lambertian reflectance and uses harmonic representations of lighting. It has been tested on images taken under controlled viewing conditions as well as on uncontrolled images downloaded from the Internet, demonstrating its accuracy and robustness under a variety of imaging conditions and overcoming significant differences in shape between the input and reference individuals including differences in facial expressions, gender, and race.",
+            "aminer_id": "5390ae2e20f70186a0ec86fa"
+        },
+        "kemelmacher2011face": {
+            "number": "[32]",
+            "title": "Face Reconstruction in the Wild",
+            "text": "\\bibitem{kemelmacher2011face} Ira Kemelmacher-Shlizerman and Steven~M Seitz. \\newblock Face reconstruction in the wild. \\newblock In {\\em 2011 international conference on computer vision}, pages 1746--1753. IEEE, 2011.",
+            "ref_source": "bbl",
+            "abstract": "We address the problem of reconstructing 3D face models from large unstructured photo collections, e. g., obtained by Google image search or from personal photo collections in iPhoto. This problem is extremely challenging due to the high degree of variability in pose, illumination, facial expression, non-rigid changes in face shape and reflectance over time and occlusions. In light of this extreme variability, no single reconstruction can be consistent with all of the images. Instead, we define as the goal of reconstruction to recover a model that is locally consistent with the image set. I.e., each local region of the model is consistent with a large set of photos, resulting in a model that captures the dominant trends in the input data for different parts of the face. Our approach leverages multi-image shading, but unlike traditional photometric stereo approaches, allows for changes in viewpoint and shape. We optimize over pose, shape, and lighting in an iterative approach that seeks to minimize the rank of the transformed images. This approach produces high quality shape models for a wide range of celebrities from photos available on the Internet.",
+            "aminer_id": "5390b72e20f70186a0f21799"
+        },
+        "khan2021learning": {
+            "number": "[33]",
+            "title": "Learning-detailed 3D Face Reconstruction Based on Convolutional Neural Networks from a Single Image.",
+            "text": "\\bibitem{khan2021learning} Asad Khan, Sakander Hayat, Muhammad Ahmad, Jinde Cao, Muhammad~Faizan Tahir, Asad Ullah, and Muhammad~Sufyan Javed. \\newblock Learning-detailed 3d face reconstruction based on convolutional neural networks from a single image. \\newblock {\\em Neural Computing and Applications}, 33(11):5951--5964, 2021.",
+            "ref_source": "bbl",
+            "abstract": "The efficiency of convolutional neural networks (CNNs) facilitates 3D face reconstruction, which takes a single image as an input and demonstrates significant performance in generating a detailed face geometry. The dependence of the extensive scale of labelled data works as a key to making CNN-based techniques significantly successful. However, no such datasets are publicly available that provide an across-the-board quantity of face images with correspondingly explained 3D face geometry. State-of-the-art learning-based 3D face reconstruction methods synthesize the training data by using a coarse morphable model of a face having non-photo-realistic synthesized face images. In this article, by using a learning-based inverse face rendering, we propose a novel data-generation technique by rendering a large number of face images that are photo-realistic and possess distinct properties. Based on the real-time fine-scale textured 3D face reconstruction comprising decently constructed datasets, we can train two cascaded CNNs in a coarse-to-fine manner. The networks are trained for actual detailed 3D face reconstruction from a single image. Experimental results demonstrate that the reconstruction of 3D face shapes with geometry details from only one input image can efficiently be performed by our method. Furthermore, the results demonstrate the efficiency of our technique to pose, expression and lighting dynamics.",
+            "aminer_id": "5ff6881ad4150a363cc65083"
+        },
+        "koestinger2011annotated": {
+            "number": "[34]",
+            "title": "Annotated Facial Landmarks in the Wild: A Large-Scale, Real-World Database for Facial Landmark Localization",
+            "text": "\\bibitem{koestinger2011annotated} Martin Koestinger, Paul Wohlhart, Peter~M Roth, and Horst Bischof. \\newblock Annotated facial landmarks in the wild: A large-scale, real-world database for facial landmark localization. \\newblock In {\\em 2011 IEEE international conference on computer vision workshops (ICCV workshops)}, pages 2144--2151. IEEE, 2011.",
+            "ref_source": "bbl",
+            "abstract": "Face alignment is a crucial step in face recognition tasks. Especially, using landmark localization for geometric face normalization has shown to be very effective, clearly improving the recognition results. However, no adequate databases exist that provide a sufficient number of annotated facial landmarks. The databases are either limited to frontal views, provide only a small number of annotated images or have been acquired under controlled conditions. Hence, we introduce a novel database overcoming these limitations: Annotated Facial Landmarks in the Wild (AFLW). AFLW provides a large-scale collection of images gathered from Flickr, exhibiting a large variety in face appearance (e.g., pose, expression, ethnicity, age, gender) as well as general imaging and environmental conditions. In total 25,993 faces in 21,997 real-world images are annotated with up to 21 landmarks per image. Due to the comprehensive set of annotations AFLW is well suited to train and test algorithms for multi-view face detection, facial landmark localization and face pose estimation. Further, we offer a rich set of tools that ease the integration of other face databases and associated annotations into our joint framework.",
+            "aminer_id": "53e99b5db7602d97024032d4"
+        },
+        "lattas2020avatarme": {
+            "number": "[35]",
+            "title": "Avatarme: Realistically renderable 3d facial reconstruction\" in-the-wild\"",
+            "text": "\\bibitem{lattas2020avatarme} Alexandros Lattas, Stylianos Moschoglou, Baris Gecer, Stylianos Ploumpis, Vasileios Triantafyllou, Abhijeet Ghosh, and Stefanos Zafeiriou. \\newblock Avatarme: Realistically renderable 3d facial reconstruction\" in-the-wild\". \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 760--769, 2020.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5e85c28491e0114016e821a3"
+        },
+        "li2020region": {
+            "number": "[36]",
+            "title": "REGION ADAPTIVE TWO-SHOT NETWORK FOR SINGLE IMAGE DEHAZING",
+            "text": "\\bibitem{li2020region} Hui Li, Qingbo Wu, King~Ngi Ngan, Hongliang Li, and Fanman Meng. \\newblock Region adaptive two-shot network for single image dehazing. \\newblock In {\\em 2020 IEEE International Conference on Multimedia and Expo (ICME)}, pages 1--6. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Existing single image dehazing methods typically adopt a one-shot strategy by indiscriminately applying the same filters to all local regions, which easily cause under-/over-dehazing across different regions by ignoring the inhomogeneity and asymmetry of illumination and detail distortions. In this paper, we propose a region adaptive two-shot network (RATNet) to address this issue. In the first shot, a lightweight subnetwork is utilized to conduct the regular global filtering, which could remove parts of haze but also distort some image details. In the second shot, a two-branch subnetwork is developed to restore the illumination and details of the initially renovated image respectively. The final dehazed image is obtained by fusing the outputs of the previous two branches, whose region-variant weights are adaptively learned by minimizing the difference between the haze-free image and our fused result. Experiments on four dehazing benchmark datasets show that our RATNet significantly outperforms many state-of-the-art dehazing approaches.",
+            "aminer_id": "5fae6dfed4150a363cec9ab3"
+        },
+        "li2021single": {
+            "number": "[37]",
+            "title": "Single image dehazing via region adaptive two-shot network",
+            "text": "\\bibitem{li2021single} Hui Li, Qingbo Wu, King~Ngi Ngan, Hongliang Li, and Fanman Meng. \\newblock Single image dehazing via region adaptive two-shot network. \\newblock {\\em IEEE MultiMedia}, 2021.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "li2019simultaneously": {
+            "number": "[38]",
+            "title": "Simultaneously Detecting and Counting Dense Vehicles from Drone Images",
+            "text": "\\bibitem{li2019simultaneously} Wei Li, Hongliang Li, Qingbo Wu, Xiaoyu Chen, and King~Ngi Ngan. \\newblock Simultaneously detecting and counting dense vehicles from drone images. \\newblock {\\em IEEE Transactions on Industrial Electronics}, 66(12):9651--9662, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Unmanned aerial vehicles are an essential component in the realization of Industry 4.0. With drones helping to improve industrial safety and efficiency in utilities, construction, and communication, there is an urgent need for drone-based intelligent applications. In this paper, we develop a unified framework to simultaneously detect and count vehicles from drone images. We first explore why the state-of-the-art detectors fail in highly dense drone scenes, which provides more appropriate insights. Then, we propose an effective loss to push the anchors toward matching the ground-truth boxes as much as possible, specifically designed for scale-adaptive anchor generation. Inspired by attention mechanisms in the human visual system, we maximize the mutual information between object classes and features by combining bottom-up cues with top-down attention mechanisms specifically designed for feature extraction. Finally, we build a counting layer with a regularized constraint related to the number of vehicles. Extensive experiments demonstrate the effectiveness of our approach. For both tasks, our proposed method achieves state-of-the-art results on all four challenging datasets. In particular, our results reduce error by a larger factor than previous methods.",
+            "aminer_id": "5ce2d1cbced107d4c646942d"
+        },
+        "li2019headnet": {
+            "number": "[39]",
+            "title": "HeadNet: an End-to-End Adaptive Relational Network for Head Detection",
+            "text": "\\bibitem{li2019headnet} Wei Li, Hongliang Li, Qingbo Wu, Fanman Meng, Linfeng Xu, and King~Ngi Ngan. \\newblock Headnet: An end-to-end adaptive relational network for head detection. \\newblock {\\em IEEE Transactions on Circuits and Systems for Video Technology}, 30(2):482--494, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Head detection plays an important role in localizing and identifying persons from visual data. Most existing methods treat head detection as a specific form of object detection. Head detection is nontrivial due to the considerable difficulty in building the local and global information under conditions of unconstrained pose and orientation. To address these issues, this paper presents an effective adaptive relational network to capture context information, which is greatly helpful to suppress missed detection. We show that the fundamental contextual properties, such as the global shape priors from different heads and the local adjacent relationship between the head and shoulders, can be systematically quantified by visual operators. Specifically, we propose a two-step search algorithm to quantify the global intergroup conflict with adaptive scale, pose and viewpoint. Meanwhile, a structured feature module is introduced to capture the local relation of intraindividual stability. Finally, the global priors and local relation are integrated seamlessly into a single-stage head detector that is end-to-end trainable. An extensive ablation analysis demonstrates the effectiveness of our approach. We achieve state-of-the-art results on two challenging datasets, i.e., HollywoodHeads and Brainwash.",
+            "aminer_id": "5e4913d193d709897c6e43e9"
+        },
+        "li2020codan": {
+            "number": "[40]",
+            "title": "CODAN: Counting-driven Attention Network for Vehicle Detection in Congested Scenes",
+            "text": "\\bibitem{li2020codan} Wei Li, Zhenting Wang, Xiao Wu, Ji~Zhang, Qiang Peng, and Hongliang Li. \\newblock Codan: Counting-driven attention network for vehicle detection in congested scenes. \\newblock In {\\em Proceedings of the 28th ACM International Conference on Multimedia}, pages 73--82, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Although recent object detectors have shown excellent performance for vehicle detection, they are incompetent for scenarios with a relatively large number of vehicles. In this paper, we explore the dense vehicle detection given the number of vehicles. Existing crowd counting methods cannot directly applied for dense vehicle detection due to insufficient description of density map, and the lack of effective constraint for mining the spatial awareness of dense vehicles. Inspired by these observations, a conceptually simple yet efficient framework, called CODAN, is proposed for dense vehicle detection. The proposed approach is composed of three major components: (i) an efficient strategy for generating multi-scale density maps (MDM) is designed to represent the vehicle counting, which can capture the global semantics and spatial information of dense vehicles, (ii) a multi-branch attention module (MAM) is proposed to bridging the gap between object counting and vehicle detection framework, (iii) with the well-designed density maps as explicit supervision, an effective counting-awareness loss (C-Loss) is employed to guide the attention learning by building the pixel-level constrain. Extensive experiments conducted on four benchmark datasets demonstrate that the proposed method outperforms the state-of-the-art methods. The impressive results indicate that vehicle detection and counting can be mutually supportive, which is an important and meaningful finding.",
+            "aminer_id": "5f86d1079fced0a24b3fc90b"
+        },
+        "lin2020towards": {
+            "number": "[41]",
+            "title": "Towards High-Fidelity 3D Face Reconstruction from In-the-Wild Images Using Graph Convolutional Networks",
+            "text": "\\bibitem{lin2020towards} Jiangke Lin, Yi~Yuan, Tianjia Shao, and Kun Zhou. \\newblock Towards high-fidelity 3d face reconstruction from in-the-wild images using graph convolutional networks. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 5891--5900, 2020.",
+            "ref_source": "bbl",
+            "abstract": "3D Morphable Model (3DMM) based methods have achieved great success in recovering 3D face shapes from single-view images. However, the facial textures recovered by such methods lack the fidelity as exhibited in the input images. Recent work demonstrates high-quality facial texture recovering with generative networks trained from a large-scale database of high-resolution UV maps of face textures, which is hard to prepare and not publicly available. In this paper, we introduce a method to reconstruct 3D facial shapes with high-fidelity textures from single-view images in-the-wild, without the need to capture a large-scale face texture database. The main idea is to refine the initial texture generated by a 3DMM based method with facial details from the input image. To this end, we propose to use graph convolutional networks to reconstruct the detailed colors for the mesh vertices instead of reconstructing the UV map. Experiments show that our method can generate high-quality results and outperforms state-of-the-art methods in both qualitative and quantitative comparisons.",
+            "aminer_id": "5e6cacc991e01145573c76a3"
+        },
+        "liu2018disentangling": {
+            "number": "[42]",
+            "title": "Disentangling Features in 3D Face Shapes for Joint Face Reconstruction and Recognition",
+            "text": "\\bibitem{liu2018disentangling} Feng Liu, Ronghang Zhu, Dan Zeng, Qijun Zhao, and Xiaoming Liu. \\newblock Disentangling features in 3d face shapes for joint face reconstruction and recognition. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 5216--5225, 2018.",
+            "ref_source": "bbl",
+            "abstract": "This paper proposes an encoder-decoder network to disentangle shape features during 3D face reconstruction from single 2D images, such that the tasks of reconstructing accurate 3D face shapes and learning discriminative shape features for face recognition can be accomplished simultaneously. Unlike existing 3D face reconstruction methods, our proposed method directly regresses dense 3D face shapes from single 2D images, and tackles identity and residual (i.e., non-identity) components in 3D face shapes explicitly and separately based on a composite 3D face shape model with latent representations. We devise a training process for the proposed network with a joint loss measuring both face identification error and 3D face shape reconstruction error. To construct training data we develop a method for fitting 3D morphable model (3DMM) to multiple 2D images of a subject. Comprehensive experiments have been done on MICC, BU3DFE, LFW and YTF databases. The results show that our method expands the capacity of 3DMM for capturing discriminative shape features and facial detail, and thus outperforms existing methods both in 3D face reconstruction accuracy and in face recognition accuracy.",
+            "aminer_id": "5c0495ae17c44a2c74701811"
+        },
+        "liu2019single": {
+            "number": "[43]",
+            "title": "Single View 3D Face Reconstruction with Landmark Updating",
+            "text": "\\bibitem{liu2019single} Peng Liu, Yao Yu, Yu~Zhou, and Sidan Du. \\newblock Single view 3d face reconstruction with landmark updating. \\newblock In {\\em 2019 IEEE Conference on Multimedia Information Processing and Retrieval (MIPR)}, pages 403--408. IEEE, 2019.",
+            "ref_source": "bbl",
+            "abstract": "3D face reconstruction is a long-term and challenging problem, which has wide application scenarios, such as animation, recognition. Inspired by recent works in face landmark marching, we develop a method for 3D face reconstruction using a novel landmark updating optimization strategy. Our method is also based on minimization of the landmark projection error for calculation speed. To achieve more accuracy, contour landmarks and self-occluded landmarks need to be updated. For contour landmarks, the detected landmarks on 2D image are to updated by finding a nearest position on contour curve. For self-occluded landmarks, we render the model onto image plane, extract the edge of projected area, and generate new correspondence landmarks according to the edge pixels. We test our method quantitatively with ground truth data, and provide qualitative example reconstructions, show that our method performs better with experiments on MICC dataset.",
+            "aminer_id": "5cc2e401ced107d4c67ace68"
+        },
+        "liu2017sphereface": {
+            "number": "[44]",
+            "title": "Sphereface: Deep hypersphere embedding for face recognition",
+            "text": "\\bibitem{liu2017sphereface} Weiyang Liu, Yandong Wen, Zhiding Yu, Ming Li, Bhiksha Raj, and Le~Song. \\newblock Sphereface: Deep hypersphere embedding for face recognition. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 212--220, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c797b601a182cd2642d21"
+        },
+        "luo2020single": {
+            "number": "[45]",
+            "title": "Single Image Deraining Via Multi-scale Gated Feature Enhancement Network",
+            "text": "\\bibitem{luo2020single} Hao Luo, Hanxiao Luo, Qingbo Wu, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Single image deraining via multi-scale gated feature enhancement network. \\newblock In {\\em International Forum on Digital TV and Wireless Multimedia Communications}, pages 73--84. Springer, 2020.",
+            "ref_source": "bbl",
+            "abstract": "With the widespread popularity of computer vision applications, single image deraining problem has attracted more and more attentions. Though various deep-learning based algorithms are designed for single image rain steak removal, deraining performance is still limited due to the insufficient utilization of multi-scale features, which either fails to remove rain steaks completely or damages the original image content. In our paper, a novel deraining network called Multi-scale Gated Feature Enhancement Network (MGFE-Net) is proposed to deal with different types of rain streaks meanwhile achieve a satisfied restoration effect. In MGFE-Net, a multi-scale gated module (MGM) is first utilized between the encoder and decoder to extract multi-scale features according to image content and keep the consistence between high-level semantics and low-level detail features. Furthermore, to cope with diverse rain streaks with different representative characteristics, we integrate the receptive field block (RFB) into encoder and decoder branches to enhance extracted rain features. Multi-level outputs of decoder are fused to obtain a final refined result. Extensive deraining results on synthetic and realistic rain-streak datasets present that our MGFE-Net performs better than recent deraining methods.",
+            "aminer_id": "621de39e5aee126c0fb292e2"
+        },
+        "luo2020multi": {
+            "number": "[46]",
+            "title": "Multi-Scale Shape Adaptive Network for Raindrop Detection and Removal from a Single Image",
+            "text": "\\bibitem{luo2020multi} Hao Luo, Qingbo Wu, King~Ngi Ngan, Hanxiao Luo, Haoran Wei, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Multi-scale shape adaptive network for raindrop detection and removal from a single image. \\newblock {\\em Sensors}, 20(23):6733, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Removing raindrops from a single image is a challenging problem due to the complex changes in shape, scale, and transparency among raindrops. Previous explorations have mainly been limited in two ways. First, publicly available raindrop image datasets have limited capacity in terms of modeling raindrop characteristics (e.g., raindrop collision and fusion) in real-world scenes. Second, recent deraining methods tend to apply shape-invariant filters to cope with diverse rainy images and fail to remove raindrops that are especially varied in shape and scale. In this paper, we address these raindrop removal problems from two perspectives. First, we establish a large-scale dataset named RaindropCityscapes, which includes 11,583 pairs of raindrop and raindrop-free images, covering a wide variety of raindrops and background scenarios. Second, a two-branch Multi-scale Shape Adaptive Network (MSANet) is proposed to detect and remove diverse raindrops, effectively filtering the occluded raindrop regions and keeping the clean background well-preserved. Extensive experiments on synthetic and real-world datasets demonstrate that the proposed method achieves significant improvements over the recent state-of-the-art raindrop removal methods. Moreover, the extension of our method towards the rainy image segmentation and detection tasks validates the practicality of the proposed method in outdoor applications.",
+            "aminer_id": "5fc767abd4150a363c1f4e65"
+        },
+        "ma2021remember": {
+            "number": "[47]",
+            "title": "Remember and Reuse: Cross-Task Blind Image Quality Assessment Via Relevance-aware Incremental Learning.",
+            "text": "\\bibitem{ma2021remember} Rui Ma, Hanxiao Luo, Qingbo Wu, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Remember and reuse: Cross-task blind image quality assessment via relevance-aware incremental learning. \\newblock In {\\em Proceedings of the 29th ACM International Conference on Multimedia}, pages 5248--5256, 2021.",
+            "ref_source": "bbl",
+            "abstract": "Existing blind image quality assessment (BIQA) methods have made great progress in various task-specific applications, including the synthetic, authentic, or over-enhanced distortion evaluations. However, limited by the static model and once-for-all learning strategy, they failed to perform the cross-task evaluations in many practical applications, where diverse evaluation criteria and distortion types are constantly emerging. To address this issue, in this paper, we propose a dynamic Remember and Reuse (R&R) network, which efficiently performs the cross-task BIQA based on a novel relevance-aware incremental learning strategy. Given multiple evaluation tasks across different distortion types or databases, our R&R network sequentially updates the parameters for every task one by one. After each update step, part of task-specific parameters is settled, which ensures R&R Remembers their dedicated evaluation preferences. The remaining parameters are pruned for the dynamic usage of the subsequent tasks. To further exploit the correlation between different tasks, we feed the training data of a new task to previously settled parameters. Better prediction accuracy is considered as higher task relevance and vice versa. Then, we selectively Reuse parts of previously settled parameters, whose proportion is adaptively determined by the task relevance. Extensive experiments show that the proposed method efficiently achieves the cross-task BIQA without catastrophic forgetting, and significantly outperforms many state-of-the-art methods. Code is available at https://github.com/maruiperfect/R-R-Net.",
+            "aminer_id": "62ac2a745aee126c0fe23182"
+        },
+        "meng2017weakly2": {
+            "number": "[48]",
+            "title": "Weakly Supervised Part Proposal Segmentation from Multiple Images",
+            "text": "\\bibitem{meng2017weakly2} Fanman Meng, Hongliang Li, Qingbo Wu, Bing Luo, and King~Ngi Ngan. \\newblock Weakly supervised part proposal segmentation from multiple images. \\newblock {\\em IEEE Transactions on Image Processing}, 26(8):4019--4031, 2017.",
+            "ref_source": "bbl",
+            "abstract": "Weakly supervised local part segmentation is challenging, due to the difficulty of modeling multiple local parts from image level prior. In this paper, we propose a new weakly supervised local part proposal segmentation method based on the observation that local parts will keep fixed along the object pose variations. Hence, the local part can be segmented by capturing object pose variations. Based on such observation, a new local part proposal segmentation model is proposed. Three aspects, such as shape similarity-based cosegmentation, shape matching-based part detection and segmentation, and graph matching-based part assignment are considered. A part segmentation energy function is first proposed. Four terms, such as MRF-based single image segmentation term, shape feature-based foreground consistency term, NCuts-based part segmentation term, and two-order graphs matching based part consistency term, are contained. Then, a three sub-minimization-based energy minimization method is proposed to accomplish approximation solution. Finally, we verify our method based on three image data sets (PASCAL VOC 2008 Part data set, UCB Bird data set, and Cat-Dog data set), and one video data set (UCF Sports) data set. The experimental results demonstrate a better segmentation performance compared with the existing object cosegmentation and part proposal generation methods.",
+            "aminer_id": "599c7a9b601a182cd26cb012"
+        },
+        "meng2019weakly": {
+            "number": "[49]",
+            "title": "Weakly supervised semantic segmentation by a class-level multiple group cosegmentation and foreground fusion strategy",
+            "text": "\\bibitem{meng2019weakly} Fanman Meng, Kunming Luo, Hongliang Li, Qingbo Wu, and Xiaolong Xu. \\newblock Weakly supervised semantic segmentation by a class-level multiple group cosegmentation and foreground fusion strategy. \\newblock {\\em IEEE Transactions on Circuits and Systems for Video Technology}, 30(12):4823--4836, 2019.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "or2015rgbd": {
+            "number": "[50]",
+            "title": "Rgbd-fusion: Real-time high precision depth recovery",
+            "text": "\\bibitem{or2015rgbd} Roy Or-El, Guy Rosman, Aaron Wetzler, Ron Kimmel, and Alfred~M Bruckstein. \\newblock Rgbd-fusion: Real-time high precision depth recovery. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 5407--5416, 2015.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "573697846e3b12023e66a838"
+        },
+        "parkhi2015deep": {
+            "number": "[51]",
+            "title": "Deep face recognition",
+            "text": "\\bibitem{parkhi2015deep} Omkar~M Parkhi, Andrea Vedaldi, and Andrew Zisserman. \\newblock Deep face recognition. \\newblock 2015.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "64a10363d68f896efada41ff"
+        },
+        "pay20093d": {
+            "number": "[52]",
+            "title": "A 3D Face Model for Pose and Illumination Invariant Face Recognition",
+            "text": "\\bibitem{pay20093d} Pascal Paysan, Reinhard Knothe, Brian Amberg, Sami Romdhani, and Thomas Vetter. \\newblock A 3d face model for pose and illumination invariant face recognition. \\newblock In {\\em 2009 sixth IEEE international conference on advanced video and signal based surveillance}, pages 296--301. Ieee, 2009.",
+            "ref_source": "bbl",
+            "abstract": "Generative 3D face models are a powerful tool in computer vision. They provide pose and illumination invariance by modeling the space of 3D faces and the imaging process. The power of these models comes at the cost of an expensive and tedious construction process, which has led the community to focus on more easily constructed but less powerful models. With this paper we publish a generative 3D shape and texture model, the Basel Face Model (BFM), and demonstrate its application to several face recognition task. We improve on previous models by offering higher shape and texture accuracy due to a better scanning device and less correspondence artifacts due to an improved registration algorithm. The same 3D face model can be fit to 2D or 3D images acquired under different situations and with different sensors using an analysis by synthesis method. The resulting model parameters separate pose, lighting, imaging and identity parameters, which facilitates invariant face recognition across sensors and data sets by comparing only the identity parameters. We hope that the availability of this registered face model will spur research in generative models. Together with the model we publish a set of detailed recognition and reconstruction results on standard databases to allow complete algorithm comparisons.",
+            "aminer_id": "5390a6d920f70186a0e8678d"
+        },
+        "paysan20093d": {
+            "number": "[53]",
+            "title": "A 3D Face Model for Pose and Illumination Invariant Face Recognition",
+            "text": "\\bibitem{paysan20093d} Pascal Paysan, Reinhard Knothe, Brian Amberg, Sami Romdhani, and Thomas Vetter. \\newblock A 3d face model for pose and illumination invariant face recognition. \\newblock In {\\em 2009 sixth IEEE international conference on advanced video and signal based surveillance}, pages 296--301. Ieee, 2009.",
+            "ref_source": "bbl",
+            "abstract": "Generative 3D face models are a powerful tool in computer vision. They provide pose and illumination invariance by modeling the space of 3D faces and the imaging process. The power of these models comes at the cost of an expensive and tedious construction process, which has led the community to focus on more easily constructed but less powerful models. With this paper we publish a generative 3D shape and texture model, the Basel Face Model (BFM), and demonstrate its application to several face recognition task. We improve on previous models by offering higher shape and texture accuracy due to a better scanning device and less correspondence artifacts due to an improved registration algorithm. The same 3D face model can be fit to 2D or 3D images acquired under different situations and with different sensors using an analysis by synthesis method. The resulting model parameters separate pose, lighting, imaging and identity parameters, which facilitates invariant face recognition across sensors and data sets by comparing only the identity parameters. We hope that the availability of this registered face model will spur research in generative models. Together with the model we publish a set of detailed recognition and reconstruction results on standard databases to allow complete algorithm comparisons.",
+            "aminer_id": "5390a6d920f70186a0e8678d"
+        },
+        "phillips2009frvt": {
+            "number": "[54]",
+            "title": "FRVT 2006 and ICE 2006 Large-Scale Experimental Results",
+            "text": "\\bibitem{phillips2009frvt} P~Jonathon Phillips, W~Todd Scruggs, Alice~J O'Toole, Patrick~J Flynn, Kevin~W Bowyer, Cathy~L Schott, and Matthew Sharpe. \\newblock Frvt 2006 and ice 2006 large-scale experimental results. \\newblock {\\em IEEE transactions on pattern analysis and machine intelligence}, 32(5):831--846, 2009.",
+            "ref_source": "bbl",
+            "abstract": "This paper describes the large-scale experimental results from the Face Recognition Vendor Test (FRVT) 2006 and the Iris Challenge Evaluation (ICE) 2006. The FRVT 2006 looked at recognition from high-resolution still frontal face images and 3D face images, and measured performance for still frontal face images taken under controlled and uncontrolled illumination. The ICE 2006 evaluation reported verification performance for both left and right irises. The images in the ICE 2006 intentionally represent a broader range of quality than the ICE 2006 sensor would normally acquire. This includes images that did not pass the quality control software embedded in the sensor. The FRVT 2006 results from controlled still and 3D images document at least an order-of-magnitude improvement in recognition performance over the FRVT 2002. The FRVT 2006 and the ICE 2006 compared recognition performance from high-resolution still frontal face images, 3D face images, and the single-iris images. On the FRVT 2006 and the ICE 2006 data sets, recognition performance was comparable for high-resolution frontal face, 3D face, and the iris images. In an experiment comparing human and algorithms on matching face identity across changes in illumination on frontal face images, the best performing algorithms were more accurate than humans on unfamiliar faces.",
+            "aminer_id": "5390a93b20f70186a0e9fd63"
+        },
+        "ploumpis2020towards": {
+            "number": "[55]",
+            "title": "Towards a Complete 3D Morphable Model of the Human Head",
+            "text": "\\bibitem{ploumpis2020towards} Stylianos Ploumpis, Evangelos Ververas, Eimear O'Sullivan, Stylianos Moschoglou, Haoyang Wang, Nick Pears, William Smith, Baris Gecer, and Stefanos~P Zafeiriou. \\newblock Towards a complete 3d morphable model of the human head. \\newblock {\\em IEEE transactions on pattern analysis and machine intelligence}, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Three-dimensional morphable models (3DMMs) are powerful statistical tools for representing the 3D shapes and textures of an object class. Here we present the most complete 3DMM of the human head to date that includes face, cranium, ears, eyes, teeth and tongue. To achieve this, we propose two methods for combining existing 3DMMs of different overlapping head parts: (i). use a regressor to complete missing parts of one model using the other, and (ii). use the Gaussian Process framework to blend covariance matrices from multiple models. Thus, we build a new combined face-and-head shape model that blends the variability and facial detail of an existing face model (the LSFM) with the full head modelling capability of an existing head model (the LYHM). Then we construct and fuse a highly-detailed ear model to extend the variation of the ear shape. Eye and eye region models are incorporated into the head model, along with basic models of the teeth, tongue and inner mouth cavity. The new model achieves state-of-the-art performance. We use our model to reconstruct full head representations from single, unconstrained images allowing us to parameterize craniofacial shape and texture, along with the ear shape, eye gaze and eye color.",
+            "aminer_id": "5dd50ed43a55ac5137617819"
+        },
+        "ploumpis2019combining": {
+            "number": "[56]",
+            "title": "Combining 3D Morphable Models: A Large Scale Face-and-Head Model",
+            "text": "\\bibitem{ploumpis2019combining} Stylianos Ploumpis, Haoyang Wang, Nick Pears, William~AP Smith, and Stefanos Zafeiriou. \\newblock Combining 3d morphable models: A large scale face-and-head model. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 10934--10943, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Three-dimensional Morphable Models (3DMMs) are powerful statistical tools for representing the 3D surfaces of an object class. In this context, we identify an interesting question that has previously not received research attention: is it possible to combine two or more 3DMMs that (a) are built using different templates that perhaps only partly overlap, (b) have different representation capabilities and (c) are built from different datasets that may not be publicly-available? In answering this question, we make two contributions. First, we propose two methods for solving this problem: i. use a regressor to complete missing parts of one model using the other, ii. use the Gaussian Process framework to blend covariance matrices from multiple models. Second, as an example application of our approach, we build a new face-and-head shape model that combines the variability and facial detail of the LSFM with the full head modelling of the LYHM. The resulting combined shape model achieves state-of-the-art performance and outperforms existing head models by a large margin. Finally, as an application experiment, we reconstruct full head representations from single, unconstrained images by utilizing our proposed large-scale model in conjunction with the FaceWarehouse blendshapes for handling expressions.",
+            "aminer_id": "5c8791f3e1cd8e1b29dae2b9"
+        },
+        "qiu2019a2rmnet": {
+            "number": "[57]",
+            "title": "A2rmnet: Adaptively aspect ratio multi-scale network for object detection in remote sensing images",
+            "text": "\\bibitem{qiu2019a2rmnet} Heqian Qiu, Hongliang Li, Qingbo Wu, Fanman Meng, King~Ngi Ngan, and Hengcan Shi. \\newblock A2rmnet: Adaptively aspect ratio multi-scale network for object detection in remote sensing images. \\newblock {\\em Remote Sensing}, 11(13):1594, 2019.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "qiu2020hierarchical": {
+            "number": "[58]",
+            "title": "Hierarchical Context Features Embedding for Object Detection",
+            "text": "\\bibitem{qiu2020hierarchical} Heqian Qiu, Hongliang Li, Qingbo Wu, Fanman Meng, Linfeng Xu, King~Ngi Ngan, and Hengcan Shi. \\newblock Hierarchical context features embedding for object detection. \\newblock {\\em IEEE Transactions on Multimedia}, 22(12):3039--3050, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Pixel-level segmentation has been widely used to improve object detection. Most of the existing methods refine detection features by adding the constraint of the segmentation branch or by simply embedding high-level segmentation features into detection features within the local receptive field. However, noisy segmentation features are unavoidable in real-word applications and can easily cause false positives. To address this problem, we propose a novel hierarchical context embedding module to effectively embed segmentation features into detection features. The idea of this module is to capture hierarchical context information that includes local objects or parts and nonlocal context features by learning multiple attention maps, and subsequently utilize interdependencies between features to recalibrate noisy segmentation features. Furthermore, we use this module in the proposed gated encoder-decoder network that adaptively aggregates feature maps of different resolutions based on the gate mechanism so that we can embed multiscale segmentation feature maps into detection features for more accurate detection of objects of all sizes. Experimental results demonstrate the effectiveness of the proposed method on the Pascal VOC 2012Seg dataset, the Pascal VOC dataset and the MS COCO dataset.",
+            "aminer_id": "5e7232c893d709897cfa094a"
+        },
+        "qiu2020offset": {
+            "number": "[59]",
+            "title": "Offset bin classification network for accurate object detection",
+            "text": "\\bibitem{qiu2020offset} Heqian Qiu, Hongliang Li, Qingbo Wu, and Hengcan Shi. \\newblock Offset bin classification network for accurate object detection. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 13188--13197, 2020.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5eccb534e06a4c1b26a839c0"
+        },
+        "ramon2019multi": {
+            "number": "[60]",
+            "title": "Multi-View 3D Face Reconstruction in the Wild Using Siamese Networks.",
+            "text": "\\bibitem{ramon2019multi} Eduard Ramon, Janna Escur, and Xavier Giro-i Nieto. \\newblock Multi-view 3d face reconstruction in the wild using siamese networks. \\newblock In {\\em Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops}, pages 0--0, 2019.",
+            "ref_source": "bbl",
+            "abstract": "In this work, we present a novel learning based approach to reconstruct 3D faces from a single or multiple images. Our method uses a simple yet powerful architecture based on siamese neural networks that helps to extract relevant features from each view while keeping the models small. Instead of minimizing multiple objectives, we propose to simultaneously learn the 3D shape and the individual camera poses by using a single term loss based on the reprojection error, which generalizes from one to multiple views. This allows to globally optimize the whole scene without having to tune any hyperparameters and to achieve low reprojection errors, which are important for further texture generation. Finally, we train our model on a large scale dataset with more than 6,000 facial scans. We report competitive results in 3DFAW 2019 challenge, showing the effectiveness of our method.",
+            "aminer_id": "5e6cacbb91e011436e691f61"
+        },
+        "ranjan2018generating": {
+            "number": "[61]",
+            "title": "Generating 3d faces using convolutional mesh autoencoders",
+            "text": "\\bibitem{ranjan2018generating} Anurag Ranjan, Timo Bolkart, Soubhik Sanyal, and Michael~J Black. \\newblock Generating 3d faces using convolutional mesh autoencoders. \\newblock In {\\em Proceedings of the European Conference on Computer Vision (ECCV)}, pages 704--720, 2018.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5b8c9f5317c44af36f8b74d1"
+        },
+        "richardson20163d": {
+            "number": "[62]",
+            "title": "3D Face Reconstruction by Learning from Synthetic Data",
+            "text": "\\bibitem{richardson20163d} Elad Richardson, Matan Sela, and Ron Kimmel. \\newblock 3d face reconstruction by learning from synthetic data. \\newblock In {\\em 2016 fourth international conference on 3D vision (3DV)}, pages 460--469. IEEE, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Fast and robust three-dimensional reconstruction of facial geometric structure from a single image is a challenging task with numerous applications. Here, we introduce a learning-based approach for reconstructing a three-dimensional face from a single image. Recent face recovery methods rely on accurate localization of key characteristic points. In contrast, the proposed approach is based on a Convolutional-Neural-Network (CNN) which extracts the face geometry directly from its image. Although such deep architectures outperform other models in complex computer vision problems, training them properly requires a large dataset of annotated examples. In the case of three-dimensional faces, currently, there are no large volume data sets, while acquiring such big-data is a tedious task. As an alternative, we propose to generate random, yet nearly photo-realistic, facial images for which the geometric form is known. The suggested model successfully recovers facial shapes from real images, even for faces with extreme expressions and under various lighting conditions.",
+            "aminer_id": "58437725ac44360f1082fdb4"
+        },
+        "richardson2017learning": {
+            "number": "[63]",
+            "title": "Learning detailed face reconstruction from a single image",
+            "text": "\\bibitem{richardson2017learning} Elad Richardson, Matan Sela, Roy Or-El, and Ron Kimmel. \\newblock Learning detailed face reconstruction from a single image. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1259--1268, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "58d82fcbd649053542fd61d1"
+        },
+        "ronneberger2015u": {
+            "number": "[64]",
+            "title": "U-net: Convolutional networks for biomedical image segmentation",
+            "text": "\\bibitem{ronneberger2015u} Olaf Ronneberger, Philipp Fischer, and Thomas Brox. \\newblock U-net: Convolutional networks for biomedical image segmentation. \\newblock In {\\em International Conference on Medical image computing and computer-assisted intervention}, pages 234--241. Springer, 2015.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "573698016e3b12023e6da477"
+        },
+        "roth2016adaptivemulti": {
+            "number": "[65]",
+            "title": "Adaptive 3d face reconstruction from unconstrained photo collections",
+            "text": "\\bibitem{roth2016adaptivemulti} Joseph Roth, Yiying Tong, and Xiaoming Liu. \\newblock Adaptive 3d face reconstruction from unconstrained photo collections. \\newblock In {\\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages 4197--4206, 2016.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "58d83020d649053542fe3857"
+        },
+        "roth2016adaptive": {
+            "number": "[66]",
+            "title": "Adaptive 3d face reconstruction from unconstrained photo collections",
+            "text": "\\bibitem{roth2016adaptive} Joseph Roth, Yiying Tong, and Xiaoming Liu. \\newblock Adaptive 3d face reconstruction from unconstrained photo collections. \\newblock In {\\em Proceedings of the IEEE Conference on Computer Vision and Pattern Recognition}, pages 4197--4206, 2016.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "58d83020d649053542fe3857"
+        },
+        "savran2008bosphorus": {
+            "number": "[67]",
+            "title": "Bosphorus Database for 3D Face Analysis",
+            "text": "\\bibitem{savran2008bosphorus} Arman Savran, Ne{\\c{s}}e Aly{\\\"u}z, Hamdi Dibeklio{\\u{g}}lu, Oya {\\c{C}}eliktutan, Berk G{\\\"o}kberk, B{\\\"u}lent Sankur, and Lale Akarun. \\newblock Bosphorus database for 3d face analysis. \\newblock In {\\em European workshop on biometrics and identity management}, pages 47--56. Springer, 2008.",
+            "ref_source": "bbl",
+            "abstract": "A new 3D face database that includes a rich set of expressions, systematic variation of poses and different types of occlusions is presented in this paper. This database is unique from three aspects: i) the facial expressions are composed of judiciously selected subset of Action Units as well as the six basic emotions, and many actors/actresses are incorporated to obtain more realistic expression data; ii) a rich set of head pose variations are available; and iii) different types of face occlusions are included. Hence, this new database can be a very valuable resource for development and evaluation of algorithms on face recognition under adverse conditions and facial expression analysis as well as for facial expression synthesis.",
+            "aminer_id": "5390a30b20f70186a0e692ad"
+        },
+        "schroff2015facenet": {
+            "number": "[68]",
+            "title": "FaceNet: A Unified Embedding for Face Recognition and Clustering",
+            "text": "\\bibitem{schroff2015facenet} Florian Schroff, Dmitry Kalenichenko, and James Philbin. \\newblock Facenet: A unified embedding for face recognition and clustering. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 815--823, 2015.",
+            "ref_source": "bbl",
+            "abstract": "Despite significant recent advances in the field of face recognition [10, 14, 15, 17], implementing face verification and recognition efficiently at scale presents serious challenges to current approaches. In this paper we present a system, called FaceNet, that directly learns a mapping from face images to a compact Euclidean space where distances directly correspond to a measure offace similarity. Once this space has been produced, tasks such as face recognition, verification and clustering can be easily implemented using standard techniques with FaceNet embeddings asfeature vectors. Our method uses a deep convolutional network trained to directly optimize the embedding itself, rather than an intermediate bottleneck layer as in previous deep learning approaches. To train, we use triplets of roughly aligned matching / non-matching face patches generated using a novel online triplet mining method. The benefit of our approach is much greater representational efficiency: we achieve state-of-the-artface recognition performance using only 128-bytes perface. On the widely used Labeled Faces in the Wild (LFW) dataset, our system achieves a new record accuracy of 99.63%. On YouTube Faces DB it achieves 95.12%. Our system cuts the error rate in comparison to the best published result [15] by 30% on both datasets.",
+            "aminer_id": "599c7cf8601a182cd27eda59"
+        },
+        "sela2017unrestricted": {
+            "number": "[69]",
+            "title": "Unrestricted facial geometry reconstruction using image-to-image translation",
+            "text": "\\bibitem{sela2017unrestricted} Matan Sela, Elad Richardson, and Ron Kimmel. \\newblock Unrestricted facial geometry reconstruction using image-to-image translation. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision}, pages 1576--1585, 2017.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7958601a182cd2632a11"
+        },
+        "shi2018key": {
+            "number": "[70]",
+            "title": "Key-Word-Aware Network for Referring Expression Image Segmentation",
+            "text": "\\bibitem{shi2018key} Hengcan Shi, Hongliang Li, Fanman Meng, and Qingbo Wu. \\newblock Key-word-aware network for referring expression image segmentation. \\newblock In {\\em Proceedings of the European Conference on Computer Vision (ECCV)}, pages 38--54, 2018.",
+            "ref_source": "bbl",
+            "abstract": "Referring expression image segmentation aims to segment out the object referred by a natural language query expression. Without considering the specific properties of visual and textual information, existing works usually deal with this task by directly feeding a foreground/background classifier with cascaded image and text features, which are extracted from each image region and the whole query, respectively. On the one hand, they ignore that each word in a query expression makes different contributions to identify the desired object, which requires a differential treatment in extracting text feature. On the other hand, the relationships of different image regions are not considered as well, even though they are greatly important to eliminate the undesired foreground object in accordance with specific query. To address aforementioned issues, in this paper, we propose a key-word-aware network, which contains a query attention model and a key-word-aware visual context model. In extracting text features, the query attention model attends to assign higher weights for the words which are more important for identifying object. Meanwhile, the key-word-aware visual context model describes the relationships among different image regions, according to corresponding query. Our proposed method outperforms state-of-the-art methods on two referring expression image segmentation databases.",
+            "aminer_id": "5bdc315017c44a1f58a05e25"
+        },
+        "shi2020query": {
+            "number": "[71]",
+            "title": "Query Reconstruction Network for Referring Expression Image Segmentation",
+            "text": "\\bibitem{shi2020query} Hengcan Shi, Hongliang Li, Qingbo Wu, and King~Ngi Ngan. \\newblock Query reconstruction network for referring expression image segmentation. \\newblock {\\em IEEE Transactions on Multimedia}, 23:995--1007, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Referring expression image segmentation aims at segmenting out the object described by a natural language query. Due to the diversity of visual content and language descriptions, it is very challenging to accurately model the correspondence between the vision and language, which inevitably produces some undesired segmentation objects from the queries. In this paper, we propose a query reconstruction network (QRN) to build more consistent corresponding relations between the language queries and object segmentation results. QRN not only generates segmentations from the queries and images but also reversely reconstructs the queries from the segmentations and the images. Through query reconstruction, QRN can confirm the vision-language consistency between the segmentations and queries. In the inference stage, for inconsistent segmentations and queries, we propose an iterative segmentation correction (ISC) method to correct them. ISC takes the difference between the reconstructed and input queries as a loss to optimize the proposed QRN. Then, the proposed QRN can generate new segmentations and queries. By iterative optimization, the segmentations can be gradually corrected. Extensive experiments on four referring expression image segmentation databases demonstrate the effectiveness of the proposed method.",
+            "aminer_id": "5ee1d1309e795ee60ef565fa"
+        },
+        "simonyan2014very": {
+            "number": "[72]",
+            "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "text": "\\bibitem{simonyan2014very} Karen Simonyan and Andrew Zisserman. \\newblock Very deep convolutional networks for large-scale image recognition. \\newblock {\\em arXiv preprint arXiv:1409.1556}, 2014.",
+            "ref_source": "bbl",
+            "abstract": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.",
+            "aminer_id": "5550415645ce0a409eb3a69e"
+        },
+        "szegedy2017inception": {
+            "number": "[73]",
+            "title": "Inception-v4, Inception-ResNet and the Impact of Residual Connections on Learning.",
+            "text": "\\bibitem{szegedy2017inception} Christian Szegedy, Sergey Ioffe, Vincent Vanhoucke, and Alexander~A Alemi. \\newblock Inception-v4, inception-resnet and the impact of residual connections on learning. \\newblock In {\\em Thirty-first AAAI conference on artificial intelligence}, 2017.",
+            "ref_source": "bbl",
+            "abstract": "Very deep convolutional networks have been central to the largest advances in image recognition performance in recent years. One example is the Inception architecture that has been shown to achieve very good performance at relatively low computational cost. Recently, the introduction of residual connections in conjunction with a more traditional architecture has yielded state-of-the-art performance in the 2015 ILSVRC challenge; its performance was similar to the latest generation Inception-v3 network. This raises the question: Are there any benefits to combining Inception architectures with residual connections? Here we give clear empirical evidence that training with residual connections accelerates the training of Inception networks significantly. There is also some evidence of residual Inception networks outperforming similarly expensive Inception networks without residual connections by a thin margin. We also present several new streamlined architectures for both residual and non residual Inception networks. These variations improve the single-frame recognition performance on the ILSVRC 2012 classification task significantly. We further demonstrate how proper activation scaling stabilizes the training of very wide residual Inception networks. With an ensemble of three residual and one Inception-v4 networks, we achieve 3.08% top-5 error on the test set of the ImageNet classification (CLS) challenge.",
+            "aminer_id": "573696036e3b12023e516e7d"
+        },
+        "szegedy2015going": {
+            "number": "[74]",
+            "title": "Going Deeper with Convolutions",
+            "text": "\\bibitem{szegedy2015going} Christian Szegedy, Wei Liu, Yangqing Jia, Pierre Sermanet, Scott Reed, Dragomir Anguelov, Dumitru Erhan, Vincent Vanhoucke, and Andrew Rabinovich. \\newblock Going deeper with convolutions. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 1--9, 2015.",
+            "ref_source": "bbl",
+            "abstract": "We propose a deep convolutional neural network architecture codenamed Inception that achieves the new state of the art for classification and detection in the ImageNet Large-Scale Visual Recognition Challenge 2014 (ILSVRC14). The main hallmark of this architecture is the improved utilization of the computing resources inside the network. By a carefully crafted design, we increased the depth and width of the network while keeping the computational budget constant. To optimize quality, the architectural decisions were based on the Hebbian principle and the intuition of multi-scale processing. One particular incarnation used in our submission for ILSVRC14 is called GoogLeNet, a 22 layers deep network, the quality of which is assessed in the context of classification and detection.",
+            "aminer_id": "5550417d45ce0a409eb3bc08"
+        },
+        "tang2017deep": {
+            "number": "[75]",
+            "title": "Deep Saliency Quality Assessment Network",
+            "text": "\\bibitem{tang2017deep} Liangzhi Tang, Qingbo Wu, Wei Li, and Yinan Liu. \\newblock Deep saliency quality assessment network. \\newblock In {\\em 2017 IEEE International Conference on Multimedia \\& Expo Workshops (ICMEW)}, pages 567--572. IEEE, 2017.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we propose to predict the quality score of saliency map by only looking over the saliency map itself. In order to achieve this goal, we propose deep saliency quality assessment network (DSQAN), to predict the saliency quality scores directly from saliency maps. First of all, we model this saliency quality assessment task as a regression problem. To train an efficient regression model, we utilize state-of-the-art deep convolutional neural networks, and reform the canonical architecture, which is used to accomplish image classification problem, to regress the saliency quality scores of saliency maps. As a direct application of the proposed DSQAN, the predicted saliency quality scores can be utilized to rank the saliency maps or choose the best-K saliency maps from a set of saliency maps. The experimental results on the MSRA10K dataset demonstrate that our proposed method has the ability to precisely predict the quality of a given saliency map. The quantitative experimental results show that the prediction error is less than 5.3% in terms of MAE score on the whole test set. We also show the ranking results using the predicted saliency quality scores to show the effectiveness of proposed method.",
+            "aminer_id": "5a260c1817c44a4ba8a2181f"
+        },
+        "tewari2017mofa": {
+            "number": "[76]",
+            "title": "MoFA: Model-based Deep Convolutional Face Autoencoder for Unsupervised Monocular Reconstruction.",
+            "text": "\\bibitem{tewari2017mofa} Ayush Tewari, Michael Zollhofer, Hyeongwoo Kim, Pablo Garrido, Florian Bernard, Patrick Perez, and Christian Theobalt. \\newblock Mofa: Model-based deep convolutional face autoencoder for unsupervised monocular reconstruction. \\newblock In {\\em Proceedings of the IEEE International Conference on Computer Vision Workshops}, pages 1274--1283, 2017.",
+            "ref_source": "bbl",
+            "abstract": "In this work we propose a novel model-based deep convolutional autoencoder that addresses the highly challenging problem of reconstructing a 3D human face from a single in-the-wild color image. To this end, we combine a convolutional encoder network with an expert-designed generative model that serves as decoder. The core innovation is the differentiable parametric decoder that encapsulates image formation analytically based on a generative model. Our decoder takes as input a code vector with exactly defined semantic meaning that encodes detailed face pose, shape, expression, skin reflectance and scene illumination. Due to this new way of combining CNN-based with model-based face reconstruction, the CNN-based encoder learns to extract semantically meaningful parameters from a single monocular input image. For the first time, a CNN encoder and an expert-designed generative model can be trained end-to-end in an unsupervised manner, which renders training on very large (unlabeled) real world data feasible. The obtained reconstructions compare favorably to current state-of-the-art approaches in terms of quality and richness of representation.",
+            "aminer_id": "5a73cb6317c44a0b303580a3"
+        },
+        "tran2018extreme": {
+            "number": "[77]",
+            "title": "Extreme 3D Face Reconstruction: Seeing Through Occlusions",
+            "text": "\\bibitem{tran2018extreme} Anh~Tuan Tran, Tal Hassner, Iacopo Masi, Eran Paz, Yuval Nirkin, and G{\\'e}rard~G Medioni. \\newblock Extreme 3d face reconstruction: Seeing through occlusions. \\newblock In {\\em CVPR}, pages 3935--3944, 2018.",
+            "ref_source": "bbl",
+            "abstract": "Existing single view, 3D face reconstruction methods can produce beautifully detailed 3D results, but typically only for near frontal, unobstructed viewpoints. We describe a system designed to provide detailed 3D reconstructions of faces viewed under extreme conditions, out of plane rotations, and occlusions. Motivated by the concept of bump mapping, we propose a layered approach which decouples estimation of a global shape from its mid-level details (e.g., wrinkles). We estimate a coarse 3D face shape which acts as a foundation and then separately layer this foundation with details represented by a bump map. We show how a deep convolutional encoder-decoder can be used to estimate such bump maps. We further show how this approach naturally extends to generate plausible details for occluded facial regions. We test our approach and its components extensively, quantitatively demonstrating the invariance of our estimated facial details. We further provide numerous qualitative examples showing that our method produces detailed 3D face shapes in viewing conditions where existing state of the art often break down.",
+            "aminer_id": "5c0495ae17c44a2c747018d1"
+        },
+        "tran2019learning": {
+            "number": "[78]",
+            "title": "On Learning 3D Face Morphable Model from In-the-wild Images",
+            "text": "\\bibitem{tran2019learning} Luan Tran and Xiaoming Liu. \\newblock On learning 3d face morphable model from in-the-wild images. \\newblock {\\em IEEE transactions on pattern analysis and machine intelligence}, 43(1):157--171, 2019.",
+            "ref_source": "bbl",
+            "abstract": "As a classic statistical model of 3D facial shape and albedo, 3D Morphable Model (3DMM) is widely used in facial analysis, e.g., model fitting, image synthesis. Conventional 3DMM is learned from a set of 3D face scans with associated well-controlled 2D face images, and represented by two sets of PCA basis functions. Due to the type and amount of training data, as well as, the linear bases, the representation power of 3DMM can be limited. To address these problems, this paper proposes an innovative framework to learn a nonlinear 3DMM model from a large set of in-the-wild face images, without collecting 3D face scans. Specifically, given a face image as input, a network encoder estimates the projection, lighting, shape and albedo parameters. Two decoders serve as the nonlinear 3DMM to map from the shape and albedo parameters to the 3D shape and albedo, respectively. With the projection parameter, lighting, 3D shape, and albedo, a novel analytically-differentiable rendering layer is designed to reconstruct the original input face. The entire network is end-to-end trainable with only weak supervision. We demonstrate the superior representation power of our nonlinear 3DMM over its linear counterpart, and its contribution to face alignment, 3D reconstruction, and face editing. Source code and additional results can be found at our project page: http://cvlab.cse.msu.edu/project-nonlinear-3dmm.html.",
+            "aminer_id": "5bbacbad17c44aecc4eb0069"
+        },
+        "tu20203d": {
+            "number": "[79]",
+            "title": "3D Face Reconstruction from A Single Image Assisted by 2D Face Images in the Wild",
+            "text": "\\bibitem{tu20203d} Xiaoguang Tu, Jian Zhao, Mei Xie, Zihang Jiang, Akshaya Balamurugan, Yao Luo, Yang Zhao, Lingxiao He, Zheng Ma, and Jiashi Feng. \\newblock 3d face reconstruction from a single image assisted by 2d face images in the wild. \\newblock {\\em IEEE Transactions on Multimedia}, 23:1160--1172, 2020.",
+            "ref_source": "bbl",
+            "abstract": "3D face reconstruction from a single image is an important task in many multimedia applications. Recent works typically learn a CNN-based 3D face model that regresses coefficients of a 3D Morphable Model (3DMM) from 2D images to perform 3D face reconstruction. However, the shortage of training data with 3D annotations considerably limits performance of these methods. To alleviate this issue, we propose a novel 2D-Assisted Learning (2DAL) method that can effectively use “in the wild” 2D face images with noisy landmark information to substantially improve 3D face model learning. Specifically, taking the sparse 2D facial landmark heatmaps as additional information, 2DAL introduces four novel self-supervision schemes that view the 2D landmark and 3D landmark prediction as a self-mapping process, including the landmark self-prediction consistency for 2D and 3D faces respectively, cycle-consistency over the 2D landmark prediction and self-critic over the predicted 3DMM coefficients based on landmark prediction. Using these four self-supervision schemes, 2DAL significantly relieves the demands for the the conventional paired 2D-to-3D annotations and gives much higher-quality 3D face models without requiring any additional 3D annotations. Experiments on AFLW2000-3D, AFLW-LFPA and Florence benchmarks show that our method outperforms state-of-the-arts for both 3D face reconstruction and dense face alignment by a large margin.",
+            "aminer_id": "5c98a873e1cd8e9a944fe758"
+        },
+        "tuan2017regressing": {
+            "number": "[80]",
+            "title": "Regressing Robust and Discriminative 3D Morphable Models with a Very Deep Neural Network.",
+            "text": "\\bibitem{tuan2017regressing} Anh Tuan~Tran, Tal Hassner, Iacopo Masi, and G{\\'e}rard Medioni. \\newblock Regressing robust and discriminative 3d morphable models with a very deep neural network. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 5163--5172, 2017.",
+            "ref_source": "bbl",
+            "abstract": "The 3D shapes of faces are well known to be discriminative. Yet despite this, they are rarely used for face recognition and always under controlled viewing conditions. We claim that this is a symptom of a serious but often overlooked problem with existing methods for single view 3D face reconstruction: when applied \"in the wild\", their 3D estimates are either unstable and change for different photos of the same subject or they are over-regularized and generic. In response, we describe a robust method for regressing discriminative 3D morphable face models (3DMM). We use a convolutional neural network (CNN) to regress 3DMM shape and texture parameters directly from an input photo. We overcome the shortage of training data required for this purpose by offering a method for generating huge numbers of labeled examples. The 3D estimates produced by our CNN surpass state of the art accuracy on the MICC data set. Coupled with a 3D-3D face matching pipeline, we show the first competitive face recognition results on the LFW, YTF and IJB-A benchmarks using 3D face shapes as representations, rather than the opaque deep feature vectors used by other modern systems.",
+            "aminer_id": "58d82fcbd649053542fd5d75"
+        },
+        "wang2020blind": {
+            "number": "[81]",
+            "title": "Blind Tone-mapped Image Quality Assessment and Enhancement Via Disentangled Representation Learning",
+            "text": "\\bibitem{wang2020blind} Lei Wang, Qingbo Wu, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Blind tone-mapped image quality assessment and enhancement via disentangled representation learning. \\newblock In {\\em 2020 Asia-Pacific Signal and Information Processing Association Annual Summit and Conference (APSIPA ASC)}, pages 1096--1102. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "For compatibility with existing low dynamic range (LDR) display devices, the tone mapping operator (TMO) is widely applied to the high dynamic range (HDR) image, which inevitably leads to visual quality degradation. Various blind image quality assessment models have been developed to quantity the distortion degrees across different HDR images. However, these models only extract the quality-aware features and serve as a selector for different TMOs, which excludes visual content information and fails to conduct an end-to-end image enhancement towards a desired quality score. In this paper, we propose to jointly conduct blind tone-mapped image quality assessment and enhancement via disentangled representation learning. An encoder is firstly used to map the input image into the general feature space. Then, two branches are separately developed to extract the quality-aware and content-aware latent representations from the general feature, which are supervised with the quality score and image reconstruction constraints, respectively. Meanwhile, these two branches are also coupled with the adaptive instance normalization, which enables our model to flexibly modify the image towards any desired quality score. Extensive experiments confirm the effectiveness of the proposed method.",
+            "aminer_id": "6027a5ee91e011c54b48b6bf"
+        },
+        "wei2020single": {
+            "number": "[82]",
+            "title": "Single Image Dehazing Via Artificial Multiple Shots and Multidimensional Context",
+            "text": "\\bibitem{wei2020single} Haoran Wei, Qingbo Wu, Hui Li, King~Ngi Ngan, Hongliang Li, and Fanman Meng. \\newblock Single image dehazing via artificial multiple shots and multidimensional context. \\newblock In {\\em 2020 IEEE International Conference on Image Processing (ICIP)}, pages 1023--1027. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "The main challenge for single image dehazing is the lack of effective prior information for restoration. To address this issue, in this paper, we propose to generate artificial multiple shots for simulating the images captured under different haze degrees, and two context reasoning modules are developed to describe the relationship across different spatial regions and artificial shots. It brings two benefits in the inhomogeneous haze distribution. First, within one shot, the regions occluded in one location could be recovered with the help of other clear regions, which share the similar structures. Second, for the same spatial location, the regions distorted in one shot could be restored by means of other shots with clear content. We evaluate our method on different benchmark datasets. The results demonstrate that our method achieves superior performance over many state-of-the-art dehazing algorithms.",
+            "aminer_id": "5ff8841a91e011c8326756f4"
+        },
+        "wei2021non": {
+            "number": "[83]",
+            "title": "Non-Homogeneous Haze Removal Via Artificial Scene Prior and Bidimensional Graph Reasoning",
+            "text": "\\bibitem{wei2021non} Haoran Wei, Qingbo Wu, Hui Li, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Non-homogeneous haze removal via artificial scene prior and bidimensional graph reasoning. \\newblock {\\em arXiv preprint arXiv:2104.01888}, 2021.",
+            "ref_source": "bbl",
+            "abstract": "Due to the lack of natural scene and haze prior information, it is greatly challenging to completely remove the haze from a single image without distorting its visual content. Fortunately, the real-world haze usually presents non-homogeneous distribution, which provides us with many valuable clues in partial well-preserved regions. In this paper, we propose a Non-Homogeneous Haze Removal Network (NHRN) via artificial scene prior and bidimensional graph reasoning. Firstly, we employ the gamma correction iteratively to simulate artificial multiple shots under different exposure conditions, whose haze degrees are different and enrich the underlying scene prior. Secondly, beyond utilizing the local neighboring relationship, we build a bidimensional graph reasoning module to conduct non-local filtering in the spatial and channel dimensions of feature maps, which models their long-range dependency and propagates the natural scene prior between the well-preserved nodes and the nodes contaminated by haze. To the best of our knowledge, this is the first exploration to remove non-homogeneous haze via the graph reasoning based framework. We evaluate our method on different benchmark datasets. The results demonstrate that our method achieves superior performance over many state-of-the-art algorithms for both the single image dehazing and hazy image understanding tasks. The source code of the proposed NHRN is available on https://github.com/whrws/NHRNet.",
+            "aminer_id": "628d210d5aee126c0f422f92"
+        },
+        "wu2019mvf": {
+            "number": "[84]",
+            "title": "MVF-Net: Multi-View 3D Face Morphable Model Regression",
+            "text": "\\bibitem{wu2019mvf} Fanzi Wu, Linchao Bao, Yajing Chen, Yonggen Ling, Yibing Song, Songnan Li, King~Ngi Ngan, and Wei Liu. \\newblock Mvf-net: Multi-view 3d face morphable model regression. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 959--968, 2019.",
+            "ref_source": "bbl",
+            "abstract": "We address the problem of recovering the 3D geometry of a human face from a set of facial images in multiple views. While recent studies have shown impressive progress in 3D Morphable Model (3DMM) based facial reconstruction, the settings are mostly restricted to a single view. There is an inherent drawback in the single-view setting: the lack of reliable 3D constraints can cause unresolvable ambiguities. We in this paper explore 3DMM-based shape recovery in a different setting, where a set of multi-view facial images are given as input. A novel approach is proposed to regress 3DMM parameters from multi-view inputs with an end-to-end trainable Convolutional Neural Network (CNN). Multi-view geometric constraints are incorporated into the network by establishing dense correspondences between different views leveraging a novel self-supervised view alignment loss. The main ingredient of the view alignment loss is a differentiable dense optical flow estimator that can backpropagate the alignment errors between an input view and a synthetic rendering from another input view, which is projected to the target view through the 3D shape to be inferred. Through minimizing the view alignment loss, better 3D shapes can be recovered such that the synthetic projections from one view to another can better align with the observed image. Extensive experiments demonstrate the superiority of the proposed method over other 3DMM methods.",
+            "aminer_id": "5cae01dae1cd8e55686b346f"
+        },
+        "wu2020unified": {
+            "number": "[85]",
+            "title": "A Unified Single Image De-raining Model Via Region Adaptive Coupled Network",
+            "text": "\\bibitem{wu2020unified} Qingbo Wu, Li~Chen, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock A unified single image de-raining model via region adaptive coupled network. \\newblock In {\\em 2020 IEEE International Conference on Visual Communications and Image Processing (VCIP)}, pages 1--4. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Single image de-raining is quite challenging due to the diversity of rain types and inhomogeneous distributions of rainwater. By means of dedicated models and constraints, existing methods perform well for specific rain type. However, their generalization capability is highly limited as well. In this paper, we propose a unified de-raining model by selectively fusing the clean background of the input rain image and the well restored regions occluded by various rains. This is achieved by our region adaptive coupled network (RACN), whose two branches integrate the features of each other in different layers to jointly generate the spatial-variant weight and restored image respectively. On the one hand, the weight branch could lead the restoration branch to focus on the regions with higher contributions for de-raining. On the other hand, the restoration branch could guide the weight branch to keep off the regions with over-/under-filtering risks. Extensive experiments show that our method outperforms many state-of-the-art de-raining algorithms on diverse rain types including the rain streak, raindrop and rain-mist.",
+            "aminer_id": "600fe76bd4150a363c221caa"
+        },
+        "wu2016q": {
+            "number": "[86]",
+            "title": "Q-DNN: A Quality-Aware Deep Neural Network for Blind Assessment of Enhanced Images.",
+            "text": "\\bibitem{wu2016q} Qingbo Wu, Hongliang Li, Fanman Meng, and King~N Ngan. \\newblock Q-dnn: A quality-aware deep neural network for blind assessment of enhanced images. \\newblock In {\\em 2016 Visual Communications and Image Processing (VCIP)}, pages 1--4. IEEE, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Image enhancement is widely popular due to its capability of producing \"better\" visual quality for specific applications. Although many enhancement algorithms have been developed in recent years, the studies towards blind assessment of enhanced images are still very lacking. In this paper, we propose a data-driven blind image quality assessment (BIQA) method based on the quality-aware deep neural network (Q-DNN). Unlike the conventional hand-crafted features designed for measuring the degradation level of specific distortion types, a supervised learning model is utilized in our Q-DNN, which is capable of adaptively updating the feature extractor and quality regressor for describing the visual artifacts caused by different image enhancement tasks. Experimental results on two challenging enhanced image databases show that the proposed method is significantly superior to the state-of-the-art BIQA metrics.",
+            "aminer_id": "58d8302ed649053542fe59c8"
+        },
+        "wu2017generic": {
+            "number": "[87]",
+            "title": "Generic Proposal Evaluator: A Lazy Learning Strategy Toward Blind Proposal Quality Assessment",
+            "text": "\\bibitem{wu2017generic} Qingbo Wu, Hongliang Li, Fanman Meng, and King~N Ngan. \\newblock Generic proposal evaluator: A lazy learning strategy toward blind proposal quality assessment. \\newblock {\\em IEEE Transactions on Intelligent Transportation Systems}, 19(1):306--319, 2017.",
+            "ref_source": "bbl",
+            "abstract": "Existing detection or recognition systems typically select one state-of-the-art proposal algorithm to produce massive object-covered candidate windows, and a quality metric specifically designed for this algorithm is utilized to single out small amounts of proposals. However, in practice, the accuracies of different proposal algorithms significantly change from one image content to another one. To obtain more robust proposal results, a generic proposal evaluator (GPE) is highly desired, which could choose optimal candidate windows across multiple proposal algorithms. In this paper, we propose a lazy learning strategy to train the GPE, which aims to blindly estimate the quality of each proposal without accessing to its manual annotation. Unlike the traditional end-to-end framework that learns a universal model from all training samples, we try to build query-specific training subset for each given proposal, where only its k-nearest-neighborhoods are collected from all labeled candidate windows. Benefits from the capability of updating the regression parameters for different visual contents, the proposed method delivers a higher quality prediction accuracy even with respect to the deep neural network learned by end-to-end method. Experimental results confirm that the proposed algorithm significantly outperforms many state-of-the-art proposal quality metrics.",
+            "aminer_id": "5a73cb9817c44a0b3035c27b"
+        },
+        "wu2017blind": {
+            "number": "[88]",
+            "title": "BLIND PROPOSAL QUALITY ASSESSMENT VIA DEEP OBJECTNESS REPRESENTATION AND LOCAL LINEAR REGRESSION",
+            "text": "\\bibitem{wu2017blind} Qingbo Wu, Hongliang Li, Fanman Meng, King~N Ngan, and Linfeng Xu. \\newblock Blind proposal quality assessment via deep objectness representation and local linear regression. \\newblock In {\\em 2017 IEEE International Conference on Multimedia and Expo (ICME)}, pages 1482--1487. IEEE, 2017.",
+            "ref_source": "bbl",
+            "abstract": "The quality of object proposal plays an important role in boosting the performance of many computer vision tasks, such as, object detection and recognition. Due to the absence of manually annotated bounding-box in practice, the quality metric towards blind assessment of object proposal is highly desirable for singling out the optimal proposals. In this paper, we propose a blind proposal quality assessment algorithm based on the Deep Objectness Representation and Local Linear Regression (DORLLR). Inspired by the hierarchy model of the human vision system, a deep convolutional neural network is developed to extract the objectness-aware image feature. Then, the local linear regression method is utilized to map the image feature to a quality score, which tries to evaluate each individual test window based on its k-nearest-neighbors. Experimental results on a large-scale IoU labeled dataset verify that the proposed method significantly outperforms the state-of-the-art blind proposal evaluation metrics.",
+            "aminer_id": "5a260c1817c44a4ba8a21781"
+        },
+        "wu2020subjective": {
+            "number": "[89]",
+            "title": "Subjective and Objective De-raining Quality Assessment Towards Authentic Rain Image",
+            "text": "\\bibitem{wu2020subjective} Qingbo Wu, Lei Wang, King~Ngi Ngan, Hongliang Li, Fanman Meng, and Linfeng Xu. \\newblock Subjective and objective de-raining quality assessment towards authentic rain image. \\newblock {\\em IEEE Transactions on Circuits and Systems for Video Technology}, 30(11):3883--3897, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Images acquired by outdoor vision systems easily suffer poor visibility and annoying interference due to the rainy weather, which brings great challenge for accurately understanding and describing the visual contents. Recent researches have devoted great efforts on the task of rain removal for improving the image visibility. However, there is very few exploration about the quality assessment of de-rained image, even it is crucial for accurately measuring the performance of various de-raining algorithms. In this paper, we first create a de-raining quality assessment (DQA) database that collects 206 authentic rain images and their de-rained versions produced by 6 representative single image rain removal algorithms. Then, a subjective study is conducted on our DQA database, which collects the subject-rated scores of all de-rained images. To quantitatively measure the quality of de-rained image with non-uniform artifacts, we propose a bi-directional feature embedding network (B-FEN) which integrates the features of global perception and local difference together. Experiments confirm that the proposed method significantly outperforms many existing universal blind image quality assessment models. To help the research towards perceptually preferred de-raining algorithm, we will publicly release our DQA database and B-FEN source code on https://github.com/wqb-uestc.",
+            "aminer_id": "5d8dded23a55acd1b54968eb"
+        },
+        "xu2020new": {
+            "number": "[90]",
+            "title": "A New Bounding Box Based Pseudo Annotation Generation Method for Semantic Segmentation",
+            "text": "\\bibitem{xu2020new} Xiaolong Xu, Fanman Meng, Hongliang Li, Qingbo Wu, King~Ngi Ngan, and Shuai Chen. \\newblock A new bounding box based pseudo annotation generation method for semantic segmentation. \\newblock In {\\em 2020 IEEE International Conference on Visual Communications and Image Processing (VCIP)}, pages 100--103. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "This paper proposes a fusion-based method to generate pseudo-annotations from bounding boxes for semantic segmentation. The idea is to first generate diverse foreground masks by multiple bounding box segmentation methods, and then combine these masks to generate pseudo-annotations. Existing methods generate foreground masks from bounding boxes by classical segmentation methods driving by low-level features and own local information, which is hard to generate accurate and diverse results for the fusion. Different from the traditional methods, multiple class-agnostic models are modeled to learn the objectiveness cues by using existing labeled pixel-level annotations and then to fuse. Firstly, the classical Fully Convolutional Network (FCN) that densely predicts the pixels’ labels is used. Then, two new sparse prediction based class-agnostic models are proposed, which simplify the segmentation task as sparsely predicting the boundary points through predicting the distance from the bounding box border to the object boundary in Cartesian Coordinate System and the Polar Coordinate System, respectively. Finally, a voting-based strategy is proposed to combine these segmentation results to form better pseudo-annotations. We conduct experiments on PASCAL VOC 2012 dataset. The mIoU of the proposed method is 68.7%, which outperforms the state-of-the-art method by 1.9%.",
+            "aminer_id": "600fe858d4150a363c2438ac"
+        },
+        "yang2021task": {
+            "number": "[91]",
+            "title": "Task-Specific Loss for Robust Instance Segmentation with Noisy Class Labels",
+            "text": "\\bibitem{yang2021task} Longrong Yang, Hongliang Li, Fanman Meng, Qingbo Wu, and King~Ngi Ngan. \\newblock Task-specific loss for robust instance segmentation with noisy class labels. \\newblock {\\em IEEE Transactions on Circuits and Systems for Video Technology}, 2021.",
+            "ref_source": "bbl",
+            "abstract": "Deep learning methods have achieved significant progress in the presence of correctly annotated datasets in instance segmentation. However, object classes in large-scale datasets are sometimes ambiguous, which easily causes confusion. Besides, limited experience and knowledge of annotators can lead to mislabeled object semantic classes. To solve this issue, a novel method is proposed in this paper, which considers different roles of noisy class labels in different sub-tasks. Our method is based on two basic observations: firstly, the foreground-background annotation of a sample is correct even though its class label is noisy. Secondly, symmetric loss benefits the model robustness to noisy labels but harms the learning of hard samples, while cross entropy loss is the opposite. Based on the two basic observations, in the foreground-background sub-task, cross entropy loss is used to fully exploit correct gradient guidance. In the foreground-instance sub-task, symmetric loss is used to prevent incorrect gradient guidance provided by noisy class labels. Furthermore, we apply contrastive self-supervised loss to update features of all foreground, to compensate for insufficient guidance provided by partially correct labels especially in the highly noisy setting. Extensive experiments conducted with three popular datasets (i.e., Pascal VOC, Cityscapes and COCO) have demonstrated the effectiveness of our method in a wide range of noisy class label scenarios.",
+            "aminer_id": "63beb49690e50fcafd15c887"
+        },
+        "yang2020mono": {
+            "number": "[92]",
+            "title": "Mono is Enough: Instance Segmentation from Single Annotated Sample",
+            "text": "\\bibitem{yang2020mono} Longrong Yang, Hongliang Li, Qingbo Wu, Fanman Meng, and King~Ngi Ngan. \\newblock Mono is enough: Instance segmentation from single annotated sample. \\newblock In {\\em 2020 IEEE International Conference on Visual Communications and Image Processing (VCIP)}, pages 120--123. IEEE, 2020.",
+            "ref_source": "bbl",
+            "abstract": "With the help of various Deep Neural Networks, instance segmentation has achieved significant progress. How-ever, these successes are heavily reliant on large-scale manually annotated samples, which are extremely time-consuming and expensive. To address this issue, we propose a highly efficient anisotropic data augmentation method, which generates high quality training data from a single manually annotated sample. Instead of equivalently modifying foreground and background like traditional data augmentation methods, we focus on enriching the diversities of foreground appearance and positional relation between foreground and background, which are beneficial for the classification and localization sub-tasks respectively. All foreground instances of the source annotated sample undergo various rotation, brightness change, rescale, distortion and frequency-component mixup (FCM). Then, these modified instances are randomly embedded into background, which serve as new training samples. Experiments on Cityscapes dataset show that our method significantly outperforms traditional data augmentation methods.",
+            "aminer_id": "600fe7abd4150a363c22a3d4"
+        },
+        "yang2020learning": {
+            "number": "[93]",
+            "title": "Learning with Noisy Class Labels for Instance Segmentation",
+            "text": "\\bibitem{yang2020learning} Longrong Yang, Fanman Meng, Hongliang Li, Qingbo Wu, and Qishang Cheng. \\newblock Learning with noisy class labels for instance segmentation. \\newblock In {\\em European Conference on Computer Vision}, pages 38--53. Springer, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Instance segmentation has achieved siginificant progress in the presence of correctly annotated datasets. Yet, object classes in large-scale datasets are sometimes ambiguous, which easily causes confusion. In addition, limited experience and knowledge of annotators can also lead to mislabeled object classes. To solve this issue, a novel method is proposed in this paper, which uses different losses describing different roles of noisy class labels to enhance the learning. Specifically, in instance segmentation, noisy class labels play different roles in the foreground-background sub-task and the foreground-instance sub-task. Hence, on the one hand, the noise-robust loss (e.g., symmetric loss) is used to prevent incorrect gradient guidance for the foreground-instance sub-task. On the other hand, standard cross entropy loss is used to fully exploit correct gradient guidance for the foreground-background sub-task. Extensive experiments conducted with three popular datasets (i.e., Pascal VOC, Cityscapes and COCO) have demonstrated the effectiveness of our method in a wide range of noisy class labels scenarios. Code will be available at: github.com/longrongyang/LNCIS .",
+            "aminer_id": "5ff68c2bd4150a363cd196c0"
+        },
+        "yang2020new": {
+            "number": "[94]",
+            "title": "A New Local Transformation Module for Few-Shot Segmentation",
+            "text": "\\bibitem{yang2020new} Yuwei Yang, Fanman Meng, Hongliang Li, Qingbo Wu, Xiaolong Xu, and Shuai Chen. \\newblock A new local transformation module for few-shot segmentation. \\newblock In {\\em International Conference on Multimedia Modeling}, pages 76--87. Springer, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Few-shot segmentation segments object regions of new classes with a few of manual annotations. Its key step is to establish the transformation module between support images (annotated images) and query images (unlabeled images), so that the segmentation cues of support images can guide the segmentation of query images. The existing methods form transformation model based on global cues, which however ignores the local cues that are verified in this paper to be very important for the transformation. This paper proposes a new transformation module based on local cues, where the relationship of the local features is used for transformation. To enhance the generalization performance of the network, the relationship matrix is calculated in a high-dimensional metric embedding space based on cosine distance. In addition, to handle the challenging mapping problem from the low-level local relationships to high-level semantic cues, we propose to apply generalized inverse matrix of the annotation matrix of support images to transform the relationship matrix linearly, which is non-parametric and class-agnostic. The result by the matrix transformation can be regarded as an attention map with high-level semantic cues, based on which a transformation module can be built simply. The proposed transformation module is a general module that can be used to replace the transformation module in the existing few-shot segmentation frameworks. We verify the effectiveness of the proposed method on Pascal VOC 2012 dataset. The value of mIoU achieves at 57.0% in 1-shot and 60.6% in 5-shot, which outperforms the state-of-the-art method by 1.6% and 3.5%, respectively.",
+            "aminer_id": "5da598c63a55ac2466688b64"
+        },
+        "yin20063d": {
+            "number": "[95]",
+            "title": "A 3D Facial Expression Database for Facial Behavior Research",
+            "text": "\\bibitem{yin20063d} Lijun Yin, Xiaozhou Wei, Yi~Sun, Jun Wang, and Matthew~J Rosato. \\newblock A 3d facial expression database for facial behavior research. \\newblock In {\\em 7th international conference on automatic face and gesture recognition (FGR06)}, pages 211--216. IEEE, 2006.",
+            "ref_source": "bbl",
+            "abstract": "Traditionally, human facial expressions have been studied using either 2D static images or 2D video sequences. The 2D-based analysis is incapable of handing large pose variations. Although 3D modeling techniques have been extensively used for 3D face recognition and 3D face animation, barely any research on 3D facial expression recognition using 3D range data has been reported. A primary factor for preventing such research is the lack of a publicly available 3D facial expression database. In this paper, we present a newly developed 3D facial expression database, which includes both prototypical 3D facial expression shapes and 2D facial textures of 2,500 models from 100 subjects. This is the first attempt at making a 3D facial expression database available for the research community, with the ultimate goal of fostering the research on affective computing and increasing the general understanding of facial behavior and the fine 3D structure inherent in human facial expressions. The new database can be a valuable resource for algorithm assessment, comparison and evaluation",
+            "aminer_id": "5390995c20f70186a0e14605"
+        },
+        "yun2017cost": {
+            "number": "[96]",
+            "title": "Cost-efficient 3D Face Reconstruction from a Single 2D Image",
+            "text": "\\bibitem{yun2017cost} Juseung Yun, Jaeyoung Lee, Dongyoon Han, Jeongwoo Ju, and Junmo Kim. \\newblock Cost-efficient 3d face reconstruction from a single 2d image. \\newblock In {\\em 2017 19th International Conference on Advanced Communication Technology (ICACT)}, pages 629--632. IEEE, 2017.",
+            "ref_source": "bbl",
+            "abstract": "We propose a three-dimensional (3D) face-modelling method from a single two-dimensional (2D) face image using a gallery of 2D face images and their corresponding 3D face models. Unlike existing methods, which require human effort, we provide a simple way to reconstruct 3D face models without user interaction. Our main approach is based on the idea that a particular coefficient that linearly combines vectors of 2D face images and outputs a vector that approximates the input image vector in terms of the vector norm can be reused in 3D models. Therefore, the pair of a 2D image and its 3D model plays an important role in our algorithm. Using the FaceGen software allows us to avoid the employed in previous works procedure whereby the 3D model is generated in a labor-intensive, expensive way. As a result, we are able to easily establish our 2D and 3D database. In this paper, we present a method for adopting the coefficients in 3D models and demonstrate the results of our algorithm.",
+            "aminer_id": "5c756d47f56def979851122e"
+        },
+        "zhang2013high": {
+            "number": "[97]",
+            "title": "A High-Resolution Spontaneous 3D Dynamic Facial Expression Database",
+            "text": "\\bibitem{zhang2013high} Xing Zhang, Lijun Yin, Jeffrey~F Cohn, Shaun Canavan, Michael Reale, Andy Horowitz, and Peng Liu. \\newblock A high-resolution spontaneous 3d dynamic facial expression database. \\newblock In {\\em 2013 10th IEEE international conference and workshops on automatic face and gesture recognition (FG)}, pages 1--6. IEEE, 2013.",
+            "ref_source": "bbl",
+            "abstract": "Facial expression is central to human experience. Its efficient and valid measurement is a challenge that automated facial image analysis seeks to address. Most publically available databases are limited to 2D static images or video of posed facial behavior. Because posed and un-posed (aka “spontaneous”) facial expressions differ along several dimensions including complexity and timing, well-annotated video of un-posed facial behavior is needed. Moreover, because the face is a three-dimensional deformable object, 2D video may be insufficient, and therefore 3D video archives are needed. We present a newly developed 3D video database of spontaneous facial expressions in a diverse group of young adults. Well-validated emotion inductions were used to elicit expressions of emotion and paralinguistic communication. Frame-level ground-truth for facial actions was obtained using the Facial Action Coding System. Facial features were tracked in both 2D and 3D domains using both person-specific and generic approaches. The work promotes the exploration of 3D spatiotemporal features in subtle facial expression, better understanding of the relation between pose and motion dynamics in facial action units, and deeper understanding of naturally occurring facial action.",
+            "aminer_id": "53e9a533b7602d9702e54fd1"
+        },
+        "zhao2012human": {
+            "number": "[98]",
+            "title": "Human Face Fast-3d-Reconstruction from A Single Image",
+            "text": "\\bibitem{zhao2012human} Hui~Huang Zhao, Yao~Nan Wang, Ya~Qi Sun, and Jian~Zhen Chen. \\newblock Human face fast-3d-reconstruction from a single image. \\newblock In {\\em Applied Mechanics and Materials}, volume 157, pages 1008--1011. Trans Tech Publ, 2012.",
+            "ref_source": "bbl",
+            "abstract": "Human face three-dimensional (3D) reconstruction is a challenging problem. In this paper, we propose a human face fast- 3D- reconstruction method based on image processing with a single image. Shape from shading (SFS) is chosen to reconstruct the human face. First, SFS theory is introduced. It has the advantage of fast 3D reconstruction and only need a single image. Secondly, because the noise will affect the 3D reconstruction result greatly, wavelet transform and wavelet packet transform are introduced and used in image denoising respectively. The experiment has shown that the method based on wavelet transform produces the best denoising result than wavelet packet transform. At last, a human face 3D reconstruction algorithm based on a single image is proposed. The experimental results show that a human face 3D model can be reconstructed in fast by proposed algorithm.",
+            "aminer_id": "56d928cedabfae2eeecb6e7d"
+        },
+        "zhou2019dense": {
+            "number": "[99]",
+            "title": "Dense 3D Face Decoding over 2500FPS: Joint Texture & Shape Convolutional Mesh Decoders.",
+            "text": "\\bibitem{zhou2019dense} Yuxiang Zhou, Jiankang Deng, Irene Kotsia, and Stefanos Zafeiriou. \\newblock Dense 3d face decoding over 2500fps: Joint texture \\& shape convolutional mesh decoders. \\newblock In {\\em Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition}, pages 1097--1106, 2019.",
+            "ref_source": "bbl",
+            "abstract": "3D Morphable Models (3DMMs) are statistical models that represent facial texture and shape variations using a set of linear bases and more particular Principal Component Analysis (PCA). 3DMMs were used as statistical priors for reconstructing 3D faces from images by solving non-linear least square optimization problems. Recently, 3DMMs were used as generative models for training non-linear mappings (\\ie, regressors) from image to the parameters of the models via Deep Convolutional Neural Networks (DCNNs). Nevertheless, all of the above methods use either fully connected layers or 2D convolutions on parametric unwrapped UV spaces leading to large networks with many parameters. In this paper, we present the first, to the best of our knowledge, non-linear 3DMMs by learning joint texture and shape auto-encoders using direct mesh convolutions. We demonstrate how these auto-encoders can be used to train very light-weight models that perform Coloured Mesh Decoding (CMD) in-the-wild at a speed of over 2500 FPS.",
+            "aminer_id": "5cac5259da5629269c8f1881"
+        },
+        "zhu2016face": {
+            "number": "[100]",
+            "title": "Face alignment across large poses: A 3d solution",
+            "text": "\\bibitem{zhu2016face} Xiangyu Zhu, Zhen Lei, Xiaoming Liu, Hailin Shi, and Stan~Z Li. \\newblock Face alignment across large poses: A 3d solution. \\newblock In {\\em Proceedings of the IEEE conference on computer vision and pattern recognition}, pages 146--155, 2016. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "573696036e3b12023e517165"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 100,
+        "citation_types": {
+            "unknown": 100
+        }
+    }
+}

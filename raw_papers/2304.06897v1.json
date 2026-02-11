@@ -1,0 +1,699 @@
+{
+    "topic": "A Bibliometric Review of Neuromorphic Computing and Spiking Neural\n  Networks",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[4]",
+                "[5]",
+                "[2]",
+                "[1]",
+                "[6]",
+                "[3]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Spiking Neural Networks (SNNs)",
+                    "refs": [
+                        "[13]",
+                        "[11]",
+                        "[9]",
+                        "[8]",
+                        "[12]",
+                        "[7]",
+                        "[14]",
+                        "[10]"
+                    ],
+                    "subsections": [],
+                    "number": "1.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Neuromorphic Computing",
+                    "refs": [
+                        "[18]",
+                        "[19]",
+                        "[16]",
+                        "[17]",
+                        "[15]"
+                    ],
+                    "subsections": [],
+                    "number": "1.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Existing Reviews",
+                    "refs": [
+                        "[21]",
+                        "[22]",
+                        "[20]",
+                        "[23]",
+                        "[12]"
+                    ],
+                    "subsections": [],
+                    "number": "1.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Research Questions",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "1.4",
+                    "level": 2
+                }
+            ],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Data and Methods",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Data Collection",
+                    "refs": [
+                        "[18]",
+                        "[17]",
+                        "[24]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Preprocessing",
+                    "refs": [
+                        "[25]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Bibliometric Indicators",
+                    "refs": [
+                        "[26]",
+                        "[27]"
+                    ],
+                    "subsections": [],
+                    "number": "2.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Network Analysis",
+                    "refs": [
+                        "[28]",
+                        "[30]",
+                        "[29]"
+                    ],
+                    "subsections": [],
+                    "number": "2.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Topic Clustering",
+                    "refs": [
+                        "[31]"
+                    ],
+                    "subsections": [],
+                    "number": "2.5",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Results",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Trends of publication volume (RQ1)",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Analyses of Impactful Authors, Journals, Institutions and Countries (RQ2)",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Essential Reading (RQ3)",
+                    "refs": [
+                        "[34]",
+                        "[40]",
+                        "[47]",
+                        "[44]",
+                        "[18]",
+                        "[56]",
+                        "[43]",
+                        "[13]",
+                        "[53]",
+                        "[19]",
+                        "[39]",
+                        "[45]",
+                        "[55]",
+                        "[38]",
+                        "[36]",
+                        "[51]",
+                        "[48]",
+                        "[37]",
+                        "[50]",
+                        "[6]",
+                        "[17]",
+                        "[54]",
+                        "[52]",
+                        "[32]",
+                        "[41]",
+                        "[46]",
+                        "[49]",
+                        "[35]",
+                        "[33]",
+                        "[42]",
+                        "[15]"
+                    ],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Collaboration Analysis (RQ4)",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Research Topics and Clustering (RQ5)",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.5",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Neuromorphic Hardware Platforms",
+                    "refs": [
+                        "[18]",
+                        "[19]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Training SNNs",
+                    "refs": [
+                        "[54]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Future Research Directions",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        }
+    ],
+    "references": {
+        "schmidhuber_deep_2015": {
+            "number": "[1]",
+            "title": "Deep Learning in Neural Networks: an Overview",
+            "text": "\\bibitem{schmidhuber_deep_2015} \\BIBentryALTinterwordspacing J.~Schmidhuber, ``\\BIBforeignlanguage{English}{Deep learning in neural networks: {An} overview},'' \\emph{\\BIBforeignlanguage{English}{Neural Networks}}, vol.~61, pp. 85--117, Jan. 2015, place: Oxford Publisher: Pergamon-Elsevier Science Ltd WOS:000347595400010. [Online]. Available: \\url{https://linkinghub.elsevier.com/retrieve/pii/S0893608014002135} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "In recent years, deep artificial neural networks (including recurrent ones) have won numerous contests in pattern recognition and machine learning. This historical survey compactly summarizes relevant work, much of it from the previous millennium. Shallow and Deep Learners are distinguished by the depth of their credit assignment paths, which are chains of possibly learnable, causal links between actions and effects. I review deep supervised learning (also recapitulating the history of backpropagation), unsupervised learning, reinforcement learning & evolutionary computation, and indirect search for short programs encoding deep and large networks.",
+            "aminer_id": "656da1d9939a5f4082d9f390"
+        },
+        "silver_mastering_2016": {
+            "number": "[2]",
+            "title": "Mastering the Game of Go with Deep Neural Networks and Tree Search",
+            "text": "\\bibitem{silver_mastering_2016} \\BIBentryALTinterwordspacing D.~Silver, A.~Huang, C.~J. Maddison, A.~Guez, L.~Sifre, G.~van~den Driessche, J.~Schrittwieser, I.~Antonoglou, V.~Panneershelvam, M.~Lanctot, S.~Dieleman, D.~Grewe, J.~Nham, N.~Kalchbrenner, I.~Sutskever, T.~Lillicrap, M.~Leach, K.~Kavukcuoglu, T.~Graepel, and D.~Hassabis, ``\\BIBforeignlanguage{English}{Mastering the game of {Go} with deep neural networks and tree search},'' \\emph{\\BIBforeignlanguage{English}{Nature}}, vol. 529, no. 7587, pp. 484--+, Jan. 2016, place: Berlin Publisher: Nature Portfolio WOS:000368673800028. [Online]. Available: \\url{https://www.nature.com/articles/nature16961} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The game of Go has long been viewed as the most challenging of classic games for artificial intelligence owing to its enormous search space and the difficulty of evaluating board positions and moves. Here we introduce a new approach to computer Go that uses 'value networks' to evaluate board positions and 'policy networks' to select moves. These deep neural networks are trained by a novel combination of supervised learning from human expert games, and reinforcement learning from games of self-play. Without any lookahead search, the neural networks play Go at the level of state-of-the-art Monte Carlo tree search programs that simulate thousands of random games of self-play. We also introduce a new search algorithm that combines Monte Carlo simulation with value and policy networks. Using this search algorithm, our program AlphaGo achieved a 99.8% winning rate against other Go programs, and defeated the human European Go champion by 5 games to 0. This is the first time that a computer program has defeated a human professional player in the full-sized game of Go, a feat previously thought to be at least a decade away.",
+            "aminer_id": "6678f7e29255e7a318ce9988"
+        },
+        "litjens_survey_2017": {
+            "number": "[3]",
+            "title": "A Survey on Deep Learning in Medical Image Analysis",
+            "text": "\\bibitem{litjens_survey_2017} \\BIBentryALTinterwordspacing G.~Litjens, T.~Kooi, B.~E. Bejnordi, A.~A.~A. Setio, F.~Ciompi, M.~Ghafoorian, J.~A. W.~M. van~der Laak, B.~van Ginneken, and C.~I. Sanchez, ``\\BIBforeignlanguage{English}{A survey on deep learning in medical image analysis},'' \\emph{\\BIBforeignlanguage{English}{Medical Image Analysis}}, vol.~42, pp. 60--88, Dec. 2017, place: Amsterdam Publisher: Elsevier WOS:000415778100005. [Online]. Available: \\url{https://linkinghub.elsevier.com/retrieve/pii/S1361841517301135} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Deep learning algorithms, in particular convolutional networks, have rapidly become a methodology of choice for analyzing medical images. This paper reviews the major deep learning concepts pertinent to medical image analysis and summarizes over 300 contributions to the field, most of which appeared in the last year. We survey the use of deep learning for image classification, object detection, segmentation, registration, and other tasks. Concise overviews are provided of studies per application area: neuro, retinal, pulmonary, digital pathology, breast, cardiac, abdominal, musculoskeletal. We end with a summary of the current state-of-the-art, a critical discussion of open challenges and directions for future research.",
+            "aminer_id": "58d82fcbd649053542fd5e6e"
+        },
+        "schwartz_green_2020": {
+            "number": "[4]",
+            "title": "Green AI",
+            "text": "\\bibitem{schwartz_green_2020} \\BIBentryALTinterwordspacing R.~Schwartz, J.~Dodge, N.~A. Smith, and O.~Etzioni, ``Green {AI},'' \\emph{Communications of the ACM}, vol.~63, no.~12, pp. 54--63, Nov. 2020. [Online]. Available: \\url{https://doi.org/10.1145/3381831} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The computations required for deep learning research have been doubling every few months, resulting in an estimated 300,000x increase from 2012 to 2018 [2]. These computations have a surprisingly large carbon footprint [38]. Ironically, deep learning was inspired by the human brain, which is remarkably energy efficient. Moreover, the financial cost of the computations can make it difficult for academics, students, and researchers, in particular those from emerging economies, to engage in deep learning research. This position paper advocates a practical solution by making efficiency an evaluation criterion for research alongside accuracy and related measures. In addition, we propose reporting the financial cost or price tag of developing, training, and running models to provide baselines for the investigation of increasingly efficient methods. Our goal is to make AI both greener and more inclusive---enabling any inspired undergraduate with a laptop to write high-quality research papers. Green AI is an emerging focus at the Allen Institute for AI.",
+            "aminer_id": "5d3982a43a55acc309eb1a10"
+        },
+        "mcculloch_logical_1943": {
+            "number": "[5]",
+            "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+            "text": "\\bibitem{mcculloch_logical_1943} \\BIBentryALTinterwordspacing W.~S. McCulloch and W.~Pitts, ``\\BIBforeignlanguage{en}{A logical calculus of the ideas immanent in nervous activity},'' \\emph{\\BIBforeignlanguage{en}{The bulletin of mathematical biophysics}}, vol.~5, no.~4, pp. 115--133, Dec. 1943. [Online]. Available: \\url{https://doi.org/10.1007/BF02478259} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various applications of the calculus are discussed.",
+            "aminer_id": "5390879d20f70186a0d432be"
+        },
+        "davies_advancing_2021": {
+            "number": "[6]",
+            "title": "Advancing Neuromorphic Computing with Loihi: A Survey of Results and Outlook.",
+            "text": "\\bibitem{davies_advancing_2021} M.~Davies, A.~Wild, G.~Orchard, Y.~Sandamirskaya, G.~A.~F. Guerra, P.~Joshi, P.~Plank, and S.~R. Risbud, ``Advancing {Neuromorphic} {Computing} {With} {Loihi}: {A} {Survey} of {Results} and {Outlook},'' \\emph{Proceedings of the IEEE}, vol. 109, no.~5, pp. 911--934, May 2021, conference Name: Proceedings of the IEEE.",
+            "ref_source": "bbl",
+            "abstract": "Deep artificial neural networks apply principles of the brain's information processing that led to breakthroughs in machine learning spanning many problem domains. Neuromorphic computing aims to take this a step further to chips more directly inspired by the form and function of biological neural circuits, so they can process new knowledge, adapt, behave, and learn in real time at low power levels. Despite several decades of research, until recently, very few published results have shown that today's neuromorphic chips can demonstrate quantitative computational value. This is now changing with the advent of Intel's Loihi, a neuromorphic research processor designed to support a broad range of spiking neural networks with sufficient scale, performance, and features to deliver competitive results compared to state-of-the-art contemporary computing architectures. This survey reviews results that are obtained to date with Loihi across the major algorithmic domains under study, including deep learning approaches and novel approaches that aim to more directly harness the key features of spike-based neuromorphic hardware. While conventional feedforward deep neural networks show modest if any benefit on Loihi, more brain-inspired networks using recurrence, precise spike-timing relationships, synaptic plasticity, stochasticity, and sparsity perform certain computation with orders of magnitude lower latency and energy compared to state-of-the-art conventional approaches. These compelling neuromorphic networks solve a diverse range of problems representative of brain-like computation, such as event-based data processing, adaptive control, constrained optimization, sparse feature regression, and graph search.",
+            "aminer_id": "608d3877e4510cd7c8cb44fb"
+        },
+        "gerstner_spiking_2002": {
+            "number": "[7]",
+            "title": "Spiking neuron models: Single neurons, populations, plasticity",
+            "text": "\\bibitem{gerstner_spiking_2002} W.~Gerstner and W.~M. Kistler, \\emph{Spiking neuron models: {Single} neurons, populations, plasticity}.\\hskip 1em plus 0.5em minus 0.4em\\relax Cambridge university press, 2002.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "56d88277dabfae2eee73200c"
+        },
+        "izhikevich_simple_2003": {
+            "number": "[8]",
+            "title": "Simple Model of Spiking Neurons",
+            "text": "\\bibitem{izhikevich_simple_2003} E.~Izhikevich, ``Simple model of spiking neurons,'' \\emph{IEEE Transactions on Neural Networks}, vol.~14, no.~6, pp. 1569--1572, Nov. 2003, conference Name: IEEE Transactions on Neural Networks.",
+            "ref_source": "bbl",
+            "abstract": "A model is presented that reproduces spiking and bursting behavior of known types of cortical neurons. The model combines the biologically plausibility of Hodgkin-Huxley-type dynamics and the computational efficiency of integrate-and-fire neurons. Using this model, one can simulate tens of thousands of spiking cortical neurons in real time (1 ms resolution) using a desktop PC.",
+            "aminer_id": "5390b68720f70186a0f1b2a4"
+        },
+        "stevens_input_1998": {
+            "number": "[9]",
+            "title": "Input synchrony and the irregular firing of cortical neurons",
+            "text": "\\bibitem{stevens_input_1998} \\BIBentryALTinterwordspacing C.~F. Stevens and A.~M. Zador, ``\\BIBforeignlanguage{en}{Input synchrony and the irregular firing of cortical neurons},'' \\emph{\\BIBforeignlanguage{en}{Nature Neuroscience}}, vol.~1, no.~3, pp. 210--217, Jul. 1998, number: 3 Publisher: Nature Publishing Group. [Online]. Available: \\url{https://www.nature.com/articles/nn0798\\_210} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "55a421c3612ca6486887c693"
+        },
+        "hebb__2002": {
+            "number": "[10]",
+            "title": ": A Neuropsychological Theory",
+            "text": "\\bibitem{hebb__2002} D.~O. Hebb, \\emph{: {A} {Neuropsychological} {Theory}}.\\hskip 1em plus 0.5em minus 0.4em\\relax New York: Psychology Press, May 2002.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "song_competitive_2000": {
+            "number": "[11]",
+            "title": "Competitive hebbian learning through spike-timing-dependent synaptic plasticity",
+            "text": "\\bibitem{song_competitive_2000} \\BIBentryALTinterwordspacing S.~Song, K.~D. Miller, and L.~F. Abbott, ``Competitive hebbian learning through spike-timing-dependent synaptic plasticity,'' vol.~3, no.~9, pp. 919--926, number: 9 Publisher: Nature Publishing Group. [Online]. Available: \\url{https://www.nature.com/articles/nn0900\\_919} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99fc9b7602d97028a51de"
+        },
+        "pfeiffer_deep_2018": {
+            "number": "[12]",
+            "title": "Deep Learning With Spiking Neurons: Opportunities and Challenges",
+            "text": "\\bibitem{pfeiffer_deep_2018} \\BIBentryALTinterwordspacing M.~Pfeiffer and T.~Pfeil, ``\\BIBforeignlanguage{English}{Deep {Learning} {With} {Spiking} {Neurons}: {Opportunities} and {Challenges}},'' \\emph{\\BIBforeignlanguage{English}{Frontiers in Neuroscience}}, vol.~0, 2018, publisher: Frontiers. [Online]. Available: \\url{https://www.frontiersin.org/articles/10.3389/fnins.2018.00774/full} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "653f47c5939a5f4082cf864f"
+        },
+        "bohte_error-backpropagation_2002": {
+            "number": "[13]",
+            "title": "Error-backpropagation in Temporally Encoded Networks of Spiking Neurons",
+            "text": "\\bibitem{bohte_error-backpropagation_2002} \\BIBentryALTinterwordspacing S.~M. Bohte, J.~N. Kok, and H.~La~Poutre, ``\\BIBforeignlanguage{English}{Error-backpropagation in temporally encoded networks of spiking neurons},'' \\emph{\\BIBforeignlanguage{English}{Neurocomputing}}, vol.~48, pp. 17--37, Oct. 2002, place: Amsterdam Publisher: Elsevier WOS:000178464600003. [Online]. Available: \\url{https://linkinghub.elsevier.com/retrieve/pii/S0925231201006580} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "For a network of spiking neurons that encodes information in the timing of individual spike times, we derive a supervised learning rule, SpikeProp, akin to traditional error-backpropagation. With this algorithm, we demonstrate how networks of spiking neurons with biologically reasonable action potentials can perform complex non-linear classification in fast temporal coding just as well as rate-coded networks. We perform experiments for the classical XOR problem, when posed in a temporal setting, as well as for a number of other benchmark datasets. Comparing the (implicit) number of spiking neurons required for the encoding of the interpolated XOR problem, the trained networks demonstrate that temporal coding is a viable code for fast neural information processing, and as such requires less neurons than instantaneous rate-coding. Furthermore, we find that reliable temporal computation in the spiking networks was only accomplished when using spike response functions with a time constant longer than the coding interval, as has been predicted by theoretical considerations.",
+            "aminer_id": "53908d6520f70186a0dd0cff"
+        },
+        "nunes_spiking_2022": {
+            "number": "[14]",
+            "title": "Spiking Neural Networks: A Survey",
+            "text": "\\bibitem{nunes_spiking_2022} J.~D. Nunes, M.~Carvalho, D.~Carneiro, and J.~S. Cardoso, ``Spiking {Neural} {Networks}: {A} {Survey},'' \\emph{IEEE Access}, vol.~10, pp. 60\\,738--60\\,764, 2022, conference Name: IEEE Access.",
+            "ref_source": "bbl",
+            "abstract": "The field of Deep Learning (DL) has seen a remarkable series of developments with increasingly accurate and robust algorithms. However, the increase in performance has been accompanied by an increase in the parameters, complexity, and training and inference time of the models, which means that we are rapidly reaching a point where DL may no longer be feasible. On the other hand, some specific applications need to be carefully considered when developing DL models due to hardware limitations or power requirements. In this context, there is a growing interest in efficient DL algorithms, with Spiking Neural Networks (SNNs) being one of the most promising paradigms. Due to the inherent asynchrony and sparseness of spike trains, these types of networks have the potential to reduce power consumption while maintaining relatively good performance. This is attractive for efficient DL and, if successful, could replace traditional Artificial Neural Networks (ANNs) in many applications. However, despite significant progress, the performance of SNNs on benchmark datasets is often lower than that of traditional ANNs. Moreover, due to the non-differentiable nature of their activation functions, it is difficult to train SNNs with direct backpropagation, so appropriate training strategies must be found. Nevertheless, significant efforts have been made to develop competitive models. This survey covers the main ideas behind SNNs and reviews recent trends in learning rules and network architectures, with a particular focus on biologically inspired strategies. It also provides some practical considerations of state-of-the-art SNNs and discusses relevant research opportunities.",
+            "aminer_id": "62d172d85aee126c0fdd7cef"
+        },
+        "mead_neuromorphic_1990": {
+            "number": "[15]",
+            "title": "Neuromorphic Electronic Systems",
+            "text": "\\bibitem{mead_neuromorphic_1990} C.~Mead, ``Neuromorphic electronic systems,'' \\emph{Proceedings of the IEEE}, vol.~78, no.~10, pp. 1629--1636, Oct. 1990, conference Name: Proceedings of the IEEE.",
+            "ref_source": "bbl",
+            "abstract": "It is shown that for many problems, particularly those in which the input data are ill-conditioned and the computation can be specified in a relative manner, biological solutions are many orders of magnitude more effective than those using digital methods. This advantage can be attributed principally to the use of elementary physical phenomena as computational primitives, and to the representation of information by the relative values of analog signals rather than by the absolute values of digital signals. This approach requires adaptive techniques to mitigate the effects of component differences. This kind of adaptation leads naturally to systems that learn about their environment. Large-scale adaptive analog systems are more robust to component degradation and failure than are more conventional systems, and they use far less power. For this reason, adaptive analog technology can be expected to utilize the full potential of wafer-scale silicon fabrication. >",
+            "aminer_id": "557d1df06feeaa8086da6bec"
+        },
+        "boahen_communicating_1998": {
+            "number": "[16]",
+            "title": "Communicating Neuronal Ensembles Between Neuromorphic Chips",
+            "text": "\\bibitem{boahen_communicating_1998} \\BIBentryALTinterwordspacing K.~A. Boahen, ``\\BIBforeignlanguage{en}{Communicating {Neuronal} {Ensembles} between {Neuromorphic} {Chips}},'' in \\emph{\\BIBforeignlanguage{en}{Neuromorphic {Systems} {Engineering}: {Neural} {Networks} in {Silicon}}}, ser. The {Springer} {International} {Series} in {Engineering} and {Computer} {Science}, T.~S. Lande, Ed.\\hskip 1em plus 0.5em minus 0.4em\\relax Boston, MA: Springer US, 1998, pp. 229--259. [Online]. Available: \\url{https://doi.org/10.1007/978-0-585-28001-1\\_11} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The small number of input-output connections available with standard chippackaging technology, and the small number of routing layers available in VLSI technology, place severe limitations on the degree of intraand interchip connectivity that can be realized in multichip neuromorphic systems. Inspired by the success of time-division multiplexing in communications [16] and computer networks [19], many researchers have adopted multiplexing to solve the connectivity problem [12, 67, 17]. Multiplexing is an effective way of leveraging the 5 order-of-magnitude difference in bandwidth between a neuron (hundreds of Hz) and a digital bus (tens of megahertz), enabling us to replace dedicated point-to-point connections among thousands of neurons with a handful of highspeed connections and thousands of switches (transistors). This approach pays off in VLSI technology because transistors take up a lot less area than wires, and are becoming relatively more and more compact as the fabrication process scales down to deep submicron feature sizes. Four important performance criteria for a communication channel that provides virtual point-to-point connections among arrays of cells are:",
+            "aminer_id": "539087ef20f70186a0d6dd7d"
+        },
+        "jo_nanoscale_2010": {
+            "number": "[17]",
+            "title": "Nanoscale Memristor Device as Synapse in Neuromorphic Systems",
+            "text": "\\bibitem{jo_nanoscale_2010} \\BIBentryALTinterwordspacing S.~H. Jo, T.~Chang, I.~Ebong, B.~B. Bhadviya, P.~Mazumder, and W.~Lu, ``\\BIBforeignlanguage{English}{Nanoscale {Memristor} {Device} as {Synapse} in {Neuromorphic} {Systems}},'' \\emph{\\BIBforeignlanguage{English}{Nano Letters}}, vol.~10, no.~4, pp. 1297--1301, Apr. 2010, place: Washington Publisher: Amer Chemical Soc WOS:000276557100036. [Online]. Available: \\url{https://pubs.acs.org/doi/10.1021/nl904092h} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "55a38f5d65ce5cd7b3ae9ddc"
+        },
+        "merolla_million_2014": {
+            "number": "[18]",
+            "title": "A Million Spiking-Neuron Integrated Circuit with a Scalable Communication Network and Interface",
+            "text": "\\bibitem{merolla_million_2014} \\BIBentryALTinterwordspacing P.~A. Merolla, J.~V. Arthur, R.~Alvarez-Icaza, A.~S. Cassidy, J.~Sawada, F.~Akopyan, B.~L. Jackson, N.~Imam, C.~Guo, Y.~Nakamura, B.~Brezzo, I.~Vo, S.~K. Esser, R.~Appuswamy, B.~Taba, A.~Amir, M.~D. Flickner, W.~P. Risk, R.~Manohar, and D.~S. Modha, ``\\BIBforeignlanguage{English}{A million spiking-neuron integrated circuit with a scalable communication network and interface},'' \\emph{\\BIBforeignlanguage{English}{Science}}, vol. 345, no. 6197, pp. 668--673, Aug. 2014, place: Washington Publisher: Amer Assoc Advancement Science WOS:000339962800038. [Online]. Available: \\url{https://www.science.org/doi/10.1126/science.1254642} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Inspired by the brain's structure, we have developed an efficient, scalable, and flexible non-von Neumann architecture that leverages contemporary silicon technology. To demonstrate, we built a 5.4-billion-transistor chip with 4096 neurosynaptic cores interconnected via an intrachip network that integrates 1 million programmable spiking neurons and 256 million configurable synapses. Chips can be tiled in two dimensions via an interchip communication interface, seamlessly scaling the architecture to a cortexlike sheet of arbitrary size. The architecture is well suited to many applications that use complex neural networks in real time, for example, multiobject detection and classification. With 400-pixel-by-240-pixel video input at 30 frames per second, the chip consumes 63 milliwatts.",
+            "aminer_id": "55a682e165ce054aad6a3111"
+        },
+        "davies_loihi_2018": {
+            "number": "[19]",
+            "title": "Loihi: A Neuromorphic Manycore Processor with On-Chip Learning",
+            "text": "\\bibitem{davies_loihi_2018} M.~Davies, N.~Srinivasa, T.-H. Lin, G.~Chinya, Y.~Cao, S.~H. Choday, G.~Dimou, P.~Joshi, N.~Imam, S.~Jain, Y.~Liao, C.-K. Lin, A.~Lines, R.~Liu, D.~Mathaikutty, S.~McCoy, A.~Paul, J.~Tse, G.~Venkataramanan, Y.-H. Weng, A.~Wild, Y.~Yang, and H.~Wang, ``Loihi: {A} {Neuromorphic} {Manycore} {Processor} with {On}-{Chip} {Learning},'' \\emph{IEEE Micro}, vol.~38, no.~1, pp. 82--99, Jan. 2018, conference Name: IEEE Micro.",
+            "ref_source": "bbl",
+            "abstract": "Loihi is a 60-mm2 chip fabricated in Intels 14-nm process that advances the state-of-the-art modeling of spiking neural networks in silicon. It integrates a wide range of novel features for the field, such as hierarchical connectivity, dendritic compartments, synaptic delays, and, most importantly, programmable synaptic learning rules. Running a spiking convolutional form of the Locally Competitive Algorithm, Loihi can solve LASSO optimization problems with over three orders of magnitude superior energy-delay-product compared to conventional solvers running on a CPU iso-process/voltage/area. This provides an unambiguous example of spike-based computation, outperforming all known conventional solutions.",
+            "aminer_id": "5ac1829317c44a1fda917565"
+        },
+        "schuman_survey_2017": {
+            "number": "[20]",
+            "title": "A Survey of Neuromorphic Computing and Neural Networks in Hardware.",
+            "text": "\\bibitem{schuman_survey_2017} \\BIBentryALTinterwordspacing C.~D. Schuman, T.~E. Potok, R.~M. Patton, J.~D. Birdwell, M.~E. Dean, G.~S. Rose, and J.~S. Plank, ``A {Survey} of {Neuromorphic} {Computing} and {Neural} {Networks} in {Hardware},'' May 2017, arXiv:1705.06963 [cs]. [Online]. Available: \\url{http://arxiv.org/abs/1705.06963} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Neuromorphic computing has come to refer to a variety of brain-inspired computers, devices, and models that contrast the pervasive von Neumann computer architecture. This biologically inspired approach has created highly connected synthetic neurons and synapses that can be used to model neuroscience theories as well as solve challenging machine learning problems. The promise of the technology is to create a brain-like ability to learn and adapt, but the technical challenges are significant, starting with an accurate neuroscience model of how the brain works, to finding materials and engineering breakthroughs to build devices to support these models, to creating a programming framework so the systems can learn, to creating applications with brain-like capabilities. In this work, we provide a comprehensive survey of the research and motivations for neuromorphic computing over its history. We begin with a 35-year review of the motivations and drivers of neuromorphic computing, then look at the major research areas of the field, which we define as neuro-inspired models, algorithms and learning approaches, hardware and devices, supporting systems, and finally applications. We conclude with a broad discussion on the major research topics that need to be addressed in the coming years to see the promise of neuromorphic computing fulfilled. The goals of this work are to provide an exhaustive review of the research conducted in neuromorphic computing since the inception of the term, and to motivate further work by illuminating gaps in the field where new research is needed.",
+            "aminer_id": "599c7963601a182cd2637d8c"
+        },
+        "bouvier_spiking_2019": {
+            "number": "[21]",
+            "title": "Spiking Neural Networks Hardware Implementations and Challenges: a Survey",
+            "text": "\\bibitem{bouvier_spiking_2019} \\BIBentryALTinterwordspacing M.~Bouvier, A.~Valentian, T.~Mesquida, F.~Rummens, M.~Reyboz, E.~Vianello, and E.~Beigne, ``Spiking {Neural} {Networks} {Hardware} {Implementations} and {Challenges}: {A} {Survey},'' \\emph{ACM Journal on Emerging Technologies in Computing Systems}, vol.~15, no.~2, pp. 22:1--22:35, Apr. 2019. [Online]. Available: \\url{https://doi.org/10.1145/3304103} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Neuromorphic computing is henceforth a major research field for both academic and industrial actors. As opposed to Von Neumann machines, brain-inspired processors aim at bringing closer the memory and the computational elements to efficiently evaluate machine learning algorithms. Recently, spiking neural networks, a generation of cognitive algorithms employing computational primitives mimicking neuron and synapse operational principles, have become an important part of deep learning. They are expected to improve the computational performance and efficiency of neural networks, but they are best suited for hardware able to support their temporal dynamics. In this survey, we present the state of the art of hardware implementations of spiking neural networks and the current trends in algorithm elaboration from model selection to training mechanisms. The scope of existing solutions is extensive; we thus present the general framework and study on a case-by-case basis the relevant particularities. We describe the strategies employed to leverage the characteristics of these event-driven algorithms at the hardware level and discuss their related advantages and challenges.",
+            "aminer_id": "5ce447a3ced107d4c66cfb07"
+        },
+        "ponulak_introduction_2011": {
+            "number": "[22]",
+            "title": "Introduction to Spiking Neural Networks: Information Processing, Learning and Applications",
+            "text": "\\bibitem{ponulak_introduction_2011} F.~Ponulak and A.~Kasinski, ``\\BIBforeignlanguage{eng}{Introduction to spiking neural networks: {Information} processing, learning and applications},'' \\emph{\\BIBforeignlanguage{eng}{Acta Neurobiologiae Experimentalis}}, vol.~71, no.~4, pp. 409--433, 2011.",
+            "ref_source": "bbl",
+            "abstract": "The concept that neural information is encoded in the firing rate of neurons has been the dominant paradigm in neurobiology for many years. This paradigm has also been adopted by the theory of artificial neural networks. Recent physiological experiments demonstrate, however, that in many parts of the nervous system, neural code is founded on the timing of individual action potentials. This finding has given rise to the emergence of a new class of neural models, called spiking neural networks. In this paper we summarize basic properties of spiking neurons and spiking networks. Our focus is, specifically, on models of spike-based information coding, synaptic plasticity and learning. We also survey real-life applications of spiking models. The paper is meant to be an introduction to spiking neural networks for scientists from various disciplines interested in spike-based neural processing.",
+            "aminer_id": "55a485be65ce31bc877da1d4"
+        },
+        "guan_analysis_2022": {
+            "number": "[23]",
+            "title": "Analysis of Spiking Neural Network Trends Based on CiteSpace",
+            "text": "\\bibitem{guan_analysis_2022} \\BIBentryALTinterwordspacing Y.~Guan, Z.~Shang, and C.~Li, ``Analysis of {Spiking} {Neural} {Network} trends based on {CiteSpace},'' in \\emph{International {Symposium} on {Computer} {Applications} and {Information} {Systems} ({ISCAIS} 2022)}, vol. 12250.\\hskip 1em plus 0.5em minus 0.4em\\relax SPIE, May 2022, pp. 38--51. [Online]. Available: \\url{https://www.spiedigitallibrary.org/conference-proceedings-of-spie/12250/1225008/Analysis-of-Spiking-Neural-Network-trends-based-on-CiteSpace/10.1117/12.2639578.full} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Spiking Neural Network (SNN) is a newly high bionic neural network with great potential in the future. However, the relevant research is not enough and there is no reference to the research direction at present. Therefore, we'd like to provide valuable references to researchers and enhance the understanding of SNN through this study. We analyzed 4005 papers and 1318 preprints about SNN from databases including Web of Science, Advanced Intelligent Systems, arXiv, and ResearchGate. By using visualization tools named CiteSpace and wordcloud, we made multifaceted exploration and analysis including keywords, institutions and countries, authors, journals, references, and preprints. We have explored the possible future research hotspots and trends of SNN, and we also explored the most influential authors, institutions, and journals in this field.",
+            "aminer_id": "62b497ba5aee126c0f84a315"
+        },
+        "ohno_short-term_2011": {
+            "number": "[24]",
+            "title": "Short-term Plasticity and Long-Term Potentiation Mimicked in Single Inorganic Synapses",
+            "text": "\\bibitem{ohno_short-term_2011} \\BIBentryALTinterwordspacing T.~Ohno, T.~Hasegawa, T.~Tsuruoka, K.~Terabe, J.~K. Gimzewski, and M.~Aono, ``\\BIBforeignlanguage{English}{Short-term plasticity and long-term potentiation mimicked in single inorganic synapses},'' \\emph{\\BIBforeignlanguage{English}{Nature Materials}}, vol.~10, no.~8, pp. 591--595, Aug. 2011, place: London Publisher: Nature Publishing Group WOS:000293000000018. [Online]. Available: \\url{https://www.nature.com/articles/nmat3054} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The electronic properties of inorganic devices such as memristors can be used to simulate neurological behaviour. In particular, ionic and electronic effects in a silver sulphide device are now shown to mimic short- and long-term synaptic functions.",
+            "aminer_id": "55a4185e65ce5cd7b3c3f63b"
+        },
+        "aria_bibliometrix_2017": {
+            "number": "[25]",
+            "title": "Bibliometrix: an R-tool for Comprehensive Science Mapping Analysis",
+            "text": "\\bibitem{aria_bibliometrix_2017} \\BIBentryALTinterwordspacing M.~Aria and C.~Cuccurullo, ``\\BIBforeignlanguage{en}{bibliometrix: {An} {R}-tool for comprehensive science mapping analysis},'' \\emph{\\BIBforeignlanguage{en}{Journal of Informetrics}}, vol.~11, no.~4, pp. 959--975, Nov. 2017. [Online]. Available: \\url{https://www.sciencedirect.com/science/article/pii/S1751157717300500} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The use of bibliometrics is gradually extending to all disciplines. It is particularly suitable for science mapping at a time when the emphasis on empirical contributions is producing voluminous, fragmented, and controversial research streams. Science mapping is complex and unwieldly because it is multi-step and frequently requires numerous and diverse software tools, which are not all necessarily freeware. Although automated workflows that integrate these software tools into an organized data flow are emerging, in this paper we propose a unique open-source tool, designed by the authors, called bibliometrix, for performing comprehensive science mapping analysis. bibliometrix supports a recommended workflow to perform bibliometric analyses. As it is programmed in R, the proposed tool is flexible and can be rapidly upgraded and integrated with other statistical R-packages. It is therefore useful in a constantly changing science such as bibliometrics. (c) 2017 Elsevier Ltd. All rights reserved.",
+            "aminer_id": "5a4aef9017c44a2190f7a0ad"
+        },
+        "hirsch_index_2005": {
+            "number": "[26]",
+            "title": "An index to quantify an individual's scientific research output",
+            "text": "\\bibitem{hirsch_index_2005} \\BIBentryALTinterwordspacing J.~E. Hirsch, ``An index to quantify an individual's scientific research output,'' \\emph{Proceedings of the National Academy of Sciences}, vol. 102, no.~46, pp. 16\\,569--16\\,572, Nov. 2005, publisher: Proceedings of the National Academy of Sciences. [Online]. Available: \\url{https://www.pnas.org/doi/full/10.1073/pnas.0507655102} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99e45b7602d970270cc04"
+        },
+        "egghe_theory_2006": {
+            "number": "[27]",
+            "title": "Theory and Practise of the G-Index",
+            "text": "\\bibitem{egghe_theory_2006} \\BIBentryALTinterwordspacing L.~Egghe, ``\\BIBforeignlanguage{en}{Theory and practise of the g-index},'' \\emph{\\BIBforeignlanguage{en}{Scientometrics}}, vol.~69, no.~1, pp. 131--152, Oct. 2006. [Online]. Available: \\url{https://doi.org/10.1007/s11192-006-0144-7} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The g-index is introduced as an improvement of the h-index of Hirsch to measure the global citation performance of a set of articles. If this set is ranked in decreasing order of the number of citations that they received, the g-index is the (unique) largest number such that the top g articles received (together) at least g(2) citations. We prove the unique existence of g for any set of articles and we have that g 3 h.The general Lotkaian theory of the g-index is presented and we show thatg = (alpha-1/alpha-2)T-alpha-1/alpha(1/alpha)where alpha > 2 is the Lotkaian exponent and where T denotes the total number of sources.We then present the g-index of the (still active) Price medallists for their complete careers up to 1972 and compare it with the h-index. It is shown that the g-index inherits all the good properties of the h-index and, in addition, better takes into account the citation scores of the top articles. This yields a better distinction between and order of the scientists from the point of view of visibility.",
+            "aminer_id": "53e9b7cdb7602d970437d65c"
+        },
+        "bastian_gephi_2009": {
+            "number": "[28]",
+            "title": "Gephi: an Open Source Software for Exploring and Manipulating Networks.",
+            "text": "\\bibitem{bastian_gephi_2009} \\BIBentryALTinterwordspacing M.~Bastian, S.~Heymann, and M.~Jacomy, ``\\BIBforeignlanguage{en}{Gephi: {An} {Open} {Source} {Software} for {Exploring} and {Manipulating} {Networks}},'' \\emph{\\BIBforeignlanguage{en}{Proceedings of the International AAAI Conference on Web and Social Media}}, vol.~3, no.~1, pp. 361--362, Mar. 2009, number: 1. [Online]. Available: \\url{https://ojs.aaai.org/index.php/ICWSM/article/view/13937} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Gephi is an open source software for graph and network analysis. It uses a 3D render engine to display large networks in real-time and to speed up the exploration. A flexible and multi-task architecture brings new possibilities to work with complex data sets and produce valuable visual results. We present several key features of Gephi in the context of interactive exploration and interpretation of networks. It provides easy and broad access to network data and allows for spatializing, filtering, navigating, manipulating and clustering. Finally, by presenting dynamic features of Gephi, we highlight key aspects of dynamic network visualization.",
+            "aminer_id": "53e9b9f4b7602d97045ee6ff"
+        },
+        "page_pagerank_1999": {
+            "number": "[29]",
+            "title": "The PageRank Citation Ranking : Bringing Order to the Web",
+            "text": "\\bibitem{page_pagerank_1999} L.~Page, S.~Brin, R.~Motwani, and T.~Winograd, ``The {PageRank} {Citation} {Ranking} : {Bringing} {Order} to the {Web},'' Nov. 1999.",
+            "ref_source": "bbl",
+            "abstract": "The importance of a Web page is an inherently subjective matter, which depends on the readers interests, knowledge and attitudes. But there is still much that can be said objectively about the relative importance of Web pages. This paper describes PageRank, a mathod for rating Web pages objectively and mechanically, effectively measuring the human interest and attention devoted to them. We compare PageRank to an idealized random Web surfer. We show how to efficiently compute PageRank for large numbers of pages. And, we show how to apply PageRank to search and to user navigation.",
+            "aminer_id": "53e9b527b7602d970405d9f8"
+        },
+        "katz_new_1953": {
+            "number": "[30]",
+            "title": "A New Status Index Derived from Sociometric Analysis",
+            "text": "\\bibitem{katz_new_1953} \\BIBentryALTinterwordspacing L.~Katz, ``\\BIBforeignlanguage{en}{A new status index derived from sociometric analysis},'' \\emph{\\BIBforeignlanguage{en}{Psychometrika}}, vol.~18, no.~1, pp. 39--43, Mar. 1953. [Online]. Available: \\url{https://doi.org/10.1007/BF02289026} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "For the purpose of evaluating status in a manner free from the deficiencies of popularity contest procedures, this paper presents a new method of computation which takes into accountwho chooses as well ashow many choose. It is necessary to introduce, in this connection, the concept of attenuation in influence transmitted through intermediaries.",
+            "aminer_id": "56a0081e0cf216b7375429f7"
+        },
+        "van_eck_software_2010": {
+            "number": "[31]",
+            "title": "Software Survey: VOSviewer, a Computer Program for Bibliometric Mapping",
+            "text": "\\bibitem{van_eck_software_2010} \\BIBentryALTinterwordspacing N.~J. van Eck and L.~Waltman, ``\\BIBforeignlanguage{en}{Software survey: {VOSviewer}, a computer program for bibliometric mapping},'' \\emph{\\BIBforeignlanguage{en}{Scientometrics}}, vol.~84, no.~2, pp. 523--538, Aug. 2010. [Online]. Available: \\url{https://doi.org/10.1007/s11192-009-0146-3} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "We present VOSviewer, a freely available computer program that we have developed for constructing and viewing bibliometric maps. Unlike most computer programs that are used for bibliometric mapping, VOSviewer pays special attention to the graphical representation of bibliometric maps. The functionality of VOSviewer is especially useful for displaying large bibliometric maps in an easy-to-interpret way. The paper consists of three parts. In the first part, an overview of VOSviewer's functionality for displaying bibliometric maps is provided. In the second part, the technical implementation of specific parts of the program is discussed. Finally, in the third part, VOSviewer's ability to handle large maps is demonstrated by using the program to construct and display a co-citation map of 5,000 major scientific journals.",
+            "aminer_id": "53e9bc01b7602d97048620f2"
+        },
+        "ponulak_supervised_2010": {
+            "number": "[32]",
+            "title": "Supervised Learning in Spiking Neural Networks with ReSuMe: Sequence Learning, Classification, and Spike Shifting.",
+            "text": "\\bibitem{ponulak_supervised_2010} \\BIBentryALTinterwordspacing F.~Ponulak and A.~Kasiński, ``Supervised {Learning} in {Spiking} {Neural} {Networks} with {ReSuMe}: {Sequence} {Learning}, {Classification}, and {Spike} {Shifting},'' \\emph{Neural Computation}, vol.~22, no.~2, pp. 467--510, Feb. 2010. [Online]. Available: \\url{https://doi.org/10.1162/neco.2009.11-08-901} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Learning from instructions or demonstrations is a fundamental property of our brain necessary to acquire new knowledge and develop novel skills or behavioral patterns. This type of learning is thought to be involved in most of our daily routines. Although the concept of instruction-based learning has been studied for several decades, the exact neural mechanisms implementing this process remain unrevealed. One of the central questions in this regard is, How do neurons learn to reproduce template signals (instructions) encoded in precisely timed sequences of spikes? Here we present a model of supervised learning for biologically plausible neurons that addresses this question. In a set of experiments, we demonstrate that our approach enables us to train spiking neurons to reproduce arbitrary template spike patterns in response to given synaptic stimuli even in the presence of various sources of noise. We show that the learning rule can also be used for decision-making tasks. Neurons can be trained to classify categories of input signals based on only a temporal configuration of spikes. The decision is communicated by emitting precisely timed spike trains associated with given input categories. Trained neurons can perform the classification task correctly even if stimuli and corresponding decision times are temporally separated and the relevant information is consequently highly overlapped by the ongoing neural activity. Finally, we demonstrate that neurons can be trained to reproduce sequences of spikes with a controllable time shift with respect to target templates. A reproduced signal can follow or even precede the targets. This surprising result points out that spiking neurons can potentially be applied to forecast the behavior (firing times) of other reference neurons or networks.",
+            "aminer_id": "5390a80f20f70186a0e9725b"
+        },
+        "kasabov_dynamic_2013": {
+            "number": "[33]",
+            "title": "Dynamic Evolving Spiking Neural Networks for On-Line Spatio- and Spectro-Temporal Pattern Recognition",
+            "text": "\\bibitem{kasabov_dynamic_2013} \\BIBentryALTinterwordspacing N.~Kasabov, K.~Dhoble, N.~Nuntalid, and G.~Indiveri, ``\\BIBforeignlanguage{en}{Dynamic evolving spiking neural networks for on-line spatio- and spectro-temporal pattern recognition},'' \\emph{\\BIBforeignlanguage{en}{Neural Networks}}, vol.~41, pp. 188--201, May 2013. [Online]. Available: \\url{https://www.sciencedirect.com/science/article/pii/S0893608012003139} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Spatio- and spectro-temporal data (SSTD) are the most common types of data collected in many domain areas, including engineering, bioinformatics, neuroinformatics, ecology, environment, medicine, economics, etc. However, there is lack of methods for the efficient analysis of such data and for spatio-temporal pattern recognition (STPR). The brain functions as a spatio-temporal information processing machine and deals extremely well with spatio-temporal data. Its organisation and functions have been the inspiration for the development of new methods for SSTD analysis and STPR. The brain-inspired spiking neural networks (SNN) are considered the third generation of neural networks and are a promising paradigm for the creation of new intelligent ICT for SSTD. This new generation of computational models and systems are potentially capable of modelling complex information processes due to their ability to represent and integrate different information dimensions, such as time, space, frequency, and phase, and to deal with large volumes of data in an adaptive and self-organising manner. The paper reviews methods and systems of SNN for SSTD analysis and STPR, including single neuronal models, evolving spiking neural networks (eSNN) and computational neuro-genetic models (CNGM). Software and hardware implementations and some pilot applications for audio-visual pattern recognition, EEG data analysis, cognitive robotic systems, BCI, neurodegenerative diseases, and others are discussed.",
+            "aminer_id": "5390b78a20f70186a0f23108"
+        },
+        "ghosh-dastidar_new_2009": {
+            "number": "[34]",
+            "title": "A New Supervised Learning Algorithm for Multiple Spiking Neural Networks with Application in Epilepsy and Seizure Detection.",
+            "text": "\\bibitem{ghosh-dastidar_new_2009} \\BIBentryALTinterwordspacing S.~Ghosh-Dastidar and H.~Adeli, ``\\BIBforeignlanguage{en}{A new supervised learning algorithm for multiple spiking neural networks with application in epilepsy and seizure detection},'' \\emph{\\BIBforeignlanguage{en}{Neural Networks}}, vol.~22, no.~10, pp. 1419--1431, Dec. 2009. [Online]. Available: \\url{https://www.sciencedirect.com/science/article/pii/S0893608009000653} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "A new Multi-Spiking Neural Network (MuSpiNN) model is presented in which information from one neuron is transmitted to the next in the form of multiple spikes via multiple synapses. A new supervised learning algorithm, dubbed Multi-SpikeProp, is developed for training MuSpiNN. The model and learning algorithm employ the heuristic rules and optimum parameter values presented by the authors in a recent paper that improved the efficiency of the original single-spiking Spiking Neural Network (SNN) model by two orders of magnitude. The classification accuracies of MuSpiNN and Multi-SpikeProp are evaluated using three increasingly more complicated problems: the XOR problem, the Fisher iris classification problem, and the epilepsy and seizure detection (EEG classification) problem. It is observed that MuSpiNN learns the XOR problem in twice the number of epochs compared with the single-spiking SNN model but requires only one-fourth the number of synapses. For the iris and EEG classification problems, a modular architecture is employed to reduce each 3-class classification problem to three 2-class classification problems and improve the classification accuracy. For the complicated EEG classification problem a classification accuracy in the range of 90.7%–94.8% was achieved, which is significantly higher than the 82% classification accuracy obtained using the single-spiking SNN with SpikeProp.",
+            "aminer_id": "5390a74f20f70186a0e8d1c2"
+        },
+        "mohemmed_span_2012": {
+            "number": "[35]",
+            "title": "SPAN: SPIKE PATTERN ASSOCIATION NEURON FOR LEARNING SPATIO-TEMPORAL SPIKE PATTERNS",
+            "text": "\\bibitem{mohemmed_span_2012} \\BIBentryALTinterwordspacing A.~Mohemmed, S.~Schliebs, S.~Matsuda, and N.~Kasabov, ``Span: spike pattern association neuron for learning spatio-temporal spike patterns,'' \\emph{International Journal of Neural Systems}, vol.~22, no.~04, p. 1250012, Aug. 2012, publisher: World Scientific Publishing Co. [Online]. Available: \\url{https://www.worldscientific.com/doi/abs/10.1142/S0129065712500128} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Spiking Neural Networks (SNN) were shown to be suitable tools for the processing of spatio-temporal information. However, due to their inherent complexity, the formulation of efficient supervised learning algorithms for SNN is difficult and remains an important problem in the research area. This article presents SPAN - a spiking neuron that is able to learn associations of arbitrary spike trains in a supervised fashion allowing the processing of spatio-temporal information encoded in the precise timing of spikes. The idea of the proposed algorithm is to transform spike trains during the learning phase into analog signals so that common mathematical operations can be performed on them. Using this conversion, it is possible to apply the well-known Widrow-Hoff rule directly to the transformed spike trains in order to adjust the synaptic weights and to achieve a desired input/output spike behavior of the neuron. In the presented experimental analysis, the proposed learning algorithm is evaluated regarding its learning capabilities, its memory capacity, its robustness to noisy stimuli and its classification performance. Differences and similarities of SPAN regarding two related algorithms, ReSuMe and Chronotron, are discussed.",
+            "aminer_id": "53e9a42cb7602d9702d49bda"
+        },
+        "bohte_unsupervised_2002": {
+            "number": "[36]",
+            "title": "Unsupervised clustering with spiking neurons by sparse temporal coding and multilayer RBF networks",
+            "text": "\\bibitem{bohte_unsupervised_2002} S.~Bohte, H.~La~Poutre, and J.~Kok, ``Unsupervised clustering with spiking neurons by sparse temporal coding and multilayer {RBF} networks,'' \\emph{IEEE Transactions on Neural Networks}, vol.~13, no.~2, pp. 426--435, Mar. 2002, conference Name: IEEE Transactions on Neural Networks.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "legenstein_what_2005": {
+            "number": "[37]",
+            "title": "What Can a Neuron Learn with Spike-Timing-Dependent Plasticity?",
+            "text": "\\bibitem{legenstein_what_2005} \\BIBentryALTinterwordspacing R.~Legenstein, C.~Naeger, and W.~Maass, ``What {Can} a {Neuron} {Learn} with {Spike}-{Timing}-{Dependent} {Plasticity}?'' \\emph{Neural Computation}, vol.~17, no.~11, pp. 2337--2382, Nov. 2005. [Online]. Available: \\url{https://doi.org/10.1162/0899766054796888} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Spiking neurons are very flexible computational modules, which can implement with different values of their adjustable synaptic parameters an enormous variety of different transformations F from input spike trains to output spike trains. We examine in this letter the question to what extent a spiking neuron with biologically realistic models for dynamic synapses can be taught via spike-timing-dependent plasticity (STDP) to implement a given transformation F. We consider a supervised learning paradigm where during training, the output of the neuron is clamped to the target signal (teacher forcing). The well-known perceptron convergence theorem asserts the convergence of a simple supervised learning algorithm for drastically simplified neuron models (McCulloch-Pitts neurons). We show that in contrast to the perceptron convergence theorem, no theoretical guarantee can be given for the convergence of STDP with teacher forcing that holds for arbitrary input spike patterns. On the other hand, we prove that average case versions of the perceptron convergence theorem hold for STDP in the case of uncorrelated and correlated Poisson input spike trains and simple models for spiking neurons. For a wide class of cross-correlation functions of the input spike trains, the resulting necessary and sufficient condition can be formulated in terms of linear separability, analogously as the well-known condition of learnability by perceptrons. However, the linear separability criterion has to be applied here to the columns of the correlation matrix of the Poisson input. We demonstrate through extensive computer simulations that the theoretically predicted convergence of STDP with teacher forcing also holds for more realistic models for neurons, dynamic synapses, and more general input distributions. In addition, we show through computer simulations that these positive learning results hold not only for the common interpretation of STDP, where STDP changes the weights of synapses, but also for a more realistic interpretation suggested by experimental data where STDP modulates the initial release probability of dynamic synapses.",
+            "aminer_id": "5390994d20f70186a0e12e58"
+        },
+        "wade_swat_2010": {
+            "number": "[38]",
+            "title": "SWAT: A Spiking Neural Network Training Algorithm for Classification Problems",
+            "text": "\\bibitem{wade_swat_2010} J.~J. Wade, L.~J. McDaid, J.~A. Santos, and H.~M. Sayers, ``{SWAT}: {A} {Spiking} {Neural} {Network} {Training} {Algorithm} for {Classification} {Problems},'' \\emph{IEEE Transactions on Neural Networks}, vol.~21, no.~11, pp. 1817--1830, Nov. 2010, conference Name: IEEE Transactions on Neural Networks.",
+            "ref_source": "bbl",
+            "abstract": "This paper presents a synaptic weight association training (SWAT) algorithm for spiking neural networks (SNNs). SWAT merges the Bienenstock-Cooper-Munro (BCM) learning rule with spike timing dependent plasticity (STDP). The STDP/BCM rule yields a unimodal weight distribution where the height of the plasticity window associated with STDP is modulated causing stability after a period of training. The SNN uses a single training neuron in the training phase where data associated with all classes is passed to this neuron. The rule then maps weights to the classifying output neurons to reflect similarities in the data across the classes. The SNN also includes both excitatory and inhibitory facilitating synapses which create a frequency routing capability allowing the information presented to the network to be routed to different hidden layer neurons. A variable neuron threshold level simulates the refractory period. SWAT is initially benchmarked against the nonlinearly separable Iris and Wisconsin Breast Cancer datasets. Results presented show that the proposed training algorithm exhibits a convergence accuracy of 95.5% and 96.2% for the Iris and Wisconsin training sets, respectively, and 95.3% and 96.7% for the testing sets, noise experiments show that SWAT has a good generalization capability. SWAT is also benchmarked using an isolated digit automatic speech recognition (ASR) system where a subset of the TI46 speech corpus is used. Results show that with SWAT as the classifier, the ASR system provides an accuracy of 98.875% for training and 95.25% for testing.",
+            "aminer_id": "5390adfd20f70186a0ec5797"
+        },
+        "benjamin_neurogrid_2014": {
+            "number": "[39]",
+            "title": "Neurogrid: A Mixed-Analog-Digital Multichip System for Large-Scale Neural Simulations",
+            "text": "\\bibitem{benjamin_neurogrid_2014} \\BIBentryALTinterwordspacing B.~V. Benjamin, P.~Gao, E.~McQuinn, S.~Choudhary, A.~R. Chandrasekaran, J.-M. Bussat, R.~Alvarez-Icaza, J.~V. Arthur, P.~A. Merolla, and K.~Boahen, ``\\BIBforeignlanguage{English}{Neurogrid: {A} {Mixed}-{Analog}-{Digital} {Multichip} {System} for {Large}-{Scale} {Neural} {Simulations}},'' \\emph{\\BIBforeignlanguage{English}{Proceedings of the Ieee}}, vol. 102, no.~5, pp. 699--716, May 2014, place: Piscataway Publisher: Ieee-Inst Electrical Electronics Engineers Inc WOS:000336915700006. [Online]. Available: \\url{https://ieeexplore.ieee.org/document/6805187/} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we describe the design of Neurogrid, a neuromorphic system for simulating large-scale neural models in real time. Neuromorphic systems realize the function of biological neural systems by emulating their structure. Designers of such systems face three major design choices: 1) whether to emulate the four neural elements-axonal arbor, synapse, dendritic tree, and soma-with dedicated or shared electronic circuits; 2) whether to implement these electronic circuits in an analog or digital manner; and 3) whether to interconnect arrays of these silicon neurons with a mesh or a tree network. The choices we made were: 1) we emulated all neural elements except the soma with shared electronic circuits; this choice maximized the number of synaptic connections; 2) we realized all electronic circuits except those for axonal arbors in an analog manner; this choice maximized energy efficiency; and 3) we interconnected neural arrays in a tree network; this choice maximized throughput. These three choices made it possible to simulate a million neurons with billions of synaptic connections in real time-for the first time-using 16 Neurocores integrated on a board that consumes three watts.",
+            "aminer_id": "53e9b86db7602d970443963b"
+        },
+        "indiveri_vlsi_2006": {
+            "number": "[40]",
+            "title": "A VLSI Array of Low-Power Spiking Neurons and Bistable Synapses with Spike-Timing Dependent Plasticity",
+            "text": "\\bibitem{indiveri_vlsi_2006} \\BIBentryALTinterwordspacing G.~Indiveri, E.~Chicca, and R.~Douglas, ``\\BIBforeignlanguage{English}{A {VLSI} array of low-power spiking neurons and bistable synapses with spike-timing dependent plasticity},'' \\emph{\\BIBforeignlanguage{English}{Ieee Transactions on Neural Networks}}, vol.~17, no.~1, pp. 211--221, Jan. 2006, place: Piscataway Publisher: Ieee-Inst Electrical Electronics Engineers Inc WOS:000235536300018. [Online]. Available: \\url{https://ieeexplore.ieee.org/document/1593704/} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "We present a mixed-mode analog/digital VLSI device comprising an array of leaky integrate-and-fire (I&F) neurons, adaptive synapses with spike-timing dependent plasticity, and an asynchronous event based communication infrastructure that allows the user to (re)configure networks of spiking neurons with arbitrary topologies. The asynchronous communication protocol used by the silicon neurons to transmit spikes (events) off-chip and the silicon synapses to receive spikes from the outside is based on the \"address-event representation\" (AER). We describe the analog circuits designed to implement the silicon neurons and synapses and present experimental data showing the neuron's response properties and the synapses characteristics, in response to AER input spike trains. Our results indicate that these circuits can be used in massively parallel VLSI networks of I&F neurons to simulate real-time complex spike-based learning algorithms.",
+            "aminer_id": "5390b68720f70186a0f1b414"
+        },
+        "furber_overview_2013": {
+            "number": "[41]",
+            "title": "Overview of the SpiNNaker System Architecture",
+            "text": "\\bibitem{furber_overview_2013} S.~B. Furber, D.~R. Lester, L.~A. Plana, J.~D. Garside, E.~Painkras, S.~Temple, and A.~D. Brown, ``Overview of the {SpiNNaker} {System} {Architecture},'' \\emph{IEEE Transactions on Computers}, vol.~62, no.~12, pp. 2454--2467, Dec. 2013, conference Name: IEEE Transactions on Computers.",
+            "ref_source": "bbl",
+            "abstract": "SpiNNaker (a contraction of Spiking Neural Network Architecture) is a million-core computing engine whose flagship goal is to be able to simulate the behavior of aggregates of up to a billion neurons in real time. It consists of an array of ARM9 cores, communicating via packets carried by a custom interconnect fabric. The packets are small (40 or 72 bits), and their transmission is brokered entirely by hardware, giving the overall engine an extremely high bisection bandwidth of over 5 billion packets/s. Three of the principal axioms of parallel machine design (memory coherence, synchronicity, and determinism) have been discarded in the design without, surprisingly, compromising the ability to perform meaningful computations. A further attribute of the system is the acknowledgment, from the initial design stages, that the sheer size of the implementation will make component failures an inevitable aspect of day-to-day operation, and fault detection and recovery mechanisms have been built into the system at many levels of abstraction. This paper describes the architecture of the machine and outlines the underlying design philosophy; software and applications are to be described in detail elsewhere, and only introduced in passing here as necessary to illuminate the description.",
+            "aminer_id": "5390be6620f70186a0f4bb1c"
+        },
+        "furber_spinnaker_2014": {
+            "number": "[42]",
+            "title": "The SpiNNaker Project",
+            "text": "\\bibitem{furber_spinnaker_2014} \\BIBentryALTinterwordspacing S.~B. Furber, F.~Galluppi, S.~Temple, and L.~A. Plana, ``\\BIBforeignlanguage{English}{The {SpiNNaker} {Project}},'' \\emph{\\BIBforeignlanguage{English}{Proceedings of the Ieee}}, vol. 102, no.~5, pp. 652--665, May 2014, place: Piscataway Publisher: Ieee-Inst Electrical Electronics Engineers Inc WOS:000336915700003. [Online]. Available: \\url{https://ieeexplore.ieee.org/document/6750072/} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The spiking neural network architecture (SpiNNaker) project aims to deliver a massively parallel million-core computer whose interconnect architecture is inspired by the connectivity characteristics of the mammalian brain, and which is suited to the modeling of large-scale spiking neural networks in biological real time. Specifically, the interconnect allows the transmission of a very large number of very small data packets, each conveying explicitly the source, and implicitly the time, of a single neural action potential or “spike.” In this paper, we review the current state of the project, which has already delivered systems with up to 2500 processors, and present the real-time event-driven programming model that supports flexible access to the resources of the machine and has enabled its use by a wide range of collaborators around the world.",
+            "aminer_id": "557c1f11d19fa4669fa1af0e"
+        },
+        "kasabov_neucube_2014": {
+            "number": "[43]",
+            "title": "NeuCube: A Spiking Neural Network Architecture for Mapping, Learning and Understanding of Spatio-Temporal Brain Data",
+            "text": "\\bibitem{kasabov_neucube_2014} \\BIBentryALTinterwordspacing N.~K. Kasabov, ``\\BIBforeignlanguage{en}{{NeuCube}: {A} spiking neural network architecture for mapping, learning and understanding of spatio-temporal brain data},'' \\emph{\\BIBforeignlanguage{en}{Neural Networks}}, vol.~52, pp. 62--76, Apr. 2014. [Online]. Available: \\url{https://www.sciencedirect.com/science/article/pii/S0893608014000070} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The brain functions as a spatio-temporal information processing machine. Spatio- and spectro-temporal brain data (STBD) are the most commonly collected data for measuring brain response to external stimuli. An enormous amount of such data has been already collected, including brain structural and functional data under different conditions, molecular and genetic data, in an attempt to make a progress in medicine, health, cognitive science, engineering, education, neuro-economics, Brain–Computer Interfaces (BCI), and games. Yet, there is no unifying computational framework to deal with all these types of data in order to better understand this data and the processes that generated it. Standard machine learning techniques only partially succeeded and they were not designed in the first instance to deal with such complex data. Therefore, there is a need for a new paradigm to deal with STBD. This paper reviews some methods of spiking neural networks (SNN) and argues that SNN are suitable for the creation of a unifying computational framework for learning and understanding of various STBD, such as EEG, fMRI, genetic, DTI, MEG, and NIRS, in their integration and interaction. One of the reasons is that SNN use the same computational principle that generates STBD, namely spiking information processing. This paper introduces a new SNN architecture, called NeuCube, for the creation of concrete models to map, learn and understand STBD. A NeuCube model is based on a 3D evolving SNN that is an approximate map of structural and functional areas of interest of the brain related to the modeling STBD. Gene information is included optionally in the form of gene regulatory networks (GRN) if this is relevant to the problem and the data. A NeuCube model learns from STBD and creates connections between clusters of neurons that manifest chains (trajectories) of neuronal activity. Once learning is applied, a NeuCube model can reproduce these trajectories, even if only part of the input STBD or the stimuli data is presented, thus acting as an associative memory. The NeuCube framework can be used not only to discover functional pathways from data, but also as a predictive system of brain activities, to predict and possibly, prevent certain events. Analysis of the internal structure of a model after training can reveal important spatio-temporal relationships ‘hidden’ in the data. NeuCube will allow the integration in one model of various brain data, information and knowledge, related to a single subject (personalized modeling) or to a population of subjects. The use of NeuCube for classification of STBD is illustrated in a case study problem of EEG data. NeuCube models result in a better accuracy of STBD classification than standard machine learning techniques. They are robust to noise (so typical in brain data) and facilitate a better interpretation of the results and understanding of the STBD and the brain conditions under which data was collected. Future directions for the use of SNN for STBD are discussed.",
+            "aminer_id": "5390bfa220f70186a0f53c60"
+        },
+        "florian_reinforcement_2007": {
+            "number": "[44]",
+            "title": "Reinforcement Learning Through Modulation of Spike-Timing-Dependent Synaptic Plasticity",
+            "text": "\\bibitem{florian_reinforcement_2007} \\BIBentryALTinterwordspacing R.~V. Florian, ``Reinforcement {Learning} {Through} {Modulation} of {Spike}-{Timing}-{Dependent} {Synaptic} {Plasticity},'' \\emph{Neural Computation}, vol.~19, no.~6, pp. 1468--1502, Jun. 2007. [Online]. Available: \\url{https://doi.org/10.1162/neco.2007.19.6.1468} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The persistent modification of synaptic efficacy as a function of the relative timing of pre- and postsynaptic spikes is a phenomenon known as spike-timing-dependent plasticity (STDP). Here we show that the modulation of STDP by a global reward signal leads to reinforcement learning. We first derive analytically learning rules involving reward-modulated spike-timing-dependent synaptic and intrinsic plasticity, by applying a reinforcement learning algorithm to the stochastic spike response model of spiking neurons. These rules have several features common to plasticity mechanisms experimentally found in the brain. We then demonstrate in simulations of networks of integrate-and-fire neurons the efficacy of two simple learning rules involving modulated STDP. One rule is a direct extension of the standard STDP model (modulated STDP), and the other one involves an eligibility trace stored at each synapse that keeps a decaying memory of the relationships between the recent pairs of pre- and postsynaptic spike pairs (modulated STDP with eligibility trace). This latter rule permits learning even if the reward signal is delayed. The proposed rules are able to solve the XOR problem with both rate coded and temporally coded input and to learn a target output firing-rate pattern. These learning rules are biologically plausible, may be used for training generic artificial spiking neural networks, regardless of the neural model used, and suggest the experimental investigation in animals of the existence of reward-modulated STDP.",
+            "aminer_id": "53909ed120f70186a0e31aa9"
+        },
+        "park_hierarchical_2017": {
+            "number": "[45]",
+            "title": "Hierarchical Address Event Routing for Reconfigurable Large-Scale Neuromorphic Systems",
+            "text": "\\bibitem{park_hierarchical_2017} J.~Park, T.~Yu, S.~Joshi, C.~Maier, and G.~Cauwenberghs, ``Hierarchical {Address} {Event} {Routing} for {Reconfigurable} {Large}-{Scale} {Neuromorphic} {Systems},'' \\emph{IEEE Transactions on Neural Networks and Learning Systems}, vol.~28, no.~10, pp. 2408--2422, Oct. 2017, conference Name: IEEE Transactions on Neural Networks and Learning Systems.",
+            "ref_source": "bbl",
+            "abstract": "Recent advances in neuromorphic engineering for brain-like computing and neural prostheses are converging towards realization of electronic synaptic arrays approaching the integration density and energy efficiency of the human brain. A major impediment in this development is the real-time synaptic routing in a large-scale spiking neuron architecture. Here we present a hierarchical address-event routing (HiAER) communication architecture for routing neural events in a scaleable reconfigurable large-scale neuromorphic system. The neural events are routed in real-time through synaptic connections with configurable parameters governing connectivity, synaptic strength, and axonal delay. The HiAER architecture is implemented on a hardware platform with five Xilinx Spartan-6 FPGA cores.",
+            "aminer_id": "53e9a0a5b7602d970298b80f"
+        },
+        "bofill-i-petit_synchrony_2004": {
+            "number": "[46]",
+            "title": "Synchrony Detection and Amplification by Silicon Neurons with STDP Synapses",
+            "text": "\\bibitem{bofill-i-petit_synchrony_2004} A.~Bofill-i Petit and A.~Murray, ``Synchrony detection and amplification by silicon neurons with {STDP} synapses,'' \\emph{IEEE Transactions on Neural Networks}, vol.~15, no.~5, pp. 1296--1304, Sep. 2004, conference Name: IEEE Transactions on Neural Networks.",
+            "ref_source": "bbl",
+            "abstract": "Spike-timing dependent synaptic plasticity (STDP) is a form of plasticity driven by precise spike-timing differences between presynaptic and postsynaptic spikes. Thus, the learning rules underlying STDP are suitable for learning neuronal temporal phenomena such as spike-timing synchrony. It is well known that weight-independent STDP creates unstable learning processes resulting in balanced bimodal weight distributions. In this paper, we present a neuromorphic analog very large scale integration (VLSI) circuit that contains a feedforward network of silicon neurons with STDP synapses. The learning rule implemented can be tuned to have a moderate level of weight dependence. This helps stabilise the learning process and still generates binary weight distributions. From on-chip learning experiments we show that the chip can detect and amplify hierarchical spike-timing synchrony structures embedded in noisy spike trains. The weight distributions of the network emerging from learning are bimodal.",
+            "aminer_id": "5390b68720f70186a0f1b32a"
+        },
+        "bamford_large_2010": {
+            "number": "[47]",
+            "title": "Large Developing Receptive Fields Using a Distributed and Locally Reprogrammable Address-Event Receiver",
+            "text": "\\bibitem{bamford_large_2010} S.~A. Bamford, A.~F. Murray, and D.~J. Willshaw, ``Large {Developing} {Receptive} {Fields} {Using} a {Distributed} and {Locally} {Reprogrammable} {Address}–{Event} {Receiver},'' \\emph{IEEE Transactions on Neural Networks}, vol.~21, no.~2, pp. 286--304, Feb. 2010, conference Name: IEEE Transactions on Neural Networks.",
+            "ref_source": "bbl",
+            "abstract": "A distributed and locally reprogrammable address-event receiver has been designed, in which incoming address-events are monitored simultaneously by all synapses, allowing for arbitrarily large axonal fan-out without reducing channel capacity. Synapses can change the address of their presynaptic neuron, allowing the distributed implementation of a biologically realistic learning rule, with both synapse formation and elimination (synaptic rewiring). Probabilistic synapse formation leads to topographic map development, made possible by a cross-chip current-mode calculation of Euclidean distance. As well as synaptic plasticity in rewiring, synapses change weights using a competitive Hebbian learning rule (spike-timing-dependent plasticity). The weight plasticity allows receptive fields to be modified based on spatio-temporal correlations in the inputs, and the rewiring plasticity allows these modifications to become embedded in the network topology.",
+            "aminer_id": "5390a96f20f70186a0ea45c3"
+        },
+        "richmond_democratic_2011": {
+            "number": "[48]",
+            "title": "Democratic Population Decisions Result in Robust Policy-Gradient Learning: a Parametric Study with GPU Simulations.",
+            "text": "\\bibitem{richmond_democratic_2011} \\BIBentryALTinterwordspacing P.~Richmond, L.~Buesing, M.~Giugliano, and E.~Vasilaki, ``\\BIBforeignlanguage{en}{Democratic {Population} {Decisions} {Result} in {Robust} {Policy}-{Gradient} {Learning}: {A} {Parametric} {Study} with {GPU} {Simulations}},'' \\emph{\\BIBforeignlanguage{en}{PLOS ONE}}, vol.~6, no.~5, p. e18539, May 2011, publisher: Public Library of Science. [Online]. Available: \\url{https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0018539} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "High performance computing on the Graphics Processing Unit (GPU) is an emerging field driven by the promise of high computational power at a low cost. However, GPU programming is a non-trivial task and moreover architectural limitations raise the question of whether investing effort in this direction may be worthwhile. In this work, we use GPU programming to simulate a two-layer network of Integrate-and-Fire neurons with varying degrees of recurrent connectivity and investigate its ability to learn a simplified navigation task using a policy-gradient learning rule stemming from Reinforcement Learning. The purpose of this paper is twofold. First, we want to support the use of GPUs in the field of Computational Neuroscience. Second, using GPU computing power, we investigate the conditions under which the said architecture and learning rule demonstrate best performance. Our work indicates that networks featuring strong Mexican-Hat-shaped recurrent connections in the top layer, where decision making is governed by the formation of a stable activity bump in the neural population (a \"non-democratic\" mechanism), achieve mediocre learning results at best. In absence of recurrent connections, where all neurons \"vote\" independently (\"democratic\") for a decision via population vector readout, the task is generally learned better and more robustly. Our study would have been extremely difficult on a desktop computer without the use of GPU programming. We present the routines developed for this purpose and show that a speed improvement of 5x up to 42x is provided versus optimised Python code. The higher speed is achieved when we exploit the parallelism of the GPU in the search of learning parameters. This suggests that efficient GPU programming can significantly reduce the time needed for simulating networks of spiking neurons, particularly when multiple parameter configurations are investigated.",
+            "aminer_id": "55a40cfe65ce5cd7b3c20d1c"
+        },
+        "morrison_advancing_2005": {
+            "number": "[49]",
+            "title": "Advancing the Boundaries of High-Connectivity Network Simulation with Distributed Computing",
+            "text": "\\bibitem{morrison_advancing_2005} \\BIBentryALTinterwordspacing A.~Morrison, C.~Mehring, T.~Geisel, A.~Aertsen, and M.~Diesmann, ``Advancing the {Boundaries} of {High}-{Connectivity} {Network} {Simulation} with {Distributed} {Computing},'' \\emph{Neural Computation}, vol.~17, no.~8, pp. 1776--1801, Aug. 2005. [Online]. Available: \\url{https://doi.org/10.1162/0899766054026648} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The availability of efficient and reliable simulation tools is one of the mission-critical technologies in the fast-moving field of computational neuroscience. Research indicates that higher brain functions emerge from large and complex cortical networks and their interactions. The large number of elements (neurons) combined with the high connectivity (synapses) of the biological network and the specific type of interactions impose severe constraints on the explorable system size that previously have been hard to overcome. Here we present a collection of new techniques combined to a coherent simulation tool removing the fundamental obstacle in the computational study of biological neural networks: the enormous number of synaptic contacts per neuron. Distributing an individual simulation over multiple computers enables the investigation of networks orders of magnitude larger than previously possible. The software scales excellently on a wide range of tested hardware, so it can be used in an interactive and iterative fashion for the development of ideas, and results can be produced quickly even for very large networks. In contrast to earlier approaches, a wide class of neuron models and synaptic dynamics can be represented.",
+            "aminer_id": "5390994d20f70186a0e1294c"
+        },
+        "tavanaei_bp-stdp_2019": {
+            "number": "[50]",
+            "title": "BP-STDP: Approximating backpropagation using spike timing dependent plasticity",
+            "text": "\\bibitem{tavanaei_bp-stdp_2019} \\BIBentryALTinterwordspacing A.~Tavanaei and A.~Maida, ``\\BIBforeignlanguage{en}{{BP}-{STDP}: {Approximating} backpropagation using spike timing dependent plasticity},'' \\emph{\\BIBforeignlanguage{en}{Neurocomputing}}, vol. 330, pp. 39--47, Feb. 2019. [Online]. Available: \\url{https://www.sciencedirect.com/science/article/pii/S0925231218313420} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c6eb29ff56def9798255ecf"
+        },
+        "dong_estimating_2011": {
+            "number": "[51]",
+            "title": "Estimating Parameters of Generalized Integrate-and-fire Neurons from the Maximum Likelihood of Spike Trains.",
+            "text": "\\bibitem{dong_estimating_2011} \\BIBentryALTinterwordspacing Y.~Dong, S.~Mihalas, A.~Russell, R.~Etienne-Cummings, and E.~Niebur, ``Estimating {Parameters} of {Generalized} {Integrate}-and-{Fire} {Neurons} from the {Maximum} {Likelihood} of {Spike} {Trains},'' \\emph{Neural Computation}, vol.~23, no.~11, pp. 2833--2867, Nov. 2011. [Online]. Available: \\url{https://doi.org/10.1162/NECO\\_a\\_00196} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "When a neuronal spike train is observed, what can we deduce from it about the properties of the neuron that generated it? A natural way to answer this question is to make an assumption about the type of neuron, select an appropriate model for this type, and then choose the model parameters as those that are most likely to generate the observed spike train. This is the maximum likelihood method. If the neuron obeys simple integrate-and-fire dynamics, Paninski, Pillow, and Simoncelli (2004) showed that its negative log-likelihood function is convex and that, at least in principle, its unique global minimum can thus be found by gradient descent techniques. Many biological neurons are, however, known to generate a richer repertoire of spiking behaviors than can be explained in a simple integrate-and-fire model. For instance, such a model retains only an implicit (through spike-induced currents), not an explicit, memory of its input; an example of a physiological situation that cannot be explained is the absence of firing if the input current is increased very slowly. Therefore, we use an expanded model (Mihalas & Niebur, 2009 ), which is capable of generating a large number of complex firing patterns while still being linear. Linearity is important because it maintains the distribution of the random variables and still allows maximum likelihood methods to be used. In this study, we show that although convexity of the negative log-likelihood function is not guaranteed for this model, the minimum of this function yields a good estimate for the model parameters, in particular if the noise level is treated as a free parameter. Furthermore, we show that a nonlinear function minimization method (r-algorithm with space dilation) usually reaches the global minimum.",
+            "aminer_id": "5390b24320f70186a0ee6e36"
+        },
+        "laurence_f_abbott_theoretical_2001": {
+            "number": "[52]",
+            "title": "Theoretical Neuroscience",
+            "text": "\\bibitem{laurence_f_abbott_theoretical_2001} \\BIBentryALTinterwordspacing {Laurence F. Abbott} and {Peter Dayan}, \\emph{\\BIBforeignlanguage{English}{Theoretical {Neuroscience}}}.\\hskip 1em plus 0.5em minus 0.4em\\relax The MIT Press, Oct. 2001. [Online]. Available: \\url{http://www.gatsby.ucl.ac.uk/~dayan/book/index.html} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "67921b3dae8580e7ffe67622"
+        },
+        "trappenberg_fundamentals_2010": {
+            "number": "[53]",
+            "title": "Fundamentals of Computational Neuroscience",
+            "text": "\\bibitem{trappenberg_fundamentals_2010} T.~P. Trappenberg, \\emph{\\BIBforeignlanguage{eng}{Fundamentals of computational neuroscience}}, 2nd~ed.\\hskip 1em plus 0.5em minus 0.4em\\relax Oxford, UK ;: Oxford University Press, 2010, publication Title: Fundamentals of computational neuroscience.",
+            "ref_source": "bbl",
+            "abstract": "1.1 WHAT IS COMPUTATIONAL NEUROSCIENCE? 1.2 Domains in Computational Neuroscience 1.3 What is a model? 1.4 Emergence and adaptation 1.5 From exploration to a theory of the brain 1.6 Some notes on the book 2.1 MODELLING BIOLOGICAL NEURONS 2.2 Neurons are specialized cells 2.3 Basic synaptic mechanisms 2.4 The generation of action potentials: Hodgkin-Huxley equations 2.5 Dendritic trees, the propagation of action potentials, and compartmental models 2.6 Above and Beyond the Hodgkin-Huxley neuron: Fatigue, bursting and simplifications 3.1 INTEGRATE-AND-FIRE NEURONS 3.2 The spike-response model 3.3 Spike time variability 3.4 Noise Models for IF neurons 4.1 ORGANIZATIONS OF NEURONAL NETWORKS 4.2 Information transmission in networks 4.3 Population Dynamics: modelling the average behaviour of neurons 4.4 The sigma node 4.5 Networks with non-classical synapses: the sigma-pi node 5.1 HOW NEURONS TALK 5.2 Information theory 5.3 Information in spike trains 5.4 Population coding and decoding 5.5 Distributed representation 6.1 PERCEPTION, FUNCTION REPRESNTATION, AND LOOK-UP TABLES 6.2 The sigma node as perception 6.3 Multi-layer mapping networks 6.4 Learning, generalization and biological interpretations 6.5 Self-organizing network architectures and geentic algorighms 6.6 Mapping networks with context units 6.7 Probabilistic mapping networks 7.1 ASSOCIATIVE MEMORY AND HEBBIAN LEARNING 7.2 An example of learning association 7.3 The biochemical basis of synaptic plasticity 7.4 The temporal structure of Hebbian plasticity: LTP and LTD 7.5 Mathematical formulation of Hebian plasticity 7.6 Weight distributions 7.7 Neuronal response variability, gain control, and scaling 7.8 Features of associators and Hebbian learning 8.1 SHORT-TERM MEMORY AND REVERBERATING NETWORK ACTIVITY 8.2 Long-term memory and auto-associators 8.3 Point attractor networks: The Grossberg-Hopfield model 8.4 The phase diagram and the Grossberg-Hopfield model 8.5 Sparse attractor neural networks 8.6 Chaotic networks: a dynamical systems view 8.7 Biologically more realistic variation of attractor networks 9.1 SPATIAL REPRESENTATIONS AND THE SENSE OF DIRECTIONS 9.2 Learning with continuous pattern representations 9.3 Asymptotic states and the dynamics of neural fields 9.4 Path-integration, Hebbian trace rule, and sequence learning 9.5 Competitive networks and self-organizing maps 10.1 MOTOR LEARNING AND CONTROL 10.2 The delta rule 10.3 Generalized delta rules 10.4 Reward learning 111.1 SYSTEM LEVEL ANATOMY OF THE BRAIN 11.2 Modular mapping networks 11.3 Coupled attractor networks 11.4 Working memory 11.5 Attentive vision 11.6 An interconnecting workspace hypothesis 12.1 INTRODUCTION TO HTE MATLAB PROGRAMMING ENVIRONMENT 12.2 Spiking neurons and numerical integration in MATLAB 12.3 Associators and Hebbian learning 12.4 Recurrent networks and networks dynamics 12.5 Continuous attractor neural networks 12.6 Error-backpropagation network SOME USEFUL MATHEMATICS BASIC PROBABILITY THEORY NUMERICAL INTEGRATION INDEX",
+            "aminer_id": "648e3bfed68f896efa3e3df9"
+        },
+        "yamazaki_spiking_2022": {
+            "number": "[54]",
+            "title": "Spiking Neural Networks and Their Applications: A Review",
+            "text": "\\bibitem{yamazaki_spiking_2022} \\BIBentryALTinterwordspacing K.~Yamazaki, V.-K. Vo-Ho, D.~Bulsara, and N.~Le, ``\\BIBforeignlanguage{en}{Spiking {Neural} {Networks} and {Their} {Applications}: {A} {Review}},'' \\emph{\\BIBforeignlanguage{en}{Brain Sciences}}, vol.~12, no.~7, p. 863, Jul. 2022, number: 7 Publisher: Multidisciplinary Digital Publishing Institute. [Online]. Available: \\url{https://www.mdpi.com/2076-3425/12/7/863} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "The past decade has witnessed the great success of deep neural networks in various domains. However, deep neural networks are very resource-intensive in terms of energy consumption, data requirements, and high computational costs. With the recent increasing need for the autonomy of machines in the real world, e.g., self-driving vehicles, drones, and collaborative robots, exploitation of deep neural networks in those applications has been actively investigated. In those applications, energy and computational efficiencies are especially important because of the need for real-time responses and the limited energy supply. A promising solution to these previously infeasible applications has recently been given by biologically plausible spiking neural networks. Spiking neural networks aim to bridge the gap between neuroscience and machine learning, using biologically realistic models of neurons to carry out the computation. Due to their functional similarity to the biological neural network, spiking neural networks can embrace the sparsity found in biology and are highly compatible with temporal code. Our contributions in this work are: (i) we give a comprehensive review of theories of biological neurons; (ii) we present various existing spike-based neuron models, which have been studied in neuroscience; (iii) we detail synapse models; (iv) we provide a review of artificial neural networks; (v) we provide detailed guidance on how to train spike-based neuron models; (vi) we revise available spike-based neuron frameworks that have been developed to support implementing spiking neural networks; (vii) finally, we cover existing spiking neural network applications in computer vision and robotics domains. The paper concludes with discussions of future perspectives.",
+            "aminer_id": "62f6039a90e50fcafdfa189b"
+        },
+        "roy_towards_2019": {
+            "number": "[55]",
+            "title": "Towards Spike-Based Machine Intelligence with Neuromorphic Computing",
+            "text": "\\bibitem{roy_towards_2019} \\BIBentryALTinterwordspacing K.~Roy, A.~Jaiswal, and P.~Panda, ``\\BIBforeignlanguage{en}{Towards spike-based machine intelligence with neuromorphic computing},'' \\emph{\\BIBforeignlanguage{en}{Nature}}, vol. 575, no. 7784, pp. 607--617, Nov. 2019, number: 7784 Publisher: Nature Publishing Group. [Online]. Available: \\url{https://www.nature.com/articles/s41586-019-1677-2} \\BIBentrySTDinterwordspacing",
+            "ref_source": "bbl",
+            "abstract": "Guided by brain-like ‘spiking’ computational frameworks, neuromorphic computing—brain-inspired computing for machine intelligence—promises to realize artificial intelligence while reducing the energy requirements of computing platforms. This interdisciplinary field began with the implementation of silicon circuits for biological neural routines, but has evolved to encompass the hardware implementation of algorithms with spike-based encoding and event-driven representations. Here we provide an overview of the developments in neuromorphic computing for both algorithms and hardware and highlight the fundamentals of learning and hardware frameworks. We discuss the main challenges and the future prospects of neuromorphic computing, with emphasis on algorithm–hardware codesign.",
+            "aminer_id": "5e09aaefdf1a9c0c416cda5c"
+        },
+        "rajendran_low-power_2019": {
+            "number": "[56]",
+            "title": "Low-Power Neuromorphic Hardware for Signal Processing Applications: A Review of Architectural and System-Level Design Approaches",
+            "text": "\\bibitem{rajendran_low-power_2019} B.~Rajendran, A.~Sebastian, M.~Schmuker, N.~Srinivasa, and E.~Eleftheriou, ``Low-{Power} {Neuromorphic} {Hardware} for {Signal} {Processing} {Applications}: {A} {Review} of {Architectural} and {System}-{Level} {Design} {Approaches},'' \\emph{IEEE Signal Processing Magazine}, vol.~36, no.~6, pp. 97--110, Nov. 2019, conference Name: IEEE Signal Processing Magazine. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "Machine learning has emerged as the dominant tool for implementing complex cognitive tasks that require supervised, unsupervised, and reinforcement learning. While the resulting machines have demonstrated in some cases even superhuman performance, their energy consumption has often proved to be prohibitive in the absence of costly supercomputers. Most state-of-the-art machine-learning solutions are based on memoryless models of neurons. This is unlike the neurons in the human brain that encode and process information using temporal information in spike events. The different computing principles underlying biological neurons and how they combine together to efficiently process information is believed to be a key factor behind their superior efficiency compared to current machine-learning systems.",
+            "aminer_id": "5dcbd5b3df1a9c0c41553b08"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 56,
+        "citation_types": {
+            "unknown": 56
+        }
+    }
+}

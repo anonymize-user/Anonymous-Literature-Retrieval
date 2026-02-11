@@ -1,0 +1,1889 @@
+{
+    "topic": "Geometric Relational Embeddings: A Survey",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[26]",
+                "[42]",
+                "[64]",
+                "[18]",
+                "[65]",
+                "[59]",
+                "[58]",
+                "[23]",
+                "[47]",
+                "[40]",
+                "[30]",
+                "[27]",
+                "[14]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Preliminaries and Problem Definition",
+            "refs": [
+                "[38]",
+                "[15]",
+                "[18]",
+                "[72]",
+                "[66]",
+                "[45]",
+                "[46]",
+                "[75]",
+                "[47]",
+                "[64]",
+                "[31]",
+                "[22]",
+                "[14]",
+                "[99]",
+                "[42]",
+                "[17]",
+                "[26]",
+                "[43]",
+                "[60]",
+                "[19]",
+                "[50]",
+                "[58]",
+                "[40]",
+                "[30]",
+                "[32]",
+                "[28]",
+                "[34]",
+                "[44]",
+                "[48]",
+                "[65]",
+                "[59]",
+                "[69]",
+                "[97]",
+                "[23]",
+                "[27]",
+                "[62]",
+                "[29]",
+                "[61]",
+                "[70]",
+                "[96]",
+                "[76]",
+                "[68]",
+                "[21]",
+                "[25]",
+                "[39]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Geometric Relational Embeddings",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Distribution-based Embeddings",
+                    "refs": [
+                        "[42]",
+                        "[34]",
+                        "[61]",
+                        "[33]",
+                        "[40]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Region-based Embeddings",
+                    "refs": [
+                        "[17]",
+                        "[26]",
+                        "[18]",
+                        "[15]",
+                        "[28]",
+                        "[97]",
+                        "[32]",
+                        "[98]",
+                        "[58]",
+                        "[23]",
+                        "[30]",
+                        "[29]",
+                        "[25]",
+                        "[88]",
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Manifold-based Embeddings",
+                    "refs": [
+                        "[66]",
+                        "[45]",
+                        "[46]",
+                        "[70]",
+                        "[48]",
+                        "[59]",
+                        "[69]",
+                        "[65]",
+                        "[92]",
+                        "[5]",
+                        "[47]",
+                        "[6]",
+                        "[68]",
+                        "[67]",
+                        "[2]"
+                    ],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hybrid Embeddings",
+                    "refs": [
+                        "[43]",
+                        "[44]",
+                        "[19]",
+                        "[75]",
+                        "[76]",
+                        "[64]",
+                        "[31]",
+                        "[22]"
+                    ],
+                    "subsections": [],
+                    "number": "3.4",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Applications in Relational Reasoning",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Knowledge Graph Completion.",
+                    "refs": [
+                        "[17]",
+                        "[34]",
+                        "[66]",
+                        "[84]",
+                        "[45]",
+                        "[46]",
+                        "[70]",
+                        "[65]",
+                        "[69]",
+                        "[47]",
+                        "[68]",
+                        "[32]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": " Ontology/Hierarchy Completion.",
+                    "refs": [
+                        "[17]",
+                        "[28]",
+                        "[18]",
+                        "[44]",
+                        "[60]",
+                        "[88]",
+                        "[98]",
+                        "[90]",
+                        "[58]",
+                        "[23]",
+                        "[22]",
+                        "[29]",
+                        "[77]",
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hierarchical multi-label classification.",
+                    "refs": [
+                        "[49]",
+                        "[59]",
+                        "[52]",
+                        "[50]",
+                        "[27]",
+                        "[21]",
+                        "[62]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Logical Query Answering.",
+                    "refs": [
+                        "[38]",
+                        "[26]",
+                        "[61]",
+                        "[40]",
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Summary and Future Work",
+            "refs": [
+                "[25]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        }
+    ],
+    "references": {
+        "han2020dyernietemporalhyperbolic": {
+            "number": "[1]",
+            "title": "DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion",
+            "text": "title={DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion},\n  author={Han, Zhen and Chen, Peng and Ma, Yunpu and Tresp, Volker},\n  booktitle={EMNLP},\n  pages={7301--7316},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "DyERNIE: Dynamic Evolution of Riemannian Manifold Embeddings for Temporal Knowledge Graph Completion",
+                "author": "Han, Zhen and Chen, Peng and Ma, Yunpu and Tresp, Volker",
+                "booktitle": "EMNLP",
+                "pages": "7301--7316",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "There has recently been increasing interest in learning representations of temporal knowledge graphs (KGs), which record the dynamic relationships between entities over time. Temporal KGs often exhibit multiple simultaneous non-Euclidean structures, such as hierarchical and cyclic structures. However, existing embedding approaches for temporal KGs typically learn entity representations and their dynamic evolution in the Euclidean space, which might not capture such intrinsic structures very well. To this end, we propose Dy- ERNIE, a non-Euclidean embedding approach that learns evolving entity representations in a product of Riemannian manifolds, where the composed spaces are estimated from the sectional curvatures of underlying data. Product manifolds enable our approach to better reflect a wide variety of geometric structures on temporal KGs. Besides, to capture the evolutionary dynamics of temporal KGs, we let the entity representations evolve according to a velocity vector defined in the tangent space at each timestamp. We analyze in detail the contribution of geometric spaces to representation learning of temporal KGs and evaluate our model on temporal knowledge graph completion tasks. Extensive experiments on three real-world datasets demonstrate significantly improved performance, indicating that the dynamics of multi-relational graph data can be more properly modeled by the evolution of embeddings on Riemannian manifolds.",
+            "aminer_id": "5faa6ea991e011724c3046f6"
+        },
+        "montella2021hyperbolictemporal": {
+            "number": "[2]",
+            "title": "Hyperbolic Temporal Knowledge Graph Embeddings with Relational and Time Curvatures",
+            "text": "title={Hyperbolic Temporal Knowledge Graph Embeddings with Relational and Time Curvatures},\n  author={Montella, Sebastien and Barahona, Lina M Rojas and Heinecke, Johannes},\n  booktitle={Findings of ACL-IJCNLP},\n  DISABLEDpages={3296--3308},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperbolic Temporal Knowledge Graph Embeddings with Relational and Time Curvatures",
+                "author": "Montella, Sebastien and Barahona, Lina M Rojas and Heinecke, Johannes",
+                "booktitle": "Findings of ACL-IJCNLP",
+                "disabledpages": "3296--3308",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge Graph (KG) completion has been excessively studied with a massive number of models proposed for the Link Prediction (LP) task. The main limitation of such models is their insensitivity to time. Indeed, the temporal aspect of stored facts is often ignored. To this end, more and more works consider time as a parameter to complete KGs. In this paper, we first demonstrate that, by simply increasing the number of negative samples, the recent AttH model can achieve competitive or even better performance than the state-of-the-art on Temporal KGs (TKGs), albeit its nontemporality. We further propose Hercules, a time-aware extension of AttH model, which defines the curvature of a Riemannian manifold as the product of both relation and time. Our experiments show that both Hercules and AttH achieve competitive or new state-of-the-art performances on ICEWS04 and ICEWS05-15 datasets. Therefore, one should raise awareness when learning TKGs representations to identify whether time truly boosts performances.",
+            "aminer_id": "60c2c70d91e0117e30ca2765"
+        },
+        "gu2018learningmixed": {
+            "number": "[3]",
+            "title": "Learning Mixed-Curvature Representations in Product Spaces",
+            "text": "title={Learning Mixed-Curvature Representations in Product Spaces},\n author={Albert Gu and Frederic Sala and Beliz Gunel and Christopher Ré},\n booktitle={ICLR},\n year={2019},\n  url={https://openreview.net/forum?id=HJxeWnCcF7},",
+            "type": "DISABLEDinproceedings",
+            "fields": {
+                "title": "Learning Mixed-Curvature Representations in Product Spaces",
+                "author": "Albert Gu and Frederic Sala and Beliz Gunel and Christopher Ré",
+                "booktitle": "ICLR",
+                "year": "2019",
+                "url": "https://openreview.net/forum?id=HJxeWnCcF7"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ce3a6d4ced107d4c651d44e"
+        },
+        "guo2021multialignmentmodal": {
+            "number": "[4]",
+            "title": "Multi-modal Entity Alignment in Hyperbolic Space",
+            "text": "title={Multi-modal entity alignment in hyperbolic space},\n  author={Guo, Hao and Tang, Jiuyang and Zeng, Weixin and Zhao, Xiang and Liu, Li},\n  journal={Neurocomputing},\n  volume={461},\n  pages={598--607},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Multi-modal entity alignment in hyperbolic space",
+                "author": "Guo, Hao and Tang, Jiuyang and Zeng, Weixin and Zhao, Xiang and Liu, Li",
+                "journal": "Neurocomputing",
+                "volume": "461",
+                "pages": "598--607",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Many AI-related tasks involve the interactions of data in multiple modalities. It has been a new trend to merge multi-modal information into knowledge graph (KG), resulting in multi-modal knowledge graphs (MMKG). However, MMKGs usually suffer from low coverage and incompleteness. To mitigate this problem, a viable approach is to integrate complementary knowledge from other MMKGs. To this end, although existing entity alignment approaches could be adopted, they operate in the Euclidean space, and the resulting Euclidean entity representations can lead to large distortion of KG’s hierarchical structure. Besides, the visual information has yet not been well exploited. In response to these issues, in this work, we propose a novel multi-modal entity alignment approach, Hyperbolic multi-modal entity alignment ( HMEA ), which extends the Euclidean representation to hyperboloid manifold. We first adopt the Hyperbolic Graph Convolutional Networks ( HGCNs ) to learn structural representations of entities. Regarding the visual information, we generate image embeddings using the densenet model, which are also projected into the hyperbolic space using HGCNs . Finally, we combine the structure and visual representations in the hyperbolic space and use the aggregated embeddings to predict potential alignment results. Extensive experiments and ablation studies demonstrate the effectiveness of our proposed model and its components.",
+            "aminer_id": "60c1b50091e0112cf43c2227"
+        },
+        "nayyeri2021knowledgefieldemi": {
+            "number": "[5]",
+            "title": "Knowledge Graph Representation Learning Using Ordinary Differential Equations",
+            "text": "title={Knowledge graph representation learning using ordinary differential equations},\n  author={Nayyeri, Mojtaba and Xu, Chengjin and Hoffmann, Franca and Alam, Mirza Mohtashim and Lehmann, Jens and Vahdati, Sahar},\n  booktitle={EMNLP},\n  pages={9529--9548},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Knowledge graph representation learning using ordinary differential equations",
+                "author": "Nayyeri, Mojtaba and Xu, Chengjin and Hoffmann, Franca and Alam, Mirza Mohtashim and Lehmann, Jens and Vahdati, Sahar",
+                "booktitle": "EMNLP",
+                "pages": "9529--9548",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge Graph Embeddings (KGEs) have shown promising performance on link prediction tasks by mapping the entities and relations from a knowledge graph into a geometric space. The capability of KGEs in preserving graph characteristics including structural aspects and semantics, highly depends on the design of their score function, as well as the inherited abilities from the underlying geometry. Many KGEs use the Euclidean geometry which renders them incapable of preserving complex structures and consequently causes wrong inferences by the models. To address this problem, we propose a neuro differential KGE that embeds nodes of a KG on the trajectories of Ordinary Differential Equations (ODEs). To this end, we represent each relation (edge) in a KG as a vector field on several manifolds. We specifically parameterize ODEs by a neural network to represent complex manifolds and complex vector fields on the manifolds. Therefore, the underlying embedding space is capable to assume the shape of various geometric forms to encode heterogeneous subgraphs. Experiments on synthetic and benchmark datasets using state-of-the-art KGE models justify the ODE trajectories as a means to enable structure preservation and consequently avoiding wrong inferences.",
+            "aminer_id": "618cfba991e011333c93273c"
+        },
+        "weber2018curvature": {
+            "number": "[6]",
+            "title": "Curvature and Representation Learning: Identifying Embedding Spaces for Relational Data",
+            "text": "title={Curvature and representation learning: Identifying embedding spaces for relational data},\n  author={Weber, Melanie and Nickel, Maximilian},\n  journal={NeurIPS},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Curvature and representation learning: Identifying embedding spaces for relational data",
+                "author": "Weber, Melanie and Nickel, Maximilian",
+                "journal": "NeurIPS",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We consider the problem of learning representations of relational data in spaces of constant sectional curvature, i.e., Euclidean, Hyperbolic, and Spherical space. In this context, we explore how to identify a suitable embedding curvature for a given relational dataset. For this task, we investigate the use of a scalable heuristic based on local graph neighborhoods and evaluate it on classic benchmark graphs.",
+            "aminer_id": "5f96a1869e795eb13543edeb"
+        },
+        "nickel2017poincare": {
+            "number": "[7]",
+            "title": "Poincar'e embeddings for learning hierarchical representations",
+            "text": "title={Poincar{\\'e} embeddings for learning hierarchical representations},\n  author={Nickel, Maximillian and Kiela, Douwe},\n  journal={NeurIPS},\n  volume={30},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Poincar{\\'e} embeddings for learning hierarchical representations",
+                "author": "Nickel, Maximillian and Kiela, Douwe",
+                "journal": "NeurIPS",
+                "volume": "30",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "physicscomplexnetworkhyperbolickrioukov2010hyperbolic": {
+            "number": "[8]",
+            "title": "Hyperbolic Geometry of Complex Networks",
+            "text": "title={Hyperbolic geometry of complex networks},\n  author={Krioukov, Dmitri and Papadopoulos, Fragkiskos and Kitsak, Maksim and Vahdat, Amin and Bogun{\\'a}, Mari{\\'a}n},\n  journal={Physical Review E},\n  volume={82},\n  number={3},\n  pages={036106},\n  year={2010},\n  publisher={APS}",
+            "type": "article",
+            "fields": {
+                "title": "Hyperbolic geometry of complex networks",
+                "author": "Krioukov, Dmitri and Papadopoulos, Fragkiskos and Kitsak, Maksim and Vahdat, Amin and Bogun{\\'a}, Mari{\\'a}n",
+                "journal": "Physical Review E",
+                "volume": "82",
+                "number": "3",
+                "pages": "036106",
+                "year": "2010",
+                "publisher": "APS"
+            },
+            "ref_source": "bib",
+            "abstract": "We develop a geometric framework to study the structure and function of complex networks. We assume that hyperbolic geometry underlies these networks, and we show that with this assumption, heterogeneous degree distributions and strong clustering in complex networks emerge naturally as simple reflections of the negative curvature and metric property of the underlying hyperbolic geometry. Conversely, we show that if a network has some metric structure, and if the network degree distribution is heterogeneous, then the network has an effective hyperbolic geometry underneath. We then establish a mapping between our geometric framework and statistical mechanics of complex networks. This mapping interprets edges in a network as noninteracting fermions whose energies are hyperbolic distances between nodes, while the auxiliary fields coupled to edges are linear functions of these energies or distances. The geometric network ensemble subsumes the standard configuration model and classical random graphs as two limiting cases with degenerate geometric structures. Finally, we show that targeted transport processes without global topology knowledge, made possible by our geometric framework, are maximally efficient, according to all efficiency measures, in networks with strongest heterogeneity and clustering, and that this efficiency is remarkably robust with respect to even catastrophic disturbances and damages to the network structure.",
+            "aminer_id": "53e9aa1db7602d970338a8a2"
+        },
+        "naturehyperbolicmuscoloni2017machine": {
+            "number": "[9]",
+            "title": "Machine Learning Meets Complex Networks Via Coalescent Embedding in the Hyperbolic Space",
+            "text": "title={Machine learning meets complex networks via coalescent embedding in the hyperbolic space},\n  author={Muscoloni, Alessandro and Thomas, Josephine Maria and Ciucci, Sara and Bianconi, Ginestra and Cannistraci, Carlo Vittorio},\n  journal={Nat. comm.},\n  volume={8},\n  number={1},\n  pages={1615},\n  year={2017},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "Machine learning meets complex networks via coalescent embedding in the hyperbolic space",
+                "author": "Muscoloni, Alessandro and Thomas, Josephine Maria and Ciucci, Sara and Bianconi, Ginestra and Cannistraci, Carlo Vittorio",
+                "journal": "Nat. comm.",
+                "volume": "8",
+                "number": "1",
+                "pages": "1615",
+                "year": "2017",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "Physicists recently observed that realistic complex networks emerge as discrete samples from a continuous hyperbolic geometry enclosed in a circle: the radius represents the node centrality and the angular displacement between two nodes resembles their topological proximity. The hyperbolic circle aims to become a universal space of representation and analysis of many real networks. Yet, inferring the angular coordinates to map a real network back to its latent geometry remains a challenging inverse problem. Here, we show that intelligent machines for unsupervised recognition and visualization of similarities in big data can also infer the network angular coordinates of the hyperbolic model according to a geometrical organization that we term \"angular coalescence.\" Based on this phenomenon, we propose a class of algorithms that offers fast and accurate \"coalescent embedding\" in the hyperbolic circle even for large networks. This computational solution to an inverse problem in physics of complex systems favors the application of network latent geometry techniques in disciplines dealing with big network data analysis including biology, medicine, and social science.",
+            "aminer_id": "5a14e1890cf2dcc70c05917c"
+        },
+        "DBLP:journals/tkde/HuangWFLZ18": {
+            "number": "[10]",
+            "title": "Leveraging Conceptualization for Short-Text Embedding",
+            "text": "author    = {Heyan Huang and\n               Yashen Wang and\n               Chong Feng and\n               Zhirun Liu and\n               Qiang Zhou},\n  title     = {Leveraging Conceptualization for Short-Text Embedding},\n  journal   = {{IEEE} Trans. Knowl. Data Eng.},\n  volume    = {30},\n  number    = {7},\n  pages     = {1282--1295},\n  year      = {2018}",
+            "type": "article",
+            "fields": {
+                "author": "Heyan Huang and Yashen Wang and Chong Feng and Zhirun Liu and Qiang Zhou",
+                "title": "Leveraging Conceptualization for Short-Text Embedding",
+                "journal": "{IEEE} Trans. Knowl. Data Eng.",
+                "volume": "30",
+                "number": "7",
+                "pages": "1282--1295",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Most short-text embedding models typically represent each short-text only using the literal meanings of the words, which makes these models indiscriminative for the ubiquitous polysemy. In order to enhance the semantic representation capability of the short-texts, we (i) propose a novel short-text conceptualization algorithm to assign the associated concepts for each short-text, and then (ii) introduce the conceptualization results into learning the conceptual short-text embeddings. Hence, this semantic representation is more expressive than some widely-used text representation models such as the latent topic model. Wherein, the short-text conceptualization algorithm used here is based on a novel co-ranking framework, enabling the signals (i.e., the words and the concepts) to fully interplay to derive the solid conceptualization for the short-texts. Afterwards, we further extend the conceptual short-text embedding models by utilizing an attention-based model that selects the relevant words within the context to make more efficient prediction. The experiments on the real-world datasets demonstrate that the proposed conceptual short-text embedding model and short-text conceptualization algorithm are more effective than the state-of-the-art methods.",
+            "aminer_id": "5b67b4b917c44aac1c868133"
+        },
+        "DBLP:conf/cvpr/0004YLWCR19": {
+            "number": "[11]",
+            "title": "Learning Metrics From Teachers: Compact Networks for Image Embedding",
+            "text": "author    = {Lu Yu and\n               Vacit Oguz Yazici and\n               Xialei Liu and\n               Joost van de Weijer and\n               Yongmei Cheng and\n               Arnau Ramisa},\n  title     = {Learning Metrics From Teachers: Compact Networks for Image Embedding},\n  booktitle = {CVPR},\n  pages     = {2907--2916},\n  DISABLEDpublisher = {Computer Vision Foundation / {IEEE}},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Lu Yu and Vacit Oguz Yazici and Xialei Liu and Joost van de Weijer and Yongmei Cheng and Arnau Ramisa",
+                "title": "Learning Metrics From Teachers: Compact Networks for Image Embedding",
+                "booktitle": "CVPR",
+                "pages": "2907--2916",
+                "disabledpublisher": "Computer Vision Foundation / {IEEE}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5cac533cda5629269c8f18e4"
+        },
+        "DBLP:conf/icassp/CramerWSB19": {
+            "number": "[12]",
+            "title": "Look, Listen, And Learn More: Design Choices For Deep Audio Embeddings",
+            "text": "author    = {Jason Cramer and\n               Ho{-}Hsiang Wu and\n               Justin Salamon and\n               Juan Pablo Bello},\n  title     = {Look, Listen, and Learn More: Design Choices for Deep Audio Embeddings},\n  booktitle = {{ICASSP}},\n  pages     = {3852--3856},\n  publisher = {{IEEE}},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Jason Cramer and Ho{-}Hsiang Wu and Justin Salamon and Juan Pablo Bello",
+                "title": "Look, Listen, and Learn More: Design Choices for Deep Audio Embeddings",
+                "booktitle": "{ICASSP}",
+                "pages": "3852--3856",
+                "publisher": "{IEEE}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "A considerable challenge in applying deep learning to audio classification is the scarcity of labeled data. An increasingly popular solution is to learn deep audio embeddings from large audio collections and use them to train shallow classifiers using small labeled datasets. Look, Listen, and Learn (L-3-Net) is an embedding trained through self-supervised learning of audio-visual correspondence in videos as opposed to other embeddings requiring labeled data. This framework has the potential to produce powerful out-of-the-box embeddings for downstream audio classification tasks, but has a number of unexplained design choices that may impact the embeddings' behavior. In this paper we investigate how L-3-Net design choices impact the performance of downstream audio classifiers trained with these embeddings. We show that audio-informed choices of input representation are important, and that using sufficient data for training the embedding is key. Surprisingly, we find that matching the content for training the embedding to the downstream task is not beneficial. Finally, we show that our best variant of the L-3-Net embedding outperforms both the VGGish and SoundNet embeddings, while having fewer parameters and being trained on less data. Our implementation of the L-3-Net embedding model as well as pre-trained models are made freely available online.",
+            "aminer_id": "5ce3ac2aced107d4c65a2cb5"
+        },
+        "DBLP:conf/sigir/Zhang0B19": {
+            "number": "[13]",
+            "title": "Table2Vec: Neural Word and Entity Embeddings for Table Population and Retrieval",
+            "text": "author    = {Li Zhang and\n               Shuo Zhang and\n               Krisztian Balog},\n  title     = {Table2Vec: Neural Word and Entity Embeddings for Table Population\n               and Retrieval},\n  booktitle = {{SIGIR}},\n  pages     = {1029--1032},\n  publisher = {{ACM}},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Li Zhang and Shuo Zhang and Krisztian Balog",
+                "title": "Table2Vec: Neural Word and Entity Embeddings for Table Population and Retrieval",
+                "booktitle": "{SIGIR}",
+                "pages": "1029--1032",
+                "publisher": "{ACM}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Tables contain valuable knowledge in a structured form. We employ neural language modeling approaches to embed tabular data into vector spaces. Specifically, we consider different table elements, such caption, column headings, and cells, for training word and entity embeddings. These embeddings are then utilized in three particular table-related tasks, row population, column population, and table retrieval, by incorporating them into existing retrieval models as additional semantic similarity signals. Evaluation results show that table embeddings can significantly improve upon the performance of state-of-the-art baselines.",
+            "aminer_id": "5cf65ce53a55ac5f70283a3d"
+        },
+        "DBLP:conf/ijcai/KulmanovLYH19": {
+            "number": "[14]",
+            "title": "EL Embeddings: Geometric Construction of Models for the Description Logic EL ++",
+            "text": "author    = {Maxat Kulmanov and\n               Wang Liu{-}Wei and\n               Yuan Yan and\n               Robert Hoehndorf},\n  title     = {{EL} Embeddings: Geometric Construction of Models for the Description\n               Logic {EL++}},\n  booktitle = {{IJCAI}},\n  pages     = {6103--6109},\n  publisher = {ijcai.org},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Maxat Kulmanov and Wang Liu{-}Wei and Yuan Yan and Robert Hoehndorf",
+                "title": "{EL} Embeddings: Geometric Construction of Models for the Description Logic {EL++}",
+                "booktitle": "{IJCAI}",
+                "pages": "6103--6109",
+                "publisher": "ijcai.org",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "An embedding is a function that maps entities from one algebraic structure into another while preserving certain characteristics. Embeddings are being used successfully for mapping relational data or text into vector spaces where they can be used for machine learning, similarity search, or similar tasks. We address the problem of finding vector space embeddings for theories in the Description Logic ??⁺⁺ that are also models of the TBox. To find such embeddings, we define an optimization problem that characterizes the model-theoretic semantics of the operators in ??⁺⁺ within ℝⁿ, thereby solving the problem of finding an interpretation function for an ??⁺⁺ theory given a particular domain Δ. Our approach is mainly relevant to large ??⁺⁺ theories and knowledge bases such as the ontologies and knowledge graphs used in the life sciences. We demonstrate that our method can be used for improved prediction of protein--protein interactions when compared to semantic similarity measures or knowledge graph embeddings.",
+            "aminer_id": "5c77b39ee1cd8e55604b777a"
+        },
+        "DBLP:conf/iclr/DongBJLCSCZ19": {
+            "number": "[15]",
+            "title": "Imposing Category Trees Onto Word-Embeddings Using A Geometric Construction",
+            "text": "author    = {Tiansi Dong and\n               Christian Bauckhage and\n               Hailong Jin and\n               Juanzi Li and\n               Olaf Cremers and\n               Daniel Speicher and\n               Armin B. Cremers and\n               J{\\\"{o}}rg Zimmermann},\n  title     = {Imposing Category Trees Onto Word-Embeddings Using {A} Geometric Construction},\n  booktitle = {{ICLR} (Poster)},\n  publisher = {OpenReview.net},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Imposing Category Trees Onto Word-Embeddings Using {A} Geometric Construction",
+                "booktitle": "{ICLR} (Poster)",
+                "publisher": "OpenReview.net",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5d3c233f3a55acd386d4dc87"
+        },
+        "jayathilaka2021towards": {
+            "number": "[16]",
+            "title": "Towards Knowledge-aware Few-shot Learning with Ontology-based N-Ball Concept Embeddings",
+            "text": "title={Towards Knowledge-aware Few-shot Learning with Ontology-based n-ball Concept Embeddings},\n  author={Jayathilaka, Mirantha and Mu, Tingting and Sattler, Uli},\n  booktitle={ICMLA},\n  pages={292--297},\n  year={2021},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Towards Knowledge-aware Few-shot Learning with Ontology-based n-ball Concept Embeddings",
+                "author": "Jayathilaka, Mirantha and Mu, Tingting and Sattler, Uli",
+                "booktitle": "ICMLA",
+                "pages": "292--297",
+                "year": "2021",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose a novel framework named ViOCE that integrates ontology-based background knowledge in the form of n-ball concept embeddings into a neural network based vision architecture. The approach consists of two main components: (1) converting symbolic knowledge of an ontology into continuous space by learning n-ball embeddings that capture properties of subsumption and disjointness, (2) guiding the training and inference of a vision model using the learnt embeddings. We propose techniques to measure the quality of n-ball embeddings and evaluate ViOCE using the task of few-shot image classification, where it demonstrates superior performance in two standard benchmarks. We further introduce a metric to use background knowledge to measure the degree of incorrect predictions.",
+            "aminer_id": "61f11d545244ab9dcbd739a7"
+        },
+        "DBLP:conf/naacl/ChenBCDLM21": {
+            "number": "[17]",
+            "title": "Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning",
+            "text": "author    = {Xuelu Chen and\n               Michael Boratko and\n               Muhao Chen and\n               Shib Sankar Dasgupta and\n               Xiang Lorraine Li and\n               Andrew McCallum},\n  title     = {Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning},\n  booktitle = {{NAACL-HLT}},\n  pages     = {882--893},\n  publisher = {ACL},\n  year      = {2021}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Xuelu Chen and Michael Boratko and Muhao Chen and Shib Sankar Dasgupta and Xiang Lorraine Li and Andrew McCallum",
+                "title": "Probabilistic Box Embeddings for Uncertain Knowledge Graph Reasoning",
+                "booktitle": "{NAACL-HLT}",
+                "pages": "882--893",
+                "publisher": "ACL",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6075622491e0110f6fe6820b"
+        },
+        "vilnis2018probabilistic": {
+            "number": "[18]",
+            "title": "Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures",
+            "text": "title={Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures},\n  author={Vilnis, Luke and Li, Xiang and Murty, Shikhar and McCallum, Andrew},\n  booktitle={ACL},\n  pages={263--272},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Probabilistic Embedding of Knowledge Graphs with Box Lattice Measures",
+                "author": "Vilnis, Luke and Li, Xiang and Murty, Shikhar and McCallum, Andrew",
+                "booktitle": "ACL",
+                "pages": "263--272",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b67b46b17c44aac1c861efa"
+        },
+        "DBLP:conf/iclr/LiVZBM19": {
+            "number": "[19]",
+            "title": "Smoothing the Geometry of Probabilistic Box Embeddings",
+            "text": "author    = {Xiang Li and\n               Luke Vilnis and\n               Dongxu Zhang and\n               Michael Boratko and\n               Andrew McCallum},\n  title     = {Smoothing the Geometry of Probabilistic Box Embeddings},\n  booktitle = {{ICLR}},\n  publisher = {OpenReview.net},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Xiang Li and Luke Vilnis and Dongxu Zhang and Michael Boratko and Andrew McCallum",
+                "title": "Smoothing the Geometry of Probabilistic Box Embeddings",
+                "booktitle": "{ICLR}",
+                "publisher": "OpenReview.net",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5d3c233f3a55acd386d4dd1e"
+        },
+        "dasgupta2022word2box": {
+            "number": "[20]",
+            "title": "Word2Box: Capturing Set-Theoretic Semantics of Words Using Box Embeddings",
+            "text": "title={Word2Box: Capturing Set-Theoretic Semantics of Words using Box Embeddings},\n  author={Dasgupta, Shib and Boratko, Michael and Mishra, Siddhartha and Atmakuri, Shriya and Patel, Dhruvesh and Li, Xiang and McCallum, Andrew},\n  booktitle={ACL},\n  pages={2263--2276},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Word2Box: Capturing Set-Theoretic Semantics of Words using Box Embeddings",
+                "author": "Dasgupta, Shib and Boratko, Michael and Mishra, Siddhartha and Atmakuri, Shriya and Patel, Dhruvesh and Li, Xiang and McCallum, Andrew",
+                "booktitle": "ACL",
+                "pages": "2263--2276",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning representations of words in a continuous space is perhaps the most fundamental task in NLP, however words interact in ways much richer than vector dot product similarity can provide. Many relationships between words can be expressed set-theoretically, for example, adjective-noun compounds (eg. \"red cars\"⊆\"cars\") and homographs (eg. \"tongue\"∩\"body\" should be similar to \"mouth\", while \"tongue\"∩\"language\" should be similar to \"dialect\") have natural set-theoretic interpretations. Box embeddings are a novel region-based representation which provide the capability to perform these set-theoretic operations. In this work, we provide a fuzzy-set interpretation of box embeddings, and learn box representations of words using a set-theoretic training objective. We demonstrate improved performance on various word similarity tasks, particularly on less common words, and perform a quantitative and qualitative analysis exploring the additional unique expressivity provided by Word2Box.",
+            "aminer_id": "60dbeaa091e0117bb69ae5c6"
+        },
+        "DBLP:conf/acl/OnoeBMD20": {
+            "number": "[21]",
+            "title": "Modeling Fine-Grained Entity Types with Box Embeddings",
+            "text": "author    = {Yasumasa Onoe and\n               Michael Boratko and\n               Andrew McCallum and\n               Greg Durrett},\n  title     = {Modeling Fine-Grained Entity Types with Box Embeddings},\n  booktitle = {{ACL/IJCNLP} {(1)}},\n  pages     = {2051--2064},\n  publisher = {ACL},\n  year      = {2021}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Yasumasa Onoe and Michael Boratko and Andrew McCallum and Greg Durrett",
+                "title": "Modeling Fine-Grained Entity Types with Box Embeddings",
+                "booktitle": "{ACL/IJCNLP} {(1)}",
+                "pages": "2051--2064",
+                "publisher": "ACL",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural entity typing models typically represent fine-grained entity types as vectors in a high-dimensional space, but such spaces are not well-suited to modeling these types' complex interdependencies. We study the ability of box embeddings, which embed concepts as d-dimensional hyperrectangles, to capture hierarchies of types even when these relationships are not defined explicitly in the ontology. Our model represents both types and entity mentions as boxes. Each mention and its context are fed into a BERT-based model to embed that mention in our box space; essentially, this model leverages typological clues present in the surface text to hypothesize a type representation for the mention. Box containment can then be used to derive both the posterior probability of a mention exhibiting a given type and the conditional probability relations between types themselves. We compare our approach with a vector-based typing model and observe state-of-the-art performance on several entity typing benchmarks. In addition to competitive typing performance, our box-based model shows better performance in prediction consistency (predicting a supertype and a subtype together) and confidence (i.e., calibration), demonstrating that the box-based model captures the latent type hierarchies better than the vector-based model does.",
+            "aminer_id": "619bbbf31c45e57ce97ea06d"
+        },
+        "dasgupta2020improving": {
+            "number": "[22]",
+            "title": "Improving Local Identifiability in Probabilistic Box Embeddings",
+            "text": "title={Improving local identifiability in probabilistic box embeddings},\n  author={Dasgupta, Shib and Boratko, Michael and Zhang, Dongxu and Vilnis, Luke and Li, Xiang and McCallum, Andrew},\n  journal={NeurIPS},\n  volume={33},\n  pages={182--192},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Improving local identifiability in probabilistic box embeddings",
+                "author": "Dasgupta, Shib and Boratko, Michael and Zhang, Dongxu and Vilnis, Luke and Li, Xiang and McCallum, Andrew",
+                "journal": "NeurIPS",
+                "volume": "33",
+                "pages": "182--192",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Geometric embeddings have recently received attention for their natural ability to represent transitive asymmetric relations via containment. Box embeddings, where objects are represented by n-dimensional hyperrectangles, are a particularly promising example of such an embedding as they are closed under intersection and their volume can be calculated easily, allowing them to naturally represent calibrated probability distributions. The benefits of geometric embeddings also introduce a problem of local identifiability, however, where whole neighborhoods of parameters result in equivalent loss which impedes learning. Prior work addressed some of these issues by using an approximation to Gaussian convolution over the box parameters, however, this intersection operation also increases the sparsity of the gradient. In this work, we model the box parameters with min and max Gumbel distributions, which were chosen such that space is still closed under the operation of the intersection. The calculation of the expected intersection volume involves all parameters, and we demonstrate experimentally that this drastically improves the ability of such models to learn.",
+            "aminer_id": "5f85720a91e011ff328095d0"
+        },
+        "abboud2020boxe": {
+            "number": "[23]",
+            "title": "BoxE: A box embedding model for knowledge base completion",
+            "text": "title={{BoxE}: {A} box embedding model for knowledge base completion},\n  author={Abboud, Ralph and Ceylan, Ismail and Lukasiewicz, Thomas and Salvatori, Tommaso},\n  journal={NeurIPS},\n  volume={33},\n  pages={9649--9661},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "{BoxE}: {A} box embedding model for knowledge base completion",
+                "author": "Abboud, Ralph and Ceylan, Ismail and Lukasiewicz, Thomas and Salvatori, Tommaso",
+                "journal": "NeurIPS",
+                "volume": "33",
+                "pages": "9649--9661",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f0d8cce91e011047aff9965"
+        },
+        "mei2022learning": {
+            "number": "[24]",
+            "title": "Learning Probabilistic Box Embeddings for Effective and Efficient Ranking",
+            "text": "title={Learning Probabilistic Box Embeddings for Effective and Efficient Ranking},\n  author={Mei, Lang and Mao, Jiaxin and Guo, Gang and Wen, Ji-Rong},\n  booktitle={WWW},\n  pages={473--482},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning Probabilistic Box Embeddings for Effective and Efficient Ranking",
+                "author": "Mei, Lang and Mao, Jiaxin and Guo, Gang and Wen, Ji-Rong",
+                "booktitle": "WWW",
+                "pages": "473--482",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Ranking has been one of the most important tasks in information retrieval. With the development of deep representation learning, many researchers propose to encode both the query and items into embedding vectors and rank the items according to the inner product or distance measures in the embedding space. However, the ranking models based on vector embeddings may have shortages in effectiveness and efficiency. For effectiveness, they lack the intrinsic ability to model the diversity and uncertainty of queries and items in ranking. For efficiency, nearest neighbor search in a large collection of item vectors can be costly. In this work, we propose to use the recently proposed probabilistic box embeddings for effective and efficient ranking, in which queries and items are parameterized as high-dimensional axis-aligned hyper-rectangles. For effectiveness, we utilize probabilistic box embeddings to model the diversity and uncertainty with the overlapping relations of the hyper-rectangles, and prove that such overlapping measure is a kernel function which can be adopted in other kernel-based methods. For efficiency, we propose a box embedding-based indexing method, which can safely filter irrelevant items and reduce the retrieval latency. We further design a training strategy to increase the proportion of irrelevant items that can be filtered by the index. Experiments on public datasets show that the box embeddings and the box embedding-based indexing approaches are effective and efficient in two ranking tasks: ad hoc retrieval and product recommendation.",
+            "aminer_id": "6274c6f85aee126c0f7010db"
+        },
+        "patel2020representing": {
+            "number": "[25]",
+            "title": "Representing Joint Hierarchies with Box Embeddings",
+            "text": "title={Representing joint hierarchies with box embeddings},\n  author={Patel, Dhruvesh and Sankar, Shib},\n  journal={AKBC},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Representing joint hierarchies with box embeddings",
+                "author": "Patel, Dhruvesh and Sankar, Shib",
+                "journal": "AKBC",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning representations for hierarchical and multi-relational knowledge has emerged as an active area of research. Box Embeddings [Vilnis et al., 2018, Li et al., 2019] represent concepts with hyperrectangles in $n$-dimensional space and are shown to be capable of modeling tree-like structures efficiently by training on a large subset of the transitive closure of the WordNet hypernym graph. In this work, we evaluate the capability of box embeddings to learn the transitive closure of a tree-like hierarchical relation graph with far fewer edges from the transitive closure. Box embeddings are not restricted to tree-like structures, however, and we demonstrate this by modeling the WordNet meronym graph, where nodes may have multiple parents. We further propose a method for modeling multiple relations jointly in a single embedding space using box embeddings. In all cases, our proposed method outperforms or is at par with all other embedding methods.",
+            "aminer_id": "5fae6da8d4150a363cebffee"
+        },
+        "ren2019query2box": {
+            "number": "[26]",
+            "title": "Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings.",
+            "text": "title={Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings},\n  author={Ren, Hongyu and Hu, Weihua and Leskovec, Jure},\n  booktitle={ICLR},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Query2box: Reasoning over Knowledge Graphs in Vector Space Using Box Embeddings",
+                "author": "Ren, Hongyu and Hu, Weihua and Leskovec, Jure",
+                "booktitle": "ICLR",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Answering complex logical queries on large-scale incomplete knowledge graphs (KGs) is a fundamental yet challenging task. Recently, a promising approach to this problem has been to embed KG entities as well as the query into a vector space such that entities that answer the query are embedded close to the query. However, prior work models queries as single points in the vector space, which is problematic because a complex query represents a potentially large set of its answer entities, but it is unclear how such a set can be represented as a single point. Furthermore, prior work can only handle queries that use conjunctions ($\\wedge$) and existential quantifiers ($\\exists$). Handling queries with logical disjunctions ($\\vee$) remains an open problem. Here we propose query2box, an embedding-based framework for reasoning over arbitrary queries with $\\wedge$, $\\vee$, and $\\exists$ operators in massive and incomplete KGs. Our main insight is that queries can be embedded as boxes (i.e., hyper-rectangles), where a set of points inside the box corresponds to a set of answer entities of the query. We show that conjunctions can be naturally represented as intersections of boxes and also prove a negative result that handling disjunctions would require embedding with dimension proportional to the number of KG entities. However, we show that by transforming queries into a Disjunctive Normal Form, query2box is capable of handling arbitrary logical queries with $\\wedge$, $\\vee$, $\\exists$ in a scalable manner. We demonstrate the effectiveness of query2box on two large KGs and show that query2box achieves up to 25% relative improvement over the state of the art.",
+            "aminer_id": "5e4a64313a55acda1392dce7"
+        },
+        "patel2021modeling": {
+            "number": "[27]",
+            "title": "Modeling Label Space Interactions in Multi-label Classification Using Box Embeddings",
+            "text": "title={Modeling label space interactions in multi-label classification using box embeddings},\n  author={Patel, Dhruvesh and Dangati, Pavitra and Lee, Jay-Yoon and Boratko, Michael and McCallum, Andrew},\n  booktitle={ICLR},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Modeling label space interactions in multi-label classification using box embeddings",
+                "author": "Patel, Dhruvesh and Dangati, Pavitra and Lee, Jay-Yoon and Boratko, Michael and McCallum, Andrew",
+                "booktitle": "ICLR",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Multi-label classification is a challenging structured prediction task in which a set of output class labels are predicted for each input. Real-world datasets often have taxonomic relationships between labels which can be explicit, implicit, or partially observed. Most existing multi-label classification methods either ignore the label taxonomy or require the complete specification of the taxonomy at training and inference time to enforce coherence in their predictions. In this work we introduce the multi-label box model (MBM), a multi-label classification method that combines the encoding power of neural networks with the inductive bias of probabilistic box embeddings (Vilnis et al., 2018), which can be understood as trainable Venn-diagrams based on hyper-rectangles. By representing labels as boxes, MBM is able to capture taxonomic relations among labels without them being provided explicitly. Furthermore, since MBM learns the label-label relationships from data and represents them as calibrated conditional probabilities, it provides a high degree of interpretability. This interpretability also facilitates the injection of partial information about label-label relationships into model training, to further improve its consistency. We provide theoretical grounding for our method and show experimentally the model’s ability to learn the true latent taxonomic structure from data. Through extensive empirical evaluations on twelve multi-label classification datasets, we show that MBM can significantly improve taxonomic consistency while maintaining the state-of-the-art predictive performance. 1",
+            "aminer_id": "6257c5ac5aee126c0f4681e6"
+        },
+        "vendrov2015order": {
+            "number": "[28]",
+            "title": "Order-Embeddings of Images and Language",
+            "text": "title={Order-embeddings of images and language},\n  author={Vendrov, Ivan and Kiros, Ryan and Fidler, Sanja and Urtasun, Raquel},\n  journal={ICLR},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Order-embeddings of images and language",
+                "author": "Vendrov, Ivan and Kiros, Ryan and Fidler, Sanja and Urtasun, Raquel",
+                "journal": "ICLR",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Hypernymy, textual entailment, and image captioning can be seen as special cases of a single visual-semantic hierarchy over words, sentences, and images. In this paper we advocate for explicitly modeling the partial order structure of this hierarchy. Towards this goal, we introduce a general method for learning ordered representations, and show how it can be applied to a variety of tasks involving images and language. We show that the resulting representations improve performance over current approaches for hypernym prediction and image-caption retrieval.",
+            "aminer_id": "5736960a6e3b12023e51dcc4"
+        },
+        "o2021cone": {
+            "number": "[29]",
+            "title": "Cone Semantics for Logics with Negation",
+            "text": "title={Cone semantics for logics with negation},\n  author={{\\\"O}z{\\c{c}}ep, {\\\"O}zg{\\\"u} r L{\\\"u} tf{\\\"u} and Leemhuis, Mena and Wolter, Diedrich},\n  booktitle={IJCAI},\n  pages={1820--1826},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Cone semantics for logics with negation",
+                "booktitle": "IJCAI",
+                "pages": "1820--1826",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper presents an embedding of ontologies expressed in the ALC description logic into a real-valued vector space, comprising restricted existential and universal quantifiers, as well as concept negation and concept disjunction. Our main result states that an ALC ontology is satisfiable in the classical sense iff it is satisfiable by a partial faithful geometric model based on cones. The line of work to which we contribute aims to integrate knowledge representation techniques and machine learning. The new cone-model of ALC proposed in this work gives rise to conic optimization techniques for machine learning, extending previous approaches by its ability to model full ALC.",
+            "aminer_id": "5ef96b048806af6ef27720b7"
+        },
+        "zhang2021cone": {
+            "number": "[30]",
+            "title": "ConE: Cone Embeddings for Multi-Hop Reasoning over Knowledge Graphs",
+            "text": "title={{ConE}: {Cone} embeddings for multi-hop reasoning over knowledge graphs},\n  author={Zhang, Zhanqiu and Wang, Jie and Chen, Jiajun and Ji, Shuiwang and Wu, Feng},\n  journal={NeurIPS},\n  volume={34},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "{ConE}: {Cone} embeddings for multi-hop reasoning over knowledge graphs",
+                "author": "Zhang, Zhanqiu and Wang, Jie and Chen, Jiajun and Ji, Shuiwang and Wu, Feng",
+                "journal": "NeurIPS",
+                "volume": "34",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Query embedding (QE) -- which aims to embed entities and first-order logical (FOL) queries in low-dimensional spaces -- has shown great power in multi-hop reasoning over knowledge graphs. Recently, embedding entities and queries with geometric shapes becomes a promising direction, as geometric shapes can naturally represent answer sets of queries and logical relationships among them. However, existing geometry-based models have difficulty in modeling queries with negation, which significantly limits their applicability. To address this challenge, we propose a novel query embedding model, namely Cone Embeddings (ConE), which is the first geometry-based QE model that can handle all the FOL operations, including conjunction, disjunction, and negation. Specifically, ConE represents entities and queries as Cartesian products of two-dimensional cones, where the intersection and union of cones naturally model the conjunction and disjunction operations. By further noticing that the closure of complement of cones remains cones, we design geometric complement operators in the embedding space for the negation operations. Experiments demonstrate that ConE significantly outperforms existing state-of-the-art methods on benchmark datasets.",
+            "aminer_id": "6178c43c5244ab9dcbb2b86f"
+        },
+        "bai2021modeling": {
+            "number": "[31]",
+            "title": "Modeling Heterogeneous Hierarchies with Relation-specific Hyperbolic Cones",
+            "text": "title={Modeling Heterogeneous Hierarchies with Relation-specific Hyperbolic Cones},\n  author={Bai, Yushi and Ying, Zhitao and Ren, Hongyu and Leskovec, Jure},\n  journal={NeurIPS},\n  volume={34},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Modeling Heterogeneous Hierarchies with Relation-specific Hyperbolic Cones",
+                "author": "Bai, Yushi and Ying, Zhitao and Ren, Hongyu and Leskovec, Jure",
+                "journal": "NeurIPS",
+                "volume": "34",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Hierarchical relations are prevalent and indispensable for organizing human knowledge captured by a knowledge graph (KG). The key property of hierarchical relations is that they induce a partial ordering over the entities, which needs to be modeled in order to allow for hierarchical reasoning. However, current KG embeddings can model only a single global hierarchy (single global partial ordering) and fail to model multiple heterogeneous hierarchies that exist in a single KG. Here we present ConE (Cone Embedding), a KG embedding model that is able to simultaneously model multiple hierarchical as well as non-hierarchical relations in a knowledge graph. ConE embeds entities into hyperbolic cones and models relations as transformations between the cones. In particular, ConE uses cone containment constraints in different subspaces of the hyperbolic embedding space to capture multiple heterogeneous hierarchies. Experiments on standard knowledge graph benchmarks show that ConE obtains state-of-the-art performance on hierarchical reasoning tasks as well as knowledge graph completion task on hierarchical graphs. In particular, our approach yields new state-of-the-art Hits@1 of 45.3% on WN18RR and 16.1% on DDB14 (0.231 MRR). As for hierarchical reasoning task, our approach outperforms previous best results by an average of 20% across the three datasets.",
+            "aminer_id": "617b66755244ab9dcbb6a5ed"
+        },
+        "DBLP:journals/corr/abs-2206-04192": {
+            "number": "[32]",
+            "title": "ExpressivE: A Spatio-Functional Embedding For Knowledge Graph Completion",
+            "text": "author    = {Aleksandar Pavlovic and\n               Emanuel Sallinger},\n  title     = {{ExpressivE}: {A} Spatio-Functional Embedding For Knowledge Graph Completion},\n  journal   = {ICLR},\n  DISABLEDvolume    = {},\n  year      = {2023}",
+            "type": "article",
+            "fields": {
+                "author": "Aleksandar Pavlovic and Emanuel Sallinger",
+                "title": "{ExpressivE}: {A} Spatio-Functional Embedding For Knowledge Graph Completion",
+                "journal": "ICLR",
+                "disabledvolume": "",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62a2b6915aee126c0f4d66d0"
+        },
+        "vilnis2015word": {
+            "number": "[33]",
+            "title": "Word Representations via Gaussian Embedding.",
+            "text": "title={Word Representations via {Gaussian} Embedding.},\n  author={Vilnis, Luke and McCallum, Andrew},\n  booktitle={ICLR},\n  year={2015}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Word Representations via {Gaussian} Embedding.",
+                "author": "Vilnis, Luke and McCallum, Andrew",
+                "booktitle": "ICLR",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5550415b45ce0a409eb3a934"
+        },
+        "he2015learning": {
+            "number": "[34]",
+            "title": "Learning to Represent Knowledge Graphs with Gaussian Embedding",
+            "text": "title={Learning to represent knowledge graphs with {Gaussian} embedding},\n  author={He, Shizhu and Liu, Kang and Ji, Guoliang and Zhao, Jun},\n  booktitle={CIKM},\n  pages={623--632},\n  year={2015}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Learning to represent knowledge graphs with {Gaussian} embedding",
+                "author": "He, Shizhu and Liu, Kang and Ji, Guoliang and Zhao, Jun",
+                "booktitle": "CIKM",
+                "pages": "623--632",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "The representation of a knowledge graph ( KG ) in a latent space recently has attracted more and more attention. To this end, some proposed models (e.g., TransE) embed entities and relations of a KG into a \" point \" vector space by optimizing a global loss function which ensures the scores of positive triplets are higher than negative ones. We notice that these models always regard all entities and relations in a same manner and ignore their (un)certainties. In fact, different entities and relations may contain different certainties, which makes identical certainty insufficient for modeling. Therefore, this paper switches to density-based embedding and propose KG2E for explicitly modeling the certainty of entities and relations, which learn the representations of KGs in the space of multi-dimensional Gaussian distributions. Each entity/relation is represented by a Gaussian distribution, where the mean denotes its position and the covariance (currently with diagonal covariance) can properly represent its certainty. In addition, compared with the symmetric measures used in point-based methods, we employ the KL-divergence for scoring triplets, which is a natural asymmetry function for effectively modeling multiple types of relations. We have conducted extensive experiments on link prediction and triplet classification with multiple benchmark datasets (WordNet and Freebase). Our experimental results demonstrate that our method can effectively model the (un)certainties of entities and relations in a KG, and it significantly outperforms state-of-the-art methods (including TransH and TransR).",
+            "aminer_id": "573698476e3b12023e7108ba"
+        },
+        "DBLP:conf/acl/AthiwaratkunW17": {
+            "number": "[35]",
+            "title": "Multimodal Word Distributions",
+            "text": "author    = {Ben Athiwaratkun and\n               Andrew Gordon Wilson},\n  title     = {Multimodal Word Distributions},\n  booktitle = {{ACL} {(1)}},\n  pages     = {1645--1656},\n  publisher = {ACL},\n  year      = {2017}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Ben Athiwaratkun and Andrew Gordon Wilson",
+                "title": "Multimodal Word Distributions",
+                "booktitle": "{ACL} {(1)}",
+                "pages": "1645--1656",
+                "publisher": "ACL",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c794e601a182cd262e4e2"
+        },
+        "qian2021conceptualized": {
+            "number": "[36]",
+            "title": "Conceptualized and Contextualized Gaussian Embedding",
+            "text": "title={Conceptualized and Contextualized {Gaussian} Embedding},\n  author={Qian, Chen and Feng, Fuli and Wen, Lijie and Chua, Tat-Seng},\n  booktitle={AAAI},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Conceptualized and Contextualized {Gaussian} Embedding",
+                "author": "Qian, Chen and Feng, Fuli and Wen, Lijie and Chua, Tat-Seng",
+                "booktitle": "AAAI",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6020e12e9e795e62379b0ebe"
+        },
+        "xu2020temporal": {
+            "number": "[37]",
+            "title": "Temporal Knowledge Graph Completion Based on Time Series Gaussian Embedding.",
+            "text": "title={Temporal Knowledge Graph completion based on time series {Gaussian} embedding},\n  author={Xu, Chenjin and Nayyeri, Mojtaba and Alkhoury, Fouad and Yazdi, Hamed and Lehmann, Jens},\n  booktitle={ISWC},\n  pages={654--671},\n  year={2020},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Temporal Knowledge Graph completion based on time series {Gaussian} embedding",
+                "author": "Xu, Chenjin and Nayyeri, Mojtaba and Alkhoury, Fouad and Yazdi, Hamed and Lehmann, Jens",
+                "booktitle": "ISWC",
+                "pages": "654--671",
+                "year": "2020",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge Graph (KG) embedding has attracted more attention in recent years. Most KG embedding models learn from time-unaware triples. However, the inclusion of temporal information besides triples would further improve the performance of a KGE model. In this regard, we propose ATiSE, a temporal KG embedding model which incorporates time information into entity/relation representations by using Additive Time Series decomposition. Moreover, considering the temporal uncertainty during the evolution of entity/relation representations over time, we map the representations of temporal KGs into the space of multi-dimensional Gaussian distributions. The mean of each entity/relation embedding at a time step shows the current expected position, whereas its covariance (which is temporally stationary) represents its temporal uncertainty. Experimental results show that ATiSE significantly outperforms the state-of-the-art KGE models and the existing temporal KGE models on link prediction over four temporal KGs.",
+            "aminer_id": "61949dc4e1ef293552216a65"
+        },
+        "choudhary2021probabilistic": {
+            "number": "[38]",
+            "title": "Probabilistic Entity Representation Model for Reasoning over Knowledge Graphs",
+            "text": "title={Probabilistic entity representation model for reasoning over knowledge graphs},\n  author={Choudhary, Nurendra and Rao, Nikhil and Katariya, Sumeet and Subbian, Karthik and Reddy, Chandan},\n  journal={NeurIPS},\n  volume={34},\n  pages={23440--23451},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Probabilistic entity representation model for reasoning over knowledge graphs",
+                "author": "Choudhary, Nurendra and Rao, Nikhil and Katariya, Sumeet and Subbian, Karthik and Reddy, Chandan",
+                "journal": "NeurIPS",
+                "volume": "34",
+                "pages": "23440--23451",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Logical reasoning over Knowledge Graphs (KGs) is a fundamental technique that can provide efficient querying mechanism over large and incomplete databases. Current approaches employ spatial geometries such as boxes to learn query representations that encompass the answer entities and model the logical operations of projection and intersection. However, their geometry is restrictive and leads to non-smooth strict boundaries, which further results in ambiguous answer entities. Furthermore, previous works propose transformation tricks to handle unions which results in non-closure and, thus, cannot be chained in a stream. In this paper, we propose a Probabilistic Entity Representation Model (PERM) to encode entities as a Multivariate Gaussian density with mean and covariance parameters to capture its semantic position and smooth decision boundary, respectively. Additionally, we also define the closed logical operations of projection, intersection, and union that can be aggregated using an end-to-end objective function. On the logical query reasoning problem, we demonstrate that the proposed PERM significantly outperforms the state-of-the-art methods on various public benchmark KG datasets on standard evaluation metrics. We also evaluate PERM's competence on a COVID-19 drug-repurposing case study and show that our proposed work is able to recommend drugs with substantially better F1 than current methods. Finally, we demonstrate the working of our PERM's query answering process through a low-dimensional visualization of the Gaussian representations.",
+            "aminer_id": "6178c43c5244ab9dcbb2b765"
+        },
+        "xiao2016transg": {
+            "number": "[39]",
+            "title": "TransG: A Generative Model for Knowledge Graph Embedding",
+            "text": "title={TransG: A Generative Model for Knowledge Graph Embedding},\n  author={Xiao, Han and Huang, Minlie and Zhu, Xiaoyan},\n  booktitle={ACL},\n  pages={2316--2325},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "TransG: A Generative Model for Knowledge Graph Embedding",
+                "author": "Xiao, Han and Huang, Minlie and Zhu, Xiaoyan",
+                "booktitle": "ACL",
+                "pages": "2316--2325",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "573696016e3b12023e5146db"
+        },
+        "ren2020beta": {
+            "number": "[40]",
+            "title": "Beta Embeddings for Multi-Hop Logical Reasoning in Knowledge Graphs",
+            "text": "title={Beta embeddings for multi-hop logical reasoning in knowledge graphs},\n  author={Ren, Hongyu and Leskovec, Jure},\n  journal={NeurIPS},\n  volume={33},\n  pages={19716--19726},\n  year={2020}",
+            "type": "article",
+            "fields": {
+                "title": "Beta embeddings for multi-hop logical reasoning in knowledge graphs",
+                "author": "Ren, Hongyu and Leskovec, Jure",
+                "journal": "NeurIPS",
+                "volume": "33",
+                "pages": "19716--19726",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "  One of the fundamental problems in Artificial Intelligence is to perform complex multi-hop logical reasoning over the facts captured by a knowledge graph (KG). This problem is challenging, because KGs can be massive and incomplete. Recent approaches embed KG entities in a low dimensional space and then use these embeddings to find the answer entities. However, it has been an outstanding challenge of how to handle arbitrary first-order logic (FOL) queries as present methods are limited to only a subset of FOL operators. In particular, the negation operator is not supported. An additional limitation of present methods is also that they cannot naturally model uncertainty. Here, we present BetaE, a probabilistic embedding framework for answering arbitrary FOL queries over KGs. BetaE is the first method that can handle a complete set of first-order logical operations: conjunction ($\\wedge$), disjunction ($\\vee$), and negation ($\\neg$). A key insight of BetaE is to use probabilistic distributions with bounded support, specifically the Beta distribution, and embed queries/entities as distributions, which as a consequence allows us to also faithfully model uncertainty. Logical operations are performed in the embedding space by neural operators over the probabilistic embeddings. We demonstrate the performance of BetaE on answering arbitrary FOL queries on three large, incomplete KGs. While being more general, BetaE also increases relative performance by up to 25.4% over the current state-of-the-art KG reasoning methods that can only handle conjunctive queries without negation. ",
+            "aminer_id": "66785bd045a939b1c2b0f75e"
+        },
+        "DBLP:conf/kdd/HuangCL22": {
+            "number": "[41]",
+            "title": "LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs",
+            "text": "author    = {Zijian Huang and\n               Meng{-}Fen Chiang and\n               Wang{-}Chien Lee},\n  title     = {LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs},\n  booktitle = {{SIGKDD}},\n  pages     = {615--625},\n  publisher = {{ACM}},\n  year      = {2022}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Zijian Huang and Meng{-}Fen Chiang and Wang{-}Chien Lee",
+                "title": "LinE: Logical Query Reasoning over Hierarchical Knowledge Graphs",
+                "booktitle": "{SIGKDD}",
+                "pages": "615--625",
+                "publisher": "{ACM}",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Logical reasoning over Knowledge Graphs (KGs) for first-order logic (FOL) queries performs the query inference over KGs with logical operators, including conjunction, disjunction, existential quantification and negation, to approximate true answers in embedding spaces. However, most existing work imposes strong distributional assumptions (e.g., Beta distribution) to represent entities and queries into presumed distributional shape, which limits their expressive power. Moreover, query embeddings are challenging due to the relational complexities in multi-relational KGs (e.g., symmetry, anti-symmetry and transitivity). To bridge the gap, we propose a logical query reasoning framework, Line Embedding (LinE), for FOL queries. To relax the distributional assumptions, we introduce the logic space transformation layer, which is a generic neural function that converts embeddings from probabilistic distribution space to LinE embeddings space. To tackle multi-relational and logical complexities, we formulate neural relation-specific projections and individual logical operators to truthfully ground LinE query embeddings on logical regularities and KG factoids. Lastly, to verify the LinE embedding quality, we generate a FOL query dataset from WordNet, which richly encompasses hierarchical relations. Extensive experiments show superior reasoning sensitivity of LinE on three benchmarks against strong baselines, particularly for multi-hop relational queries and negation-related queries.",
+            "aminer_id": "63034fc290e50fcafd75dab3"
+        },
+        "wang2022dirie": {
+            "number": "[42]",
+            "title": "DiriE: Knowledge Graph Embedding with Dirichlet Distribution",
+            "text": "title={DiriE: Knowledge Graph Embedding with {Dirichlet} Distribution},\n  author={Wang, Feiyang and Zhang, Zhongbao and Sun, Li and Ye, Junda and Yan, Yang},\n  booktitle={WWW},\n  pages={3082--3091},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "DiriE: Knowledge Graph Embedding with {Dirichlet} Distribution",
+                "author": "Wang, Feiyang and Zhang, Zhongbao and Sun, Li and Ye, Junda and Yan, Yang",
+                "booktitle": "WWW",
+                "pages": "3082--3091",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge graph embedding aims to learn representations of entities and relations in low-dimensional space. Recently, extensive studies combine the characteristics of knowledge graphs with different geometric spaces, including Euclidean space, complex space, hyperbolic space and others, which achieves significant progress in representation learning. However, existing methods are subject to at least one of the following limitations: 1) ignoring the uncertainty, 2) incapability of complex relation patterns. To address the above issues simultaneously, we propose a novel model named DiriE, which embeds entities as Dirichlet distributions and relations as multinomial distributions. DiriE employs Bayesian inference to measure the relations between entities and learns binary embeddings of knowledge graphs for modeling complex relation patterns. Additionally, we propose a two-step negative triple generation method that generates negative triples of both entities and relations. We conduct a solid theoretical analysis to demonstrate the effectiveness and robustness of our method, including the expressiveness of complex relation patterns and the ability to model uncertainty. Furthermore, extensive experiments show that our method outperforms state-of-the-art methods in link prediction on benchmark datasets.",
+            "aminer_id": "6274c5e55aee126c0f6f7ae0"
+        },
+        "DBLP:conf/www/ChoudharyRKSR21": {
+            "number": "[43]",
+            "title": "Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs",
+            "text": "author    = {Nurendra Choudhary and\n               Nikhil Rao and\n               Sumeet Katariya and\n               Karthik Subbian and\n               Chandan K. Reddy},\n  title     = {Self-Supervised Hyperboloid Representations from Logical Queries over\n               Knowledge Graphs},\n  booktitle = {{WWW}},\n  pages     = {1373--1384},\n  publisher = {{ACM} / {IW3C2}},\n  year      = {2021}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Nurendra Choudhary and Nikhil Rao and Sumeet Katariya and Karthik Subbian and Chandan K. Reddy",
+                "title": "Self-Supervised Hyperboloid Representations from Logical Queries over Knowledge Graphs",
+                "booktitle": "{WWW}",
+                "pages": "1373--1384",
+                "publisher": "{ACM} / {IW3C2}",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "60c0940191e0116059b15b51"
+        },
+        "ganea2018hyperbolic": {
+            "number": "[44]",
+            "title": "Hyperbolic Entailment Cones for Learning Hierarchical Embeddings",
+            "text": "title={Hyperbolic entailment cones for learning hierarchical embeddings},\n  author={Ganea, Octavian and B{\\'e}cigneul, Gary and Hofmann, Thomas},\n  booktitle={ICML},\n  pages={1646--1655},\n  year={2018},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperbolic entailment cones for learning hierarchical embeddings",
+                "author": "Ganea, Octavian and B{\\'e}cigneul, Gary and Hofmann, Thomas",
+                "booktitle": "ICML",
+                "pages": "1646--1655",
+                "year": "2018",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning graph representations via low-dimensional embeddings that preserve relevant network properties is an important class of problems in machine learning. We here present a novel method to embed directed acyclic graphs. Following prior work, we first advocate for using hyperbolic spaces which provably model tree-like structures better than Euclidean geometry. Second, we view hierarchical relations as partial orders defined using a family of nested geodesically convex cones. We prove that these entailment cones admit an optimal shape with a closed form expression both in the Euclidean and hyperbolic spaces, and they canonically define the embedding learning process. Experiments show significant improvements of our method over strong recent baselines both in terms of representational capacity and generalization.",
+            "aminer_id": "5aed14d617c44a443815914c"
+        },
+        "balazevic2019multi": {
+            "number": "[45]",
+            "title": "Multi-relational poincar'e graph embeddings",
+            "text": "title={Multi-relational poincar{\\'e} graph embeddings},\n  author={Balazevic, Ivana and Allen, Carl and Hospedales, Timothy},\n  journal={NeurIPS},\n  volume={32},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Multi-relational poincar{\\'e} graph embeddings",
+                "author": "Balazevic, Ivana and Allen, Carl and Hospedales, Timothy",
+                "journal": "NeurIPS",
+                "volume": "32",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chen2021fully": {
+            "number": "[46]",
+            "title": "Fully Hyperbolic Neural Networks",
+            "text": "title={Fully hyperbolic neural networks},\n  author={Chen, Weize and Han, Xu and Lin, Yankai and Zhao, Hexu and Liu, Zhiyuan and Li, Peng and Sun, Maosong and Zhou, Jie},\n  journal={ACL},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Fully hyperbolic neural networks",
+                "author": "Chen, Weize and Han, Xu and Lin, Yankai and Zhao, Hexu and Liu, Zhiyuan and Li, Peng and Sun, Maosong and Zhou, Jie",
+                "journal": "ACL",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Hyperbolic neural networks have shown great potential for modeling complex data. However, existing hyperbolic networks are not completely hyperbolic, as they encode features in a hyperbolic space yet formalize most of their operations in the tangent space (a Euclidean subspace) at the origin of the hyperbolic space. This hybrid method greatly limits the modeling ability of networks. In this paper, we propose a fully hyperbolic framework to build hyperbolic networks based on the Lorentz model by adapting the Lorentz transformations (including boost and rotation) to formalize essential operations of neural networks. Moreover, we also prove that linear transformation in tangent spaces used by existing hyperbolic networks is a relaxation of the Lorentz rotation and does not include the boost, implicitly limiting the capabilities of existing hyperbolic networks. The experimental results on four NLP tasks show that our method has better performance for building both shallow and deep networks. Our code will be released to facilitate follow-up research.",
+            "aminer_id": "60b6f2a291e011903fc2ba5d"
+        },
+        "chami2020low": {
+            "number": "[47]",
+            "title": "Low-Dimensional Hyperbolic Knowledge Graph Embeddings",
+            "text": "title={Low-Dimensional Hyperbolic Knowledge Graph Embeddings},\n  author={Chami, Ines and Wolf, Adva and Juan, Da-Cheng and Sala, Frederic and Ravi, Sujith and R{\\'e}, Christopher},\n  booktitle={ACL},\n  pages={6901--6914},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Low-Dimensional Hyperbolic Knowledge Graph Embeddings",
+                "author": "Chami, Ines and Wolf, Adva and Juan, Da-Cheng and Sala, Frederic and Ravi, Sujith and R{\\'e}, Christopher",
+                "booktitle": "ACL",
+                "pages": "6901--6914",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge graph (KG) embeddings learn low-dimensional representations of entities and relations to predict missing facts. KGs often exhibit hierarchical and logical patterns which must be preserved in the embedding space. For hierarchical data, hyperbolic embedding methods have shown promise for high-fidelity and parsimonious representations. However, existing hyperbolic embedding methods do not account for the rich logical patterns in KGs. In this work, we introduce a class of hyperbolic KG embedding models that simultaneously capture hierarchical and logical patterns. Our approach combines hyperbolic reflections and rotations with attention to model complex relational patterns. Experimental results on standard KG benchmarks show that our method improves over previous Euclidean- and hyperbolic-based efforts by up to 6.1% in mean reciprocal rank (MRR) in low dimensions. Furthermore, we observe that different geometric transformations capture different types of relations while attention-based transformations generalize to multiple relations. In high dimensions, our approach yields new state-of-the-art MRRs of 49.6% on WN18RR and 57.7% on YAGO3-10.",
+            "aminer_id": "5eb78919da5629cf2443036a"
+        },
+        "nayyeri20215": {
+            "number": "[48]",
+            "title": "5* Knowledge Graph Embeddings with Projective Transformations",
+            "text": "title={5* Knowledge Graph Embeddings with Projective Transformations},\n  author={Nayyeri, Mojtaba and Vahdati, Sahar and Aykul, Can and Lehmann, Jens},\n  booktitle={AAAI},\n  volume={35},\n  DISABLEDnumber={10},\n  pages={9064--9072},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "5* Knowledge Graph Embeddings with Projective Transformations",
+                "author": "Nayyeri, Mojtaba and Vahdati, Sahar and Aykul, Can and Lehmann, Jens",
+                "booktitle": "AAAI",
+                "volume": "35",
+                "disablednumber": "10",
+                "pages": "9064--9072",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ee3525f91e011cb3bff7082"
+        },
+        "DBLP:conf/acl/ChenHXJ20": {
+            "number": "[49]",
+            "title": "Hyperbolic Capsule Networks for Multi-Label Classification",
+            "text": "author    = {Boli Chen and\n               Xin Huang and\n               Lin Xiao and\n               Liping Jing},\n  title     = {Hyperbolic Capsule Networks for Multi-Label Classification},\n  booktitle = {{ACL}},\n  pages     = {3115--3124},\n  publisher = {ACL},\n  year      = {2020}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Boli Chen and Xin Huang and Lin Xiao and Liping Jing",
+                "title": "Hyperbolic Capsule Networks for Multi-Label Classification",
+                "booktitle": "{ACL}",
+                "pages": "3115--3124",
+                "publisher": "ACL",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Although deep neural networks are effective at extracting high-level features, classification methods usually encode an input into a vector representation via simple feature aggregation operations (e.g. pooling). Such operations limit the performance. For instance, a multi-label document may contain several concepts. In this case, one vector can not sufficiently capture its salient and discriminative content. Thus, we propose Hyperbolic Capsule Networks (HyperCaps) for Multi-Label Classification (MLC), which have two merits. First, hyperbolic capsules are designed to capture fine-grained document information for each label, which has the ability to characterize complicated structures among labels and documents. Second, Hyperbolic Dynamic Routing (HDR) is introduced to aggregate hyperbolic capsules in a label-aware manner, so that the label-level discriminative information can be preserved along the depth of neural networks. To efficiently handle large-scale MLC datasets, we additionally present a new routing method to adaptively adjust the capsule number during routing. Extensive experiments are conducted on four benchmark datasets. Compared with the state-of-the-art methods, HyperCaps significantly improves the performance of MLC especially on tail labels.",
+            "aminer_id": "5ec49a639fced0a24b4de807"
+        },
+        "DBLP:conf/aaai/ChenHXCJ20": {
+            "number": "[50]",
+            "title": "Hyperbolic Interaction Model for Hierarchical Multi-Label Classification",
+            "text": "author    = {Boli Chen and\n               Xin Huang and\n               Lin Xiao and\n               Zixin Cai and\n               Liping Jing},\n  title     = {Hyperbolic Interaction Model for Hierarchical Multi-Label Classification},\n  booktitle = {{AAAI}},\n  pages     = {7496--7503},\n  publisher = {{AAAI} Press},\n  year      = {2020}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Boli Chen and Xin Huang and Lin Xiao and Zixin Cai and Liping Jing",
+                "title": "Hyperbolic Interaction Model for Hierarchical Multi-Label Classification",
+                "booktitle": "{AAAI}",
+                "pages": "7496--7503",
+                "publisher": "{AAAI} Press",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Different from the traditional classification tasks which assume mutual exclusion of labels, hierarchical multi-label classification (HMLC) aims to assign multiple labels to every instance with the labels organized under hierarchical relations. Besides the labels, since linguistic ontologies are intrinsic hierarchies, the conceptual relations between words can also form hierarchical structures. Thus it can be a challenge to learn mappings from word hierarchies to label hierarchies. We propose to model the word and label hierarchies by embedding them jointly in the hyperbolic space. The main reason is that the tree-likeness of the hyperbolic space matches the complexity of symbolic data with hierarchical structures. A new Hyperbolic Interaction Model (HyperIM) is designed to learn the label-aware document representations and make predictions for HMLC. Extensive experiments are conducted on three benchmark datasets. The results have demonstrated that the new model can realistically capture the complex data structures and further improve the performance for HMLC comparing with the state-of-the-art methods. To facilitate future research, our code is publicly available.",
+            "aminer_id": "5ced81793a55ac3a96fe49b4"
+        },
+        "DBLP:conf/icml/WehrmannCB18": {
+            "number": "[51]",
+            "title": "Hierarchical Multi-Label Classification Networks",
+            "text": "author    = {Jonatas Wehrmann and\n               Ricardo Cerri and\n               Rodrigo C. Barros},\n  title     = {Hierarchical Multi-Label Classification Networks},\n  booktitle = {{ICML}},\n  series    = {PMLR},\n  volume    = {80},\n  pages     = {5225--5234},\n  publisher = {{PMLR}},\n  year      = {2018}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Jonatas Wehrmann and Ricardo Cerri and Rodrigo C. Barros",
+                "title": "Hierarchical Multi-Label Classification Networks",
+                "booktitle": "{ICML}",
+                "series": "PMLR",
+                "volume": "80",
+                "pages": "5225--5234",
+                "publisher": "{PMLR}",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "DBLP:conf/nips/GiunchigliaL20": {
+            "number": "[52]",
+            "title": "Coherent Hierarchical Multi-Label Classification Networks",
+            "text": "author    = {Eleonora Giunchiglia and\n               Thomas Lukasiewicz},\n  title     = {Coherent Hierarchical Multi-Label Classification Networks},\n  booktitle = {NeurIPS},\n  year      = {2020}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Eleonora Giunchiglia and Thomas Lukasiewicz",
+                "title": "Coherent Hierarchical Multi-Label Classification Networks",
+                "booktitle": "NeurIPS",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Hierarchical multi-label classification (HMC) is a challenging classification task extending standard multi-label classification problems by imposing a hierarchy constraint on the classes. In this paper, we propose C-HMCNN(h), a novel approach for HMC problems, which, given a network h for the underlying multi-label classification problem, exploits the hierarchy information in order to produce predictions coherent with the constraint and improve performance. We conduct an extensive experimental analysis showing the superior performance of C-HMCNN(h) when compared to state-of-the-art models.",
+            "aminer_id": "5f7fdd328de39f0828397a6b"
+        },
+        "DBLP:conf/rep4nlp/DasguptaLBZM21": {
+            "number": "[53]",
+            "title": "Box-To-Box Transformations for Modeling Joint Hierarchies",
+            "text": "author    = {Shib Sankar Dasgupta and\n               Xiang Lorraine Li and\n               Michael Boratko and\n               Dongxu Zhang and\n               Andrew McCallum},\n  title     = {Box-To-Box Transformations for Modeling Joint Hierarchies},\n  booktitle = {RepL4NLP@ACL-IJCNLP},\n  pages     = {277--288},\n  publisher = {ACL},\n  year      = {2021}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Shib Sankar Dasgupta and Xiang Lorraine Li and Michael Boratko and Dongxu Zhang and Andrew McCallum",
+                "title": "Box-To-Box Transformations for Modeling Joint Hierarchies",
+                "booktitle": "RepL4NLP@ACL-IJCNLP",
+                "pages": "277--288",
+                "publisher": "ACL",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Learning representations of entities and relations in structured knowledge bases is an active area of research, with much emphasis placed on choosing the appropriate geometry to capture the hierarchical structures exploited in, for example, isa or haspart relations. Box embeddings (Vilnis et al., 2018; Li et al., 2019; Dasgupta et al., 2020), which represent concepts as n-dimensional hyperrectangles, are capable of embedding hierarchies when training on a subset of the transitive closure. In Patel et al., (2020), the authors demonstrate that only the transitive reduction is required and further extend box embeddings to capture joint hierarchies by augmenting the graph with new nodes. While it is possible to represent joint hierarchies with this method, the parameters for each hierarchy are decoupled, making generalization between hierarchies infeasible. In this work, we introduce a learned box-to-box transformation that respects the structure of each hierarchy. We demonstrate that this not only improves the capability of modeling cross-hierarchy compositional edges but is also capable of generalizing from a subset of the transitive reduction.",
+            "aminer_id": "6051cfd49e795eb49a3cb749"
+        },
+        "zhang2019quaternion": {
+            "number": "[54]",
+            "title": "Quaternion Knowledge Graph Embeddings",
+            "text": "title={Quaternion knowledge graph embeddings},\n  author={Zhang, Shuai and Tay, Yi and Yao, Lina and Liu, Qi},\n  journal={NeurIPS},\n  volume={32},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Quaternion knowledge graph embeddings",
+                "author": "Zhang, Shuai and Tay, Yi and Yao, Lina and Liu, Qi",
+                "journal": "NeurIPS",
+                "volume": "32",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "In this work, we move beyond the traditional complex-valued representations, introducing more expressive hypercomplex representations to model entities and relations for knowledge graph embeddings. More specifically, quaternion embeddings, hypercomplex-valued embeddings with three imaginary components, are utilized to represent entities. Relations are modelled as rotations in the quaternion space. The advantages of the proposed approach are: (1) Latent inter-dependencies (between all components) are aptly captured with Hamilton product, encouraging a more compact interaction between entities and relations; (2) Quaternions enable expressive rotation in four-dimensional space and have more degree of freedom than rotation in complex plane; (3) The proposed framework is a generalization of ComplEx on hypercomplex space while offering better geometrical interpretations, concurrently satisfying the key desiderata of relational representation learning (i.e., modeling symmetry, anti-symmetry and inversion). Experimental results demonstrate that our method achieves state-of-the-art performance on four well-established knowledge graph completion benchmarks.",
+            "aminer_id": "5cc03610e1cd8e1639794b89"
+        },
+        "cao2021dual": {
+            "number": "[55]",
+            "title": "Dual Quaternion Knowledge Graph Embeddings",
+            "text": "title={Dual quaternion knowledge graph embeddings},\n  author={Cao, Zongsheng and Xu, Qianqian and Yang, Zhiyong and Cao, Xiaochun and Huang, Qingming},\n  booktitle={AAAI},\n  volume={35},\n  number={8},\n  pages={6894--6902},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Dual quaternion knowledge graph embeddings",
+                "author": "Cao, Zongsheng and Xu, Qianqian and Yang, Zhiyong and Cao, Xiaochun and Huang, Qingming",
+                "booktitle": "AAAI",
+                "volume": "35",
+                "number": "8",
+                "pages": "6894--6902",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we study the problem of learning representations of entities and relations in the knowledge graph for the link prediction task. Our idea is based on the observation that the vast majority of the related work only models the relation as a single geometric operation such as translation or rotation, which limits the representation power of the underlying models and makes it harder to match the complicated relations existed in real-world datasets. To embrace a richer set of relational information, we propose a new method called dual quaternion knowledge graph embedding (DualE), which introduces dual quaternions into knowledge graph embeddings. Specifically, a dual quaternion behaves like a “complex quaternion” with its real and imaginary part all being quaternary. The core of DualE lies a specific design of dual-quaternion-based multiplication, which universally models relations as the compositions of a series of translation and rotation operations. The major merits of DualE are three-fold:1) it is the first unified framework embracing both rotation based and translation-based models, 2) it expands the embedding space to the dual quaternion space with a more intuitive physical and geometric interpretation, 3) it satisfies the key patterns and the multiple relations pattern of relational representation learning. Experimental results on four real-world datasets demonstrate the effectiveness of our DualE method.",
+            "aminer_id": "6020def19e795e62379b0d4d"
+        },
+        "venn1880diagrammatic": {
+            "number": "[56]",
+            "title": "I. on the Diagrammatic and Mechanical Representation of Propositions and Reasonings",
+            "text": "title={I. On the diagrammatic and mechanical representation of propositions and reasonings},\n   author={Venn, John},\n   journal={The London, Edinburgh, and Dublin philosophical magazine and journal of science},\n   volume={10},\n   number={59},\n   pages={1--18},\n   year={1880},\n   publisher={Taylor \\& Francis}",
+            "type": "DISABLEDarticle",
+            "fields": {
+                "title": "I. On the diagrammatic and mechanical representation of propositions and reasonings",
+                "author": "Venn, John",
+                "journal": "The London, Edinburgh, and Dublin philosophical magazine and journal of science",
+                "volume": "10",
+                "number": "59",
+                "pages": "1--18",
+                "year": "1880",
+                "publisher": "Taylor \\& Francis"
+            },
+            "ref_source": "bib",
+            "abstract": "(1880). I. On the diagrammatic and mechanical representation of propositions and reasonings. The London, Edinburgh, and Dublin Philosophical Magazine and Journal of Science: Vol. 10, No. 59, pp. 1-18.",
+            "aminer_id": "56d8e732dabfae2eee38dcca"
+        },
+        "van1977set": {
+            "number": "[57]",
+            "title": "Set-Theoretic Semantics",
+            "text": "title={Set-theoretic semantics},\n  author={Van Heijenoort, Jean},\n  booktitle={Studies in Logic and the Foundations of Mathematics},\n  volume={87},\n  pages={183--190},\n  year={1977},\n  publisher={Elsevier}",
+            "type": "incollection",
+            "fields": {
+                "title": "Set-theoretic semantics",
+                "author": "Van Heijenoort, Jean",
+                "booktitle": "Studies in Logic and the Foundations of Mathematics",
+                "volume": "87",
+                "pages": "183--190",
+                "year": "1977",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "xiong2022faithful": {
+            "number": "[58]",
+            "title": "Faithful Embeddings for EL++ Knowledge Bases",
+            "text": "title={Faithful Embeddings for {EL++} Knowledge Bases},\n  author={Xiong, Bo and Potyka, Nico and Tran, Trung-Kien and Nayyeri, Mojtaba and Staab, Steffen},\n  booktitle={ISWC},\n  pages={22--38},\n  year={2022},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Faithful Embeddings for {EL++} Knowledge Bases",
+                "author": "Xiong, Bo and Potyka, Nico and Tran, Trung-Kien and Nayyeri, Mojtaba and Staab, Steffen",
+                "booktitle": "ISWC",
+                "pages": "22--38",
+                "year": "2022",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "xionghyperbolic": {
+            "number": "[59]",
+            "title": "Hyperbolic Embedding Inference for Structured Multi-Label Prediction",
+            "text": "title={Hyperbolic Embedding Inference for Structured Multi-Label Prediction},\n  author={Xiong, Bo and Cochez, Michael and Nayyeri, Mojtaba and Staab, Steffen},\n  booktitle={NeurIPS},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperbolic Embedding Inference for Structured Multi-Label Prediction",
+                "author": "Xiong, Bo and Cochez, Michael and Nayyeri, Mojtaba and Staab, Steffen",
+                "booktitle": "NeurIPS",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "63a413f690e50fcafd6d1d3f"
+        },
+        "zhangmodeling": {
+            "number": "[60]",
+            "title": "Modeling Transitivity and Cyclicity in Directed Graphs Via Binary Code Box Embeddings.",
+            "text": "title={Modeling Transitivity and Cyclicity in Directed Graphs via Binary Code Box Embeddings},\n  author={Zhang, Dongxu and Boratko, Michael and Musco, Cameron N and McCallum, Andrew},\n  booktitle={NeurIPS},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Modeling Transitivity and Cyclicity in Directed Graphs via Binary Code Box Embeddings",
+                "author": "Zhang, Dongxu and Boratko, Michael and Musco, Cameron N and McCallum, Andrew",
+                "booktitle": "NeurIPS",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Modeling directed graphs with differentiable representations is a fundamental requirement for performing machine learning on graph-structured data. Geometric embedding models (e.g. hyperbolic, cone, and box embeddings) excel at this task, exhibiting useful inductive biases for directed graphs. However, modeling directed graphs that both contain cycles and some element of transitivity, two properties common in real-world settings, is challenging. Box embeddings, which can be thought of as representing the graph as an intersection over some learned super-graphs, have a natural inductive bias toward modeling transitivity, but (as we prove) cannot model cycles. To this end, we propose binary code box embeddings , where a learned binary code selects a subset of graphs for intersection. We explore several variants, including global binary codes (amounting to a union over intersections) and per-vertex binary codes (allowing greater flexibility) as well as methods of regularization. Theoretical and empirical results show that the proposed models not only preserve a useful inductive bias of transitivity but also have sufficient representational capacity to model arbitrary graphs, including graphs with cycles.",
+            "aminer_id": "63a413f690e50fcafd6d17c2"
+        },
+        "yang2022gammae": {
+            "number": "[61]",
+            "title": "GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs",
+            "text": "title={GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs},\n  author={Yang, Dong and Qing, Peijun and Li, Yang and Lu, Haonan and Lin, Xiaodong},\n  journal={EMNLP},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "GammaE: Gamma Embeddings for Logical Queries on Knowledge Graphs",
+                "author": "Yang, Dong and Qing, Peijun and Li, Yang and Lu, Haonan and Lin, Xiaodong",
+                "journal": "EMNLP",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Embedding knowledge graphs (KGs) for multi-hop logical reasoning is a challenging problem due to massive and complicated structures in many KGs. Recently, many promising works projected entities and queries into a geometric space to efficiently find answers. However, it remains challenging to model the negation and union operator. The negation operator has no strict boundaries, which generates overlapped embeddings and leads to obtaining ambiguous answers. An additional limitation is that the union operator is non-closure, which undermines the model to handle a series of union operators. To address these problems, we propose a novel probabilistic embedding model, namely Gamma Embeddings (GammaE), for encoding entities and queries to answer different types of FOL queries on KGs. We utilize the linear property and strong boundary support of the Gamma distribution to capture more features of entities and queries, which dramatically reduces model uncertainty. Furthermore, GammaE implements the Gamma mixture method to design the closed union operator. The performance of GammaE is validated on three large logical query datasets. Experimental results show that GammaE significantly outperforms state-of-the-art models on public benchmarks.",
+            "aminer_id": "635b487090e50fcafd330e7e"
+        },
+        "dhall2020hierarchical": {
+            "number": "[62]",
+            "title": "Hierarchical Image Classification Using Entailment Cone Embeddings",
+            "text": "title={Hierarchical image classification using entailment cone embeddings},\n  author={Dhall, Ankit and Makarova, Anastasia and Ganea, Octavian and Pavllo, Dario and Greeff, Michael and Krause, Andreas},\n  booktitle={CVPRW},\n  pages={836--837},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hierarchical image classification using entailment cone embeddings",
+                "author": "Dhall, Ankit and Makarova, Anastasia and Ganea, Octavian and Pavllo, Dario and Greeff, Michael and Krause, Andreas",
+                "booktitle": "CVPRW",
+                "pages": "836--837",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Image classification has been studied extensively, but there has been limited work in using unconventional, external guidance other than traditional image-label pairs for training. We present a set of methods for leveraging information about the semantic hierarchy embedded in class labels. We first inject label-hierarchy knowledge into an arbitrary CNN-based classifier and empirically show that availability of such external semantic information in conjunction with the visual semantics from images boosts overall performance. Taking a step further in this direction, we model more explicitly the label-label and label-image interactions using order-preserving embeddings governed by both Euclidean and hyperbolic geometries, prevalent in natural language, and tailor them to hierarchical image classification and representation learning. We empirically validate all the models on the hierarchical ETHEC dataset.",
+            "aminer_id": "5e8da0d591e011f2de583b82"
+        },
+        "le2019inferring": {
+            "number": "[63]",
+            "title": "Inferring Concept Hierarchies From Text Corpora Via Hyperbolic Embeddings",
+            "text": "title={Inferring Concept Hierarchies from Text Corpora via Hyperbolic Embeddings},\n  author={Le, Matthew and Roller, Stephen and Papaxanthos, Laetitia and Kiela, Douwe and Nickel, Maximilian},\n  booktitle={ACL},\n  pages={3231--3241},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Inferring Concept Hierarchies from Text Corpora via Hyperbolic Embeddings",
+                "author": "Le, Matthew and Roller, Stephen and Papaxanthos, Laetitia and Kiela, Douwe and Nickel, Maximilian",
+                "booktitle": "ACL",
+                "pages": "3231--3241",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "We consider the task of inferring is-a relationships from large text corpora. For this purpose, we propose a new method combining hyperbolic embeddings and Hearst patterns. This approach allows us to set appropriate constraints for inferring concept hierarchies from distributional contexts while also being able to predict missing is -a-relationships and to correct wrong extractions. Moreover - and in contrast with other methods - the hierarchical nature of hyperbolic space allows us to learn highly efficient representations and to improve the taxonomic consistency of the inferred hierarchies. Experimentally, we show that our approach achieves state-of-the-art performance on several commonly-used benchmarks.",
+            "aminer_id": "5c61606ae1cd8eae1501e197"
+        },
+        "suzuki2019hyperbolic": {
+            "number": "[64]",
+            "title": "Hyperbolic Disk Embeddings for Directed Acyclic Graphs",
+            "text": "title={Hyperbolic disk embeddings for directed acyclic graphs},\n  author={Suzuki, Ryota and Takahama, Ryusuke and Onoda, Shun},\n  booktitle={ICML},\n  pages={6066--6075},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperbolic disk embeddings for directed acyclic graphs",
+                "author": "Suzuki, Ryota and Takahama, Ryusuke and Onoda, Shun",
+                "booktitle": "ICML",
+                "pages": "6066--6075",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Obtaining continuous representations of structural data such as directed acyclic graphs (DAGs) has gained attention in machine learning and artificial intelligence. However, embedding complex DAGs in which both ancestors and descendants of nodes are exponentially increasing is difficult. Tackling in this problem, we develop Disk Embeddings, which is a framework for embedding DAGs into quasi-metric spaces. Existing state-of-the-art methods, Order Embeddings and Hyperbolic Entailment Cones, are instances of Disk Embedding in Euclidean space and spheres respectively. Furthermore, we propose a novel method Hyperbolic Disk Embeddings to handle exponential growth of relations. The results of our experiments show that our Disk Embedding models outperform existing methods especially in complex DAGs other than trees.",
+            "aminer_id": "5c6403d6da56297318f6fefe"
+        },
+        "xiong2022ultrahyperbolic": {
+            "number": "[65]",
+            "title": "Ultrahyperbolic Knowledge Graph Embeddings",
+            "text": "title={Ultrahyperbolic Knowledge Graph Embeddings},\n  author={Xiong, Bo and Zhu, Shichao and Nayyeri, Mojtaba and Xu, Chengjin and Pan, Shirui and Zhou, Chuan and Staab, Steffen},\n  journal={SIGKDD},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Ultrahyperbolic Knowledge Graph Embeddings",
+                "author": "Xiong, Bo and Zhu, Shichao and Nayyeri, Mojtaba and Xu, Chengjin and Pan, Shirui and Zhou, Chuan and Staab, Steffen",
+                "journal": "SIGKDD",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent knowledge graph (KG) embeddings have been advanced by hyperbolic geometry due to its superior capability for representing hierarchies. The topological structures of real-world KGs, however, are rather heterogeneous, i.e., a KG is composed of multiple distinct hierarchies and non-hierarchical graph structures. Therefore, a homogeneous (either Euclidean or hyperbolic) geometry is not sufficient for fairly representing such heterogeneous structures. To capture the topological heterogeneity of KGs, we present an ultrahyperbolic KG embedding (UltraE) in an ultrahyperbolic (or pseudo-Riemannian) manifold that seamlessly interleaves hyperbolic and spherical manifolds. In particular, we model each relation as a pseudo-orthogonal transformation that preserves the pseudo-Riemannian bilinear form. The pseudo-orthogonal transformation is decomposed into various operators (i.e., circular rotations, reflections and hyperbolic rotations), allowing for simultaneously modeling heterogeneous structures as well as complex relational patterns. Experimental results on three standard KGs show that UltraE outperforms previous Euclidean, hyperbolic, and mixed-curvature KG embedding approaches.",
+            "aminer_id": "62982a9b5aee126c0f6f65d3"
+        },
+        "pan2021hyperbolic": {
+            "number": "[66]",
+            "title": "Hyperbolic Hierarchy-Aware Knowledge Graph Embedding for Link Prediction",
+            "text": "title={Hyperbolic Hierarchy-Aware Knowledge Graph Embedding for Link Prediction},\n  author={Pan, Zhe and Wang, Peng},\n  booktitle={EMNLP},\n  pages={2941--2948},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperbolic Hierarchy-Aware Knowledge Graph Embedding for Link Prediction",
+                "author": "Pan, Zhe and Wang, Peng",
+                "booktitle": "EMNLP",
+                "pages": "2941--2948",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge graph embedding (KGE) using low-dimensional representations to predict missing information is widely applied in knowledge completion. Existing embedding methods are mostly built on Euclidean space, which are difficult to handle hierarchical structures. Hyperbolic embedding methods have shown the promise of high fidelity and concise representation for hierarchical data. However, the logical patterns in knowledge graphs are not considered well in these methods. To address this problem, we propose a novel KGE model with extended Poincaré Ball and polar coordinate system to capture hierarchical structures. We use the tangent space and exponential transformation to initialize and map the corresponding vectors to the Poincaré Ball in hyperbolic space. To solve the boundary conditions, the boundary is stretched and zoomed by expanding the modulus length in the Poincaré Ball. We optimize our model using polar coordinate and changing operators in the extended Poincaré Ball. Experiments achieve new state-of-the-art results on part of link prediction tasks, which demonstrates the effectiveness of our method.",
+            "aminer_id": "619799eb91e011c822373024"
+        },
+        "sun2020knowledge": {
+            "number": "[67]",
+            "title": "Knowledge Association with Hyperbolic Knowledge Graph Embeddings",
+            "text": "title={Knowledge Association with Hyperbolic Knowledge Graph Embeddings},\n  author={Sun, Zequn and Chen, Muhao and Hu, Wei and Wang, Chengming and Dai, Jian and Zhang, Wei},\n  booktitle={EMNLP},\n  pages={5704--5716},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Knowledge Association with Hyperbolic Knowledge Graph Embeddings",
+                "author": "Sun, Zequn and Chen, Muhao and Hu, Wei and Wang, Chengming and Dai, Jian and Zhang, Wei",
+                "booktitle": "EMNLP",
+                "pages": "5704--5716",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Capturing associations for knowledge graphs (KGs) through entity alignment, entity type inference and other related tasks benefits NLP applications with comprehensive knowledge representations. Recent related methods built on Euclidean embeddings are challenged by the hierarchical structures and different scales of KGs. They also depend on high embedding dimensions to realize enough expressiveness. Differently, we explore with low-dimensional hyperbolic embeddings for knowledge association. We propose a hyperbolic relational graph neural network for KG embedding and capture knowledge associations with a hyperbolic transformation. Extensive experiments on entity alignment and type inference demonstrate the effectiveness and efficiency of our method.",
+            "aminer_id": "5f7c567791e0117ac2a78c2b"
+        },
+        "cao2022geometry": {
+            "number": "[68]",
+            "title": "Geometry Interaction Knowledge Graph Embeddings",
+            "text": "title={Geometry Interaction Knowledge Graph Embeddings},\n  author={Cao, Zongsheng and Xu, Qianqian and Yang, Zhiyong and Cao, Xiaochun and Huang, Qingming},\n  booktitle={AAAI},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Geometry Interaction Knowledge Graph Embeddings",
+                "author": "Cao, Zongsheng and Xu, Qianqian and Yang, Zhiyong and Cao, Xiaochun and Huang, Qingming",
+                "booktitle": "AAAI",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6215a4242c35681594038714"
+        },
+        "iyer2022dual": {
+            "number": "[69]",
+            "title": "Dual-Geometric Space Embedding Model for Two-View Knowledge Graphs",
+            "text": "title={Dual-Geometric Space Embedding Model for Two-View Knowledge Graphs},\n  author={Iyer, Roshni G and Bai, Yunsheng and Wang, Wei and Sun, Yizhou},\n  booktitle={SIGKDD},\n  DISABLEDpages={676--686},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Dual-Geometric Space Embedding Model for Two-View Knowledge Graphs",
+                "author": "Iyer, Roshni G and Bai, Yunsheng and Wang, Wei and Sun, Yizhou",
+                "booktitle": "SIGKDD",
+                "disabledpages": "676--686",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62f10c845b324b000cade5b8"
+        },
+        "wang2021mixed": {
+            "number": "[70]",
+            "title": "Mixed-Curvature Multi-Relational Graph Neural Network for Knowledge Graph Completion",
+            "text": "title={Mixed-curvature multi-relational graph neural network for knowledge graph completion},\n  author={Wang, Shen and Wei, Xiaokai and Nogueira dos Santos, Cicero Nogueira and Wang, Zhiguo and Nallapati, Ramesh and Arnold, Andrew and Xiang, Bing and Yu, Philip S and Cruz, Isabel F},\n  booktitle={WWW},\n  pages={1761--1771},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mixed-curvature multi-relational graph neural network for knowledge graph completion",
+                "author": "Wang, Shen and Wei, Xiaokai and Nogueira dos Santos, Cicero Nogueira and Wang, Zhiguo and Nallapati, Ramesh and Arnold, Andrew and Xiang, Bing and Yu, Philip S and Cruz, Isabel F",
+                "booktitle": "WWW",
+                "pages": "1761--1771",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge graphs (KGs) have gradually become valuable assets for many AI applications. In a KG, a node denotes an entity, and an edge (or link) denotes a relationship between the entities represented by the nodes. Knowledge graph completion infers and predicts missing edges in a KG automatically. Knowledge graph embeddings have shed light on addressing this task. Recent research embeds KGs in hyperbolic (negatively curved) space instead of conventional Euclidean (zero curved) space and is effective in capturing hierarchical structures. However, as multi-relational graphs, KGs are not structured uniformly and display intrinsic heterogeneous structures. They usually contain rich types of structures, such as hierarchical and cyclic typed structures. Embedding KGs in single-curvature space, such as Euclidean or hyperbolic space, overlooks the intrinsic heterogeneous structures of KGs, and therefore cannot accurately capture their structures. To address this issue, we propose Mixed-Curvature Multi-Relational Graph Neural Network (M2GNN), a generic approach that embeds multi-relational KGs in a mixed-curvature space for knowledge graph completion. Specifically, we define and construct a mixed-curvature space through a product manifold combining multiple single-curvature spaces (e.g., spherical, hyperbolic, or Euclidean) with the purpose of modeling a variety of structures. However, constructing a mixed-curvature space typically requires manually defining the fixed curvatures, which needs domain knowledge and additional data analysis. Improperly defined curvature space also cannot capture the structures of KGs accurately. To address this problem, we set mixed-curvatures as trainable parameters to better capture the underlying structures of the KGs. Furthermore, we propose a Graph Neural Updater by leveraging the heterogeneous relational context in mixed-curvature space to improve the quality of the embedding. Experiments on three KG datasets demonstrate that the proposed M2GNN can outperform its single geometry counterpart as well as state-of-the-art embedding methods on the KG completion task.",
+            "aminer_id": "603da1129e795eac93d4deac"
+        },
+        "wang2020gaussian": {
+            "number": "[71]",
+            "title": "Gaussian Embedding for Large-Scale Gene Set Analysis",
+            "text": "title={{Gaussian} embedding for large-scale gene set analysis},\n  author={Wang, Sheng and Flynn, Emily R and Altman, Russ B},\n  journal={Nature machine intelligence},\n  volume={2},\n  number={7},\n  pages={387--395},\n  year={2020},\n  publisher={Nature Publishing Group}",
+            "type": "article",
+            "fields": {
+                "title": "{Gaussian} embedding for large-scale gene set analysis",
+                "author": "Wang, Sheng and Flynn, Emily R and Altman, Russ B",
+                "journal": "Nature machine intelligence",
+                "volume": "2",
+                "number": "7",
+                "pages": "387--395",
+                "year": "2020",
+                "publisher": "Nature Publishing Group"
+            },
+            "ref_source": "bib",
+            "abstract": "Gene sets, including protein complexes and signalling pathways, have proliferated greatly, in large part as a result of high-throughput biological data. Leveraging gene sets to gain insight into biological discovery requires computational methods for converting them into a useful form for available machine learning models. Here, we study the problem of embedding gene sets as compact features that are compatible with available machine learning codes. We present Set2Gaussian, a novel network-based gene set embedding approach, which represents each gene set as a multivariate Gaussian distribution rather than a single point in the low-dimensional space, according to the proximity of these genes in a protein–protein interaction network. We demonstrate that Set2Gaussian improves gene set member identification, accurately stratifies tumours, and finds concise gene sets for gene set enrichment analysis. We further show how Set2Gaussian allows us to identify a clinical prognostic and predictive subnetwork around neurofilament medium in sarcoma, which we validate in independent cohorts. Gene sets can provide valuable information for gaining insight into disease mechanisms and cellular functions. In this paper, the authors use a Gaussian approach to represent gene sets and gene networks in a low-dimensional space, allowing for accurate prediction and decreased computational complexity.",
+            "aminer_id": "5f55df3f9e795e2e9a39417c"
+        },
+        "santos2016multilabel": {
+            "number": "[72]",
+            "title": "Multilabel classification on heterogeneous graphs with Gaussian embeddings",
+            "text": "title={Multilabel classification on heterogeneous graphs with {Gaussian} embeddings},\n  author={Santos, Ludovic Dos and Piwowarski, Benjamin and Gallinari, Patrick},\n  booktitle={ECML-PKDD},\n  pages={606--622},\n  year={2016},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Multilabel classification on heterogeneous graphs with {Gaussian} embeddings",
+                "author": "Santos, Ludovic Dos and Piwowarski, Benjamin and Gallinari, Patrick",
+                "booktitle": "ECML-PKDD",
+                "pages": "606--622",
+                "year": "2016",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5843777eac44360f10841949"
+        },
+        "bojchevski2018deep": {
+            "number": "[73]",
+            "title": "Deep Gaussian Embedding of Graphs: Unsupervised Inductive Learning Via Ranking",
+            "text": "title={Deep {Gaussian} Embedding of Graphs: Unsupervised Inductive Learning via Ranking},\n  author={Bojchevski, Aleksandar and G{\\\"u}nnemann, Stephan},\n  booktitle={ICLR},\n  pages={1--13},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Deep {Gaussian} Embedding of Graphs: Unsupervised Inductive Learning via Ranking",
+                "author": "Bojchevski, Aleksandar and G{\\\"u}nnemann, Stephan",
+                "booktitle": "ICLR",
+                "pages": "1--13",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Methods that learn representations of nodes in a graph play a critical role in network analysis since they enable many downstream learning tasks. We propose Graph2Gauss - an approach that can efficiently learn versatile node embeddings on large scale (attributed) graphs that show strong performance on tasks such as link prediction and node classification. Unlike most approaches that represent nodes as point vectors in a low-dimensional continuous space, we embed each node as a Gaussian distribution, allowing us to capture uncertainty about the representation. Furthermore, we propose an unsupervised method that handles inductive learning scenarios and is applicable to different types of graphs: plain/attributed, directed/undirected. By leveraging both the network structure and the associated node attributes, we are able to generalize to unseen nodes without additional training. To learn the embeddings we adopt a personalized ranking formulation w.r.t. the node distances that exploits the natural ordering of the nodes imposed by the network structure. Experiments on real world networks demonstrate the high performance of our approach, outperforming state-of-the-art network embedding methods on several different tasks. Additionally, we demonstrate the benefits of modeling uncertainty - by analyzing it we can estimate neighborhood diversity and detect the intrinsic latent dimensionality of a graph.",
+            "aminer_id": "59ae3bf12bbe271c4c71bd9b"
+        },
+        "dos2017gaussian": {
+            "number": "[74]",
+            "title": "Gaussian Embeddings for Collaborative Filtering",
+            "text": "title={Gaussian embeddings for collaborative filtering},\n  author={Dos Santos, Ludovic and Piwowarski, Benjamin and Gallinari, Patrick},\n  booktitle={SIGIR},\n  pages={1065--1068},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Gaussian embeddings for collaborative filtering",
+                "author": "Dos Santos, Ludovic and Piwowarski, Benjamin and Gallinari, Patrick",
+                "booktitle": "SIGIR",
+                "pages": "1065--1068",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Most collaborative filtering systems, such as matrix factorization, use vector representations for items and users. Those representations are deterministic, and do not allow modeling the uncertainty of the learned representation, which can be useful when a user has a small number of rated items (cold start), or when there is conflicting information about the behavior of a user or the ratings of an item. In this paper, we leverage recent works in learning Gaussian embeddings for the recommendation task. We show that this model performs well on three representative collections (Yahoo, Yelp and MovieLens) and analyze learned representations.",
+            "aminer_id": "59a02ff8b161e8ad1a7b6ebc"
+        },
+        "nagano2019wrapped": {
+            "number": "[75]",
+            "title": "A Wrapped Normal Distribution on Hyperbolic Space for Gradient-Based Learning.",
+            "text": "title={A wrapped normal distribution on hyperbolic space for gradient-based learning},\n  author={Nagano, Yoshihiro and Yamaguchi, Shoichiro and Fujita, Yasuhiro and Koyama, Masanori},\n  booktitle={ICML},\n  pages={4693--4702},\n  year={2019},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A wrapped normal distribution on hyperbolic space for gradient-based learning",
+                "author": "Nagano, Yoshihiro and Yamaguchi, Shoichiro and Fujita, Yasuhiro and Koyama, Masanori",
+                "booktitle": "ICML",
+                "pages": "4693--4702",
+                "year": "2019",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Hyperbolic space is a geometry that is known to be well-suited for representation learning of data with an underlying hierarchical structure. In this paper, we present a novel hyperbolic distribution called \\textit{pseudo-hyperbolic Gaussian}, a Gaussian-like distribution on hyperbolic space whose density can be evaluated analytically and differentiated with respect to the parameters. Our distribution enables the gradient-based learning of the probabilistic models on hyperbolic space that could never have been considered before. Also, we can sample from this hyperbolic probability distribution without resorting to auxiliary means like rejection sampling. As applications of our distribution, we develop a hyperbolic-analog of variational autoencoder and a method of probabilistic word embedding on hyperbolic space. We demonstrate the efficacy of our distribution on various datasets including MNIST, Atari 2600 Breakout, and WordNet.",
+            "aminer_id": "5d0b001a8607575390faaca3"
+        },
+        "cho2022rotated": {
+            "number": "[76]",
+            "title": "A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
+            "text": "title={A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning},\n  author={Cho, Seunghyuk and Lee, Juyong and Park, Jaesik and Kim, Dongwoo},\n  journal={NeurIPS},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "A Rotated Hyperbolic Wrapped Normal Distribution for Hierarchical Representation Learning",
+                "author": "Cho, Seunghyuk and Lee, Juyong and Park, Jaesik and Kim, Dongwoo",
+                "journal": "NeurIPS",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a rotated hyperbolic wrapped normal distribution (RoWN), a simple yet effective alteration of a hyperbolic wrapped normal distribution (HWN). The HWN expands the domain of probabilistic modeling from Euclidean to hyperbolic space, where a tree can be embedded with arbitrary low distortion in theory. In this work, we analyze the geometric properties of the diagonal HWN, a standard choice of distribution in probabilistic modeling. The analysis shows that the distribution is inappropriate to represent the data points at the same hierarchy level through their angular distance with the same norm in the Poincar\\'e disk model. We then empirically verify the presence of limitations of HWN, and show how RoWN, the proposed distribution, can alleviate the limitations on various hierarchical datasets, including noisy synthetic binary tree, WordNet, and Atari 2600 Breakout. The code is available at https://github.com/ml-postech/RoWN.",
+            "aminer_id": "629041a85aee126c0fb5ce28"
+        },
+        "DBLP:books/daglib/0006106": {
+            "number": "[77]",
+            "title": "Conceptual Spaces - the Geometry of Thought",
+            "text": "author    = {Peter G{\\\"{a}}rdenfors},\n  title     = {Conceptual spaces - the geometry of thought},\n  publisher = {{MIT} Press},\n  year      = {2000}",
+            "type": "book",
+            "fields": {
+                "title": "Conceptual spaces - the geometry of thought",
+                "publisher": "{MIT} Press",
+                "year": "2000"
+            },
+            "ref_source": "bib",
+            "abstract": "In his book “Conceptual Spaces The Geometry of Thought”, Peter Gärdenfors [1] presents a pioneering theory for representing conceptual knowledge, the basic construct of human thinking and reasoning [4]. The conceptual level is not seen as an alternative to traditional approaches of knowledge representation in artificial intelligence, namely symbolic or subsymbolic methods. Instead, it is meant to complement both approaches. The book is highly recommendable and worth reading, as it does not only tackle many fundamental problems of knowledge representation such as grounding [3], concept formation and similarity comparisons [2], but also outlines novel and enlightening ideas how to overcome these. The book introduces the notion of a conceptual space as a framework for representing knowledge at the conceptual level. It is motivated by contrasting it to other levels of knowledge representation: The highest level, the symbolic level, conceptualizes the human brain as a computing device. Knowledge is represented based on a language consisting of a set of symbols. Logical operations can be performed on these symbols to infer new knowledge. Human reasoning is modeled as a symbol manipulation process. Classical, symbolic artificial intelligence does not very well support central cognitive processes such as the acquisition or formation of new concepts and similarity comparisons. The lowest level, the subsymbolic knowledge representation, is oriented towards the neuro-biological structure of the human brain. Concepts are implicitly represented via activation patterns within the neural network. Learning is modeled by modifying the activation of neurons. Explicit representation of knowledge and concepts is not possible. At the intersection between the symbolic and the subsymbolic level, Gärdenfors introduces the conceptual level. The theory of conceptual spaces is based on semantic spaces with a geometric structure: A conceptual space is formed by a set of quality dimensions. One or several quality dimensions model one domain. An important example used throughout the book is the color domain represented by the quality dimensions hue, saturation and brightness. Conceptual spaces have a cognitive foundation because domains can be grounded in qualities perceivable by the human sensory apparatus. Concepts are represented as conceptual regions described by their properties on the quality dimensions. The geometric structure of conceptual spaces makes it possible to determine distances and therefore provides an inherent similarity measure by taking the distance in the conceptual space as indicator of the semantic similarity. The notion of similarity is an important construct for modeling categorization and concept formation. Using similarity for reasoning can also reflect well the vagueness typical for human reasoning. The strong focus on the cognitive foundation makes the book particularly valuable. It contains many challenging claims which are related to various disciplines by giving evidence from a wide range of literature. This shows the huge and highly interdisciplinary background of the author. Unfortunately, Gärdenfors describes his theory only at a very abstract level and forbears from describing algorithms for the formalization of his theory. The realization of a computational model for conceptual spaces bears many practical problems which still have to be solved. Moreover, no empirical evidence is given for his pioneering, sometimes revolutionary ideas. However, these shortcomings should be considered as challenges to solve in the future. The target audience of the book is highly interdisciplinary: since Gärdenfors tackles the problem of cognitive knowledge representation from a psychologic and computer science perspective as well as from a philosophic, neuroscience and linguistic point of view, this book is worth reading for researchers from many different areas. It is required reading for researchers in cognitive science or artificial intelligence interested in knowledge representation. The book has a clear structure and is very well written. The convincing examples throughout the book illustrate the findings very well and make it easy to understand. Therefore I would also deem Gärdenfors’ book to be suitable for students as introducing literature to various problem fields in cognitive science. It gives readers from related areas the chance to look beyond one’s own nose and get to know an interdisciplinary way of thinking. The book certainly meets the expectations of the highly interdisciplinary research area cognitive science.",
+            "aminer_id": "68aa03a9ffdaa8815e183b33"
+        },
+        "DBLP:conf/kr/Gutierrez-Basulto18": {
+            "number": "[78]",
+            "title": "From Knowledge Graph Embedding to Ontology Embedding? an Analysis of the Compatibility Between Vector Space Representations and Rules",
+            "text": "author    = {V{\\'{\\i}}ctor Guti{\\'{e}}rrez{-}Basulto and\n               Steven Schockaert},\n  title     = {From Knowledge Graph Embedding to Ontology Embedding? An Analysis\n               of the Compatibility between Vector Space Representations and Rules},\n  booktitle = {{KR}},\n  pages     = {379--388},\n  publisher = {{AAAI} Press},\n  year      = {2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "From Knowledge Graph Embedding to Ontology Embedding? An Analysis of the Compatibility between Vector Space Representations and Rules",
+                "booktitle": "{KR}",
+                "pages": "379--388",
+                "publisher": "{AAAI} Press",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent years have witnessed the successful application of low-dimensional vector space representations of knowledge graphs to predict missing facts or find erroneous ones. However, it is not yet well-understood to what extent ontological knowledge, e.g. given as a set of (existential) rules, can be embedded in a principled way. To address this shortcoming, in this paper we introduce a general framework based on a view of relations as regions, which allows us to study the compatibility between ontological knowledge and different types of vector space embeddings. Our technical contribution is two-fold. First, we show that some of the most popular existing embedding methods are not capable of modelling even very simple types of rules, which in particular also means that they are not able to learn the type of dependencies captured by such rules. Second, we study a model in which relations are modelled as convex regions. We show particular that ontologies which are expressed using so-called quasi-chained existential rules can be exactly represented using convex regions, such that any set of facts which is induced using that vector space embedding is logically consistent and deductively closed with respect to the input ontology.",
+            "aminer_id": "5bdc316717c44a1f58a075b3"
+        },
+        "baader2004description": {
+            "number": "[79]",
+            "title": "Description logics",
+            "text": "title={Description logics},\n  author={Baader, Franz and Horrocks, Ian and Sattler, Ulrike},\n  booktitle={Handbook on ontologies},\n  pages={3--28},\n  year={2004},\n  publisher={Springer}",
+            "type": "incollection",
+            "fields": {
+                "title": "Description logics",
+                "author": "Baader, Franz and Horrocks, Ian and Sattler, Ulrike",
+                "booktitle": "Handbook on ontologies",
+                "pages": "3--28",
+                "year": "2004",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "DBLP:conf/nips/MengHWZZK019": {
+            "number": "[80]",
+            "title": "Spherical Text Embedding",
+            "text": "author    = {Yu Meng and\n               Jiaxin Huang and\n               Guangyuan Wang and\n               Chao Zhang and\n               Honglei Zhuang and\n               Lance M. Kaplan and\n               Jiawei Han},\n  title     = {Spherical Text Embedding},\n  booktitle = {NeurIPS},\n  pages     = {8206--8215},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Yu Meng and Jiaxin Huang and Guangyuan Wang and Chao Zhang and Honglei Zhuang and Lance M. Kaplan and Jiawei Han",
+                "title": "Spherical Text Embedding",
+                "booktitle": "NeurIPS",
+                "pages": "8206--8215",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Unsupervised text embedding has shown great power in a wide range of NLP tasks. While text embeddings are typically learned in the Euclidean space, directional similarity is often more effective in tasks such as word similarity and document clustering, which creates a gap between the training stage and usage stage of text embedding. To close this gap, we propose a spherical generative model based on which unsupervised word and paragraph embeddings are jointly learned. To learn text embeddings in the spherical space, we develop an efficient optimization algorithm with convergence guarantee based on Riemannian optimization. Our model enjoys high efficiency and achieves state-of-the-art performances on various text embedding tasks including word similarity and document clustering.",
+            "aminer_id": "5dc149a33a55acb75f391652"
+        },
+        "scholkopf1997comparing": {
+            "number": "[81]",
+            "title": "Comparing Support Vector Machines with Gaussian Kernels to Radial Basis Function Classifiers",
+            "text": "title={Comparing support vector machines with {Gaussian} kernels to radial basis function classifiers},\n  author={Scholkopf, Bernhard and Sung, Kah-Kay and Burges, Christopher JC and Girosi, Federico and Niyogi, Partha and Poggio, Tomaso and Vapnik, Vladimir},\n  journal={IEEE TSP},\n  volume={45},\n  number={11},\n  pages={2758--2765},\n  year={1997},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Comparing support vector machines with {Gaussian} kernels to radial basis function classifiers",
+                "author": "Scholkopf, Bernhard and Sung, Kah-Kay and Burges, Christopher JC and Girosi, Federico and Niyogi, Partha and Poggio, Tomaso and Vapnik, Vladimir",
+                "journal": "IEEE TSP",
+                "volume": "45",
+                "number": "11",
+                "pages": "2758--2765",
+                "year": "1997",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The support vector (SV) machine is a novel type of learning machine, based on statistical learning theory, which contains polynomial classifiers, neural networks, and radial basis function (RBF) networks as special cases. In the RBF case, the SV algorithm automatically determines centers, weights, and threshold that minimize an upper bound on the expected test error. The present study is devoted to an experimental comparison of these machines with a classical approach, where the centers are determined by X-means clustering, and the weights are computed using error backpropagation. We consider three machines, namely, a classical RBF machine, an SV machine with Gaussian kernel, and a hybrid system with the centers determined by the SV method and the weights trained by error backpropagation. Our results show that on the United States postal service database of handwritten digits, the SV machine achieves the highest recognition accuracy, followed by the hybrid system. The SV approach is thus not only theoretically well-founded but also superior in a practical application.",
+            "aminer_id": "53908e0020f70186a0dd62f7"
+        },
+        "erk2009representing": {
+            "number": "[82]",
+            "title": "Representing Words As Regions in Vector Space",
+            "text": "title={Representing words as regions in vector space},\n  author={Erk, Katrin},\n  booktitle={CoNLL},\n  pages={57--65},\n  year={2009}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Representing words as regions in vector space",
+                "author": "Erk, Katrin",
+                "booktitle": "CoNLL",
+                "pages": "57--65",
+                "year": "2009"
+            },
+            "ref_source": "bib",
+            "abstract": "Vector space models of word meaning typically represent the meaning of a word as a vector computed by summing over all its corpus occurrences. Words close to this point in space can be assumed to be similar to it in meaning. But how far around this point does the region of similar meaning extend? In this paper we discuss two models that represent word meaning as regions in vector space. Both representations can be computed from traditional point representations in vector space. We find that both models perform at over 95% F-score on a token classification task.",
+            "aminer_id": "5390a5b020f70186a0e7e377"
+        },
+        "geffet2005distributional": {
+            "number": "[83]",
+            "title": "The Distributional Inclusion Hypotheses and Lexical Entailment",
+            "text": "title={The distributional inclusion hypotheses and lexical entailment},\n  author={Geffet, Maayan and Dagan, Ido},\n  booktitle={ACL},\n  pages={107--114},\n  year={2005}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "The distributional inclusion hypotheses and lexical entailment",
+                "author": "Geffet, Maayan and Dagan, Ido",
+                "booktitle": "ACL",
+                "pages": "107--114",
+                "year": "2005"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper suggests refinements for the Distributional Similarity Hypothesis. Our proposed hypotheses relate the distributional behavior of pairs of words to lexical entailment -- a tighter notion of semantic similarity that is required by many NLP applications. To automatically explore the validity of the defined hypotheses we developed an inclusion testing algorithm for characteristic features of two words, which incorporates corpus and web-based feature sampling to overcome data sparseness. The degree of hypotheses validity was then empirically tested and manually analyzed with respect to the word sense level. In addition, the above testing algorithm was exploited to improve lexical entailment acquisition.",
+            "aminer_id": "53909e7c20f70186a0e2c778"
+        },
+        "DBLP:conf/aaai/ZhangCZW20": {
+            "number": "[84]",
+            "title": "Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction",
+            "text": "author    = {Zhanqiu Zhang and\n               Jianyu Cai and\n               Yongdong Zhang and\n               Jie Wang},\n  title     = {Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction},\n  booktitle = {{AAAI}},\n  pages     = {3065--3072},\n  publisher = {{AAAI} Press},\n  year      = {2020}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Zhanqiu Zhang and Jianyu Cai and Yongdong Zhang and Jie Wang",
+                "title": "Learning Hierarchy-Aware Knowledge Graph Embeddings for Link Prediction",
+                "booktitle": "{AAAI}",
+                "pages": "3065--3072",
+                "publisher": "{AAAI} Press",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Knowledge graph embedding, which aims to represent entities and relations as low dimensional vectors (or matrices, tensors, etc.), has been shown to be a powerful technique for predicting missing links in knowledge graphs. Existing knowledge graph embedding models mainly focus on modeling relation patterns such as symmetry/antisymmetry, inversion, and composition. However, many existing approaches fail to model semantic hierarchies, which are common in real-world applications. To address this challenge, we propose a novel knowledge graph embedding model—namely, Hierarchy-Aware Knowledge Graph Embedding (HAKE)—which maps entities into the polar coordinate system. HAKE is inspired by the fact that concentric circles in the polar coordinate system can naturally reflect the hierarchy. Specifically, the radial coordinate aims to model entities at different levels of the hierarchy, and entities with smaller radii are expected to be at higher levels; the angular coordinate aims to distinguish entities at the same level of the hierarchy, and these entities are expected to have roughly the same radii but different angles. Experiments demonstrate that HAKE can effectively model the semantic hierarchies in knowledge graphs, and significantly outperforms existing state-of-the-art methods on benchmark datasets for the link prediction task.",
+            "aminer_id": "5dd7b1ba3a55ac97f763dc3a"
+        },
+        "DBLP:journals/ml/ChenHJHAH21": {
+            "number": "[85]",
+            "title": "OWL2Vec*: Embedding of OWL Ontologies",
+            "text": "author    = {Jiaoyan Chen and\n               Pan Hu and\n               Ernesto Jim{\\'{e}}nez{-}Ruiz and\n               Ole Magnus Holter and\n               Denvar Antonyrajah and\n               Ian Horrocks},\n  title     = {OWL2Vec*: embedding of {OWL} ontologies},\n  journal   = {Mach. Learn.},\n  volume    = {110},\n  number    = {7},\n  pages     = {1813--1845},\n  year      = {2021}",
+            "type": "article",
+            "fields": {
+                "title": "OWL2Vec*: embedding of {OWL} ontologies",
+                "journal": "Mach. Learn.",
+                "volume": "110",
+                "number": "7",
+                "pages": "1813--1845",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Semantic embedding of knowledge graphs has been widely studied and used for prediction and statistical analysis tasks across various domains such as Natural Language Processing and the Semantic Web. However, less attention has been paid to developing robust methods for embedding OWL (Web Ontology Language) ontologies, which contain richer semantic information than plain knowledge graphs, and have been widely adopted in domains such as bioinformatics. In this paper, we propose a random walk and word embedding based ontology embedding method named OWL2Vec*, which encodes the semantics of an OWL ontology by taking into account its graph structure, lexical information and logical constructors. Our empirical evaluation with three real world datasets suggests that OWL2Vec*  benefits from these three different aspects of an ontology in class membership prediction and class subsumption prediction tasks. Furthermore, OWL2Vec*  often significantly outperforms the state-of-the-art methods in our experiments.",
+            "aminer_id": "5f75f89e91e0111c1eb4db26"
+        },
+        "DBLP:journals/bioinformatics/SmailiGH18": {
+            "number": "[86]",
+            "title": "Onto2Vec: Joint Vector-Based Representation of Biological Entities and Their Ontology-Based Annotations",
+            "text": "author    = {Fatima Zohra Smaili and\n               Xin Gao and\n               Robert Hoehndorf},\n  title     = {Onto2Vec: joint vector-based representation of biological entities\n               and their ontology-based annotations},\n  journal   = {Bioinform.},\n  volume    = {34},\n  number    = {13},\n  pages     = {i52--i60},\n  year      = {2018}",
+            "type": "article",
+            "fields": {
+                "author": "Fatima Zohra Smaili and Xin Gao and Robert Hoehndorf",
+                "title": "Onto2Vec: joint vector-based representation of biological entities and their ontology-based annotations",
+                "journal": "Bioinform.",
+                "volume": "34",
+                "number": "13",
+                "pages": "i52--i60",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Motivation: Biological knowledge is widely represented in the form of ontology-based annotations: ontologies describe the phenomena assumed to exist within a domain, and the annotations associate a (kind of) biological entity with a set of phenomena within the domain. The structure and information contained in ontologies and their annotations make them valuable for developing machine learning, data analysis and knowledge extraction algorithms; notably, semantic similarity is widely used to identify relations between biological entities, and ontology-based annotations are frequently used as features in machine learning applications. Results: We propose the Onto2Vec method, an approach to learn feature vectors for biological entities based on their annotations to biomedical ontologies. Our method can be applied to a wide range of bioinformatics research problems such as similarity-based prediction of interactions between proteins, classification of interaction types using supervised learning, or clustering. To evaluate Onto2Vec, we use the gene ontology (GO) and jointly produce dense vector representations of proteins, the GO classes to which they are annotated, and the axioms in GO that constrain these classes. First, we demonstrate that Onto2Vec-generated feature vectors can significantly improve prediction of protein-protein interactions in human and yeast. We then illustrate how Onto2Vec representations provide the means for constructing data-driven, trainable semantic similarity measures that can be used to identify particular relations between proteins. Finally, we use an unsupervised clustering approach to identify protein families based on their Enzyme Commission numbers. Our results demonstrate that Onto2Vec can generate high quality feature vectors from biological entities and ontologies. Onto2Vec has the potential to significantly outperform the state-of-the-art in several predictive applications in which ontologies are involved.",
+            "aminer_id": "5b67b48817c44aac1c8649b9"
+        },
+        "BordesUGWY13": {
+            "number": "[87]",
+            "title": "Translating Embeddings for Modeling Multi-relational Data",
+            "text": "author    = {Antoine Bordes and\n               Nicolas Usunier and\n               Alberto Garc{\\'{\\i}}a{-}Dur{\\'{a}}n and\n               Jason Weston and\n               Oksana Yakhnenko},\n  title     = {Translating Embeddings for Modeling Multi-relational Data},\n  booktitle = {{NIPS}},\n  pages     = {2787--2795},\n  year      = {2013}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Translating Embeddings for Modeling Multi-relational Data",
+                "booktitle": "{NIPS}",
+                "pages": "2787--2795",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9a7ddb7602d970311b83d"
+        },
+        "DBLP:journals/corr/abs-2202-14018": {
+            "number": "[88]",
+            "title": "Description Logic EL++ Embeddings with Intersectional Closure",
+            "text": "author    = {Xi Peng and\n               Zhenwei Tang and\n               Maxat Kulmanov and\n               Kexin Niu and\n               Robert Hoehndorf},\n  title     = {Description Logic {EL++} Embeddings with Intersectional Closure},\n  journal   = {CoRR},\n  volume    = {abs/2202.14018},\n  year      = {2022}",
+            "type": "article",
+            "fields": {
+                "author": "Xi Peng and Zhenwei Tang and Maxat Kulmanov and Kexin Niu and Robert Hoehndorf",
+                "title": "Description Logic {EL++} Embeddings with Intersectional Closure",
+                "journal": "CoRR",
+                "volume": "abs/2202.14018",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "  Many ontologies, in particular in the biomedical domain, are based on the Description Logic EL++. Several efforts have been made to interpret and exploit EL++ ontologies by distributed representation learning. Specifically, concepts within EL++ theories have been represented as n-balls within an n-dimensional embedding space. However, the intersectional closure is not satisfied when using n-balls to represent concepts because the intersection of two n-balls is not an n-ball. This leads to challenges when measuring the distance between concepts and inferring equivalence between concepts. To this end, we developed EL Box Embedding (ELBE) to learn Description Logic EL++ embeddings using axis-parallel boxes. We generate specially designed box-based geometric constraints from EL++ axioms for model training. Since the intersection of boxes remains as a box, the intersectional closure is satisfied. We report extensive experimental results on three datasets and present a case study to demonstrate the effectiveness of the proposed method. ",
+            "aminer_id": "621d8ed25aee126c0f746929"
+        },
+        "motik2009owl": {
+            "number": "[89]",
+            "title": "OWL 2 web ontology language: Structural specification and functional-style syntax",
+            "text": "title={OWL 2 web ontology language: Structural specification and functional-style syntax},\n  author={Motik, Boris and Patel-Schneider, Peter F and Parsia, Bijan and Bock, Conrad and Fokoue, Achille and Haase, Peter and Hoekstra, Rinke and Horrocks, Ian and Ruttenberg, Alan and Sattler, Uli and others},\n  journal={W3C recommendation},\n  volume={27},\n  number={65},\n  pages={159},\n  year={2009},\n  publisher={World Wide Web Consortium}",
+            "type": "article",
+            "fields": {
+                "title": "OWL 2 web ontology language: Structural specification and functional-style syntax",
+                "author": "Motik, Boris and Patel-Schneider, Peter F and Parsia, Bijan and Bock, Conrad and Fokoue, Achille and Haase, Peter and Hoekstra, Rinke and Horrocks, Ian and Ruttenberg, Alan and Sattler, Uli and others",
+                "journal": "W3C recommendation",
+                "volume": "27",
+                "number": "65",
+                "pages": "159",
+                "year": "2009",
+                "publisher": "World Wide Web Consortium"
+            },
+            "ref_source": "bib",
+            "abstract": "OWL 2 extends the W3C OWL Web Ontology Language with a small but useful set of features that have been requested by users, for which effective reasoning algorithms are now available, and that OWL tool developers are willing to support. The new features include extra syntactic sugar, additional property and qualified cardinality constructors, extended datatype support, simple metamodeling, and",
+            "aminer_id": "53e9a965b7602d97032bd51f"
+        },
+        "dax1997classroom": {
+            "number": "[90]",
+            "title": "Classroom Note: An Elementary Proof of Farkas' Lemma",
+            "text": "title={Classroom Note: An Elementary Proof of Farkas' Lemma},\n  author={Dax, Achiya},\n  journal={SIAM review},\n  volume={39},\n  number={3},\n  pages={503--507},\n  year={1997},\n  publisher={SIAM}",
+            "type": "article",
+            "fields": {
+                "title": "Classroom Note: An Elementary Proof of Farkas' Lemma",
+                "author": "Dax, Achiya",
+                "journal": "SIAM review",
+                "volume": "39",
+                "number": "3",
+                "pages": "503--507",
+                "year": "1997",
+                "publisher": "SIAM"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "539087e720f70186a0d68809"
+        },
+        "garg2019quantum": {
+            "number": "[91]",
+            "title": "Quantum Embedding of Knowledge for Reasoning",
+            "text": "author    = {Dinesh Garg and\n               Shajith Ikbal and\n               Santosh K. Srivastava and\n               Harit Vishwakarma and\n               Hima P. Karanam and\n               L. Venkata Subramaniam},\n  title     = {Quantum Embedding of Knowledge for Reasoning},\n  booktitle = {NeurIPS},\n  pages     = {5595--5605},\n  year      = {2019}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Dinesh Garg and Shajith Ikbal and Santosh K. Srivastava and Harit Vishwakarma and Hima P. Karanam and L. Venkata Subramaniam",
+                "title": "Quantum Embedding of Knowledge for Reasoning",
+                "booktitle": "NeurIPS",
+                "pages": "5595--5605",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5db929a547c8f766461fa27c"
+        },
+        "tifrea2018poincare": {
+            "number": "[92]",
+            "title": "Poincaré GloVe: Hyperbolic Word Embeddings",
+            "text": "title={Poincaré {GloVe}: {Hyperbolic} Word Embeddings},\n  author={Alexandru Tifrea and Gary Becigneul and Octavian-Eugen Ganea},\n  booktitle={ICLR},\n  year={2019},\n  DISABLEDurl={https://openreview.net/forum?id=Ske5r3AqK7},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Poincaré {GloVe}: {Hyperbolic} Word Embeddings",
+                "author": "Alexandru Tifrea and Gary Becigneul and Octavian-Eugen Ganea",
+                "booktitle": "ICLR",
+                "year": "2019",
+                "disabledurl": "https://openreview.net/forum?id=Ske5r3AqK7"
+            },
+            "ref_source": "bib",
+            "abstract": "Words are not created equal. In fact, they form an aristocratic graph with a latent hierarchical structure that the next generation of unsupervised learned word embeddings should reveal. In this paper, justified by the notion of delta-hyperbolicity or tree-likeliness of a space, we propose to embed words in a Cartesian product of hyperbolic spaces which we theoretically connect to the Gaussian word embeddings and their Fisher geometry. This connection allows us to introduce a novel principled hypernymy score for word embeddings. Moreover, we adapt the well-known Glove algorithm to learn unsupervised word embeddings in this type of Riemannian manifolds. We further explain how to solve the analogy task using the Riemannian parallel transport that generalizes vector arithmetics to this new type of geometry. Empirically, based on extensive experiments, we prove that our embeddings, trained unsupervised, are the first to simultaneously outperform strong and popular baselines on the tasks of similarity, analogy and hypernymy detection. In particular, for word hypernymy, we obtain new state-of-the-art on fully unsupervised WBLESS classification accuracy.",
+            "aminer_id": "5bdc31b417c44a1f58a0b8fd"
+        },
+        "pennington2014glove": {
+            "number": "[93]",
+            "title": "GloVe: Global Vectors for Word Representation",
+            "text": "title={Glove: Global vectors for word representation},\n  author={Pennington, Jeffrey and Socher, Richard and Manning, Christopher D},\n  booktitle={EMNLP},\n  pages={1532--1543},\n  year={2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Glove: Global vectors for word representation",
+                "author": "Pennington, Jeffrey and Socher, Richard and Manning, Christopher D",
+                "booktitle": "EMNLP",
+                "pages": "1532--1543",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent methods for learning vector space representations of words have succeeded in capturing fine-grained semantic and syntactic regularities using vector arithmetic, but the origin of these regularities has remained opaque. We analyze and make explicit the model properties needed for such regularities to emerge in word vectors. The result is a new global logbilinear regression model that combines the advantages of the two major model families in the literature: global matrix factorization and local context window methods. Our model efficiently leverages statistical information by training only on the nonzero elements in a word-word cooccurrence matrix, rather than on the entire sparse matrix or on individual context windows in a large corpus. The model produces a vector space with meaningful substructure, as evidenced by its performance of 75% on a recent word analogy task. It also outperforms related models on similarity tasks and named entity recognition.",
+            "aminer_id": "5550456245ce0a409eb55cee"
+        },
+        "chheda2021box": {
+            "number": "[94]",
+            "title": "Box Embeddings: an Open-Source Library for Representation Learning Using Geometric Structures",
+            "text": "title={Box Embeddings: An open-source library for representation learning using geometric structures},\n  author={Chheda, Tejas and Goyal, Purujit and Tran, Trang and Patel, Dhruvesh and Boratko, Michael and Dasgupta, Shib Sankar and McCallum, Andrew},\n  booktitle={EMNLP (Demos)},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Box Embeddings: An open-source library for representation learning using geometric structures",
+                "author": "Chheda, Tejas and Goyal, Purujit and Tran, Trang and Patel, Dhruvesh and Boratko, Michael and Dasgupta, Shib Sankar and McCallum, Andrew",
+                "booktitle": "EMNLP (Demos)",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "A major factor contributing to the success of modern representation learning is the ease of performing various vector operations. Recently, objects with geometric structures (eg. distributions, complex or hyperbolic vectors, or regions such as cones, disks, or boxes) have been explored for their alternative inductive biases and additional representational capacities. In this work, we introduce Box Embeddings, a Python library that enables researchers to easily apply and extend probabilistic box embeddings.",
+            "aminer_id": "613ec12c5244ab9dcb816d04"
+        },
+        "gnn-for-traffic": {
+            "number": "[95]",
+            "title": "SCENE: Reasoning about Traffic Scenes Using Heterogeneous Graph Neural Networks",
+            "text": "author={Monninger, Thomas and Schmidt, Julian and Rupprecht, Jan and Raba, David and Jordan, Julian and Frank, Daniel and Staab, Steffen and Dietmayer, Klaus},\n  journal={IEEE Robotics and Automation Letters}, \n  title={SCENE: Reasoning about Traffic Scenes using Heterogeneous Graph Neural Networks}, \n  year={2023},\n  volume={},\n  number={},\n  pages={1-8},\n  doi={10.1109/LRA.2023.3234771}",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "Monninger, Thomas and Schmidt, Julian and Rupprecht, Jan and Raba, David and Jordan, Julian and Frank, Daniel and Staab, Steffen and Dietmayer, Klaus",
+                "journal": "IEEE Robotics and Automation Letters",
+                "title": "SCENE: Reasoning about Traffic Scenes using Heterogeneous Graph Neural Networks",
+                "year": "2023",
+                "volume": "",
+                "number": "",
+                "pages": "1-8",
+                "doi": "10.1109/LRA.2023.3234771"
+            },
+            "ref_source": "bib",
+            "abstract": "Understanding traffic scenes requires considering heterogeneous information about dynamic agents and the static infrastructure. In this work we propose SCENE, a methodology to encode diverse traffic scenes in heterogeneous graphs and to reason about these graphs using a heterogeneous Graph Neural Network encoder and task-specific decoders. The heterogeneous graphs, whose structures are defined by an ontology, consist of different nodes with type-specific node features and different relations with type-specific edge features. In order to exploit all the information given by these graphs, we propose to use cascaded layers of graph convolution. The result is an encoding of the scene. Task-specific decoders can be applied to predict desired attributes of the scene. Extensive evaluation on two diverse binary node classification tasks show the main strength of this methodology: despite being generic, it even manages to outperform task-specific baselines. The further application of our methodology to the task of node classification in various knowledge graphs shows its transferability to other domains.",
+            "aminer_id": "63bcd73690e50fcafdefa3cf"
+        },
+        "hogan2021knowledge": {
+            "number": "[96]",
+            "title": "Knowledge graphs",
+            "text": "title={Knowledge graphs},\n  author={Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and d’Amato, Claudia and Melo, Gerard de and Gutierrez, Claudio and Kirrane, Sabrina and Gayo, Jos{\\'e} Emilio Labra and Navigli, Roberto and Neumaier, Sebastian and others},\n  journal={ACM Computing Surveys},\n  volume={54},\n  number={4},\n  pages={1--37},\n  year={2021},\n  DISABLEDpublisher={ACM New York, NY, USA}",
+            "type": "article",
+            "fields": {
+                "title": "Knowledge graphs",
+                "author": "Hogan, Aidan and Blomqvist, Eva and Cochez, Michael and d’Amato, Claudia and Melo, Gerard de and Gutierrez, Claudio and Kirrane, Sabrina and Gayo, Jos{\\'e} Emilio Labra and Navigli, Roberto and Neumaier, Sebastian and others",
+                "journal": "ACM Computing Surveys",
+                "volume": "54",
+                "number": "4",
+                "pages": "1--37",
+                "year": "2021",
+                "disabledpublisher": "ACM New York, NY, USA"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e621f3d91e01160711d5f37"
+        },
+        "DBLP:conf/aaai/YanZSXLLLW22": {
+            "number": "[97]",
+            "title": "PolygonE: Modeling N-ary Relational Data As Gyro-Polygons in Hyperbolic Space.",
+            "text": "author    = {Shiyao Yan and\n               Zequn Zhang and\n               Xian Sun and\n               Guangluan Xu and\n               Shuchao Li and\n               Qing Liu and\n               Nayu Liu and\n               Shensi Wang},\n  title     = {PolygonE: Modeling N-ary Relational Data as Gyro-Polygons in Hyperbolic\n               Space},\n  booktitle = {{AAAI}},\n  pages     = {4308--4317},\n  publisher = {{AAAI} Press},\n  year      = {2022}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Shiyao Yan and Zequn Zhang and Xian Sun and Guangluan Xu and Shuchao Li and Qing Liu and Nayu Liu and Shensi Wang",
+                "title": "PolygonE: Modeling N-ary Relational Data as Gyro-Polygons in Hyperbolic Space",
+                "booktitle": "{AAAI}",
+                "pages": "4308--4317",
+                "publisher": "{AAAI} Press",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "N-ary relational knowledge base (KBs) embedding aims to map binary and beyond-binary facts into low-dimensional vector space simultaneously. Existing approaches typically decompose n-ary relational facts into subtuples (entity pairs, triples or quintuples, etc.), and they generally model n-ary relational KBs in Euclidean space. However, n-ary relational facts are semantically and structurally intact, decomposition leads to the loss of global information and undermines the semantical and structural integrity. Moreover, compared to the binary relational KBs, n-ary ones are characterized by more abundant and complicated hierarchy structures, which could not be well expressed in Euclidean space. To address the issues, we propose a gyro-polygon embedding approach to realize n-ary fact integrity keeping and hierarchy capturing, termed as PolygonE. Specifically, n-ary relational facts are modeled as gyro-polygons in the hyperbolic space, where we denote entities in facts as vertexes of gyro-polygons and relations as entity translocation operations. Importantly, we design a fact plausibility measuring strategy based on the vertex-gyrocentroid geodesic to optimize the relation-adjusted gyro-polygon. Extensive experiments demonstrate that PolygonE shows SOTA performance on all benchmark datasets, generalizability to binary data, and applicability to arbitrary arity fact. Finally, we also visualize the embedding to help comprehend PolygonE's awareness of hierarchies.",
+            "aminer_id": "6215a4242c3568159403852b"
+        },
+        "jackermeier2023box": {
+            "number": "[98]",
+            "title": "Box$^2$EL: Concept and Role Box Embeddings for the Description Logic\n  EL++",
+            "text": "title={Box$^{2}${EL}: Concept and Role Box Embeddings for the Description Logic {EL++}},\n  author={Jackermeier, Mathias and Chen, Jiaoyan and Horrocks, Ian},\n  journal={CoRL},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Box$^{2}${EL}: Concept and Role Box Embeddings for the Description Logic {EL++}",
+                "author": "Jackermeier, Mathias and Chen, Jiaoyan and Horrocks, Ian",
+                "journal": "CoRL",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Description logic (DL) ontologies extend knowledge graphs (KGs) with conceptual information and logical background knowledge. In recent years, there has been growing interest in inductive reasoning techniques for such ontologies, which promise to complement classical deductive reasoning algorithms. Similar to KG completion, several existing approaches learn ontology embeddings in a latent space, while additionally ensuring that they faithfully capture the logical semantics of the underlying DL. However, they suffer from several shortcomings, mainly due to a limiting role representation. We propose Box$^2$EL, which represents both concepts and roles as boxes (i.e., axis-aligned hyperrectangles) and demonstrate how it overcomes the limitations of previous methods. We theoretically prove the soundness of our model and conduct an extensive experimental evaluation, achieving state-of-the-art results across a variety of datasets. As part of our evaluation, we introduce a novel benchmark for subsumption prediction involving both atomic and complex concepts.",
+            "aminer_id": "6579419f939a5f40821dcf0e"
+        },
+        "hitzler2009foundations": {
+            "number": "[99]",
+            "title": "Foundations of Semantic Web Technologies",
+            "text": "title={Foundations of semantic web technologies},\n  author={Hitzler, Pascal and Krotzsch, Markus and Rudolph, Sebastian},\n  year={2009},\n  publisher={Chapman and Hall/CRC}",
+            "type": "book",
+            "fields": {
+                "title": "Foundations of semantic web technologies",
+                "author": "Hitzler, Pascal and Krotzsch, Markus and Rudolph, Sebastian",
+                "year": "2009",
+                "publisher": "Chapman and Hall/CRC"
+            },
+            "ref_source": "bib",
+            "abstract": "With more substantial funding from research organizations and industry, numerous large-scale applications, and recently developed technologies, the Semantic Web is quickly emerging as a well-recognized and important area of computer science. While Semantic Web technologies are still rapidly evolving, Foundations of Semantic Web Technologies focuses on the established foundations in this area that have become relatively stable over time. It thoroughly covers basic introductions and intuitions, technical details, and formal foundations.The book concentrates on Semantic Web technologies standardized by the World Wide Web Consortium: RDF and SPARQL enable data exchange and querying, RDFS and OWL provide expressive ontology modeling, and RIF supports rule-based modeling. The text also describes methods for specifying, querying, and reasoning with ontological information. In addition, it explores topics that are clearly beyond foundations, such as tools, applications, and engineering aspects.Written by highly respected researchers with a deep understanding of the material, this text centers on the formal specifications of the subject and supplies many pointers that are useful for employing Semantic Web technologies in practice.Updates, errata, slides for teaching, and links to further resources are available at http://semantic-web-book.org/",
+            "aminer_id": "5390a74e20f70186a0e8b656"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 99,
+        "citation_types": {
+            "other": 99
+        }
+    }
+}

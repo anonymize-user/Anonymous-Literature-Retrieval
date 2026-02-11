@@ -1,0 +1,1874 @@
+{
+    "topic": "Ternary Quantization: A Survey",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[73]",
+                "[72]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Ternary Neural Networks",
+            "refs": [
+                "[46]",
+                "[9]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Brief History",
+                    "refs": [
+                        "[8]",
+                        "[23]",
+                        "[56]",
+                        "[53]",
+                        "[18]",
+                        "[13]",
+                        "[25]",
+                        "[20]",
+                        "[77]",
+                        "[44]",
+                        "[54]",
+                        "[33]",
+                        "[1]",
+                        "[57]",
+                        "[15]",
+                        "[78]",
+                        "[17]",
+                        "[46]",
+                        "[76]",
+                        "[9]",
+                        "[16]",
+                        "[19]",
+                        "[11]",
+                        "[32]",
+                        "[12]",
+                        "[75]",
+                        "[31]",
+                        "[45]",
+                        "[41]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "An Overview of Ternary Optimization",
+                    "refs": [
+                        "[11]",
+                        "[72]",
+                        "[46]",
+                        "[73]",
+                        "[53]",
+                        "[13]",
+                        "[66]",
+                        "[19]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Projection Function",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Overview of The Projection Function",
+                    "refs": [
+                        "[11]",
+                        "[17]",
+                        "[75]",
+                        "[52]",
+                        "[66]",
+                        "[41]",
+                        "[1]",
+                        "[79]",
+                        "[37]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Direct Projection",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Direct Projecting",
+                            "refs": [
+                                "[8]",
+                                "[11]",
+                                "[10]",
+                                "[46]",
+                                "[53]",
+                                "[38]",
+                                "[2]",
+                                "[4]",
+                                "[55]",
+                                "[6]",
+                                "[19]",
+                                "[39]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Weight Grouping",
+                            "refs": [
+                                "[36]",
+                                "[34]",
+                                "[15]",
+                                "[3]",
+                                "[17]",
+                                "[58]",
+                                "[53]",
+                                "[18]",
+                                "[16]",
+                                "[21]",
+                                "[57]",
+                                "[37]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Weight Enlarging",
+                            "refs": [
+                                "[22]",
+                                "[45]",
+                                "[48]",
+                                "[26]",
+                                "[24]",
+                                "[29]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Stochastic Rounding",
+                            "refs": [
+                                "[31]",
+                                "[14]",
+                                "[24]",
+                                "[9]",
+                                "[55]",
+                                "[67]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Indirect Projection",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Temperature Adjusting",
+                            "refs": [
+                                "[52]",
+                                "[47]",
+                                "[48]",
+                                "[1]",
+                                "[20]",
+                                "[37]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Stochastic Sampling",
+                            "refs": [
+                                "[41]",
+                                "[56]",
+                                "[1]",
+                                "[37]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Optimization Methods",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Proximal Operator",
+                    "refs": [
+                        "[72]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Alternating Direction Method of Multipliers",
+                            "refs": [
+                                "[34]",
+                                "[72]",
+                                "[52]",
+                                "[18]",
+                                "[40]",
+                                "[16]",
+                                "[71]",
+                                "[21]",
+                                "[19]",
+                                "[37]"
+                            ],
+                            "subsections": [],
+                            "number": "4.0.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Straight-Through Estimator",
+                            "refs": [
+                                "[36]",
+                                "[44]",
+                                "[15]",
+                                "[32]",
+                                "[31]",
+                                "[46]",
+                                "[14]",
+                                "[53]",
+                                "[33]",
+                                "[66]",
+                                "[25]",
+                                "[9]",
+                                "[55]",
+                                "[19]"
+                            ],
+                            "subsections": [],
+                            "number": "4.0.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.0.1",
+                    "level": 3
+                },
+                {
+                    "section_title": "Direct Projection",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Estimation Based Methods",
+                            "refs": [
+                                "[23]",
+                                "[17]",
+                                "[52]",
+                                "[22]",
+                                "[28]",
+                                "[57]",
+                                "[16]",
+                                "[26]",
+                                "[6]",
+                                "[19]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Optimization Based Methods",
+                            "refs": [
+                                "[58]",
+                                "[45]",
+                                "[53]",
+                                "[28]",
+                                "[27]",
+                                "[40]",
+                                "[25]",
+                                "[21]",
+                                "[29]",
+                                "[37]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Greedy Search Based Methods",
+                            "refs": [
+                                "[8]",
+                                "[21]",
+                                "[36]",
+                                "[3]",
+                                "[34]",
+                                "[10]",
+                                "[40]",
+                                "[13]",
+                                "[4]",
+                                "[18]",
+                                "[55]",
+                                "[19]",
+                                "[39]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Indirect Projection",
+                    "refs": [
+                        "[68]",
+                        "[14]",
+                        "[69]",
+                        "[74]",
+                        "[54]",
+                        "[41]",
+                        "[9]",
+                        "[70]",
+                        "[67]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "\\textcolor{black",
+            "refs": [
+                "[56]",
+                "[80]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "\\textcolor{black",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        }
+    ],
+    "references": {
+        "louizos_relaxed_2018_r29.5": {
+            "number": "[1]",
+            "title": "Relaxed Quantization for Discretized Neural Networks",
+            "text": "title = {Relaxed {Quantization} for {Discretized} {Neural} {Networks}},\n\turl = {http://arxiv.org/abs/1810.01875},\n\t\n\tlanguage = {29.5},\n\turldate = {2021-10-12},\n\tbooktitle = {{arXiv}:1810.01875 [cs stat]},\n\tauthor = {Louizos Christos and Reisser Matthias and Blankevoort Tijmen and Gavves Efstratios and Welling Max},\n\tmonth = oct,\n\tyear = {2018},\n\t\n\tkeywords = {Computer Science - Machine Learning relax Statistics - Machine Learning Stochastic},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Relaxed {Quantization} for {Discretized} {Neural} {Networks}",
+                "url": "http://arxiv.org/abs/1810.01875",
+                "language": "29.5",
+                "urldate": "2021-10-12",
+                "booktitle": "{arXiv}:1810.01875 [cs stat]",
+                "author": "Louizos Christos and Reisser Matthias and Blankevoort Tijmen and Gavves Efstratios and Welling Max",
+                "year": "2018",
+                "keywords": "Computer Science - Machine Learning relax Statistics - Machine Learning Stochastic"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural network quantization has become an important research area due to its great impact on deployment of large models on resource constrained devices. In order to train networks that can be effectively discretized without loss of performance, we introduce a differentiable quantization procedure. Differentiability can be achieved by transforming continuous distributions over the weights and activations of the network to categorical distributions over the quantization grid. These are subsequently relaxed to continuous surrogates that can allow for efficient gradient-based optimization. We further show that stochastic rounding can be seen as a special case of the proposed approach and that under this formulation the quantization grid itself can also be optimized with gradient descent. We experimentally validate the performance of our method on MNIST, CIFAR 10 and Imagenet classification.",
+            "aminer_id": "5bdc31b817c44a1f58a0c550"
+        },
+        "penghang_yin_training_2016_r46": {
+            "number": "[2]",
+            "title": "Training Ternary Neural Networks with Exact Proximal Operator",
+            "text": "title = {Training {Ternary} {Neural} {Networks} with {Exact} {Proximal} {Operator}},\n\t\n\tlanguage = {46},\n\tauthor = {Penghang Yin and Yingyong Qi Shuai Zhang Jack Xin},\n\tmonth = dec,\n\tyear = {2016},",
+            "type": "misc",
+            "fields": {
+                "title": "Training {Ternary} {Neural} {Networks} with {Exact} {Proximal} {Operator}",
+                "language": "46",
+                "author": "Penghang Yin and Yingyong Qi Shuai Zhang Jack Xin",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c8894344895d9cbc6808232"
+        },
+        "naveen_mellempudi_ternary_2017_r37": {
+            "number": "[3]",
+            "title": "Ternary Neural Networks with Fine-Grained Quantization",
+            "text": "title = {Ternary {Neural} {Networks} with {Fine}-{Grained} {Quantization}},\n\t\n\tlanguage = {37},\n\tjournal = {arXiv: Learning},\n\tauthor = {Naveen Mellempudi Abhisek Kundu Dheevatsa Mudigere Dipankar Das Bharat Kaul Pradeep Dubey},\n\tmonth = may,\n\tyear = {2017},\n\tkeywords = {Post Training Quantization},",
+            "type": "misc",
+            "fields": {
+                "title": "Ternary {Neural} {Networks} with {Fine}-{Grained} {Quantization}",
+                "language": "37",
+                "journal": "arXiv: Learning",
+                "author": "Naveen Mellempudi Abhisek Kundu Dheevatsa Mudigere Dipankar Das Bharat Kaul Pradeep Dubey",
+                "year": "2017",
+                "keywords": "Post Training Quantization"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5e8d92849fced0a24b609544"
+        },
+        "jie_ding_three-means_2017_r40": {
+            "number": "[4]",
+            "title": "Three-Means Ternary Quantization",
+            "text": "title = {Three-{Means} {Ternary} {Quantization}},\n\t\n\tlanguage = {40},\n\tauthor = {Jie Ding JunMin Wu Huan Wu},\n\tmonth = nov,\n\tyear = {2017},\n\tkeywords = {Deep learning Model compression Neural network quantization Ternary neural network},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Three-{Means} {Ternary} {Quantization}",
+                "language": "40",
+                "author": "Jie Ding JunMin Wu Huan Wu",
+                "year": "2017",
+                "keywords": "Deep learning Model compression Neural network quantization Ternary neural network"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep Convolution Neural Networks (DCNNs) have achieved state-of-the-art results in a wide range of tasks, especially in image recognition and object detection. However, millions of parameters make it difficult to be deployed on embedded devices with limited storage and computational capabilities. In this paper, we propose a new method called Three-Means Ternary Quantization (TMTQ), which can quantize the weights to ternary values - α_1 , 0, + α_2 during the forward and backward propagations. Scaling factors α_1 , α_2 are used to reduce the loss of quantization. We evaluate this method on MNIST, CIFAR-10 and ImageNet datasets with different network architectures. The results show that the performance of our ternary models obtained from TMTQ is only slightly worse than full precision models but better than recently proposed binary and ternary models. Meanwhile, our TMTQ method achieves up to about 16 × model compression rate compared with the 32-bits full precision counterparts, for we just use ternary weights (2-bits) and fixed scaling factors during the inference.",
+            "aminer_id": "5a260c1d17c44a4ba8a21cf9"
+        },
+        "haotong_qin_binary_2020_r17": {
+            "number": "[5]",
+            "title": "Binary Neural Networks: A Survey",
+            "text": "title = {Binary {Neural} {Networks}: {A} {Survey}},\n\tvolume = {105},\n\t\n\tlanguage = {17},\n\tjournal = {Pattern Recognition},\n\tauthor = {Haotong Qin Ruihao Gong Xianglong Liu Xiao Bai Jingkuan Song Nicu Sebe},\n\tmonth = sep,\n\tyear = {2020},",
+            "type": "misc",
+            "fields": {
+                "title": "Binary {Neural} {Networks}: {A} {Survey}",
+                "volume": "105",
+                "language": "17",
+                "journal": "Pattern Recognition",
+                "author": "Haotong Qin Ruihao Gong Xianglong Liu Xiao Bai Jingkuan Song Nicu Sebe",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "•We summarize the binary neural network methods and categorize them into the naive binarization and the optimized binarization.•The binary neural networks are mainly optimized using techniques including minimizing quantization error, improving the loss function, and reducing the gradient error.•We also discuss the hardware-friendly methods and the useful tricks of training binary neural networks.•We present the common datasets and network structures of evaluation, and compare the performance on different tasks.•We conclude and point out the future research trends.",
+            "aminer_id": "5e72353e93d709897cfe52b4"
+        },
+        "diwen_wan_tbn_2018_r32": {
+            "number": "[6]",
+            "title": "TBN: Convolutional Neural Network with Ternary Inputs and Binary Weights",
+            "text": "title = {{TBN}: {Convolutional} {Neural} {Network} with {Ternary} {Inputs} and {Binary} {Weights}},\n\t\n\tlanguage = {32},\n\tauthor = {Diwen Wan Fumin Shen Li Liu Fan Zhu Jie Qin Ling Shao Heng Tao Shen},\n\tmonth = sep,\n\tyear = {2018},\n\tkeywords = {bitshift},",
+            "type": "misc",
+            "fields": {
+                "title": "{TBN}: {Convolutional} {Neural} {Network} with {Ternary} {Inputs} and {Binary} {Weights}",
+                "language": "32",
+                "author": "Diwen Wan Fumin Shen Li Liu Fan Zhu Jie Qin Ling Shao Heng Tao Shen",
+                "year": "2018",
+                "keywords": "bitshift"
+            },
+            "ref_source": "bib",
+            "abstract": "Despite the remarkable success of Convolutional Neural Networks (CNNs) on generalized visual tasks, high computational and memory costs restrict their comprehensive applications on consumer electronics (e.g., portable or smart wearable devices). Recent advancements in binarized networks have demonstrated progress on reducing computational and memory costs, however, they suffer from significant performance degradation comparing to their full-precision counterparts. Thus, a highly-economical yet effective CNN that is authentically applicable to consumer electronics is at urgent need. In this work, we propose a Ternary-Binary Network (TBN), which provides an efficient approximation to standard CNNs. Based on an accelerated ternary-binary matrix multiplication, TBN replaces the arithmetical operations in standard CNNs with efficient XOR, AND and bitcount operations, and thus provides an optimal tradeoff between memory, efficiency and performance. TBN demonstrates its consistent effectiveness when applied to various CNN architectures (e.g., AlexNet and ResNet) on multiple datasets of different scales, and provides ∼ 32 × memory savings and 40× faster convolutional operations. Meanwhile, TBN can outperform XNOR-Network by up to 5.5",
+            "aminer_id": "5bdc315817c44a1f58a05fe3"
+        },
+        "tailin_liang_pruning_2021_r3": {
+            "number": "[7]",
+            "title": "Pruning and Quantization for Deep Neural Network Acceleration: A Survey",
+            "text": "title = {Pruning and {Quantization} for {Deep} {Neural} {Network} {Acceleration}: {A} {Survey}},\n\t\n\tlanguage = {3},\n\tjournal = {arXiv: Computer Vision and Pattern Recognition},\n\tauthor = {Tailin Liang John Glossner Lei Wang Shaobo Shi Xiaotong Zhang},\n\tmonth = jan,\n\tyear = {2021},",
+            "type": "misc",
+            "fields": {
+                "title": "Pruning and {Quantization} for {Deep} {Neural} {Network} {Acceleration}: {A} {Survey}",
+                "language": "3",
+                "journal": "arXiv: Computer Vision and Pattern Recognition",
+                "author": "Tailin Liang John Glossner Lei Wang Shaobo Shi Xiaotong Zhang",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep neural networks have been applied in many applications exhibiting extraordinary abilities in the field of computer vision. However, complex network architectures challenge efficient real-time deployment and require significant computation resources and energy costs. These challenges can be overcome through optimizations such as network compression. Network compression can often be realized with little loss of accuracy. In some cases accuracy may even improve. This paper provides a survey on two types of network compression: pruning and quantization. Pruning can be categorized as static if it is performed offline or dynamic if it is performed at run-time. We compare pruning techniques and describe criteria used to remove redundant computations. We discuss trade-offs in element-wise, channel-wise, shape-wise, filter-wise, layer-wise and even network-wise pruning. Quantization reduces computations by reducing the precision of the datatype. Weights, biases, and activations may be quantized typically to 8-bit integers although lower bit width implementations are also discussed including binary neural networks. Both pruning and quantization can be used independently or combined. We compare current techniques, analyze their strengths and weaknesses, present compressed network accuracy results on a number of frameworks, and provide practical guidance for compressing networks.",
+            "aminer_id": "600fee1391e011256c95603e"
+        },
+        "adrien_prost-boucle_scalable_2017_r44": {
+            "number": "[8]",
+            "title": "Scalable High-Performance Architecture for Convolutional Ternary Neural Networks on FPGA",
+            "text": "title = {Scalable high-performance architecture for convolutional ternary neural networks on {FPGA}},\n\t\n\tlanguage = {44},\n\tauthor = {Adrien Prost-Boucle Alban Bourge Frédéric Pétrot Hande Alemdar Nicholas Caldwell Vincent Leroy},\n\tmonth = sep,\n\tyear = {2017},\n\tkeywords = {Field programmable gate arrays Hardware Neural networks Neurons Parallel processing Random access memory Throughput},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Scalable high-performance architecture for convolutional ternary neural networks on {FPGA}",
+                "language": "44",
+                "author": "Adrien Prost-Boucle Alban Bourge Frédéric Pétrot Hande Alemdar Nicholas Caldwell Vincent Leroy",
+                "year": "2017",
+                "keywords": "Field programmable gate arrays Hardware Neural networks Neurons Parallel processing Random access memory Throughput"
+            },
+            "ref_source": "bib",
+            "abstract": "Thanks to their excellent performances on typical artificial intelligence problems, deep neural networks have drawn a lot of interest lately. However, this comes at the cost of large computational needs and high power consumption. Benefiting from high precision at acceptable hardware cost on these difficult problems is a challenge. To address it, we advocate the use of ternary neural networks (TNN) that, when properly trained, can reach results close to the state of the art using floatingpoint arithmetic. We present a highly versatile FPGA friendly architecture for TNN in which we can vary both the number of bits of the input data and the level of parallelism at synthesis time, allowing to trade throughput for hardware resources and power consumption. To demonstrate the efficiency of our proposal, we implement high-complexity convolutional neural networks on the Xilinx Virtex-7 VC709 FPGA board. While reaching a better accuracy than comparable designs, we can target either high throughput or low power. We measure a throughput up to 27 000 fps at ≈7W or up to 8.36 TMAC/s at ≈13 W.",
+            "aminer_id": "5a260c2e17c44a4ba8a23fc0"
+        },
+        "lei_deng_gxnor-net_2018_r30": {
+            "number": "[9]",
+            "title": "GXNOR-Net: Training Deep Neural Networks with Ternary Weights and Activations Without Full-Precision Memory under a Unified Discretization Framework.",
+            "text": "title = {{GXNOR}-{Net}: {Training} deep neural networks with ternary weights and activations without full-precision memory under a unified discretization framework.},\n\tvolume = {100},\n\t\n\tlanguage = {30},\n\tjournal = {Neural Networks},\n\tauthor = {Lei Deng Peng Jiao Jing Pei Zhenzhi Wu Guoqi Li},\n\tmonth = apr,\n\tyear = {2018},\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning further reading Statistics - Machine Learning},",
+            "type": "misc",
+            "fields": {
+                "title": "{GXNOR}-{Net}: {Training} deep neural networks with ternary weights and activations without full-precision memory under a unified discretization framework.",
+                "volume": "100",
+                "language": "30",
+                "journal": "Neural Networks",
+                "author": "Lei Deng Peng Jiao Jing Pei Zhenzhi Wu Guoqi Li",
+                "year": "2018",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning further reading Statistics - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "Although deep neural networks (DNNs) are being a revolutionary power to open up the AI era, the notoriously huge hardware overhead has challenged their applications. Recently, several binary and ternary networks, in which the costly multiply-accumulate operations can be replaced by accumulations or even binary logic operations, make the on-chip training of DNNs quite promising. Therefore there is a pressing need to build an architecture that could subsume these networks under a unified framework that achieves both higher performance and less overhead. To this end, two fundamental issues are yet to be addressed. The first one is how to implement the back propagation when neuronal activations are discrete. The second one is how to remove the full-precision hidden weights in the training phase to break the bottlenecks of memory/computation consumption. To address the first issue, we present a multi-step neuronal activation discretization method and a derivative approximation technique that enable the implementing the back propagation algorithm on discrete DNNs. While for the second issue, we propose a discrete state transition (DST) methodology to constrain the weights in a discrete space without saving the hidden weights. Through this way, we build a unified framework that subsumes the binary or ternary networks as its special cases, and under which a heuristic algorithm is provided at the website https://github.com/AcrossV/Gated-XNOR. More particularly, we find that when both the weights and activations become ternary values, the DNNs can be reduced to sparse binary networks, termed as gated XNOR networks (GXNOR-Nets) since only the event of non-zero weight and non-zero activation enables the control gate to start the XNOR logic operations in the original binary networks. This promises the event-driven hardware design for efficient mobile intelligence. We achieve advanced performance compared with state-of-the-art algorithms. Furthermore, the computational sparsity and the number of states in the discrete space can be flexibly modified to make it suitable for various hardware platforms.",
+            "aminer_id": "5aed14c317c44a4438157bad"
+        },
+        "penghang_yin_quantization_2017_r36": {
+            "number": "[10]",
+            "title": "QUANTIZATION AND TRAINING OF LOW BIT-WIDTH CONVOLUTIONAL NEURAL NETWORKS FOR OBJECT DETECTION",
+            "text": "title = {Quantization and training of low bit-width convolutional neural networks for object detection},\n\t\n\tlanguage = {36},\n\tjournal = {arXiv preprint arXiv:1612.06052},\n\tauthor = {Penghang Yin and Zhang Shuai and Qi Yingyong and Xin Jack},\n\tyear = {2017},\n\tkeywords = {PoW2},",
+            "type": "misc",
+            "fields": {
+                "title": "Quantization and training of low bit-width convolutional neural networks for object detection",
+                "language": "36",
+                "journal": "arXiv preprint arXiv:1612.06052",
+                "author": "Penghang Yin and Zhang Shuai and Qi Yingyong and Xin Jack",
+                "year": "2017",
+                "keywords": "PoW2"
+            },
+            "ref_source": "bib",
+            "abstract": "We present LBW-Net, an efficient optimization based method for quantization and training of the low bit-width convolutional neural networks (CNNs). Specifically, we quantize the weights to zero or powers of two by minimizing the Euclidean distance between full-precision weights and quantized weights during backpropagation. We characterize the combinatorial nature of the low bit-width quantization problem. For 2-bit (ternary) CNNs, the quantization of $N$ weights can be done by an exact formula in $O(N\\log N)$ complexity. When the bit-width is three and above, we further propose a semi-analytical thresholding scheme with a single free parameter for quantization that is computationally inexpensive. The free parameter is further determined by network retraining and object detection tests. LBW-Net has several desirable advantages over full-precision CNNs, including considerable memory savings, energy efficiency, and faster deployment. Our experiments on PASCAL VOC dataset show that compared with its 32-bit floating-point counterpart, the performance of the 6-bit LBW-Net is nearly lossless in the object detection tasks, and can even do better in some real world visual scenes, while empirically enjoying more than 4$\\times$ faster deployment.",
+            "aminer_id": "5c7570dbf56def979872e682"
+        },
+        "chiueh_learning_1988_r56": {
+            "number": "[11]",
+            "title": "Learning Algorithms for Neural Networks with Ternary Weights",
+            "text": "title = {Learning algorithms for neural networks with ternary weights},\n\tvolume = {1},\n\t\n\tlanguage = {56},\n\tjournal = {Neural Networks},\n\tauthor = {Chiueh Tzi-Dar and Goodman Rodney M},\n\tyear = {1988},\n\tpages = {166},",
+            "type": "misc",
+            "fields": {
+                "title": "Learning algorithms for neural networks with ternary weights",
+                "volume": "1",
+                "language": "56",
+                "journal": "Neural Networks",
+                "author": "Chiueh Tzi-Dar and Goodman Rodney M",
+                "year": "1988",
+                "pages": "166"
+            },
+            "ref_source": "bib",
+            "abstract": "A type of optimized neural networks with limited precision weights (LPWNN) is presented in this paper. Such neural networks, which require less memory for storing the weights and less expensive floating point units in order to perform the computations involved, are better suited for embedded systems implementation than the real weight ones. Based on analyzing the learning capability of LPWNN, Quantize Back-propagation Step-by-Step (QBPSS) algorithm is proposed for such neural networks to overcome the effects of limited precision. Methods of designing and training LPNN are represented, including the quantization of non-linear activation function and the selection of learning rate, network architecture and weights precision. The optimized LPWNN performance has been evaluated by comparing to conventional neural networks with double-precision floating-point weights on road recognition of image for intelligent vehicle in ARM 9 embedded systems, and the results show the optimized LPWNN has 7 times faster than the conventional ones.",
+            "aminer_id": "53e9b20cb7602d9703ca7224"
+        },
+        "hoskins_vlsi_1995_r53": {
+            "number": "[12]",
+            "title": "A VLSI Implementation of Multi-Layer Neural Network with Ternary Activation Functions and Limited Integer Weights",
+            "text": "title = {A {VLSI} implementation of multi-layer neural network with ternary activation functions and limited integer weights},\n\t\n\tlanguage = {53},\n\tbooktitle = {International {Conference} on {Microelectronics}},\n\tauthor = {Hoskins B. G. and Haskard M. R. and Curkowicz G. R.},\n\tyear = {1995},\n\tkeywords = {Application software Artificial neural networks Character recognition Floating-point arithmetic Hardware Intelligent networks Multi-layer neural network Neural networks Quantization Very large scale integration},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A {VLSI} implementation of multi-layer neural network with ternary activation functions and limited integer weights",
+                "language": "53",
+                "booktitle": "International {Conference} on {Microelectronics}",
+                "author": "Hoskins B. G. and Haskard M. R. and Curkowicz G. R.",
+                "year": "1995",
+                "keywords": "Application software Artificial neural networks Character recognition Floating-point arithmetic Hardware Intelligent networks Multi-layer neural network Neural networks Quantization Very large scale integration"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper describes a digital neural network architecture and its VLSI implementation. Multi-layer neural networks are made feasible through input and output signal multiplexing, ternary quantisation of signals and integer weights. Use of the chip is demonstrated in the simulation of a character recognition problem",
+            "aminer_id": "558a3efde4b0b32fcb35add8"
+        },
+        "curkowicz_back-propagation_1994_r54": {
+            "number": "[13]",
+            "title": "A Back-Propagation Adaptation Yielding a Ternary Output ANN with Limited Integer Weights",
+            "text": "title = {A {Back}-{Propagation} {Adaptation} {Yielding} a {Ternary} {Output} {ANN} with {Limited} {Integer} {Weights}},\n\tvolume = {Vol. 1},\n\t\n\tlanguage = {54},\n\tjournal = {Australian Journal of  Intelligent Information  Processing Systems},\n\tauthor = {Curkowicz GR and Haskard MR},\n\tyear = {1994},\n\tpages = {16--20},",
+            "type": "misc",
+            "fields": {
+                "title": "A {Back}-{Propagation} {Adaptation} {Yielding} a {Ternary} {Output} {ANN} with {Limited} {Integer} {Weights}",
+                "volume": "Vol. 1",
+                "language": "54",
+                "journal": "Australian Journal of Intelligent Information Processing Systems",
+                "author": "Curkowicz GR and Haskard MR",
+                "year": "1994",
+                "pages": "16--20"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "lin_neural_2016_r47": {
+            "number": "[14]",
+            "title": "Neural Networks with Few Multiplications",
+            "text": "title = {Neural {Networks} with {Few} {Multiplications}},\n\t\n\tlanguage = {47},\n\tbooktitle = {International {Conference} on {Learning} {Representations}},\n\tauthor = {Lin Zhouhan and Courbariaux Matthieu and Memisevic Roland and Bengio Yoshua},\n\tmonth = feb,\n\tyear = {2016},\n\tkeywords = {Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing PoW2 Stochastic},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Neural {Networks} with {Few} {Multiplications}",
+                "language": "47",
+                "booktitle": "International {Conference} on {Learning} {Representations}",
+                "author": "Lin Zhouhan and Courbariaux Matthieu and Memisevic Roland and Bengio Yoshua",
+                "year": "2016",
+                "keywords": "Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing PoW2 Stochastic"
+            },
+            "ref_source": "bib",
+            "abstract": "For most deep learning algorithms training is notoriously time consuming. Since most of the computation in training neural networks is typically spent on floating point multiplications, we investigate an approach to training that eliminates the need for most of these. Our method consists of two parts: First we stochastically binarize weights to convert multiplications involved in computing hidden states to sign changes. Second, while back-propagating error derivatives, in addition to binarizing the weights, we quantize the representations at each layer to convert the remaining multiplications into binary shifts. Experimental results across 3 popular datasets (MNIST, CIFAR10, SVHN) show that this approach not only does not hurt classification performance but can result in even better performance than standard stochastic gradient descent training, paving the way to fast, hardware-friendly training of neural networks.",
+            "aminer_id": "573696086e3b12023e51bd50"
+        },
+        "esser_convolutional_2016_r49": {
+            "number": "[15]",
+            "title": "Convolutional networks for fast energy-efficient neuromorphic computing",
+            "text": "title = {Convolutional networks for fast energy-efficient neuromorphic computing},\n\tvolume = {113},\n\t\n\tlanguage = {49},\n\tjournal = {Proceedings of the National Academy of Sciences of the United States of America},\n\tauthor = {Esser Steven K. and Merolla Paul A. and Arthur John V. and Cassidy Andrew S. and Appuswamy Rathinakumar and Andreopoulos Alexander and Berg David and McKinstry Jeffrey L. and Melano Timothy and Davis R. and Nolfo Carmelo di and Datta Pallab and Amir Arnon and Taba Brian and Flickner Myron D. and Modha Dharmendra S.},\n\tyear = {2016},\n\tkeywords = {Computer Science - Neural and Evolutionary Computing Hardware},\n\tpages = {11441--11446},",
+            "type": "misc",
+            "fields": {
+                "title": "Convolutional networks for fast energy-efficient neuromorphic computing",
+                "volume": "113",
+                "language": "49",
+                "journal": "Proceedings of the National Academy of Sciences of the United States of America",
+                "author": "Esser Steven K. and Merolla Paul A. and Arthur John V. and Cassidy Andrew S. and Appuswamy Rathinakumar and Andreopoulos Alexander and Berg David and McKinstry Jeffrey L. and Melano Timothy and Davis R. and Nolfo Carmelo di and Datta Pallab and Amir Arnon and Taba Brian and Flickner Myron D. and Modha Dharmendra S.",
+                "year": "2016",
+                "keywords": "Computer Science - Neural and Evolutionary Computing Hardware",
+                "pages": "11441--11446"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5736960d6e3b12023e520956"
+        },
+        "wang_fixed-point_2017_r35": {
+            "number": "[16]",
+            "title": "Fixed-Point Factorized Networks",
+            "text": "address = {Honolulu HI},\n\ttitle = {Fixed-{Point} {Factorized} {Networks}},\n\t\n\tisbn = {978-1-5386-0457-1},\n\turl = {http://ieeexplore.ieee.org/document/8099905/},\n\tdoi = {10.1109/CVPR.2017.422},\n\t\n\tlanguage = {35},\n\turldate = {2022-04-17},\n\tbooktitle = {2017 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})},\n\tpublisher = {IEEE},\n\tauthor = {Wang Peisong and Cheng Jian},\n\tmonth = jul,\n\tyear = {2017},\n\t\n\tkeywords = {greedy},\n\tpages = {3966--3974},",
+            "type": "inproceedings",
+            "fields": {
+                "address": "Honolulu HI",
+                "title": "Fixed-{Point} {Factorized} {Networks}",
+                "isbn": "978-1-5386-0457-1",
+                "url": "http://ieeexplore.ieee.org/document/8099905/",
+                "doi": "10.1109/CVPR.2017.422",
+                "language": "35",
+                "urldate": "2022-04-17",
+                "booktitle": "2017 {IEEE} {Conference} on {Computer} {Vision} and {Pattern} {Recognition} ({CVPR})",
+                "publisher": "IEEE",
+                "author": "Wang Peisong and Cheng Jian",
+                "year": "2017",
+                "keywords": "greedy",
+                "pages": "3966--3974"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d82fced649053542fd6fae"
+        },
+        "zhou_incremental_2017_r34": {
+            "number": "[17]",
+            "title": "Incremental Network Quantization: Towards Lossless CNNs with Low-Precision Weights",
+            "text": "title = {Incremental {Network} {Quantization}: {Towards} {Lossless} {CNNs} with {Low}-{Precision} {Weights}},\n\t\n\tshorttitle = {Incremental {Network} {Quantization}},\n\turl = {http://arxiv.org/abs/1702.03044},\n\t\n\tlanguage = {34},\n\turldate = {2022-04-17},\n\tjournal = {arXiv:1702.03044 [cs]},\n\tauthor = {Zhou Aojun and Yao Anbang and Guo Yiwen and Xu Lin and Chen Yurong},\n\tmonth = aug,\n\tyear = {2017},\n\t\n\tkeywords = {4/3 Computer Science - Artificial Intelligence Computer Science - Computer Vision and Pattern Recognition Computer Science - Neural and Evolutionary Computing PoW2},",
+            "type": "misc",
+            "fields": {
+                "title": "Incremental {Network} {Quantization}: {Towards} {Lossless} {CNNs} with {Low}-{Precision} {Weights}",
+                "shorttitle": "Incremental {Network} {Quantization}",
+                "url": "http://arxiv.org/abs/1702.03044",
+                "language": "34",
+                "urldate": "2022-04-17",
+                "journal": "arXiv:1702.03044 [cs]",
+                "author": "Zhou Aojun and Yao Anbang and Guo Yiwen and Xu Lin and Chen Yurong",
+                "year": "2017",
+                "keywords": "4/3 Computer Science - Artificial Intelligence Computer Science - Computer Vision and Pattern Recognition Computer Science - Neural and Evolutionary Computing PoW2"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d82fced649053542fd6dc0"
+        },
+        "wang_two-step_2018_r27": {
+            "number": "[18]",
+            "title": "Two-step quantization for low-bit neural networks",
+            "text": "title = {Two-step quantization for low-bit neural networks},\n\t\n\tlanguage = {27},\n\tbooktitle = {Proceedings of the {IEEE} {Conference} on computer vision and pattern recognition},\n\tauthor = {Wang Peisong and Hu Qinghao and Zhang Yifan and Zhang Chunjie and Liu Yang and Cheng Jian},\n\tyear = {2018},\n\tkeywords = {PoW2},\n\tpages = {4376--4384},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Two-step quantization for low-bit neural networks",
+                "language": "27",
+                "booktitle": "Proceedings of the {IEEE} {Conference} on computer vision and pattern recognition",
+                "author": "Wang Peisong and Hu Qinghao and Zhang Yifan and Zhang Chunjie and Liu Yang and Cheng Jian",
+                "year": "2018",
+                "keywords": "PoW2",
+                "pages": "4376--4384"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c0495ae17c44a2c74701921"
+        },
+        "hwang_fixed-point_2014_r52": {
+            "number": "[19]",
+            "title": "Fixed-point feedforward deep neural network design using weights +1 0 and -1",
+            "text": "title = {Fixed-point feedforward deep neural network design using weights +1 0 and -1},\n\t\n\tdoi = {10.1109/SiPS.2014.6986082},\n\t\n\tlanguage = {52},\n\tbooktitle = {2014 {IEEE} {Workshop} on {Signal} {Processing} {Systems} ({SiPS})},\n\tauthor = {Hwang Kyuyeon and Sung Wonyong},\n\tmonth = oct,\n\tyear = {2014},\n\t\n\tkeywords = {Backpropagation Error analysis Feedforward neural networks Hardware Quantization (signal) Training},\n\tpages = {1--6},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fixed-point feedforward deep neural network design using weights +1 0 and -1",
+                "doi": "10.1109/SiPS.2014.6986082",
+                "language": "52",
+                "booktitle": "2014 {IEEE} {Workshop} on {Signal} {Processing} {Systems} ({SiPS})",
+                "author": "Hwang Kyuyeon and Sung Wonyong",
+                "year": "2014",
+                "keywords": "Backpropagation Error analysis Feedforward neural networks Hardware Quantization (signal) Training",
+                "pages": "1--6"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "557c615308b02739a5ca5b91"
+        },
+        "wang_hitnet_2018_r28": {
+            "number": "[20]",
+            "title": "HitNet: Hybrid Ternary Recurrent Neural Network",
+            "text": "title = {{HitNet}: {Hybrid} {Ternary} {Recurrent} {Neural} {Network}},\n\tvolume = {31},\n\t\n\tshorttitle = {{HitNet}},\n\turl = {https://proceedings.neurips.cc/paper/2018/hash/82cec96096d4281b7c95cd7e74623496-Abstract.html},\n\t\n\tlanguage = {28},\n\turldate = {2022-04-17},\n\tbooktitle = {Advances in {Neural} {Information} {Processing} {Systems}},\n\tpublisher = {Curran Associates Inc.},\n\tauthor = {Wang Peiqi and Xie Xinfeng and Deng Lei and Li Guoqi and Wang Dongsheng and Xie Yuan},\n\tyear = {2018},\n\tkeywords = {prob},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{HitNet}: {Hybrid} {Ternary} {Recurrent} {Neural} {Network}",
+                "volume": "31",
+                "shorttitle": "{HitNet}",
+                "url": "https://proceedings.neurips.cc/paper/2018/hash/82cec96096d4281b7c95cd7e74623496-Abstract.html",
+                "language": "28",
+                "urldate": "2022-04-17",
+                "booktitle": "Advances in {Neural} {Information} {Processing} {Systems}",
+                "publisher": "Curran Associates Inc.",
+                "author": "Wang Peiqi and Xie Xinfeng and Deng Lei and Li Guoqi and Wang Dongsheng and Xie Yuan",
+                "year": "2018",
+                "keywords": "prob"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c2348ceda562935fc1d585e"
+        },
+        "hu_cluster_2019_r24": {
+            "number": "[21]",
+            "title": "CLUSTER REGULARIZED QUANTIZATION FOR DEEP NETWORKS COMPRESSION",
+            "text": "title = {Cluster {Regularized} {Quantization} for {Deep} {Networks} {Compression}},\n\t\n\tdoi = {10.1109/ICIP.2019.8803034},\n\t\n\tlanguage = {24},\n\tbooktitle = {2019 {IEEE} {International} {Conference} on {Image} {Processing} ({ICIP})},\n\tauthor = {Hu Yiming and Li Jianquan and Long Xianlei and Hu Shenhua and Zhu Jiagang and Wang Xingang and Gu Qingyi},\n\tmonth = sep,\n\tyear = {2019},\n\t\n\tkeywords = {Clustering algorithms Computational modeling Convergence deep neural networks Error analysis model compression object classification Optimization quantization Quantization (signal) Training},\n\tpages = {914--918},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Cluster {Regularized} {Quantization} for {Deep} {Networks} {Compression}",
+                "doi": "10.1109/ICIP.2019.8803034",
+                "language": "24",
+                "booktitle": "2019 {IEEE} {International} {Conference} on {Image} {Processing} ({ICIP})",
+                "author": "Hu Yiming and Li Jianquan and Long Xianlei and Hu Shenhua and Zhu Jiagang and Wang Xingang and Gu Qingyi",
+                "year": "2019",
+                "keywords": "Clustering algorithms Computational modeling Convergence deep neural networks Error analysis model compression object classification Optimization quantization Quantization (signal) Training",
+                "pages": "914--918"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep neural networks (DNNs) have achieved great success in a wide range of computer vision areas, but the applications to mobile devices is limited due to their high storage and computational cost. Much efforts have been devoted to compress DNNs. In this paper, we propose a simple yet effective method for deep networks compression, named Cluster Regularized Quantization (CRQ), which can reduce the presentation precision of a full-precision model to ternary values without significant accuracy drop. In particular, the proposed method aims at reducing the quantization error by introducing a cluster regularization term, which is imposed on the full-precision weights to enable them naturally concentrate around the target values. Through explicitly regularizing the weights during the re-training stage, the full-precision model can achieve the smooth transition to the low-bit one. Comprehensive experiments on benchmark datasets demonstrate the effectiveness of the proposed method.",
+            "aminer_id": "65681a5b939a5f4082ef1a43"
+        },
+        "he_optimize_2019_r25": {
+            "number": "[22]",
+            "title": "Optimize Deep Convolutional Neural Network with Ternarized Weights and High Accuracy",
+            "text": "title = {Optimize {Deep} {Convolutional} {Neural} {Network} with {Ternarized} {Weights} and {High} {Accuracy}},\n\t\n\tdoi = {10.1109/WACV.2019.00102},\n\t\n\tlanguage = {25},\n\tbooktitle = {2019 {IEEE} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})},\n\tauthor = {He Zhezhi and Gong Boqing and Fan Deliang},\n\tmonth = jan,\n\tyear = {2019},\n\t\n\tkeywords = {Computational modeling Computer Science - Computer Vision and Pattern Recognition Convolution Degradation Hardware Image coding Neural networks Training},\n\tpages = {913--921},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Optimize {Deep} {Convolutional} {Neural} {Network} with {Ternarized} {Weights} and {High} {Accuracy}",
+                "doi": "10.1109/WACV.2019.00102",
+                "language": "25",
+                "booktitle": "2019 {IEEE} {Winter} {Conference} on {Applications} of {Computer} {Vision} ({WACV})",
+                "author": "He Zhezhi and Gong Boqing and Fan Deliang",
+                "year": "2019",
+                "keywords": "Computational modeling Computer Science - Computer Vision and Pattern Recognition Convolution Degradation Hardware Image coding Neural networks Training",
+                "pages": "913--921"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep convolution neural network has achieved great success in many artificial intelligence applications. However, its enormous model size and massive computation cost have become the main obstacle for deployment of such powerful algorithm in the low power and resource limited embedded systems. As the countermeasure to this problem, in this work, we propose statistical weight scaling and residual expansion methods to reduce the bit-width of the whole network weight parameters to ternary values (i.e. -1, 0, +1), with the objectives to greatly reduce model size, computation cost and accuracy degradation caused by the model compression. With about 16X model compression rate, our ternarized ResNet-32/44/56 could outperforms full-precision counterparts by 0.12%, 0.24% and 0.18% on CIFAR-10 dataset. We also test our ternarization method with AlexNet and ResNet-18 on ImageNet dataset, which both achieve the best top-1 accuracy compared to recent similar works, with the same 16X compression rate. If further incorporating our residual expansion method, compared to the full-precision counterpart, our ternarized ResNet-18 even improves the top-5 accuracy by 0.61% and merely degrades the top-1 accuracy only by 0.42% for ImageNet dataset, with 8X model compression rate. It outperforms the recent ABC-Net by 1.03% in top-1 accuracy and 1.78% in top-5 accuracy, with around 1.25X higher compression rate and more than 6X computation reduction due to the weight sparsity.",
+            "aminer_id": "5efe0480dfae548d33e59f02"
+        },
+        "leng_extremely_2017_r39": {
+            "number": "[23]",
+            "title": "Extremely Low Bit Neural Network: Squeeze the Last Bit out with ADMM",
+            "text": "title = {Extremely {Low} {Bit} {Neural} {Network}: {Squeeze} the {Last} {Bit} {Out} with {ADMM}},\n\t\n\tshorttitle = {Extremely {Low} {Bit} {Neural} {Network}},\n\turl = {http://arxiv.org/abs/1707.09870},\n\t\n\tlanguage = {39},\n\turldate = {2022-04-18},\n\tjournal = {arXiv:1707.09870 [cs]},\n\tauthor = {Leng Cong and Li Hao and Zhu Shenghuo and Jin Rong},\n\tmonth = sep,\n\tyear = {2017},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition PoW2},",
+            "type": "misc",
+            "fields": {
+                "title": "Extremely {Low} {Bit} {Neural} {Network}: {Squeeze} the {Last} {Bit} {Out} with {ADMM}",
+                "shorttitle": "Extremely {Low} {Bit} {Neural} {Network}",
+                "url": "http://arxiv.org/abs/1707.09870",
+                "language": "39",
+                "urldate": "2022-04-18",
+                "journal": "arXiv:1707.09870 [cs]",
+                "author": "Leng Cong and Li Hao and Zhu Shenghuo and Jin Rong",
+                "year": "2017",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition PoW2"
+            },
+            "ref_source": "bib",
+            "abstract": "Although deep learning models are highly effective for various learning tasks, their high computational costs prohibit the deployment to scenarios where either memory or computational resources are limited. In this paper, we focus on compressing and accelerating deep models with network weights represented by very small numbers of bits, referred to as extremely low bit neural network. We model this problem as a discretely constrained optimization problem. Borrowing the idea from Alternating Direction Method of Multipliers (ADMM), we decouple the continuous parameters from the discrete constraints of network, and cast the original hard problem into several subproblems. We propose to solve these subproblems using extragradient and iterative quantization algorithms that lead to considerably faster convergency compared to conventional optimization methods. Extensive experiments on image recognition and object detection verify that the proposed algorithm is more effective than state-of-the-art approaches when coming to extremely low bit neural network.",
+            "aminer_id": "5b1642388fbcbf6e5a9b5691"
+        },
+        "kim_binaryduo_2020_r15": {
+            "number": "[24]",
+            "title": "BinaryDuo: Reducing Gradient Mismatch in Binary Activation Network by Coupling Binary Activations",
+            "text": "title = {{BinaryDuo}: {Reducing} {Gradient} {Mismatch} in {Binary} {Activation} {Network} by {Coupling} {Binary} {Activations}},\n\t\n\tshorttitle = {{BinaryDuo}},\n\turl = {http://arxiv.org/abs/2002.06517},\n\t\n\tlanguage = {15},\n\turldate = {2022-04-20},\n\tjournal = {arXiv:2002.06517 [cs stat]},\n\tauthor = {Kim Hyungjun and Kim Kyungsu and Kim Jinseok and Kim Jae-Joon},\n\tmonth = feb,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Machine Learning Statistics - Machine Learning},",
+            "type": "misc",
+            "fields": {
+                "title": "{BinaryDuo}: {Reducing} {Gradient} {Mismatch} in {Binary} {Activation} {Network} by {Coupling} {Binary} {Activations}",
+                "shorttitle": "{BinaryDuo}",
+                "url": "http://arxiv.org/abs/2002.06517",
+                "language": "15",
+                "urldate": "2022-04-20",
+                "journal": "arXiv:2002.06517 [cs stat]",
+                "author": "Kim Hyungjun and Kim Kyungsu and Kim Jinseok and Kim Jae-Joon",
+                "year": "2020",
+                "keywords": "Computer Science - Machine Learning Statistics - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "Binary Neural Networks (BNNs) have been garnering interest thanks to their compute cost reduction and memory savings. However, BNNs suffer from performance degradation mainly due to the gradient mismatch caused by binarizing activations. Previous works tried to address the gradient mismatch problem by reducing the discrepancy between activation functions used at forward pass and its differentiable approximation used at backward pass, which is an indirect measure. In this work, we use the gradient of smoothed loss function to better estimate the gradient mismatch in quantized neural network. Analysis using the gradient mismatch estimator indicates that using higher precision for activation is more effective than modifying the differentiable approximation of activation function. Based on the observation, we propose a new training scheme for binary activation networks called BinaryDuo in which two binary activations are coupled into a ternary activation during training. Experimental results show that BinaryDuo outperforms state-of-the-art BNNs on various benchmarks with the same amount of parameters and computing cost.",
+            "aminer_id": "5e4d08333a55ac8cfd77089e"
+        },
+        "chen_fatnn_2021_r8": {
+            "number": "[25]",
+            "title": "FATNN: Fast and Accurate Ternary Neural Networks",
+            "text": "title = {{FATNN}: {Fast} and {Accurate} {Ternary} {Neural} {Networks}},\n\t\n\tshorttitle = {{FATNN}},\n\turl = {https://openaccess.thecvf.com/content/ICCV2021/html/Chen_FATNN_Fast_and_Accurate_Ternary_Neural_Networks_ICCV_2021_paper.html},\n\tlanguage = {8},\n\turldate = {2022-04-21},\n\tauthor = {Chen Peng and Zhuang Bohan and Shen Chunhua},\n\tyear = {2021},\n\tpages = {5219--5228},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{FATNN}: {Fast} and {Accurate} {Ternary} {Neural} {Networks}",
+                "shorttitle": "{FATNN}",
+                "url": "https://openaccess.thecvf.com/content/ICCV2021/html/Chen_FATNN_Fast_and_Accurate_Ternary_Neural_Networks_ICCV_2021_paper.html",
+                "language": "8",
+                "urldate": "2022-04-21",
+                "author": "Chen Peng and Zhuang Bohan and Shen Chunhua",
+                "year": "2021",
+                "pages": "5219--5228"
+            },
+            "ref_source": "bib",
+            "abstract": "Ternary Neural Networks (TNNs) have received much attention due to being potentially orders of magnitude faster in inference, as well as more power efficient, than full-precision counterparts. However, 2 bits are required to encode the ternary representation with only 3 quantization levels leveraged. As a result, conventional TNNs have similar memory consumption and speed compared with the standard 2-bit models, but have worse representational capability. Moreover, there is still a significant gap in accuracy between TNNs and full-precision networks, hampering their deployment to real applications. To tackle these two challenges, in this work, we first show that, under some mild constraints, computational complexity of the ternary inner product can be reduced by a factor of 2. Second, to mitigate the performance gap, we elaborately design an implementation-dependent ternary quantization algorithm. The proposed framework is termed Fast and Accurate Ternary Neural Networks (FATNN). Experiments on image classification demonstrate that our FATNN surpasses the state-of-the-arts by a significant margin in accuracy. More importantly, speedup evaluation compared with various precisions is analyzed on several platforms, which serves as a strong benchmark for further research.",
+            "aminer_id": "5f350d2d91e011d4254d01e9"
+        },
+        "xu_soft_2020_r11": {
+            "number": "[26]",
+            "title": "Soft Threshold Ternary Networks",
+            "text": "title = {Soft {Threshold} {Ternary} {Networks}},\n\tvolume = {3},\n\t\n\turl = {https://www.ijcai.org/proceedings/2020/318},\n\tdoi = {10.24963/ijcai.2020/318},\n\t\n\tlanguage = {11},\n\turldate = {2022-04-21},\n\tauthor = {Xu Weixiang and He Xiangyu and Zhao Tianli and Hu Qinghao and Wang Peisong and Cheng Jian},\n\tmonth = jul,\n\tyear = {2020},\n\t\n\tpages = {2298--2304},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Soft {Threshold} {Ternary} {Networks}",
+                "volume": "3",
+                "url": "https://www.ijcai.org/proceedings/2020/318",
+                "doi": "10.24963/ijcai.2020/318",
+                "language": "11",
+                "urldate": "2022-04-21",
+                "author": "Xu Weixiang and He Xiangyu and Zhao Tianli and Hu Qinghao and Wang Peisong and Cheng Jian",
+                "year": "2020",
+                "pages": "2298--2304"
+            },
+            "ref_source": "bib",
+            "abstract": "Large neural networks are difficult to deploy on mobile devices because of intensive computation and storage. To alleviate it, we study ternarization, a balance between efficiency and accuracy that quantizes both weights and activations into ternary values. In previous ternarized neural networks, a hard threshold Δ is introduced to determine quantization intervals. Although the selection of Δ greatly affects the training results, previous works estimate Δ via an approximation or treat it as a hyper-parameter, which is suboptimal. In this paper, we present the Soft Threshold Ternary Networks (STTN), which enables the model to automatically determine quantization intervals instead of depending on a hard threshold. Concretely, we replace the original ternary kernel with the addition of two binary kernels at training time, where ternary values are determined by the combination of two corresponding binary values. At inference time, we add up the two binary kernels to obtain a single ternary kernel. Our method dramatically outperforms current state-of-the-arts, lowering the performance gap between full-precision networks and extreme low bit networks. Experiments on ImageNet with AlexNet (Top-1 55.6%), ResNet-18 (Top-1 66.2%) achieves new state-of-the-art.",
+            "aminer_id": "64e957993fda6d7f06f38606"
+        },
+        "li_rtn_2019_r23": {
+            "number": "[27]",
+            "title": "RTN: Reparameterized Ternary Network",
+            "text": "title = {{RTN}: {Reparameterized} {Ternary} {Network}},\n\t\n\tshorttitle = {{RTN}},\n\turl = {http://arxiv.org/abs/1912.02057},\n\t\n\tlanguage = {23},\n\turldate = {2022-04-21},\n\tjournal = {arXiv:1912.02057 [cs eess]},\n\tauthor = {Li Yuhang and Dong Xin and Zhang Sai Qian and Bai Haoli and Chen Yuanpeng and Wang Wei},\n\tmonth = dec,\n\tyear = {2019},\n\t\n\tkeywords = {Computer Science - Machine Learning Electrical Engineering and Systems Science - Signal Processing},",
+            "type": "misc",
+            "fields": {
+                "title": "{RTN}: {Reparameterized} {Ternary} {Network}",
+                "shorttitle": "{RTN}",
+                "url": "http://arxiv.org/abs/1912.02057",
+                "language": "23",
+                "urldate": "2022-04-21",
+                "journal": "arXiv:1912.02057 [cs eess]",
+                "author": "Li Yuhang and Dong Xin and Zhang Sai Qian and Bai Haoli and Chen Yuanpeng and Wang Wei",
+                "year": "2019",
+                "keywords": "Computer Science - Machine Learning Electrical Engineering and Systems Science - Signal Processing"
+            },
+            "ref_source": "bib",
+            "abstract": "To deploy deep neural networks on resource-limited devices, quantization has been widely explored. In this work, we study the extremely low-bit networks which have tremendous speed-up, memory saving with quantized activation and weights. We first bring up three omitted issues in extremely low-bit networks: the squashing range of quantized values; the gradient vanishing during backpropagation and the unexploited hardware acceleration of ternary networks. By reparameterizing quantized activation and weights vector with full precision scale and offset for fixed ternary vector, we decouple the range and magnitude from direction to extenuate above problems. Learnable scale and offset can automatically adjust the range of quantized values and sparsity without gradient vanishing. A novel encoding and computation pattern are designed to support efficient computing for our reparameterized ternary network (RTN). Experiments on ResNet-18 for ImageNet demonstrate that the proposed RTN finds a much better efficiency between bitwidth and accuracy and achieves up to 26.76% relative accuracy improvement compared with state-of-the-art methods. Moreover, we validate the proposed computation pattern on Field Programmable Gate Arrays (FPGA), and it brings 46.46 × and 89.17 × savings on power and area compared with the full precision convolution.",
+            "aminer_id": "5de8d54c3a55ac9c422918bf"
+        },
+        "razani_adaptive_2021_r4": {
+            "number": "[28]",
+            "title": "Adaptive Binary-Ternary Quantization",
+            "text": "title = {Adaptive {Binary}-{Ternary} {Quantization}},\n\t\n\turl = {https://openaccess.thecvf.com/content/CVPR2021W/BiVision/html/Razani_Adaptive_Binary-Ternary_Quantization_CVPRW_2021_paper.html},\n\tlanguage = {4},\n\turldate = {2022-04-22},\n\tauthor = {Razani Ryan and Morin Gregoire and Sari Eyyub and Nia Vahid Partovi},\n\tyear = {2021},\n\tkeywords = {97R40 Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning further reading Statistics - Machine Learning},\n\tpages = {4613--4618},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Adaptive {Binary}-{Ternary} {Quantization}",
+                "url": "https://openaccess.thecvf.com/content/CVPR2021W/BiVision/html/Razani_Adaptive_Binary-Ternary_Quantization_CVPRW_2021_paper.html",
+                "language": "4",
+                "urldate": "2022-04-22",
+                "author": "Razani Ryan and Morin Gregoire and Sari Eyyub and Nia Vahid Partovi",
+                "year": "2021",
+                "keywords": "97R40 Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning further reading Statistics - Machine Learning",
+                "pages": "4613--4618"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural network models are resource hungry. It is difficult to deploy such deep networks on devices with limited resources, like smart wearables, cellphones, drones, and autonomous vehicles. Low bit quantization such as binary and ternary quantization is a common approach to alleviate this resource requirements. Ternary quantization provides a more flexible model and outperforms binary quantization in terms of accuracy, however doubles the memory footprint and increases the computational cost. Contrary to these approaches, mixed quantized models allow a trade-off between accuracy and memory footprint. In such models, quantization depth is often chosen manually, or is tuned using a separate optimization routine. The latter requires training a quantized network multiple times. Here, we propose an adaptive combination of binary and ternary quantization, namely Smart Quantization (SQ), in which the quantization depth is modified directly via a regularization function, so that the model is trained only once. Our experimental results show that the proposed method adapts quantization depth successfully while keeping the model accuracy high on MNIST and CIFAR10 benchmarks.",
+            "aminer_id": "5d8dded63a55acd1b54969c9"
+        },
+        "li_trq_2021_r5": {
+            "number": "[29]",
+            "title": "TRQ: Ternary Neural Networks with Residual Quantization",
+            "text": "title = {{TRQ}: {Ternary} {Neural} {Networks} {With} {Residual} {Quantization}},\n\tvolume = {35},\n\t\n\tissn = {2374-3468},\n\tshorttitle = {{TRQ}},\n\turl = {https://ojs.aaai.org/index.php/AAAI/article/view/17036},\n\t\n\tlanguage = {5},\n\tnumber = {10},\n\turldate = {2022-04-22},\n\tjournal = {Proceedings of the AAAI Conference on Artificial Intelligence},\n\tauthor = {Li Yue and Ding Wenrui and Liu Chunlei and Zhang Baochang and Guo Guodong},\n\tmonth = may,\n\tyear = {2021},\n\t\n\tkeywords = {Applications},\n\tpages = {8538--8546},",
+            "type": "misc",
+            "fields": {
+                "title": "{TRQ}: {Ternary} {Neural} {Networks} {With} {Residual} {Quantization}",
+                "volume": "35",
+                "issn": "2374-3468",
+                "shorttitle": "{TRQ}",
+                "url": "https://ojs.aaai.org/index.php/AAAI/article/view/17036",
+                "language": "5",
+                "number": "10",
+                "urldate": "2022-04-22",
+                "journal": "Proceedings of the AAAI Conference on Artificial Intelligence",
+                "author": "Li Yue and Ding Wenrui and Liu Chunlei and Zhang Baochang and Guo Guodong",
+                "year": "2021",
+                "keywords": "Applications",
+                "pages": "8538--8546"
+            },
+            "ref_source": "bib",
+            "abstract": "Ternary neural networks (TNNs) are potential for network acceleration by reducing the full-precision weights in network to ternary ones, e.g., {-1,0,1}. However, existing TNNs are mostly calculated based on rule-of-thumb quantization methods by simply thresholding operations, which causes a significant accuracy loss. In this paper, we introduce a stem-residual framework which provides new insight into Ternary quantization, termed Residual Quantization (TRQ), to achieve more powerful TNNs. Rather than directly thresholding operations, TRQ recursively performs quantization on full-precision weights for a refined reconstruction by combining the binarized stem and residual parts. With such a unique quantization process, TRQ endows the quantizer with high flexibility and precision. Our TRQ is generic, which can be easily extended to multiple bits through recursively encoded residual for a better recognition accuracy. Extensive experimental results demonstrate that the proposed method yields great recognition accuracy while being accelerated.",
+            "aminer_id": "6020e1669e795e62379b5a23"
+        },
+        "zhu_tab_2022_r1": {
+            "number": "[30]",
+            "title": "TAB: Unified and Optimized Ternary Binary and Mixed-precision Neural Network Inference on the Edge",
+            "text": "title = {TAB: Unified and Optimized Ternary Binary and Mixed-precision Neural Network Inference on the Edge},\n\tvolume = {1},\n\t\n\tissn = {1539-9087},\n\tshorttitle = {{TAB}},\n\turl = {https://doi.org/10.1145/3508390},\n\tdoi = {10.1145/3508390},\n\t\n\tlanguage = {1},\n\turldate = {2022-04-22},\n\tjournal = {ACM Transactions on Embedded Computing Systems},\n\tauthor = {Zhu Shien and Duong Luan H. K. and Liu Weichen},\n\tmonth = dec,\n\tyear = {2022},\n\t\n\tkeywords = {Binary Neural Networks Edge Computing Hardware Ternary Neural Networks},",
+            "type": "misc",
+            "fields": {
+                "title": "TAB: Unified and Optimized Ternary Binary and Mixed-precision Neural Network Inference on the Edge",
+                "volume": "1",
+                "issn": "1539-9087",
+                "shorttitle": "{TAB}",
+                "url": "https://doi.org/10.1145/3508390",
+                "doi": "10.1145/3508390",
+                "language": "1",
+                "urldate": "2022-04-22",
+                "journal": "ACM Transactions on Embedded Computing Systems",
+                "author": "Zhu Shien and Duong Luan H. K. and Liu Weichen",
+                "year": "2022",
+                "keywords": "Binary Neural Networks Edge Computing Hardware Ternary Neural Networks"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6230095c5aee126c0faa0bc2"
+        },
+        "laborieux_low_2020_r14": {
+            "number": "[31]",
+            "title": "Low Power In-Memory Implementation of Ternary Neural Networks with Resistive RAM-Based Synapse",
+            "text": "title = {Low {Power} {In}-{Memory} {Implementation} of {Ternary} {Neural} {Networks} with {Resistive} {RAM}-{Based} {Synapse}},\n\t\n\tdoi = {10.1109/AICAS48895.2020.9073877},\n\t\n\tlanguage = {14},\n\tbooktitle = {2020 2nd {IEEE} {International} {Conference} on {Artificial} {Intelligence} {Circuits} and {Systems} ({AICAS})},\n\tauthor = {Laborieux A. and Bocquet M. and Hirtzlin T. and Klein J.-O. and Diez L. Herrera and Nowak E. and Vianello E. and Portal J.-M. and Querlioz D.},\n\tmonth = aug,\n\tyear = {2020},\n\t\n\tkeywords = {Biological neural networks Circuit simulation Hardware Immune system Integrated circuit modeling Memory management Task analysis},\n\tpages = {136--140},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Low {Power} {In}-{Memory} {Implementation} of {Ternary} {Neural} {Networks} with {Resistive} {RAM}-{Based} {Synapse}",
+                "doi": "10.1109/AICAS48895.2020.9073877",
+                "language": "14",
+                "booktitle": "2020 2nd {IEEE} {International} {Conference} on {Artificial} {Intelligence} {Circuits} and {Systems} ({AICAS})",
+                "author": "Laborieux A. and Bocquet M. and Hirtzlin T. and Klein J.-O. and Diez L. Herrera and Nowak E. and Vianello E. and Portal J.-M. and Querlioz D.",
+                "year": "2020",
+                "keywords": "Biological neural networks Circuit simulation Hardware Immune system Integrated circuit modeling Memory management Task analysis",
+                "pages": "136--140"
+            },
+            "ref_source": "bib",
+            "abstract": "The design of systems implementing low precision neural networks with emerging memories such as resistive random access memory (RRAM) is a major lead for reducing the energy consumption of artificial intelligence (AI). Multiple works have for example proposed in-memory architectures to implement low power binarized neural networks. These simple neural networks, where synaptic weights and neuronal activations assume binary values, can indeed approach state-of-the-art performance on vision tasks. In this work, we revisit one of these architectures where synapses are implemented in a differential fashion to reduce bit errors, and synaptic weights are read using precharge sense amplifiers. Based on experimental measurements on a hybrid 130 nm CMOS/RRAM chip and on circuit simulation, we show that the same memory array architecture can be used to implement ternary weights instead of binary weights, and that this technique is particularly appropriate if the sense amplifier is operated in near-threshold regime. We also show based on neural network simulation on the CIFAR-10 image recognition task that going from binary to ternary neural networks significantly increases neural network performance. These results highlight that AI circuits function may sometimes be revisited when operated in low power regimes.",
+            "aminer_id": "5eb3dc4191e011ce31f28009"
+        },
+        "jain_tim-dnn_2020_r16": {
+            "number": "[32]",
+            "title": "TiM-DNN: Ternary In-Memory Accelerator for Deep Neural Networks",
+            "text": "title = {{TiM}-{DNN}: {Ternary} {In}-{Memory} {Accelerator} for {Deep} {Neural} {Networks}},\n\tvolume = {28},\n\t\n\tissn = {1557-9999},\n\tshorttitle = {{TiM}-{DNN}},\n\tdoi = {10.1109/TVLSI.2020.2993045},\n\t\n\tlanguage = {16},\n\tnumber = {7},\n\tjournal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},\n\tauthor = {Jain Shubham and Gupta Sumeet Kumar and Raghunathan Anand},\n\tmonth = jul,\n\tyear = {2020},\n\t\n\tpages = {1567--1577},",
+            "type": "misc",
+            "fields": {
+                "title": "{TiM}-{DNN}: {Ternary} {In}-{Memory} {Accelerator} for {Deep} {Neural} {Networks}",
+                "volume": "28",
+                "issn": "1557-9999",
+                "shorttitle": "{TiM}-{DNN}",
+                "doi": "10.1109/TVLSI.2020.2993045",
+                "language": "16",
+                "number": "7",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "author": "Jain Shubham and Gupta Sumeet Kumar and Raghunathan Anand",
+                "year": "2020",
+                "pages": "1567--1577"
+            },
+            "ref_source": "bib",
+            "abstract": "The use of lower precision has emerged as a popular technique to optimize the compute and storage requirements of complex deep neural networks (DNNs). In the quest for lower precision, recent studies have shown that ternary DNNs (which represent weights and activations by signed ternary values) represent a promising sweet spot, achieving accuracy close to full-precision networks on complex tasks. We propose TiM-DNN, a programmable in-memory accelerator that is specifically designed to execute ternary DNNs. TiM-DNN supports various ternary representations including unweighted {-1, 0, 1}, symmetric weighted {-a, 0, a}, and asymmetric weighted {- a, 0, b} ternary systems. The building blocks of TiM-DNN are TiM tiles-specialized memory arrays that perform massively parallel signed ternary vector-matrix multiplications with a single access. TiM tiles are in turn composed of ternary processing cells (TPCs), bit-cells that function as both ternary storage units and signed ternary multiplication units. We evaluate an implementation of TiM-DNN in 32-nm technology using an architectural simulator calibrated with SPICE simulations and RTL synthesis. We evaluate TiM-DNN across a suite of state-of-the-art DNN benchmarks including both deep convolutional and recurrent neural networks. A 32-tile instance of TiM-DNN achieves a peak performance of 114 TOPs/s, consumes 0.9-W power, and occupies 1.96 mm(2) chip area, representing a 300x and 388x improvement in TOPS/W and TOPS/mm(2), respectively, compared to an NVIDIA Tesla V100 GPU. In comparison to specialized DNN accelerators, TiM-DNN achieves 55x-240x and 160x-291x improvement in TOPS/W and TOPS/mm(2), respectively. Finally, when compared to a well-optimized near-memory accelerator for ternary DNNs, TiM-DNN demonstrates 3.9x-4.7x improvement in system-level energy and 3.2x-4.2x speedup, underscoring the potential of in-memory computing for ternary DNNs.",
+            "aminer_id": "5d80b6e23a55acb8a2d78261"
+        },
+        "di_guglielmo_compressing_2020_r19": {
+            "number": "[33]",
+            "title": "Compressing Deep Neural Networks on FPGAs to Binary and Ternary Precision with Hls4ml",
+            "text": "title = {Compressing deep neural networks on {FPGAs} to binary and ternary precision with {HLS4ML}},\n\tvolume = {2},\n\t\n\tissn = {2632-2153},\n\turl = {http://arxiv.org/abs/2003.06308},\n\tdoi = {10.1088/2632-2153/aba042},\n\t\n\tlanguage = {19},\n\tnumber = {1},\n\turldate = {2022-04-23},\n\tjournal = {Machine Learning: Science and Technology},\n\tauthor = {Di Guglielmo Giuseppe and Duarte Javier and Harris Philip and Hoang Duc and Jindariani Sergo and Kreinar Edward and Liu Mia and Loncar Vladimir and Ngadiuba Jennifer and Pedro Kevin and Pierini Maurizio and Rankin Dylan and Sagear Sheila and Summers Sioni and Tran Nhan and Wu Zhenbin},\n\tmonth = dec,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Machine Learning Electrical Engineering and Systems Science - Signal Processing Hardware High Energy Physics - Experiment},\n\tpages = {015001},",
+            "type": "misc",
+            "fields": {
+                "title": "Compressing deep neural networks on {FPGAs} to binary and ternary precision with {HLS4ML}",
+                "volume": "2",
+                "issn": "2632-2153",
+                "url": "http://arxiv.org/abs/2003.06308",
+                "doi": "10.1088/2632-2153/aba042",
+                "language": "19",
+                "number": "1",
+                "urldate": "2022-04-23",
+                "journal": "Machine Learning: Science and Technology",
+                "author": "Di Guglielmo Giuseppe and Duarte Javier and Harris Philip and Hoang Duc and Jindariani Sergo and Kreinar Edward and Liu Mia and Loncar Vladimir and Ngadiuba Jennifer and Pedro Kevin and Pierini Maurizio and Rankin Dylan and Sagear Sheila and Summers Sioni and Tran Nhan and Wu Zhenbin",
+                "year": "2020",
+                "keywords": "Computer Science - Machine Learning Electrical Engineering and Systems Science - Signal Processing Hardware High Energy Physics - Experiment",
+                "pages": "015001"
+            },
+            "ref_source": "bib",
+            "abstract": "We present the implementation of binary and ternary neural networks in the hls4ml library, designed to automatically convert deep neural network models to digital circuits with field-programmable gate arrays (FPGA) firmware. Starting from benchmark models trained with floating point precision, we investigate different strategies to reduce the network’s resource consumption by reducing the numerical precision of the network parameters to binary or ternary. We discuss the trade-off between model accuracy and resource consumption. In addition, we show how to balance between latency and accuracy by retaining full precision on a selected subset of network components. As an example, we consider two multiclass classification tasks: handwritten digit recognition with the MNIST data set and jet identification with simulated proton-proton collisions at the CERN Large Hadron Collider. The binary and ternary implementation has similar performance to the higher precision implementation while using drastically fewer FPGA resources.",
+            "aminer_id": "5e6f4f1f91e011c42aa78cb1"
+        },
+        "lei_memory_2020_r13": {
+            "number": "[34]",
+            "title": "Memory and Computation-Efficient Kernel SVM Via Binary Embedding and Ternary Model Coefficients.",
+            "text": "title = {Memory and {Computation}-{Efficient} {Kernel} {SVM} via {Binary} {Embedding} and {Ternary} {Model} {Coefficients}},\n\t\n\turl = {http://arxiv.org/abs/2010.02577},\n\t\n\tlanguage = {13},\n\turldate = {2022-04-23},\n\tjournal = {arXiv:2010.02577 [cs]},\n\tauthor = {Lei Zijian and Lan Liang},\n\tmonth = oct,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Machine Learning},",
+            "type": "misc",
+            "fields": {
+                "title": "Memory and {Computation}-{Efficient} {Kernel} {SVM} via {Binary} {Embedding} and {Ternary} {Model} {Coefficients}",
+                "url": "http://arxiv.org/abs/2010.02577",
+                "language": "13",
+                "urldate": "2022-04-23",
+                "journal": "arXiv:2010.02577 [cs]",
+                "author": "Lei Zijian and Lan Liang",
+                "year": "2020",
+                "keywords": "Computer Science - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "Kernel approximation is widely used to scale up kernel SVM training and prediction. However, the memory and computation costs of kernel approximation models are still too large if we want to deploy them on memory-limited devices such as mobile phones, smart watches and IoT devices. To address this challenge, we propose a novel memory and computation-efficient kernel SVM model by using both binary embedding and binary model coefficients. First, we propose an efficient way to generate compact binary embedding of the data which can preserve the kernel similarity. Second, we propose a simple but effective algorithm to learn a linear classification model with binary coefficients which can support different types of loss function and regularizer. Our algorithm can achieve better generalization accuracy than existing works on learning binary coefficients since we allow coefficient to be -1, 0 or 1 during the training stage and coefficient 0 can be removed during model inference. Moreover, we provide detailed analysis on the convergence of our algorithm and the inference complexity of our model. The analysis shows that the convergence to a local optimum is guaranteed and the inference complexity of our model is much lower than other competing methods. Our experimental results on five large real-world datasets have demonstrated that our proposed method can build accurate nonlinear SVM model with memory cost less than 30KB.",
+            "aminer_id": "5f7d943391e011346ad27e2a"
+        },
+        "zhang_ternarybert_2020_r9": {
+            "number": "[35]",
+            "title": "TernaryBERT: Distillation-aware Ultra-low Bit BERT",
+            "text": "title = {{TernaryBERT}: {Distillation}-aware {Ultra}-low {Bit} {BERT}},\n\t\n\tshorttitle = {{TernaryBERT}},\n\turl = {http://arxiv.org/abs/2009.12812},\n\t\n\tlanguage = {9},\n\turldate = {2022-04-23},\n\tjournal = {arXiv:2009.12812 [cs eess]},\n\tauthor = {Zhang Wei and Hou Lu and Yin Yichun and Shang Lifeng and Chen Xiao and Jiang Xin and Liu Qun},\n\tmonth = oct,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Computation and Language Computer Science - Machine Learning Computer Science - Sound Electrical Engineering and Systems Science - Audio and Speech Processing KD},",
+            "type": "misc",
+            "fields": {
+                "title": "{TernaryBERT}: {Distillation}-aware {Ultra}-low {Bit} {BERT}",
+                "shorttitle": "{TernaryBERT}",
+                "url": "http://arxiv.org/abs/2009.12812",
+                "language": "9",
+                "urldate": "2022-04-23",
+                "journal": "arXiv:2009.12812 [cs eess]",
+                "author": "Zhang Wei and Hou Lu and Yin Yichun and Shang Lifeng and Chen Xiao and Jiang Xin and Liu Qun",
+                "year": "2020",
+                "keywords": "Computer Science - Computation and Language Computer Science - Machine Learning Computer Science - Sound Electrical Engineering and Systems Science - Audio and Speech Processing KD"
+            },
+            "ref_source": "bib",
+            "abstract": "Transformer-based pre-training models like BERT have achieved remarkable performance in many natural language processing tasks.However, these models are both computation and memory expensive, hindering their deployment to resource-constrained devices. In this work, we propose TernaryBERT, which ternarizes the weights in a fine-tuned BERT model. Specifically, we use both approximation-based and loss-aware ternarization methods and empirically investigate the ternarization granularity of different parts of BERT. Moreover, to reduce the accuracy degradation caused by the lower capacity of low bits, we leverage the knowledge distillation technique in the training process. Experiments on the GLUE benchmark and SQuAD show that our proposed TernaryBERT outperforms the other BERT quantization methods, and even achieves comparable performance as the full-precision model while being 14.9x smaller.",
+            "aminer_id": "64a57184d68f896efad7f665"
+        },
+        "cavigelli_rpr_2020_r21": {
+            "number": "[36]",
+            "title": "RPR: Random Partition Relaxation for Training; Binary and Ternary Weight Neural Networks",
+            "text": "title = {{RPR}: {Random} {Partition} {Relaxation} for {Training}; {Binary} and {Ternary} {Weight} {Neural} {Networks}},\n\t\n\tshorttitle = {{RPR}},\n\turl = {http://arxiv.org/abs/2001.01091},\n\t\n\tlanguage = {21},\n\turldate = {2022-04-23},\n\tjournal = {arXiv:2001.01091 [cs]},\n\tauthor = {Cavigelli Lukas and Benini Luca},\n\tmonth = jan,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition reinit},",
+            "type": "misc",
+            "fields": {
+                "title": "{RPR}: {Random} {Partition} {Relaxation} for {Training}; {Binary} and {Ternary} {Weight} {Neural} {Networks}",
+                "shorttitle": "{RPR}",
+                "url": "http://arxiv.org/abs/2001.01091",
+                "language": "21",
+                "urldate": "2022-04-23",
+                "journal": "arXiv:2001.01091 [cs]",
+                "author": "Cavigelli Lukas and Benini Luca",
+                "year": "2020",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition reinit"
+            },
+            "ref_source": "bib",
+            "abstract": "We present Random Partition Relaxation (RPR), a method for strong quantization of neural networks weight to binary (+1/-1) and ternary (+1/0/-1) values. Starting from a pre-trained model, we quantize the weights and then relax random partitions of them to their continuous values for retraining before re-quantizing them and switching to another weight partition for further adaptation. We demonstrate binary and ternary-weight networks with accuracies beyond the state-of-the-art for GoogLeNet and competitive performance for ResNet-18 and ResNet-50 using an SGD-based training method that can easily be integrated into existing frameworks.",
+            "aminer_id": "5e1456e83a55acd652ef316b"
+        },
+        "yang_quantization_2019_r22": {
+            "number": "[37]",
+            "title": "Quantization Networks",
+            "text": "title = {Quantization {Networks}},\n\t\n\turl = {http://arxiv.org/abs/1911.09464},\n\t\n\tlanguage = {22},\n\turldate = {2022-04-23},\n\tjournal = {arXiv:1911.09464 [cs stat]},\n\tauthor = {Yang Jiwei and Shen Xu and Xing Jun and Tian Xinmei and Li Houqiang and Deng Bing and Huang Jianqiang and Hua Xiansheng},\n\tmonth = nov,\n\tyear = {2019},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Continuous binarization no ste relax Statistics - Machine Learning},",
+            "type": "misc",
+            "fields": {
+                "title": "Quantization {Networks}",
+                "url": "http://arxiv.org/abs/1911.09464",
+                "language": "22",
+                "urldate": "2022-04-23",
+                "journal": "arXiv:1911.09464 [cs stat]",
+                "author": "Yang Jiwei and Shen Xu and Xing Jun and Tian Xinmei and Li Houqiang and Deng Bing and Huang Jianqiang and Hua Xiansheng",
+                "year": "2019",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Continuous binarization no ste relax Statistics - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5da2f8ab3a55ac3402d8c42b"
+        },
+        "sung_resiliency_2016_r45": {
+            "number": "[38]",
+            "title": "Resiliency of Deep Neural Networks under Quantization",
+            "text": "title = {Resiliency of {Deep} {Neural} {Networks} under {Quantization}},\n\t\n\turl = {http://arxiv.org/abs/1511.06488},\n\t\n\tlanguage = {45},\n\turldate = {2022-04-23},\n\tjournal = {arXiv:1511.06488 [cs]},\n\tauthor = {Sung Wonyong and Shin Sungho and Hwang Kyuyeon},\n\tmonth = jan,\n\tyear = {2016},\n\t\n\tkeywords = {Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing},",
+            "type": "misc",
+            "fields": {
+                "title": "Resiliency of {Deep} {Neural} {Networks} under {Quantization}",
+                "url": "http://arxiv.org/abs/1511.06488",
+                "language": "45",
+                "urldate": "2022-04-23",
+                "journal": "arXiv:1511.06488 [cs]",
+                "author": "Sung Wonyong and Shin Sungho and Hwang Kyuyeon",
+                "year": "2016",
+                "keywords": "Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "marchesi_design_1990_r55": {
+            "number": "[39]",
+            "title": "Design of Multi-Layer Neural Networks with Powers-of-two Weights",
+            "text": "title = {Design of multi-layer neural networks with powers-of-two weights},\n\t\n\tdoi = {10.1109/ISCAS.1990.112629},\n\t\n\tlanguage = {55},\n\tbooktitle = {1990 {IEEE} {International} {Symposium} on {Circuits} and {Systems} ({ISCAS})},\n\tauthor = {Marchesi M. and Benvenuto N. and Orlandi G. and Piazza F. and Uncini A.},\n\tmonth = may,\n\tyear = {1990},\n\t\n\tkeywords = {Arithmetic Circuit testing Hardware Image processing Multi-layer neural network Multilayer perceptrons Neural networks Neurons Parallel processing Signal processing},\n\tpages = {2951--2954 vol.4},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Design of multi-layer neural networks with powers-of-two weights",
+                "doi": "10.1109/ISCAS.1990.112629",
+                "language": "55",
+                "booktitle": "1990 {IEEE} {International} {Symposium} on {Circuits} and {Systems} ({ISCAS})",
+                "author": "Marchesi M. and Benvenuto N. and Orlandi G. and Piazza F. and Uncini A.",
+                "year": "1990",
+                "keywords": "Arithmetic Circuit testing Hardware Image processing Multi-layer neural network Multilayer perceptrons Neural networks Neurons Parallel processing Signal processing",
+                "pages": "2951--2954 vol.4"
+            },
+            "ref_source": "bib",
+            "abstract": "The feasibility of restricting the weight values to powers-of-two or sums of powers-of-two in multilayer neural networks is discussed. A learning procedure based on back-propagation to obtain a neural network with such weights is presented. This learning procedure requires full real arithmetic, and therefore must be performed offline. These neural networks do not require multipliers, and are well suited for high-speed and high-integration digital neural circuits. To show the effectiveness of the approach, tests on a pattern recognition problem are presented",
+            "aminer_id": "53e9bd50b7602d97049e1248"
+        },
+        "hou_loss-aware_2018_r31": {
+            "number": "[40]",
+            "title": "Loss-aware Weight Quantization of Deep Networks",
+            "text": "title = {Loss-aware {Weight} {Quantization} of {Deep} {Networks}},\n\t\n\turl = {https://arxiv.org/abs/1802.08635v2},\n\tdoi = {10.48550/arXiv.1802.08635},\n\t\n\tlanguage = {31},\n\turldate = {2022-04-25},\n\tauthor = {Hou Lu and Kwok James T.},\n\tmonth = feb,\n\tyear = {2018},",
+            "type": "misc",
+            "fields": {
+                "title": "Loss-aware {Weight} {Quantization} of {Deep} {Networks}",
+                "url": "https://arxiv.org/abs/1802.08635v2",
+                "doi": "10.48550/arXiv.1802.08635",
+                "language": "31",
+                "urldate": "2022-04-25",
+                "author": "Hou Lu and Kwok James T.",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ac1829d17c44a1fda9181d8"
+        },
+        "shayer_learning_2018_r29": {
+            "number": "[41]",
+            "title": "Learning Discrete Weights Using the Local Reparameterization Trick",
+            "text": "title = {Learning {Discrete} {Weights} {Using} the {Local} {Reparameterization} {Trick}},\n\t\n\t\n\tlanguage = {29},\n\tjournal = {ICLR},\n\tauthor = {Shayer Oran and Levi D. and Fetaya Ethan},\n\tyear = {2018},\n\tkeywords = {Continuous binarization reinit relax Stochastic},",
+            "type": "misc",
+            "fields": {
+                "title": "Learning {Discrete} {Weights} {Using} the {Local} {Reparameterization} {Trick}",
+                "language": "29",
+                "journal": "ICLR",
+                "author": "Shayer Oran and Levi D. and Fetaya Ethan",
+                "year": "2018",
+                "keywords": "Continuous binarization reinit relax Stochastic"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a260c8117c44a4ba8a30d24"
+        },
+        "roth_resource-efficient_2020_r12": {
+            "number": "[42]",
+            "title": "Resource-Efficient Neural Networks for Embedded Systems",
+            "text": "title = {Resource-{Efficient} {Neural} {Networks} for {Embedded} {Systems}},\n\t\n\turl = {http://arxiv.org/abs/2001.03048},\n\t\n\tlanguage = {12},\n\turldate = {2022-04-25},\n\tjournal = {arXiv:2001.03048 [cs stat]},\n\tauthor = {Roth Wolfgang and Schindler Günther and Zöhrer Matthias and Pfeifenberger Lukas and Peharz Robert and Tschiatschek Sebastian and Fröning Holger and Pernkopf Franz and Ghahramani Zoubin},\n\tmonth = jan,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Machine Learning Statistics - Machine Learning},",
+            "type": "misc",
+            "fields": {
+                "title": "Resource-{Efficient} {Neural} {Networks} for {Embedded} {Systems}",
+                "url": "http://arxiv.org/abs/2001.03048",
+                "language": "12",
+                "urldate": "2022-04-25",
+                "journal": "arXiv:2001.03048 [cs stat]",
+                "author": "Roth Wolfgang and Schindler Günther and Zöhrer Matthias and Pfeifenberger Lukas and Peharz Robert and Tschiatschek Sebastian and Fröning Holger and Pernkopf Franz and Ghahramani Zoubin",
+                "year": "2020",
+                "keywords": "Computer Science - Machine Learning Statistics - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "While machine learning is traditionally a resource intensive task, embedded systems, autonomous navigation, and the vision of the Internet of Things fuel the interest in resource-efficient approaches. These approaches aim for a carefully chosen trade-off between performance and resource consumption in terms of computation and energy. The development of such approaches is among the major challenges in current machine learning research and key to ensure a smooth transition of machine learning technology from a scientific environment with virtually unlimited computing resources into everyday's applications. In this article, we provide an overview of the current state of the art of machine learning techniques facilitating these real-world requirements. In particular, we focus on resource-efficient inference based on deep neural networks (DNNs), the predominant machine learning models of the past decade. We give a comprehensive overview of the vast literature that can be mainly split into three non-mutually exclusive categories: (i) quantized neural networks, (ii) network pruning, and (iii) structural efficiency. These techniques can be applied during training or as post-processing, and they are widely used to reduce the computational demands in terms of memory footprint, inference speed, and energy efficiency. We also briefly discuss different concepts of embedded hardware for DNNs and their compatibility with machine learning techniques as well as potential for energy and latency reduction. We substantiate our discussion with experiments on well-known benchmark data sets using compression techniques (quantization, pruning) for a set of resource-constrained embedded systems, such as CPUs, GPUs and FPGAs. The obtained results highlight the difficulty of finding good trade-offs between resource efficiency and prediction quality.",
+            "aminer_id": "5e184b4e3a55ac13b504271b"
+        },
+        "coelho_automatic_2021_r7": {
+            "number": "[43]",
+            "title": "Automatic Heterogeneous Quantization of Deep Neural Networks for Low-Latency Inference on the Edge for Particle Detectors",
+            "text": "title = {Automatic heterogeneous quantization of deep neural networks for low-latency inference on the edge for particle detectors},\n\tvolume = {3},\n\t\n\tissn = {2522-5839},\n\turl = {https://www.nature.com/articles/s42256-021-00356-5},\n\tdoi = {10.1038/s42256-021-00356-5},\n\t\n\tlanguage = {7},\n\tnumber = {8},\n\turldate = {2022-04-25},\n\tjournal = {Nature Machine Intelligence},\n\tauthor = {Coelho Claudionor N. and Kuusela Aki and Li Shan and Zhuang Hao and Ngadiuba Jennifer and Aarrestad Thea Klaeboe and Loncar Vladimir and Pierini Maurizio and Pol Adrian Alan and Summers Sioni},\n\tmonth = aug,\n\tyear = {2021},\n\t\n\tkeywords = {Computer science Experimental particle physics Hardware Software},\n\tpages = {675--686},",
+            "type": "misc",
+            "fields": {
+                "title": "Automatic heterogeneous quantization of deep neural networks for low-latency inference on the edge for particle detectors",
+                "volume": "3",
+                "issn": "2522-5839",
+                "url": "https://www.nature.com/articles/s42256-021-00356-5",
+                "doi": "10.1038/s42256-021-00356-5",
+                "language": "7",
+                "number": "8",
+                "urldate": "2022-04-25",
+                "journal": "Nature Machine Intelligence",
+                "author": "Coelho Claudionor N. and Kuusela Aki and Li Shan and Zhuang Hao and Ngadiuba Jennifer and Aarrestad Thea Klaeboe and Loncar Vladimir and Pierini Maurizio and Pol Adrian Alan and Summers Sioni",
+                "year": "2021",
+                "keywords": "Computer science Experimental particle physics Hardware Software",
+                "pages": "675--686"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we introduce the QKeras library, an extension of the Keras library allowing for the creation of heterogeneously quantized versions of deep neural network models, through drop-in replacement of Keras layers. These models are trained quantization-aware, where the user can trade off model area or energy consumption by accuracy. We demonstrate how the reduction of numerical precision, through quantization-aware training, significantly reduces resource consumption while retaining high accuracy when implemented on FPGA hardware. Together with the hls4ml library, this allows for a fully automated deployment of quantized Keras models on chip, crucial for ultra low-latency inference. As a benchmark problem, we consider a classification task for the triggering of events in proton-proton collisions at the CERN Large Hadron Collider, where a latency of ${\\mathcal O}(1)~\\mu$s is required.",
+            "aminer_id": "5eede0b091e0116a23aafc97"
+        },
+        "ando_brein_2017_r43": {
+            "number": "[44]",
+            "title": "BRein Memory: A 13-Layer 4.2 K Neuron/0.8 M Synapse Binary/ternary Reconfigurable In-Memory Deep Neural Network Accelerator in 65 Nm CMOS",
+            "text": "title = {{BRein} memory: {A} 13-layer 4.2 {K} neuron/0.8 {M} synapse binary/ternary reconfigurable in-memory deep neural network accelerator in 65 nm {CMOS}},\n\t\n\tshorttitle = {{BRein} memory},\n\tdoi = {10.23919/VLSIC.2017.8008533},\n\t\n\tlanguage = {43},\n\tbooktitle = {2017 {Symposium} on {VLSI} {Circuits}},\n\tauthor = {Ando Kota and Ueyoshi Kodai and Orimo Kentaro and Yonekawa Haruyoshi and Sato Shimpei and Nakahara Hiroki and Ikebe Masayuki and Asai Tetsuya and Takamaeda-Yamazaki Shinya and Kuroda Tadahiro and Motomura Masato},\n\tmonth = jun,\n\tyear = {2017},\n\t\n\tkeywords = {Artificial neural networks Biological neural networks Computer architecture Field programmable gate arrays Neurons Random access memory Very large scale integration},\n\tpages = {C24--C25},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{BRein} memory: {A} 13-layer 4.2 {K} neuron/0.8 {M} synapse binary/ternary reconfigurable in-memory deep neural network accelerator in 65 nm {CMOS}",
+                "shorttitle": "{BRein} memory",
+                "doi": "10.23919/VLSIC.2017.8008533",
+                "language": "43",
+                "booktitle": "2017 {Symposium} on {VLSI} {Circuits}",
+                "author": "Ando Kota and Ueyoshi Kodai and Orimo Kentaro and Yonekawa Haruyoshi and Sato Shimpei and Nakahara Hiroki and Ikebe Masayuki and Asai Tetsuya and Takamaeda-Yamazaki Shinya and Kuroda Tadahiro and Motomura Masato",
+                "year": "2017",
+                "keywords": "Artificial neural networks Biological neural networks Computer architecture Field programmable gate arrays Neurons Random access memory Very large scale integration",
+                "pages": "C24--C25"
+            },
+            "ref_source": "bib",
+            "abstract": "A versatile reconfigurable accelerator for binary/ternary deep neural networks (DNNs) is presented. It features a massively parallel in-memory processing architecture and stores varieties of binary/ternary DNNs with a maximum of 13 layers, 4.2 K neurons, and 0.8 M synapses on chip. The 0.6 W, 1.4 TOPS chip achieves performance and energy efficiency that is 10–102 and 102–104 times better than a CPU/GPU/FPGA.",
+            "aminer_id": "5c75709cf56def979870a806"
+        },
+        "mishra_wrpn_2017_r38": {
+            "number": "[45]",
+            "title": "WRPN: Wide Reduced-Precision Networks",
+            "text": "title = {{WRPN}: {Wide} {Reduced}-{Precision} {Networks}},\n\t\n\tshorttitle = {{WRPN}},\n\turl = {http://arxiv.org/abs/1709.01134},\n\t\n\tlanguage = {38},\n\turldate = {2022-04-25},\n\tjournal = {arXiv:1709.01134 [cs]},\n\tauthor = {Mishra Asit and Nurvitadhi Eriko and Cook Jeffrey J. and Marr Debbie},\n\tmonth = sep,\n\tyear = {2017},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing},",
+            "type": "misc",
+            "fields": {
+                "title": "{WRPN}: {Wide} {Reduced}-{Precision} {Networks}",
+                "shorttitle": "{WRPN}",
+                "url": "http://arxiv.org/abs/1709.01134",
+                "language": "38",
+                "urldate": "2022-04-25",
+                "journal": "arXiv:1709.01134 [cs]",
+                "author": "Mishra Asit and Nurvitadhi Eriko and Cook Jeffrey J. and Marr Debbie",
+                "year": "2017",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ca5dbb2e1cd8e17e1d71267"
+        },
+        "li_ternary_2016_r48": {
+            "number": "[46]",
+            "title": "Ternary Weight Networks",
+            "text": "title = {Ternary {Weight} {Networks}},\n\t\n\turl = {http://arxiv.org/abs/1605.04711},\n\t\n\tlanguage = {48},\n\turldate = {2022-04-26},\n\tjournal = {arXiv:1605.04711 [cs]},\n\tauthor = {Li Fengfu and Zhang Bo and Liu Bin},\n\tmonth = nov,\n\tyear = {2016},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition},",
+            "type": "misc",
+            "fields": {
+                "title": "Ternary {Weight} {Networks}",
+                "url": "http://arxiv.org/abs/1605.04711",
+                "language": "48",
+                "urldate": "2022-04-26",
+                "journal": "arXiv:1605.04711 [cs]",
+                "author": "Li Fengfu and Zhang Bo and Liu Bin",
+                "year": "2016",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition"
+            },
+            "ref_source": "bib",
+            "abstract": "We present a memory and computation efficient ternary weight networks (TWNs) - with weights constrained to +1, 0 and -1. The Euclidian distance between full (float or double) precision weights and the ternary weights along with a scaling factor is minimized in training stage. Besides, a threshold-based ternary function is optimized to get an approximated solution which can be fast and easily computed. TWNs have shown better expressive abilities than binary precision counterparts. Meanwhile, TWNs achieve up to 16× model compression rate and need fewer multiplications compared with the float32 precision counterparts. Extensive experiments on MNIST, CIFAR-10, and ImageNet datasets show that the TWNs achieve much better result than the Binary-Weight-Networks (BWNs) and the classification performance on MNIST and CIFAR-10 is very close to the full precision networks. We also verify our method on object detection task and show that TWNs significantly outperforms BWN by more than 10% mAP on PASCAL VOC dataset. The pytorch version of source code is available at: https://github.com/Thinklab-SJTU/twns.",
+            "aminer_id": "5c610991da56297340b80b92"
+        },
+        "gong_differentiable_2019_r26": {
+            "number": "[47]",
+            "title": "Differentiable Soft Quantization: Bridging Full-Precision and Low-Bit Neural Networks",
+            "text": "title = {Differentiable {Soft} {Quantization}: {Bridging} {Full}-{Precision} and {Low}-{Bit} {Neural} {Networks}},\n\t\n\tshorttitle = {Differentiable {Soft} {Quantization}},\n\turl = {https://openaccess.thecvf.com/content_ICCV_2019/html/Gong_Differentiable_Soft_Quantization_Bridging_Full-Precision_and_Low-Bit_Neural_Networks_ICCV_2019_paper.html},\n\tlanguage = {26},\n\turldate = {2022-04-27},\n\tauthor = {Gong Ruihao and Liu Xianglong and Jiang Shenghu and Li Tianxiang and Hu Peng and Lin Jiazhen and Yu Fengwei and Yan Junjie},\n\tyear = {2019},\n\tkeywords = {Continuous binarization relax},\n\tpages = {4852--4861},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Differentiable {Soft} {Quantization}: {Bridging} {Full}-{Precision} and {Low}-{Bit} {Neural} {Networks}",
+                "shorttitle": "Differentiable {Soft} {Quantization}",
+                "url": "https://openaccess.thecvf.com/content_ICCV_2019/html/Gong_Differentiable_Soft_Quantization_Bridging_Full-Precision_and_Low-Bit_Neural_Networks_ICCV_2019_paper.html",
+                "language": "26",
+                "urldate": "2022-04-27",
+                "author": "Gong Ruihao and Liu Xianglong and Jiang Shenghu and Li Tianxiang and Hu Peng and Lin Jiazhen and Yu Fengwei and Yan Junjie",
+                "year": "2019",
+                "keywords": "Continuous binarization relax",
+                "pages": "4852--4861"
+            },
+            "ref_source": "bib",
+            "abstract": "Hardware-friendly network quantization (e.g., binary/uniform quantization) can efficiently accelerate the inference and meanwhile reduce memory consumption of the deep neural networks, which is crucial for model deployment on resource-limited devices like mobile phones. However, due to the discreteness of low-bit quantization, existing quantization methods often face the unstable training process and severe performance degradation. To address this problem, in this paper we propose Differentiable Soft Quantization (DSQ) to bridge the gap between the full-precision and low-bit networks. DSQ can automatically evolve during training to gradually approximate the standard quantization. Owing to its differentiable property, DSQ can help pursue the accurate gradients in backward propagation, and reduce the quantization loss in forward process with an appropriate clipping range. Extensive experiments over several popular network structures show that training low-bit neural networks with DSQ can consistently outperform state-of-the-art quantization methods. Besides, our first efficient implementation for deploying 2 to 4-bit DSQ on devices with ARM architecture achieves up to 1.7× speed up, compared with the open-source 8-bit high-performance inference framework NCNN [31].",
+            "aminer_id": "5e5e1a1993d709897cea3d54"
+        },
+        "dbouk_dbq_2020_r20": {
+            "number": "[48]",
+            "title": "DBQ: A Differentiable Branch Quantizer for Lightweight Deep Neural Networks",
+            "text": "title = {{DBQ}: {A} {Differentiable} {Branch} {Quantizer} for {Lightweight} {Deep} {Neural} {Networks}},\n\t\n\tshorttitle = {{DBQ}},\n\turl = {http://arxiv.org/abs/2007.09818},\n\t\n\tlanguage = {20},\n\turldate = {2022-04-27},\n\tjournal = {arXiv:2007.09818 [cs stat]},\n\tauthor = {Dbouk Hassan and Sanghvi Hetul and Mehendale Mahesh and Shanbhag Naresh},\n\tmonth = jul,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning relax Statistics - Machine Learning Stochastic},",
+            "type": "misc",
+            "fields": {
+                "title": "{DBQ}: {A} {Differentiable} {Branch} {Quantizer} for {Lightweight} {Deep} {Neural} {Networks}",
+                "shorttitle": "{DBQ}",
+                "url": "http://arxiv.org/abs/2007.09818",
+                "language": "20",
+                "urldate": "2022-04-27",
+                "journal": "arXiv:2007.09818 [cs stat]",
+                "author": "Dbouk Hassan and Sanghvi Hetul and Mehendale Mahesh and Shanbhag Naresh",
+                "year": "2020",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning relax Statistics - Machine Learning Stochastic"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep neural networks have achieved state-of-the art performance on various computer vision tasks. However, their deployment on resource-constrained devices has been hindered due to their high computational and storage complexity. While various complexity reduction techniques, such as lightweight network architecture design and parameter quantization, have been successful in reducing the cost of implementing these networks, these methods have often been considered orthogonal. In reality, existing quantization techniques fail to replicate their success on lightweight architectures such as MobileNet. To this end, we present a novel fully differentiable non-uniform quantizer that can be seamlessly mapped onto efficient ternary-based dot product engines. We conduct comprehensive experiments on CIFAR-10, ImageNet, and Visual Wake Words datasets. The proposed quantizer (DBQ) successfully tackles the daunting task of aggressively quantizing lightweight networks such as MobileNetV1, MobileNetV2, and ShuffleNetV2. DBQ achieves state-of-the art results with minimal training overhead and provides the best (pareto-optimal) accuracy-complexity trade-off.",
+            "aminer_id": "5f16c64191e011b48ae942f0"
+        },
+        "wang_unsupervised_2021_r2": {
+            "number": "[49]",
+            "title": "Unsupervised Network Quantization via Fixed-Point Factorization",
+            "text": "title = {Unsupervised {Network} {Quantization} via {Fixed}-{Point} {Factorization}},\n\tvolume = {2},\n\t\n\tissn = {2162-2388},\n\tdoi = {10.1109/TNNLS.2020.3007749},\n\t\n\tlanguage = {2},\n\tnumber = {6},\n\tjournal = {IEEE Transactions on Neural Networks and Learning Systems},\n\tauthor = {Wang Peisong and He Xiangyu and Chen Qiang and Cheng Anda and Liu Qingshan and Cheng Jian},\n\tmonth = jun,\n\tyear = {2021},\n\t\n\tpages = {2706--2720},",
+            "type": "misc",
+            "fields": {
+                "title": "Unsupervised {Network} {Quantization} via {Fixed}-{Point} {Factorization}",
+                "volume": "2",
+                "issn": "2162-2388",
+                "doi": "10.1109/TNNLS.2020.3007749",
+                "language": "2",
+                "number": "6",
+                "journal": "IEEE Transactions on Neural Networks and Learning Systems",
+                "author": "Wang Peisong and He Xiangyu and Chen Qiang and Cheng Anda and Liu Qingshan and Cheng Jian",
+                "year": "2021",
+                "pages": "2706--2720"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f1d5b899fced0a24b59e6a7"
+        },
+        "kim_cbp_2021_r6": {
+            "number": "[50]",
+            "title": "CBP: Backpropagation with Constraint on Weight Precision Using a Pseudo-Lagrange Multiplier Method",
+            "text": "title = {{CBP}: backpropagation with constraint on weight precision using a pseudo-{Lagrange} multiplier method},\n\tvolume = {34},\n\tshorttitle = {{CBP}},\n\turl = {https://proceedings.neurips.cc/paper/2021/hash/edea298442a67de045e88dfb6e5ea4a2-Abstract.html},\n\t\n\tlanguage = {6},\n\turldate = {2022-04-27},\n\tbooktitle = {Advances in {Neural} {Information} {Processing} {Systems}},\n\tpublisher = {Curran Associates Inc.},\n\tauthor = {Kim Guhyun and Jeong Doo Seok},\n\tyear = {2021},\n\tpages = {28274--28285},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{CBP}: backpropagation with constraint on weight precision using a pseudo-{Lagrange} multiplier method",
+                "volume": "34",
+                "shorttitle": "{CBP}",
+                "url": "https://proceedings.neurips.cc/paper/2021/hash/edea298442a67de045e88dfb6e5ea4a2-Abstract.html",
+                "language": "6",
+                "urldate": "2022-04-27",
+                "booktitle": "Advances in {Neural} {Information} {Processing} {Systems}",
+                "publisher": "Curran Associates Inc.",
+                "author": "Kim Guhyun and Jeong Doo Seok",
+                "year": "2021",
+                "pages": "28274--28285"
+            },
+            "ref_source": "bib",
+            "abstract": "Backward propagation of errors (backpropagation) is a method to minimize objective functions (e.g., loss functions) of deep neural networks by identifying optimal sets of weights and biases. Imposing constraints on weight precision is often required to alleviate prohibitive workloads on hardware. Despite the remarkable success of backpropagation, the algorithm itself is not capable of considering such constraints unless additional algorithms are applied simultaneously. To address this issue, we propose the constrained backpropagation (CBP) algorithm based on a pseudo-Lagrange multiplier method to obtain the optimal set of weights that satisfy a given set of constraints. The defining characteristic of the proposed CBP algorithm is the utilization of a Lagrangian function (loss function plus constraint function) as its objective function. We considered various types of constraints--binary, ternary, one-bit shift, and two-bit shift weight constraints. As a post-training method, CBP applied to AlexNet, ResNet-18, ResNet-50, and GoogLeNet on ImageNet, which were pre-trained using the conventional backpropagation. For all cases, the proposed algorithm outperforms the state-of-the-art methods on ImageNet, e.g., 66.6%, 74.4%, and 64.0% top-1 accuracy for ResNet-18, ResNet-50, and GoogLeNet with binary weights, respectively. This highlights CBP as a learning algorithm to address diverse constraints with the minimal performance loss by employing appropriate constraint functions.",
+            "aminer_id": "615e65745244ab9dcbf2181c"
+        },
+        "gope_ternary_2020_r18": {
+            "number": "[51]",
+            "title": "Ternary MobileNets Via Per-Layer Hybrid Filter Banks",
+            "text": "title = {Ternary {MobileNets} via {Per}-{Layer} {Hybrid} {Filter} {Banks}},\n\t\n\turl = {https://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Gope_Ternary_MobileNets_via_Per-Layer_Hybrid_Filter_Banks_CVPRW_2020_paper.html},\n\tlanguage = {18},\n\turldate = {2022-04-27},\n\tauthor = {Gope Dibakar and Beu Jesse and Thakker Urmish and Mattina Matthew},\n\tyear = {2020},\n\tpages = {708--709},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Ternary {MobileNets} via {Per}-{Layer} {Hybrid} {Filter} {Banks}",
+                "url": "https://openaccess.thecvf.com/content_CVPRW_2020/html/w40/Gope_Ternary_MobileNets_via_Per-Layer_Hybrid_Filter_Banks_CVPRW_2020_paper.html",
+                "language": "18",
+                "urldate": "2022-04-27",
+                "author": "Gope Dibakar and Beu Jesse and Thakker Urmish and Mattina Matthew",
+                "year": "2020",
+                "pages": "708--709"
+            },
+            "ref_source": "bib",
+            "abstract": "MobileNets family of computer vision neural networks have fueled tremendous progress in the design and organization of resource-efficient architectures in recent years. New applications with stringent real-time requirements on highly constrained devices require further compression of MobileNets-like already compute-efficient networks. Model quantization is a widely used technique to compress and accelerate neural network inference and prior works have quantized MobileNets to 4-6 bits albeit with a modest to significant drop in accuracy. While quantization to sub-byte values (i.e. precision less than or equal to 8 bits) has been valuable, even further quantization of MobileNets to binary or ternary values is necessary to realize significant energy savings and possibly runtime speedups on specialized hardware, such as ASICs and FPGAs. Under the key observation that convolutional filters at each layer of a deep neural network may respond differently to ternary quantization, we propose a novel quantization method that generates per-layer hybrid filter banks consisting of full-precision and ternary weight filters for MobileNets. The layer-wise hybrid filter banks essentially combine the strengths of full-precision and ternary weight filters to derive a compact, energy-efficient architecture for MobileNets. Using this proposed quantization method, we quantized a substantial portion of weight filters of MobileNets to ternary values resulting in 27.98% savings in energy, and a 51.07% reduction in the model size, while achieving comparable accuracy and no degradation in throughput on specialized hardware in comparison to the baseline full-precision MobileNets.",
+            "aminer_id": "5dc149a33a55acb75f3915aa"
+        },
+        "bai_proxquant_2018_r33": {
+            "number": "[52]",
+            "title": "ProxQuant: Quantized Neural Networks Via Proximal Operators",
+            "text": "title = {{ProxQuant}: {Quantized} {Neural} {Networks} via {Proximal} {Operators}},\n\t\n\tshorttitle = {{ProxQuant}},\n\turl = {https://openreview.net/forum?id=HyzMyhCcK7},\n\t\n\tlanguage = {33},\n\turldate = {2022-04-29},\n\tauthor = {Bai Yu and Wang Yu-Xiang and Liberty Edo},\n\tmonth = sep,\n\tyear = {2018},\n\tkeywords = {Computer Science - Machine Learning Statistics - Machine Learning},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{ProxQuant}: {Quantized} {Neural} {Networks} via {Proximal} {Operators}",
+                "shorttitle": "{ProxQuant}",
+                "url": "https://openreview.net/forum?id=HyzMyhCcK7",
+                "language": "33",
+                "urldate": "2022-04-29",
+                "author": "Bai Yu and Wang Yu-Xiang and Liberty Edo",
+                "year": "2018",
+                "keywords": "Computer Science - Machine Learning Statistics - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "To make deep neural networks feasible in resource-constrained environments (such as mobile devices), it is beneficial to quantize models by using low-precision weights. One common technique for quantizing neural networks is the straight-through gradient method, which enables back-propagation through the quantization mapping. Despite its empirical success, little is understood about why the straight-through gradient method works. Building upon a novel observation that the straight-through gradient method is in fact identical to the well-known Nesterov's dual-averaging algorithm on a quantization constrained optimization problem, we propose a more principled alternative approach, called ProxQuant, that formulates quantized network training as a regularized learning problem instead and optimizes it via the prox-gradient method. ProxQuant does back-propagation on the underlying full-precision vector and applies an efficient prox-operator in between stochastic gradient steps to encourage quantizedness. For quantizing ResNets and LSTMs, ProxQuant outperforms state-of-the-art results on binary quantization and is on par with state-of-the-art on multi-bit quantization. For binary quantization, our analysis shows both theoretically and experimentally that ProxQuant is more stable than the straight-through gradient method (i.e. BinaryConnect), challenging the indispensability of the straight-through gradient method and providing a powerful alternative.",
+            "aminer_id": "5bdc31b417c44a1f58a0b94b"
+        },
+        "zhu_trained_2016_r41": {
+            "number": "[53]",
+            "title": "Trained Ternary Quantization",
+            "text": "title = {Trained {Ternary} {Quantization}},\n\t\n\turl = {http://arxiv.org/abs/1612.01064},\n\t\n\tlanguage = {41},\n\turldate = {2022-05-04},\n\tbooktitle = {{arXiv}:1612.01064 [cs]},\n\tauthor = {Zhu Chenzhuo and Han Song and Mao Huizi and Dally William J.},\n\tmonth = dec,\n\tyear = {2016},\n\t\n\tkeywords = {Computer Science - Machine Learning},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Trained {Ternary} {Quantization}",
+                "url": "http://arxiv.org/abs/1612.01064",
+                "language": "41",
+                "urldate": "2022-05-04",
+                "booktitle": "{arXiv}:1612.01064 [cs]",
+                "author": "Zhu Chenzhuo and Han Song and Mao Huizi and Dally William J.",
+                "year": "2016",
+                "keywords": "Computer Science - Machine Learning"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d82fcbd649053542fd5f97"
+        },
+        "mishra_apprentice_2017_r42": {
+            "number": "[54]",
+            "title": "Apprentice: Using Knowledge Distillation Techniques to Improve Low-Precision Network Accuracy.",
+            "text": "title = {Apprentice: {Using} {Knowledge} {Distillation} {Techniques} {To} {Improve} {Low}-{Precision} {Network} {Accuracy}},\n\t\n\tshorttitle = {Apprentice},\n\turl = {http://arxiv.org/abs/1711.05852},\n\t\n\tlanguage = {42},\n\turldate = {2022-05-13},\n\tjournal = {arXiv:1711.05852 [cs]},\n\tauthor = {Mishra Asit and Marr Debbie},\n\tmonth = nov,\n\tyear = {2017},\n\t\n\tkeywords = {Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing},",
+            "type": "misc",
+            "fields": {
+                "title": "Apprentice: {Using} {Knowledge} {Distillation} {Techniques} {To} {Improve} {Low}-{Precision} {Network} {Accuracy}",
+                "shorttitle": "Apprentice",
+                "url": "http://arxiv.org/abs/1711.05852",
+                "language": "42",
+                "urldate": "2022-05-13",
+                "journal": "arXiv:1711.05852 [cs]",
+                "author": "Mishra Asit and Marr Debbie",
+                "year": "2017",
+                "keywords": "Computer Science - Computer Vision and Pattern Recognition Computer Science - Machine Learning Computer Science - Neural and Evolutionary Computing"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep learning networks have achieved state-of-the-art accuracies on computer vision workloads like image classification and object detection. The performant systems, however, typically involve big models with numerous parameters. Once trained, a challenging aspect for such top performing models is deployment on resource constrained inference systems - the models (often deep networks or wide networks or both) are compute and memory intensive. Low-precision numerics and model compression using knowledge distillation are popular techniques to lower both the compute requirements and memory footprint of these deployed models. In this paper, we study the combination of these two techniques and show that the performance of low-precision networks can be significantly improved by using knowledge distillation techniques. Our approach, Apprentice, achieves state-of-the-art accuracies using ternary precision and 4-bit precision for variants of ResNet architecture on ImageNet dataset. We present three schemes using which one can apply knowledge distillation techniques to various stages of the train-and-deploy pipeline.",
+            "aminer_id": "5ca5dbb2e1cd8e17e1d71266"
+        },
+        "alemdar_ternary_2017_r50": {
+            "number": "[55]",
+            "title": "Ternary neural networks for resource-efficient AI applications",
+            "text": "title = {Ternary neural networks for resource-efficient {AI} applications},\n\t\n\tdoi = {10.1109/IJCNN.2017.7966166},\n\t\n\tlanguage = {50},\n\tbooktitle = {2017 {International} {Joint} {Conference} on {Neural} {Networks} ({IJCNN})},\n\tauthor = {Alemdar Hande and Leroy Vincent and Prost-Boucle Adrien and Pétrot Frédéric},\n\tmonth = may,\n\tyear = {2017},\n\t\n\tkeywords = {Artificial neural networks Biological neural networks Hardware KD Neurons Training Transfer functions},\n\tpages = {2547--2554},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Ternary neural networks for resource-efficient {AI} applications",
+                "doi": "10.1109/IJCNN.2017.7966166",
+                "language": "50",
+                "booktitle": "2017 {International} {Joint} {Conference} on {Neural} {Networks} ({IJCNN})",
+                "author": "Alemdar Hande and Leroy Vincent and Prost-Boucle Adrien and Pétrot Frédéric",
+                "year": "2017",
+                "keywords": "Artificial neural networks Biological neural networks Hardware KD Neurons Training Transfer functions",
+                "pages": "2547--2554"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7e5c601a182cd289545f"
+        },
+        "achterhold_variational_2018_r33.5": {
+            "number": "[56]",
+            "title": "Variational Network Quantization",
+            "text": "title = {Variational {Network} {Quantization}},\n\turl = {https://openreview.net/forum?id=ry-TW-WAb&noteId=rJXkIhhvM&ref=https://githubhelp.com},\n\t\n\tlanguage = {33.5},\n\turldate = {2022-05-20},\n\tauthor = {Achterhold Jan and Koehler Jan Mathias and Schmeink Anke and Genewein Tim},\n\tmonth = feb,\n\tyear = {2018},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Variational {Network} {Quantization}",
+                "url": "https://openreview.net/forum?id=ry-TW-WAb&noteId=rJXkIhhvM&ref=https://githubhelp.com",
+                "language": "33.5",
+                "urldate": "2022-05-20",
+                "author": "Achterhold Jan and Koehler Jan Mathias and Schmeink Anke and Genewein Tim",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, the preparation of a neural network for pruning and few-bit quantization is formulated as a variational inference problem. To this end, a quantizing prior that leads to a multi-modal, sparse posterior distribution over weights, is introduced and a differentiable Kullback-Leibler divergence approximation for this prior is derived. After training with Variational Network Quantization, weights can be replaced by deterministic quantization values with small to negligible loss of task accuracy (including pruning by setting weights to 0). The method does not require fine-tuning after quantization. Results are shown for ternary quantization on LeNet-5 (MNIST) and DenseNet (CIFAR-10).",
+            "aminer_id": "5ca5dbb2e1cd8e17e1d711ab"
+        },
+        "zhou_explicit_2018_r26.5": {
+            "number": "[57]",
+            "title": "Explicit Loss-Error-Aware Quantization for Low-Bit Deep Neural Networks",
+            "text": "title = {Explicit {Loss}-{Error}-{Aware} {Quantization} for {Low}-{Bit} {Deep} {Neural} {Networks}},\n\t\n\turl = {https://openaccess.thecvf.com/content_cvpr_2018/html/Zhou_Explicit_Loss-Error-Aware_Quantization_CVPR_2018_paper.html},\n\tlanguage = {26.5},\n\turldate = {2022-05-20},\n\tauthor = {Zhou Aojun and Yao Anbang and Wang Kuan and Chen Yurong},\n\tyear = {2018},\n\tpages = {9426--9435},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Explicit {Loss}-{Error}-{Aware} {Quantization} for {Low}-{Bit} {Deep} {Neural} {Networks}",
+                "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Zhou_Explicit_Loss-Error-Aware_Quantization_CVPR_2018_paper.html",
+                "language": "26.5",
+                "urldate": "2022-05-20",
+                "author": "Zhou Aojun and Yao Anbang and Wang Kuan and Chen Yurong",
+                "year": "2018",
+                "pages": "9426--9435"
+            },
+            "ref_source": "bib",
+            "abstract": "Benefiting from tens of millions of hierarchically stacked learnable parameters, Deep Neural Networks (DNNs) have demonstrated overwhelming accuracy on a variety of artificial intelligence tasks. However reversely, the large size of DNN models lays a heavy burden on storage, computation and power consumption, which prohibits their deployments on the embedded and mobile systems. In this paper; we propose Explicit Loss-error-aware Quantization (ELQ), a new method that can train DNN models with very low-bit parameter values such as ternary and binary ones to approximate 32-bit floating-point counterparts without noticeable loss of predication accuracy. Unlike existing methods that usually pose the problem as a straightforward approximation of the layer-wise weights or outputs of the original full precision model (specifically, minimizing the error of the layer-wise weights or inner products of the weights and the inputs between the original and respective quantized models), our ELQ elaborately bridges the loss perturbation from the weight quantization and an incremental quantization strategy to address DNN quantization. Through explicitly regularizing the loss perturbation and the weight approximation error in an incremental way, we show that such a new optimization method is theoretically reasonable and practically effective. As validated with two mainstream convolutional neural network families (i.e., fully convolutional and non-fully convolutional), our ELQ shows better results than state-of-the-art quantization methods on the large scale ImageNet classification dataset. Code will be made publicly available.",
+            "aminer_id": "5c0495ae17c44a2c7470192f"
+        },
+        "faraone_syq_2018_r31.5": {
+            "number": "[58]",
+            "title": "SYQ: Learning Symmetric Quantization for Efficient Deep Neural Networks",
+            "text": "title = {{SYQ}: {Learning} {Symmetric} {Quantization} for {Efficient} {Deep} {Neural} {Networks}},\n\t\n\tshorttitle = {{SYQ}},\n\turl = {https://openaccess.thecvf.com/content_cvpr_2018/html/Faraone_SYQ_Learning_Symmetric_CVPR_2018_paper.html},\n\tlanguage = {31.5},\n\turldate = {2022-05-20},\n\tauthor = {Faraone Julian and Fraser Nicholas and Blott Michaela and Leong Philip H. W.},\n\tyear = {2018},\n\tpages = {4300--4309},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{SYQ}: {Learning} {Symmetric} {Quantization} for {Efficient} {Deep} {Neural} {Networks}",
+                "shorttitle": "{SYQ}",
+                "url": "https://openaccess.thecvf.com/content_cvpr_2018/html/Faraone_SYQ_Learning_Symmetric_CVPR_2018_paper.html",
+                "language": "31.5",
+                "urldate": "2022-05-20",
+                "author": "Faraone Julian and Fraser Nicholas and Blott Michaela and Leong Philip H. W.",
+                "year": "2018",
+                "pages": "4300--4309"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b67b4b917c44aac1c867b42"
+        },
+        "chen_propagating_2020_r20.5": {
+            "number": "[59]",
+            "title": "Propagating Asymptotic-Estimated Gradients for Low Bitwidth Quantized Neural Networks",
+            "text": "title = {Propagating {Asymptotic}-{Estimated} {Gradients} for {Low} {Bitwidth} {Quantized} {Neural} {Networks}},\n\tvolume = {14},\n\tissn = {1941-0484},\n\tdoi = {10.1109/JSTSP.2020.2966327},\n\t\n\tlanguage = {20.5},\n\tnumber = {4},\n\tjournal = {IEEE Journal of Selected Topics in Signal Processing},\n\tauthor = {Chen Jun and Liu Yong and Zhang Hao and Hou Shengnan and Yang Jian},\n\tmonth = may,\n\tyear = {2020},\n\t\n\tpages = {848--859},",
+            "type": "misc",
+            "fields": {
+                "title": "Propagating {Asymptotic}-{Estimated} {Gradients} for {Low} {Bitwidth} {Quantized} {Neural} {Networks}",
+                "volume": "14",
+                "issn": "1941-0484",
+                "doi": "10.1109/JSTSP.2020.2966327",
+                "language": "20.5",
+                "number": "4",
+                "journal": "IEEE Journal of Selected Topics in Signal Processing",
+                "author": "Chen Jun and Liu Yong and Zhang Hao and Hou Shengnan and Yang Jian",
+                "year": "2020",
+                "pages": "848--859"
+            },
+            "ref_source": "bib",
+            "abstract": "The quantized neural networks (QNNs) can be useful for neural network acceleration and compression, but during the training process they pose a challenge: how to propagate the gradient of loss function through the graph flow with a derivative of 0 almost everywhere. In response to this non-differentiable situation, we propose a novel Asymptotic-Quantized Estimator (AQE) to estimate the gradient. In particular, during back-propagation, the graph that relates inputs to output remains smoothness and differentiability. At the end of training, the weights and activations have been quantized to low-precision because of the asymptotic behaviour of AQE. Meanwhile, we propose a M-bit Inputs and N-bit Weights Network (MINW-Net) trained by AQE, a quantized neural network with 1-3 bits weights and activations. In the inference phase, we can use XNOR or SHIFT operations instead of convolution operations to accelerate the MINW-Net. Our experiments on CIFAR datasets demonstrate that our AQE is well defined, and the QNNs with AQE perform better than that with Straight-Through Estimator (STE). For example, in the case of the same ConvNet that has 1-bit weights and activations, our MINW-Net with AQE can achieve a prediction accuracy 1.5% higher than the Binarized Neural Network (BNN) with STE. The MINW-Net, which is trained from scratch by AQE, can achieve comparable classification accuracy as 32-bit counterparts on CIFAR test sets. Extensive experimental results on ImageNet dataset show great superiority of the proposed AQE and our MINW-Net achieves comparable results with other state-of-the-art QNNs.",
+            "aminer_id": "5e5e199893d709897ce78d7a"
+        },
+        "zhang_differentiable_2021_r1.5": {
+            "number": "[60]",
+            "title": "Differentiable Dynamic Quantization with Mixed Precision and Adaptive Resolution",
+            "text": "title = {Differentiable {Dynamic} {Quantization} with {Mixed} {Precision} and {Adaptive} {Resolution}},\n\tvolume = {1.5},\n\turl = {https://proceedings.mlr.press/v139/zhang21r.html},\n\t\n\tlanguage = {1.5},\n\turldate = {2022-05-20},\n\tbooktitle = {Proceedings of the 38th {International} {Conference} on {Machine} {Learning}},\n\tpublisher = {PMLR},\n\tauthor = {Zhang Zhaoyang and Shao Wenqi and Gu Jinwei and Wang Xiaogang and Luo Ping},\n\tmonth = jul,\n\tyear = {2021},\n\t\n\tpages = {12546--12556},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Differentiable {Dynamic} {Quantization} with {Mixed} {Precision} and {Adaptive} {Resolution}",
+                "volume": "1.5",
+                "url": "https://proceedings.mlr.press/v139/zhang21r.html",
+                "language": "1.5",
+                "urldate": "2022-05-20",
+                "booktitle": "Proceedings of the 38th {International} {Conference} on {Machine} {Learning}",
+                "publisher": "PMLR",
+                "author": "Zhang Zhaoyang and Shao Wenqi and Gu Jinwei and Wang Xiaogang and Luo Ping",
+                "year": "2021",
+                "pages": "12546--12556"
+            },
+            "ref_source": "bib",
+            "abstract": "Model quantization is challenging due to many tedious hyper-parameters such as precision (bitwidth), dynamic range (minimum and maximum discrete values) and stepsize (interval between discrete values). Unlike prior arts that carefully tune these values, we present a fully differentiable approach to learn all of them, named Differentiable Dynamic Quantization (DDQ), which has several benefits. (1) DDQ is able to quantize challenging lightweight architectures like MobileNets, where different layers prefer different quantization parameters. (2) DDQ is hardwarefriendly and can be easily implemented using lowprecision matrix-vector multiplication, making it capable in many hardware such as ARM. (3) DDQ reduces training runtime by 25% compared to state-of-the-arts. Extensive experiments show that DDQ outperforms prior arts on many networks and benchmarks, especially when models are already efficient and compact. e.g. DDQ is the first approach that achieves lossless 4-bit quantization for MobileNetV2 on ImageNet.",
+            "aminer_id": "605078aa9e795e2125c080c0"
+        },
+        "van_baalen_bayesian_2020": {
+            "number": "[61]",
+            "title": "Bayesian Bits: Unifying Quantization and Pruning",
+            "text": "title = {Bayesian {Bits}: {Unifying} {Quantization} and {Pruning}},\n\tshorttitle = {Bayesian {Bits}},\n\turl = {http://arxiv.org/abs/2005.07093},\n\t\n\turldate = {2022-08-17},\n\tpublisher = {arXiv},\n\tauthor = {van Baalen Mart and Louizos Christos and Nagel Markus and Amjad Rana Ali and Wang Ying and Blankevoort Tijmen and Welling Max},\n\tmonth = oct,\n\tyear = {2020},\n\t\n\tkeywords = {Computer Science - Machine Learning Statistics - Machine Learning Computer Science - Computer Vision and Pattern Recognition},",
+            "type": "misc",
+            "fields": {
+                "title": "Bayesian {Bits}: {Unifying} {Quantization} and {Pruning}",
+                "shorttitle": "Bayesian {Bits}",
+                "url": "http://arxiv.org/abs/2005.07093",
+                "urldate": "2022-08-17",
+                "publisher": "arXiv",
+                "author": "van Baalen Mart and Louizos Christos and Nagel Markus and Amjad Rana Ali and Wang Ying and Blankevoort Tijmen and Welling Max",
+                "year": "2020",
+                "keywords": "Computer Science - Machine Learning Statistics - Machine Learning Computer Science - Computer Vision and Pattern Recognition"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5ebe685391e0117693a521fc"
+        },
+        "li_s3_2021": {
+            "number": "[62]",
+            "title": "Stextasciicircum3: Sign-Sparse-Shift Reparametrization for Effective Training of Low-bit Shift Networks",
+            "text": "title = {S{\\textasciicircum}3: {Sign}-{Sparse}-{Shift} {Reparametrization} for {Effective} {Training} of {Low}-bit {Shift} {Networks}},\n\tvolume = {34},\n\tshorttitle = {S{\\textasciicircum}3},\n\turl = {https://proceedings.neurips.cc/paper/2021/hash/7a1d9028a78f418cb8f01909a348d9b2-Abstract.html},\n\turldate = {2022-08-20},\n\tbooktitle = {Advances in {Neural} {Information} {Processing} {Systems}},\n\tpublisher = {Curran Associates Inc.},\n\tauthor = {Li Xinlin and Liu Bang and Yu Yaoliang and Liu Wulong and XU Chunjing and Partovi Nia Vahid},\n\tyear = {2021},\n\tpages = {14555--14566},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "S{\\textasciicircum}3: {Sign}-{Sparse}-{Shift} {Reparametrization} for {Effective} {Training} of {Low}-bit {Shift} {Networks}",
+                "volume": "34",
+                "shorttitle": "S{\\textasciicircum}3",
+                "url": "https://proceedings.neurips.cc/paper/2021/hash/7a1d9028a78f418cb8f01909a348d9b2-Abstract.html",
+                "urldate": "2022-08-20",
+                "booktitle": "Advances in {Neural} {Information} {Processing} {Systems}",
+                "publisher": "Curran Associates Inc.",
+                "author": "Li Xinlin and Liu Bang and Yu Yaoliang and Liu Wulong and XU Chunjing and Partovi Nia Vahid",
+                "year": "2021",
+                "pages": "14555--14566"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "jain_zero-shot_nodate": {
+            "number": "[63]",
+            "title": "Zero-Shot Text-Guided Object Generation with Dream Fields",
+            "text": "title = {Zero-{Shot} {Text}-{Guided} {Object} {Generation} with {Dream} {Fields}},\n\tlanguage = {en},\n\tauthor = {Jain Ajay and Mildenhall Ben and Barron Jon and Abbeel Pieter and Poole Ben},\n\tpages = {1},",
+            "type": "misc",
+            "fields": {
+                "title": "Zero-{Shot} {Text}-{Guided} {Object} {Generation} with {Dream} {Fields}",
+                "language": "en",
+                "author": "Jain Ajay and Mildenhall Ben and Barron Jon and Abbeel Pieter and Poole Ben",
+                "pages": "1"
+            },
+            "ref_source": "bib",
+            "abstract": "We combine neural rendering with multi-modal image and text representations to synthesize diverse 3D objects solely from natural language descriptions. Our method, Dream Fields, can generate the geometry and color of a wide range of objects without 3D supervision. Due to the scarcity of diverse, captioned 3D data, prior methods only generate objects from a handful of categories, such as ShapeNet. Instead, we guide generation with image-text models pre-trained on large datasets of captioned images from the web. Our method optimizes a Neural Radiance Field from many camera views so that rendered images score highly with a target caption according to a pre-trained CLIP model. To improve fidelity and visual quality, we introduce simple geometric priors, including sparsity-inducing transmittance regularization, scene bounds, and new MLP architectures. In experiments, Dream Fields produce realistic, multi-view consistent object geometry and color from a variety of natural language captions.",
+            "aminer_id": "61a98aff5244ab9dcb955e83"
+        },
+        "dockhorn_demystifying_nodate": {
+            "number": "[64]",
+            "title": "Demystifying and Generalizing BinaryConnect",
+            "text": "title = {Demystifying and {Generalizing} {BinaryConnect}},\n\t\n\tlanguage = {en},\n\tauthor = {Dockhorn Tim and Yu Yaoliang and Sari Eyyüb and Zolnouri Mahdi and Nia Vahid Partovi},\n\tpages = {15},",
+            "type": "misc",
+            "fields": {
+                "title": "Demystifying and {Generalizing} {BinaryConnect}",
+                "language": "en",
+                "author": "Dockhorn Tim and Yu Yaoliang and Sari Eyyüb and Zolnouri Mahdi and Nia Vahid Partovi",
+                "pages": "15"
+            },
+            "ref_source": "bib",
+            "abstract": "BinaryConnect (BC) and its many variations have become the de facto standard for neural network quantization. However, our understanding of the inner workings of BC is still quite limited. We attempt to close this gap in four different aspects: (a) we show that existing quantization algorithms, including post-training quantization, are surprisingly similar to each other; (b) we argue for proximal maps as a natural family of quantizers that is both easy to design and analyze; (c) we refine the observation that BC is a special case of dual averaging, which itself is a special case of the generalized conditional gradient algorithm; (d) consequently, we propose ProxConnect (PC) as a generalization of BC and we prove its convergence properties by exploiting the established connections. We conduct experiments on CIFAR-10 and ImageNet, and verify that PC achieves competitive performance.",
+            "aminer_id": "6178c43b5244ab9dcbb2b580"
+        },
+        "yin_quantization_2019": {
+            "number": "[65]",
+            "title": "QUANTIZATION AND TRAINING OF LOW BIT-WIDTH CONVOLUTIONAL NEURAL NETWORKS FOR OBJECT DETECTION",
+            "text": "title = {Quantization and {Training} of {Low} {Bit}-{Width} {Convolutional} {Neural} {Networks} for {Object} {Detection}},\n\tvolume = {37},\n\tissn = {0254-9409 1991-7139},\n\turl = {http://global-sci.org/intro/article_detail/jcm/12726.html},\n\tdoi = {10.4208/jcm.1803-m2017-0301},\n\t\n\tlanguage = {en},\n\tnumber = {3},\n\turldate = {2022-11-11},\n\tjournal = {Journal of Computational Mathematics},\n\tauthor = {Yin Penghang},\n\tmonth = jun,\n\tyear = {2019},\n\t\n\tpages = {349--359},",
+            "type": "misc",
+            "fields": {
+                "title": "Quantization and {Training} of {Low} {Bit}-{Width} {Convolutional} {Neural} {Networks} for {Object} {Detection}",
+                "volume": "37",
+                "issn": "0254-9409 1991-7139",
+                "url": "http://global-sci.org/intro/article_detail/jcm/12726.html",
+                "doi": "10.4208/jcm.1803-m2017-0301",
+                "language": "en",
+                "number": "3",
+                "urldate": "2022-11-11",
+                "journal": "Journal of Computational Mathematics",
+                "author": "Yin Penghang",
+                "year": "2019",
+                "pages": "349--359"
+            },
+            "ref_source": "bib",
+            "abstract": "We present LBW-Net, an efficient optimization based method for quantization and training of the low bit-width convolutional neural networks (CNNs). Specifically, we quantize the weights to zero or powers of two by minimizing the Euclidean distance between full-precision weights and quantized weights during backpropagation. We characterize the combinatorial nature of the low bit-width quantization problem. For 2-bit (ternary) CNNs, the quantization of $N$ weights can be done by an exact formula in $O(N\\log N)$ complexity. When the bit-width is three and above, we further propose a semi-analytical thresholding scheme with a single free parameter for quantization that is computationally inexpensive. The free parameter is further determined by network retraining and object detection tests. LBW-Net has several desirable advantages over full-precision CNNs, including considerable memory savings, energy efficiency, and faster deployment. Our experiments on PASCAL VOC dataset show that compared with its 32-bit floating-point counterpart, the performance of the 6-bit LBW-Net is nearly lossless in the object detection tasks, and can even do better in some real world visual scenes, while empirically enjoying more than 4$\\times$ faster deployment.",
+            "aminer_id": "5c7570dbf56def979872e682"
+        },
+        "nesterov2009primal_dual_averaging": {
+            "number": "[66]",
+            "title": "Primal-Dual Subgradient Methods for Convex Problems",
+            "text": "title={Primal-dual subgradient methods for convex problems},\n  author={Nesterov Yurii},\n  journal={Mathematical programming},\n  volume={120},\n  number={1},\n  pages={221--259},\n  year={2002},\n  publisher={Springer}",
+            "type": "misc",
+            "fields": {
+                "title": "Primal-dual subgradient methods for convex problems",
+                "author": "Nesterov Yurii",
+                "journal": "Mathematical programming",
+                "volume": "120",
+                "number": "1",
+                "pages": "221--259",
+                "year": "2002",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we present a new approach for constructing subgradient schemes for different types of nonsmooth problems with convex structure. Our methods are primal-dual since they are always able to generate a feasible approximation to the optimum of an appropriately formulated dual problem. Besides other advantages, this useful feature provides the methods with a reliable stopping criterion. The proposed schemes differ from the classical approaches (divergent series methods, mirror descent methods) by presence of two control sequences. The first sequence is responsible for aggregating the support functions in the dual space, and the second one establishes a dynamically updated scale between the primal and dual spaces. This additional flexibility allows to guarantee a boundedness of the sequence of primal test points even in the case of unbounded feasible set (however, we always assume the uniform boundedness of subgradients). We present the variants of subgradient schemes for nonsmooth convex minimization, minimax problems, saddle point problems, variational inequalities, and stochastic optimization. In all situations our methods are proved to be optimal from the view point of worst-case black-box lower complexity bounds.",
+            "aminer_id": "5390a40520f70186a0e6f259"
+        },
+        "courbariaux2015binaryconnect": {
+            "number": "[67]",
+            "title": "BinaryConnect: Training Deep Neural Networks with Binary Weights During Propagations.",
+            "text": "title={Binaryconnect: Training deep neural networks with binary weights during propagations},\n  author={Courbariaux Matthieu and Bengio Yoshua and David Jean-Pierre},\n  journal={Advances in neural information processing systems},\n  volume={28},\n  year={2015}",
+            "type": "misc",
+            "fields": {
+                "title": "Binaryconnect: Training deep neural networks with binary weights during propagations",
+                "author": "Courbariaux Matthieu and Bengio Yoshua and David Jean-Pierre",
+                "journal": "Advances in neural information processing systems",
+                "volume": "28",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "Deep Neural Networks (DNN) have achieved state-of-the-art results in a wide range of tasks, with the best results obtained with large training sets and large models. In the past, GPUs enabled these breakthroughs because of their greater computational speed. In the future, faster computation at both training and test time is likely to be crucial for further progress and for consumer applications on low-power devices. As a result, there is much interest in research and development of dedicated hardware for Deep Learning (DL). Binary weights, i.e., weights which are constrained to only two possible values (e.g. -1 or 1), would bring great benefits to specialized DL hardware by replacing many multiply-accumulate operations by simple accumulations, as multipliers are the most space and power-hungry components of the digital implementation of neural networks. We introduce BinaryConnect, a method which consists in training a DNN with binary weights during the forward and backward propagations, while retaining precision of the stored weights in which gradients are accumulated. Like other dropout schemes, we show that BinaryConnect acts as regularizer and we obtain near state-of-the-art results with BinaryConnect on the permutation-invariant MNIST, CIFAR-10 and SVHN.",
+            "aminer_id": "5736986b6e3b12023e72fbaa"
+        },
+        "muller2015rounding": {
+            "number": "[68]",
+            "title": "Rounding Methods for Neural Networks with Low Resolution Synaptic Weights",
+            "text": "title={Rounding methods for neural networks with low resolution synaptic weights},\n  author={Muller Lorenz K and Indiveri Giacomo},\n  journal={arXiv preprint arXiv:1504.05767},\n  year={2015}",
+            "type": "misc",
+            "fields": {
+                "title": "Rounding methods for neural networks with low resolution synaptic weights",
+                "author": "Muller Lorenz K and Indiveri Giacomo",
+                "journal": "arXiv preprint arXiv:1504.05767",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural network algorithms simulated on standard computing platforms typically make use of high resolution weights, with floating-point notation. However, for dedicated hardware implementations of such algorithms, fixed-point synaptic weights with low resolution are preferable. The basic approach of reducing the resolution of the weights in these algorithms by standard rounding methods incurs drastic losses in performance. To reduce the resolution further, in the extreme case even to binary weights, more advanced techniques are necessary. To this end, we propose two methods for mapping neural network algorithms with high resolution weights to corresponding algorithms that work with low resolution weights and demonstrate that their performance is substantially better than standard rounding. We further use these methods to investigate the performance of three common neural network algorithms under fixed memory size of the weight matrix with different weight resolutions. We show that dedicated hardware systems, whose technology dictates very low weight resolutions (be they electronic or biological) could in principle implement the algorithms we study.",
+            "aminer_id": "5550412245ce0a409eb38c25"
+        },
+        "gupta2015deep": {
+            "number": "[69]",
+            "title": "Deep Learning with Limited Numerical Precision",
+            "text": "title={Deep learning with limited numerical precision},\n  author={Gupta Suyog and Agrawal Ankur and Gopalakrishnan Kailash and Narayanan Pritish},\n  booktitle={International conference on machine learning},\n  pages={1737--1746},\n  year={2015},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Deep learning with limited numerical precision",
+                "author": "Gupta Suyog and Agrawal Ankur and Gopalakrishnan Kailash and Narayanan Pritish",
+                "booktitle": "International conference on machine learning",
+                "pages": "1737--1746",
+                "year": "2015",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Training of large-scale deep neural networks is often constrained by the available computational resources. We study the effect of limited precision data representation and computation on neural network training. Within the context of low-precision fixed-point computations, we observe the rounding scheme to play a crucial role in determining the network's behavior during training. Our results show that deep networks can be trained using only 16-bit wide fixed-point number representation when using stochastic rounding, and incur little to no degradation in the classification accuracy. We also demonstrate an energy-efficient hardware accelerator that implements low-precision fixed-point arithmetic with stochastic rounding.",
+            "aminer_id": "573696ce6e3b12023e5ceb2d"
+        },
+        "kingma2015variational": {
+            "number": "[70]",
+            "title": "Variational Dropout and the Local Reparameterization Trick",
+            "text": "title={Variational dropout and the local reparameterization trick},\n  author={Kingma Durk P and Salimans Tim and Welling Max},\n  journal={Advances in neural information processing systems},\n  volume={28},\n  year={2015}",
+            "type": "misc",
+            "fields": {
+                "title": "Variational dropout and the local reparameterization trick",
+                "author": "Kingma Durk P and Salimans Tim and Welling Max",
+                "journal": "Advances in neural information processing systems",
+                "volume": "28",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "We investigate a local reparameterizaton technique for greatly reducing the variance of stochastic gradients for variational Bayesian inference (SGVB) of a posterior over model parameters, while retaining parallelizability. This local reparameterization translates uncertainty about global parameters into local noise that is independent across datapoints in the minibatch. Such parameterizations can be trivially parallelized and have variance that is inversely proportional to the minibatch size, generally leading to much faster convergence. Additionally, we explore a connection with dropout: Gaussian dropout objectives correspond to SGVB with local reparameterization, a scale-invariant prior and proportionally fixed posterior variance. Our method allows inference of more flexibly parameterized posteriors; specifically, we propose variational dropout, a generalization of Gaussian dropout where the dropout rates are learned, often leading to better models. The method is demonstrated through several experiments.",
+            "aminer_id": "573695fd6e3b12023e51147e"
+        },
+        "boyd2011ADMM": {
+            "number": "[71]",
+            "title": "Distributed Optimization and Statistical Learning Via the Alternating Direction Method of Multipliers",
+            "text": "title={Distributed optimization and statistical learning via the alternating direction method of multipliers},\n  author={Boyd Stephen and Parikh Neal and Chu Eric and Peleato Borja and Eckstein Jonathan and others},\n  journal={Foundations and Trends{\\textregistered} in Machine learning},\n  volume={3},\n  number={1},\n  pages={1--122},\n  year={2011},\n  publisher={Now Publishers Inc.}",
+            "type": "misc",
+            "fields": {
+                "title": "Distributed optimization and statistical learning via the alternating direction method of multipliers",
+                "author": "Boyd Stephen and Parikh Neal and Chu Eric and Peleato Borja and Eckstein Jonathan and others",
+                "journal": "Foundations and Trends{\\textregistered} in Machine learning",
+                "volume": "3",
+                "number": "1",
+                "pages": "1--122",
+                "year": "2011",
+                "publisher": "Now Publishers Inc."
+            },
+            "ref_source": "bib",
+            "abstract": "Many problems of recent interest in statistics and machine learning can be posed in the framework of convex optimization. Due to the explosion in size and complexity of modern datasets, it is increasingly important to be able to solve problems with a very large number of features or training examples. As a result, both the decentralized collection or storage of these datasets as well as accompanying distributed solution methods are either necessary or at least highly desirable. In this review, we argue that the alternating direction method of multipliers is well suited to distributed convex optimization, and in particular to large-scale problems arising in statistics, machine learning, and related areas. The method was developed in the 1970s, with roots in the 1950s, and is equivalent or closely related to many other algorithms, such as dual decomposition, the method of multipliers, Douglas–Rachford splitting, Spingarn's method of partial inverses, Dykstra's alternating projections, Bregman iterative algorithms for ℓ1 problems, proximal methods, and others. After briefly surveying the theory and history of the algorithm, we discuss applications to a wide variety of statistical and machine learning problems of recent interest, including the lasso, sparse logistic regression, basis pursuit, covariance selection, support vector machines, and many others. We also discuss general distributed optimization, extensions to the nonconvex setting, and efficient implementation, including some details on distributed MPI and Hadoop MapReduce implementations.",
+            "aminer_id": "5390b4c420f70186a0efe324"
+        },
+        "parikh2014proximal": {
+            "number": "[72]",
+            "title": "Proximal algorithms",
+            "text": "title={Proximal algorithms},\n  author={Parikh Neal and Boyd Stephen and others},\n  journal={Foundations and trends{\\textregistered} in Optimization},\n  volume={1},\n  number={3},\n  pages={127--239},\n  year={2014},\n  publisher={Now Publishers Inc.}",
+            "type": "misc",
+            "fields": {
+                "title": "Proximal algorithms",
+                "author": "Parikh Neal and Boyd Stephen and others",
+                "journal": "Foundations and trends{\\textregistered} in Optimization",
+                "volume": "1",
+                "number": "3",
+                "pages": "127--239",
+                "year": "2014",
+                "publisher": "Now Publishers Inc."
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "619b940e1c45e57ce9c9097f"
+        },
+        "gholami2021survey": {
+            "number": "[73]",
+            "title": "A Survey of Quantization Methods for Efficient Neural Network Inference",
+            "text": "title={A survey of quantization methods for efficient neural network inference},\n  author={Gholami Amir and Kim Sehoon and Dong Zhen and Yao Zhewei and Mahoney Michael W and Keutzer Kurt},\n  journal={arXiv preprint arXiv:2103.13630},\n  year={2021}",
+            "type": "misc",
+            "fields": {
+                "title": "A survey of quantization methods for efficient neural network inference",
+                "author": "Gholami Amir and Kim Sehoon and Dong Zhen and Yao Zhewei and Mahoney Michael W and Keutzer Kurt",
+                "journal": "arXiv preprint arXiv:2103.13630",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "As soon as abstract mathematical computations were adapted to computation on digital computers, the problem of efficient representation, manipulation, and communication of the numerical values in those computations arose. Strongly related to the problem of numerical representation is the problem of quantization: in what manner should a set of continuous real-valued numbers be distributed over a fixed discrete set of numbers to minimize the number of bits required and also to maximize the accuracy of the attendant computations? This perennial problem of quantization is particularly relevant whenever memory and/or computational resources are severely restricted, and it has come to the forefront in recent years due to the remarkable performance of Neural Network models in computer vision, natural language processing, and related areas. Moving from floating-point representations to low-precision fixed integer values represented in four bits or less holds the potential to reduce the memory footprint and latency by a factor of 16x; and, in fact, reductions of 4x to 8x are often realized in practice in these applications. Thus, it is not surprising that quantization has emerged recently as an important and very active sub-area of research in the efficient implementation of computations associated with Neural Networks. In this article, we survey approaches to the problem of quantizing the numerical values in deep Neural Network computations, covering the advantages/disadvantages of current methods. With this survey and its organization, we hope to have presented a useful snapshot of the current research in quantization for Neural Networks and to have given an intelligent organization to ease the evaluation of future research in this area.",
+            "aminer_id": "605dac5091e0113c286558ef"
+        },
+        "hinton2015distilling": {
+            "number": "[74]",
+            "title": "Distilling the Knowledge in a Neural Network",
+            "text": "title={Distilling the knowledge in a neural network},\n  author={Hinton Geoffrey and Vinyals Oriol and Dean Jeff},\n  journal={arXiv preprint arXiv:1503.02531},\n  year={2015}",
+            "type": "misc",
+            "fields": {
+                "title": "Distilling the knowledge in a neural network",
+                "author": "Hinton Geoffrey and Vinyals Oriol and Dean Jeff",
+                "journal": "arXiv preprint arXiv:1503.02531",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "A very simple way to improve the performance of almost any machine learning algorithm is to train many different models on the same data and then to average their predictions. Unfortunately, making predictions using a whole ensemble of models is cumbersome and may be too computationally expensive to allow deployment to a large number of users, especially if the individual models are large neural nets. Caruana and his collaborators have shown that it is possible to compress the knowledge in an ensemble into a single model which is much easier to deploy and we develop this approach further using a different compression technique. We achieve some surprising results on MNIST and we show that we can significantly improve the acoustic model of a heavily used commercial system by distilling the knowledge in an ensemble of models into a single model. We also introduce a new type of ensemble composed of one or more full models and many specialist models which learn to distinguish fine-grained classes that the full models confuse. Unlike a mixture of experts, these specialist models can be trained rapidly and in parallel.",
+            "aminer_id": "5550417545ce0a409eb3b767"
+        },
+        "bengio2013estimating": {
+            "number": "[75]",
+            "title": "Estimating or Propagating Gradients Through Stochastic Neurons for Conditional Computation",
+            "text": "title={Estimating or propagating gradients through stochastic neurons for conditional computation},\n  author={Bengio Yoshua and L{\\'e}onard Nicholas and Courville Aaron},\n  journal={arXiv preprint arXiv:1308.3432},\n  year={2013}",
+            "type": "misc",
+            "fields": {
+                "title": "Estimating or propagating gradients through stochastic neurons for conditional computation",
+                "author": "Bengio Yoshua and L{\\'e}onard Nicholas and Courville Aaron",
+                "journal": "arXiv preprint arXiv:1308.3432",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "Stochastic neurons and hard non-linearities can be useful for a number of reasons in deep learning models, but in many cases they pose a challenging problem: how to estimate the gradient of a loss function with respect to the input of such stochastic or non-smooth neurons? I.e., can we \"back-propagate\" through these stochastic neurons? We examine this question, existing approaches, and compare four families of solutions, applicable in different settings. One of them is the minimum variance unbiased gradient estimator for stochatic binary neurons (a special case of the REINFORCE algorithm). A second approach, introduced here, decomposes the operation of a binary stochastic neuron into a stochastic binary part and a smooth differentiable part, which approximates the expected effect of the pure stochatic binary neuron to first order. A third approach involves the injection of additive or multiplicative noise in a computational graph that is otherwise differentiable. A fourth approach heuristically copies the gradient with respect to the stochastic output directly as an estimator of the gradient with respect to the sigmoid argument (we call this the straight-through estimator). To explore a context where these estimators are useful, we consider a small-scale version of {\\em conditional computation}, where sparse stochastic units form a distributed representation of gaters that can turn off in combinatorially many ways large chunks of the computation performed in the rest of the neural network. In this case, it is important that the gating units produce an actual 0 most of the time. The resulting sparsity can be potentially be exploited to greatly reduce the computational cost of large deep networks for which conditional computation would be useful.",
+            "aminer_id": "687c508d163c01c8508b86e6"
+        },
+        "simonyan2014vgg": {
+            "number": "[76]",
+            "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "text": "title={Very deep convolutional networks for large-scale image recognition},\n  author={Simonyan Karen and Zisserman Andrew},\n  journal={arXiv preprint arXiv:1409.1556},\n  year={2014}",
+            "type": "misc",
+            "fields": {
+                "title": "Very deep convolutional networks for large-scale image recognition",
+                "author": "Simonyan Karen and Zisserman Andrew",
+                "journal": "arXiv preprint arXiv:1409.1556",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.",
+            "aminer_id": "5550415645ce0a409eb3a69e"
+        },
+        "he2016resnet": {
+            "number": "[77]",
+            "title": "Deep Residual Learning for Image Recognition",
+            "text": "title={Deep residual learning for image recognition},\n  author={He Kaiming and Zhang Xiangyu and Ren Shaoqing and Sun Jian},\n  booktitle={Proceedings of the IEEE conference on computer vision and pattern recognition},\n  pages={770--778},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Deep residual learning for image recognition",
+                "author": "He Kaiming and Zhang Xiangyu and Ren Shaoqing and Sun Jian",
+                "booktitle": "Proceedings of the IEEE conference on computer vision and pattern recognition",
+                "pages": "770--778",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
+            "aminer_id": "573696026e3b12023e515eec"
+        },
+        "deng2009imagenet": {
+            "number": "[78]",
+            "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+            "text": "title={Imagenet: A large-scale hierarchical image database},\n  author={Deng Jia and Dong Wei and Socher Richard and Li Li-Jia and Li Kai and Fei-Fei Li},\n  booktitle={2009 IEEE conference on computer vision and pattern recognition},\n  pages={248--255},\n  year={2009},\n  organization={Ieee}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Imagenet: A large-scale hierarchical image database",
+                "author": "Deng Jia and Dong Wei and Socher Richard and Li Li-Jia and Li Kai and Fei-Fei Li",
+                "booktitle": "2009 IEEE conference on computer vision and pattern recognition",
+                "pages": "248--255",
+                "year": "2009",
+                "organization": "Ieee"
+            },
+            "ref_source": "bib",
+            "abstract": "The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called “ImageNet”, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond.",
+            "aminer_id": "53e9b844b7602d970440513c"
+        },
+        "fan2020noisequant": {
+            "number": "[79]",
+            "title": "Training with Quantization Noise for Extreme Model Compression",
+            "text": "title={Training with quantization noise for extreme model compression},\n  author={Fan Angela and Stock Pierre and Graham Benjamin and Grave Edouard and Gribonval R{\\'e}mi and Jegou Herve and Joulin Armand},\n  journal={arXiv preprint arXiv:2004.07320},\n  year={2020}",
+            "type": "misc",
+            "fields": {
+                "title": "Training with quantization noise for extreme model compression",
+                "author": "Fan Angela and Stock Pierre and Graham Benjamin and Grave Edouard and Gribonval R{\\'e}mi and Jegou Herve and Joulin Armand",
+                "journal": "arXiv preprint arXiv:2004.07320",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "We tackle the problem of producing compact models, maximizing their accuracyfor a given model size. A standard solution is to train networks withQuantization Aware Training, where the weights are quantized during trainingand the gradients approximated with the Straight-Through Estimator. In thispaper, we extend this approach to work beyond int8 fixed-point quantizationwith extreme compression methods where the approximations introduced by STE aresevere, such as Product Quantization. Our proposal is to only quantize adifferent random subset of weights during each forward, allowing for unbiasedgradients to flow through the other weights. Controlling the amount of noiseand its form allows for extreme compression rates while maintaining theperformance of the original model. As a result we establish newstate-of-the-art compromises between accuracy and model size both in naturallanguage processing and image classification. For example, applying our methodto state-of-the-art Transformer and ConvNet architectures, we can achieve 82.5accuracy on MNLI by compressing RoBERTa to 14MB and 80.0 top-1 accuracy onImageNet by compressing an EfficientNet-B3 to 3.3MB.",
+            "aminer_id": "5e997e4391e01118b66a5cf3"
+        },
+        "liu2023hyperspherical": {
+            "number": "[80]",
+            "title": "Hyperspherical Quantization: Toward Smaller and More Accurate Models",
+            "text": "title={Hyperspherical Quantization: Toward Smaller and More Accurate Models},\n  author={Liu Dan and Chen Xi and Ma Chen and Liu Xue},\n  booktitle={Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision},\n  pages={5262--5272},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Hyperspherical Quantization: Toward Smaller and More Accurate Models",
+                "author": "Liu Dan and Chen Xi and Ma Chen and Liu Xue",
+                "booktitle": "Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision",
+                "pages": "5262--5272",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Model quantization enables the deployment of deep neural networks under resource-constrained devices. Vector quantization aims at reducing the model size by indexing model weights with full-precision embeddings, i.e., codewords, while the index needs to be restored to 32-bit during computation. Binary and other low-precision quantization methods can reduce the model size up to 32×, however, at the cost of a considerable accuracy drop. In this paper, we propose an efficient framework for ternary quantization to produce smaller and more accurate compressed models. By integrating hyperspherical learning, pruning and reinitialization, our proposed Hyperspherical Quantization (HQ) method reduces the cosine distance between the full-precision and ternary weights, thus reducing the bias of the straight-through gradient estimator during ternary quantization. Compared with existing work at similar compression levels (~30×, ~40×), our method significantly improves the test accuracy and reduces the model size.",
+            "aminer_id": "63aa623990e50fcafd9783d0"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 80,
+        "citation_types": {
+            "other": 80
+        }
+    }
+}

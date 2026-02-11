@@ -1,0 +1,1474 @@
+{
+    "topic": "A Survey on Split Manufacturing: Attacks, Defenses, and Challenges",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[30]",
+                "[29]",
+                "[40]",
+                "[1]",
+                "[32]",
+                "[11]",
+                "[10]",
+                "[37]",
+                "[34]",
+                "[31]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Split Manufacturing: Background",
+            "refs": [
+                "[39]",
+                "[2]",
+                "[38]",
+                "[41]",
+                "[23]",
+                "[11]",
+                "[13]",
+                "[10]",
+                "[43]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Attacks on Split Manufacturing",
+            "refs": [
+                "[15]",
+                "[63]",
+                "[16]",
+                "[48]",
+                "[23]",
+                "[21]",
+                "[66]",
+                "[9]",
+                "[26]",
+                "[22]",
+                "[7]",
+                "[5]",
+                "[45]",
+                "[44]",
+                "[2]",
+                "[47]",
+                "[12]",
+                "[20]",
+                "[46]",
+                "[3]",
+                "[17]",
+                "[10]",
+                "[14]",
+                "[42]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Split Manufacturing Defenses",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Proximity Perturbation",
+                    "refs": [
+                        "[2]",
+                        "[17]",
+                        "[22]",
+                        "[3]",
+                        "[62]",
+                        "[10]",
+                        "[65]",
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Wire Lifting",
+                    "refs": [
+                        "[49]",
+                        "[2]",
+                        "[51]",
+                        "[55]",
+                        "[5]",
+                        "[47]",
+                        "[56]",
+                        "[54]",
+                        "[7]",
+                        "[21]",
+                        "[53]",
+                        "[52]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Layout Obfuscation",
+                    "refs": [
+                        "[50]",
+                        "[15]",
+                        "[57]",
+                        "[12]",
+                        "[58]",
+                        "[20]",
+                        "[23]",
+                        "[46]",
+                        "[64]",
+                        "[61]",
+                        "[9]",
+                        "[60]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Future trends and challenges",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        }
+    ],
+    "references": {
+        "Rostami2014": {
+            "number": "[1]",
+            "title": "A Primer on Hardware Security: Models, Methods, and Metrics",
+            "text": "abstract = {The multinational, distributed, and multistep nature of integrated circuit (IC) production supply chain has introduced hardware-based vulnerabilities. Existing literature in hardware security assumes ad hoc threat models, defenses, and metrics for evaluation, making it difficult to analyze and compare alternate solutions. This paper systematizes the current knowledge in this emerging field, including a classification of threat models, state-of-the-art defenses, and evaluation metrics for important hardware-based attacks. {\\textcopyright} 1963-2012 IEEE.},\nauthor = {Rostami, Masoud and Koushanfar, Farinaz and Karri, Ramesh},\ndoi = {10.1109/JPROC.2014.2335155},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/primer{\\_}hw{\\_}security.pdf:pdf},\nissn = {00189219},\njournal = {Proceedings of the IEEE},\nnumber = {8},\npages = {1283--1295},\npublisher = {IEEE},\ntitle = {{A primer on hardware security: Models, methods, and metrics}},\nvolume = {102},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "abstract": "The multinational, distributed, and multistep nature of integrated circuit (IC) production supply chain has introduced hardware-based vulnerabilities. Existing literature in hardware security assumes ad hoc threat models, defenses, and metrics for evaluation, making it difficult to analyze and compare alternate solutions. This paper systematizes the current knowledge in this emerging field, including a classification of threat models, state-of-the-art defenses, and evaluation metrics for important hardware-based attacks. {\\textcopyright} 1963-2012 IEEE.",
+                "author": "Rostami, Masoud and Koushanfar, Farinaz and Karri, Ramesh",
+                "doi": "10.1109/JPROC.2014.2335155",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/primer{\\_}hw{\\_}security.pdf:pdf",
+                "issn": "00189219",
+                "journal": "Proceedings of the IEEE",
+                "number": "8",
+                "pages": "1283--1295",
+                "publisher": "IEEE",
+                "title": "{A primer on hardware security: Models, methods, and metrics}",
+                "volume": "102",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "The multinational, distributed, and multistep nature of integrated circuit (IC) production supply chain has introduced hardware-based vulnerabilities. Existing literature in hardware security assumes ad hoc threat models, defenses, and metrics for evaluation, making it difficult to analyze and compare alternate solutions. This paper systematizes the current knowledge in this emerging field, including a classification of threat models, state-of-the-art defenses, and evaluation metrics for important hardware-based attacks.",
+            "aminer_id": "557c7cf9f66765fbb46b4e0e"
+        },
+        "Wang2017": {
+            "number": "[2]",
+            "title": "Routing Perturbation for Enhanced Security in Split Manufacturing",
+            "text": "abstract = {Split manufacturing can mitigate security vulnerabilities at untrusted foundries by exposing only partial designs. Even so, attackers can make educated guess according to design conventions and thereby recover entire chip designs. In this work, a routing perturbation-based defense method is proposed such that such attacks become very difficult while wirelength/timing overhead is restricted to be very small. Experimental results on benchmark circuits confirm the effectiveness of the proposed techniques. The new techniques also significantly outperform the latest previous work.},\nauthor = {Wang, Yujie and Chen, Pu and Hu, Jiang and Rajendran, Jeyavijayan},\ndoi = {10.1145/2966986.2967006},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/routing{\\_}pertu{\\_}enh{\\_}sec{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781509015580},\njournal = {Asia and South Pacific Design Automation Conference (ASP-DAC)},\npages = {605--610},\npublisher = {IEEE},\ntitle = {{Routing Perturbation for Enhanced Security in Split Manufacturing}},\nyear = {2017}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing can mitigate security vulnerabilities at untrusted foundries by exposing only partial designs. Even so, attackers can make educated guess according to design conventions and thereby recover entire chip designs. In this work, a routing perturbation-based defense method is proposed such that such attacks become very difficult while wirelength/timing overhead is restricted to be very small. Experimental results on benchmark circuits confirm the effectiveness of the proposed techniques. The new techniques also significantly outperform the latest previous work.",
+                "author": "Wang, Yujie and Chen, Pu and Hu, Jiang and Rajendran, Jeyavijayan",
+                "doi": "10.1145/2966986.2967006",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/routing{\\_}pertu{\\_}enh{\\_}sec{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781509015580",
+                "journal": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+                "pages": "605--610",
+                "publisher": "IEEE",
+                "title": "{Routing Perturbation for Enhanced Security in Split Manufacturing}",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "58d83014d649053542fe1a52"
+        },
+        "Chen2017": {
+            "number": "[3]",
+            "title": "How Secure is Split Manufacturing in Preventing Hardware Trojan?",
+            "text": "abstract = {With the trend of outsourcing fabrication, split manufacturing is regarded as a promising way to both provide the high-end nodes in untrusted external foundries and protect the design from potential attackers. However, in this work, we show that split manufacturing is not inherently secure. A hardware trojan attacker can still discover necessary information with a simulated annealing based attack approach at the placement level. We further propose a defense approach by moving the insecure gates away from their easily-attacked candidate locations. Experimental results on benchmark circuits show the effectiveness of our proposed methods.},\nauthor = {Chen, Zhang and Zhou, Pingqiang and Ho, Tsung Yi and Jin, Yier},\ndoi = {10.1109/AsianHOST.2016.7835561},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/how{\\_}sec{\\_}split{\\_}man{\\_}hw{\\_}trojan.pdf:pdf},\nisbn = {9781509057016},\njournal = {IEEE Asian Hardware Oriented Security and Trust Symposium (AsianHOST)},\npages = {1--6},\npublisher = {IEEE},\ntitle = {{How Secure is Split Manufacturing in Preventing Hardware Trojan?}},\nyear = {2017}",
+            "type": "article",
+            "fields": {
+                "abstract": "With the trend of outsourcing fabrication, split manufacturing is regarded as a promising way to both provide the high-end nodes in untrusted external foundries and protect the design from potential attackers. However, in this work, we show that split manufacturing is not inherently secure. A hardware trojan attacker can still discover necessary information with a simulated annealing based attack approach at the placement level. We further propose a defense approach by moving the insecure gates away from their easily-attacked candidate locations. Experimental results on benchmark circuits show the effectiveness of our proposed methods.",
+                "author": "Chen, Zhang and Zhou, Pingqiang and Ho, Tsung Yi and Jin, Yier",
+                "doi": "10.1109/AsianHOST.2016.7835561",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/how{\\_}sec{\\_}split{\\_}man{\\_}hw{\\_}trojan.pdf:pdf",
+                "isbn": "9781509057016",
+                "journal": "IEEE Asian Hardware Oriented Security and Trust Symposium (AsianHOST)",
+                "pages": "1--6",
+                "publisher": "IEEE",
+                "title": "{How Secure is Split Manufacturing in Preventing Hardware Trojan?}",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "With the trend of outsourcing fabrication, split manufacturing is regarded as a promising way to both acquire the high-end nodes in untrusted external foundries and protect the design from potential attackers. However, in this article, we show that split manufacturing is not inherently secure, that a hardware Trojan attacker can still recover necessary information with a proximity-based or a simulated-annealing-based mapping approach together with a probability-based or net-based pruning method at the placement level. We further propose a defense approach by moving the insecure gates away from their easily attacked candidate locations. Results on benchmark circuits show the effectiveness of our proposed methods.",
+            "aminer_id": "599c7eee601a182cd28d90e4"
+        },
+        "Wang2017a": {
+            "number": "[4]",
+            "title": "Front-end-of-line attacks in split manufacturing",
+            "text": "abstract = {By splitting the manufacturing of integrated circuits into back-end-of-line (BEOL) and front-end-of-line (FEOL) at different foundries, the vulnerabilities to attacks by a untrusted foundry is considerably alleviated. Most previous works focus on the scenario of only BEOL attacks at untrusted FEOL foundries. In this work, we study a largely unexplored scenario, where FEOL attacks are launched by an untrusted BEOL foundry. A geometric pattern match attack and a machine learningbased attack technique are investigated. Defense techniques against the FEOL attacks are also discussed. The effectiveness of these techniques is demonstrated by experiments on benchmark circuits.},\nauthor = {Wang, Yujie and Cao, Tri and Hu, Jiang and Rajendran, Jeyavijayan},\ndoi = {10.1109/ICCAD.2017.8329993},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/feol{\\_}attck{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781538630938},\nissn = {10923152},\njournal = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\npages = {1--8},\ntitle = {{Front-end-of-line attacks in split manufacturing}},\nvolume = {2017-Novem},\nyear = {2017}",
+            "type": "article",
+            "fields": {
+                "abstract": "By splitting the manufacturing of integrated circuits into back-end-of-line (BEOL) and front-end-of-line (FEOL) at different foundries, the vulnerabilities to attacks by a untrusted foundry is considerably alleviated. Most previous works focus on the scenario of only BEOL attacks at untrusted FEOL foundries. In this work, we study a largely unexplored scenario, where FEOL attacks are launched by an untrusted BEOL foundry. A geometric pattern match attack and a machine learningbased attack technique are investigated. Defense techniques against the FEOL attacks are also discussed. The effectiveness of these techniques is demonstrated by experiments on benchmark circuits.",
+                "author": "Wang, Yujie and Cao, Tri and Hu, Jiang and Rajendran, Jeyavijayan",
+                "doi": "10.1109/ICCAD.2017.8329993",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/feol{\\_}attck{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781538630938",
+                "issn": "10923152",
+                "journal": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "pages": "1--8",
+                "title": "{Front-end-of-line attacks in split manufacturing}",
+                "volume": "2017-Novem",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5aed149917c44a4438155a10"
+        },
+        "Patnaik2018": {
+            "number": "[5]",
+            "title": "Concerted Wire Lifting: Enabling Secure and Cost-Effective Split Manufacturing",
+            "text": "abstract = {Here we advance the protection of split manufacturing (SM)-based layouts through the judicious and well-controlled handling of interconnects. Initially, we explore the cost-security trade-offs of SM, which are limiting its adoption. Aiming to resolve this issue, we propose effective and efficient strategies to lift nets to the BEOL. Towards this end, we design custom 'elevating cells' which we also provide to the community. Further, we define and promote a new metric, Percentage of Netlist Recovery (PNR), which can quantify the resilience against gate-level theft of intellectual property (IP) in a manner more meaningful than established metrics. Our extensive experiments show that we outperform the recent protection schemes regarding security. For example, we reduce the correct connection rate to 0{\\%} for commonly considered benchmarks, which is a first in the literature. Besides, we induce reasonably low and controllable overheads on power, performance, and area (PPA). At the same time, we also help to lower the commercial cost incurred by SM.},\nauthor = {Patnaik, Satwik and Knechtel, Johann and Ashraf, Mohammed and Sinanoglu, Ozgur},\ndoi = {10.1109/ASPDAC.2018.8297314},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/concerted{\\_}wire{\\_}lift{\\_}sec{\\_}cosef{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781509006021},\njournal = {Asia and South Pacific Design Automation Conference (ASP-DAC)},\npages = {251--258},\npublisher = {IEEE},\ntitle = {{Concerted Wire Lifting: Enabling Secure and Cost-Effective Split Manufacturing}},\nvolume = {2018-Janua},\nyear = {2018}",
+            "type": "article",
+            "fields": {
+                "abstract": "Here we advance the protection of split manufacturing (SM)-based layouts through the judicious and well-controlled handling of interconnects. Initially, we explore the cost-security trade-offs of SM, which are limiting its adoption. Aiming to resolve this issue, we propose effective and efficient strategies to lift nets to the BEOL. Towards this end, we design custom 'elevating cells' which we also provide to the community. Further, we define and promote a new metric, Percentage of Netlist Recovery (PNR), which can quantify the resilience against gate-level theft of intellectual property (IP) in a manner more meaningful than established metrics. Our extensive experiments show that we outperform the recent protection schemes regarding security. For example, we reduce the correct connection rate to 0{\\%} for commonly considered benchmarks, which is a first in the literature. Besides, we induce reasonably low and controllable overheads on power, performance, and area (PPA). At the same time, we also help to lower the commercial cost incurred by SM.",
+                "author": "Patnaik, Satwik and Knechtel, Johann and Ashraf, Mohammed and Sinanoglu, Ozgur",
+                "doi": "10.1109/ASPDAC.2018.8297314",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/concerted{\\_}wire{\\_}lift{\\_}sec{\\_}cosef{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781509006021",
+                "journal": "Asia and South Pacific Design Automation Conference (ASP-DAC)",
+                "pages": "251--258",
+                "publisher": "IEEE",
+                "title": "{Concerted Wire Lifting: Enabling Secure and Cost-Effective Split Manufacturing}",
+                "volume": "2018-Janua",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5a9cb60d17c44a376ffb3a29"
+        },
+        "Li2019": {
+            "number": "[6]",
+            "title": "Attacking Split Manufacturing from a Deep Learning Perspective",
+            "text": "author={H. {Li} and S. {Patnaik} and A. {Sengupta} and H. {Yang} and J. {Knechtel} and B. {Yu} and E. F. Y. {Young} and O. {Sinanoglu}},  booktitle={56th ACM/IEEE Design Automation Conference (DAC)},   title={Attacking Split Manufacturing from a Deep Learning Perspective},   year={2019},  volume={},  number={},  pages={1-6},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "H. {Li} and S. {Patnaik} and A. {Sengupta} and H. {Yang} and J. {Knechtel} and B. {Yu} and E. F. Y. {Young} and O. {Sinanoglu}",
+                "booktitle": "56th ACM/IEEE Design Automation Conference (DAC)",
+                "title": "Attacking Split Manufacturing from a Deep Learning Perspective",
+                "year": "2019",
+                "volume": "",
+                "number": "",
+                "pages": "1-6"
+            },
+            "ref_source": "bib",
+            "abstract": "The notion of integrated circuit split manufacturing which delegates the front-end-of-line (FEOL) and back-end-of-line (BEOL) parts to different foundries, is to prevent overproduction, piracy of the intellectual property (IP), or targeted insertion of hardware Trojans by adversaries in the FEOL facility. In this work, we challenge the security promise of split manufacturing by formulating various layout-level placement and routing hints as vector- and image-based features. We construct a sophisticated deep neural network which can infer the missing BEOL connections with high accuracy. Compared with the publicly available network-flow attack [1], for the same set of ISCAS-85 benchmarks, we achieve 1.21× accuracy when splitting on M1 and 1.12× accuracy when splitting on M3 with less than 1% running time.",
+            "aminer_id": "5f06e88091e0117f54657c74"
+        },
+        "Feng2017": {
+            "number": "[7]",
+            "title": "Making Split Fabrication Synergistically Secure and Manufacturable",
+            "text": "abstract = {Split fabrication is a promising approach to security against attacks by untrusted foundries. While existing split fabrication methods consider the overhead of conventional objectives such as wirelength and timing, they mostly neglect manufacturability - an unavoidable challenge in nanometer technologies. Observing that security and manufacturability can be addressed in a synergistic manner, this work introduces routing techniques that can simultaneously improve both security and manufacturability in terms of either Chemical Mechanical Planarization (CMP) uniformity or Self-Aligned Double Patterning (SADP) compliance. The effectiveness of these techniques is confirmed by experiments on benchmark circuits.},\nauthor = {Feng, Lang and Wang, Yujie and Hu, Jiang and Mak, Wai Kei and Rajendran, Jeyavijayan},\ndoi = {10.1109/ICCAD.2017.8203794},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/make{\\_}split{\\_}fab{\\_}syn{\\_}sec{\\_}man.pdf:pdf},\nisbn = {9781538630938},\nissn = {10923152},\njournal = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\npages = {313--320},\ntitle = {{Making Split Fabrication Synergistically Secure and Manufacturable}},\nvolume = {2017-Novem},\nyear = {2017}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split fabrication is a promising approach to security against attacks by untrusted foundries. While existing split fabrication methods consider the overhead of conventional objectives such as wirelength and timing, they mostly neglect manufacturability - an unavoidable challenge in nanometer technologies. Observing that security and manufacturability can be addressed in a synergistic manner, this work introduces routing techniques that can simultaneously improve both security and manufacturability in terms of either Chemical Mechanical Planarization (CMP) uniformity or Self-Aligned Double Patterning (SADP) compliance. The effectiveness of these techniques is confirmed by experiments on benchmark circuits.",
+                "author": "Feng, Lang and Wang, Yujie and Hu, Jiang and Mak, Wai Kei and Rajendran, Jeyavijayan",
+                "doi": "10.1109/ICCAD.2017.8203794",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/make{\\_}split{\\_}fab{\\_}syn{\\_}sec{\\_}man.pdf:pdf",
+                "isbn": "9781538630938",
+                "issn": "10923152",
+                "journal": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "pages": "313--320",
+                "title": "{Making Split Fabrication Synergistically Secure and Manufacturable}",
+                "volume": "2017-Novem",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Split fabrication is a promising approach to security against attacks by untrusted foundries. While existing split fabrication methods consider the overhead of conventional objectives such as wirelength and timing, they mostly neglect manufacturability---an unavoidable challenge in nanometer technologies. Observing that security and manufacturability can be addressed in a synergistic manner, this work introduces routing techniques that can simultaneously improve both security and manufacturability in terms of either Chemical Mechanical Planarization (CMP) uniformity or Self-Aligned Double Patterning (SADP) compliance. The effectiveness of these techniques is confirmed by experiments on benchmark circuits.",
+            "aminer_id": "5a4aef5a17c44a2190f7750a"
+        },
+        "Chen2019": {
+            "number": "[8]",
+            "title": "Reverse Engineering of Split Manufactured Sequential Circuits Using Satisfiability Checking",
+            "text": "abstract = {Split Manufacturing was proposed as a promising strategy to thwart reverse engineering and Trojan insertion at untrusted foundries. However, attack methods based on physical design hints have been proposed to reverse engineer a combinational circuit with Front-End-Of-line (FEOL) layers only. But none of them can guarantee 100{\\%} recovery of BEOL signals since no validation can be done during the attack process. In this paper, we introduce an attack flow that can recover 100{\\%} BEOL signals for sequential circuits effectively. Our approach shows promising results in attacking sequential circuits without access to flip-flop outputs. We demonstrate the effectiveness of the new attack method on a set of sequential benchmarks from ISCAS-89 and ITC-99 sets which have been widely used in related research. Results show logic equivalence between the original circuit and the recovered circuit for all benchmarks.},\nauthor = {Chen, Suyuan and Vemuri, Ranga},\ndoi = {10.1109/ICCD.2018.00085},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rev{\\_}eng{\\_}split{\\_}man{\\_}seq{\\_}cir{\\_}sats{\\_}check.pdf:pdf},\nisbn = {9781538684771},\njournal = {IEEE International Conference on Computer Design (ICCD)},\nkeywords = {SAT attack,Split Manufacturing,combinational cycles},\npages = {530--536},\npublisher = {IEEE},\ntitle = {{Reverse Engineering of Split Manufactured Sequential Circuits Using Satisfiability Checking}},\nyear = {2019}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split Manufacturing was proposed as a promising strategy to thwart reverse engineering and Trojan insertion at untrusted foundries. However, attack methods based on physical design hints have been proposed to reverse engineer a combinational circuit with Front-End-Of-line (FEOL) layers only. But none of them can guarantee 100{\\%} recovery of BEOL signals since no validation can be done during the attack process. In this paper, we introduce an attack flow that can recover 100{\\%} BEOL signals for sequential circuits effectively. Our approach shows promising results in attacking sequential circuits without access to flip-flop outputs. We demonstrate the effectiveness of the new attack method on a set of sequential benchmarks from ISCAS-89 and ITC-99 sets which have been widely used in related research. Results show logic equivalence between the original circuit and the recovered circuit for all benchmarks.",
+                "author": "Chen, Suyuan and Vemuri, Ranga",
+                "doi": "10.1109/ICCD.2018.00085",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rev{\\_}eng{\\_}split{\\_}man{\\_}seq{\\_}cir{\\_}sats{\\_}check.pdf:pdf",
+                "isbn": "9781538684771",
+                "journal": "IEEE International Conference on Computer Design (ICCD)",
+                "keywords": "SAT attack,Split Manufacturing,combinational cycles",
+                "pages": "530--536",
+                "publisher": "IEEE",
+                "title": "{Reverse Engineering of Split Manufactured Sequential Circuits Using Satisfiability Checking}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Split Manufacturing was proposed as a promising strategy to thwart reverse engineering and Trojan insertion at untrusted foundries. However, attack methods based on physical design hints have been proposed to reverse engineer a combinational circuit with Front-End-Of-line (FEOL) layers only. But none of them can guarantee 100% recovery of BEOL signals since no validation can be done during the attack process. In this paper, we introduce an attack flow that can recover 100% BEOL signals for sequential circuits effectively. Our approach shows promising results in attacking sequential circuits without access to flip-flop outputs. We demonstrate the effectiveness of the new attack method on a set of sequential benchmarks from ISCAS-89 and ITC-99 sets which have been widely used in related research. Results show logic equivalence between the original circuit and the recovered circuit for all benchmarks.",
+            "aminer_id": "5c4ecf80e1cd8e765648896f"
+        },
+        "Masoud2019": {
+            "number": "[9]",
+            "title": "Obfuscation of Digital Systems Using Isomorphic Cells and Split Fabrication",
+            "text": "abstract = {Hardware security has become a vital issue, and has recently gained increasing attention. In this paper, we propose obfuscation algorithms that improve the security of digital systems, and protect them against reverse engineering attempts. Metrics for measuring the obfuscation level of digital designs that implement our approaches are also introduced. The introduced algorithms are mainly based on the concepts of split fabrication, isomorphic gates and optimized isomorphic gates, and a new concept we introduce based on the inclination of logic gate outputs towards a specific output (1 or 0). Experimental results show improvements in the figures that represent the security of designs based on the introduced metrics.},\nauthor = {Masoud, Mohamad A. and Alkabani, Yousra and El-Kharashi, M. Watheq},\ndoi = {10.1109/ICCES.2018.8639248},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/obs{\\_}dig{\\_}sys{\\_}usi{\\_}cell{\\_}splitt{\\_}fab.pdf:pdf},\nisbn = {9781538651117},\njournal = {International Conference on Computer Engineering and Systems (ICCES)},\npages = {488--493},\npublisher = {IEEE},\ntitle = {{Obfuscation of Digital Systems using Isomorphic Cells and Split Fabrication}},\nyear = {2019}",
+            "type": "article",
+            "fields": {
+                "abstract": "Hardware security has become a vital issue, and has recently gained increasing attention. In this paper, we propose obfuscation algorithms that improve the security of digital systems, and protect them against reverse engineering attempts. Metrics for measuring the obfuscation level of digital designs that implement our approaches are also introduced. The introduced algorithms are mainly based on the concepts of split fabrication, isomorphic gates and optimized isomorphic gates, and a new concept we introduce based on the inclination of logic gate outputs towards a specific output (1 or 0). Experimental results show improvements in the figures that represent the security of designs based on the introduced metrics.",
+                "author": "Masoud, Mohamad A. and Alkabani, Yousra and El-Kharashi, M. Watheq",
+                "doi": "10.1109/ICCES.2018.8639248",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/obs{\\_}dig{\\_}sys{\\_}usi{\\_}cell{\\_}splitt{\\_}fab.pdf:pdf",
+                "isbn": "9781538651117",
+                "journal": "International Conference on Computer Engineering and Systems (ICCES)",
+                "pages": "488--493",
+                "publisher": "IEEE",
+                "title": "{Obfuscation of Digital Systems using Isomorphic Cells and Split Fabrication}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Hardware security has become a vital issue, and has recently gained increasing attention. In this paper, we propose obfuscation algorithms that improve the security of digital systems, and protect them against reverse engineering attempts. Metrics for measuring the obfuscation level of digital designs that implement our approaches are also introduced. The introduced algorithms are mainly based on the concepts of split fabrication, isomorphic gates and optimized isomorphic gates, and a new concept we introduce based on the inclination of logic gate outputs towards a specific output (1 or 0). Experimental results show improvements in the figures that represent the security of designs based on the introduced metrics.",
+            "aminer_id": "5c6644bbf56def9798b27d72"
+        },
+        "Rajendran2013": {
+            "number": "[10]",
+            "title": "Is Split Manufacturing Secure?",
+            "text": "abstract = {Split manufacturing of integrated circuits (IC) is being investigated as a way to simultaneously alleviate the cost of owning a trusted foundry and eliminate the security risks associated with outsourcing IC fabrication. In split manufacturing, a design house (with a low-end, in-house, trusted foundry) fabricates the Front End Of Line (FEOL) layers (transistors and lower metal layers) in advanced technology nodes at an untrusted high-end foundry. The Back End Of Line (BEOL) layers (higher metal layers) are then fabricated at the design house's trusted low-end foundry. Split manufacturing is considered secure (prevents reverse engineering and IC piracy) as it hides the BEOL connections from an attacker in the FEOL foundry. We show that an attacker in the FEOL foundry can exploit the heuristics used in typical floorplanning, placement, and routing tools to bypass the security afforded by straightforward split manufacturing. We developed an attack where an attacker in the FEOL foundry can connect 96{\\%} of the missing BEOL connections correctly. To overcome this security vulnerability in split manufacturing, we developed a fault analysis-based defense. This defense improves the security of split manufacturing by deceiving the FEOL attacker into making wrong connections. {\\textcopyright} 2013 EDAA.},\nauthor = {Rajendran, Jeyavijayan and Sinanoglu, Ozgur and Karri, Ramesh},\ndoi = {10.7873/date.2013.261},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/is{\\_}split{\\_}man{\\_}secure.pdf:pdf},\nisbn = {9783981537000},\nissn = {15301591},\nbooktitle = {{Design, Automation and Test in Europe (DATE)}},\nnumber = {Ic},\npages = {1259--1264},\ntitle = {{Is Split Manufacturing Secure?}},\nyear = {2013}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "abstract": "Split manufacturing of integrated circuits (IC) is being investigated as a way to simultaneously alleviate the cost of owning a trusted foundry and eliminate the security risks associated with outsourcing IC fabrication. In split manufacturing, a design house (with a low-end, in-house, trusted foundry) fabricates the Front End Of Line (FEOL) layers (transistors and lower metal layers) in advanced technology nodes at an untrusted high-end foundry. The Back End Of Line (BEOL) layers (higher metal layers) are then fabricated at the design house's trusted low-end foundry. Split manufacturing is considered secure (prevents reverse engineering and IC piracy) as it hides the BEOL connections from an attacker in the FEOL foundry. We show that an attacker in the FEOL foundry can exploit the heuristics used in typical floorplanning, placement, and routing tools to bypass the security afforded by straightforward split manufacturing. We developed an attack where an attacker in the FEOL foundry can connect 96{\\%} of the missing BEOL connections correctly. To overcome this security vulnerability in split manufacturing, we developed a fault analysis-based defense. This defense improves the security of split manufacturing by deceiving the FEOL attacker into making wrong connections. {\\textcopyright} 2013 EDAA.",
+                "author": "Rajendran, Jeyavijayan and Sinanoglu, Ozgur and Karri, Ramesh",
+                "doi": "10.7873/date.2013.261",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/is{\\_}split{\\_}man{\\_}secure.pdf:pdf",
+                "isbn": "9783981537000",
+                "issn": "15301591",
+                "booktitle": "{Design, Automation and Test in Europe (DATE)}",
+                "number": "Ic",
+                "pages": "1259--1264",
+                "title": "{Is Split Manufacturing Secure?}",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing of integrated circuits (IC) is being investigated as a way to simultaneously alleviate the cost of owning a trusted foundry and eliminate the security risks associated with outsourcing IC fabrication. In split manufacturing, a design house (with a low-end, in-house, trusted foundry) fabricates the Front End Of Line (FEOL) layers (transistors and lower metal layers) in advanced technology nodes at an untrusted high-end foundry. The Back End Of Line (BEOL) layers (higher metal layers) are then fabricated at the design house's trusted low-end foundry. Split manufacturing is considered secure (prevents reverse engineering and IC piracy) as it hides the BEOL connections from an attacker in the FEOL foundry. We show that an attacker in the FEOL foundry can exploit the heuristics used in typical floorplanning, placement, and routing tools to bypass the security afforded by straightforward split manufacturing. We developed an attack where an attacker in the FEOL foundry can connect 96% of the missing BEOL connections correctly. To overcome this security vulnerability in split manufacturing, we developed a fault analysis-based defense. This defense improves the security of split manufacturing by deceiving the FEOL attacker into making wrong connections.",
+            "aminer_id": "5390bb1d20f70186a0f3ca65"
+        },
+        "Vaidyanathan2014": {
+            "number": "[11]",
+            "title": "Building Trusted ICs Using Split Fabrication",
+            "text": "abstract = {Due to escalating manufacturing costs the latest and most advanced semiconductor technologies are often available at off-shore foundries. Utilizing these facilities significantly limits the trustworthiness of the corresponding integrated circuits for mission critical applications. We address this challenge of cost-effective and trustworthy CMOS manufacturing for advanced technologies using split fabrication. Split fabrication, the process of splitting an IC into an untrusted and trusted component, enables the designer to exploit the most advanced semiconductor manufacturing capabilities available offshore without disclosing critical IP or system design intent. We show that split fabrication after the Metall layer is secure and has negligible performance and area overhead compared to complete IC manufacturing in the off-shore foundry. Measurements from split fabricated 130nm testchips demonstrate the feasibility and efficacy of the proposed approach. {\\textcopyright} 2014 IEEE.},\nauthor = {Vaidyanathan, Kaushik and Das, Bishnu P. and Sumbul, Ekin and Liu, Renzhi and Pileggi, Larry},\ndoi = {10.1109/HST.2014.6855559},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/building{\\_}trusted{\\_}ic{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781479941148},\njournal = {IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},\nkeywords = {Circuit obfuscation,Design for trust,Hardware security,Split fabrication},\npages = {1--6},\ntitle = {{Building Trusted ICs Using Split Fabrication}},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "abstract": "Due to escalating manufacturing costs the latest and most advanced semiconductor technologies are often available at off-shore foundries. Utilizing these facilities significantly limits the trustworthiness of the corresponding integrated circuits for mission critical applications. We address this challenge of cost-effective and trustworthy CMOS manufacturing for advanced technologies using split fabrication. Split fabrication, the process of splitting an IC into an untrusted and trusted component, enables the designer to exploit the most advanced semiconductor manufacturing capabilities available offshore without disclosing critical IP or system design intent. We show that split fabrication after the Metall layer is secure and has negligible performance and area overhead compared to complete IC manufacturing in the off-shore foundry. Measurements from split fabricated 130nm testchips demonstrate the feasibility and efficacy of the proposed approach. {\\textcopyright} 2014 IEEE.",
+                "author": "Vaidyanathan, Kaushik and Das, Bishnu P. and Sumbul, Ekin and Liu, Renzhi and Pileggi, Larry",
+                "doi": "10.1109/HST.2014.6855559",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/building{\\_}trusted{\\_}ic{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781479941148",
+                "journal": "IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)",
+                "keywords": "Circuit obfuscation,Design for trust,Hardware security,Split fabrication",
+                "pages": "1--6",
+                "title": "{Building Trusted ICs Using Split Fabrication}",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Due to escalating manufacturing costs the latest and most advanced semiconductor technologies are often available at off-shore foundries. Utilizing these facilities significantly limits the trustworthiness of the corresponding integrated circuits for mission critical applications. We address this challenge of cost-effective and trustworthy CMS manufacturing for advanced technologies using split fabrication. Split fabrication, the process of splitting an IC into an untrusted and trusted component, enables the designer to exploit the most advanced semiconductor manufacturing capabilities available offshore without disclosing critical IP or system design intent. We show that split fabrication after the Metall layer is secure and has negligible performance and area overhead compared to complete IC manufacturing in the off-shore foundry. Measurements from split fabricated 130nm testchips demonstrate the feasibility and efficacy of the proposed approach.",
+            "aminer_id": "555048c645ce0a409eb714a9"
+        },
+        "Jagasivamani2014": {
+            "number": "[12]",
+            "title": "Split-fabrication Obfuscation: Metrics and Techniques",
+            "text": "abstract = {Split-fabrication has been proposed as an approach for secure and trusted access to advanced microelectronics manufacturing capability using un-trusted sources. Each wafer to be manufactured is processed by two semiconductor foundries, combining the front-end capabilities of an advanced but untrusted semiconductor foundry with the back-end capabilities a trusted semiconductor foundry. Since the security of split fabrication relates directly to a front-end foundry's ability to interpret the partial circuit designs it receives, metrics are needed to evaluate the obfuscation of these designs as well as circuit design techniques to alter these metrics. This paper quantitatively examines several 'front-end' obfuscation techniques and metrics inspired by information theory, and evaluates their impact on design effort, area, and performance penalties. {\\textcopyright} 2014 IEEE.},\nauthor = {Jagasivamani, Meenatchi and Gadfort, Peter and Sika, Michel and Bajura, Michael and Fritze, Michael},\ndoi = {10.1109/HST.2014.6855560},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}obs{\\_}metrics{\\_}and{\\_}techs.pdf:pdf},\nisbn = {9781479941148},\njournal = {IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},\npages = {7--12},\npublisher = {IEEE},\ntitle = {{Split-Fabrication Obfuscation: Metrics and techniques}},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split-fabrication has been proposed as an approach for secure and trusted access to advanced microelectronics manufacturing capability using un-trusted sources. Each wafer to be manufactured is processed by two semiconductor foundries, combining the front-end capabilities of an advanced but untrusted semiconductor foundry with the back-end capabilities a trusted semiconductor foundry. Since the security of split fabrication relates directly to a front-end foundry's ability to interpret the partial circuit designs it receives, metrics are needed to evaluate the obfuscation of these designs as well as circuit design techniques to alter these metrics. This paper quantitatively examines several 'front-end' obfuscation techniques and metrics inspired by information theory, and evaluates their impact on design effort, area, and performance penalties. {\\textcopyright} 2014 IEEE.",
+                "author": "Jagasivamani, Meenatchi and Gadfort, Peter and Sika, Michel and Bajura, Michael and Fritze, Michael",
+                "doi": "10.1109/HST.2014.6855560",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}obs{\\_}metrics{\\_}and{\\_}techs.pdf:pdf",
+                "isbn": "9781479941148",
+                "journal": "IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)",
+                "pages": "7--12",
+                "publisher": "IEEE",
+                "title": "{Split-Fabrication Obfuscation: Metrics and techniques}",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Split-fabrication has been proposed as an approach for secure and trusted access to advanced microelectronics manufacturing capability using un-trusted sources. Each wafer to be manufactured is processed by two semiconductor foundries, combining the front-end capabilities of an advanced but untrusted semiconductor foundry with the back-end capabilities a trusted semiconductor foundry. Since the security of split fabrication relates directly to a front-end foundry's ability to interpret the partial circuit designs it receives, metrics are needed to evaluate the obfuscation of these designs as well as circuit design techniques to alter these metrics. This paper quantitatively examines several “front-end” obfuscation techniques and metrics inspired by information theory, and evaluates their impact on design effort, area, and performance penalties.",
+            "aminer_id": "557c63a26feeaa8086d9c807"
+        },
+        "Yang2018": {
+            "number": "[13]",
+            "title": "A Split Manufacturing Approach for Unclonable Chipless RFIDs for Pharmaceutical Supply Chain Security",
+            "text": "abstract = {Today's pharmaceutical supply chain suffers from counterfeiting and theft issues, which not only compromise the profits and reputations of manufacturers, distributors, and retailers, but also pose a threat to consumer safety and public health. Track-and-trace techniques form the foundation for an improved supply chain by enabling supply chain owners and/or participants to systematically detect and control counterfeiting, theft, etc., but existing approaches (barcodes, QR codes, and IC-based RFID) are too costly, inconvenient, unreliable, or insecure. While an improvement, existing chipless RFID tags are limited by their complex manufacturing process, large tag area, small identifier (ID) size, and vulnerability to cloning attack. In addition, the pharmaceutical industry lacks a simple and effective way to enable pill-level traceability. To address these problems, we propose a new split manufacturing based pill-level unclonable chipless RFID (pill-level UCR) tag that intrinsically generates a unique ID from multiple entropy sources. Pill-level UCR tag consists of two parts: (i) a certain number of concentric ring slot resonators integrated on the external surface of each plastic cavity or pocket of blister pack that packages pharmaceutical tablets; and (ii) nontoxic silver particles of random quantity with random diameters filled in random places of each pharmaceutical tablet. The diameter of pill-level UCR tag is as small as 10 mm. Simulation results based on CST Microwave Studio 2015 have verified the effectiveness and reliability of pill-level UCR tags.},\nauthor = {Yang, Kun and Botero, Ulbert and Shen, Haoting and Forte, Domenic and Tehranipoor, Mark},\ndoi = {10.1109/AsianHOST.2017.8353996},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}app{\\_}for{\\_}un{\\_}ic{\\_}rfide.pdf:pdf},\nisbn = {9781538614211},\njournal = {Asian Hardware Oriented Security and Trust Symposium (AsianHOST)},\nkeywords = {Chipless RFID Tag,Pharmaceutical Supply Chain,Pill-Level Traceability,Split Manufacturing,Unclonability,Uniqueness},\npages = {61--66},\npublisher = {IEEE},\ntitle = {{A Split Manufacturing Approach for Unclonable Chipless RFIDs for Pharmaceutical Supply Chain Security}},\nvolume = {2018-May},\nyear = {2018}",
+            "type": "article",
+            "fields": {
+                "abstract": "Today's pharmaceutical supply chain suffers from counterfeiting and theft issues, which not only compromise the profits and reputations of manufacturers, distributors, and retailers, but also pose a threat to consumer safety and public health. Track-and-trace techniques form the foundation for an improved supply chain by enabling supply chain owners and/or participants to systematically detect and control counterfeiting, theft, etc., but existing approaches (barcodes, QR codes, and IC-based RFID) are too costly, inconvenient, unreliable, or insecure. While an improvement, existing chipless RFID tags are limited by their complex manufacturing process, large tag area, small identifier (ID) size, and vulnerability to cloning attack. In addition, the pharmaceutical industry lacks a simple and effective way to enable pill-level traceability. To address these problems, we propose a new split manufacturing based pill-level unclonable chipless RFID (pill-level UCR) tag that intrinsically generates a unique ID from multiple entropy sources. Pill-level UCR tag consists of two parts: (i) a certain number of concentric ring slot resonators integrated on the external surface of each plastic cavity or pocket of blister pack that packages pharmaceutical tablets; and (ii) nontoxic silver particles of random quantity with random diameters filled in random places of each pharmaceutical tablet. The diameter of pill-level UCR tag is as small as 10 mm. Simulation results based on CST Microwave Studio 2015 have verified the effectiveness and reliability of pill-level UCR tags.",
+                "author": "Yang, Kun and Botero, Ulbert and Shen, Haoting and Forte, Domenic and Tehranipoor, Mark",
+                "doi": "10.1109/AsianHOST.2017.8353996",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}app{\\_}for{\\_}un{\\_}ic{\\_}rfide.pdf:pdf",
+                "isbn": "9781538614211",
+                "journal": "Asian Hardware Oriented Security and Trust Symposium (AsianHOST)",
+                "keywords": "Chipless RFID Tag,Pharmaceutical Supply Chain,Pill-Level Traceability,Split Manufacturing,Unclonability,Uniqueness",
+                "pages": "61--66",
+                "publisher": "IEEE",
+                "title": "{A Split Manufacturing Approach for Unclonable Chipless RFIDs for Pharmaceutical Supply Chain Security}",
+                "volume": "2018-May",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Today's pharmaceutical supply chain suffers from counterfeiting and theft issues, which not only compromise the profits and reputations of manufacturers, distributors, and retailers, but also pose a threat to consumer safety and public health. Track-and-trace techniques form the foundation for an improved supply chain by enabling supply chain owners and/or participants to systematically detect and control counterfeiting, theft, etc., but existing approaches (barcodes, QR codes, and IC-based RFID) are too costly, inconvenient, unreliable, or insecure. While an improvement, existing chipless RFID tags are limited by their complex manufacturing process, large tag area, small identifier (ID) size, and vulnerability to cloning attack. In addition, the pharmaceutical industry lacks a simple and effective way to enable pill-level traceability. To address these problems, we propose a new split manufacturing based pill-level unclonable chipless RFID (pill-level UCR) tag that intrinsically generates a unique ID from multiple entropy sources. Pill-level UCR tag consists of two parts: (i) a certain number of concentric ring slot resonators integrated on the external surface of each plastic cavity or pocket of blister pack that packages pharmaceutical tablets; and (ii) nontoxic silver particles of random quantity with random diameters filled in random places of each pharmaceutical tablet. The diameter of pill-level UCR tag is as small as 10 mm. Simulation results based on CST Microwave Studio 2015 have verified the effectiveness and reliability of pill-level UCR tags.",
+            "aminer_id": "5b1642388fbcbf6e5a9b5a39"
+        },
+        "Sengupta2017": {
+            "number": "[14]",
+            "title": "Rethinking Split Manufacturing: an Information-Theoretic Approach with Secure Layout Techniques",
+            "text": "abstract = {Split manufacturing is a promising technique to defend against fab-based malicious activities such as IP piracy, overbuilding, and insertion of hardware Trojans. However, a network flow-based proximity attack, proposed by Wang et al. (DAC'16) [1], has demonstrated that most prior art on split manufacturing is highly vulnerable. Here in this work, we present two practical layout techniques towards secure split manufacturing: (i) gate-level graph coloring and (ii) clustering of same-type gates. Our approach shows promising results against the advanced proximity attack, lowering its success rate by 5.27x, 3.19x, and 1.73x on average compared to the unprotected layouts when splitting at metal layers M1, M2, and M3, respectively. Also, it largely outperforms previous defense efforts; we observe on average 8x higher resilience when compared to representative prior art. At the same time, extensive simulations on ISCAS'85 and MCNC benchmarks reveal that our techniques incur an acceptable layout overhead. Apart from this empirical study, we provide - for the first time - a theoretical framework for quantifying the layout-level resilience against any proximity-induced information leakage. Towards this end, we leverage the notion of mutual information and provide extensive results to validate our model.},\narchivePrefix = {arXiv},\narxivId = {1710.02026},\nauthor = {Sengupta, Abhrajit and Patnaik, Satwik and Knechtel, Johann and Ashraf, Mohammed and Garg, Siddharth and Sinanoglu, Ozgur},\ndoi = {10.1109/ICCAD.2017.8203796},\neprint = {1710.02026},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rethink{\\_}split{\\_}man{\\_}info{\\_}theory.pdf:pdf},\nisbn = {9781538630938},\nissn = {10923152},\njournal = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\npages = {329--336},\ntitle = {{Rethinking Split Manufacturing: An Information-Theoretic Approach with Secure Layout Techniques}},\nvolume = {2017-Novem},\nyear = {2017}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing is a promising technique to defend against fab-based malicious activities such as IP piracy, overbuilding, and insertion of hardware Trojans. However, a network flow-based proximity attack, proposed by Wang et al. (DAC'16) [1], has demonstrated that most prior art on split manufacturing is highly vulnerable. Here in this work, we present two practical layout techniques towards secure split manufacturing: (i) gate-level graph coloring and (ii) clustering of same-type gates. Our approach shows promising results against the advanced proximity attack, lowering its success rate by 5.27x, 3.19x, and 1.73x on average compared to the unprotected layouts when splitting at metal layers M1, M2, and M3, respectively. Also, it largely outperforms previous defense efforts; we observe on average 8x higher resilience when compared to representative prior art. At the same time, extensive simulations on ISCAS'85 and MCNC benchmarks reveal that our techniques incur an acceptable layout overhead. Apart from this empirical study, we provide - for the first time - a theoretical framework for quantifying the layout-level resilience against any proximity-induced information leakage. Towards this end, we leverage the notion of mutual information and provide extensive results to validate our model.",
+                "archiveprefix": "arXiv",
+                "arxivid": "1710.02026",
+                "author": "Sengupta, Abhrajit and Patnaik, Satwik and Knechtel, Johann and Ashraf, Mohammed and Garg, Siddharth and Sinanoglu, Ozgur",
+                "doi": "10.1109/ICCAD.2017.8203796",
+                "eprint": "1710.02026",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rethink{\\_}split{\\_}man{\\_}info{\\_}theory.pdf:pdf",
+                "isbn": "9781538630938",
+                "issn": "10923152",
+                "journal": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "pages": "329--336",
+                "title": "{Rethinking Split Manufacturing: An Information-Theoretic Approach with Secure Layout Techniques}",
+                "volume": "2017-Novem",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing is a promising technique to defend against fab-based malicious activities such as IP piracy, overbuilding, and insertion of hardware Trojans. However, a network flow-based proximity attack, proposed by Wang et al. (DAC'16) [1], has demonstrated that most prior art on split manufacturing is highly vulnerable. Here in this work, we present two practical layout techniques towards secure split manufacturing: (i) gate-level graph coloring and (ii) clustering of same-type gates. Our approach shows promising results against the advanced proximity attack, lowering its success rate by 5.27x, 3.19x, and 1.73x on average compared to the unprotected layouts when splitting at metal layers M1, M2, and M3, respectively. Also, it largely outperforms previous defense efforts; we observe on average 8x higher resilience when compared to representative prior art. At the same time, extensive simulations on ISCAS'85 and MCNC benchmarks reveal that our techniques incur an acceptable layout overhead. Apart from this empirical study, we provide---for the first time---a theoretical framework for quantifying the layout-level resilience against any proximity-induced information leakage. Towards this end, we leverage the notion of mutual information and provide extensive results to validate our model.",
+            "aminer_id": "5a260c8417c44a4ba8a31a24"
+        },
+        "Li2019a": {
+            "number": "[15]",
+            "title": "A Practical Split Manufacturing Framework for Trojan Prevention Via Simultaneous Wire Lifting and Cell Insertion",
+            "text": "author={M. {Li} and B. {Yu} and Y. {Lin} and X. {Xu} and W. {Li} and D. Z. {Pan}},  journal={IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},   title={{A Practical Split Manufacturing Framework for Trojan Prevention via Simultaneous Wire Lifting and Cell Insertion}},   year={2019},  volume={38},  number={9},  pages={1585-1598},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "M. {Li} and B. {Yu} and Y. {Lin} and X. {Xu} and W. {Li} and D. Z. {Pan}",
+                "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "title": "{A Practical Split Manufacturing Framework for Trojan Prevention via Simultaneous Wire Lifting and Cell Insertion}",
+                "year": "2019",
+                "volume": "38",
+                "number": "9",
+                "pages": "1585-1598"
+            },
+            "ref_source": "bib",
+            "abstract": "Trojans and backdoors inserted by untrusted foundries have become serious threats to hardware security. Split manufacturing is proposed to prevent Trojan insertion proactively. Existing methods depend on wire lifting to hide partial circuit interconnections, which usually suffer from large overhead and lack of security guarantee. In this paper, we propose a novel split manufacturing framework that not only guarantees to achieve the required security level but also allows for a drastic reduction of the introduced overhead. In our framework, insertion of dummy circuit cells and wires is considered simultaneously with wire lifting. To support cell and wire insertion, we propose a new security criterion, and further derive its sufficient condition to avoid computation intensive operations in traditional methods. Then, for the first time, a novel mixed integer linear programming formulation is proposed to simultaneously consider cell and wire insertion together with wire lifting, which significantly enlarges the design space to guarantee the realization of the sufficient condition under the security requirements and overhead constraints. With extensive experimental results, our framework demonstrates much better efficiency, overhead reduction, and security guarantee compared with existing methods.",
+            "aminer_id": "5a9cb60d17c44a376ffb3a0a"
+        },
+        "Chen2019b": {
+            "number": "[16]",
+            "title": "On the Effectiveness of the Satisfiability Attack on Split Manufactured Circuits",
+            "text": "author={S. {Chen} and R. {Vemuri}},\n  booktitle={2018 IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)}, \n  title={{On the Effectiveness of the Satisfiability Attack on Split Manufactured Circuits}}, \n  year={2018},\n  volume={},\n  number={},\n  pages={83-88},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "S. {Chen} and R. {Vemuri}",
+                "booktitle": "2018 IFIP/IEEE International Conference on Very Large Scale Integration (VLSI-SoC)",
+                "title": "{On the Effectiveness of the Satisfiability Attack on Split Manufactured Circuits}",
+                "year": "2018",
+                "volume": "",
+                "number": "",
+                "pages": "83-88"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing of integrated circuits was proposed as a strong defense technique against reverse engineering at untrusted foundries. Split manufacturing has been shown to be vulnerable to proximity-based attacks and suitable defenses against these attacks have been proposed. In this paper, we apply an attack against split manufactured circuits based on satisfiability (SAT) solving, without requiring any proximity information. Our method formulates the problem of recovering the hidden signals as a Boolean decryption problem of determining the control signals (keys) of a multiplexer network, determines logical constraints to avoid solutions which could enable cyclic paths through the circuit and reduces the number of these constraints by eliminating redundant constraints. The resulting constrained decryption problem is solved by a satisfiability attack. We demonstrate the effectiveness of the attack on a set of benchmarks. In addition, we discuss a split manufacturing approach to potentially deter the SAT attack.",
+            "aminer_id": "5c714d82f56def97986626ed"
+        },
+        "Patnaik2018a": {
+            "number": "[17]",
+            "title": "Raise Your Game for Split Manufacturing: Restoring the True Functionality Through BEOL.",
+            "text": "author = {Patnaik, Satwik and Ashraf, Mohammed and Knechtel, Johann and Sinanoglu, Ozgur},\ndoi = {10.1109/dac.2018.8465841},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/raise{\\_}u{\\_}game{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781450357005},\njournal = {Design Automation Conference (DAC)},\npages = {1--6},\npublisher = {IEEE},\ntitle = {{Raise Your Game for Split Manufacturing: Restoring the True Functionality Through BEOL}},\nyear = {2018}",
+            "type": "article",
+            "fields": {
+                "author": "Patnaik, Satwik and Ashraf, Mohammed and Knechtel, Johann and Sinanoglu, Ozgur",
+                "doi": "10.1109/dac.2018.8465841",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/raise{\\_}u{\\_}game{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781450357005",
+                "journal": "Design Automation Conference (DAC)",
+                "pages": "1--6",
+                "publisher": "IEEE",
+                "title": "{Raise Your Game for Split Manufacturing: Restoring the True Functionality Through BEOL}",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing (SM) seeks to protect against piracy of intellectual property (IP) in chip designs. Here we propose a scheme to manipulate both placement and routing in an intertwined manner, thereby increasing the resilience of SM layouts. Key stages of our scheme are to (partially) randomize a design, place and route the erroneous netlist, and restore the original design by re-routing the BEOL. Based on state-of-the-art proximity attacks, we demonstrate that our scheme notably excels over the prior art (i.e., 0% correct connection rates). Our scheme induces controllable PPA overheads and lowers commercial cost (the latter by splitting at higher layers).",
+            "aminer_id": "5b3d988917c44a510f7fcc1f"
+        },
+        "Collins2014": {
+            "number": "[18]",
+            "title": "Hot Topic Session 12A: Split Manufacturing — IARPA's TIC Program",
+            "text": "author = {Collins, Dean and Karri, Ramesh},\ndoi = {10.1109/vts.2014.6818801},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}iarpa{\\_}tic.pdf:pdf},\nisbn = {9781479926114},\njournal = {2014 IEEE 32nd VLSI Test Symposium (VTS)},\npages = {1--2},\npublisher = {IEEE},\ntitle = {{Hot topic session 12A: Split manufacturing — IARPA's TIC program}},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "author": "Collins, Dean and Karri, Ramesh",
+                "doi": "10.1109/vts.2014.6818801",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/split{\\_}man{\\_}iarpa{\\_}tic.pdf:pdf",
+                "isbn": "9781479926114",
+                "journal": "2014 IEEE 32nd VLSI Test Symposium (VTS)",
+                "pages": "1--2",
+                "publisher": "IEEE",
+                "title": "{Hot topic session 12A: Split manufacturing — IARPA's TIC program}",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "State of the art integrated circuit manufacturing is mainly centered in Asia. The US government is concerned about procuring integrated circuits from untrusted sources. In addition to the worries about counterfeiting, there is also a concern about the loss of design information which would reveal the functionality of critical circuits. IARPA's TIC program is one approach to protecting critical program information and still obtain the performance and power advantages of state of the art circuits.",
+            "aminer_id": "557c5f00f66765fbb46b1097"
+        },
+        "Rangan2016": {
+            "number": "[19]",
+            "title": "Effect of Split Manufacturing on Power Supply Requirements",
+            "text": "abstract = {Split manufacturing has become one of the most important methods to effectively control malware insertion and IP piracy. 3D IC technologies are still in the nascent stage, but 2.5D IC technology is currently adopted by most fabrication facilities. While recent studies on split manufacturing have focused on graph theoretic algorithms to effect a minimum cut split, none of them have discussed the effect of circuit performance due to the splitting. In this paper we show that split manufacturing has an adverse effect on power supply requirement, if circuit performance metrics have to stay the same before and after splitting. In particular, we have shown that multiple power supplies are necessary if circuit performance metrics have to be satisfied before and after the splitting procedure.},\nauthor = {Rangan, Sharath K. and Afreen, Shazia and Srinivasan, Raghuram},\ndoi = {10.1109/VLSI-SATA.2016.7593033},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/effect{\\_}split{\\_}man{\\_}on{\\_}power{\\_}supp{\\_}req.pdf:pdf},\nisbn = {9781509000333},\njournal = {2016 International Conference on VLSI Systems, Architectures, Technology and Applications, VLSI-SATA 2016},\nkeywords = {3D IC,Security,Split manufacturing,Supply Voltage},\npages = {1--5},\npublisher = {IEEE},\ntitle = {{Effect of Split Manufacturing on Power Supply Requirements}},\nyear = {2016}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing has become one of the most important methods to effectively control malware insertion and IP piracy. 3D IC technologies are still in the nascent stage, but 2.5D IC technology is currently adopted by most fabrication facilities. While recent studies on split manufacturing have focused on graph theoretic algorithms to effect a minimum cut split, none of them have discussed the effect of circuit performance due to the splitting. In this paper we show that split manufacturing has an adverse effect on power supply requirement, if circuit performance metrics have to stay the same before and after splitting. In particular, we have shown that multiple power supplies are necessary if circuit performance metrics have to be satisfied before and after the splitting procedure.",
+                "author": "Rangan, Sharath K. and Afreen, Shazia and Srinivasan, Raghuram",
+                "doi": "10.1109/VLSI-SATA.2016.7593033",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/effect{\\_}split{\\_}man{\\_}on{\\_}power{\\_}supp{\\_}req.pdf:pdf",
+                "isbn": "9781509000333",
+                "journal": "2016 International Conference on VLSI Systems, Architectures, Technology and Applications, VLSI-SATA 2016",
+                "keywords": "3D IC,Security,Split manufacturing,Supply Voltage",
+                "pages": "1--5",
+                "publisher": "IEEE",
+                "title": "{Effect of Split Manufacturing on Power Supply Requirements}",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing has become one of the most important methods to effectively control malware insertion and IP piracy. 3D IC technologies are still in the nascent stage, but 2.5D IC technology is currently adopted by most fabrication facilities. While recent studies on split manufacturing have focused on graph theoretic algorithms to effect a minimum cut split, none of them have discussed the effect of circuit performance due to the splitting. In this paper we show that split manufacturing has an adverse effect on power supply requirement, if circuit performance metrics have to stay the same before and after splitting. In particular, we have shown that multiple power supplies are necessary if circuit performance metrics have to be satisfied before and after the splitting procedure.",
+            "aminer_id": "606520129e795e98bf7cc223"
+        },
+        "Otero2015": {
+            "number": "[20]",
+            "title": "Automatic Obfuscated Cell Layout for Trusted Split-Foundry Design",
+            "text": "abstract = {We present split-cellTK, a tool that automates the obfuscation of split-foundry layout, in which an untrusted foundry fabricates the devices (FEOL) and a trusted foundry completes the design with metalization (BEOL). split-cellTK does not alter the design netlist for obfuscation - it accepts an arbitrary transistor-level netlist as input. By obfuscating the the organization, placement and connectivity of devices in the FEOL, split-cellTK increases the difficulty of a reverse engineering effort. We evalute two FEOL obfuscation schemes: uniform layout and layout with random spacing. We extend the set of metrics previously defined in the literature to capture the benefits of obfuscation at the cell level. We use these metrics to evaluate the degree of obfuscation provided by our schemes and present the power, area, and throughput overheads for our obfuscation schemes. Finally, we present measured results for an asynchronous FPGA fabricated in a 65 nm split-foundry technology using our tool.},\nauthor = {Otero, Carlos Tadeo Ortega and Tse, Jonathan and Karmazin, Robert and Hill, Benjamin and Manohar, Rajit},\ndoi = {10.1109/HST.2015.7140237},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/auto{\\_}obs{\\_}cell{\\_}layout{\\_}split{\\_}des.pdf:pdf},\nisbn = {9781467374200},\njournal = {IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},\npages = {56--61},\npublisher = {IEEE},\ntitle = {{Automatic Obfuscated Cell Layout for Trusted Split-Foundry Design}},\nyear = {2015}",
+            "type": "article",
+            "fields": {
+                "abstract": "We present split-cellTK, a tool that automates the obfuscation of split-foundry layout, in which an untrusted foundry fabricates the devices (FEOL) and a trusted foundry completes the design with metalization (BEOL). split-cellTK does not alter the design netlist for obfuscation - it accepts an arbitrary transistor-level netlist as input. By obfuscating the the organization, placement and connectivity of devices in the FEOL, split-cellTK increases the difficulty of a reverse engineering effort. We evalute two FEOL obfuscation schemes: uniform layout and layout with random spacing. We extend the set of metrics previously defined in the literature to capture the benefits of obfuscation at the cell level. We use these metrics to evaluate the degree of obfuscation provided by our schemes and present the power, area, and throughput overheads for our obfuscation schemes. Finally, we present measured results for an asynchronous FPGA fabricated in a 65 nm split-foundry technology using our tool.",
+                "author": "Otero, Carlos Tadeo Ortega and Tse, Jonathan and Karmazin, Robert and Hill, Benjamin and Manohar, Rajit",
+                "doi": "10.1109/HST.2015.7140237",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/auto{\\_}obs{\\_}cell{\\_}layout{\\_}split{\\_}des.pdf:pdf",
+                "isbn": "9781467374200",
+                "journal": "IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)",
+                "pages": "56--61",
+                "publisher": "IEEE",
+                "title": "{Automatic Obfuscated Cell Layout for Trusted Split-Foundry Design}",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "We present split-cellTK, a tool that automates the obfuscation of split-foundry layout, in which an untrusted foundry fabricates the devices (FEOL) and a trusted foundry completes the design with metalization (BEOL). split-cellTK does not alter the design netlist for obfuscation - it accepts an arbitrary transistor-level netlist as input. By obfuscating the the organization, placement and connectivity of devices in the FEOL, split-cellTK increases the difficulty of a reverse engineering effort. We evalute two FEOL obfuscation schemes: uniform layout and layout with random spacing. We extend the set of metrics previously defined in the literature to capture the benefits of obfuscation at the cell level. We use these metrics to evaluate the degree of obfuscation provided by our schemes and present the power, area, and throughput overheads for our obfuscation schemes. Finally, we present measured results for an asynchronous FPGA fabricated in a 65 nm split-foundry technology using our tool.",
+            "aminer_id": "55c347f7683a451f09d29672"
+        },
+        "Magana2016": {
+            "number": "[21]",
+            "title": "Are Proximity Attacks a Threat to the Security of Split Manufacturing of Integrated Circuits?",
+            "text": "abstract = {Split manufacturing is a technique that allows manufacturing the transistor-level and lower metal layers of an IC at a high-end, untrusted foundry, while manufacturing only the higher metal layers at a smaller, trusted foundry. Using split manufacturing is only viable if the untrusted foundry cannot reverse engineer the higher metal layer connections (and thus the overall IC design) from the lower layers. This work studies the effectiveness of proximity attack as a key step to reverse engineer a design at the untrusted foundry. We propose and study different proximity attacks based on how a set of candidates are defined for each broken connection. The attacks use both placement and routing information along with factors which capture the router's behavior such as per-layer routing congestion. Our studies are based on designs having millions of nets routed across 9 metal layers and significant layer-by-layer wire size variation. Our results show that a common, Hamming Distance-based proximity attack seldom achieves a match rate over 5{\\%}. But our proposed attack yields a relatively-small list of candidates which often contains the correct match. Finally, we propose a procedure to artificially insert routing blockages in a design at a desired split level, without causing any area overhead, in order to trick the router to make proximity-based reverse engineering significantly more challenging.},\nauthor = {Maga{\\~{n}}a, Jonathon and Shi, Daohang and Davoodi, Azadeh},\ndoi = {10.1145/2966986.2967006},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/are{\\_}prox{\\_}atck{\\_}secury{\\_}split{\\_}man.pdf:pdf},\nisbn = {9781450344661},\nissn = {10923152},\njournal = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\nkeywords = {place and route,split manufacturing},\nnumber = {c},\npages = {1--7},\ntitle = {{Are Proximity Attacks a Threat to the Security of Split Manufacturing of Integrated Circuits?}},\nvolume = {07-10-Nove},\nyear = {2016}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing is a technique that allows manufacturing the transistor-level and lower metal layers of an IC at a high-end, untrusted foundry, while manufacturing only the higher metal layers at a smaller, trusted foundry. Using split manufacturing is only viable if the untrusted foundry cannot reverse engineer the higher metal layer connections (and thus the overall IC design) from the lower layers. This work studies the effectiveness of proximity attack as a key step to reverse engineer a design at the untrusted foundry. We propose and study different proximity attacks based on how a set of candidates are defined for each broken connection. The attacks use both placement and routing information along with factors which capture the router's behavior such as per-layer routing congestion. Our studies are based on designs having millions of nets routed across 9 metal layers and significant layer-by-layer wire size variation. Our results show that a common, Hamming Distance-based proximity attack seldom achieves a match rate over 5{\\%}. But our proposed attack yields a relatively-small list of candidates which often contains the correct match. Finally, we propose a procedure to artificially insert routing blockages in a design at a desired split level, without causing any area overhead, in order to trick the router to make proximity-based reverse engineering significantly more challenging.",
+                "doi": "10.1145/2966986.2967006",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/are{\\_}prox{\\_}atck{\\_}secury{\\_}split{\\_}man.pdf:pdf",
+                "isbn": "9781450344661",
+                "issn": "10923152",
+                "journal": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "keywords": "place and route,split manufacturing",
+                "number": "c",
+                "pages": "1--7",
+                "title": "{Are Proximity Attacks a Threat to the Security of Split Manufacturing of Integrated Circuits?}",
+                "volume": "07-10-Nove",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing is a technique that allows manufacturing the transistor-level and lower metal layers of an IC at a high-end, untrusted foundry, while manufacturing only the higher metal layers at a smaller, trusted foundry. Using split manufacturing is only viable if the untrusted foundry cannot reverse engineer the higher metal layer connections (and thus the overall IC design) from the lower layers. This work studies the effectiveness of proximity attack as a key step to reverse engineer a design at the untrusted foundry. We propose and study different proximity attacks based on how a set of candidates are defined for each broken connection. The attacks use both placement and routing information along with factors which capture the router's behavior such as per-layer routing congestion. Our studies are based on designs having millions of nets routed across 9 metal layers and significant layer-by-layer wire size variation. Our results show that a common, Hamming Distance-based proximity attack seldom achieves a match rate over 5%. But our proposed attack yields a relatively-small list of candidates which often contains the correct match. Finally, we propose a procedure to artificially insert routing blockages in a design at a desired split level, without causing any area overhead, in order to trick the router to make proximity-based reverse engineering significantly more challenging.",
+            "aminer_id": "58437767ac44360f1083da18"
+        },
+        "Wang2018": {
+            "number": "[22]",
+            "title": "The Cat and Mouse in Split Manufacturing",
+            "text": "abstract = {Split manufacturing of integrated circuits eliminates vulnerabilities introduced by an untrusted foundry by manufacturing only a part of the target design at an untrusted high-end foundry and the remaining part at a trusted low-end foundry. Most researchers have focused on attack and defenses for hierarchical designs and/or use a relatively high-end trusted foundry, leading to high cost. We propose an attack and defense for split manufacturing for flattened designs. Our attack uses a network-flow model and outperforms previous attacks. We also develop two defense techniques using placement perturbation - one using physical design information and the other using logical information - while considering overhead. The effectiveness of our techniques is demonstrated on benchmark circuits.},\nauthor = {Wang, Yujie and Chen, Pu and Hu, Jiang and Li, Guofeng and Rajendran, Jeyavijayan},\ndoi = {10.1109/TVLSI.2017.2787754},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/cat{\\_}mouse{\\_}split{\\_}man.pdf:pdf},\nissn = {10638210},\njournal = {IEEE Transactions on Very Large Scale Integration (VLSI) Systems},\nkeywords = {Hardware security,placement perturbation,split manufacturing},\nnumber = {5},\npages = {805--817},\npublisher = {IEEE},\ntitle = {{The Cat and Mouse in Split Manufacturing}},\nvolume = {26},\nyear = {2018}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing of integrated circuits eliminates vulnerabilities introduced by an untrusted foundry by manufacturing only a part of the target design at an untrusted high-end foundry and the remaining part at a trusted low-end foundry. Most researchers have focused on attack and defenses for hierarchical designs and/or use a relatively high-end trusted foundry, leading to high cost. We propose an attack and defense for split manufacturing for flattened designs. Our attack uses a network-flow model and outperforms previous attacks. We also develop two defense techniques using placement perturbation - one using physical design information and the other using logical information - while considering overhead. The effectiveness of our techniques is demonstrated on benchmark circuits.",
+                "author": "Wang, Yujie and Chen, Pu and Hu, Jiang and Li, Guofeng and Rajendran, Jeyavijayan",
+                "doi": "10.1109/TVLSI.2017.2787754",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/cat{\\_}mouse{\\_}split{\\_}man.pdf:pdf",
+                "issn": "10638210",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "keywords": "Hardware security,placement perturbation,split manufacturing",
+                "number": "5",
+                "pages": "805--817",
+                "publisher": "IEEE",
+                "title": "{The Cat and Mouse in Split Manufacturing}",
+                "volume": "26",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7b6a601a182cd273529e"
+        },
+        "Vaidyanathan2014a": {
+            "number": "[23]",
+            "title": "Efficient and Secure Intellectual Property (IP) Design with Split Fabrication",
+            "text": "author={K. {Vaidyanathan} and R. {Liu} and E. {Sumbul} and Q. {Zhu} and F. {Franchetti} and L. {Pileggi}},  booktitle={2014 IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)},   title={{Efficient and Secure Intellectual Property (IP) Design with Split Fabrication}},   year={2014},  volume={},  number={},  pages={13-18},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "K. {Vaidyanathan} and R. {Liu} and E. {Sumbul} and Q. {Zhu} and F. {Franchetti} and L. {Pileggi}",
+                "booktitle": "2014 IEEE International Symposium on Hardware-Oriented Security and Trust (HOST)",
+                "title": "{Efficient and Secure Intellectual Property (IP) Design with Split Fabrication}",
+                "year": "2014",
+                "volume": "",
+                "number": "",
+                "pages": "13-18"
+            },
+            "ref_source": "bib",
+            "abstract": "Split fabrication, the process of splitting an IC into an untrusted and trusted tier, facilitates access to the most advanced semiconductor manufacturing capabilities available in the world without requiring disclosure of design intent. While researchers have investigated the security of logic blocks in the context of split fabrication, the security of IP blocks, another key component of an SoC, has not been examined. Our security analysis of IP block designs, specifically embedded memory and analog components, shows that they are vulnerable to “recognition attacks” at the untrusted foundry due to the use of standardized floorplans and leaf cell layouts. We propose methodologies to design these blocks efficiently and securely, and demonstrate their effectiveness using 130nm split fabricated testchips.",
+            "aminer_id": "555048c645ce0a409eb714a6"
+        },
+        "Torrance2009": {
+            "number": "[24]",
+            "title": "The State-of-the-Art in IC Reverse Engineering",
+            "text": "abstract = {This paper gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. The continuous drive of Moore's law to increase the integration level of silicon chips has presented major challenges to the reverse engineer, obsolescing simple teardowns, and demanding the adoption of new and more sophisticated technology to analyse chips. Hardware encryption embedded in chips adds a whole other level of difficulty to IC analysis. This paper covers product teardowns, and discusses the techniques used for system-level analysis, both hardware and software; circuit extraction, taking the chip down to the transistor level, and working back up through the interconnects to create schematics; and process analysis, looking at how a chip is made, and what it is made of. Examples are also given of each type of RE. The paper concludes with a case study of the analysis of an IC with embedded encryption hardware. {\\textcopyright} 2009 Springer.},\nauthor = {Torrance, Randy and James, Dick},\ndoi = {10.1007/978-3-642-04138-9_26},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Misc/state{\\_}art{\\_}ic{\\_}reverse{\\_}engi.pdf:pdf},\nisbn = {364204137X},\nissn = {03029743},\njournal = {Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)},\npages = {363--381},\ntitle = {{The State-of-the-Art in IC Reverse Engineering}},\nvolume = {5747 LNCS},\nyear = {2009}",
+            "type": "article",
+            "fields": {
+                "abstract": "This paper gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. The continuous drive of Moore's law to increase the integration level of silicon chips has presented major challenges to the reverse engineer, obsolescing simple teardowns, and demanding the adoption of new and more sophisticated technology to analyse chips. Hardware encryption embedded in chips adds a whole other level of difficulty to IC analysis. This paper covers product teardowns, and discusses the techniques used for system-level analysis, both hardware and software; circuit extraction, taking the chip down to the transistor level, and working back up through the interconnects to create schematics; and process analysis, looking at how a chip is made, and what it is made of. Examples are also given of each type of RE. The paper concludes with a case study of the analysis of an IC with embedded encryption hardware. {\\textcopyright} 2009 Springer.",
+                "author": "Torrance, Randy and James, Dick",
+                "doi": "10.1007/978-3-642-04138-9_26",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Misc/state{\\_}art{\\_}ic{\\_}reverse{\\_}engi.pdf:pdf",
+                "isbn": "364204137X",
+                "issn": "03029743",
+                "journal": "Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics)",
+                "pages": "363--381",
+                "title": "{The State-of-the-Art in IC Reverse Engineering}",
+                "volume": "5747 LNCS",
+                "year": "2009"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. The continuous drive of Moore’s law to increase the integration level of silicon chips has presented major challenges to the reverse engineer, obsolescing simple teardowns, and demanding the adoption of new and more sophisticated technology to analyse chips. Hardware encryption embedded in chips adds a whole other level of difficulty to IC analysis. This paper covers product teardowns, and discusses the techniques used for system-level analysis, both hardware and software; circuit extraction, taking the chip down to the transistor level, and working back up through the interconnects to create schematics; and process analysis, looking at how a chip is made, and what it is made of. Examples are also given of each type of RE. The paper concludes with a case study of the analysis of an IC with embedded encryption hardware.",
+            "aminer_id": "5390a63c20f70186a0e82f26"
+        },
+        "Sengupta2019": {
+            "number": "[25]",
+            "title": "A New Paradigm in Split Manufacturing: Lock the FEOL, Unlock at the BEOL",
+            "text": "abstract = {Split manufacturing was introduced as an effective countermeasure against hardware-level threats such as IP piracy, overbuilding, and insertion of hardware Trojans. Nevertheless, the security promise of split manufacturing has been challenged by various attacks, which exploit the well-known working principles of physical design tools to infer the missing BEOL interconnects. In this work, we advocate a new paradigm to enhance the security for split manufacturing. Based on Kerckhoff's principle, we protect the FEOL layout in a formal and secure manner, by embedding keys. These keys are purposefully implemented and routed through the BEOL in such a way that they become indecipherable to the state-of-the-art FEOL-centric attacks. We provide our secure physical design flow to the community. We also define the security of split manufacturing formally and provide the associated proofs. At the same time, our technique is competitive with current schemes in terms of layout overhead, especially for practical, large-scale designs (ITC'99 benchmarks).},\nauthor = {Sengupta, Abhrajit and Nabeel, Mohammed and Knechtel, Johann and Sinanoglu, Ozgur},\ndoi = {10.23919/DATE.2019.8715281},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/new{\\_}param{\\_}split{\\_}man{\\_}lock{\\_}feol{\\_}unlock{\\_}beol.pdf:pdf},\nisbn = {9783981926323},\njournal = {Design, Automation and Test in Europe (DATE)},\nkeywords = {ATPG,Split manufacturing,proximity attack},\npages = {414--419},\npublisher = {EDAA},\ntitle = {{A New Paradigm in Split Manufacturing: Lock the FEOL, Unlock at the BEOL}},\nyear = {2019}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split manufacturing was introduced as an effective countermeasure against hardware-level threats such as IP piracy, overbuilding, and insertion of hardware Trojans. Nevertheless, the security promise of split manufacturing has been challenged by various attacks, which exploit the well-known working principles of physical design tools to infer the missing BEOL interconnects. In this work, we advocate a new paradigm to enhance the security for split manufacturing. Based on Kerckhoff's principle, we protect the FEOL layout in a formal and secure manner, by embedding keys. These keys are purposefully implemented and routed through the BEOL in such a way that they become indecipherable to the state-of-the-art FEOL-centric attacks. We provide our secure physical design flow to the community. We also define the security of split manufacturing formally and provide the associated proofs. At the same time, our technique is competitive with current schemes in terms of layout overhead, especially for practical, large-scale designs (ITC'99 benchmarks).",
+                "author": "Sengupta, Abhrajit and Nabeel, Mohammed and Knechtel, Johann and Sinanoglu, Ozgur",
+                "doi": "10.23919/DATE.2019.8715281",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/new{\\_}param{\\_}split{\\_}man{\\_}lock{\\_}feol{\\_}unlock{\\_}beol.pdf:pdf",
+                "isbn": "9783981926323",
+                "journal": "Design, Automation and Test in Europe (DATE)",
+                "keywords": "ATPG,Split manufacturing,proximity attack",
+                "pages": "414--419",
+                "publisher": "EDAA",
+                "title": "{A New Paradigm in Split Manufacturing: Lock the FEOL, Unlock at the BEOL}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Split manufacturing was introduced as an effective countermeasure against hardware-level threats such as IP piracy, overbuilding, and insertion of hardware Trojans. Nevertheless, the security promise of split manufacturing has been challenged by various attacks, which exploit the well-known working principles of physical design tools to infer the missing BEOL interconnects. In this work, we advocate a new paradigm to enhance the security for split manufacturing. Based on Kerckhoff's principle, we protect the FEOL layout in a formal and secure manner, by embedding keys. These keys are purposefully implemented and routed through the BEOL in such a way that they become indecipherable to the state-of-the-art FEOL-centric attacks. We provide our secure physical design flow to the community. We also define the security of split manufacturing formally and provide the associated proofs. At the same time, our technique is competitive with current schemes in terms of layout overhead, especially for practical, large-scale designs (ITC'99 benchmarks).",
+            "aminer_id": "5c82572be1cd8e05b8ab6eb8"
+        },
+        "Zhang2018": {
+            "number": "[26]",
+            "title": "Analysis of Security of Split Manufacturing Using Machine Learning",
+            "text": "author={W. {Zeng} and B. {Zhang} and A. {Davoodi}},  journal={IEEE Transactions on Very Large Scale Integration (VLSI) Systems},   title={{Analysis of Security of Split Manufacturing Using Machine Learning}},   year={2019},  volume={27},  number={12},  pages={2767-2780},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "W. {Zeng} and B. {Zhang} and A. {Davoodi}",
+                "journal": "IEEE Transactions on Very Large Scale Integration (VLSI) Systems",
+                "title": "{Analysis of Security of Split Manufacturing Using Machine Learning}",
+                "year": "2019",
+                "volume": "27",
+                "number": "12",
+                "pages": "2767-2780"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b3d988917c44a510f7fcbaa"
+        },
+        "Patnaik2018b": {
+            "number": "[27]",
+            "title": "Best of Both Worlds: Integration of Split Manufacturing and Camouflaging into a Security-Driven CAD Flow for 3D ICs",
+            "text": "abstract = {With the globalization of manufacturing and supply chains, ensuring the security and trustworthiness of ICs has become an urgent challenge. Split manufacturing (SM) and layout camouflaging (LC) are promising techniques to protect the intellectual property (IP) of ICs from malicious entities during and after manufacturing (i.e., from untrusted foundries and reverse-engineering by end-users). In this paper, we strive for \"the best of both worlds,\" that is of SM and LC. To do so, we extend both techniques towards 3D integration, an up-and-coming design and manufacturing paradigm based on stacking and interconnecting of multiple chips/dies/tiers. Initially, we review prior art and their limitations. We also put forward a novel, practical threat model of IP piracy which is in line with the business models of present-day design houses. Next, we discuss how 3D integration is a naturally strong match to combine SM and LC. We propose a security-driven CAD and manufacturing flow for face-to-face (F2F) 3D ICs, along with obfuscation of interconnects. Based on this CAD flow, we conduct comprehensive experiments on DRC-clean layouts. Strengthened by an extensive security analysis (also based on a novel attack to recover obfuscated F2F interconnects), we argue that entering the next, third dimension is eminent for effective and efficient IP protection.},\nauthor = {Patnaik, Satwik and Ashraf, Mohammed and Sinanoglu, Ozgur and Knechtel, Johann},\ndoi = {10.1145/3240765.3240784},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/best{\\_}both{\\_}worlds{\\_}int{\\_}split{\\_}man{\\_}cam{\\_}sec{\\_}cad{\\_}3d.pdf:pdf},\nisbn = {9781450359504},\nissn = {10923152},\njournal = {IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},\npages = {1--8},\npublisher = {ACM},\ntitle = {{Best of both worlds: Integration of split manufacturing and camouflaging into a security-driven CAD flow for 3D ICs}},\nyear = {2018}",
+            "type": "article",
+            "fields": {
+                "abstract": "With the globalization of manufacturing and supply chains, ensuring the security and trustworthiness of ICs has become an urgent challenge. Split manufacturing (SM) and layout camouflaging (LC) are promising techniques to protect the intellectual property (IP) of ICs from malicious entities during and after manufacturing (i.e., from untrusted foundries and reverse-engineering by end-users). In this paper, we strive for \"the best of both worlds,\" that is of SM and LC. To do so, we extend both techniques towards 3D integration, an up-and-coming design and manufacturing paradigm based on stacking and interconnecting of multiple chips/dies/tiers. Initially, we review prior art and their limitations. We also put forward a novel, practical threat model of IP piracy which is in line with the business models of present-day design houses. Next, we discuss how 3D integration is a naturally strong match to combine SM and LC. We propose a security-driven CAD and manufacturing flow for face-to-face (F2F) 3D ICs, along with obfuscation of interconnects. Based on this CAD flow, we conduct comprehensive experiments on DRC-clean layouts. Strengthened by an extensive security analysis (also based on a novel attack to recover obfuscated F2F interconnects), we argue that entering the next, third dimension is eminent for effective and efficient IP protection.",
+                "author": "Patnaik, Satwik and Ashraf, Mohammed and Sinanoglu, Ozgur and Knechtel, Johann",
+                "doi": "10.1145/3240765.3240784",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/best{\\_}both{\\_}worlds{\\_}int{\\_}split{\\_}man{\\_}cam{\\_}sec{\\_}cad{\\_}3d.pdf:pdf",
+                "isbn": "9781450359504",
+                "issn": "10923152",
+                "journal": "IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "pages": "1--8",
+                "publisher": "ACM",
+                "title": "{Best of both worlds: Integration of split manufacturing and camouflaging into a security-driven CAD flow for 3D ICs}",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "With the globalization of manufacturing and supply chains, ensuring the security and trustworthiness of ICs has become an urgent challenge. Split manufacturing (SM) and layout camouflaging (LC) are promising techniques to protect the intellectual property (IP) of ICs from malicious entities during and after manufacturing (i.e., from untrusted foundries and reverse-engineering by end-users). In this paper, we strive for \"the best of both worlds,\" that is of SM and LC. To do so, we extend both techniques towards 3D integration, an up-and-coming design and manufacturing paradigm based on stacking and interconnecting of multiple chips/dies/tiers. Initially, we review prior art and their limitations. We also put forward a novel, practical threat model of IP piracy which is in line with the business models of present-day design houses. Next, we discuss how 3D integration is a naturally strong match to combine SM and LC. We propose a security-driven CAD and manufacturing flow for face-to-face (F2F) 3D ICs, along with obfuscation of interconnects. Based on this CAD flow, we conduct comprehensive experiments on DRC-clean layouts. Strengthened by an extensive security analysis (also based on a novel attack to recover obfuscated F2F interconnects), we argue that entering the next, third dimension is eminent for effective and efficient IP protection.",
+            "aminer_id": "5c0495fa17c44a2c7470599d"
+        },
+        "Wang2019": {
+            "number": "[28]",
+            "title": "Reverse Engineering for 2 . 5D Split Manufactured ICs",
+            "text": "author = {Wang, Wei-che and Wu, Yizhang and Gupta, Puneet},\ndoi = {10.1109/TCAD.2019.2957359},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rev{\\_}eng{\\_}25d{\\_}split{\\_}man.pdf:pdf},\njournal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},\nnumber = {c},\npages = {1},\npublisher = {IEEE},\ntitle = {{Reverse Engineering for 2 . 5D Split Manufactured ICs}},\nvolume = {PP},\nyear = {2019}",
+            "type": "article",
+            "fields": {
+                "author": "Wang, Wei-che and Wu, Yizhang and Gupta, Puneet",
+                "doi": "10.1109/TCAD.2019.2957359",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/rev{\\_}eng{\\_}25d{\\_}split{\\_}man.pdf:pdf",
+                "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "number": "c",
+                "pages": "1",
+                "publisher": "IEEE",
+                "title": "{Reverse Engineering for 2 . 5D Split Manufactured ICs}",
+                "volume": "PP",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "EUIPO19": {
+            "number": "[29]",
+            "title": "2019 Status Report On IPR Infringement",
+            "text": "author={{European Union Intellectual Property Office (EUIPO)}},\ntitle={{2019 Status Report On IPR Infringement}},\nyear = {[Online]. Available: https://euipo.europa.eu/ohimportal/en/web/observatory/status-reports-on-ip-infringement}",
+            "type": "article",
+            "fields": {
+                "author": "{European Union Intellectual Property Office (EUIPO)}",
+                "title": "{2019 Status Report On IPR Infringement}",
+                "year": "[Online]. Available: https://euipo.europa.eu/ohimportal/en/web/observatory/status-reports-on-ip-infringement"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "NewsAnySillion": {
+            "number": "[30]",
+            "title": "Fabless Company Sales By Region 2018",
+            "text": "author={AnySillicon},\ntitle={{Fabless Company Sales By Region 2018}},\nyear={[Online]. Available: https://anysilicon.com/fabless-company-sales-by-region-2018}",
+            "type": "article",
+            "fields": {
+                "author": "AnySillicon",
+                "title": "{Fabless Company Sales By Region 2018}",
+                "year": "[Online]. Available: https://anysilicon.com/fabless-company-sales-by-region-2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Guin2014": {
+            "number": "[31]",
+            "title": "Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain.",
+            "text": "abstract = {As the electronic component supply chain grows more complex due to globalization, with parts coming from a diverse set of suppliers, counterfeit electronics have become a major challenge that calls for immediate solutions. Currently, there are a few standards and programs available that address the testing for such counterfeit parts. However, not enough research has yet addressed the detection and avoidance of all counterfeit parts - recycled, remarked, overproduced, cloned, out-of-spec/defective, and forged documentation - currently infiltrating the electronic component supply chain. Even if they work initially, all these parts may have reduced lifetime and pose reliability risks. In this tutorial, we will provide a review of some of the existing counterfeit detection and avoidance methods. We will also discuss the challenges ahead for implementing these methods, as well as the development of new detection and avoidance mechanisms. {\\textcopyright} 1963-2012 IEEE.},\nauthor = {Guin, Ujjwal and Huang, Ke and Dimase, Daniel and Carulli, John M. and Tehranipoor, Mohammad and Makris, Yiorgos},\ndoi = {10.1109/JPROC.2014.2332291},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/counterfeit{\\_}ic{\\_}ris{\\_}global{\\_}supply.pdf:pdf},\nissn = {00189219},\njournal = {Proceedings of the IEEE},\nkeywords = {AC/DC parametric tests,counterfeit integrated circuits (ICs),electrical inspection,hardware security,machine learning,path-delay test,yiorgos.makris@utdallas.edu},\nnumber = {8},\npages = {1207--1228},\npublisher = {IEEE},\ntitle = {{Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain}},\nvolume = {102},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "abstract": "As the electronic component supply chain grows more complex due to globalization, with parts coming from a diverse set of suppliers, counterfeit electronics have become a major challenge that calls for immediate solutions. Currently, there are a few standards and programs available that address the testing for such counterfeit parts. However, not enough research has yet addressed the detection and avoidance of all counterfeit parts - recycled, remarked, overproduced, cloned, out-of-spec/defective, and forged documentation - currently infiltrating the electronic component supply chain. Even if they work initially, all these parts may have reduced lifetime and pose reliability risks. In this tutorial, we will provide a review of some of the existing counterfeit detection and avoidance methods. We will also discuss the challenges ahead for implementing these methods, as well as the development of new detection and avoidance mechanisms. {\\textcopyright} 1963-2012 IEEE.",
+                "author": "Guin, Ujjwal and Huang, Ke and Dimase, Daniel and Carulli, John M. and Tehranipoor, Mohammad and Makris, Yiorgos",
+                "doi": "10.1109/JPROC.2014.2332291",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Split Manufacturing/counterfeit{\\_}ic{\\_}ris{\\_}global{\\_}supply.pdf:pdf",
+                "issn": "00189219",
+                "journal": "Proceedings of the IEEE",
+                "keywords": "AC/DC parametric tests,counterfeit integrated circuits (ICs),electrical inspection,hardware security,machine learning,path-delay test,yiorgos.makris@utdallas.edu",
+                "number": "8",
+                "pages": "1207--1228",
+                "publisher": "IEEE",
+                "title": "{Counterfeit Integrated Circuits: A Rising Threat in the Global Semiconductor Supply Chain}",
+                "volume": "102",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "As the electronic component supply chain grows more complex due to globalization, with parts coming from a diverse set of suppliers, counterfeit electronics have become a major challenge that calls for immediate solutions. Currently, there are a few standards and programs available that address the testing for such counterfeit parts. However, not enough research has yet addressed the detection and avoidance of all counterfeit parts-recycled, remarked, overproduced, cloned, out-of-spec/defective, and forged documentation-currently infiltrating the electronic component supply chain. Even if they work initially, all these parts may have reduced lifetime and pose reliability risks. In this tutorial, we will provide a review of some of the existing counterfeit detection and avoidance methods. We will also discuss the challenges ahead for implementing these methods, as well as the development of new detection and avoidance mechanisms.",
+            "aminer_id": "5550401d45ce0a409eb324b1"
+        },
+        "IARPA1": {
+            "number": "[32]",
+            "title": "Trusted Integrated Circuits Program",
+            "text": "author={{Intelligence Advanced Research Projects Activity (IARPA)}},\ntitle={{Trusted Integrated Circuits Program}},\nyear={{[Online]. Available: https://www.iarpa.gov/index.php/research-programs/tic}}",
+            "type": "article",
+            "fields": {
+                "author": "{Intelligence Advanced Research Projects Activity (IARPA)}",
+                "title": "{Trusted Integrated Circuits Program}",
+                "year": "{[Online]. Available: https://www.iarpa.gov/index.php/research-programs/tic}"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "SMPat": {
+            "number": "[33]",
+            "title": "Split manufacturing method for advanced semiconductor circuits",
+            "text": "author={R.W Jarvis and M. G. McIntyre},\ntitle={Split Manufacturing Method for Advanced Semiconductor Circuits},\njournal={US Patent no. 7195931},\nyear={2004}",
+            "type": "article",
+            "fields": {
+                "author": "R.W Jarvis and M. G. McIntyre",
+                "title": "Split Manufacturing Method for Advanced Semiconductor Circuits",
+                "journal": "US Patent no. 7195931",
+                "year": "2004"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d8a8d2dabfae2eeea2822c"
+        },
+        "BogusIEEE": {
+            "number": "[34]",
+            "title": "Bogus: Electronic Manufacturing and Consumers Confront a Rising Tide of Counterfeit Electronics",
+            "text": "author={M. Pecht and S. Tiku},\ntitle={{Bogus: Electronic Manufacturing and Consumers Confront a Rising Tide of Counterfeit Electronics}},\njournal={IEEE Spectrum, vol. 43, no. 5, pp. 37–46},\nyear={2006}",
+            "type": "article",
+            "fields": {
+                "author": "M. Pecht and S. Tiku",
+                "title": "{Bogus: Electronic Manufacturing and Consumers Confront a Rising Tide of Counterfeit Electronics}",
+                "journal": "IEEE Spectrum, vol. 43, no. 5, pp. 37–46",
+                "year": "2006"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper discusses the growing concern over the counterfeiting of electronics components and systems. Three key factors are identified as the root cause of this problem: the shift of manufacturing to China where intellectual property laws are not strictly enforced and supply chains are convoluted; the growing sophistication of technology that enables cheaper and more convincing fakes; and the rise of the Internet as a marketplace, allowing buyers and sellers make fast trades without ever meeting face to face. As many companies are learning the hard way, counterfeiting requires a constant, deliberate, and multifaceted effort, vigorous monitoring of potential trouble spots, and judicious use of anticounterfeiting technologies.",
+            "aminer_id": "5390b5df20f70186a0f0ab15"
+        },
+        "Tehranipoor2010": {
+            "number": "[35]",
+            "title": "A Survey of Hardware Trojan Taxonomy and Detection",
+            "text": "abstract = {Editor's note: Today's integrated circuits are vulnerable to hardware Trojans, which are malicious alterations to the circuit, either during design or fabrication. This article presents a classification of hardware Trojans and a survey of published techniques for Trojan detection. -Krish Chakrabarty, Editor in Chief. {\\textcopyright} 2010 IEEE.},\nauthor = {Tehranipoor, Mohammad and Koushanfar, Farinaz},\ndoi = {10.1109/MDT.2010.7},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/survey{\\_}hw{\\_}trojan{\\_}tax{\\_}det.pdf:pdf},\nissn = {07407475},\njournal = {IEEE Design and Test of Computers},\nnumber = {1},\npages = {10--25},\ntitle = {{A Survey of Hardware Trojan Taxonomy and Detection}},\nvolume = {27},\nyear = {2010}",
+            "type": "article",
+            "fields": {
+                "abstract": "Editor's note: Today's integrated circuits are vulnerable to hardware Trojans, which are malicious alterations to the circuit, either during design or fabrication. This article presents a classification of hardware Trojans and a survey of published techniques for Trojan detection. -Krish Chakrabarty, Editor in Chief. {\\textcopyright} 2010 IEEE.",
+                "author": "Tehranipoor, Mohammad and Koushanfar, Farinaz",
+                "doi": "10.1109/MDT.2010.7",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/survey{\\_}hw{\\_}trojan{\\_}tax{\\_}det.pdf:pdf",
+                "issn": "07407475",
+                "journal": "IEEE Design and Test of Computers",
+                "number": "1",
+                "pages": "10--25",
+                "title": "{A Survey of Hardware Trojan Taxonomy and Detection}",
+                "volume": "27",
+                "year": "2010"
+            },
+            "ref_source": "bib",
+            "abstract": "Editor's note:Today's integrated circuits are vulnerable to hardware Trojans, which are malicious alterations to the circuit, either during design or fabrication. This article presents a classification of hardware Trojans and a survey of published techniques for Trojan detection.",
+            "aminer_id": "5390a8b120f70186a0e9a9e5"
+        },
+        "Nowroz2014": {
+            "number": "[36]",
+            "title": "Novel Techniques for High-Sensitivity Hardware Trojan Detection Using Thermal and Power Maps",
+            "text": "abstract = {Hardware Trojans are malicious alterations or injections of unwanted circuitry to integrated circuits (ICs) by untrustworthy factories. They render great threat to the security of modern ICs by various unwanted activities such as bypassing or disabling the security fence of a system, leaking confidential information, deranging, or destroying the entire chip. Traditional testing strategies are becoming ineffective since these techniques suffer from decreased sensitivity toward small Trojans because of oversized chip and large amount of process variation present in nanometer technologies. The production volume along with decreased controllability and observability to complex ICs internals make it difficult to efficiently perform Trojan detection using typical structural tests like path latency and leakage power. In this paper, we propose a completely new post-silicon multimodal approach using runtime thermal and power maps for Trojan detection and localization. Utilizing the novel framework, we propose two different Trojan detection methods involving 2-D principal component analysis. First, supervised thresholding in case training data set is available and second, unsupervised clustering which require no prior characterization data of the chip. We introduce ℓ1 regularization in the thermal to power inversion procedure which improves Trojan detection accuracy. To characterize ICs accurately, we perform our experiments in presence of realistic CMOS process variation. Our experimental evaluations reveal that our proposed methodology can detect very small Trojans with 3-4 orders of magnitude smaller power consumptions than the total power usage of the chip, while it scales very well because of the spatial view to ICs internals by the thermal mapping.},\nauthor = {Nowroz, Abdullah Nazma and Hu, Kangqiao and Koushanfar, Farinaz and Reda, Sherief},\ndoi = {10.1109/TCAD.2014.2354293},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/novel{\\_}tec{\\_}high{\\_}hw{\\_}trojan{\\_}det{\\_}thermal{\\_}maps.pdf:pdf},\nissn = {02780070},\njournal = {IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems},\nkeywords = {2-D principal component analysis (2-DPCA),hardware Trojan detection,thermal and power mapping,unsupervised clustering},\nnumber = {12},\npages = {1792--1805},\npublisher = {IEEE},\ntitle = {{Novel Techniques for High-Sensitivity Hardware Trojan Detection Using Thermal and Power Maps}},\nvolume = {33},\nyear = {2014}",
+            "type": "article",
+            "fields": {
+                "abstract": "Hardware Trojans are malicious alterations or injections of unwanted circuitry to integrated circuits (ICs) by untrustworthy factories. They render great threat to the security of modern ICs by various unwanted activities such as bypassing or disabling the security fence of a system, leaking confidential information, deranging, or destroying the entire chip. Traditional testing strategies are becoming ineffective since these techniques suffer from decreased sensitivity toward small Trojans because of oversized chip and large amount of process variation present in nanometer technologies. The production volume along with decreased controllability and observability to complex ICs internals make it difficult to efficiently perform Trojan detection using typical structural tests like path latency and leakage power. In this paper, we propose a completely new post-silicon multimodal approach using runtime thermal and power maps for Trojan detection and localization. Utilizing the novel framework, we propose two different Trojan detection methods involving 2-D principal component analysis. First, supervised thresholding in case training data set is available and second, unsupervised clustering which require no prior characterization data of the chip. We introduce ℓ1 regularization in the thermal to power inversion procedure which improves Trojan detection accuracy. To characterize ICs accurately, we perform our experiments in presence of realistic CMOS process variation. Our experimental evaluations reveal that our proposed methodology can detect very small Trojans with 3-4 orders of magnitude smaller power consumptions than the total power usage of the chip, while it scales very well because of the spatial view to ICs internals by the thermal mapping.",
+                "author": "Nowroz, Abdullah Nazma and Hu, Kangqiao and Koushanfar, Farinaz and Reda, Sherief",
+                "doi": "10.1109/TCAD.2014.2354293",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/novel{\\_}tec{\\_}high{\\_}hw{\\_}trojan{\\_}det{\\_}thermal{\\_}maps.pdf:pdf",
+                "issn": "02780070",
+                "journal": "IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems",
+                "keywords": "2-D principal component analysis (2-DPCA),hardware Trojan detection,thermal and power mapping,unsupervised clustering",
+                "number": "12",
+                "pages": "1792--1805",
+                "publisher": "IEEE",
+                "title": "{Novel Techniques for High-Sensitivity Hardware Trojan Detection Using Thermal and Power Maps}",
+                "volume": "33",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Hardware Trojans are malicious alterations or injections of unwanted circuitry to integrated circuits (ICs) by untrustworthy factories. They render great threat to the security of modern ICs by various unwanted activities such as bypassing or disabling the security fence of a system, leaking confidential information, deranging, or destroying the entire chip. Traditional testing strategies are becoming ineffective since these techniques suffer from decreased sensitivity toward small Trojans because of oversized chip and large amount of process variation present in nanometer technologies. The production volume along with decreased controllability and observability to complex ICs internals make it difficult to efficiently perform Trojan detection using typical structural tests like path latency and leakage power. In this paper, we propose a completely new post-silicon multimodal approach using runtime thermal and power maps for Trojan detection and localization. Utilizing the novel framework, we propose two different Trojan detection methods involving 2-D principal component analysis. First, supervised thresholding in case training data set is available and second, unsupervised clustering which require no prior characterization data of the chip. We introduce 11 regularization in the thermal to power inversion procedure which improves Trojan detection accuracy. To characterize ICs accurately, we perform our experiments in presence of realistic CMOS process variation. Our experimental evaluations reveal that our proposed methodology can detect very small Trojans with 3-4 orders of magnitude smaller power consumptions than the total power usage of the chip, while it scales very well because of the spatial view to ICs internals by the thermal mapping.",
+            "aminer_id": "557c607308b02739a5ca5a2f"
+        },
+        "Torrance2011": {
+            "number": "[37]",
+            "title": "The State-of-the-art in Semiconductor Reverse Engineering",
+            "text": "abstract = {This presentation gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. {\\textcopyright} 2011 ACM.},\nauthor = {Torrance, Randy and James, Dick},\ndoi = {10.1145/2024724.2024805},\nfile = {:C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/state{\\_}of{\\_}art{\\_}semi{\\_}rev{\\_}eng.pdf:pdf},\nisbn = {9781450306362},\nissn = {0738100X},\njournal = {{2011 48th ACM/EDAC/IEEE Design Automation Conference (DAC)}},\nkeywords = {Circuit extraction,Hacking,IC Analysis,Patents Security,Reverse Engineering,Tamper Resistance},\npages = {333--338},\npublisher = {IEEE},\ntitle = {{The State-of-the-Art in Semiconductor Reverse Engineering}},\nyear = {2011}",
+            "type": "article",
+            "fields": {
+                "abstract": "This presentation gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. {\\textcopyright} 2011 ACM.",
+                "author": "Torrance, Randy and James, Dick",
+                "doi": "10.1145/2024724.2024805",
+                "file": ":C$\\backslash$:/Users/Admin/Documents/Paper/Hardware Security/state{\\_}of{\\_}art{\\_}semi{\\_}rev{\\_}eng.pdf:pdf",
+                "isbn": "9781450306362",
+                "issn": "0738100X",
+                "journal": "{2011 48th ACM/EDAC/IEEE Design Automation Conference (DAC)}",
+                "keywords": "Circuit extraction,Hacking,IC Analysis,Patents Security,Reverse Engineering,Tamper Resistance",
+                "pages": "333--338",
+                "publisher": "IEEE",
+                "title": "{The State-of-the-Art in Semiconductor Reverse Engineering}",
+                "year": "2011"
+            },
+            "ref_source": "bib",
+            "abstract": "This presentation gives an overview of the place of reverse engineering (RE) in the semiconductor industry, and the techniques used to obtain information from semiconductor products. The continuous drive of Moore's law to increase the integration level of silicon chips has presented major challenges to the reverse engineer, obsolescing simple teardowns, and demanding the adoption of new and more sophisticated technology to analyze chips. Hardware encryption embedded in chips adds a whole other level of difficulty to IC analysis, but does not necessarily keep the reverse engineer out. This paper discusses the techniques used for system-level analysis, both hardware and software; process analysis, looking at the materials and processes used to create the chip; and circuit extraction, taking the chip down to the transistor level, and working back up through the interconnects to create schematics.",
+            "aminer_id": "5390b0ca20f70186a0edb6e3"
+        },
+        "HillRKarmazin": {
+            "number": "[38]",
+            "title": "A Split-Foundry Asynchronous FPGA",
+            "text": "author={B. {Hill} and R. {Karmazin} and C. T. O. {Otero} and J. {Tse} and R. {Manohar}},\nbooktitle={{Proceedings of the IEEE 2013 Custom Integrated Circuits Conference}},\ntitle={{A Split-Foundry Asynchronous FPGA}},\nyear={2013},\nvolume={},\nnumber={},\npages={1-4},\nkeywords={asynchronous circuits;field programmable gate arrays;integrated circuit design;integrated circuit manufacture;semiconductor industry;split-foundry asynchronous FPGA;complex digital integrated circuit;split design;automated layout tools;Field programmable gate arrays;Foundries;Routing;Fabrication;Wiring;Fabrics},\ndoi={10.1109/CICC.2013.6658536},\nISSN={2152-3630},\nmonth={Sep.},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "B. {Hill} and R. {Karmazin} and C. T. O. {Otero} and J. {Tse} and R. {Manohar}",
+                "booktitle": "{Proceedings of the IEEE 2013 Custom Integrated Circuits Conference}",
+                "title": "{A Split-Foundry Asynchronous FPGA}",
+                "year": "2013",
+                "volume": "",
+                "number": "",
+                "pages": "1-4",
+                "keywords": "asynchronous circuits;field programmable gate arrays;integrated circuit design;integrated circuit manufacture;semiconductor industry;split-foundry asynchronous FPGA;complex digital integrated circuit;split design;automated layout tools;Field programmable gate arrays;Foundries;Routing;Fabrication;Wiring;Fabrics",
+                "doi": "10.1109/CICC.2013.6658536",
+                "issn": "2152-3630",
+                "month": "Sep."
+            },
+            "ref_source": "bib",
+            "abstract": "We present the first published measurements of a complex digital integrated circuit fabricated in both standard and split-foundry processes. Our 1.3-million-transistor asynchronous FPGA operates at over 300MHz in 130nm. We discuss the challenges inherent in split design and our automated layout tools that address them.",
+            "aminer_id": "558be800e4b02b9f07a3f35c"
+        },
+        "kikkawaJoshi": {
+            "number": "[39]",
+            "title": "Design Technology Co-Optimization for 10 nm and Beyond",
+            "text": "author={T. {Kikkawa} and R. {Joshi}},\nbooktitle={Proceedings of the IEEE 2014 Custom Integrated Circuits Conference},\ntitle={{Design Technology Co-Optimization for 10 nm and Beyond}},\nyear={2014},\nvolume={},\nnumber={},\npages={1-1},\nkeywords={Silicon carbide;CNTFETs;Educational institutions;Integrated circuit technology;Semiconductor materials;Photonic band gap;Integrated circuits},\ndoi={10.1109/CICC.2014.6946105},\nISSN={2152-3630},\nmonth={Sep.},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "T. {Kikkawa} and R. {Joshi}",
+                "booktitle": "Proceedings of the IEEE 2014 Custom Integrated Circuits Conference",
+                "title": "{Design Technology Co-Optimization for 10 nm and Beyond}",
+                "year": "2014",
+                "volume": "",
+                "number": "",
+                "pages": "1-1",
+                "keywords": "Silicon carbide;CNTFETs;Educational institutions;Integrated circuit technology;Semiconductor materials;Photonic band gap;Integrated circuits",
+                "doi": "10.1109/CICC.2014.6946105",
+                "issn": "2152-3630",
+                "month": "Sep."
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "reverse": {
+            "number": "[40]",
+            "title": "Reverse Engineering Digital Circuits Using Functional Analysis",
+            "text": "author={P. {Subramanyan} and N. {Tsiskaridze} and K. {Pasricha} and D. {Reisman} and A. {Susnea} and S. {Malik}},\nbooktitle={{2013 Design, Automation Test in Europe Conference Exhibition (DATE)}},\ntitle={{Reverse Engineering Digital Circuits Using Functional Analysis}},\nyear={2013},\nvolume={},\nnumber={},\npages={1277-1280},\nkeywords={Algorithm design and analysis;Logic gates;Radiation detectors;Latches;Reverse engineering;Shift registers;Random access memory},\ndoi={10.7873/DATE.2013.264},\nISSN={1530-1591},\nmonth={March},",
+            "type": "article",
+            "fields": {
+                "author": "P. {Subramanyan} and N. {Tsiskaridze} and K. {Pasricha} and D. {Reisman} and A. {Susnea} and S. {Malik}",
+                "booktitle": "{2013 Design, Automation Test in Europe Conference Exhibition (DATE)}",
+                "title": "{Reverse Engineering Digital Circuits Using Functional Analysis}",
+                "year": "2013",
+                "volume": "",
+                "number": "",
+                "pages": "1277-1280",
+                "keywords": "Algorithm design and analysis;Logic gates;Radiation detectors;Latches;Reverse engineering;Shift registers;Random access memory",
+                "doi": "10.7873/DATE.2013.264",
+                "issn": "1530-1591",
+                "month": "March"
+            },
+            "ref_source": "bib",
+            "abstract": "Integrated circuits (ICs) are now designed and fabricated in a globalized multi-vendor environment making them vulnerable to malicious design changes, the insertion of hardware trojans/malware and intellectual property (IP) theft. Algorithmic reverse engineering of digital circuits can mitigate these concerns by enabling analysts to detect malicious hardware, verify the integrity of ICs and detect IP violations. In this paper, we present a set of algorithms for the reverse engineering of digital circuits starting from an unstructured netlist and resulting in a high-level netlist with components such as register files, counters, adders and subtracters. Our techniques require no manual intervention and experiments show that they determine the functionality of more than 51% and up to 93% of the gates in each of the practical test circuits that we examine.",
+            "aminer_id": "5390bb1d20f70186a0f3ca68"
+        },
+        "ddi": {
+            "number": "[41]",
+            "title": "High Performance Ultra Low-k (k=2.0/keff=2.4)/Cu Dual-Damascene Interconnect Technology with Self-Formed MnSixOy Barrier Layer for 32 nm-node",
+            "text": "author={T. {Usui} and K. {Tsumura} and H. {Nasu} and Y. {Hayashi} and G. {Minamihaba} and H. {Toyoda} and H. {Sawada} and S. {Ito} and H. {Miyajima} and K. {Watanabe} and M. {Shimada} and A. {Kojima} and Y. {Uozumi} and H. {Shibata}}, booktitle={{2006 International Interconnect Technology Conference}}, title={{High Performance Ultra Low-k (k=2.0/keff=2.4)/Cu Dual-Damascene Interconnect Technology with Self-Formed MnSixOy Barrier Layer for 32 nm-node}}, year={2006}, volume={}, number={}, pages={216-218},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "T. {Usui} and K. {Tsumura} and H. {Nasu} and Y. {Hayashi} and G. {Minamihaba} and H. {Toyoda} and H. {Sawada} and S. {Ito} and H. {Miyajima} and K. {Watanabe} and M. {Shimada} and A. {Kojima} and Y. {Uozumi} and H. {Shibata}",
+                "booktitle": "{2006 International Interconnect Technology Conference}",
+                "title": "{High Performance Ultra Low-k (k=2.0/keff=2.4)/Cu Dual-Damascene Interconnect Technology with Self-Formed MnSixOy Barrier Layer for 32 nm-node}",
+                "year": "2006",
+                "volume": "",
+                "number": "",
+                "pages": "216-218"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Chen2019a": {
+            "number": "[42]",
+            "title": "Exploiting Proximity Information in a Satisfiability Based Attack Against Split Manufactured Circuits",
+            "text": "abstract = {Split Manufacturing (SM) was introduced as an effective countermeasure to reverse engineering of integrated circuits and as a potential deterrent to Trojan insertion and overproduction. In SM, some wires, assigned to the back-end-of-line (BEOL) layers and fabricated at a secure facility, are hidden from the attacker. However, proximity information based attacks use physical design hints such as wire-length, combinational cycles and routing directions obtained from the FEOL (front-end-of-line) netlist to recover some or all of the BEOL signals. In addition, a recently proposed satisfiability (SAT) based attack models the BEOL signal recovery problem as a problem of configuring a key-controlled interconnect network and solves for the key values using a SAT solver. While this method can recover 100{\\%} of the BEOL signals, it takes impractically long time for large circuits. In this paper, we propose an effective method to exploit proximity information extracted from the FEOL circuit to reduce the size of the interconnection network which models the missing BEOL layers which in turn significantly reduces the size of the resulting SAT problem. This leads to efficient recovery of 100{\\%} of the 'hidden' BEOL signals even for large circuits. Experimental results using circuits from ISCAS85, ISCAS89 and ITC99 benchmark suites show that the proposed method is up to 80x faster than the SAT-only attack (without proximity information) while maintaining the 100{\\%} attack correctness for all combinational and sequential benchmarks.},\nauthor = {Chen, Suyuan and Vemuri, Ranga},\ndoi = {10.1109/HST.2019.8740833},\nfile = {:C$\\backslash$:/Users/tiago/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Chen, Vemuri - 2019 - Exploiting proximity information in a satisfiability based attack against split manufactured circuits.pdf:pdf},\nisbn = {9781538680643},\njournal = {Proceedings of the 2019 IEEE International Symposium on Hardware Oriented Security and Trust, HOST 2019},\nkeywords = {Proximity Attack,Reverse Engineering,SAT Attack,Split Manufacturing},\nmendeley-groups = {Split Manufacturing},\npages = {171--180},\npublisher = {IEEE},\ntitle = {{Exploiting Proximity Information in a Satisfiability Based Attack Against Split Manufactured Circuits}},\nyear = {2019}",
+            "type": "article",
+            "fields": {
+                "abstract": "Split Manufacturing (SM) was introduced as an effective countermeasure to reverse engineering of integrated circuits and as a potential deterrent to Trojan insertion and overproduction. In SM, some wires, assigned to the back-end-of-line (BEOL) layers and fabricated at a secure facility, are hidden from the attacker. However, proximity information based attacks use physical design hints such as wire-length, combinational cycles and routing directions obtained from the FEOL (front-end-of-line) netlist to recover some or all of the BEOL signals. In addition, a recently proposed satisfiability (SAT) based attack models the BEOL signal recovery problem as a problem of configuring a key-controlled interconnect network and solves for the key values using a SAT solver. While this method can recover 100{\\%} of the BEOL signals, it takes impractically long time for large circuits. In this paper, we propose an effective method to exploit proximity information extracted from the FEOL circuit to reduce the size of the interconnection network which models the missing BEOL layers which in turn significantly reduces the size of the resulting SAT problem. This leads to efficient recovery of 100{\\%} of the 'hidden' BEOL signals even for large circuits. Experimental results using circuits from ISCAS85, ISCAS89 and ITC99 benchmark suites show that the proposed method is up to 80x faster than the SAT-only attack (without proximity information) while maintaining the 100{\\%} attack correctness for all combinational and sequential benchmarks.",
+                "author": "Chen, Suyuan and Vemuri, Ranga",
+                "doi": "10.1109/HST.2019.8740833",
+                "file": ":C$\\backslash$:/Users/tiago/AppData/Local/Mendeley Ltd./Mendeley Desktop/Downloaded/Chen, Vemuri - 2019 - Exploiting proximity information in a satisfiability based attack against split manufactured circuits.pdf:pdf",
+                "isbn": "9781538680643",
+                "journal": "Proceedings of the 2019 IEEE International Symposium on Hardware Oriented Security and Trust, HOST 2019",
+                "keywords": "Proximity Attack,Reverse Engineering,SAT Attack,Split Manufacturing",
+                "groups": "Split Manufacturing",
+                "pages": "171--180",
+                "publisher": "IEEE",
+                "title": "{Exploiting Proximity Information in a Satisfiability Based Attack Against Split Manufactured Circuits}",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Split Manufacturing (SM) was introduced as an effective countermeasure to reverse engineering of integrated circuits and as a potential deterrent to Trojan insertion and overproduction. In SM, some wires, assigned to the back-end-of-line (BEOL) layers and fabricated at a secure facility, are hidden from the attacker. However, proximity information based attacks use physical design hints such as wire-length, combinational cycles and routing directions obtained from the FEOL (front-end-of-line) netlist to recover some or all of the BEOL signals. In addition, a recently proposed satisfiability (SAT) based attack models the BEOL signal recovery problem as a problem of configuring a key-controlled interconnect network and solves for the key values using a SAT solver. While this method can recover 100% of the BEOL signals, it takes impractically long time for large circuits. In this paper, we propose an effective method to exploit proximity information extracted from the FEOL circuit to reduce the size of the interconnection network which models the missing BEOL layers which in turn significantly reduces the size of the resulting SAT problem. This leads to efficient recovery of 100% of the `hidden' BEOL signals even for large circuits. Experimental results using circuits from ISCAS85, ISCAS89 and ITC99 benchmark suites show that the proposed method is up to 80× faster than the SAT-only attack (without proximity information) while maintaining the 100% attack correctness for all combinational and sequential benchmarks.",
+            "aminer_id": "5d17378b3a55ac696b134979"
+        },
+        "pagliarini": {
+            "number": "[43]",
+            "title": "Application and Product-Volume-Specific Customization of BEOL Metal Pitch",
+            "text": "author={S. N. {Pagliarini} and M. M. {Isgenc} and M. G. A. {Martins} and L. {Pileggi}}, journal={{IEEE Transactions on Very Large Scale Integration (VLSI) Systems}}, title={{Application and Product-Volume-Specific Customization of BEOL Metal Pitch}}, year={2018}, volume={26}, number={9}, pages={1627-1636},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "S. N. {Pagliarini} and M. M. {Isgenc} and M. G. A. {Martins} and L. {Pileggi}",
+                "journal": "{IEEE Transactions on Very Large Scale Integration (VLSI) Systems}",
+                "title": "{Application and Product-Volume-Specific Customization of BEOL Metal Pitch}",
+                "year": "2018",
+                "volume": "26",
+                "number": "9",
+                "pages": "1627-1636"
+            },
+            "ref_source": "bib",
+            "abstract": "High-volume manufacturing of integrated circuits is what drives the semiconductor industry and the scaling of CMOS; however, shrinking all feature sizes is not optimal for all product volumes and applications. While scaling transistors provide improvement in performance at power in general, concerted scaling of the back-end-of-line (BEOL) interconnects provides improvement in density but at some expense of performance and quality. In this paper, we explore the benefits of relaxing the BEOL metal pitches as a tunable knob for application-specific optimization as a function of product volume. This paper demonstrates that a relaxed BEOL (r-BEOL) methodology can be applied at block level as well as chip level to provide performance and quality benefits while considering density constraints. The benefits of an r-BEOL pitch for power, timing, design for manufacturability, routing congestion, and signal integrity are considered for a 16-nm FinFET technology. Silicon results using relaxed M4-M7 metal layers are used to validate the simulation comparisons.",
+            "aminer_id": "5b8c9f5317c44af36f8b7c85"
+        },
+        "ispd_bench": {
+            "number": "[44]",
+            "title": "The ISPD-2011 Routability-Driven Placement Contest and Benchmark Suite",
+            "text": "author = {Viswanathan, Natarajan and Alpert, Charles J. and Sze, Cliff and Li, Zhuo and Nam, Gi-Joon and Roy, Jarrod A.},\ntitle = {{The ISPD-2011 Routability-Driven Placement Contest and Benchmark Suite}},\nyear = {2011},\nisbn = {9781450305501},\npublisher = {Association for Computing Machinery},\nurl = {https://doi.org/10.1145/1960397.1960429},\ndoi = {10.1145/1960397.1960429},\nbooktitle = {Proceedings of the 2011 International Symposium on Physical Design},\npages = {141–146},\nnumpages = {6},\nkeywords = {benchmarks, physical design, placement},\nlocation = {Santa Barbara, CA, USA},\nseries = {ISPD ’11}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Viswanathan, Natarajan and Alpert, Charles J. and Sze, Cliff and Li, Zhuo and Nam, Gi-Joon and Roy, Jarrod A.",
+                "title": "{The ISPD-2011 Routability-Driven Placement Contest and Benchmark Suite}",
+                "year": "2011",
+                "isbn": "9781450305501",
+                "publisher": "Association for Computing Machinery",
+                "url": "https://doi.org/10.1145/1960397.1960429",
+                "doi": "10.1145/1960397.1960429",
+                "booktitle": "Proceedings of the 2011 International Symposium on Physical Design",
+                "pages": "141–146",
+                "numpages": "6",
+                "keywords": "benchmarks, physical design, placement",
+                "location": "Santa Barbara, CA, USA",
+                "series": "ISPD ’11"
+            },
+            "ref_source": "bib",
+            "abstract": "The last few years have seen significant advances in the quality of placement algorithms. This is in part due to the availability of large, challenging testcases by way of the ISPD-2005 [17] and ISPD-2006 [16] placement contests. These contests primarily evaluated the placers based on the half-perimeter wire length metric. Although wire length is an important metric, it still does not address a fundamental requirement for placement algorithms, namely, the ability to produce routable placements. This paper describes the ISPD-2011 routability-driven placement contest, and a new benchmark suite that is being released in conjunction with the contest. All designs in the new benchmark suite are derived from industrial ASIC designs, and can be used to perform both placement and global routing. By way of the contest and the associated benchmark suite, we hope to provide a standard, publicly available framework to help advance research in the area of routability-driven placement.",
+            "aminer_id": "5390aefc20f70186a0ecde0b"
+        },
+        "zhou_sat": {
+            "number": "[45]",
+            "title": "CycSAT: SAT-Based Attack on Cyclic Logic Encryptions",
+            "text": "author={H. {Zhou} and R. {Jiang} and S. {Kong}},  booktitle={{2017 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)}},  title={{CycSAT: SAT-Based Attack on Cyclic Logic Encryptions}},   year={2017},  volume={},  number={},  pages={49-56},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "H. {Zhou} and R. {Jiang} and S. {Kong}",
+                "booktitle": "{2017 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)}",
+                "title": "{CycSAT: SAT-Based Attack on Cyclic Logic Encryptions}",
+                "year": "2017",
+                "volume": "",
+                "number": "",
+                "pages": "49-56"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c77ec601a182cd258a4fd"
+        },
+        "Xiao2015": {
+            "number": "[46]",
+            "title": "Efficient and Secure Split Manufacturing Via Obfuscated Built-in Self-Authentication",
+            "text": "author={K. {Xiao} and D. {Forte} and M. M. {Tehranipoor}},  booktitle={2015 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)},   title={{Efficient and secure split manufacturing via obfuscated built-in self-authentication}},   year={2015},  volume={},  number={},  pages={14-19},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "K. {Xiao} and D. {Forte} and M. M. {Tehranipoor}",
+                "booktitle": "2015 IEEE International Symposium on Hardware Oriented Security and Trust (HOST)",
+                "title": "{Efficient and secure split manufacturing via obfuscated built-in self-authentication}",
+                "year": "2015",
+                "volume": "",
+                "number": "",
+                "pages": "14-19"
+            },
+            "ref_source": "bib",
+            "abstract": "The threats of reverse-engineering, IP piracy, and hardware Trojan insertion in the semiconductor supply chain are greater today than ever before. Split manufacturing has emerged as a viable approach to protect integrated circuits (ICs) fabricated in untrusted foundries, but has high cost and/or high performance overhead. Furthermore, split manufacturing cannot fully prevent untargeted hardware Trojan insertions. In this paper, we propose to insert additional functional circuitry called obfuscated built-in self-authentication (OBISA) in the chip layout with split manufacturing process, in order to prevent reverse-engineering and further prevent hardware Trojan insertion. Self-tests are performed to authenticate the trustworthiness of the OBISA circuitry. The OBISA circuit is connected to original design in order to increase the strength of obfuscation, thereby allowing a higher layer split and lower overall cost. Additional fan-outs are created in OBISA circuitry to improve obfuscation without losing testability. Our proposed gating mechanism and net selection method can ensure negligible overhead in terms of area, timing, and dynamic power. Experimental results demonstrate the effectiveness of the proposed technique in several benchmark circuits.",
+            "aminer_id": "55c35197683a451f09d2b72c"
+        },
+        "Yang2016": {
+            "number": "[47]",
+            "title": "Making Split-Fabrication More Secure",
+            "text": "author={P. {Yang} and M. {Marek-Sadowska}},  booktitle={2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)},   title={{Making split-fabrication more secure}},   year={2016},  volume={},  number={},  pages={1-8},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "P. {Yang} and M. {Marek-Sadowska}",
+                "booktitle": "2016 IEEE/ACM International Conference on Computer-Aided Design (ICCAD)",
+                "title": "{Making split-fabrication more secure}",
+                "year": "2016",
+                "volume": "",
+                "number": "",
+                "pages": "1-8"
+            },
+            "ref_source": "bib",
+            "abstract": "Today many design houses must outsource their design fabrication to a third party which is often an overseas foundry. Split-fabrication is proposed for combining the FEOL capabilities of an advanced but untrusted foundry with the BEOL capabilities of a trusted foundry. Hardware security in this business model relates directly to the front-end foundry's ability to interpret the partial circuit design it receives in order to reverse engineer or insert malicious circuits. The published experimental results indicate that a relatively large percentage of the split nets can be correctly guessed and there is no easy way of detecting the possibly inserted Trojans.In this paper, we propose a secure split-fabrication design methodology for the Vertical Slit Field Effect Transistor (VeSFET) based integrated circuits. We take advantage of the VeSFET's unique and powerful two-side accessibility and monolithic 3D integration capability. In our approach the design is manufactured by two independent foundries, both of which can be untrusted. We propose the design partition and piracy prevention, hardware Trojan insertion prevention, and Trojan detection methods. In the 3D designs, some transistors are physically hidden from the front-end foundry_1's view, which causes that it is impossible for this foundry to reconstruct the circuit. We designed 10 MCNC benchmark circuits using the proposed flow and executed an attack by an in-house developed proximity attacker. With 5% nets manufactured by the back-end foundry_2, the average percentage of the correctly reconstructed partitioned nets is less than 1%.",
+            "aminer_id": "58437767ac44360f1083d9e2"
+        },
+        "networkFlowAlg": {
+            "number": "[48]",
+            "title": "Network Flows: Theory, Algorithms, and Applications.",
+            "text": "abstract = {},\nauthor = {R. K. Ahuja, T. L. Magnanti, and J. B. Orlin},\ndoi = {},\nfile = {},\nisbn = {},\nissn = {},\njournal = {{Upper Saddle River, NJ, USA: Prentice-Hall}},\npages = {},\ntitle = {{Network Flows: Theory, Algorithms, and Applications.}},\nvolume = {},\nyear = {1993}",
+            "type": "article",
+            "fields": {
+                "abstract": "",
+                "author": "R. K. Ahuja, T. L. Magnanti, and J. B. Orlin",
+                "doi": "",
+                "file": "",
+                "isbn": "",
+                "issn": "",
+                "journal": "{Upper Saddle River, NJ, USA: Prentice-Hall}",
+                "pages": "",
+                "title": "{Network Flows: Theory, Algorithms, and Applications.}",
+                "volume": "",
+                "year": "1993"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "539087aa20f70186a0d4a9ac"
+        },
+        "3DwhitePaper": {
+            "number": "[49]",
+            "title": "3D-ICs and Integrated Circuit Security",
+            "text": "abstract = {},\nauthor = {Tezzarron Semiconductors},\ndoi = {},\nfile = {},\nisbn = {},\nissn = {},\njournal = {},\npages = {},\ntitle = {{3D-ICs and Integrated Circuit Security}},\nvolume = {},\nyear = {[Online]. Available: http://www.tezzaron.com/media/3D-ICs\\_and\\_Integrated\\_Circuit\\_Security.pdf}",
+            "type": "article",
+            "fields": {
+                "abstract": "",
+                "author": "Tezzarron Semiconductors",
+                "doi": "",
+                "file": "",
+                "isbn": "",
+                "issn": "",
+                "journal": "",
+                "pages": "",
+                "title": "{3D-ICs and Integrated Circuit Security}",
+                "volume": "",
+                "year": "[Online]. Available: http://www.tezzaron.com/media/3D-ICs\\_and\\_Integrated\\_Circuit\\_Security.pdf"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "swDegate": {
+            "number": "[50]",
+            "title": "Degate.",
+            "text": "abstract = {},\nauthor = {Schobert et al., M.},\ndoi = {},\nfile = {},\nisbn = {},\nissn = {},\njournal = {},\npages = {},\ntitle = {{Degate.}},\nvolume = {},\nyear = {[Online]. Available: http://www.degate.org/documentation}",
+            "type": "article",
+            "fields": {
+                "abstract": "",
+                "author": "Schobert et al., M.",
+                "doi": "",
+                "file": "",
+                "isbn": "",
+                "issn": "",
+                "journal": "",
+                "pages": "",
+                "title": "{Degate.}",
+                "volume": "",
+                "year": "[Online]. Available: http://www.degate.org/documentation"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "DFM1": {
+            "number": "[51]",
+            "title": "Design for Manufacturing with Emerging Nanolithography",
+            "text": "author={D. Z. {Pan} and B. {Yu} and J. {Gao}},  journal={{IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}},   title={{Design for Manufacturing With Emerging Nanolithography}},   year={2013},  volume={32},  number={10},  pages={1453-1472},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "D. Z. {Pan} and B. {Yu} and J. {Gao}",
+                "journal": "{IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems}",
+                "title": "{Design for Manufacturing With Emerging Nanolithography}",
+                "year": "2013",
+                "volume": "32",
+                "number": "10",
+                "pages": "1453-1472"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we survey key design for manufacturing issues for extreme scaling with emerging nanolithography technologies, including double/multiple patterning lithography, extreme ultraviolet lithography, and electron-beam lithography. These nanolithography and nanopatterning technologies have different manufacturing processes and their unique challenges to very large scale integration (VLSI) physical design, mask synthesis, and so on. It is essential to have close VLSI design and underlying process technology co-optimization to achieve high product quality (power/performance, etc.) and yield while making future scaling cost-effective and worthwhile. Recent results and examples will be discussed to show the enablement and effectiveness of such design and process integration, including lithography model/analysis, mask synthesis, and lithography friendly physical design.",
+            "aminer_id": "558bd7eae4b0cfb70a1a26b0"
+        },
+        "Djktas": {
+            "number": "[52]",
+            "title": "Dijkstra's shortest path algorithm serial and parallel execution performance analysis.",
+            "text": "author={N. {Jasika} and N. {Alispahic} and A. {Elma} and K. {Ilvana} and L. {Elma} and N. {Nosovic}},  booktitle={{2012 Proceedings of the 35th International Convention MIPRO}},   title={{Dijkstra's Shortest Path Algorithm Serial and Parallel Execution Performance Analysis}},   year={2012},  volume={},  number={},  pages={1811-1815},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "N. {Jasika} and N. {Alispahic} and A. {Elma} and K. {Ilvana} and L. {Elma} and N. {Nosovic}",
+                "booktitle": "{2012 Proceedings of the 35th International Convention MIPRO}",
+                "title": "{Dijkstra's Shortest Path Algorithm Serial and Parallel Execution Performance Analysis}",
+                "year": "2012",
+                "volume": "",
+                "number": "",
+                "pages": "1811-1815"
+            },
+            "ref_source": "bib",
+            "abstract": "This article introduces the problem of parallelization of Dijkstra's algorithm, a well known algorithm for computing single-source shortest path in a graph. Dijkstra's algorithm can be applied to graphs with a various number of vertices and edges. Dijkstra's shortest path algorithm is implemented and presented, and the performances of its parallel and serial execution are compared. The algorithm implementation was parallelized using OpenMP (Open Multi-Processing) and OpenCL (Open Computing Language) standards. Its performances were measured on 4 different configurations, based on dual core and i5 processors. The experimental results prove that the parallel execution of the algorithm has good performances in terms of speed-up ratio, when compared to its serial execution. Finally, the results show that, because of Dijkstra's algorithm in itself is sequential, and difficult to parallelize, average speed-up ratio achieved by parallelization is only 10%. This proves to be a huge disadvantage of this algorithm, because its use is widespread, and enhancing its performance would have great effects in its many uses.",
+            "aminer_id": "53e9a832b7602d9703177dc3"
+        },
+        "SADPP": {
+            "number": "[53]",
+            "title": "Throughput Optimization for SADP and E-beam Based Manufacturing of 1D Layout",
+            "text": "author={Y. {Ding} and C. {Chu} and  {Wai-Kei Mak}},  booktitle={{2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC)}},   title={{Throughput Optimization for SADP and E-beam Based Manufacturing of 1D Layout}},   year={2014},  volume={},  number={},  pages={1-6},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Y. {Ding} and C. {Chu} and {Wai-Kei Mak}",
+                "booktitle": "{2014 51st ACM/EDAC/IEEE Design Automation Conference (DAC)}",
+                "title": "{Throughput Optimization for SADP and E-beam Based Manufacturing of 1D Layout}",
+                "year": "2014",
+                "volume": "",
+                "number": "",
+                "pages": "1-6"
+            },
+            "ref_source": "bib",
+            "abstract": "Due to the resolution limitations of optical lithography equipment, 1D gridded layout design is gaining steam. Self-aligned double patterning (SADP) is a mature technology for printing 1D layouts. However, for 20nm and beyond, SADP using a single trim mask becomes insufficient for printing all 1D layouts. A viable solution is to complement SADP with e-beam lithography. In this paper, in order to increase the throughput of printing a 1D layout, we consider the problem of e-beam shot count minimization subject to bounded line end extension constraints. Two different approaches of utilizing the trim mask and e-beam to print a layout are considered. The first approach is under the assumption that the trim mask and e-beam are used for end cutting. The second is under the assumption that the trim mask and e-beam are used to rid of all unnecessary portions. We propose elegant ILP formulations for both approaches. Experimental results show that both ILP formulations can be solved efficiently. The pros and cons of the two approaches for manufacturing 1D layout are discussed.",
+            "aminer_id": "53e99c29b7602d97024d707b"
+        },
+        "vesfet1": {
+            "number": "[54]",
+            "title": "Twin Gate, Vertical Slit FET (vesfet) for Highly Periodic Layout and 3D Integration",
+            "text": "author={W. {Maly} and N. {Singh} and Z. {Chen} and N. {Shen} and X. {Li} and A. {Pfitzner} and D. {Kasprowicz} and W. {Kuzmicz} and Y. {Lin} and M. {Marek-Sadowska}},  booktitle={{Proceedings of the 18th International Conference Mixed Design of Integrated Circuits and Systems (MIXDES)}},   title={{Twin Gate, Vertical Slit FET (VeSFET) for Highly Periodic Layout and 3D Integration}},   year={2011},  volume={},  number={},  pages={145-150},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "W. {Maly} and N. {Singh} and Z. {Chen} and N. {Shen} and X. {Li} and A. {Pfitzner} and D. {Kasprowicz} and W. {Kuzmicz} and Y. {Lin} and M. {Marek-Sadowska}",
+                "booktitle": "{Proceedings of the 18th International Conference Mixed Design of Integrated Circuits and Systems (MIXDES)}",
+                "title": "{Twin Gate, Vertical Slit FET (VeSFET) for Highly Periodic Layout and 3D Integration}",
+                "year": "2011",
+                "volume": "",
+                "number": "",
+                "pages": "145-150"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper introduces a new device architecture, which can be shared by a variety of different types of transistors including a new 3D junctionless N-channel and P-channel vertical slit FET (VeSFET). VeSFETs have two symmetrical independent gates that provide many new circuit level opportunities e.g. in energy conservation domain, unavailable otherwise. The key feature of the new architecture is its extreme regularity, which promotes highly repetitive layouts, constructed with small number of massively replicated simple geometrical patterns vastly simplifying critical lithography steps. A single layer of VeSFETs is a canvas for Vertical Slit Transistor based Integrated Circuits (VeSTICs) [2,3]. This paper discusses the basic idea of vertical slit device architecture, the physics of VeSFETs, their key electrical properties in comparison with trigate FinFETs, and shows experimental characteristics of fabricated devices.",
+            "aminer_id": "558b226e84ae84d265c1adc3"
+        },
+        "vesfet2": {
+            "number": "[55]",
+            "title": "Stacked 3-Dimensional 6T SRAM Cell with Independent Double Gate Transistors",
+            "text": "author={M. {Weis} and A. {Pfitzner} and D. {Kasprowicz} and R. {Emling} and T. {Fischer} and S. {Henzler} and W. {Maly} and D. {Schmitt-Landsiedel}},  booktitle={{IEEE International Conference on IC Design and Technology}},   title={{Stacked 3-dimensional 6T SRAM Cell with Independent Double Gate Transistors}},   year={2009},  volume={},  number={},  pages={169-172},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "M. {Weis} and A. {Pfitzner} and D. {Kasprowicz} and R. {Emling} and T. {Fischer} and S. {Henzler} and W. {Maly} and D. {Schmitt-Landsiedel}",
+                "booktitle": "{IEEE International Conference on IC Design and Technology}",
+                "title": "{Stacked 3-dimensional 6T SRAM Cell with Independent Double Gate Transistors}",
+                "year": "2009",
+                "volume": "",
+                "number": "",
+                "pages": "169-172"
+            },
+            "ref_source": "bib",
+            "abstract": "A stacked three-dimensional six transistor SRAM cell using a novel vertical slit field effect transistor with two independently controlled gates is proposed. A compact stacked 3D memory cell topology with a highly regular layout is presented and a significant memory cell area reduction can be achieved. Utilization of independent double gate transistors enhances the robustness for read and write operation. The trade-off for the use of independently controlled gates to increase the cell stability is discussed.",
+            "aminer_id": "558b3766e4b0b32fcb3b61e3"
+        },
+        "vesfet3": {
+            "number": "[56]",
+            "title": "Can Pin Access Limit the Footprint Scaling?",
+            "text": "author={X. {Qiu} and M. {Marek-Sadowska}},  booktitle={{Design Automation Conference (DAC)}},   title={{Can Pin Access Limit the Footprint Scaling?}},   year={2012},  volume={},  number={},  pages={1100-1106},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "X. {Qiu} and M. {Marek-Sadowska}",
+                "booktitle": "{Design Automation Conference (DAC)}",
+                "title": "{Can Pin Access Limit the Footprint Scaling?}",
+                "year": "2012",
+                "volume": "",
+                "number": "",
+                "pages": "1100-1106"
+            },
+            "ref_source": "bib",
+            "abstract": "If pin density exceeds a certain threshold, pin access becomes a challenge for inter-cell signal routing and increasing the number of metal layers cannot improve routability. CMOS and FinFET layouts may never reach this threshold, but Vertical Slit Field Effect Transistor (VeSFET) ICs may exceed it. We demonstrate that VeSFET layouts are still routable within footprint using two-sided routing which achieves better wire length and via usage than one-sided routing with or without white space inserted.",
+            "aminer_id": "5390b5c620f70186a0f08066"
+        },
+        "cellTK": {
+            "number": "[57]",
+            "title": "Celltk: Automated Layout for Asynchronous Circuits with Nonstandard Cells",
+            "text": "author={R. {Karmazin} and C. T. O. {Otero} and R. {Manohar}},  booktitle={IEEE 19th International Symposium on Asynchronous Circuits and Systems},   title={{CellTK: Automated Layout for Asynchronous Circuits with Nonstandard Cells}},   year={2013},  volume={},  number={},  pages={58-66},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "R. {Karmazin} and C. T. O. {Otero} and R. {Manohar}",
+                "booktitle": "IEEE 19th International Symposium on Asynchronous Circuits and Systems",
+                "title": "{CellTK: Automated Layout for Asynchronous Circuits with Nonstandard Cells}",
+                "year": "2013",
+                "volume": "",
+                "number": "",
+                "pages": "58-66"
+            },
+            "ref_source": "bib",
+            "abstract": "Asynchronous circuits are an attractive option to overcome many challenges currently faced by chip designers, such as increased process variation. However, the lack of CAD tools to generate asynchronous circuits limits the adoption of this promising technology. In this absence of CAD tools, the most time consuming part of chip design is the back-end (physical design) effort. We propose a complete design infrastructure to physically implement an asynchronous digital net list with orders of magnitude time savings over expert human effort. The core of this flow is the ability to generate customized logic that is compatible with available ASIC flows. We evaluate our flow against several asynchronous circuit benchmarks for which full custom physical implementations exist. Compared to hand-optimized custom designs, our flow produces layout that has, on average, a 51% area overhead, with a 12% increase in energy and a 9% increase in delay.",
+            "aminer_id": "5390bb1d20f70186a0f3e594"
+        },
+        "afpga": {
+            "number": "[58]",
+            "title": "A Split-Foundry Asynchronous FPGA",
+            "text": "author={B. {Hill} and R. {Karmazin} and C. T. O. {Otero} and J. {Tse} and R. {Manohar}},  booktitle={Proceedings of the IEEE Custom Integrated Circuits Conference},   title={{A Split-Foundry Asynchronous FPGA}},   year={2013},  volume={},  number={},  pages={1-4},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "B. {Hill} and R. {Karmazin} and C. T. O. {Otero} and J. {Tse} and R. {Manohar}",
+                "booktitle": "Proceedings of the IEEE Custom Integrated Circuits Conference",
+                "title": "{A Split-Foundry Asynchronous FPGA}",
+                "year": "2013",
+                "volume": "",
+                "number": "",
+                "pages": "1-4"
+            },
+            "ref_source": "bib",
+            "abstract": "We present the first published measurements of a complex digital integrated circuit fabricated in both standard and split-foundry processes. Our 1.3-million-transistor asynchronous FPGA operates at over 300MHz in 130nm. We discuss the challenges inherent in split design and our automated layout tools that address them.",
+            "aminer_id": "558be800e4b02b9f07a3f35c"
+        },
+        "yosys": {
+            "number": "[59]",
+            "title": "Yosys Open Synthesis Suite",
+            "text": "abstract = {},\nauthor = {Clifford Wolf},\ndoi = {},\nfile = {},\nisbn = {},\nissn = {},\njournal = {http://www.clifford.at/yosys/},\npages = {},\ntitle = {{Yosys Open Synthesis Suite}},\nvolume = {},\nyear = {}",
+            "type": "article",
+            "fields": {
+                "abstract": "",
+                "author": "Clifford Wolf",
+                "doi": "",
+                "file": "",
+                "isbn": "",
+                "issn": "",
+                "journal": "http://www.clifford.at/yosys/",
+                "pages": "",
+                "title": "{Yosys Open Synthesis Suite}",
+                "volume": "",
+                "year": ""
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "KIsomorph": {
+            "number": "[60]",
+            "title": "K-Isomorphism: Privacy Preserving Network Publication Against Structural Attacks",
+            "text": "author = {Cheng, James and Fu, Ada and Liu, Jia},\nyear = {2010},\npages = {459-470},\ntitle = {{K-Isomorphism: Privacy Preserving Network Publication Against Structural Attacks}},\nbooktitle = {Proceedings of the ACM SIGMOD International Conference on Management of Data},\ndoi = {10.1145/1807167.1807218}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Cheng, James and Fu, Ada and Liu, Jia",
+                "year": "2010",
+                "pages": "459-470",
+                "title": "{K-Isomorphism: Privacy Preserving Network Publication Against Structural Attacks}",
+                "booktitle": "Proceedings of the ACM SIGMOD International Conference on Management of Data",
+                "doi": "10.1145/1807167.1807218"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9a32db7602d9702c347e3"
+        },
+        "TrustHub": {
+            "number": "[61]",
+            "title": "On Design Vulnerability Analysis and Trust Benchmarks Development",
+            "text": "author={H. {Salmani} and M. {Tehranipoor} and R. {Karri}},  booktitle={{2013 IEEE 31st International Conference on Computer Design (ICCD)}},   title={{On Design Vulnerability Analysis and Trust Benchmarks Development}},   year={2013},  volume={},  number={},  pages={471-474},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "H. {Salmani} and M. {Tehranipoor} and R. {Karri}",
+                "booktitle": "{2013 IEEE 31st International Conference on Computer Design (ICCD)}",
+                "title": "{On Design Vulnerability Analysis and Trust Benchmarks Development}",
+                "year": "2013",
+                "volume": "",
+                "number": "",
+                "pages": "471-474"
+            },
+            "ref_source": "bib",
+            "abstract": "The areas of hardware security and trust have experienced major growth over the past several years. However, research in Trojan detection and prevention lacks standard benchmarks and measurements, resulting in inconsistent research outcomes, and ambiguity in analyzing strengths and weaknesses in the techniques developed by different research teams and their advancements to the state-of-the-art. We have developed innovative methodologies that, for the first time, more effectively address the problem. We have developed a vulnerability analysis flow. The flow determines hard-to-detect areas in a circuit that would most probably be used for Trojan implementation to ensure a Trojan goes undetected during production test and extensive functional test analysis. Furthermore, we introduce the Trojan detectability metric to quantify Trojan activation and effect. This metric offers a fair comparison for analyzing weaknesses and strengths of Trojan detection techniques. Using these methodologies, we have developed a large number of trust benchmarks that are available for use by the public, as well as researchers and practitioners in the field.",
+            "aminer_id": "558be73be4b00c3c48df2533"
+        },
+        "testBook": {
+            "number": "[62]",
+            "title": "Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits",
+            "text": "author = {Bushnell, M. and Agrawal, Vishwani},\ntitle = {{Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits}},\nyear = {2013},\nisbn = {1475781423},\npublisher = {{Springer Publishing Company, Incorporated}}",
+            "type": "book",
+            "fields": {
+                "author": "Bushnell, M. and Agrawal, Vishwani",
+                "title": "{Essentials of Electronic Testing for Digital, Memory and Mixed-Signal VLSI Circuits}",
+                "year": "2013",
+                "isbn": "1475781423",
+                "publisher": "{Springer Publishing Company, Incorporated}"
+            },
+            "ref_source": "bib",
+            "abstract": "Today's electronic design and test engineers deal with several types of subsystems, namely, digital, memory, and mixed-signal, each requiring different test and design for testability methods. This book provides a careful selection of essential topics on all three types of circuits. The outcome of testing is product quality, which means \"meeting the user's needs at a minimum cost\". The book includes test economics and techniques for determining the defect level of VLSI chips. Besides being a textbook for a course on testing, it is a complete testability guide for an engineer working on any kind of electronic device or system or a system-on-a-chip.",
+            "aminer_id": "5390bfa220f70186a0f531a0"
+        },
+        "ISCAS85": {
+            "number": "[63]",
+            "title": "Combinational Profiles of Sequential Benchmark Circuits",
+            "text": "author={F. {Brglez} and D. {Bryan} and K. {Kozminski}},  booktitle={{IEEE International Symposium on Circuits and Systems,}},   title={{Combinational Profiles of Sequential Benchmark Circuits}},   year={1989},  volume={},  number={},  pages={1929-1934 vol.3},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "F. {Brglez} and D. {Bryan} and K. {Kozminski}",
+                "booktitle": "{IEEE International Symposium on Circuits and Systems,}",
+                "title": "{Combinational Profiles of Sequential Benchmark Circuits}",
+                "year": "1989",
+                "volume": "",
+                "number": "",
+                "pages": "1929-1934 vol.3"
+            },
+            "ref_source": "bib",
+            "abstract": "A set of 31 digital sequential circuits described at the gate level is presented. These circuits extend the size and complexity of the ISCAS'85 set of combinational circuits and can serve as benchmarks for researchers interested in sequential test generation, scan-based test generation, and mixed sequential/scan-based test generation using partial scan techniques. Although all the benchmark circuits are sequential, synchronous, and use only D-type flip-flops, additional interior faults and asynchronous behavior can be introduced by substituting for some or all of the flip-flops their appropriate functional models. The standard functional model of the D flip-flop provides a reference point that is independent of the faults particular to the flip-flop implementation. A testability profile of the benchmarks in the full-scan-mode configuration is discussed",
+            "aminer_id": "53e9aa9cb7602d9703416a9c"
+        },
+        "openSPARK": {
+            "number": "[64]",
+            "title": "A Low-Power ASIC Implementation of Multi-Core OpenSPARC T1 Processor on 90nm CMOS Process",
+            "text": "author={P. {Nguyen} and T. {Tran} and P. {Diep} and D. {Le}},  booktitle={2018 IEEE 12th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)},   title={{A Low-Power ASIC Implementation of Multi-Core OpenSPARC T1 Processor on 90nm CMOS Process}},   year={2018},  volume={},  number={},  pages={95-100},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "P. {Nguyen} and T. {Tran} and P. {Diep} and D. {Le}",
+                "booktitle": "2018 IEEE 12th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC)",
+                "title": "{A Low-Power ASIC Implementation of Multi-Core OpenSPARC T1 Processor on 90nm CMOS Process}",
+                "year": "2018",
+                "volume": "",
+                "number": "",
+                "pages": "95-100"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, a hierarchy low-power design flow has been proposed. Low-power design techniques for digital ASIC design have been implemented with this proposed flow such as clock gating technique at RTL synthesis stage, multi-threshold voltage and power switching technique at back-end stage for power optimization. These low-power flow and techniques are implemented on an open source RTL of OpenSPARC T1 processor core. Firstly, the core is run synthesis and place-and-route without applying any low-power optimization techniques from front-end to back-end stage. Secondly, the core is completed by using the low-power design techniques. This work is implemented on open 90nm CMOS process with the EDA tools.",
+            "aminer_id": "5c0495fa17c44a2c74704f75"
+        },
+        "SOAP": {
+            "number": "[65]",
+            "title": "SCOAP: Sandia Controllability/Observability Analysis Program",
+            "text": "author={L. H. {Goldstein} and E. L. {Thigpen}},  booktitle={{17th Design Automation Conference}},   title={{SCOAP: Sandia Controllability/Observability Analysis Program}},   year={1980},  volume={},  number={},  pages={190-196},",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "L. H. {Goldstein} and E. L. {Thigpen}",
+                "booktitle": "{17th Design Automation Conference}",
+                "title": "{SCOAP: Sandia Controllability/Observability Analysis Program}",
+                "year": "1980",
+                "volume": "",
+                "number": "",
+                "pages": "190-196"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390878e20f70186a0d3a0c7"
+        },
+        "ITC99": {
+            "number": "[66]",
+            "title": "RT-level ITC'99 Benchmarks and First ATPG Results",
+            "text": "author={F. {Corno} and M. S. {Reorda} and G. {Squillero}},  journal={IEEE Design   Test of Computers},   title={RT-level ITC'99 benchmarks and first ATPG results},   year={2000},  volume={17},  number={3},  pages={44-53},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "F. {Corno} and M. S. {Reorda} and G. {Squillero}",
+                "journal": "IEEE Design Test of Computers",
+                "title": "RT-level ITC'99 benchmarks and first ATPG results",
+                "year": "2000",
+                "volume": "17",
+                "number": "3",
+                "pages": "44-53"
+            },
+            "ref_source": "bib",
+            "abstract": "New design flows require reducing work at the gate level and performing most activities before the synthesis step, including evaluation of testability of circuits. We propose a suite of RT-level benchmarks that help improve research in high-level ATPG tools. First results on the benchmarks obtained with our prototype tool show the feasibility of the approach",
+            "aminer_id": "539089bb20f70186a0d99af6"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 66,
+        "citation_types": {
+            "other": 66
+        }
+    }
+}

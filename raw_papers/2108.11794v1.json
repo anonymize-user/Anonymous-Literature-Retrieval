@@ -1,0 +1,346 @@
+{
+    "topic": "State of the Art: Image Hashing",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[4]",
+                "[13]",
+                "[8]",
+                "[16]",
+                "[17]",
+                "[14]",
+                "[7]",
+                "[5]",
+                "[2]",
+                "[11]",
+                "[9]",
+                "[12]",
+                "[15]",
+                "[1]",
+                "[3]",
+                "[6]",
+                "[10]",
+                "[18]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Perceptual hashing",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Traditional perceptual hashing",
+                    "refs": [
+                        "[19]",
+                        "[17]",
+                        "[16]",
+                        "[22]",
+                        "[20]",
+                        "[5]",
+                        "[24]",
+                        "[21]",
+                        "[1]",
+                        "[23]",
+                        "[3]",
+                        "[25]",
+                        "[26]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Deep hashing",
+                    "refs": [
+                        "[14]",
+                        "[29]",
+                        "[28]",
+                        "[27]",
+                        "[11]",
+                        "[13]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion and Conclusions",
+            "refs": [
+                "[8]",
+                "[16]",
+                "[17]",
+                "[22]",
+                "[5]",
+                "[21]",
+                "[1]",
+                "[23]",
+                "[18]",
+                "[30]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgment",
+            "refs": [],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        }
+    ],
+    "references": {
+        "ID2_15RobHashAuthentication": {
+            "number": "[1]",
+            "title": "Robust Hashing for Image Authentication Using Quaternion Discrete Fourier Transform and Log-Polar Transform",
+            "text": "\\bibitem{ID2_15RobHashAuthentication} Junlin Ouyang, Gouenou Coatrieux, and Huazhong Shu. \\newblock {Robust hashing for image authentication using quaternion discrete Fourier transform and log-polar transform}. \\newblock {\\em {Digital Signal Processing}}, pages 98--109, 2015.",
+            "ref_source": "bbl",
+            "abstract": "In this work, a novel robust image hashing scheme for image authentication is proposed based on the combination of the quaternion discrete Fourier transform (QDFT) with the log-polar transform. QDFT offers a sound way to jointly deal with the three channels of color images. The key features of the present method rely on (i) the computation of a secondary image using a log-polar transform; and (ii) the extraction from this image of low frequency QDFT coefficients' magnitude. The final image hash is generated according to the correlation of these magnitude coefficients and is scrambled by a secret key to enhance the system security. Experiments were conducted in order to analyze and identify the most appropriate parameter values of the proposed method and also to compare its performance to some reference methods in terms of receiver operating characteristics curves. The results show that the proposed scheme offers a good sensitivity to image content alterations and is robust to the common content-preserving operations, and especially to large angle rotation operations.",
+            "aminer_id": "5590378d0cf28fa910317a13"
+        },
+        "Nabki_17ClassIllegalTORText": {
+            "number": "[2]",
+            "title": "Classifying Illegal Activities on Tor Network Based on Web Textual Contents",
+            "text": "\\bibitem{Nabki_17ClassIllegalTORText} Mhd Wesam~Al Nabki, Eduardo Fidalgo, Enrique Alegre, and Ivan de~Paz. \\newblock {Classifying illegal activities on TOR network based on web textual contents}. \\newblock In {\\em {Proceedings of the 15th Conference of the European Chapter of the Association for Computational Linguistics}}, volume~1, pages 35--43, 2017.",
+            "ref_source": "bbl",
+            "abstract": "The freedom of the Deep Web offers a safe place where people can express themselves anonymously but they also can conduct illegal activities. In this paper, we present and make publicly available a new dataset for Darknet active domains, which we call ”Darknet Usage Text Addresses” (DUTA). We built DUTA by sampling the Tor network during two months and manually labeled each address into 26 classes. Using DUTA, we conducted a comparison between two well-known text representation techniques crossed by three different supervised classifiers to categorize the Tor hidden services. We also fixed the pipeline elements and identified the aspects that have a critical influence on the classification results. We found that the combination of TFIDF words representation with Logistic Regression classifier achieves 96.6% of 10 folds cross-validation accuracy and a macro F1 score of 93.7% when classifying a subset of illegal activities from DUTA. The good performance of the classifier might support potential tools to help the authorities in the detection of these activities.",
+            "aminer_id": "59ae3c3a2bbe271c4c71fbfe"
+        },
+        "Yuenan12RobImaHashGabor": {
+            "number": "[3]",
+            "title": "Robust Image Hashing Based on Random Gabor Filtering and Dithered Lattice Vector Quantization",
+            "text": "\\bibitem{Yuenan12RobImaHashGabor} Yuenan Li, Zheming Lu, Ce~Zhu, and Xiamu Niu. \\newblock {Robust image hashing based on random Gabor filtering and dithered lattice vector quantization}. \\newblock {\\em {IEEE Transactions on Image Processing}}, 21(4):1963--1980, 2012.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we propose a robust-hash function based on random Gabor filtering and dithered lattice vector quantization (LVQ). In order to enhance the robustness against rotation manipulations, the conventional Gabor filter is adapted to be rotation invariant, and the rotation-invariant filter is randomized to facilitate secure feature extraction. Particularly, a novel dithered-LVQ-based quantization scheme is proposed for robust hashing. The dithered-LVQ-based quantization scheme is well suited for robust hashing with several desirable features, including better tradeoff between robustness and discrimination, higher randomness, and secrecy, which are validated by analytical and experimental results. The performance of the proposed hashing algorithm is evaluated over a test image database under various content-preserving manipulations. The proposed hashing algorithm shows superior robustness and discrimination performance compared with other state-of-the-art algorithms, particularly in the robustness against rotations (of large degrees).",
+            "aminer_id": "53e9a122b7602d9702a121e7"
+        },
+        "Tang2_16RobImaHasColor": {
+            "number": "[4]",
+            "title": "Robust image hashing based on color vector angle and Canny operator",
+            "text": "\\bibitem{Tang2_16RobImaHasColor} Zhenjun Tang, Liyan Huang, Xianquan Zhang, and Huan Lao. \\newblock {Robust image hashing based on color vector angle and Canny operator}. \\newblock {\\em {AEU - International Journal of Electronics and Communications}}, 70:833--841, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Image hashing is a novel technology of multimedia processing, and finds many applications, such as image forensics, image retrieval and image indexing. Conventional image hashing algorithms have limitations in reaching desirable classification performances between rotation robustness and discrimination. Aiming at this issue, we propose a robust image hashing based on color vector angle and Canny operator. Specifically, our hashing firstly converts input image to a normalized image by interpolation and Gaussian low-pass filtering. And then, color vector angles and image edges are both extracted from the normalized image. Finally, statistical features incorporating color vector angles and image edges are calculated to form image hash. We conduct experiments with 2762 images to validate efficiency of our hashing. The experimental results show that our hashing is robust against normal digital processing, such as image rotation, brightness/contrast adjustment and JPEG compression, and reaches good discrimination. Receiver operating characteristics (ROC) curve comparisons with some state-of-the-art algorithms indicate that our hashing outperforms these compared algorithms in classification performances between robustness and discriminative capability.",
+            "aminer_id": "5c755517f56def9798678700"
+        },
+        "Qin16PerImaHashSalientStrucFeat": {
+            "number": "[5]",
+            "title": "Perceptual Image Hashing with Selective Sampling for Salient Structure Features",
+            "text": "\\bibitem{Qin16PerImaHashSalientStrucFeat} Chuan Qin, Xueqin Chen, Jing Dong, and Xinpeng Zhang. \\newblock {Perceptual image hashing with selective sampling for salient structure features}. \\newblock {\\em Displays}, 45:26--37, 2016.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, a robust and secure image hashing scheme based on salient structure features is proposed, which can be applied in image authentication and retrieval. In order to acquire the fixed length of image hash, the pre-processing for image regularization is first conducted on input image. Salient edge detection is then applied on the secondary image, and a series of non-overlapping blocks containing the richest structural information in the secondary image are selectively sampled according to the edge binary map. Dominant DCT coefficients of the sampled blocks with their corresponding position information are retrieved as the robust features. After the compression with dimensionality reduction for the concatenated features, the final hash can be produced. Experimental results show that the proposed scheme has better performances of perceptual robustness and discrimination compared with some state-of-the-art schemes. (C) 2016 Elsevier B.V. All rights reserved.",
+            "aminer_id": "58d82fecd649053542fdc41f"
+        },
+        "Sajjad19RobImaHashSmartIndEnv": {
+            "number": "[6]",
+            "title": "Robust Image Hashing Based Efficient Authentication for Smart Industrial Environment.",
+            "text": "\\bibitem{Sajjad19RobImaHashSmartIndEnv} M.~{Sajjad}, I.~U. {Haq}, J.~{Lloret}, W.~{Ding}, and K.~{Muhammad}. \\newblock {Robust Image Hashing based Efficient Authentication for Smart Industrial Environment}. \\newblock {\\em {IEEE Transactions on Industrial Informatics}}, pages 1--1, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Due to large volume and high variability of editing tools, protecting multimedia contents, and ensuring their privacy and authenticity has become an increasingly important issue in cyber-physical security of industrial environments, especially industrial surveillance. The approaches authenticating images using their principle content emerge as popular authentication techniques in industrial video ...",
+            "aminer_id": "5df6059bdf1a9c0c4163b23e"
+        },
+        "Qin19PercImaHashingLBP": {
+            "number": "[7]",
+            "title": "Perceptual Image Hashing Based on Weber Local Binary Pattern and Color Angle Representation",
+            "text": "\\bibitem{Qin19PercImaHashingLBP} C.~{Qin}, Y.~{Hu}, H.~{Yao}, X.~{Duan}, and L.~{Gao}. \\newblock {Perceptual Image Hashing Based on Weber Local Binary Pattern and Color Angle Representation}. \\newblock {\\em {IEEE Access}}, 7:45460--45471, 2019.",
+            "ref_source": "bbl",
+            "abstract": "This paper proposes an efficient scheme for generating image hashing by combining the local texture and color angle features. During the stage of texture extraction, using Weber's Law, the difference ratios between the center pixels and their surrounding pixels are calculated and the dimensions of these values are further reduced by applying principal component analysis to the statistical histogram. In the stage of color feature extraction, the color angle of each pixel is computed before dimensional reduction and is carried out using a discrete cosine transform and a significant coefficients selection strategy. The main contribution of this paper is a novel construction for image hashing that incorporates texture and color features by using Weber local binary pattern and color angular pattern. The experimental results demonstrate the efficacy of the proposed scheme, especially for the perceptual robustness against common contentpreserving manipulations, such as the JPEG compression, Gaussian low-pass filtering, and image scaling. Based on the comparisons with the state-of-the-art schemes, receiver operating characteristic curves and integrated histograms of normalized distances show the superiority of our scheme in terms of robustness and discrimination.",
+            "aminer_id": "5ceddfb7da56298378794f37"
+        },
+        "Rubel2020F-DNS": {
+            "number": "[8]",
+            "title": "Perceptual Image Hashing Based on Frequency Dominant Neighborhood Structure Applied to Tor Domains Recognition",
+            "text": "\\bibitem{Rubel2020F-DNS} Biswas Rubel, González-Castro Víctor, Fidalgo Eduardo, and Alegre Enrique. \\newblock Perceptual image hashing based on frequency dominant neighborhood structure applied to tor domains recognition. \\newblock {\\em Neurocomputing}, 383:24--38, 2020.",
+            "ref_source": "bbl",
+            "abstract": "Tor (The Onion Router) is one of the most famous anonymous networks in the Deep Web. It provides a wide range of legal and illegal hidden services to the user. Recognizing such illicit domains is a challenging task for Cyber Security and Law Enforcement Agencies. However, doing it manually, based only on the officers’ experience, is slow and prone to errors. Therefore, in this paper, we propose an automatic method based on perceptual hashing to recognize services on the Tor network only by means of their snapshots. Firstly, we introduce and make publicly available DUSI-2K (Darknet Usage Service Images-2K), an image dataset which contains snapshots from active Tor service domains. We also present a new, efficient, robust and discriminative image hashing method, named F-DNS, built by incorporating the Dominant Neighborhood Structure (DNS) map and the Global Neighborhood Structure (GNS) texture energy map extracted from the discrete cosine transform of the image. In order to evaluate the efficiency of our hashing method, we carry out intra- and inter- tests using images from some state-of-the-art datasets subject to various content-preserving operations. The high correlation coefficient values that our method obtains, indicates that F-DNS performs better than other state-of-the-art methods, especially in the case of rotation. Additionally, we assess F-DNS for recognizing the category of Tor domains based on their snapshots using the DUSI-2K dataset. We compare its performance with three typical image classification methods, i.e. Bag of Visual Words (BoVW) and features obtained from ResNet50 and Inception-ResNet-v2. F-DNS outperforms all of them, with an accuracy of 98.75%, against 31.39%, 82.70% and 85.19%, respectively. Fine-tuning ResNet50 and Inception-Resnet-v2 for DUSI-2K does not improve the result, attaining 37.12% and 79.15%, respectively.",
+            "aminer_id": "5e4e598f93d709897cab86e2"
+        },
+        "yu2016iprivacy": {
+            "number": "[9]",
+            "title": "Iprivacy: Image Privacy Protection by Identifying Sensitive Objects Via Deep Multi-Task Learning.",
+            "text": "\\bibitem{yu2016iprivacy} J.~Yu, B.~Zhang, Z.~Kuang, D.~Lin, and J.~Fan. \\newblock {iPrivacy: Image privacy protection by identifying sensitive objects via deep multi-task learning}. \\newblock {\\em {IEEE Transactions on Information Forensics and Security}}, 12:1005--1016, 2016.",
+            "ref_source": "bbl",
+            "abstract": "To achieve automatic recommendation of privacy settings for image sharing, a new tool called iPrivacy (image privacy) is developed for releasing the burden from users on setting the privacy preferences when they share their images for special moments. Specifically, this paper consists of the following contributions: 1) massive social images and their privacy settings are leveraged to learn the object-privacy relatedness effectively and identify a set of privacy-sensitive object classes automatically; 2) a deep multi-task learning algorithm is developed to jointly learn more representative deep convolutional neural networks and more discriminative tree classifier, so that we can achieve fast and accurate detection of large numbers of privacy-sensitive object classes; 3) automatic recommendation of privacy settings for image sharing can be achieved by detecting the underlying privacy-sensitive objects from the images being shared, recognizing their classes, and identifying their privacy settings according to the object-privacy relatedness; and 4) one simple solution for image privacy protection is provided by blurring the privacy-sensitive objects automatically. We have conducted extensive experimental studies on real-world images and the results have demonstrated both the efficiency and effectiveness of our proposed approach.",
+            "aminer_id": "599c7a4c601a182cd26a65b7"
+        },
+        "du2020perceptual": {
+            "number": "[10]",
+            "title": "Perceptual hashing for image authentication: A survey",
+            "text": "\\bibitem{du2020perceptual} L.~Du, A.~T. Ho, and R.~Cong. \\newblock Perceptual hashing for image authentication: A survey. \\newblock {\\em Signal Processing: Image Communication}, 81:115713, 2020.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5e09aabcdf1a9c0c416c7d8e"
+        },
+        "Liu2016Deep_supHash": {
+            "number": "[11]",
+            "title": "Deep Supervised Hashing for Fast Image Retrieval",
+            "text": "\\bibitem{Liu2016Deep_supHash} H.~Liu, R.~Wang, S.~Shan, and X.~Chen. \\newblock Deep supervised hashing for fast image retrieval. \\newblock In {\\em {Conference on Computer Vision and Pattern Recognition}}, pages 2064--2072. IEEE, 2016.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we present a new hashing method to learn compact binary codes for highly efficient image retrieval on large-scale datasets. While the complex image appearance variations still pose a great challenge to reliable retrieval, in light of the recent progress of Convolutional Neural Networks (CNNs) in learning robust image representation on various vision tasks, this paper proposes a novel Deep Supervised Hashing (DSH) method to learn compact similarity-preserving binary code for the huge body of image data. Specifically, we devise a CNN architecture that takes pairs of images (similar/dissimilar) as training inputs and encourages the output of each image to approximate discrete values (e.g. +1/-1). To this end, a loss function is elaborately designed to maximize the discriminability of the output space by encoding the supervised information from the input image pairs, and simultaneously imposing regularization on the real-valued outputs to approximate the desired discrete values. For image retrieval, new-coming query images can be easily encoded by propagating through the network and then quantizing the network outputs to binary codes representation. Extensive experiments on two large scale datasets CIFAR-10 and NUS-WIDE show the promising performance of our method compared with the state-of-the-arts.",
+            "aminer_id": "58d83020d649053542fe38cc"
+        },
+        "ying2019locality": {
+            "number": "[12]",
+            "title": "Locality-constrained Discrete Graph Hashing",
+            "text": "\\bibitem{ying2019locality} W.~Ying, J.~Sang, and J.~Yu. \\newblock {Locality-constrained Discrete Graph Hashing}. \\newblock {\\em {Neurocomputing}}, IN PRESS:1--15, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Hashing techniques have been widely used for large-scale image retrieval because of its low storage cost and high query speed. Hashing maps similar data onto binary codes with a smaller Hamming distance, which is essentially a discrete optimization problem with constraints. Recently, several discrete hashing methods have begun focusing on minimizing the discrete loss between hash codes and continuous values but ignoring the hidden structure among data points in the original space. Following these efforts, we propose a locality-constrained discrete graph hashing (LCH) method that attempts to minimize the similarity distance of the data points in the original space by softening the hash codes’ hard constraint into two spaces: the discrete constraint space and the bit-balanced, bit-uncorrected constraint space. Furthermore, both spaces maintain the neighbourhood structure of the data points in the original space, and the best hash codes are found by minimizing the similarity distance between the two spaces. This is consistent with the nature of hashing for similarity preservation. Experiments on four real image datasets show that LCH obtains superior search accuracy over state-of-the-art hashing methods.",
+            "aminer_id": "5d9edb5847c8f76646015620"
+        },
+        "gu2019clustering": {
+            "number": "[13]",
+            "title": "Clustering-driven unsupervised deep hashing for image retrieval",
+            "text": "\\bibitem{gu2019clustering} Yifan Gu, Shidong Wang, Haofeng Zhang, Yazhou Yao, Wankou Yang, and Li~Liu. \\newblock {Clustering-driven unsupervised deep hashing for image retrieval}. \\newblock {\\em {Neurocomputing}}, 368:114 -- 123, 2019.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5db02ba347c8f76646147515"
+        },
+        "gu2019multi": {
+            "number": "[14]",
+            "title": "Multi-level Magnification Correlation Hashing for Scalable Histopathological Image Retrieval",
+            "text": "\\bibitem{gu2019multi} Y.~Gu and J.~Yang. \\newblock {Multi-level magnification correlation hashing for scalable histopathological image retrieval}. \\newblock {\\em Neurocomputing}, 351:134--145, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Content-based Medical Image Retrieval (CBMIR) presents promising results in computer-aided diagnosis which provides the clinicians with interpretative guidance based on the visual similarity. In this paper, we focus on the tasks of histopathological image retrieval for breast cancer diagnosis. Instead of the holistic-based and cell-based methods proposed in previous works, we propose a multi-magnification correlation hashing (MMCH) framework that learns the discriminative binary codes for histopathological images. The patch-link graph is constructed with both low and high magnification images where the semantic links are propagated from the pre-labeled patches to unlabeled data. We then learn the binary hashing codes based on the global labels from the low-magnification images with structure-regularization. The experiments on BreakHis dataset and PLOSONE dataset demonstrate that MMCH outperforms the previous hashing methods on histopathological image retrieval.",
+            "aminer_id": "5ce3aca8ced107d4c65a9035"
+        },
+        "Schneider1996RobustSignature": {
+            "number": "[15]",
+            "title": "A robust content based digital signature for image authentication",
+            "text": "\\bibitem{Schneider1996RobustSignature} M.~Schneider and Shih-Fu Chang. \\newblock {A robust content based digital signature for image authentication}. \\newblock In {\\em {Proceedings of 3rd IEEE International Conference on Image Processing}}, volume~3, pages 227--230, Sep 1996.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9adf6b7602d970380102e"
+        },
+        "Tang1_16RobImaHashRingPartition": {
+            "number": "[16]",
+            "title": "Robust Image Hashing with Ring Partition and Invariant Vector Distance",
+            "text": "\\bibitem{Tang1_16RobImaHashRingPartition} Zhenjun Tang, Xianquan Zhang, Xianxian Li, and Shichao Zhang. \\newblock {Robust image hashing with ring partition and invariant vector distance}. \\newblock {\\em {IEEE Transactions on Information Forensics and Security}}, 11(1):200--214, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Robustness and discrimination are two of the most important objectives in image hashing. We incorporate ring partition and invariant vector distance to image hashing algorithm for enhancing rotation robustness and discriminative capability. As ring partition is unrelated to image rotation, the statistical features that are extracted from image rings in perceptually uniform color space, i.e., CIE L*a*b* color space, are rotation invariant and stable. In particular, the Euclidean distance between vectors of these perceptual features is invariant to commonly used digital operations to images (e.g., JPEG compression, gamma correction, and brightness/contrast adjustment), which helps in making image hash compact and discriminative. We conduct experiments to evaluate the efficiency with 250 color images, and demonstrate that the proposed hashing algorithm is robust at commonly used digital operations to images. In addition, with the receiver operating characteristics curve, we illustrate that our hashing is much better than the existing popular hashing algorithms at robustness and discrimination.",
+            "aminer_id": "5687dfcf0cf2afdcd165fb5e"
+        },
+        "Zauner10ImplemPercImaHashFunc": {
+            "number": "[17]",
+            "title": "Implementation and Benchmarking of Perceptual Image Hash Functions",
+            "text": "\\bibitem{Zauner10ImplemPercImaHashFunc} Christoph Zauner. \\newblock {Implementation and Benchmarking of Perceptual Image Hash Functions}. \\newblock Master's thesis, {University of Applied Sciences Hagenberg, Austria}, 2010.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "56d842f7dabfae2eee972bed"
+        },
+        "USC-SIPI": {
+            "number": "[18]",
+            "title": "Robust hash functions for digital watermarking",
+            "text": "\\bibitem{USC-SIPI} {USC-SIPI Image Database. Available from}: http://sipi.usc.edu/database/.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53908cde20f70186a0dcd505"
+        },
+        "Fridrich_00RobHashWatermarking": {
+            "number": "[19]",
+            "title": "Robust Image Hashing with Dominant Dct Coefficients",
+            "text": "\\bibitem{Fridrich_00RobHashWatermarking} Jiri Fridrich and Miroslav Goljan. \\newblock {Robust hash functions for digital watermarking}. \\newblock In {\\em {Information Technology: Coding and Computing. Proceedings. International Conference on}}, pages 178--183. IEEE, 2000.",
+            "ref_source": "bbl",
+            "abstract": "Image hashing is an emerging technology of multimedia processing. This paper proposes a robust image hashing with dominant discrete cosine transform (DCT) coefficients. The proposed hashing converts the input image to a normalized image, divides it into non-overlapping blocks, extracts dominant DCT coefficients in the first row/column of each block to construct feature matrices, and finally conducts matrix compression by calculating and quantifying column distances. Many experiments are conducted and the results show that the proposed hashing is robust against normal digital operations and has desirable discrimination. Receiver operating characteristics (ROC) curve comparisons indicate that the proposed hashing is better than some notable image hashing.",
+            "aminer_id": "60489f32ec47cda5328bc961"
+        },
+        "Tang3_14RobImaHashDCT": {
+            "number": "[20]",
+            "title": "Robust and Secure Image Hashing",
+            "text": "\\bibitem{Tang3_14RobImaHashDCT} Zhenjun Tang, Fan Yang, Liyan Huang, and Xianquan Zhang. \\newblock {Robust image hashing with dominant DCT coefficients}. \\newblock {\\em {Optik-International Journal for Light and Electron Optics}}, 125(18):5102--5107, 2014.",
+            "ref_source": "bbl",
+            "abstract": "Image hash functions find extensive applications in content authentication, database search, and watermarking. This paper develops a novel algorithm for generating an image hash based on Fourier transform features and controlled randomization. We formulate the robustness of image hashing as a hypothesis testing problem and evaluate the performance under various image processing operations. We show that the proposed hash function is resilient to content-preserving modifications, such as moderate geometric and filtering distortions. We introduce a general framework to study and evaluate the security of image hashing systems. Under this new framework, we model the hash values as random variables and quantify its uncertainty in terms of differential entropy. Using this security framework, we analyze the security of the proposed schemes and several existing representative methods for image hashing. We then examine the security versus robustness tradeoff and show that the proposed hashing methods can provide excellent security and robustness.",
+            "aminer_id": "5390b52620f70186a0f03fcc"
+        },
+        "Swaminathan06RobSecImaHash": {
+            "number": "[21]",
+            "title": "A secure and robust hash-based scheme for image authentication",
+            "text": "\\bibitem{Swaminathan06RobSecImaHash} Ashwin Swaminathan, Yinian Mao, and Min Wu. \\newblock {Robust and secure image hashing}. \\newblock {\\em {IEEE Transactions on Information Forensics and security}}, 1(2):215--230, 2006.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390a8db20f70186a0e9da69"
+        },
+        "Ahmed_10SecRobHashImaAuthentic": {
+            "number": "[22]",
+            "title": "Robust and Secure Image Hashing Via Non-Negative Matrix Factorizations",
+            "text": "\\bibitem{Ahmed_10SecRobHashImaAuthentic} Fawad Ahmed, Mohammed~Yakoob Siyal, and Vali~Uddin Abbas. \\newblock {A secure and robust hash-based scheme for image authentication}. \\newblock {\\em {Signal Processing}}, 90(5):1456--1470, 2010.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we propose the use of non-negative matrix factorization (NMF) for robust image hashing. In particular, we view images as matrices and the goal of hashing as a randomized dimensionality reduction that retains the essence of the original image matrix while preventing against intentional attacks of guessing and forgery. Our work is motivated by the fact that standard-rank reduction techniques such as the QR, and singular value decomposition (SVD), produce low rank bases which do not respect the structure (i.e. non-negativity for images) of the original data. We observe that NMFs have two very desirable properties for secure image hashing applications: 1) The additivity property resulting from the non-negativity constraints results in bases that capture local characteristics of the image, thereby significantly reducing misclassification, and 2) the effect of geometric attacks on images in the spatial domain manifests (approximately) as independent identically distributed noise on NMF vectors, allowing design of detectors that are both computationally simple and at the same time optimal in the sense of minimizing error probabilities. ROC (receiver operating characteristics) analysis over a large image database reveals that the proposed algorithms significantly outperform existing approaches for robust image hashing",
+            "aminer_id": "5390b52620f70186a0f03fa4"
+        },
+        "Monga1_07RobSecImaHashNNMF": {
+            "number": "[23]",
+            "title": "Perceptual Image Hashing Using Center-Symmetric Local Binary Patterns",
+            "text": "\\bibitem{Monga1_07RobSecImaHashNNMF} V.~Monga and M.~Mhcak. \\newblock {Robust and secure image hashing via non-negative matrix factorizations}. \\newblock {\\em {IEEE Transaction Information Forensics Security}}, 2(3):376--390, 2007.",
+            "ref_source": "bbl",
+            "abstract": "Perceptual image hashing finds increasing attention in several multimedia security applications such as image identification/authentication, tamper detection, and watermarking. Robust feature extraction is the main challenge in hashing schemes. Local binary pattern (LBP) is a new feature which is due to its simplicity, discriminative power, computational efficiency, and robustness to illumination changes has been used in various image applications. In this paper, we propose a robust image hashing scheme using center-symmetric local binary patterns (CSLBP). In the proposed image hashing, CSLBP features are extracted from each non-overlapping block within the original gray-scale image. For each block, the final hash code is obtained by inner product of its CSLBP feature vector and a pseudorandom weight vector. Furthermore, singular value decomposition (SVD) is combined with CSLBP to introduce a more robust hashing method called SVD-CSLBP. Performances of the proposed hashing schemes are evaluated with two groups of popular applications in perceptual image hashing schemes: image identification and image authentication. Experimental results show that the proposed methods are robust to a wide range of distortions and attacks such as additive noise, blurring, brightness changes and JPEG compression. Moreover, the proposed methods have this capability to localize the tampering area, which is not possible in all hashing schemes.",
+            "aminer_id": "573695e96e3b12023e4fe600"
+        },
+        "Davarzani_16PerImaHashLBP": {
+            "number": "[24]",
+            "title": "Image Hashing with Color Vector Angle",
+            "text": "\\bibitem{Davarzani_16PerImaHashLBP} Reza Davarzani, Saeed Mozaffari, and Khashayar Yaghmaie. \\newblock {Perceptual image hashing using center-symmetric local binary patterns}. \\newblock {\\em {Multimedia Tools and Applications}}, 75(8):4639--4667, 2016.",
+            "ref_source": "bbl",
+            "abstract": "Color vector angle (CVA) is an important feature of processing color images and has been successfully developed and used in real applications, such as edge detection, indexing and retrieval of images. However, it is unsolved how to apply the CVA to efficiently generating an image hash. Also, most image hashing algorithms choose luminance component of color image for hash generation and cannot well capture the color information of images. To tackle these issues, we study efficient image hashing algorithms with the histogram of CVAs, called HCVA hashing. The histogram is first extracted from those angles that are in the biggest circle inscribed inside the normalized image. And then, it is compressed to make a short hash. We conducted some experiments to assess the performance, and illustrated that the DCT (Discrete Cosine Transform) is the best one of that cooperating with HCVA at generating hashes, as well as the HCVA hashing is robust and promising.",
+            "aminer_id": "5b3d98a217c44a510f7ff2ea"
+        },
+        "ZhenjunTang18ImageHashColor": {
+            "number": "[25]",
+            "title": "Perceptual hash-based feature description for person re-identification",
+            "text": "\\bibitem{ZhenjunTang18ImageHashColor} Zhenjun Tang, Xuelong Li, Xianquan Zhang, Shichao Zhang, and Yumin Dai. \\newblock {Image hashing with color vector angle}. \\newblock {\\em {Neurocomputing}}, 308:147--158, 2018.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260c5717c44a4ba8a290aa"
+        },
+        "WenFang18PerHashPersonReID": {
+            "number": "[26]",
+            "title": "Supervised Hashing for Image Retrieval Via Image Representation Learning",
+            "text": "\\bibitem{WenFang18PerHashPersonReID} Wen Fang, Hai-Miao Hu, Zihao Hu, Shengcai Liao, and Bo~Li. \\newblock {Perceptual hash-based feature description for person re-identification}. \\newblock {\\em {Neurocomputing}}, 272:520--531, 2018.",
+            "ref_source": "bbl",
+            "abstract": "Hashing is a popular approximate nearest neighbor search approach for large-scale image retrieval. Supervised hashing, which incorporates similarity/dissimilarity information on entity pairs to improve the quality of hashing function learning, has recently received increasing attention. However, in the existing supervised hashing methods for images, an input image is usually encoded by a vector of hand-crafted visual features. Such hand-crafted feature vectors do not necessarily preserve the accurate semantic similarities of images pairs, which may often degrade the performance of hashing function learning. In this paper, we propose a supervised hashing method for image retrieval, in which we automatically learn a good image representation tailored to hashing as well as a set of hash functions. The proposed method has two stages. In the first stage, given the pairwise similarity matrix S over training images, we propose a scalable coordinate descent method to decompose S into a product of HHT where H is a matrix with each of its rows being the approximate hash code associated to a training image. In the second stage, we propose to simultaneously learn a good feature representation for the input images as well as a set of hash functions, via a deep convolutional network tailored to the learned hash codes in H and optionally the discrete class labels of the images. Extensive empirical evaluations on three benchmark datasets with different kinds of images show that the proposed method has superior performance gains over several state-of-the-art supervised and unsupervised hashing methods.",
+            "aminer_id": "555048d545ce0a409eb71cf0"
+        },
+        "Xia2014Supervised_hash": {
+            "number": "[27]",
+            "title": "Unsupervised Semantic Deep Hashing",
+            "text": "\\bibitem{Xia2014Supervised_hash} R.~Xia, Y.~Pan, C.~Lai, S.~Liu, and S.~Yan. \\newblock Supervised hashing for image retrieval via image representation learning. \\newblock In {\\em AAAI}, 2014.",
+            "ref_source": "bbl",
+            "abstract": "In recent years, deep hashing methods have been proved to be effective since it employs convolutional neural network to learn features and hashing codes simultaneously. However, these methods are mostly supervised. In real-world applications, it is a time-consuming and overloaded task for annotating a large number of images. In this paper, we propose a novel unsupervised deep hashing method for large-scale image retrieval. Our method, namely unsupervised semantic deep hashing ( USDH ), uses semantic information preserved in the CNN feature layer to guide the training of network. We enforce four criteria on hashing codes learning based on VGG-19 model: 1) preserving relevant information of feature space in hashing space; 2) minimizing quantization loss between binary-like codes and hashing codes; 3) improving the usage of each bit in hashing codes by using maximum information entropy, and 4) invariant to image rotation. Extensive experiments on CIFAR-10, NUSWIDE have demonstrated that USDH outperforms several state-of-the-art unsupervised hashing methods for image retrieval. We also conduct experiments on Oxford 17 datasets for fine-grained classification to verify its efficiency for other computer vision tasks.",
+            "aminer_id": "5aed14d617c44a443815965d"
+        },
+        "jin2019unsupervised": {
+            "number": "[28]",
+            "title": "VGG19-Based Classification of Amyloid PET Image in Patients with MCI and AD",
+            "text": "\\bibitem{jin2019unsupervised} S.~Jin, H.~Yao, X.~Sun, and S.~Zhou. \\newblock {Unsupervised semantic deep hashing}. \\newblock {\\em Neurocomputing}, 351:19--25, 2019.",
+            "ref_source": "bbl",
+            "abstract": "Amyloid brain positron emission tomography (PET) images are visually and subjectively analyzed by the physician with a lot of time and effort to determine the β-Amyloid (Aβ) deposition. We designed a convolutional neural network (CNN) model that predicts the Aβ-positive and Aβ-negative status. We performed 18F-florbetaben (FBB) brain PET on controls and patients (n =176) with mild cognitive impairment and Alzheimer's disease (AD). We classified brain PET images visually as per the on the brain amyloid plaque load score. We designed the visual geometry group (VGG16) model for the visual assessment of slice-based samples. To evaluate only the gray matter and not the white matter, gray matter masking (GMM) was applied to the slice-based standard samples. All the performance metrics were higher with GMM than without GMM (accuracy 92.39 vs. 89.60, sensitivity 87.93 vs. 85.76, and specificity 98.94 vs. 95.32). For the patient-based standard, all the performance metrics were almost the same (accuracy 89.78 vs. 89.21), lower (sensitivity 93.97 vs. 99.14), and higher (specificity 81.67 vs. 70.00). The area under the curve with the VGG16 model that observed the gray matter region only was slightly higher than the model that observed the whole brain for both slice-based and patient-based decision processes. Amyloid brain PET images can be appropriately analyzed using the CNN model for predicting the Aβ-positive and Aβ-negative status.",
+            "aminer_id": "5e5e191693d709897ce4ee73"
+        },
+        "Kang2018VGG19": {
+            "number": "[29]",
+            "title": "Robust Perceptual Image Hashing Based on Ring Partition and NMF",
+            "text": "\\bibitem{Kang2018VGG19} H.~Kang, D.-Y. Kang, J.-S. Park, and S.~W. Ha. \\newblock Vgg19-based classification of amyloid pet image in patients with mci and ad. \\newblock In {\\em International Conference on Computational Science and Computational}, pages 1442--1443, 2018.",
+            "ref_source": "bbl",
+            "abstract": "This paper designs an efficient image hashing with a ring partition and a nonnegative matrix factorization (NMF), which has both the rotation robustness and good discriminative capability. The key contribution is a novel construction of rotation-invariant secondary image, which is used for the first time in image hashing and helps to make image hash resistant to rotation. In addition, NMF coefficients are approximately linearly changed by content-preserving manipulations, so as to measure hash similarity with correlation coefficient. We conduct experiments for illustrating the efficiency with 346 images. Our experiments show that the proposed hashing is robust against content-preserving operations, such as image rotation, JPEG compression, watermark embedding, Gaussian low-pass filtering, gamma correction, brightness adjustment, contrast adjustment, and image scaling. Receiver operating characteristics (ROC) curve comparisons are also conducted with the state-of-the-art algorithms, and demonstrate that the proposed hashing is much better than all these algorithms in classification performances with respect to robustness and discrimination.",
+            "aminer_id": "5390bfa220f70186a0f530e7"
+        },
+        "ID7_14RobImaHashNMF": {
+            "number": "[30]",
+            "title": "k {Robust perceptual image hashing based on ring partition and NMF}.",
+            "text": "\\bibitem{ID7_14RobImaHashNMF} Z.~Tang, X.~Zhang, and S.~Zhang. \\newblock {Robust perceptual image hashing based on ring partition and NMF}. \\newblock {\\em {IEEE Transaction on Knowledge Data Engineering}}, 26(3):711--724, 2014. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 30,
+        "citation_types": {
+            "unknown": 30
+        }
+    }
+}

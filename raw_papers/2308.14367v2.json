@@ -1,0 +1,337 @@
+{
+    "topic": "A Comprehensive Overview of Backdoor Attacks in Large Language Models\n  within Communication Networks",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[3]",
+                "[5]",
+                "[1]",
+                "[8]",
+                "[6]",
+                "[13]",
+                "[14]",
+                "[7]",
+                "[4]",
+                "[12]",
+                "[15]",
+                "[9]",
+                "[11]",
+                "[10]",
+                "[2]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "PRELIMINARIES",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Large Language Models",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Backdoor Attacks",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Definition of Technical Terms",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "2.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Adversary goals",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "2.2.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Metrics",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "2.2.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "THREAT MODEL",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Attacker's Knowledge",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Possible Scenarios and Corresponding Capacities",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Backdoor Attacks in LLMs",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Input-triggered",
+                    "refs": [
+                        "[3]",
+                        "[5]",
+                        "[8]",
+                        "[6]",
+                        "[13]",
+                        "[14]",
+                        "[7]",
+                        "[4]",
+                        "[12]",
+                        "[9]",
+                        "[11]",
+                        "[15]",
+                        "[10]",
+                        "[2]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Prompt-triggered",
+                    "refs": [
+                        "[12]",
+                        "[11]",
+                        "[13]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Instruction-triggered",
+                    "refs": [
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Demonstration-triggered",
+                    "refs": [
+                        "[15]"
+                    ],
+                    "subsections": [],
+                    "number": "4.4",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Benchmark Datasets",
+            "refs": [
+                "[3]",
+                "[5]",
+                "[8]",
+                "[13]",
+                "[14]",
+                "[6]",
+                "[7]",
+                "[4]",
+                "[9]",
+                "[11]",
+                "[15]",
+                "[10]",
+                "[2]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "FUTURE RESEARCH DIRECTIONS",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "More practical assumptions",
+                    "refs": [
+                        "[3]",
+                        "[15]",
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "More stealthy trigger design",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "More tasks beyond text classification",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.3",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "CONCLUSION",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        }
+    ],
+    "references": {
+        "ChatGPT4": {
+            "number": "[1]",
+            "title": "Sparks of artificial general intelligence: Early experiments with gpt-4",
+            "text": "Bubeck S, Chandrasekaran V, Eldan R, et al. Sparks of artificial general intelligence: Early experiments with gpt-4[J]. arXiv preprint arXiv:2303.12712, 2023.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "64564779d68f896efae2001e"
+        },
+        "PTM": {
+            "number": "[2]",
+            "title": "Backdoor Attacks on Pre-trained Models by Layerwise Weight Poisoning",
+            "text": "Li L, Song D, Li X, et al. Backdoor attacks on pre-trained models by layerwise weight poisoning[J]. arXiv preprint arXiv:2108.13888, 2021.",
+            "ref_source": "tex",
+            "abstract": "Pre-Trained Models have been widely applied and recently proved vulnerable under backdoor attacks: the released pre-trained weights can be maliciously poisoned with certain triggers. When the triggers are activated, even the fine-tuned model will predict pre-defined labels, causing a security threat. These backdoors generated by the poisoning methods can be erased by changing hyper-parameters during fine-tuning or detected by finding the triggers. In this paper, we propose a stronger weight-poisoning attack method that introduces a layerwise weight poisoning strategy to plant deeper backdoors; we also introduce a combinatorial trigger that cannot be easily detected. The experiments on text classification tasks show that previous defense methods cannot resist our weight-poisoning method, which indicates that our method can be widely applied and may provide hints for future model robustness studies.",
+            "aminer_id": "612eef565244ab9dcbe12a17"
+        },
+        "Yang_w": {
+            "number": "[3]",
+            "title": "Be Careful about Poisoned Word Embeddings: Exploring the Vulnerability of the Embedding Layers in NLP Models",
+            "text": "Yang W, Li L, Zhang Z, et al. Be careful about poisoned word embeddings: Exploring the vulnerability of the embedding layers in nlp models[J]. arXiv preprint arXiv:2103.15543, 2021.",
+            "ref_source": "tex",
+            "abstract": "Recent studies have revealed a security threat to natural language processing (NLP) models, called the Backdoor Attack. Victim models can maintain competitive performance on clean samples while behaving abnormally on samples with a specific trigger word inserted. Previous backdoor attacking methods usually assume that attackers have a certain degree of data knowledge, either the dataset which users would use or proxy datasets for a similar task, for implementing the data poisoning procedure. However, in this paper, we find that it is possible to hack the model in a data-free way by modifying one single word embedding vector, with almost no accuracy sacrificed on clean samples. Experimental results on sentiment analysis and sentence-pair classification tasks show that our method is more efficient and stealthier. We hope this work can raise the awareness of such a critical security risk hidden in the embedding layers of NLP models. Our code is available at https://github.com/lancopku/Embedding-Poisoning.",
+            "aminer_id": "6063156991e0118c891f1c66"
+        },
+        "human_centric": {
+            "number": "[4]",
+            "title": "Hidden Backdoors in Human-Centric Language Models",
+            "text": "Li S, Liu H, Dong T, et al. Hidden backdoors in human-centric language models[C]//Proceedings of the 2021 ACM SIGSAC Conference on Computer and Communications Security. 2021: 3123-3140.",
+            "ref_source": "tex",
+            "abstract": "Natural language processing (NLP) systems have been proven to be vulnerable to backdoor attacks, whereby hidden features (backdoors) are trained into a language model and may only be activated by specific inputs (called triggers), to trick the model into producing unexpected behaviors. In this paper, we create covert and natural triggers for textual backdoor attacks, hidden backdoors, where triggers can fool both modern language models and human inspection. We deploy our hidden backdoors through two state-of-the-art trigger embedding methods. The first approach via homograph replacement, embeds the trigger into deep neural networks through the visual spoofing of lookalike characters replacement. The second approach uses subtle differences between text generated by language models and real natural text to produce trigger sentences with correct grammar and high fluency. We demonstrate that the proposed hidden backdoors can be effective across three downstream security-critical NLP tasks, representative of modern human-centric NLP systems, including toxic comment detection, neural machine translation (NMT), and question answering (QA). Our two hidden backdoor attacks can achieve an Attack Success Rate (ASR) of at least 97% with an injection rate of only 3% in toxic comment detection, 95.1% ASR in NMT with less than 0.5% injected data, and finally 91.12% ASR against QA updated with only 27 poisoning data samples on a model previously trained with 92,024 samples (0.029%). We are able to demonstrate the adversary's high success rate of attacks, while maintaining functionality for regular users, with triggers inconspicuous by the human administrators.",
+            "aminer_id": "6091167991e01105f877fa08"
+        },
+        "Trojaning": {
+            "number": "[5]",
+            "title": "Trojaning language models for fun and profit",
+            "text": "Zhang X, Zhang Z, Ji S, et al. Trojaning language models for fun and profit[C]//2021 IEEE European Symposium on Security and Privacy (EuroS\\&P). IEEE, 2021: 179-197.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5f292f5291e011376d9c5d78"
+        },
+        "Hiddentrigger": {
+            "number": "[6]",
+            "title": "Hidden Trigger Backdoor Attack on NLP Models Via Linguistic Style Manipulation.",
+            "text": "Pan X, Zhang M, Sheng B, et al. Hidden trigger backdoor attack on {NLP} models via linguistic style manipulation[C]//31st USENIX Security Symposium (USENIX Security 22). 2022: 3611-3628.",
+            "ref_source": "tex",
+            "abstract": "The vulnerability of deep neural networks (DNN) to backdoor (trojan) attacks is extensively studied for the image domain. In a backdoor attack, a DNN is modified to exhibit expected behaviors under attacker-specified inputs (i.e., triggers). Exploring the backdoor vulnerability of DNN in natural language processing (NLP), recent studies are limited to using specially added words/phrases as the trigger pattern (i.e., word-based triggers), which distorts the semantics of the base sentence, causes perceivable abnormality in linguistic features and can be eliminated by potential defensive techniques. In this paper, we present Linguistic Style-Motivated backdoor attack (LISM), which exploits the implicit linguistic styles as the hidden trigger for backdooring NLP models. Besides the basic requirements on attack success rate and normal model performance, LISM realizes the following advanced design goals compared with previous word-based backdoor: (a) LISM weaponizes text style transfer models to learn to generate sentences with an attacker-specified linguistic style (i.e., trigger style), which largely preserves the malicious semantics of the base sentence and reveals almost no abnormality exploitable by detection algorithms. (b) Each base sentence is dynamically paraphrased to hold the trigger style, which has almost no dependence on common words or phrases and therefore evades existing defenses which exploit the strong correlation between trigger words and misclassification. Extensive evaluation on 5 popular model architectures, 3 real-world security-critical tasks, 3 trigger styles and 3 potential countermeasures strongly validates the effectiveness and the stealthiness of LISM.",
+            "aminer_id": "635bcab790e50fcafd33cf4f"
+        },
+        "badpre": {
+            "number": "[7]",
+            "title": "BadPre: Task-agnostic Backdoor Attacks to Pre-trained NLP Foundation Models",
+            "text": "Chen K, Meng Y, Sun X, et al. Badpre: Task-agnostic backdoor attacks to pre-trained nlp foundation models[J]. arXiv preprint arXiv:2110.02467, 2021.",
+            "ref_source": "tex",
+            "abstract": "Pre-trained Natural Language Processing (NLP) models can be easily adapted to a variety of downstream language tasks. This significantly accelerates the development of language models. However, NLP models have been shown to be vulnerable to backdoor attacks, where a pre-defined trigger word in the input text causes model misprediction. Previous NLP backdoor attacks mainly focus on some specific tasks. This makes those attacks less general and applicable to other kinds of NLP models and tasks. In this work, we propose \\Name, the first task-agnostic backdoor attack against the pre-trained NLP models. The key feature of our attack is that the adversary does not need prior information about the downstream tasks when implanting the backdoor to the pre-trained model. When this malicious model is released, any downstream models transferred from it will also inherit the backdoor, even after the extensive transfer learning process. We further design a simple yet effective strategy to bypass a state-of-the-art defense. Experimental results indicate that our approach can compromise a wide range of downstream NLP tasks in an effective and stealthy way.",
+            "aminer_id": "615e65735244ab9dcbf217b9"
+        },
+        "againsttransformer": {
+            "number": "[8]",
+            "title": "Backdoor Attacks Against Transformers with Attention Enhancement",
+            "text": "Lyu W, Zheng S, Ling H, et al. Backdoor Attacks Against Transformers with Attention Enhancement[C]//ICLR 2023 Workshop on Backdoor Attacks and Defenses in Machine Learning. 2023.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "inputunipue": {
+            "number": "[9]",
+            "title": "Backdoor Attacks with Input-unique Triggers in NLP",
+            "text": "Zhou X, Li J, Zhang T, et al. Backdoor Attacks with Input-unique Triggers in NLP[J]. arXiv preprint arXiv:2303.14325, 2023.",
+            "ref_source": "tex",
+            "abstract": "Backdoor attack aims at inducing neural models to make incorrect predictions for poison data while keeping predictions on the clean dataset unchanged, which creates a considerable threat to current natural language processing (NLP) systems. Existing backdoor attacking systems face two severe issues:firstly, most backdoor triggers follow a uniform and usually input-independent pattern, e.g., insertion of specific trigger words, synonym replacement. This significantly hinders the stealthiness of the attacking model, leading the trained backdoor model being easily identified as malicious by model probes. Secondly, trigger-inserted poisoned sentences are usually disfluent, ungrammatical, or even change the semantic meaning from the original sentence, making them being easily filtered in the pre-processing stage. To resolve these two issues, in this paper, we propose an input-unique backdoor attack(NURA), where we generate backdoor triggers unique to inputs. IDBA generates context-related triggers by continuing writing the input with a language model like GPT2. The generated sentence is used as the backdoor trigger. This strategy not only creates input-unique backdoor triggers, but also preserves the semantics of the original input, simultaneously resolving the two issues above. Experimental results show that the IDBA attack is effective for attack and difficult to defend: it achieves high attack success rate across all the widely applied benchmarks, while is immune to existing defending methods. In addition, it is able to generate fluent, grammatical, and diverse backdoor inputs, which can hardly be recognized through human inspection.",
+            "aminer_id": "64225b7590e50fcafde11d0d"
+        },
+        "seq2seq": {
+            "number": "[10]",
+            "title": "Backdoor Learning on Sequence to Sequence Models",
+            "text": "Chen L, Cheng M, Huang H. Backdoor Learning on Sequence to Sequence Models[J]. arXiv preprint arXiv:2305.02424, 2023.",
+            "ref_source": "tex",
+            "abstract": "Backdoor learning has become an emerging research area towards building a trustworthy machine learning system. While a lot of works have studied the hidden danger of backdoor attacks in image or text classification, there is a limited understanding of the model's robustness on backdoor attacks when the output space is infinite and discrete. In this paper, we study a much more challenging problem of testing whether sequence-to-sequence (seq2seq) models are vulnerable to backdoor attacks. Specifically, we find by only injecting 0.2\\% samples of the dataset, we can cause the seq2seq model to generate the designated keyword and even the whole sentence. Furthermore, we utilize Byte Pair Encoding (BPE) to create multiple new triggers, which brings new challenges to backdoor detection since these backdoors are not static. Extensive experiments on machine translation and text summarization have been conducted to show our proposed methods could achieve over 90\\% attack success rate on multiple datasets and models.",
+            "aminer_id": "6456389bd68f896efacf6ab1"
+        },
+        "badprompt": {
+            "number": "[11]",
+            "title": "BadPrompt: Backdoor Attacks on Continuous Prompts",
+            "text": "Cai X, Xu H, Xu S, et al. Badprompt: Backdoor attacks on continuous prompts[J]. Advances in Neural Information Processing Systems, 2022, 35: 37068-37080.",
+            "ref_source": "tex",
+            "abstract": "The prompt-based learning paradigm has gained much research attention recently. It has achieved state-of-the-art performance on several NLP tasks, especially in the few-shot scenarios. While steering the downstream tasks, few works have been reported to investigate the security problems of the prompt-based models. In this paper, we conduct the first study on the vulnerability of the continuous prompt learning algorithm to backdoor attacks. We observe that the few-shot scenarios have posed a great challenge to backdoor attacks on the prompt-based models, limiting the usability of existing NLP backdoor methods. To address this challenge, we propose BadPrompt, a lightweight and task-adaptive algorithm, to backdoor attack continuous prompts. Specially, BadPrompt first generates candidate triggers which are indicative for predicting the targeted label and dissimilar to the samples of the non-targeted labels. Then, it automatically selects the most effective and invisible trigger for each sample with an adaptive trigger optimization algorithm. We evaluate the performance of BadPrompt on five datasets and two continuous prompt models. The results exhibit the abilities of BadPrompt to effectively attack continuous prompts while maintaining high performance on the clean test sets, outperforming the baseline models by a large margin. The source code of BadPrompt is publicly available at https://github.com/papersPapers/BadPrompt.",
+            "aminer_id": "6385788490e50fcafdf4995d"
+        },
+        "ignoreprompt": {
+            "number": "[12]",
+            "title": "Ignore Previous Prompt: Attack Techniques for Language Models",
+            "text": "Perez F, Ribeiro I. Ignore previous prompt: Attack techniques for language models[J]. arXiv preprint arXiv:2211.09527, 2022.",
+            "ref_source": "tex",
+            "abstract": "Transformer-based large language models (LLMs) provide a powerful foundation for natural language tasks in large-scale customer-facing applications. However, studies that explore their vulnerabilities emerging from malicious user interaction are scarce. By proposing PromptInject, a prosaic alignment framework for mask-based iterative adversarial prompt composition, we examine how GPT-3, the most widely deployed language model in production, can be easily misaligned by simple handcrafted inputs. In particular, we investigate two types of attacks -- goal hijacking and prompt leaking -- and demonstrate that even low-aptitude, but sufficiently ill-intentioned agents, can easily exploit GPT-3's stochastic nature, creating long-tail risks. The code for PromptInject is available at https://github.com/agencyenterprise/PromptInject.",
+            "aminer_id": "65784b77939a5f408298a530"
+        },
+        "prompttrigger": {
+            "number": "[13]",
+            "title": "Prompt As Triggers for Backdoor Attack: Examining the Vulnerability in Language Models",
+            "text": "Zhao S, Wen J, Tuan L A, et al. Prompt as Triggers for Backdoor Attack: Examining the Vulnerability in Language Models[J]. arXiv preprint arXiv:2305.01219, 2023.",
+            "ref_source": "tex",
+            "abstract": "The prompt-based learning paradigm, which bridges the gap betweenpre-training and fine-tuning, achieves state-of-the-art performance on severalNLP tasks, particularly in few-shot settings. Despite being widely applied,prompt-based learning is vulnerable to backdoor attacks. Textual backdoorattacks are designed to introduce targeted vulnerabilities into models bypoisoning a subset of training samples through trigger injection and labelmodification. However, they suffer from flaws such as abnormal natural languageexpressions resulting from the trigger and incorrect labeling of poisonedsamples. In this study, we propose ProAttack, a novel and efficient method forperforming clean-label backdoor attacks based on the prompt, which uses theprompt itself as a trigger. Our method does not require external triggers andensures correct labeling of poisoned samples, improving the stealthy nature ofthe backdoor attack. With extensive experiments on rich-resource and few-shottext classification tasks, we empirically validate ProAttack's competitiveperformance in textual backdoor attacks. Notably, in the rich-resource setting,ProAttack achieves state-of-the-art attack success rates in the clean-labelbackdoor attack benchmark without external triggers.",
+            "aminer_id": "64563889d68f896efacf5424"
+        },
+        "instruction": {
+            "number": "[14]",
+            "title": "Instructions As Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models.",
+            "text": "Xu J, Ma M D, Wang F, et al. Instructions as Backdoors: Backdoor Vulnerabilities of Instruction Tuning for Large Language Models[J]. arXiv preprint arXiv:2305.14710, 2023.",
+            "ref_source": "tex",
+            "abstract": "We investigate security concerns of the emergent instruction tuning paradigm, that models are trained on crowdsourced datasets with task instructions to achieve superior performance. Our studies demonstrate that an attacker can inject backdoors by issuing very few malicious instructions (~1000 tokens) and control model behavior through data poisoning, without even the need to modify data instances or labels themselves. Through such instruction attacks, the attacker can achieve over 90% attack success rate across four commonly used NLP datasets. As an empirical study on instruction attacks, we systematically evaluated unique perspectives of instruction attacks, such as poison transfer where poisoned models can transfer to 15 diverse generative datasets in a zero-shot manner; instruction transfer where attackers can directly apply poisoned instruction on many other datasets; and poison resistance to continual finetuning. Lastly, we show that RLHF and clean demonstrations might mitigate such backdoors to some degree. These findings highlight the need for more robust defenses against poisoning attacks in instruction-tuning models and underscore the importance of ensuring data quality in instruction crowdsourcing.",
+            "aminer_id": "646edc9cd68f896efaddab36"
+        },
+        "demonstration": {
+            "number": "[15]",
+            "title": "Adversarial Demonstration Attacks on Large Language Models",
+            "text": "Wang J, Liu Z, Park K H, et al. Adversarial Demonstration Attacks on Large Language Models[J]. arXiv preprint arXiv:2305.14950, 2023.",
+            "ref_source": "tex",
+            "abstract": "With the emergence of more powerful large language models (LLMs), such as ChatGPT and GPT-4, in-context learning (ICL) has gained significant prominence in leveraging these models for specific tasks by utilizing data-label pairs as precondition prompts. While incorporating demonstrations can greatly enhance the performance of LLMs across various tasks, it may introduce a new security concern: attackers can manipulate only the demonstrations without changing the input to perform an attack. In this paper, we investigate the security concern of ICL from an adversarial perspective, focusing on the impact of demonstrations. We propose a novel attack method named advICL, which aims to manipulate only the demonstration without changing the input to mislead the models. Our results demonstrate that as the number of demonstrations increases, the robustness of in-context learning would decrease. Additionally, we also identify the intrinsic property of the demonstrations is that they can be used (prepended) with different inputs. As a result, it introduces a more practical threat model in which an attacker can attack the test input example even without knowing and manipulating it. To achieve it, we propose the transferable version of advICL, named Transferable-advICL. Our experiment shows that the adversarial demonstration generated by Transferable-advICL can successfully attack the unseen test input examples. We hope that our study reveals the critical security risks associated with ICL and underscores the need for extensive research on the robustness of ICL, particularly given its increasing significance in the advancement of LLMs.",
+            "aminer_id": "646edc9cd68f896efaddac5d"
+        }
+    },
+    "citation_analysis": {}
+}

@@ -1,0 +1,1469 @@
+{
+    "topic": "Reviews in motion: a large scale, longitudinal study of review\n  recommendations on Yelp",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[6]",
+                "[4]",
+                "[7]",
+                "[3]",
+                "[69]",
+                "[21]",
+                "[67]",
+                "[24]",
+                "[8]",
+                "[27]",
+                "[2]",
+                "[9]",
+                "[68]",
+                "[1]",
+                "[75]",
+                "[5]",
+                "[71]",
+                "[30]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related work",
+            "refs": [
+                "[7]",
+                "[27]",
+                "[10]",
+                "[5]",
+                "[14]",
+                "[18]",
+                "[12]",
+                "[26]",
+                "[20]",
+                "[9]",
+                "[23]",
+                "[28]",
+                "[17]",
+                "[29]",
+                "[21]",
+                "[31]",
+                "[16]",
+                "[64]",
+                "[8]",
+                "[74]",
+                "[11]",
+                "[25]",
+                "[30]",
+                "[22]",
+                "[24]",
+                "[15]",
+                "[19]",
+                "[13]",
+                "[73]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Data collection",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Background",
+                    "refs": [
+                        "[24]",
+                        "[54]",
+                        "[5]",
+                        "[32]",
+                        "[33]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Target set selection",
+                    "refs": [
+                        "[65]",
+                        "[24]",
+                        "[66]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Crawling",
+                    "refs": [
+                        "[63]",
+                        "[56]",
+                        "[61]",
+                        "[49]"
+                    ],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Post-processing and organization",
+                    "refs": [
+                        "[24]",
+                        "[60]",
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "3.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Availability",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.5",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Results",
+            "refs": [
+                "[70]",
+                "[34]",
+                "[35]",
+                "[36]",
+                "[37]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Review reclassification",
+                    "refs": [
+                        "[21]",
+                        "[67]",
+                        "[24]",
+                        "[27]",
+                        "[19]",
+                        "[68]",
+                        "[5]",
+                        "[32]",
+                        "[30]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Density and income impacts",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Masking",
+                    "refs": [
+                        "[72]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Limitations",
+                    "refs": [
+                        "[38]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Future work",
+                    "refs": [
+                        "[41]",
+                        "[40]"
+                    ],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        }
+    ],
+    "references": {
+        "luca2016reviews": {
+            "number": "[1]",
+            "title": "Reviews, Reputation, and Revenue: The Case of Yelp.Com",
+            "text": "title={Reviews, reputation, and revenue: The case of {Y}elp.com},\n  author={Luca, Michael},\n  journal={Com (March 15, 2016). Harvard Business School NOM Unit Working Paper},\n  number={12-016},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "Reviews, reputation, and revenue: The case of {Y}elp.com",
+                "author": "Luca, Michael",
+                "journal": "Com (March 15, 2016). Harvard Business School NOM Unit Working Paper",
+                "number": "12-016",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Do online consumer reviews affect restaurant demand? I investigate this question using a novel dataset combining reviews from the website Yelp.com and restaurant data from the Washington State Department of Revenue. Because Yelp prominently displays a restaurant's rounded average rating, I can identify the causal impact of Yelp ratings on demand with a regression discontinuity framework that exploits Yelp’s rounding thresholds. I present three findings about the impact of consumer reviews on the restaurant industry: (1) a one-star increase in Yelp rating leads to a 5-9 percent increase in revenue, (2) this effect is driven by independent restaurants; ratings do not affect restaurants with chain affiliation, and (3) chain restaurants have declined in market share as Yelp penetration has increased. This suggests that online consumer reviews substitute for more traditional forms of reputation. I then test whether consumers use these reviews in a way that is consistent with standard learning models. I present two additional findings: (4) consumers do not use all available information and are more responsive to quality changes that are more visible and (5) consumers respond more strongly when a rating contains more information. Consumer response to a restaurant’s average rating is affected by the number of reviews and whether the reviewers are certified as “elite” by Yelp, but is unaffected by the size of the reviewers’ Yelp friends network.",
+            "aminer_id": "56d8a974dabfae2eeea7554a"
+        },
+        "anderson2012impact": {
+            "number": "[2]",
+            "title": "The Impact of Social Media on Lodging Performance",
+            "text": "title={The impact of social media on lodging performance},\n  author={Anderson, Chris K},\n  year={2012},\n  journal={The Center for Hospitality Research}",
+            "type": "article",
+            "fields": {
+                "title": "The impact of social media on lodging performance",
+                "author": "Anderson, Chris K",
+                "year": "2012",
+                "journal": "The Center for Hospitality Research"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d8866cdabfae2eee914d11"
+        },
+        "streitfeld2012buy": {
+            "number": "[3]",
+            "title": "Buy Reviews on Yelp, Get Black Mark",
+            "text": "author={David Streitfeld},\n    date={2012-10-18},\n    title={Buy Reviews on {Y}elp, Get Black Mark},\n    journal={The New York Times},\n    url={https://www.nytimes.com/2012/10/18/technology/yelp-tries-to-halt-deceptive-reviews.html},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "David Streitfeld",
+                "date": "2012-10-18",
+                "title": "Buy Reviews on {Y}elp, Get Black Mark",
+                "journal": "The New York Times",
+                "url": "https://www.nytimes.com/2012/10/18/technology/yelp-tries-to-halt-deceptive-reviews.html",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "miller19plastic": {
+            "number": "[4]",
+            "title": "Plastic surgeon, wife used fake Yelp reviews to damage rival: suit",
+            "text": "title={Plastic surgeon, wife used fake {Y}elp reviews to damage rival: suit},\n  author={Joshua Rhett Miller},\n  journal={New York Post},\n  year={2019},\n  url={https://nypost.com/2019/11/07/plastic-surgeon-wife-used-fake-yelp-reviews-to-damage-rival-suit/}",
+            "type": "article",
+            "fields": {
+                "title": "Plastic surgeon, wife used fake {Y}elp reviews to damage rival: suit",
+                "author": "Joshua Rhett Miller",
+                "journal": "New York Post",
+                "year": "2019",
+                "url": "https://nypost.com/2019/11/07/plastic-surgeon-wife-used-fake-yelp-reviews-to-damage-rival-suit/"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelpwhyrec": {
+            "number": "[5]",
+            "title": "Why would a review not be recommended?",
+            "text": "author={Yelp},\n  title={Why would a review not be recommended?},\n  year={},\n  url={https://www.yelp-support.com/article/Why-would-a-review-not-be-recommended},\n  note={[Online; accessed 8-February-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Why would a review not be recommended?",
+                "year": "",
+                "url": "https://www.yelp-support.com/article/Why-would-a-review-not-be-recommended",
+                "note": "[Online; accessed 8-February-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ftc21notice": {
+            "number": "[6]",
+            "title": "FTC Puts Hundreds of Businesses on Notice about Fake Reviews and Other Misleading Endorsements",
+            "text": "title={{FTC} Puts Hundreds of Businesses on Notice about Fake Reviews and Other Misleading Endorsements},\n    url={https://www.ftc.gov/news-events/press-releases/2021/10/ftc-puts-hundreds-businesses-notice-about-fake-reviews-other},\n    journal={{FTC} News},\n    year={2021},\n    month={Oct},\n    urldate={2021-10-14}",
+            "type": "article",
+            "fields": {
+                "title": "{FTC} Puts Hundreds of Businesses on Notice about Fake Reviews and Other Misleading Endorsements",
+                "url": "https://www.ftc.gov/news-events/press-releases/2021/10/ftc-puts-hundreds-businesses-notice-about-fake-reviews-other",
+                "journal": "{FTC} News",
+                "year": "2021",
+                "month": "Oct",
+                "urldate": "2021-10-14"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "jindal2008opinion": {
+            "number": "[7]",
+            "title": "Opinion spam and analysis",
+            "text": "title={Opinion spam and analysis},\n  author={Jindal, Nitin and Liu, Bing},\n  booktitle={Proceedings of the 2008 international conference on web search and data mining},\n  pages={219--230},\n  year={2008}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Opinion spam and analysis",
+                "author": "Jindal, Nitin and Liu, Bing",
+                "booktitle": "Proceedings of the 2008 international conference on web search and data mining",
+                "pages": "219--230",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53909fca20f70186a0e450b2"
+        },
+        "yoo2008motivates": {
+            "number": "[8]",
+            "title": "What Motivates Consumers to Write Online Travel Reviews?",
+            "text": "title={What motivates consumers to write online travel reviews?},\n  author={Yoo, Kyung Hyan and Gretzel, Ulrike},\n  journal={Information Technology \\& Tourism},\n  volume={10},\n  number={4},\n  pages={283--295},\n  year={2008},\n  publisher={Cognizant Communication Corporation}",
+            "type": "article",
+            "fields": {
+                "title": "What motivates consumers to write online travel reviews?",
+                "author": "Yoo, Kyung Hyan and Gretzel, Ulrike",
+                "journal": "Information Technology \\& Tourism",
+                "volume": "10",
+                "number": "4",
+                "pages": "283--295",
+                "year": "2008",
+                "publisher": "Cognizant Communication Corporation"
+            },
+            "ref_source": "bib",
+            "abstract": "The Web provides a fertile ground for word-of-mouth communication and more and more consumers write about and share product-related experiences online. Given the experiential nature of tourism, such first-hand knowledge communicated by other travelers is especially useful for travel decision making. However, very little is known about what motivates consumers to write online travel reviews. A Web-based survey using an online consumer panel was conducted to investigate consumers' motivations to write online travel reviews. Measurement scales to gauge the motivations to contribute online travel reviews were developed and tested. The results indicate that online travel review writers are mostly motivated by helping a travel service provider, concerns for other consumers, and needs for enjoyment/positive self-enhancement. Venting negative feelings through postings is clearly not seen as an important motive. Motivational differences were found for gender and income level. Implications of the findings for online travel communities and tourism marketers are discussed.",
+            "aminer_id": "53e99b2cb7602d97023c862c"
+        },
+        "baginski2014exploring": {
+            "number": "[9]",
+            "title": "Exploring The Intraurban Digital Divide Using Online Restaurant Reviews: A Case Study In Franklin County, Ohio",
+            "text": "title={Exploring the intraurban digital divide using online restaurant reviews: A case study in Franklin County, Ohio},\n  author={Baginski, James and Sui, Daniel and Malecki, Edward J},\n  journal={The Professional Geographer},\n  volume={66},\n  number={3},\n  pages={443--455},\n  year={2014},\n  publisher={Taylor \\& Francis}",
+            "type": "article",
+            "fields": {
+                "title": "Exploring the intraurban digital divide using online restaurant reviews: A case study in Franklin County, Ohio",
+                "author": "Baginski, James and Sui, Daniel and Malecki, Edward J",
+                "journal": "The Professional Geographer",
+                "volume": "66",
+                "number": "3",
+                "pages": "443--455",
+                "year": "2014",
+                "publisher": "Taylor \\& Francis"
+            },
+            "ref_source": "bib",
+            "abstract": "Web 2.0 has yielded a wealth of publicly available data, largely through the popularization of social media and the proliferation of user-generated content (UGC). Thus, the data void in social science research is diminishing as these new data sources are exploited. The discipline of geography, in particular, stands to benefit considerably from geotagged UGC or volunteered geographic information (VGI). In this article, we utilize a form of UGC-restaurant reviews-to evaluate the geography of Web 2.0 in Franklin County, Ohio. We find that restaurant reviews are largely concentrated in relatively few areas of the city, indicating that the impacts of Web 2.0 have not touched down evenly within the central county of the Columbus metropolitan statistical area. We argue that an intraurban digital divide is still apparent and might even be exacerbated by Web 2.0.",
+            "aminer_id": "619b98b01c45e57ce9fd34ef"
+        },
+        "bakhshi2014demographics": {
+            "number": "[10]",
+            "title": "Demographics, Weather and Online Reviews: a Study of Restaurant Recommendations.",
+            "text": "title={Demographics, weather and online reviews: A study of restaurant recommendations},\n  author={Bakhshi, Saeideh and Kanuparthy, Partha and Gilbert, Eric},\n  booktitle={Proceedings of the 23rd international conference on World wide web},\n  pages={443--454},\n  year={2014}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Demographics, weather and online reviews: A study of restaurant recommendations",
+                "author": "Bakhshi, Saeideh and Kanuparthy, Partha and Gilbert, Eric",
+                "booktitle": "Proceedings of the 23rd international conference on World wide web",
+                "pages": "443--454",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "Online recommendation sites are valuable information sources that people contribute to, and often use to choose restaurants. However, little is known about the dynamics behind participation in these online communities and how the recommendations in these communities are formed. In this work, we take a first look at online restaurant recommendation communities to study what endogenous (i.e., related to entities being reviewed) and exogenous factors influence people's participation in the communities, and to what extent. We analyze an online community corpus of 840K restaurants and their 1.1M associated reviews from 2002 to 2011, spread across every U.S. state. We construct models for number of reviews and ratings by community members, based on several dimensions of endogenous and exogenous factors. We find that while endogenous factors such as restaurant attributes (e.g., meal, price, service) affect recommendations, surprisingly, exogenous factors such as demographics (e.g., neighborhood diversity, education) and weather (e.g., temperature, rain, snow, season) also exert a significant effect on reviews. We find that many of the effects in online communities can be explained using offline theories from experimental psychology. Our study is the first to look at exogenous factors and how it related to online online restaurant reviews. It has implications for designing online recommendation sites, and in general, social media and online communities.",
+            "aminer_id": "5390bed320f70186a0f4eb66"
+        },
+        "ye2016temporal": {
+            "number": "[11]",
+            "title": "Temporal opinion spam detection by multivariate indicative signals",
+            "text": "title={Temporal opinion spam detection by multivariate indicative signals},\n  author={Ye, Junting and Kumar, Santhosh and Akoglu, Leman},\n  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},\n  volume={10},\n  number={1},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Temporal opinion spam detection by multivariate indicative signals",
+                "author": "Ye, Junting and Kumar, Santhosh and Akoglu, Leman",
+                "booktitle": "Proceedings of the International AAAI Conference on Web and Social Media",
+                "volume": "10",
+                "number": "1",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7bd0601a182cd27677a0"
+        },
+        "wang2017temporal": {
+            "number": "[12]",
+            "title": "Temporal and Sentimental Analysis of A Real Case of Fake Reviews in Taiwan",
+            "text": "title={Temporal and sentimental analysis of a real case of fake reviews in {T}aiwan},\n  author={Wang, Chih-Chien and Day, Min-Yuh and Chen, Chien-Chang and Liou, Jai-Wei},\n  booktitle={2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)},\n  pages={729--736},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Temporal and sentimental analysis of a real case of fake reviews in {T}aiwan",
+                "author": "Wang, Chih-Chien and Day, Min-Yuh and Chen, Chien-Chang and Liou, Jai-Wei",
+                "booktitle": "2017 IEEE/ACM International Conference on Advances in Social Networks Analysis and Mining (ASONAM)",
+                "pages": "729--736",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Product reviews are important information sources for consumers as they make their purchasing decisions. However, some unethical firms hire fake reviewers to generate biased positive reviews to promote their product and to damage the product reputations of their competitors. From the point of view of online product review platform providers, it is essential to keep the platform neutral and unbiased by detecting fake reviews and preventing fake reviewers from spreading biased reviews. In the current study, we attempt to use temporal and sentiment analyses as cues to separate fake reviews from authentic product reviews. Real case data of fake reviews in Taiwan was used for this temporal and sentiment analysis. Based on the analysis results, we find that fake reviewers usually generated and replied to fake reviewers during normal work hours. In contrast, ordinary users only generated and replied to a small proportion of normal product reviews during work hours. They generated and replied to normal product reviews the most during off-work hours and weekends. Additionally, the current study also revealed that more than half of fake reviewers replied others’ responses to their own fake reviews no later than within one day. The research results revealed that temporal and sentiment analyses have the potential to serve as cues to detect fake reviews and fake reviewers.",
+            "aminer_id": "5a260c2817c44a4ba8a234fe"
+        },
+        "nilizadeh2019think": {
+            "number": "[13]",
+            "title": "Think outside the dataset: Finding fraudulent reviews using cross-dataset analysis",
+            "text": "title={Think outside the dataset: Finding fraudulent reviews using cross-dataset analysis},\n  author={Nilizadeh, Shirin and Aghakhani, Hojjat and Gustafson, Eric and Kruegel, Christopher and Vigna, Giovanni},\n  booktitle={The World Wide Web Conference},\n  pages={3108--3115},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Think outside the dataset: Finding fraudulent reviews using cross-dataset analysis",
+                "author": "Nilizadeh, Shirin and Aghakhani, Hojjat and Gustafson, Eric and Kruegel, Christopher and Vigna, Giovanni",
+                "booktitle": "The World Wide Web Conference",
+                "pages": "3108--3115",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelpwhychange": {
+            "number": "[14]",
+            "title": "Why do reviews change from “recommended” to “not currently recommended” and vice versa?",
+            "text": "author={Yelp},\n  title={Why do reviews change from “recommended” to “not currently recommended” and vice versa?},\n  year={},\n  url={https://www.yelp-support.com/article/Why-do-reviews-change-from-recommended-to-not-currently-recommended-and-vice-versa},\n  note={[Online; accessed 06-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Why do reviews change from “recommended” to “not currently recommended” and vice versa?",
+                "year": "",
+                "url": "https://www.yelp-support.com/article/Why-do-reviews-change-from-recommended-to-not-currently-recommended-and-vice-versa",
+                "note": "[Online; accessed 06-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "sutherland2020topic": {
+            "number": "[15]",
+            "title": "Topic Modeling of Online Accommodation Reviews Via Latent Dirichlet Allocation",
+            "text": "title={Topic modeling of online accommodation reviews via latent dirichlet allocation},\n  author={Sutherland, Ian and Sim, Youngseok and Lee, Seul Ki and Byun, Jaemun and Kiatkawsin, Kiattipoom},\n  journal={Sustainability},\n  volume={12},\n  number={5},\n  pages={1821},\n  year={2020},\n  publisher={Multidisciplinary Digital Publishing Institute}",
+            "type": "article",
+            "fields": {
+                "title": "Topic modeling of online accommodation reviews via latent dirichlet allocation",
+                "author": "Sutherland, Ian and Sim, Youngseok and Lee, Seul Ki and Byun, Jaemun and Kiatkawsin, Kiattipoom",
+                "journal": "Sustainability",
+                "volume": "12",
+                "number": "5",
+                "pages": "1821",
+                "year": "2020",
+                "publisher": "Multidisciplinary Digital Publishing Institute"
+            },
+            "ref_source": "bib",
+            "abstract": "There is a lot of attention given to the determinants of guest satisfaction and consumer behavior in the tourism literature. While much extant literature uses a deductive approach for identifying guest satisfaction dimensions, we apply an inductive approach by utilizing large unstructured text data of 104,161 online reviews of Korean accommodation customers to frame which topics of interest guests find important. Using latent Dirichlet allocation, a generative, Bayesian, hierarchical statistical model, we extract and validate topics of interest in the dataset. The results corroborate extant literature in that dimensions, such as location and service quality, are important. However, we extend existing dimensions of importance by more precisely distinguishing aspects of location and service quality. Furthermore, by comparing the characteristics of the accommodations in terms of metropolitan versus rural and the type of accommodation, we reveal differences in topics of importance between different characteristics of the accommodations. Specifically, we find a higher importance for points of competition and points of uniqueness among the accommodation characteristics. This has implications for how managers can improve customer satisfaction and how researchers can more precisely measure customer satisfaction in the hospitality industry.",
+            "aminer_id": "5ff5b792bf33bee3ba0d8c81"
+        },
+        "ott2012estimating": {
+            "number": "[16]",
+            "title": "Estimating the prevalence of deception in online review communities",
+            "text": "title={Estimating the prevalence of deception in online review communities},\n  author={Ott, Myle and Cardie, Claire and Hancock, Jeff},\n  booktitle={Proceedings of the 21st international conference on World Wide Web},\n  pages={201--210},\n  year={2012}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Estimating the prevalence of deception in online review communities",
+                "author": "Ott, Myle and Cardie, Claire and Hancock, Jeff",
+                "booktitle": "Proceedings of the 21st international conference on World Wide Web",
+                "pages": "201--210",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390b4c420f70186a0efe9c2"
+        },
+        "dwoskin2018merchants": {
+            "number": "[17]",
+            "title": "How merchants use Facebook to flood Amazon with fake reviews",
+            "text": "title={How merchants use {F}acebook to flood {A}mazon with fake reviews},\n  author={Dwoskin, Elizabeth and Timberg, Craig},\n  journal={The Washington Post},\n  year={2018},\n  url={https://www.washingtonpost.com/business/economy/how-merchants-secretly-use-facebook-to-flood-amazon-with-fake-reviews/2018/04/23/5dad1e30-4392-11e8-8569-26fda6b404c7\\_story.html?}",
+            "type": "article",
+            "fields": {
+                "title": "How merchants use {F}acebook to flood {A}mazon with fake reviews",
+                "author": "Dwoskin, Elizabeth and Timberg, Craig",
+                "journal": "The Washington Post",
+                "year": "2018",
+                "url": "https://www.washingtonpost.com/business/economy/how-merchants-secretly-use-facebook-to-flood-amazon-with-fake-reviews/2018/04/23/5dad1e30-4392-11e8-8569-26fda6b404c7\\_story.html?"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "elliott2018trust": {
+            "number": "[18]",
+            "title": "This Is Why You Should Not Trust Online Reviews",
+            "text": "title={This Is Why You Should Not Trust Online Reviews},\n  author={Elliott, Christopher},\n  journal={Forbes},\n  year={2018},\n  url={https://www.forbes.com/sites/christopherelliott/2018/11/21/why-you-should-not-trust-online-reviews/\\#2f36c6d52218}",
+            "type": "article",
+            "fields": {
+                "title": "This Is Why You Should Not Trust Online Reviews",
+                "author": "Elliott, Christopher",
+                "journal": "Forbes",
+                "year": "2018",
+                "url": "https://www.forbes.com/sites/christopherelliott/2018/11/21/why-you-should-not-trust-online-reviews/\\#2f36c6d52218"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelp2010recommend": {
+            "number": "[19]",
+            "title": "Does Yelp recommend every review?",
+            "text": "author={Yelp},\n  title={Does {Y}elp recommend every review?},\n  year={},\n  url={https://www.yelp-support.com/article/Does-Yelp-recommend-every-review},\n  note={[Online; accessed 18-October-2020]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Does {Y}elp recommend every review?",
+                "year": "",
+                "url": "https://www.yelp-support.com/article/Does-Yelp-recommend-every-review",
+                "note": "[Online; accessed 18-October-2020]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "martens2019towards": {
+            "number": "[20]",
+            "title": "Towards understanding and detecting fake reviews in app stores",
+            "text": "title={Towards understanding and detecting fake reviews in app stores},\n  author={Martens, Daniel and Maalej, Walid},\n  journal={Empirical Software Engineering},\n  volume={24},\n  number={6},\n  pages={3316--3355},\n  year={2019},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Towards understanding and detecting fake reviews in app stores",
+                "author": "Martens, Daniel and Maalej, Walid",
+                "journal": "Empirical Software Engineering",
+                "volume": "24",
+                "number": "6",
+                "pages": "3316--3355",
+                "year": "2019",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5cc8228fe1cd8e018e4cfd03"
+        },
+        "shehnepoor2017netspam": {
+            "number": "[21]",
+            "title": "NetSpam: A Network-Based Spam Detection Framework for Reviews in Online Social Media",
+            "text": "title={Netspam: A network-based spam detection framework for reviews in online social media},\n  author={Shehnepoor, Saeedreza and Salehi, Mostafa and Farahbakhsh, Reza and Crespi, Noel},\n  journal={IEEE Transactions on Information Forensics and Security},\n  volume={12},\n  number={7},\n  pages={1585--1595},\n  year={2017},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Netspam: A network-based spam detection framework for reviews in online social media",
+                "author": "Shehnepoor, Saeedreza and Salehi, Mostafa and Farahbakhsh, Reza and Crespi, Noel",
+                "journal": "IEEE Transactions on Information Forensics and Security",
+                "volume": "12",
+                "number": "7",
+                "pages": "1585--1595",
+                "year": "2017",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Nowadays, a big part of people rely on available content in social media in their decisions (e.g., reviews and feedback on a topic or product). The possibility that anybody can leave a review provides a golden opportunity for spammers to write spam reviews about products and services for different interests. Identifying these spammers and the spam content is a hot topic of research, and although a considerable number of studies have been done recently toward this end, but so far the methodologies put forth still barely detect spam reviews, and none of them show the importance of each extracted feature type. In this paper, we propose a novel framework, named NetSpam, which utilizes spam features for modeling review data sets as heterogeneous information networks to map spam detection procedure into a classification problem in such networks. Using the importance of spam features helps us to obtain better results in terms of different metrics experimented on real-world review data sets from Yelp and Amazon Web sites. The results show that NetSpam outperforms the existing methods and among four categories of features, including review-behavioral, user-behavioral, review-linguistic, and user-linguistic, the first type of features performs better than the other categories.",
+            "aminer_id": "58f96fa828fdbe94036ec248"
+        },
+        "kumar2018rev2": {
+            "number": "[22]",
+            "title": "Fraudulent user prediction in rating platforms",
+            "text": "title={Fraudulent user prediction in rating platforms},\n  author={Kumar, Srijan and Hooi, Bryan and Makhija, Disha and Kumar, Mohit and Faloutsos, Christos and Subrahmanian, VS},\n  booktitle={Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining},\n  pages={333--341},\n  year={2018}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fraudulent user prediction in rating platforms",
+                "author": "Kumar, Srijan and Hooi, Bryan and Makhija, Disha and Kumar, Mohit and Faloutsos, Christos and Subrahmanian, VS",
+                "booktitle": "Proceedings of the Eleventh ACM International Conference on Web Search and Data Mining",
+                "pages": "333--341",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "harris2012detecting": {
+            "number": "[23]",
+            "title": "Detecting Deceptive Opinion Spam Using Human Computation",
+            "text": "title={Detecting deceptive opinion spam using human computation},\n  author={Harris, Christopher Glenn},\n  booktitle={Workshops at the Twenty-Sixth AAAI Conference on Artificial Intelligence},\n  year={2012}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Detecting deceptive opinion spam using human computation",
+                "author": "Harris, Christopher Glenn",
+                "booktitle": "Workshops at the Twenty-Sixth AAAI Conference on Artificial Intelligence",
+                "year": "2012"
+            },
+            "ref_source": "bib",
+            "abstract": "Websites that encourage consumers to research, rate, and review products online have become an increasingly important factor in purchase decisions. This increased importance has been accompanied by a growth in deceptive opinion spam - fraudulent reviews written with the intent to sound authentic and mislead consumers. In this study, we pool deceptive reviews solicited through crowdsourcing with actual reviews obtained from product review websites. We then explore several human- and machine-based assessment methods to spot deceptive opinion spam in our pooled review set. We find that the combination of human-based assessment methods with easily-obtained statistical information generated from the review text outperforms detection methods using human assessors alone.",
+            "aminer_id": "56d8158edabfae2eee6f373d"
+        },
+        "mukherjee2013yelp": {
+            "number": "[24]",
+            "title": "What Yelp Fake Review Filter Might Be Doing?",
+            "text": "title={What yelp fake review filter might be doing?},\n  author={Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie},\n  booktitle={Proceedings of the International AAAI Conference on Web and Social Media},\n  volume={7},\n  number={1},\n  year={2013}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "What yelp fake review filter might be doing?",
+                "author": "Mukherjee, Arjun and Venkataraman, Vivek and Liu, Bing and Glance, Natalie",
+                "booktitle": "Proceedings of the International AAAI Conference on Web and Social Media",
+                "volume": "7",
+                "number": "1",
+                "year": "2013"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews have become a valuable resource for decision making. However, its usefulness brings forth a curse ‒ deceptive opinion spam. In recent years, fake review detection has attracted significant attention. However, most review sites still do not publicly filter fake reviews. Yelp is an exception which has been filtering reviews over the past few years. However, Yelp’s algorithm is trade secret. In this work, we attempt to find out what Yelp might be doing by analyzing its filtered reviews. The results will be useful to other review hosting sites in their filtering effort. There are two main approaches to filtering: supervised and unsupervised learning. In terms of features used, there are also roughly two types: linguistic features and behavioral features. In this work, we will take a supervised approach as we can make use of Yelp’s filtered reviews for training. Existing approaches based on supervised learning are all based on pseudo fake reviews rather than fake reviews filtered by a commercial Web site. Recently, supervised learning using linguistic n-gram features has been shown to perform extremely well (attaining around 90% accuracy) in detecting crowdsourced fake reviews generated using Amazon Mechanical Turk (AMT). We put these existing research methods to the test and evaluate performance on the real-life Yelp data. To our surprise, the behavioral features perform very well, but the linguistic features are not as effective. To investigate, a novel information theoretic analysis is proposed to uncover the precise psycholinguistic difference between AMT reviews and Yelp reviews (crowdsourced vs. commercial fake reviews). We find something quite interesting. This analysis and experimental results allow us to postulate that Yelp’s filtering is reasonable and its filtering algorithm seems to be correlated with abnormal spamming behaviors.",
+            "aminer_id": "53e9a2e4b7602d9702bed949"
+        },
+        "adelani2020generating": {
+            "number": "[25]",
+            "title": "Generating Sentiment-Preserving Fake Online Reviews Using Neural Language Models and Their Human- and Machine-based Detection",
+            "text": "title={Generating sentiment-preserving fake online reviews using neural language models and their human-and machine-based detection},\n  author={Adelani, David Ifeoluwa and Mai, Haotian and Fang, Fuming and Nguyen, Huy H and Yamagishi, Junichi and Echizen, Isao},\n  booktitle={International Conference on Advanced Information Networking and Applications},\n  pages={1341--1354},\n  year={2020},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Generating sentiment-preserving fake online reviews using neural language models and their human-and machine-based detection",
+                "author": "Adelani, David Ifeoluwa and Mai, Haotian and Fang, Fuming and Nguyen, Huy H and Yamagishi, Junichi and Echizen, Isao",
+                "booktitle": "International Conference on Advanced Information Networking and Applications",
+                "pages": "1341--1354",
+                "year": "2020",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "Advanced neural language models (NLMs) are widely used in sequence generation tasks because they are able to produce fluent and meaningful sentences. They can also be used to generate fake reviews, which can then be used to attack online review systems and influence the buying decisions of online shoppers. To perform such attacks, it is necessary for experts to train a tailored LM for a specific topic. In this work, we show that a low-skilled threat model can be built just by combining publicly available LMs and show that the produced fake reviews can fool both humans and machines. In particular, we use the GPT-2 NLM to generate a large number of high-quality reviews based on a review with the desired sentiment and then using a BERT based text classifier (with accuracy of 96%) to filter out reviews with undesired sentiments. Because none of the words in the review are modified, fluent samples like the training data can be generated from the learned distribution. A subjective evaluation with 80 participants demonstrated that this simple method can produce reviews that are as fluent as those written by people. It also showed that the participants tended to distinguish fake reviews randomly. Three countermeasures, Grover, GLTR, and OpenAI GPT-2 detector, were found to be difficult to accurately detect fake review.",
+            "aminer_id": "5d36dcc73a55ac954df90f5d"
+        },
+        "juuti2018stay": {
+            "number": "[26]",
+            "title": "Stay on-topic: Generating context-specific fake restaurant reviews",
+            "text": "title={Stay on-topic: Generating context-specific fake restaurant reviews},\n  author={Juuti, Mika and Sun, Bo and Mori, Tatsuya and Asokan, N},\n  booktitle={European Symposium on Research in Computer Security},\n  pages={132--151},\n  year={2018},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Stay on-topic: Generating context-specific fake restaurant reviews",
+                "author": "Juuti, Mika and Sun, Bo and Mori, Tatsuya and Asokan, N",
+                "booktitle": "European Symposium on Research in Computer Security",
+                "pages": "132--151",
+                "year": "2018",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5b3d98cc17c44a510f801983"
+        },
+        "yao2017automated": {
+            "number": "[27]",
+            "title": "Automated Crowdturfing Attacks and Defenses in Online Review Systems",
+            "text": "title={Automated crowdturfing attacks and defenses in online review systems},\n  author={Yao, Yuanshun and Viswanath, Bimal and Cryan, Jenna and Zheng, Haitao and Zhao, Ben Y},\n  booktitle={Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security},\n  pages={1143--1158},\n  year={2017}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Automated crowdturfing attacks and defenses in online review systems",
+                "author": "Yao, Yuanshun and Viswanath, Bimal and Cryan, Jenna and Zheng, Haitao and Zhao, Ben Y",
+                "booktitle": "Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security",
+                "pages": "1143--1158",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "Malicious crowdsourcing forums are gaining traction as sources of spreading misinformation online, but are limited by the costs of hiring and managing human workers. In this paper, we identify a new class of attacks that leverage deep learning language models (Recurrent Neural Networks or RNNs) to automate the generation of fake online reviews for products and services. Not only are these attacks cheap and therefore more scalable, but they can control rate of content output to eliminate the signature burstiness that makes crowdsourced campaigns easy to detect. Using Yelp reviews as an example platform, we show how a two phased review generation and customization attack can produce reviews that are indistinguishable by state-of-the-art statistical detectors. We conduct a survey-based user study to show these reviews not only evade human detection, but also score high on \"usefulness\" metrics by users. Finally, we develop novel automated defenses against these attacks, by leveraging the lossy transformation introduced by the RNN training and generation cycle. We consider countermeasures against our mechanisms, show that they produce unattractive cost-benefit tradeoffs for attackers, and that they can be further curtailed by simple constraints imposed by online service providers.",
+            "aminer_id": "5a260c2817c44a4ba8a23384"
+        },
+        "ott2011finding": {
+            "number": "[28]",
+            "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+            "text": "title={Finding Deceptive Opinion Spam by Any Stretch of the Imagination},\n  author={Ott, Myle and Choi, Yejin and Cardie, Claire and Hancock, Jeffrey T},\n  booktitle={Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies},\n  pages={309--319},\n  year={2011}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Finding Deceptive Opinion Spam by Any Stretch of the Imagination",
+                "author": "Ott, Myle and Choi, Yejin and Cardie, Claire and Hancock, Jeffrey T",
+                "booktitle": "Proceedings of the 49th Annual Meeting of the Association for Computational Linguistics: Human Language Technologies",
+                "pages": "309--319",
+                "year": "2011"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumers increasingly rate, review and research products online (Jansen, 2010; Litvin et al., 2008). Consequently, websites containing consumer reviews are becoming targets of opinion spam. While recent work has focused primarily on manually identifiable instances of opinion spam, in this work we study deceptive opinion spam---fictitious opinions that have been deliberately written to sound authentic. Integrating work from psychology and computational linguistics, we develop and compare three approaches to detecting deceptive opinion spam, and ultimately develop a classifier that is nearly 90% accurate on our gold-standard opinion spam dataset. Based on feature analysis of our learned models, we additionally make several theoretical contributions, including revealing a relationship between deceptive opinions and imaginative writing.",
+            "aminer_id": "5390b04120f70186a0ed6d9b"
+        },
+        "wang2016real": {
+            "number": "[29]",
+            "title": "A Real Case Analytics on Social Network of Opinion Spammers.",
+            "text": "title={A real case analytics on social network of opinion spammers},\n  author={Wang, Chih-Chien and Day, Min-Yuh and Lin, Yu-Ruei},\n  booktitle={2016 IEEE 17th International Conference on Information Reuse and Integration (IRI)},\n  pages={623--630},\n  year={2016},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A real case analytics on social network of opinion spammers",
+                "author": "Wang, Chih-Chien and Day, Min-Yuh and Lin, Yu-Ruei",
+                "booktitle": "2016 IEEE 17th International Conference on Information Reuse and Integration (IRI)",
+                "pages": "623--630",
+                "year": "2016",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "People share their consumption experience and opinions to product as online product reviews or word-of-mouths. Consumers consult the product reviews posted by other consumers before making purchase decision. As a result, the influence of online product reviews increase dramatically. Since the influence of product reviews increase, firms may commit to improve product quality to earn positive opinions. Nevertheless, some firms choose the shortcut by hiring people to write positive fake reviews to promote themselves, as well as write negative fake reviews to demote product of their competitors. The fake product reviews may influent or even manipulate the majority of public opinion. However, fake reviewers always hide the real identities of themselves. Audiences have no idea about who are spammers. This paper analyzes a real case of fake reviews in Taiwan by social network techniques. To our knowledge, few previous studies had use social network techniques to detect fake reviewer. Thus, we propose a novel method of using social network analysis indices as features to detect spammer. The relationship of authors of product reviews posts and their replies might be used for spammer group detection.",
+            "aminer_id": "58d83014d649053542fe1af9"
+        },
+        "rayana2015collective": {
+            "number": "[30]",
+            "title": "Collective Opinion Spam Detection: Bridging Review Networks and Metadata",
+            "text": "title={Collective opinion spam detection: Bridging review networks and metadata},\n  author={Rayana, Shebuti and Akoglu, Leman},\n  booktitle={Proceedings of the 21th acm sigkdd international conference on knowledge discovery and data mining},\n  pages={985--994},\n  year={2015}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Collective opinion spam detection: Bridging review networks and metadata",
+                "author": "Rayana, Shebuti and Akoglu, Leman",
+                "booktitle": "Proceedings of the 21th acm sigkdd international conference on knowledge discovery and data mining",
+                "pages": "985--994",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews capture the testimonials of \"real\" people and help shape the decisions of other consumers. Due to the financial gains associated with positive reviews, however, opinion spam has become a widespread problem, with often paid spam reviewers writing fake reviews to unjustly promote or demote certain products or businesses. Existing approaches to opinion spam have successfully but separately utilized linguistic clues of deception, behavioral footprints, or relational ties between agents in a review system. In this work, we propose a new holistic approach called SPEAGLE that utilizes clues from all metadata (text, times tamp, rating) as well as relational data (network), and harness them collectively under a unified framework to spot suspicious users and reviews, as well as products targeted by spam. Moreover, our method can efficiently and seamlessly integrate semi-supervision, i.e., a (small) set of labels if available, without requiring any training or changes in its underlying algorithm. We demonstrate the effectiveness and scalability of SPEAGLE on three real-world review datasets from Yelp.com with filtered (spam) and recommended (non-spam) reviews, where it significantly outperforms several baselines and state-of-the-art methods. To the best of our knowledge, this is the largest scale quantitative evaluation performed to date for the opinion spam problem.",
+            "aminer_id": "5736973b6e3b12023e62b177"
+        },
+        "luca2016fake": {
+            "number": "[31]",
+            "title": "Fake It Till You Make It: Reputation, Competition, and Yelp Review Fraud",
+            "text": "title={Fake it till you make it: Reputation, competition, and Yelp review fraud},\n  author={Luca, Michael and Zervas, Georgios},\n  journal={Management Science},\n  volume={62},\n  number={12},\n  pages={3412--3427},\n  year={2016},\n  publisher={INFORMS}",
+            "type": "article",
+            "fields": {
+                "title": "Fake it till you make it: Reputation, competition, and Yelp review fraud",
+                "author": "Luca, Michael and Zervas, Georgios",
+                "journal": "Management Science",
+                "volume": "62",
+                "number": "12",
+                "pages": "3412--3427",
+                "year": "2016",
+                "publisher": "INFORMS"
+            },
+            "ref_source": "bib",
+            "abstract": "Consumer reviews are now part of everyday decision making. Yet the credibility of these reviews is fundamentally undermined when businesses commit review fraud, creating fake reviews for themselves or their competitors. We investigate the economic incentives to commit review fraud on the popular review platform Yelp, using two complementary approaches and data sets. We begin by analyzing restaurant reviews that are identified by Yelp's filtering algorithm as suspicious, or fake-and treat these as a proxy for review fraud (an assumption we provide evidence for). We present four main findings. First, roughly 16% of restaurant reviews on Yelp are filtered. These reviews tend to be more extreme (favorable or unfavorable) than other reviews, and the prevalence of suspicious reviews has grown significantly over time. Second, a restaurant is more likely to commit review fraud when its reputation is weak, i.e., when it has few reviews or it has recently received bad reviews. Third, chain restaurants-which benefit less from Yelp-are also less likely to commit review fraud. Fourth, when restaurants face increased competition, they become more likely to receive unfavorable fake reviews. Using a separate data set, we analyze businesses that were caught soliciting fake reviews through a sting conducted by Yelp. These data support our main results and shed further light on the economic incentives behind a business's decision to leave fake reviews.",
+            "aminer_id": "56d85fa2dabfae2eee720a39"
+        },
+        "yelprecommendationsoftware": {
+            "number": "[32]",
+            "title": "Recommendation software",
+            "text": "author={Yelp},\n  title={Recommendation software},\n  url={https://trust.yelp.com/recommendation-software/},\n  note={[Online; accessed 03-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Recommendation software",
+                "url": "https://trust.yelp.com/recommendation-software/",
+                "note": "[Online; accessed 03-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelpacademicdataset": {
+            "number": "[33]",
+            "title": "Yelp Open Dataset",
+            "text": "author={Yelp},\n  title={Yelp Open Dataset},\n  year={},\n  url={https://www.yelp.com/dataset},\n  note={[Online; accessed 07-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Yelp Open Dataset",
+                "year": "",
+                "url": "https://www.yelp.com/dataset",
+                "note": "[Online; accessed 07-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "pascual2021toxicity": {
+            "number": "[34]",
+            "title": "Toxicity and Verbal Aggression on Social Media: Polarized Discourse on Wearing Face Masks During the COVID-19 Pandemic",
+            "text": "title={Toxicity and verbal aggression on social media: Polarized discourse on wearing face masks during the COVID-19 pandemic},\n  author={Pascual-Ferr{\\'a}, Paola and Alperstein, Neil and Barnett, Daniel J and Rimal, Rajiv N},\n  journal={Big Data \\& Society},\n  volume={8},\n  number={1},\n  pages={20539517211023533},\n  year={2021},\n  publisher={SAGE Publications Sage UK: London, England}",
+            "type": "article",
+            "fields": {
+                "title": "Toxicity and verbal aggression on social media: Polarized discourse on wearing face masks during the COVID-19 pandemic",
+                "author": "Pascual-Ferr{\\'a}, Paola and Alperstein, Neil and Barnett, Daniel J and Rimal, Rajiv N",
+                "journal": "Big Data \\& Society",
+                "volume": "8",
+                "number": "1",
+                "pages": "20539517211023533",
+                "year": "2021",
+                "publisher": "SAGE Publications Sage UK: London, England"
+            },
+            "ref_source": "bib",
+            "abstract": "Medical and public health professionals recommend wearing face masks to combat the spread of the coronavirus disease of 2019 (COVID-19). While the majority of people in the United States support wearing face masks as an effective tool to combat COVID-19, a smaller percentage declared the recommendation by public health agencies as a government imposition and an infringement on personal liberty. Social media play a significant role in amplifying public health issues, whereby a minority against the imposition can speak loudly, perhaps using tactics of verbal aggression taking the form of toxic language. We investigated the role that toxicity plays in the online discourse around wearing face masks. Overall, we found tweets including anti-mask hashtags were significantly more likely to use toxic language, while tweets with pro-mask hashtags were somewhat less toxic with the exception of #WearADamnMask. We conclude that the tensions between these two positions raise doubt and uncertainty around the issue, which make it difficult for health communicators to break through the clutter in order to combat the infodemic. Public health agencies and other governmental institutions should monitor toxicity trends on social media in order to better ascertain prevailing sentiment toward their recommendations and then apply these data-driven insights to refine and adapt their risk communication messaging toward mask wearing, vaccine uptake, and other interventions.",
+            "aminer_id": "619ba5371c45e57ce98f22fd"
+        },
+        "2020SciPy-NMeth": {
+            "number": "[35]",
+            "title": "",
+            "text": "author  = {Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and\n            Haberland, Matt and Reddy, Tyler and Cournapeau, David and\n            Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and\n            Bright, Jonathan and {van der Walt}, St{\\'e}fan J. and\n            Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and\n            Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and\n            Kern, Robert and Larson, Eric and Carey, C J and\n            Polat, {\\.I}lhan and Feng, Yu and Moore, Eric W. and\n            {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and\n            Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and\n            Harris, Charles R. and Archibald, Anne M. and\n            Ribeiro, Ant{\\^o}nio H. and Pedregosa, Fabian and\n            {van Mulbregt}, Paul and {SciPy 1.0 Contributors}},\n  title   = {{{SciPy} 1.0: Fundamental Algorithms for Scientific\n            Computing in {P}ython}},\n  journal = {Nature Methods},\n  year    = {2020},\n  volume  = {17},\n  pages   = {261--272},\n  adsurl  = {https://rdcu.be/b08Wh},\n  doi     = {10.1038/s41592-019-0686-2},",
+            "type": "ARTICLE",
+            "fields": {
+                "author": "Virtanen, Pauli and Gommers, Ralf and Oliphant, Travis E. and Haberland, Matt and Reddy, Tyler and Cournapeau, David and Burovski, Evgeni and Peterson, Pearu and Weckesser, Warren and Bright, Jonathan and {van der Walt}, St{\\'e}fan J. and Brett, Matthew and Wilson, Joshua and Millman, K. Jarrod and Mayorov, Nikolay and Nelson, Andrew R. J. and Jones, Eric and Kern, Robert and Larson, Eric and Carey, C J and Polat, {\\.I}lhan and Feng, Yu and Moore, Eric W. and {VanderPlas}, Jake and Laxalde, Denis and Perktold, Josef and Cimrman, Robert and Henriksen, Ian and Quintero, E. A. and Harris, Charles R. and Archibald, Anne M. and Ribeiro, Ant{\\^o}nio H. and Pedregosa, Fabian and {van Mulbregt}, Paul and {SciPy 1.0 Contributors}",
+                "journal": "Nature Methods",
+                "year": "2020",
+                "volume": "17",
+                "pages": "261--272",
+                "adsurl": "https://rdcu.be/b08Wh",
+                "doi": "10.1038/s41592-019-0686-2"
+            },
+            "ref_source": "bib",
+            "aminer_id": null
+        },
+        "mckinney-proc-scipy-2010": {
+            "number": "[36]",
+            "title": "Data Structures for Statistical Computing in Python",
+            "text": "author    = { {W}es {M}c{K}inney },\n  title     = { {D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython },\n  booktitle = { {P}roceedings of the 9th {P}ython in {S}cience {C}onference },\n  pages     = { 56 - 61 },\n  year      = { 2010 },\n  editor    = { {S}t\\'efan van der {W}alt and {J}arrod {M}illman },\n  doi       = { 10.25080/Majora-92bf1922-00a }",
+            "type": "InProceedings",
+            "fields": {
+                "author": "{W}es {M}c{K}inney",
+                "title": "{D}ata {S}tructures for {S}tatistical {C}omputing in {P}ython",
+                "booktitle": "{P}roceedings of the 9th {P}ython in {S}cience {C}onference",
+                "pages": "56 - 61",
+                "year": "2010",
+                "editor": "{S}t\\'efan van der {W}alt and {J}arrod {M}illman",
+                "doi": "10.25080/Majora-92bf1922-00a"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we are concerned with the practical issues of working with data sets common to finance, statistics, and other related fields. pandas is a new library which aims to facilitate working with these data sets and to provide a set of fundamental building blocks for implementing statistical models. We will discuss specific design issues encountered in the course of developing pandas with relevant examples and some comparisons with the R language. We conclude by discussing possible future directions for statistical computing and data analysis using Python.",
+            "aminer_id": "621927a65aee126c0f968a05"
+        },
+        "waskom2020seaborn": {
+            "number": "[37]",
+            "title": "mwaskom/seaborn",
+            "text": "author       = {Michael Waskom and the seaborn development team},\n    title        = {mwaskom/seaborn},\n    month        = sep,\n    year         = 2020,\n    publisher    = {Zenodo},\n    version      = {latest},\n    doi          = {10.5281/zenodo.592845},\n    url          = {https://doi.org/10.5281/zenodo.592845},",
+            "type": "software",
+            "fields": {
+                "author": "Michael Waskom and the seaborn development team",
+                "title": "mwaskom/seaborn",
+                "publisher": "Zenodo",
+                "version": "latest",
+                "doi": "10.5281/zenodo.592845",
+                "url": "https://doi.org/10.5281/zenodo.592845"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "altig2020economic": {
+            "number": "[38]",
+            "title": "Economic Uncertainty Before and During the COVID-19 Pandemic",
+            "text": "title={Economic uncertainty before and during the COVID-19 pandemic},\n  author={Altig, Dave and Baker, Scott and Barrero, Jose Maria and Bloom, Nicholas and Bunn, Philip and Chen, Scarlet and Davis, Steven J and Leather, Julia and Meyer, Brent and Mihaylov, Emil and others},\n  journal={Journal of Public Economics},\n  volume={191},\n  pages={104274},\n  year={2020},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Economic uncertainty before and during the COVID-19 pandemic",
+                "author": "Altig, Dave and Baker, Scott and Barrero, Jose Maria and Bloom, Nicholas and Bunn, Philip and Chen, Scarlet and Davis, Steven J and Leather, Julia and Meyer, Brent and Mihaylov, Emil and others",
+                "journal": "Journal of Public Economics",
+                "volume": "191",
+                "pages": "104274",
+                "year": "2020",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "We consider several economic uncertainty indicators for the US and UK before and during the COVID-19 pandemic: implied stock market volatility, newspaper-based policy uncertainty, Twitter chatter about economic uncertainty, subjective uncertainty about business growth, forecaster disagreement about future GDP growth, and a model-based measure of macro uncertainty. Four results emerge. First, all indicators show huge uncertainty jumps in reaction to the pandemic and its economic fallout. Indeed, most indicators reach their highest values on record. Second, peak amplitudes differ greatly - from a 35% rise for the model-based measure of US economic uncertainty (relative to January 2020) to a 20-fold rise in forecaster disagreement about UK growth. Third, time paths also differ: Implied volatility rose rapidly from late February, peaked in mid-March, and fell back by late March as stock prices began to recover. In contrast, broader measures of uncertainty peaked later and then plateaued, as job losses mounted, highlighting differences between Wall Street and Main Street uncertainty measures. Fourth, in Cholesky-identified VAR models fit to monthly U.S. data, a COVID-size uncertainty shock foreshadows peak drops in industrial production of 12-19%.",
+            "aminer_id": "5f4e375b9e795ea3f185b5e6"
+        },
+        "deb2020economic": {
+            "number": "[39]",
+            "title": "The Economic Effects of COVID-19 Containment Measures",
+            "text": "title={The economic effects of Covid-19 containment measures},\n  author={Deb, Pragyan and Furceri, Davide and Ostry, Jonathan D and Tawk, Nour},\n  year={2020},\n  publisher={CEPR Discussion Paper No. DP15087}",
+            "type": "article",
+            "fields": {
+                "title": "The economic effects of Covid-19 containment measures",
+                "author": "Deb, Pragyan and Furceri, Davide and Ostry, Jonathan D and Tawk, Nour",
+                "year": "2020",
+                "publisher": "CEPR Discussion Paper No. DP15087"
+            },
+            "ref_source": "bib",
+            "abstract": "Containment measures are crucial to halt the spread of the 2019 COVID-19 pandemic but entail large short-term economic costs. This paper tries to quantify these effects using daily global data on real-time containment measures and indicators of economic activity such as Nitrogen Dioxide (NO2) emissions, flights, energy consumption, maritime trade, and mobility indices. Results suggest that containment measures have had, on average, a very large impact on economic activity - equivalent to a loss of about 15 percent in industrial production over a 30-day period following their implementation. Using novel data on fiscal and monetary policy measures used in response to the crisis, we find that these policy measures were effective in mitigating some of these economic costs. We also find that while workplace closures and stayat- home orders are more effective in curbing infections, they are associated with the largest economic costs. Finally, while easing of containment measures has led to a pickup in economic activity, the effect has been lower (in absolute value) than that from the tightening of measures.",
+            "aminer_id": "61b873245244ab9dcb67db12"
+        },
+        "fcc2020broadband": {
+            "number": "[40]",
+            "title": "BROADBAND DEPLOYMENT REPORT",
+            "text": "author={Federal Communications Commission},\n  title={BROADBAND DEPLOYMENT REPORT},\n  institution={Federal Communications Commission},\n  year={2020},\n  month={April},\n  url={https://docs.fcc.gov/public/attachments/FCC-20-50A1.pdf},\n  note={[Online; accessed 04-October-2021]}",
+            "type": "techreport",
+            "fields": {
+                "author": "Federal Communications Commission",
+                "title": "BROADBAND DEPLOYMENT REPORT",
+                "institution": "Federal Communications Commission",
+                "year": "2020",
+                "month": "April",
+                "url": "https://docs.fcc.gov/public/attachments/FCC-20-50A1.pdf",
+                "note": "[Online; accessed 04-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "nature2020moderna": {
+            "number": "[41]",
+            "title": "Moderna COVID vaccine becomes second to get US authorization",
+            "text": "author={Heidi Ledford},\n  title={Moderna COVID vaccine becomes second to get US authorization},\n  year={2020},\n  month={December},\n  day={18},\n  url={https://www.nature.com/articles/d41586-020-03593-7},\n  note={[Online; accessed 04-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Heidi Ledford",
+                "title": "Moderna COVID vaccine becomes second to get US authorization",
+                "year": "2020",
+                "month": "December",
+                "day": "18",
+                "url": "https://www.nature.com/articles/d41586-020-03593-7",
+                "note": "[Online; accessed 04-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5fdf222dd4150a363c0cd315"
+        },
+        "union20amazon": {
+            "number": "[42]",
+            "title": "Amazon deletes 20,000 reviews after evidence of profits for posts",
+            "text": "title={{A}mazon deletes 20,000 reviews after evidence of profits for posts},\n  author={Turan Gafarli},\n  journal={The Union Journal},\n  year={2020},\n  url={https://theunionjournal.com/amazon-deletes-20000-reviews-after-evidence-of-profits-for-posts/}",
+            "type": "article",
+            "fields": {
+                "title": "{A}mazon deletes 20,000 reviews after evidence of profits for posts",
+                "author": "Turan Gafarli",
+                "journal": "The Union Journal",
+                "year": "2020",
+                "url": "https://theunionjournal.com/amazon-deletes-20000-reviews-after-evidence-of-profits-for-posts/"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "murphy2018local": {
+            "number": "[43]",
+            "title": "Local Consumer Review Survey 2018",
+            "text": "author={Rosie Murphy},\n    date={2018-12/07},\n    title={Local Consumer Review Survey 2018},\n    journal={BrightLocal},\n    url={https://www.brightlocal.com/research/local-consumer-review-survey-2018/},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "Rosie Murphy",
+                "date": "2018-12/07",
+                "title": "Local Consumer Review Survey 2018",
+                "journal": "BrightLocal",
+                "url": "https://www.brightlocal.com/research/local-consumer-review-survey-2018/",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "murphy2019local": {
+            "number": "[44]",
+            "title": "Local Consumer Review Survey 2019",
+            "text": "author={Rosie Murphy},\n    date={2019-12/11},\n    title={Local Consumer Review Survey 2019},\n    journal={BrightLocal},\n    url={https://www.brightlocal.com/research/local-consumer-review-survey-2019/},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "Rosie Murphy",
+                "date": "2019-12/11",
+                "title": "Local Consumer Review Survey 2019",
+                "journal": "BrightLocal",
+                "url": "https://www.brightlocal.com/research/local-consumer-review-survey-2019/",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "murphy2020local": {
+            "number": "[45]",
+            "title": "Local Consumer Review Survey 2020",
+            "text": "author={Rosie Murphy},\n    date={2020-12/09},\n    title={Local Consumer Review Survey 2020},\n    journal={BrightLocal},\n    url={https://www.brightlocal.com/research/local-consumer-review-survey/},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "Rosie Murphy",
+                "date": "2020-12/09",
+                "title": "Local Consumer Review Survey 2020",
+                "journal": "BrightLocal",
+                "url": "https://www.brightlocal.com/research/local-consumer-review-survey/",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "walsh19thousands": {
+            "number": "[46]",
+            "title": "Thousands of `fake' customer reviews found on popular tech categories on Amazon",
+            "text": "author={Hannah Walsh},\n    date={2019-04/16},\n    title={Thousands of `fake' customer reviews found on popular tech categories on {A}mazon},\n    journal={Which?},\n    url={https://www.which.co.uk/news/2019/04/thousands-of-fake-customer-reviews-found-on-popular-tech-categories-on-amazon/},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "Hannah Walsh",
+                "date": "2019-04/16",
+                "title": "Thousands of `fake' customer reviews found on popular tech categories on {A}mazon",
+                "journal": "Which?",
+                "url": "https://www.which.co.uk/news/2019/04/thousands-of-fake-customer-reviews-found-on-popular-tech-categories-on-amazon/",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ftc20approves": {
+            "number": "[47]",
+            "title": "FTC Approves Final Consent Agreement with Sunday Riley Modern Skincare, LLC",
+            "text": "title={{FTC} Approves Final Consent Agreement with {S}unday {R}iley {M}odern {S}kincare, {LLC}},\n    url={https://www.ftc.gov/news-events/press-releases/2020/11/ftc-approves-final-consent-agreement-sunday-riley-modern-skincare},\n    journal={{FTC} News},\n    year={2020},\n    month={Nov},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "title": "{FTC} Approves Final Consent Agreement with {S}unday {R}iley {M}odern {S}kincare, {LLC}",
+                "url": "https://www.ftc.gov/news-events/press-releases/2020/11/ftc-approves-final-consent-agreement-sunday-riley-modern-skincare",
+                "journal": "{FTC} News",
+                "year": "2020",
+                "month": "Nov",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chopra2019statement": {
+            "number": "[48]",
+            "title": "Statement of Commissioners Rohit Chopra and Rebecca Kelly Slaughter Regarding Final Approval of the Sunday Riley Settlement",
+            "text": "author={Rohit Chopra and Rebecca Kelly Slaughter},\n    date={2019-10/21},\n    title={Statement of Commissioners {R}ohit {C}hopra and {R}ebecca {K}elly {S}laughter Regarding Final Approval of the {S}unday {R}iley Settlement},\n    journal={{FTC} Letters and Statements},\n    url={https://www.ftc.gov/public-statements/2019/10/statement-commissioner-chopra-joined-commissioner-slaughter-regarding},\n    urldate={2021-01-10}",
+            "type": "article",
+            "fields": {
+                "author": "Rohit Chopra and Rebecca Kelly Slaughter",
+                "date": "2019-10/21",
+                "title": "Statement of Commissioners {R}ohit {C}hopra and {R}ebecca {K}elly {S}laughter Regarding Final Approval of the {S}unday {R}iley Settlement",
+                "journal": "{FTC} Letters and Statements",
+                "url": "https://www.ftc.gov/public-statements/2019/10/statement-commissioner-chopra-joined-commissioner-slaughter-regarding",
+                "urldate": "2021-01-10"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "miyakogi2019May": {
+            "number": "[49]",
+            "title": "miyakogi/pyppeteer: Headless chrome/chromium automation library (unofficial port of puppeteer)",
+            "text": "author = {pyppeteer},\n\ttitle = {{miyakogi/pyppeteer: Headless chrome/chromium automation library (unofficial port of puppeteer)}},\n\tjournal = {GitHub},\n\tyear = {2019},\n\tmonth = {May},\n\tnote = {[Online; accessed 15. Apr. 2020]},\n\turl = {https://github.com/miyakogi/pyppeteer}",
+            "type": "misc",
+            "fields": {
+                "author": "pyppeteer",
+                "title": "{miyakogi/pyppeteer: Headless chrome/chromium automation library (unofficial port of puppeteer)}",
+                "journal": "GitHub",
+                "year": "2019",
+                "month": "May",
+                "note": "[Online; accessed 15. Apr. 2020]",
+                "url": "https://github.com/miyakogi/pyppeteer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "behnel2005lxml": {
+            "number": "[50]",
+            "title": "lxml: XML and HTML with Python",
+            "text": "title={lxml: {XML} and {HTML} with {P}ython},\n  author={Behnel, Stefan and Faassen, Martijn and Bicking, Ian},\n  year={2005},\n  publisher={Lxml}",
+            "type": "misc",
+            "fields": {
+                "title": "lxml: {XML} and {HTML} with {P}ython",
+                "author": "Behnel, Stefan and Faassen, Martijn and Bicking, Ian",
+                "year": "2005",
+                "publisher": "Lxml"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "zhang2004evaluation": {
+            "number": "[51]",
+            "title": "An Evaluation of Statistical Spam Filtering Techniques",
+            "text": "title={An evaluation of statistical spam filtering techniques},\n  author={Zhang, Le and Zhu, Jingbo and Yao, Tianshun},\n  journal={ACM Transactions on Asian Language Information Processing (TALIP)},\n  volume={3},\n  number={4},\n  pages={243--269},\n  year={2004},\n  publisher={ACM New York, NY, USA}",
+            "type": "article",
+            "fields": {
+                "title": "An evaluation of statistical spam filtering techniques",
+                "author": "Zhang, Le and Zhu, Jingbo and Yao, Tianshun",
+                "journal": "ACM Transactions on Asian Language Information Processing (TALIP)",
+                "volume": "3",
+                "number": "4",
+                "pages": "243--269",
+                "year": "2004",
+                "publisher": "ACM New York, NY, USA"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper evaluates five supervised learning methods in the context of statistical spam filtering. We study the impact of different feature pruning methods and feature set sizes on each learner's performance using cost-sensitive measures. It is observed that the significance of feature selection varies greatly from classifier to classifier. In particular, we found support vector machine, AdaBoost, and maximum entropy model are top performers in this evaluation, sharing similar characteristics: not sensitive to feature selection strategy, easily scalable to very high feature dimension, and good performances across different datasets. In contrast, naive Bayes, a commonly used classifier in spam filtering, is found to be sensitive to feature selection methods on small feature set, and fails to function well in scenarios where false positives are penalized heavily. The experiments also suggest that aggressive feature pruning should be avoided when building filters to be used in applications where legitimate mails are assigned a cost much higher than spams (such as λ = 999), so as to maintain a better-than-baseline performance. An interesting finding is the effect of mail headers on spam filtering, which is often ignored in previous studies. Experiments show that classifiers using features from message header alone can achieve comparable or better performance than filters utilizing body features only. This implies that message headers can be reliable and powerfully discriminative feature sources for spam filtering.",
+            "aminer_id": "53e9b851b7602d9704416c0b"
+        },
+        "dalvi2004adversarial": {
+            "number": "[52]",
+            "title": "Adversarial classification",
+            "text": "title={Adversarial classification},\n  author={Dalvi, Nilesh and Domingos, Pedro and Sanghai, Sumit and Verma, Deepak},\n  booktitle={Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining},\n  pages={99--108},\n  year={2004}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Adversarial classification",
+                "author": "Dalvi, Nilesh and Domingos, Pedro and Sanghai, Sumit and Verma, Deepak",
+                "booktitle": "Proceedings of the tenth ACM SIGKDD international conference on Knowledge discovery and data mining",
+                "pages": "99--108",
+                "year": "2004"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "nelson2008exploiting": {
+            "number": "[53]",
+            "title": "Exploiting Machine Learning to Subvert Your Spam Filter.",
+            "text": "title={Exploiting Machine Learning to Subvert Your Spam Filter.},\n  author={Nelson, Blaine and Barreno, Marco and Chi, Fuching Jack and Joseph, Anthony D and Rubinstein, Benjamin IP and Saini, Udam and Sutton, Charles A and Tygar, J Doug and Xia, Kai},\n  journal={LEET},\n  volume={8},\n  pages={1--9},\n  year={2008}",
+            "type": "article",
+            "fields": {
+                "title": "Exploiting Machine Learning to Subvert Your Spam Filter.",
+                "author": "Nelson, Blaine and Barreno, Marco and Chi, Fuching Jack and Joseph, Anthony D and Rubinstein, Benjamin IP and Saini, Udam and Sutton, Charles A and Tygar, J Doug and Xia, Kai",
+                "journal": "LEET",
+                "volume": "8",
+                "pages": "1--9",
+                "year": "2008"
+            },
+            "ref_source": "bib",
+            "abstract": "Using statistical machine learning for making security decisions introduces new vulnerabilities in large scale systems. This paper shows how an adversary can exploit statistical machine learning, as used in the SpamBayes spam filter, to render it useless--even if the adversary's access is limited to only 1% of the training messages. We further demonstrate a new class of focused attacks that successfully prevent victims from receiving specific email messages. Finally, we introduce two new types of defenses against these attacks.",
+            "aminer_id": "5390a0b720f70186a0e4ec88"
+        },
+        "yelpstarrating": {
+            "number": "[54]",
+            "title": "Do reviews that aren't currently recommended impact the business's star rating?",
+            "text": "author={Yelp},\n  title={Do reviews that aren't currently recommended impact the business's star rating?},\n  year={},\n  url={https://www.yelp-support.com/article/Do-reviews-that-arent-currently-recommended-impact-the-businesss-star-rating},\n  note={[Online; accessed 8-February-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "Do reviews that aren't currently recommended impact the business's star rating?",
+                "year": "",
+                "url": "https://www.yelp-support.com/article/Do-reviews-that-arent-currently-recommended-impact-the-businesss-star-rating",
+                "note": "[Online; accessed 8-February-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelprobots": {
+            "number": "[55]",
+            "title": "robots.txt",
+            "text": "author={Yelp},\n  title={{r}obots.txt},\n  year={},\n  url={https://www.yelp.com/robots.txt},\n  note={[Online; accessed 18-January-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "{r}obots.txt",
+                "year": "",
+                "url": "https://www.yelp.com/robots.txt",
+                "note": "[Online; accessed 18-January-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelpfusion": {
+            "number": "[56]",
+            "title": "Yelp Fusion",
+            "text": "author={Yelp},\n  title={{Y}elp {F}usion},\n  year={},\n  url={https://www.yelp.com/fusion},\n  note={[Online; accessed 18-January-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "{Y}elp {F}usion",
+                "year": "",
+                "url": "https://www.yelp.com/fusion",
+                "note": "[Online; accessed 18-January-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "cnet2020pandemic": {
+            "number": "[57]",
+            "title": "Pandemic dramatically sped up shift to online shopping, Mastercard CEO says",
+            "text": "author={Laura Hautala, CNET},\n  title={Pandemic dramatically sped up shift to online shopping, {M}astercard {CEO} says},\n  year={2020},\n  url={https://www.cnet.com/personal-finance/pandemic-dramatically-sped-up-shift-to-online-shopping-mastercard-ceo-says/},\n  note={[Online; accessed 17-January-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Laura Hautala, CNET",
+                "title": "Pandemic dramatically sped up shift to online shopping, {M}astercard {CEO} says",
+                "year": "2020",
+                "url": "https://www.cnet.com/personal-finance/pandemic-dramatically-sped-up-shift-to-online-shopping-mastercard-ceo-says/",
+                "note": "[Online; accessed 17-January-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "hovy2016enemy": {
+            "number": "[58]",
+            "title": "The enemy in your own camp: How well can we detect statistically-generated fake reviews--an adversarial study",
+            "text": "title={The enemy in your own camp: How well can we detect statistically-generated fake reviews--an adversarial study},\n  author={Hovy, Dirk},\n  booktitle={Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)},\n  pages={351--356},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "The enemy in your own camp: How well can we detect statistically-generated fake reviews--an adversarial study",
+                "author": "Hovy, Dirk",
+                "booktitle": "Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)",
+                "pages": "351--356",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "57d063b9ac4436735428ea5c"
+        },
+        "yelp2010recommendation": {
+            "number": "[59]",
+            "title": "Yelp's Recommendation Software Explained",
+            "text": "author={Yelp},\n  title={{Y}elp's Recommendation Software Explained},\n  year={2010},\n  month={Mar},\n  url={https://blog.yelp.com/2010/03/yelp-review-filter-explained},\n  note={[Online; accessed 20-January-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "{Y}elp's Recommendation Software Explained",
+                "year": "2010",
+                "month": "Mar",
+                "url": "https://blog.yelp.com/2010/03/yelp-review-filter-explained",
+                "note": "[Online; accessed 20-January-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelp2021updates": {
+            "number": "[60]",
+            "title": "Yelp Updates Recommendation Software to Better Target and Mitigate Content from Online Review Exchange Groups",
+            "text": "author={Yelp},\n  title={{Y}elp Updates Recommendation Software to Better Target and Mitigate Content from Online Review Exchange Groups},\n  year={2021},\n  month={Feb},\n  day={25},\n  url={https://blog.yelp.com/news/yelp-updates-recommendation-software-to-better-target-and-mitigate-content-from-online-review-exchange-groups/},\n  note={[Online; accessed 15-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Yelp",
+                "title": "{Y}elp Updates Recommendation Software to Better Target and Mitigate Content from Online Review Exchange Groups",
+                "year": "2021",
+                "month": "Feb",
+                "day": "25",
+                "url": "https://blog.yelp.com/news/yelp-updates-recommendation-software-to-better-target-and-mitigate-content-from-online-review-exchange-groups/",
+                "note": "[Online; accessed 15-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yelp2021vaccination": {
+            "number": "[61]",
+            "title": "Yelp helps businesses communicate vaccination requirements",
+            "text": "author={Noorie Malik},\n  title={Yelp helps businesses communicate vaccination requirements},\n  year={2021},\n  month={August},\n  day={5},\n  url={https://blog.yelp.com/news/yelp-helps-businesses-communicate-vaccination-requirements/},\n  note={[Online; accessed 04-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "Noorie Malik",
+                "title": "Yelp helps businesses communicate vaccination requirements",
+                "year": "2021",
+                "month": "August",
+                "day": "5",
+                "url": "https://blog.yelp.com/news/yelp-helps-businesses-communicate-vaccination-requirements/",
+                "note": "[Online; accessed 04-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "census2020zctas": {
+            "number": "[62]",
+            "title": "ZIP Code Tabulation Areas (ZCTAs)",
+            "text": "author={United States Census Bureau},\n  title={ZIP Code Tabulation Areas (ZCTAs)},\n  year={2020},\n  month={August},\n  day={26},\n  url={https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html},\n  note={[Online; accessed 05-October-2021]}",
+            "type": "misc",
+            "fields": {
+                "author": "United States Census Bureau",
+                "title": "ZIP Code Tabulation Areas (ZCTAs)",
+                "year": "2020",
+                "month": "August",
+                "day": "26",
+                "url": "https://www.census.gov/programs-surveys/geography/guidance/geo-areas/zctas.html",
+                "note": "[Online; accessed 05-October-2021]"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "jueckstock2021towards": {
+            "number": "[63]",
+            "title": "Towards Realistic and ReproducibleWeb Crawl Measurements",
+            "text": "title={Towards Realistic and ReproducibleWeb Crawl Measurements},\n  author={Jueckstock, Jordan and Sarker, Shaown and Snyder, Peter and Beggs, Aidan and Papadopoulos, Panagiotis and Varvello, Matteo and Livshits, Benjamin and Kapravelos, Alexandros},\n  booktitle={Proceedings of the Web Conference 2021},\n  pages={80--91},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Towards Realistic and ReproducibleWeb Crawl Measurements",
+                "author": "Jueckstock, Jordan and Sarker, Shaown and Snyder, Peter and Beggs, Aidan and Papadopoulos, Panagiotis and Varvello, Matteo and Livshits, Benjamin and Kapravelos, Alexandros",
+                "booktitle": "Proceedings of the Web Conference 2021",
+                "pages": "80--91",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Accurate web measurement is critical for understanding and improving security and privacy online. Such measurements implicitly assume that automated crawls generalize to typical web user experience. But anecdotal evidence suggests the web behaves differently when seen via well-known measurement endpoints or measurement automation frameworks, for various reasons. Our work improves the state of web privacy and security by investigating how key measurements differ when using naive crawling tool defaults vs. careful attempts to match “real” users across the Tranco top 25k web domains. We find web privacy and security measurements significantly affected by vantage point and browser configuration. We conclude that unless researchers ensure their web measurement tools match real world user experience, the research community is likely missing important signals systematically. For example, we find browser configuration alone causing shifts in 19% of known ad and tracking domains encountered and altering the loading frequency of up to 10% of distinct JavaScript code units executed. We find network vantage point having similar, though less dramatic, effects on the same web metrics. To ensure reproducibility, we carefully document our methodology and publish both our code and collected data.",
+            "aminer_id": "60641c619e795e72406b65cf"
+        },
+        "van2018cross": {
+            "number": "[64]",
+            "title": "A Cross Sectional Survey of the UK Public to Understand Use of Online Ratings and Reviews of Health Services",
+            "text": "title={A cross sectional survey of the UK public to understand use of online ratings and reviews of health services},\n  author={van Velthoven, Michelle H and Atherton, Helen and Powell, John},\n  journal={Patient education and counseling},\n  volume={101},\n  number={9},\n  pages={1690--1696},\n  year={2018},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A cross sectional survey of the UK public to understand use of online ratings and reviews of health services",
+                "author": "van Velthoven, Michelle H and Atherton, Helen and Powell, John",
+                "journal": "Patient education and counseling",
+                "volume": "101",
+                "number": "9",
+                "pages": "1690--1696",
+                "year": "2018",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Objectives: To identify the self-reported behaviour of the public in reading and writing online feedback in relation to health services. Methods: A face-to-face cross-sectional survey of a representative sample of the UK population. Descriptive and logistic regression analyses were undertaken to describe and explore the use of online feedback. Results: 2036 participants were surveyed, and of 1824 Internet users, 42% (n = 760) had read online health care feedback and 8% (n = 147) had provided this feedback in the last year. People more likely to read feedback were: younger, female, with higher income, experiencing a health condition, urban dwelling, and more frequent internet users. For providing feedback, the only significant association was more frequent internet use. The most frequent reasons for reading feedback were: finding out about a drug, treatment or test; and informing a choice of treatment or provider. For writing feedback they were to: inform other patients; praise a service; or improve standards of services. 94% had never been asked to leave online feedback. Conclusion: Many people read online feedback from others, and some write feedback, although few are encouraged to do so. Practice implications: This emerging phenomenon can support patient choice and quality improvement, but needs to be better harnessed. (C) 2018 The Authors. Published by Elsevier B.V.",
+            "aminer_id": "5c0f7d99da562944ac7ffaf9"
+        },
+        "acs2019populationtotal": {
+            "number": "[65]",
+            "title": "TOTAL POPULATION",
+            "text": "title        = {TOTAL POPULATION},\n  author       = {{American Community Survey}},\n  url = {https://data.census.gov/cedsci/table?tid=ACSDT5Y2019.B01003},\n  year         = {2019},\n  note         = \"Accessed: 2021-10-13\"",
+            "type": "misc",
+            "fields": {
+                "title": "TOTAL POPULATION",
+                "author": "{American Community Survey}",
+                "url": "https://data.census.gov/cedsci/table?tid=ACSDT5Y2019.B01003",
+                "year": "2019",
+                "note": "Accessed: 2021-10-13"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "acs2019householdincome": {
+            "number": "[66]",
+            "title": "HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS)",
+            "text": "title        = {HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS)},\n  author       = {{American Community Survey}},\n  url = {https://data.census.gov/cedsci/table?tid=ACSDT5Y2019.B19001},\n  year         = {2019},\n  note         = \"Accessed: 2021-10-13\"",
+            "type": "misc",
+            "fields": {
+                "title": "HOUSEHOLD INCOME IN THE PAST 12 MONTHS (IN 2019 INFLATION-ADJUSTED DOLLARS)",
+                "author": "{American Community Survey}",
+                "url": "https://data.census.gov/cedsci/table?tid=ACSDT5Y2019.B19001",
+                "year": "2019",
+                "note": "Accessed: 2021-10-13"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "kc2016temporal": {
+            "number": "[67]",
+            "title": "On the Temporal Dynamics of Opinion Spamming: Case Studies on Yelp.",
+            "text": "title={On the temporal dynamics of opinion spamming: Case studies on yelp},\n  author={Kc, Santosh and Mukherjee, Arjun},\n  booktitle={Proceedings of the 25th International Conference on World Wide Web},\n  pages={369--379},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "On the temporal dynamics of opinion spamming: Case studies on yelp",
+                "author": "Kc, Santosh and Mukherjee, Arjun",
+                "booktitle": "Proceedings of the 25th International Conference on World Wide Web",
+                "pages": "369--379",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "Recently, the problem of opinion spam has been widespread and has attracted a lot of research attention. While the problem has been approached on a variety of dimensions, the temporal dynamics in which opinion spamming operates is unclear. Are there specific spamming policies that spammers employ? What kind of changes happen with respect to the dynamics to the truthful ratings on entities. How do buffered spamming operate for entities that need spamming to retain threshold popularity and reduced spamming for entities making better success? We analyze these questions in the light of time-series analysis on Yelp. Our analyses discover various temporal patterns and their relationships with the rate at which fake reviews are posted. Building on our analyses, we employ vector autoregression to predict the rate of deception across different spamming policies. Next, we explore the effect of filtered reviews on (long-term and imminent) future rating and popularity prediction of entities. Our results discover novel temporal dynamics of spamming which are intuitive, arguable and also render confidence on Yelp's filtering. Lastly, we leverage our discovered temporal patterns in deception detection. Experimental results on large-scale reviews show the effectiveness of our approach that significantly improves the existing approaches.",
+            "aminer_id": "5736977f6e3b12023e6664df"
+        },
+        "zhu2021ifspard": {
+            "number": "[68]",
+            "title": "IFSpard: an Information Fusion-based Framework for Spam Review Detection",
+            "text": "title={IFSpard: An Information Fusion-based Framework for Spam Review Detection},\n  author={Zhu, Yao and Liu, Hongzhi and Du, Yingpeng and Wu, Zhonghai},\n  booktitle={Proceedings of the Web Conference 2021},\n  pages={507--517},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "IFSpard: An Information Fusion-based Framework for Spam Review Detection",
+                "author": "Zhu, Yao and Liu, Hongzhi and Du, Yingpeng and Wu, Zhonghai",
+                "booktitle": "Proceedings of the Web Conference 2021",
+                "pages": "507--517",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews, which contain the quality information and user experience about products, always affect the consumption decisions of customers. Unfortunately, quite a number of spammers attempt to mislead consumers by writing fake reviews for some intents. Existing methods for detecting spam reviews mainly focus on constructing discriminative features, which heavily depend on experts and may miss some complex but effective features. Recently, some models attempt to learn the latent representations of reviews, users, and items. However, the learned embeddings usually lack interpretability. Moreover, most of existing methods are based on single classification model while ignoring the complementarity of different classification models. To solve these problems, we propose IFSpard, a novel information fusion-based framework that aims at exploring and exploiting useful information from various aspects for spam review detection. First, we design a graph-based feature extraction method and an interaction-mining-based feature crossing method to automatically extract basic and complex features with consideration of different sources of data. Then, we propose a mutual-information-based feature selection and representation learning method to remove the irrelevant and redundant information contained in the automatically constructed features. Finally, we devise an adaptive ensemble model to make use of the information of constructed features and the abilities of different classifiers for spam review detection. Experimental results on several public datasets show that the proposed model performs better than state-of-the-art methods.",
+            "aminer_id": "60641d439e795e72406b6640"
+        },
+        "un2003conpro": {
+            "number": "[69]",
+            "title": "The United Nations Guidelines for Consumer Protection",
+            "text": "title={United Nations Guidelines for Consumer Protection},\n  author={ {United Nations} },\n  journal={United Nations Conference on Trade and Development},\n  year={1985, Revised 2016},\n  address={New York and Geneva}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "United Nations Guidelines for Consumer Protection",
+                "author": "{United Nations}",
+                "journal": "United Nations Conference on Trade and Development",
+                "year": "1985, Revised 2016",
+                "address": "New York and Geneva"
+            },
+            "ref_source": "bib",
+            "abstract": "On 9 April 1985 the General Assembly of the United Nations unanimously adopted a set of general guidelines for consumer protection. The Guidelines represent an internationally recognized set of minimum objectives, potentially being of particular assistance to developing countries. The adoption of the Guidelines reinforces the increasing recognition in recent years that consumer policy issues can no longer be seen as being of purely local concern but must be seen in an international context.",
+            "aminer_id": null
+        },
+        "seabold2010statsmodels": {
+            "number": "[70]",
+            "title": "Statsmodels: Econometric and Statistical Modeling with Python",
+            "text": "title={statsmodels: Econometric and statistical modeling with python},\n  author={Seabold, Skipper and Perktold, Josef},\n  booktitle={9th Python in Science Conference},\n  year={2010},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "statsmodels: Econometric and statistical modeling with python",
+                "author": "Seabold, Skipper and Perktold, Josef",
+                "booktitle": "9th Python in Science Conference",
+                "year": "2010"
+            },
+            "ref_source": "bib",
+            "abstract": "Statsmodels is a library for statistical and econometric analysis in Python. This paper discusses the current relationship between statistics and Python and open source more generally, outlining how the statsmodels package fills a gap in this relationship. An overview of statsmodels is provided, including a discussion of the overarching design and philosophy, what can be found in the package, and some usage examples. The paper concludes with a look at what the future holds.",
+            "aminer_id": "56d8cee2dabfae2eee939171"
+        },
+        "ftc21fashion": {
+            "number": "[71]",
+            "title": "FTC Fashion Nova will pay $4.2 million as part of settlement of FTC allegations it blocked negative reviews of products",
+            "text": "title={{FTC} Fashion Nova will pay \\$4.2 million as part of settlement of {FTC} allegations it blocked negative reviews of products},\n    url={https://www.ftc.gov/news-events/press-releases/2022/01/fashion-nova-will-pay-42-million-part-settlement-ftc-allegations},\n    journal={{FTC} News},\n    year={2022},\n    month={Jan},\n    urldate={2022-01-28}",
+            "type": "article",
+            "fields": {
+                "title": "{FTC} Fashion Nova will pay \\$4.2 million as part of settlement of {FTC} allegations it blocked negative reviews of products",
+                "url": "https://www.ftc.gov/news-events/press-releases/2022/01/fashion-nova-will-pay-42-million-part-settlement-ftc-allegations",
+                "journal": "{FTC} News",
+                "year": "2022",
+                "month": "Jan",
+                "urldate": "2022-01-28"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "kostromitina2021his": {
+            "number": "[72]",
+            "title": "“His Lack of a Mask Ruined Everything.” Restaurant Customer Satisfaction During the COVID-19 Outbreak: an Analysis of Yelp Review Texts and Star-Ratings",
+            "text": "title={“His lack of a mask ruined everything.” Restaurant customer satisfaction during the COVID-19 outbreak: An analysis of Yelp review texts and star-ratings},\n  author={Kostromitina, Maria and Keller, Daniel and Cavusoglu, Muhittin and Beloin, Kyle},\n  journal={International Journal of Hospitality Management},\n  volume={98},\n  pages={103048},\n  year={2021},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "“His lack of a mask ruined everything.” Restaurant customer satisfaction during the COVID-19 outbreak: An analysis of Yelp review texts and star-ratings",
+                "author": "Kostromitina, Maria and Keller, Daniel and Cavusoglu, Muhittin and Beloin, Kyle",
+                "journal": "International Journal of Hospitality Management",
+                "volume": "98",
+                "pages": "103048",
+                "year": "2021",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "The aim of the study was to provide practical advice to restaurant managers for improving star ratings as well as information for researchers on how the pandemic has impacted established determinants of satisfaction. The study examined criteria used by restaurant customers in assigning star-ratings on Yelp during the COVID-19 pandemic using keyword analysis and Multiple Correspondence Analysis. In evaluating restaurants, the reviewers focused on service, overall experience, and food quality. Service was discussed in relation to the pandemic and included safety of the dine-in experience, contrasted with take-out options and compliance with COVID-19 guidelines. These criteria applied differently with lower-star reviews focusing on safety, social distancing, and mask policies. Higher-star reviews focused on take-out/delivery services, high-quality food, and an overall positive experience. The study provides valuable contributions to our understanding of how the COVID-19 pandemic will impact the restaurant sector in a post-pandemic world.",
+            "aminer_id": "613b36ec5244ab9dcba25286"
+        },
+        "kamerer2014understanding": {
+            "number": "[73]",
+            "title": "Understanding the Yelp review filter: An exploratory study",
+            "text": "title={Understanding the Yelp review filter: An exploratory study},\n  author={Kamerer, David},\n  journal={First Monday},\n  year={2014}",
+            "type": "article",
+            "fields": {
+                "title": "Understanding the Yelp review filter: An exploratory study",
+                "author": "Kamerer, David",
+                "journal": "First Monday",
+                "year": "2014"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "55503f3c45ce0a409eb2ced4"
+        },
+        "eslami2019user": {
+            "number": "[74]",
+            "title": "User Attitudes Towards Algorithmic Opacity and Transparency in Online Reviewing Platforms",
+            "text": "title={User attitudes towards algorithmic opacity and transparency in online reviewing platforms},\n  author={Eslami, Motahhare and Vaccaro, Kristen and Lee, Min Kyung and Elazari Bar On, Amit and Gilbert, Eric and Karahalios, Karrie},\n  booktitle={Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems},\n  pages={1--14},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "User attitudes towards algorithmic opacity and transparency in online reviewing platforms",
+                "author": "Eslami, Motahhare and Vaccaro, Kristen and Lee, Min Kyung and Elazari Bar On, Amit and Gilbert, Eric and Karahalios, Karrie",
+                "booktitle": "Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems",
+                "pages": "1--14",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Algorithms exert great power in curating online information, yet are often opaque in their operation, and even existence. Since opaque algorithms sometimes make biased or deceptive decisions, many have called for increased transparency. However, little is known about how users perceive and interact with potentially biased and deceptive opaque algorithms. What factors are associated with these perceptions, and how does adding transparency into algorithmic systems change user attitudes? To address these questions, we conducted two studies: 1) an analysis of 242 users' online discussions about the Yelp review filtering algorithm and 2) an interview study with 15 Yelp users disclosing the algorithm's existence via a tool. We found that users question or defend this algorithm and its opacity depending on their engagement with and personal gain from the algorithm. We also found adding transparency into the algorithm changed users' attitudes towards the algorithm: users reported their intention to either write for the algorithm in future reviews or leave the platform.",
+            "aminer_id": "5ccaceaae1cd8ee42d495356"
+        },
+        "yeung2021Bad": {
+            "number": "[75]",
+            "title": "Bad Job: Abusive Work on Alternative Microtask Platforms",
+            "text": "title={Bad Job: Abusive Work on Alternative Microtask Platforms},\n  author={Yeung, Christina and Salsburg, Daniel and Calandrino, Joseph A},\n  year={2021},\n  journal={Workshop on Technology and Consumer Protection (ConPro ’21)}",
+            "type": "article",
+            "fields": {
+                "title": "Bad Job: Abusive Work on Alternative Microtask Platforms",
+                "author": "Yeung, Christina and Salsburg, Daniel and Calandrino, Joseph A",
+                "year": "2021",
+                "journal": "Workshop on Technology and Consumer Protection (ConPro ’21)"
+            },
+            "ref_source": "bib",
+            "abstract": "—Microtask platforms aim to pair employers and workers to complete small tasks for modest pay, but the purposes of these tasks are not always benign. Researchers have identiﬁed problematic tasks on popular microtask platforms like Amazon Mechanical Turk, and such tasks may be relatively more common on smaller platforms. Recent work examining these smaller alternative platforms is limited, and the nature of the work on these platforms evolves with the desires of employers and the practices of the platforms. We provide an up-to-date view of the work available via alternative microtask platforms. To do so, we collected details from three alternative platforms over approximately a month, categorizing the available work. We ﬁnd that potentially abusive work persists in well-known categories like search engine optimization, but we also uncovered new and emerging categories of work, such as tasks that may manipulate spam ﬁlters. We comprehensively explore these categories and discuss potential mitigation approaches.",
+            "aminer_id": "68a92dc75175772d70f20744"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 75,
+        "citation_types": {
+            "other": 75
+        }
+    }
+}

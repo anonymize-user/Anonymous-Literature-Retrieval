@@ -1,0 +1,916 @@
+{
+    "topic": "GERestaurant: A German Dataset of Annotated Restaurant Reviews for\n  Aspect-Based Sentiment Analysis",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[17]",
+                "[18]",
+                "[8]",
+                "[22]",
+                "[20]",
+                "[14]",
+                "[19]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Work",
+            "refs": [
+                "[29]",
+                "[27]",
+                "[22]",
+                "[20]",
+                "[26]",
+                "[21]",
+                "[25]",
+                "[24]",
+                "[39]",
+                "[23]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Methodology",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Data Acquisition",
+                    "refs": [
+                        "[30]",
+                        "[36]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Data Annotation",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Annotation Task",
+                            "refs": [
+                                "[28]",
+                                "[22]",
+                                "[20]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Data Labelling Procedure",
+                            "refs": [
+                                "[21]",
+                                "[20]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Baseline Models",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Aspect Category Detection (ACD) and Aspect Category Sentiment Analysis (ACSA)",
+                            "refs": [
+                                "[29]",
+                                "[32]",
+                                "[31]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "End-to-End ABSA (E2E-ABSA)",
+                            "refs": [
+                                "[33]",
+                                "[34]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Target Aspect Sentiment Detection (TASD)",
+                            "refs": [
+                                "[35]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Results",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Properties of the Annotated Dataset",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Comparison with the SemEval Datasets",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Baseline Performance",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Limitations",
+            "refs": [],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion",
+            "refs": [
+                "[29]",
+                "[38]",
+                "[40]",
+                "[33]",
+                "[26]",
+                "[25]",
+                "[37]",
+                "[35]"
+            ],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion \\& Future Work",
+            "refs": [
+                "[22]",
+                "[20]"
+            ],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Ethical Considerations",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Appendix",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Examples from the Annotated Dataset",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "9.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Paraphrase Generation Framework",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Explicit Aspect",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "9.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Implicit Aspect",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "9.2.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "9.2",
+                    "level": 2
+                }
+            ],
+            "number": "9",
+            "level": 1
+        }
+    ],
+    "references": {
+        "chen2017emotions": {
+            "number": "[1]",
+            "title": "Emotions and Pan-Asian organizing in the US southwest: Analyzing interview discourses via sentiment analysis",
+            "text": "title={Emotions and Pan-Asian organizing in the US southwest: Analyzing interview discourses via sentiment analysis},\n  author={Chen, Yea-Wen and Nakazawa, Masato},\n  journal={VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations},\n  volume={28},\n  pages={2785--2806},\n  year={2017},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Emotions and Pan-Asian organizing in the US southwest: Analyzing interview discourses via sentiment analysis",
+                "author": "Chen, Yea-Wen and Nakazawa, Masato",
+                "journal": "VOLUNTAS: International Journal of Voluntary and Nonprofit Organizations",
+                "volume": "28",
+                "pages": "2785--2806",
+                "year": "2017",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "crannell2016pattern": {
+            "number": "[2]",
+            "title": "A pattern-matched Twitter analysis of US cancer-patient sentiments",
+            "text": "title={A pattern-matched Twitter analysis of US cancer-patient sentiments},\n  author={Crannell, W Christian and Clark, Eric and Jones, Chris and James, Ted A and Moore, Jesse},\n  journal={Journal of Surgical Research},\n  volume={206},\n  number={2},\n  pages={536--542},\n  year={2016},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A pattern-matched Twitter analysis of US cancer-patient sentiments",
+                "author": "Crannell, W Christian and Clark, Eric and Jones, Chris and James, Ted A and Moore, Jesse",
+                "journal": "Journal of Surgical Research",
+                "volume": "206",
+                "number": "2",
+                "pages": "536--542",
+                "year": "2016",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c0f7c6eda562944ac7d3176"
+        },
+        "gupta2020sentiment": {
+            "number": "[3]",
+            "title": "Sentiment Analysis for Stock Price Prediction",
+            "text": "title={Sentiment analysis for stock price prediction},\n  author={Gupta, Rubi and Chen, Min},\n  booktitle={2020 IEEE conference on multimedia information processing and retrieval (MIPR)},\n  pages={213--218},\n  year={2020},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sentiment analysis for stock price prediction",
+                "author": "Gupta, Rubi and Chen, Min",
+                "booktitle": "2020 IEEE conference on multimedia information processing and retrieval (MIPR)",
+                "pages": "213--218",
+                "year": "2020",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Stock prices and financial markets are often sentiment-driven, which leads to research efforts to predict stock market trend using public sentiments expressed on social media such as Facebook and Twitter. In this project, we investigate the impact of sentiment expressed through StockTwits on stock price prediction. StockTwits is a relatively new microblogging website, which is becoming increasingly popular for users to share their discussions and sentiments about stocks and financial markets. Specifically, we analyze the StockTwits tweet contents and extract financial sentiment using a set of text featurization and machine learning algorithms. The correlation between the aggregated daily sentiment and daily stock price movement is then studied. Finally, the sentiment information is used in addition to the past stock time series data to improve the accuracy of stock price movement prediction. The effectiveness of the proposed work on stock price prediction is demonstrated through experiments on five companies (Apple, Amazon, General Electric, Microsoft, and Target) using nine-month StockTwits data and daily stock data.",
+            "aminer_id": "5ff6840dd4150a363cbcab86"
+        },
+        "vanaja2018aspect": {
+            "number": "[4]",
+            "title": "Aspect-Level Sentiment Analysis on E-Commerce Data",
+            "text": "title={Aspect-level sentiment analysis on e-commerce data},\n  author={Vanaja, Satuluri and Belwal, Meena},\n  booktitle={2018 International Conference on Inventive Research in Computing Applications (ICIRCA)},\n  pages={1275--1279},\n  year={2018},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect-level sentiment analysis on e-commerce data",
+                "author": "Vanaja, Satuluri and Belwal, Meena",
+                "booktitle": "2018 International Conference on Inventive Research in Computing Applications (ICIRCA)",
+                "pages": "1275--1279",
+                "year": "2018",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Sentiment Analysis is the most commonly used approach to analyze data which is in the form of text and to identify sentiment content from the text. Opinion Mining is another name for sentiment analysis. A wide range of text data is getting generated in the form of suggestions, feedbacks, tweets and comments. E-Commerce portals are generating a lot of data every day in the form of customer reviews. Analyzing E-Commerce data will help online retailers to understand customer expectations, provide better shopping experience and to increase the sales. Sentiment Analysis can be used to identify positive, negative and neutral information from the customer reviews. Researchers have developed a lot of techniques in Sentiment Analysis. Mostly sentiment Analysis is done using a single machine learning algorithm. This work uses Amazon customer review data and focuses on finding aspect terms from each review, identifying the Parts-of-Speech, applying classification algorithms to find the score of positivity, negativity and neutrality of each review.",
+            "aminer_id": "6228b4625aee126c0f7919a5"
+        },
+        "grabner2012classification": {
+            "number": "[5]",
+            "title": "Classification of Customer Reviews Based on Sentiment Analysis",
+            "text": "title={Classification of customer reviews based on sentiment analysis},\n  author={Gr{\\\"a}bner, Dietmar and Zanker, Markus and Fliedl, G{\\\"u}nther and Fuchs, Matthias},\n  booktitle={Information and communication technologies in tourism 2012},\n  pages={460--470},\n  year={2012},\n  publisher={Springer}",
+            "type": "incollection",
+            "fields": {
+                "title": "Classification of customer reviews based on sentiment analysis",
+                "author": "Gr{\\\"a}bner, Dietmar and Zanker, Markus and Fliedl, G{\\\"u}nther and Fuchs, Matthias",
+                "booktitle": "Information and communication technologies in tourism 2012",
+                "pages": "460--470",
+                "year": "2012",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we propose a system that performs the classification of customer reviews of hotels by means of a sentiment analysis. We elaborate on a process to extract a domainspecific lexicon of semantically relevant words based on a given corpus (Scharl et al., 2003; Pak & Paroubek, 2010). The resulting lexicon backs the sentiment analysis for generating a classification of the reviews. The evaluation of the classification on test data shows that the proposed system performs better compared to a predefined baseline: if a customer review is classified as good or bad the classification is correct with a probability of about 90%.",
+            "aminer_id": "56d81506dabfae2eee6ba8a7"
+        },
+        "guner2019sentiment": {
+            "number": "[6]",
+            "title": "Sentiment analysis for amazon. com reviews",
+            "text": "title={Sentiment analysis for amazon. com reviews},\n  author={G{\\\"u}ner, Levent and Coyne, Emilie and Smit, Jim},\n  journal={Big Data in Media Technology (DM2583) KTH Royal Institute of Technology},\n  volume={9},\n  year={2019}",
+            "type": "article",
+            "fields": {
+                "title": "Sentiment analysis for amazon. com reviews",
+                "author": "G{\\\"u}ner, Levent and Coyne, Emilie and Smit, Jim",
+                "journal": "Big Data in Media Technology (DM2583) KTH Royal Institute of Technology",
+                "volume": "9",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "rani2017sentiment": {
+            "number": "[7]",
+            "title": "A Sentiment Analysis System to Improve Teaching and Learning",
+            "text": "title={A sentiment analysis system to improve teaching and learning},\n  author={Rani, Sujata and Kumar, Parteek},\n  journal={Computer},\n  volume={50},\n  number={5},\n  pages={36--43},\n  year={2017},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A sentiment analysis system to improve teaching and learning",
+                "author": "Rani, Sujata and Kumar, Parteek",
+                "journal": "Computer",
+                "volume": "50",
+                "number": "5",
+                "pages": "36--43",
+                "year": "2017",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Natural language processing and machine learning can be applied to student feedback to help university administrators and teachers address problematic areas in teaching and learning. The proposed system analyzes student comments from both course surveys and online sources to identify sentiment polarity, the emotions expressed, and satisfaction versus dissatisfaction. A comparison with direct-assessment results demonstrates the system's reliability.",
+            "aminer_id": "599c779e601a182cd25661ba"
+        },
+        "hellwig2023transformer": {
+            "number": "[8]",
+            "title": "Transformer-Based Analysis of Sentiment Towards German Political Parties on Twitter During the 2021 Election Year.",
+            "text": "title={Transformer-Based Analysis of Sentiment Towards German Political Parties on Twitter During the 2021 Election Year},\n  author={Hellwig, Nils Constantin and Bink, Markus and Schmidt, Thomas and Fehle, Jakob and Wolff, Christian},\n  booktitle={Proceedings of the 6th International Conference on Natural Language and Speech Processing (ICNLSP 2023)},\n  pages={84--98},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Transformer-Based Analysis of Sentiment Towards German Political Parties on Twitter During the 2021 Election Year",
+                "author": "Hellwig, Nils Constantin and Bink, Markus and Schmidt, Thomas and Fehle, Jakob and Wolff, Christian",
+                "booktitle": "Proceedings of the 6th International Conference on Natural Language and Speech Processing (ICNLSP 2023)",
+                "pages": "84--98",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "65bc9f67939a5f408227e79b"
+        },
+        "jia2020deep": {
+            "number": "[9]",
+            "title": "A Deep Learning System for Sentiment Analysis of Service Calls",
+            "text": "title = \"A Deep Learning System for Sentiment Analysis of Service Calls\",\n    author = \"Jia, Yanan\",\n    booktitle = \"Proceedings of the 3rd Workshop on e-Commerce and NLP\",\n    month = jul,\n    year = \"2020\",\n    address = \"Seattle, WA, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"24--34\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A Deep Learning System for Sentiment Analysis of Service Calls",
+                "author": "Jia, Yanan",
+                "booktitle": "Proceedings of the 3rd Workshop on e-Commerce and NLP",
+                "year": "2020",
+                "address": "Seattle, WA, USA",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "24--34"
+            },
+            "ref_source": "bib",
+            "abstract": "Sentiment analysis is crucial for the advancement of artificial intelligence (AI). Sentiment understanding can help AI to replicate human language and discourse. Studying the formation and response of sentiment state from well-trained Customer Service Representatives (CSRs) can help make the interaction between humans and AI more intelligent. In this paper, a sentiment analysis pipeline is first carried out with respect to real-world multi-party conversations - that is, service calls. Based on the acoustic and linguistic features extracted from the source information, a novel aggregated method for voice sentiment recognition framework is built. Each party’s sentiment pattern during the communication is investigated along with the interaction sentiment pattern between all parties.",
+            "aminer_id": "5ea16b3491e011fa08b8fa73"
+        },
+        "joyce2017sentiment": {
+            "number": "[10]",
+            "title": "Sentiment Analysis of Tweets for the 2016 US Presidential Election",
+            "text": "title={Sentiment analysis of tweets for the 2016 US presidential election},\n  author={Joyce, Brandon and Deng, Jing},\n  booktitle={2017 ieee mit undergraduate research technology conference (urtc)},\n  pages={1--4},\n  year={2017},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sentiment analysis of tweets for the 2016 US presidential election",
+                "author": "Joyce, Brandon and Deng, Jing",
+                "booktitle": "2017 ieee mit undergraduate research technology conference (urtc)",
+                "pages": "1--4",
+                "year": "2017",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Twitter is a popular micro-blogging social media platform. For the 2016 US Presidential election, many people expressed their likes or dislikes for a particular presidential candidate. Our work's aim was to calculate the sentiment expressed by these tweets, and then compare this sentiment with polling data to see how much correlation they share. We used a lexicon and Naive Bayes Machine Learning Algorithm to calculate the sentiment of political tweets collected one-hundred days before the election. We used manually labeled tweets as well as automatically labeled tweets based on hashtag content/topic. Our results suggest that Twitter is becoming a more reliable platform in comparison to previous work. By focusing on tweets 43 days before the election (beginning with the first presidential debate), we found a correlation as high as 94% to polling data using a moving average smoothing technique.",
+            "aminer_id": "634bd37590e50fcafd8ced7b"
+        },
+        "karami2018mining": {
+            "number": "[11]",
+            "title": "Mining public opinion about economic issues: Twitter and the us presidential election",
+            "text": "title={Mining public opinion about economic issues: Twitter and the us presidential election},\n  author={Karami, Amir and Bennett, London S and He, Xiaoyun},\n  journal={International Journal of Strategic Decision Sciences (IJSDS)},\n  volume={9},\n  number={1},\n  pages={18--28},\n  year={2018},\n  publisher={IGI Global}",
+            "type": "article",
+            "fields": {
+                "title": "Mining public opinion about economic issues: Twitter and the us presidential election",
+                "author": "Karami, Amir and Bennett, London S and He, Xiaoyun",
+                "journal": "International Journal of Strategic Decision Sciences (IJSDS)",
+                "volume": "9",
+                "number": "1",
+                "pages": "18--28",
+                "year": "2018",
+                "publisher": "IGI Global"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "nazir2020issues": {
+            "number": "[12]",
+            "title": "Issues and Challenges of Aspect-based Sentiment Analysis: A Comprehensive Survey",
+            "text": "title={Issues and challenges of aspect-based sentiment analysis: A comprehensive survey},\n  author={Nazir, Ambreen and Rao, Yuan and Wu, Lianwei and Sun, Ling},\n  journal={IEEE Transactions on Affective Computing},\n  volume={13},\n  number={2},\n  pages={845--863},\n  year={2020},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Issues and challenges of aspect-based sentiment analysis: A comprehensive survey",
+                "author": "Nazir, Ambreen and Rao, Yuan and Wu, Lianwei and Sun, Ling",
+                "journal": "IEEE Transactions on Affective Computing",
+                "volume": "13",
+                "number": "2",
+                "pages": "845--863",
+                "year": "2020",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "The domain of Aspect-based Sentiment Analysis, in which aspects are extracted, their sentiments are analysed and sentiments are evolved over time, is getting much attention with increasing feedback of public and customers on social media. The immense advancements in this field urged the researchers to devise new techniques and approaches, each sermonizing a different research analysis/question, that cope with upcoming issues and complex scenarios of Aspect-based Sentiment Analysis. Therefore, this survey emphasized on the issues and challenges that are related to extraction of different aspects and their relevant sentiments, relational mapping between aspects, interactions, dependencies, and contextual-semantic relationships between different data objects for improved sentiment accuracy, and prediction of sentiment evolution dynamicity. A rigorous overview of the recent progress is summarized based on whether they contributed towards highlighting and mitigating the issue of Aspect Extraction, Aspect Sentiment Analysis or Sentiment Evolution. The reported performance for each scrutinized study of Aspect Extraction and Aspect Sentiment Analysis is also given, showing the quantitative evaluation of the proposed approach. Future research directions are proposed and discussed, by critically analysing the presented recent solutions, that will be helpful for researchers and beneficial for improving sentiment classification at aspect-level.",
+            "aminer_id": "622851135aee126c0f3ec44c"
+        },
+        "rodrigues2016sentihealth": {
+            "number": "[13]",
+            "title": "SentiHealth-Cancer: A Sentiment Analysis Tool to Help Detecting Mood of Patients in Online Social Networks",
+            "text": "title={SentiHealth-Cancer: a sentiment analysis tool to help detecting mood of patients in online social networks},\n  author={Rodrigues, Ramon Gouveia and das Dores, Rafael Marques and Camilo-Junior, Celso G and Rosa, Thierson Couto},\n  journal={International journal of medical informatics},\n  volume={85},\n  number={1},\n  pages={80--95},\n  year={2016},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "SentiHealth-Cancer: a sentiment analysis tool to help detecting mood of patients in online social networks",
+                "author": "Rodrigues, Ramon Gouveia and das Dores, Rafael Marques and Camilo-Junior, Celso G and Rosa, Thierson Couto",
+                "journal": "International journal of medical informatics",
+                "volume": "85",
+                "number": "1",
+                "pages": "80--95",
+                "year": "2016",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "Background: Cancer is a critical disease that affects millions of people and families around the world. In 2012 about 14.1 million new cases of cancer occurred globally. Because of many reasons like the severity of some cases, the side effects of some treatments and death of other patients, cancer patients tend to be affected by serious emotional disorders, like depression, for instance. Thus, monitoring the mood of the patients is an important part of their treatment. Many cancer patients are users of online social networks and many of them take part in cancer virtual communities where they exchange messages commenting about their treatment or giving support to other patients in the community. Most of these communities are of public access and thus are useful sources of information about the mood of patients. Based on that, Sentiment Analysis methods can be useful to automatically detect positive or negative mood of cancer patients by analyzing their messages in these online communities.Objective: The objective of this work is to present a Sentiment Analysis tool, named SentiHealth-Cancer (SHC-pt), that improves the detection of emotional state of patients in Brazilian online cancer communities, by inspecting their posts written in Portuguese language. The SHC-pt is a sentiment analysis tool which is tailored specifically to detect positive, negative or neutral messages of patients in online communities of cancer patients. We conducted a comparative study of the proposed method with a set of general-purpose sentiment analysis tools adapted to this context.Methods: Different collections of posts were obtained from two cancer communities in Facebook. Additionally, the posts were analyzed by sentiment analysis tools that support the Portuguese language (Semantria and SentiStrength) and by the tool SHC-pt, developed based on the method proposed in this paper called SentiHealth. Moreover, as a second alternative to analyze the texts in Portuguese, the collected texts were automatically translated into English, and submitted to sentiment analysis tools that do not support the Portuguese language (AlchemyAPI and Textalytics) and also to Semantria and SentiStrength, using the English option of these tools. Six experiments were conducted with some variations and different origins of the collected posts. The results were measured using the following metrics: precision, recall, Fl-measure and accuracyResults: The proposed tool SHC-pt reached the best averages for accuracy and Fl-measure (harmonic mean between recall and precision) in the three sentiment classes addressed (positive, negative and neutral) in all experimental settings. Moreover, the worst accuracy value (58%) achieved by SHC-pt in any experiment is 11.53% better than the greatest accuracy (52%) presented by other addressed tools. Finally, the worst average Fl (48.46%) reached by SHC-pt in any experiment is 4.14% better than the greatest average Fl (46.53%) achieved by other addressed tools. Thus, even when we compare the SHC-pt results in complex scenario versus others in easier scenario the SHC-pt is better.Conclusions: This paper presents two contributions. First, it proposes the method SentiHealth to detect the mood of cancer patients that are also users of communities of patients in online social networks. Second, it presents an instantiated tool from the method, called SentiHealth-Cancer (SHC-pt), dedicated to automatically analyze posts in communities of cancer patients, based on SentiHealth. This contexttailored tool outperformed other general-purpose sentiment analysis tools at least in the cancer context. This suggests that the SentiHealth method could be instantiated as other disease-based tools during future works, for instance SentiHealth-HIV, SentiHealth-Stroke and SentiHealth-Sclerosis. (C) 2015 Published by Elsevier Ireland Ltd.",
+            "aminer_id": "56361cbf0cf248dacf935447"
+        },
+        "schmidt2022sentiment": {
+            "number": "[14]",
+            "title": "Sentiment Analysis on Twitter for the Major German Parties During the 2021 German Federal Election.",
+            "text": "title={Sentiment analysis on twitter for the major German parties during the 2021 German federal election},\n  author={Schmidt, Thomas and Fehle, Jakob and Weissenbacher, Maximilian and Richter, Jonathan and Gottschalk, Philipp and Wolff, Christian},\n  booktitle={Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)},\n  pages={74--87},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Sentiment analysis on twitter for the major German parties during the 2021 German federal election",
+                "author": "Schmidt, Thomas and Fehle, Jakob and Weissenbacher, Maximilian and Richter, Jonathan and Gottschalk, Philipp and Wolff, Christian",
+                "booktitle": "Proceedings of the 18th Conference on Natural Language Processing (KONVENS 2022)",
+                "pages": "74--87",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "We present the results of a project performing sentiment analysis on tweets from German politicians and party accounts for the 2021 German federal election. We collected over 58,000 tweets from the Twitter accounts of the seven parties represented in the German Bun-destag, of which a selection of 2,000 tweets were annotated by three annotators. Based on the annotated data, we implemented multiple sentiment analysis approaches and evaluated the sentiment classification performance. We found that transformer-based models like bidirectional encoder from transformers (BERT) performed better than traditional machine learning models such as Naive Bayes and lexicon-based models like GerVADER. The best performing BERT model achieved an accuracy of 93.3% and macro f1 score of 93.4%. Applying sentiment analysis on the overall corpus via this method showed that overall, negative sentiment was most frequent and that there were multiple major shifts in sentiment a few months before and after the election. Furthermore, we found that tweets from opposition parties had on average more negative sentiment than those from governing parties.",
+            "aminer_id": "65dd5f0413fb2c6cf68deb6c"
+        },
+        "sousa2019bert": {
+            "number": "[15]",
+            "title": "BERT for Stock Market Sentiment Analysis",
+            "text": "title={BERT for stock market sentiment analysis},\n  author={Sousa, Matheus Gomes and Sakiyama, Kenzo and de Souza Rodrigues, Lucas and Moraes, Pedro Henrique and Fernandes, Eraldo Rezende and Matsubara, Edson Takashi},\n  booktitle={2019 IEEE 31st international conference on tools with artificial intelligence (ICTAI)},\n  pages={1597--1601},\n  year={2019},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "BERT for stock market sentiment analysis",
+                "author": "Sousa, Matheus Gomes and Sakiyama, Kenzo and de Souza Rodrigues, Lucas and Moraes, Pedro Henrique and Fernandes, Eraldo Rezende and Matsubara, Edson Takashi",
+                "booktitle": "2019 IEEE 31st international conference on tools with artificial intelligence (ICTAI)",
+                "pages": "1597--1601",
+                "year": "2019",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "When breaking news occurs, stock quotes can change abruptly in a matter of seconds. The human analysis of breaking news can take several minutes, and investors in the financial markets need to make quick decisions. Such challenging scenarios require faster ways to support investors. In this work, we propose the use of bidirectional encoder representations from transformers BERT to perform sentiment analysis of news articles and provide relevant information for decision making in the stock market. This model is pre-trained on a large amount of general-domain documents by means of a self-learning task. To fine-tune this powerful model on sentiment analysis for the stock market, we manually labeled stock news articles as positive, neutral or negative. This dataset is freely available and amounts to 582 documents from several financial news sources. We fine-tune a BERT model on this dataset and achieve 72.5% of F-score. Then, we perform some experiments highlighting how the output of the obtained model can provide valuable information to predict the subsequent movements of the Dow Jones Industrial (DJI) Index.",
+            "aminer_id": "5e50fe033a55ac0466732026"
+        },
+        "zhang2022survey": {
+            "number": "[16]",
+            "title": "A Survey on Aspect-Based Sentiment Analysis: Tasks, Methods, and Challenges",
+            "text": "title={A survey on aspect-based sentiment analysis: Tasks, methods, and challenges},\n  author={Zhang, Wenxuan and Li, Xin and Deng, Yang and Bing, Lidong and Lam, Wai},\n  journal={IEEE Transactions on Knowledge and Data Engineering},\n  year={2022},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "A survey on aspect-based sentiment analysis: Tasks, methods, and challenges",
+                "author": "Zhang, Wenxuan and Li, Xin and Deng, Yang and Bing, Lidong and Lam, Wai",
+                "journal": "IEEE Transactions on Knowledge and Data Engineering",
+                "year": "2022",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "As an important fine-grained sentiment analysis problem, aspect-based sentiment analysis (ABSA), aiming to analyze and understand people's opinions at the aspect level, has been attracting considerable interest in the last decade. To handle ABSA in different scenarios, various tasks are introduced for analyzing different sentiment elements and their relations, including the aspect term, aspect category, opinion term, and sentiment polarity. Unlike early ABSA works focusing on a single sentiment element, many compound ABSA tasks involving multiple elements have been studied in recent years for capturing more complete aspect-level sentiment information. However, a systematic review of various ABSA tasks and their corresponding solutions is still lacking, which we aim to fill in this survey. More specifically, we provide a new taxonomy for ABSA which organizes existing studies from the axes of concerned sentiment elements, with an emphasis on recent advances of compound ABSA tasks. From the perspective of solutions, we summarize the utilization of pre-trained language models for ABSA, which improved the performance of ABSA to a new stage. Besides, techniques for building more practical ABSA systems in cross-domain/lingual scenarios are discussed. Finally, we review some emerging topics and discuss some open challenges to outlook potential future directions of ABSA.",
+            "aminer_id": "627e23d75aee126c0f740be6"
+        },
+        "tripathy2017document": {
+            "number": "[17]",
+            "title": "Document-level Sentiment Classification Using Hybrid Machine Learning Approach",
+            "text": "title={Document-level sentiment classification using hybrid machine learning approach},\n  author={Tripathy, Abinash and Anand, Abhishek and Rath, Santanu Kumar},\n  journal={Knowledge and Information Systems},\n  volume={53},\n  pages={805--831},\n  year={2017},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Document-level sentiment classification using hybrid machine learning approach",
+                "author": "Tripathy, Abinash and Anand, Abhishek and Rath, Santanu Kumar",
+                "journal": "Knowledge and Information Systems",
+                "volume": "53",
+                "pages": "805--831",
+                "year": "2017",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "It is a practice that users or customers intend to share their comments or reviews about any product in different social networking sites. An analyst usually processes to reviews properly to obtain any meaningful information from it. Classification of sentiments associated with reviews is one of these processing steps. The reviews framed are often made in text format. While processing the text reviews, each word of the review is considered as a feature. Thus, selection of right kind of features needs to be carried out to select the best feature from the set of all features. In this paper, the machine learning algorithm, i.e., support vector machine, is used to select the best features from the training data. These features are then given input to artificial neural network method, to process further. Different performance evaluation parameters such as precision, recall, f-measure, accuracy have been considered to evaluate the performance of the proposed approach on two different datasets, i.e., IMDb dataset and polarity dataset.",
+            "aminer_id": "5a260c7317c44a4ba8a2eceb"
+        },
+        "liu2010sentiment": {
+            "number": "[18]",
+            "title": "Sentiment analysis and subjectivity.",
+            "text": "title={Sentiment analysis and subjectivity.},\n  author={Liu, Bing},\n  journal={Handbook of natural language processing},\n  volume={2},\n  number={2010},\n  pages={627--666},\n  year={2010},\n  publisher={Oxfordshire}",
+            "type": "article",
+            "fields": {
+                "title": "Sentiment analysis and subjectivity.",
+                "author": "Liu, Bing",
+                "journal": "Handbook of natural language processing",
+                "volume": "2",
+                "number": "2010",
+                "pages": "627--666",
+                "year": "2010",
+                "publisher": "Oxfordshire"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e99b09b7602d9702397da2"
+        },
+        "liu2005opinion": {
+            "number": "[19]",
+            "title": "Opinion Observer: Analyzing and Comparing Opinions on the Web",
+            "text": "title={Opinion observer: analyzing and comparing opinions on the web},\n  author={Liu, Bing and Hu, Minqing and Cheng, Junsheng},\n  booktitle={Proceedings of the 14th international conference on World Wide Web},\n  pages={342--351},\n  year={2005}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Opinion observer: analyzing and comparing opinions on the web",
+                "author": "Liu, Bing and Hu, Minqing and Cheng, Junsheng",
+                "booktitle": "Proceedings of the 14th international conference on World Wide Web",
+                "pages": "342--351",
+                "year": "2005"
+            },
+            "ref_source": "bib",
+            "abstract": "The Web has become an excellent source for gathering consumer opinions. There are now numerous Web sites containing such opinions, e.g., customer reviews of products, forums, discussion groups, and blogs. This paper focuses on online customer reviews of products. It makes two contributions. First, it proposes a novel framework for analyzing and comparing consumer opinions of competing products. A prototype system called Opinion Observer is also implemented. The system is such that with a single glance of its visualization, the user is able to clearly see the strengths and weaknesses of each product in the minds of consumers in terms of various product features. This comparison is useful to both potential customers and product manufacturers. For a potential customer, he/she can see a visual side-by-side and feature-by-feature comparison of consumer opinions on these products, which helps him/her to decide which product to buy. For a product manufacturer, the comparison enables it to easily gather marketing intelligence and product benchmarking information. Second, a new technique based on language pattern mining is proposed to extract product features from Pros and Cons in a particular type of reviews. Such features form the basis for the above comparison. Experimental results show that the technique is highly effective and outperform existing methods significantly.",
+            "aminer_id": "5390981d20f70186a0e05a08"
+        },
+        "pontiki2015semeval": {
+            "number": "[20]",
+            "title": "SemEval-2015 Task 12: Aspect Based Sentiment Analysis",
+            "text": "title={Semeval-2015 Task 12: Aspect based sentiment analysis},\n  author={Pontiki, Maria and Galanis, Dimitrios and Papageorgiou, Harris and Manandhar, Suresh and Androutsopoulos, Ion},\n  booktitle={Proceedings of the 9th international workshop on semantic evaluation (SemEval 2015)},\n  pages={486--495},\n  year={2015}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Semeval-2015 Task 12: Aspect based sentiment analysis",
+                "author": "Pontiki, Maria and Galanis, Dimitrios and Papageorgiou, Harris and Manandhar, Suresh and Androutsopoulos, Ion",
+                "booktitle": "Proceedings of the 9th international workshop on semantic evaluation (SemEval 2015)",
+                "pages": "486--495",
+                "year": "2015"
+            },
+            "ref_source": "bib",
+            "abstract": "SemEval-2015 Task 12, a continuation of SemEval-2014 Task 4, aimed to foster research beyond sentence-or text-level sentiment classification towards Aspect Based Sentiment Analysis.The goal is to identify opinions expressed about specific entities (e.g., laptops) and their aspects (e.g., price).The task provided manually annotated reviews in three domains (restaurants, laptops and hotels), and a common evaluation procedure.It attracted 93 submissions from 16 teams.",
+            "aminer_id": "64b4e2c63fda6d7f068e003e"
+        },
+        "pontiki2014semeval": {
+            "number": "[21]",
+            "title": "SemEval-2014 Task 4: Aspect Based Sentiment Analysis",
+            "text": "title = \"SemEval-2014 Task 4: Aspect Based Sentiment Analysis\",\n    author = \"Pontiki, Maria  and Galanis, Dimitris  and Pavlopoulos, John  and Papageorgiou, Harris  and Androutsopoulos, Ion  and Manandhar, Suresh\",\n    booktitle = \"Proceedings of the 8th International Workshop on Semantic Evaluation ({S}em{E}val 2014)\",\n    month = aug,\n    year = \"2014\",\n    address = \"Dublin, Ireland\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"27--35\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SemEval-2014 Task 4: Aspect Based Sentiment Analysis",
+                "author": "Pontiki, Maria and Galanis, Dimitris and Pavlopoulos, John and Papageorgiou, Harris and Androutsopoulos, Ion and Manandhar, Suresh",
+                "booktitle": "Proceedings of the 8th International Workshop on Semantic Evaluation ({S}em{E}val 2014)",
+                "year": "2014",
+                "address": "Dublin, Ireland",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "27--35"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "pontiki2016semeval": {
+            "number": "[22]",
+            "title": "SemEval-2016 Task 5: Aspect Based Sentiment Analysis",
+            "text": "title={Semeval-2016 task 5: Aspect based sentiment analysis},\n  author={Pontiki, Maria and Galanis, Dimitris and Papageorgiou, Haris and Androutsopoulos, Ion and Manandhar, Suresh and AL-Smadi, Mohammed and Al-Ayyoub, Mahmoud and Zhao, Yanyan and Qin, Bing and De Clercq, Orph{\\'e}e and others},\n  booktitle={ProWorkshop on Semantic Evaluation (SemEval-2016)},\n  pages={19--30},\n  year={2016},\n  organization={Association for Computational Linguistics}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Semeval-2016 task 5: Aspect based sentiment analysis",
+                "author": "Pontiki, Maria and Galanis, Dimitris and Papageorgiou, Haris and Androutsopoulos, Ion and Manandhar, Suresh and AL-Smadi, Mohammed and Al-Ayyoub, Mahmoud and Zhao, Yanyan and Qin, Bing and De Clercq, Orph{\\'e}e and others",
+                "booktitle": "ProWorkshop on Semantic Evaluation (SemEval-2016)",
+                "pages": "19--30",
+                "year": "2016",
+                "organization": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper describes the SemEval 2016 shared task on Aspect Based Sentiment Analysis (ABSA), a continuation of the respective tasks of 2014 and 2015.In its third year, the task provided 19 training and 20 testing datasets for 8 languages and 7 domains, as well as a common evaluation procedure.From these datasets, 25 were for sentence-level and 14 for text-level ABSA; the latter was introduced for the first time as a subtask in SemEval.The task attracted 245 submissions from 29 teams.",
+            "aminer_id": "599c7e8f601a182cd28aea22"
+        },
+        "ganu2009beyond": {
+            "number": "[23]",
+            "title": "Beyond the Stars: Improving Rating Predictions Using Review Text Content.",
+            "text": "title={Beyond the stars: improving rating predictions using review text content.},\n  author={Ganu, Gayatree and Elhadad, Noemie and Marian, Am{\\'e}lie},\n  booktitle={WebDB},\n  volume={9},\n  pages={1--6},\n  year={2009}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Beyond the stars: improving rating predictions using review text content.",
+                "author": "Ganu, Gayatree and Elhadad, Noemie and Marian, Am{\\'e}lie",
+                "booktitle": "WebDB",
+                "volume": "9",
+                "pages": "1--6",
+                "year": "2009"
+            },
+            "ref_source": "bib",
+            "abstract": "Online reviews are an important asset for users deciding to buy a product, see a movie, or go to a restaurant, as well as for businesses tracking user feedback. However, most reviews are written in a free-text format, and are therefore difficult for computer systems to understand, analyze, and aggregate. One consequence of this lack of structure is that searching text reviews is often frustrating for users. User experience would be greatly improved if the structure and sentiment conveyed in the content of the reviews were taken into account. Our work focuses on identifying this information from free-form text reviews, and using the knowledge to improve user experience in accessing reviews. Specifically, we focused on improving recommendation accuracy in a restaurant review scenario. In this paper, we report on our classification effort, and on the insight on user-reviewing behavior that we gained in the process. We propose new ad-hoc and regression-based recommendation measures, that both take into account the textual component of user reviews. Our results show that using textual information results in better general or personalized review score predictions than those derived from the numerical star ratings given by the users.",
+            "aminer_id": "53e99f86b7602d970285bd7b"
+        },
+        "saeidi2016sentihood": {
+            "number": "[24]",
+            "title": "SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban Neighbourhoods.",
+            "text": "title={SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban Neighbourhoods},\n  author={Saeidi, Marzieh and Bouchard, Guillaume and Liakata, Maria and Riedel, Sebastian},\n  booktitle={Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers},\n  pages={1546--1556},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SentiHood: Targeted Aspect Based Sentiment Analysis Dataset for Urban Neighbourhoods",
+                "author": "Saeidi, Marzieh and Bouchard, Guillaume and Liakata, Maria and Riedel, Sebastian",
+                "booktitle": "Proceedings of COLING 2016, the 26th International Conference on Computational Linguistics: Technical Papers",
+                "pages": "1546--1556",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we introduce the task of targeted aspect-based sentiment analysis. The goal is to extract fine-grained information with respect to entities mentioned in user comments. This work extends both aspect-based sentiment analysis that assumes a single entity per document and targeted sentiment analysis that assumes a single sentiment towards a target entity. In particular, we identify the sentiment towards each aspect of one or more entities. As a testbed for this task, we introduce the SentiHood dataset, extracted from a question answering (QA) platform where urban neighbourhoods are discussed by users. In this context units of text often mention several aspects of one or more neighbourhoods. This is the first time that a generic social media platform in this case a QA platform, is used for fine-grained opinion mining. Text coming from QA platforms is far less constrained compared to text from review specific platforms which current datasets are based on. We develop several strong baselines, relying on logistic regression and state-of-the-art recurrent neural networks.",
+            "aminer_id": "58437722ac44360f1082f215"
+        },
+        "wojatzki2017germeval": {
+            "number": "[25]",
+            "title": "Germeval 2017: Shared task on aspect-based sentiment in social media customer feedback",
+            "text": "title={Germeval 2017: Shared task on aspect-based sentiment in social media customer feedback},\n  author={Wojatzki, Michael and Ruppert, Eugen and Holschneider, Sarah and Zesch, Torsten and Biemann, Chris},\n  journal={Proceedings of the GermEval},\n  pages={1--12},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "Germeval 2017: Shared task on aspect-based sentiment in social media customer feedback",
+                "author": "Wojatzki, Michael and Ruppert, Eugen and Holschneider, Sarah and Zesch, Torsten and Biemann, Chris",
+                "journal": "Proceedings of the GermEval",
+                "pages": "1--12",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "gabryszak2022mobasa": {
+            "number": "[26]",
+            "title": "MobASA: Corpus for Aspect-based Sentiment Analysis and Social Inclusion in the Mobility Domain",
+            "text": "title={MobASA: Corpus for Aspect-based Sentiment Analysis and Social Inclusion in the Mobility Domain},\n  author={Gabryszak, Aleksandra and Thomas, Philippe},\n  booktitle={Proceedings of the First Computing Social Responsibility Workshop within the 13th Language Resources and Evaluation Conference},\n  pages={35--39},\n  year={2022}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "MobASA: Corpus for Aspect-based Sentiment Analysis and Social Inclusion in the Mobility Domain",
+                "author": "Gabryszak, Aleksandra and Thomas, Philippe",
+                "booktitle": "Proceedings of the First Computing Social Responsibility Workshop within the 13th Language Resources and Evaluation Conference",
+                "pages": "35--39",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we show how aspect-based sentiment analysis might help public transport companies to improve their social responsibility for accessible travel. We present MobASA: a novel German-language corpus of tweets annotated with their relevance for public transportation, and with sentiment towards aspects related to barrier-free travel. We identified and labeled topics important for passengers limited in their mobility due to disability, age, or when travelling with young children. The data can be used to identify hurdles and improve travel planning for vulnerable passengers, as well as to monitor a perception of transportation businesses regarding the social inclusion of all passengers. The data is publicly available under: https://github.com/DFKI-NLP/sim3s-corpus",
+            "aminer_id": "68a8c2f710159f9ae8e63738"
+        },
+        "sanger2016scare": {
+            "number": "[27]",
+            "title": "SCARE―the Sentiment Corpus of App Reviews with Fine-grained Annotations in German",
+            "text": "title={SCARE―the Sentiment Corpus of App Reviews with Fine-grained Annotations in German},\n  author={S{\\\"a}nger, Mario and Leser, Ulf and Kemmerer, Steffen and Adolphs, Peter and Klinger, Roman},\n  booktitle={Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16)},\n  pages={1114--1121},\n  year={2016}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "SCARE―the Sentiment Corpus of App Reviews with Fine-grained Annotations in German",
+                "author": "S{\\\"a}nger, Mario and Leser, Ulf and Kemmerer, Steffen and Adolphs, Peter and Klinger, Roman",
+                "booktitle": "Proceedings of the Tenth International Conference on Language Resources and Evaluation (LREC'16)",
+                "pages": "1114--1121",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "57d0640bac4436735429a5cf"
+        },
+        "lee2007incorporating": {
+            "number": "[28]",
+            "title": "Incorporating Multi-Criteria Ratings in Recommendation Systems",
+            "text": "title={Incorporating multi-criteria ratings in recommendation systems},\n  author={Lee, Hsin-Hsien and Teng, Wei-Guang},\n  booktitle={2007 IEEE International Conference on Information Reuse and Integration},\n  pages={273--278},\n  year={2007},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Incorporating multi-criteria ratings in recommendation systems",
+                "author": "Lee, Hsin-Hsien and Teng, Wei-Guang",
+                "booktitle": "2007 IEEE International Conference on Information Reuse and Integration",
+                "pages": "273--278",
+                "year": "2007",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "Recommendation systems utilize information techniques to the problem of helping users find the items they would like. Example applications include the recommendation systems for movies, books, CDs and many others. As recommendation systems emerge as an independent research area, the rating structure plays a critical role in recent studies. Among many alternatives, the collaborative filtering algorithms are generally accepted to be successful to estimate user ratings of unseen items and then to derive proper recommendations. In this paper, we extend the concept of single criterion ratings to multi-criteria ones, i.e., an item can be evaluated in many different, aspects. Since there are usually conflicts among different criteria, the recommendation problem cannot be formulated as an optimization problem any more. Instead, we propose to use data query techniques to solve this multi-criteria recommendation problem.",
+            "aminer_id": "53e9ab00b7602d970348101c"
+        },
+        "fehle2023aspect": {
+            "number": "[29]",
+            "title": "Aspect-Based Sentiment Analysis as a Multi-Label Classification Task on the Domain of German Hotel Reviews.",
+            "text": "title={Aspect-based sentiment analysis as a multi-label classification task on the domain of german hotel reviews},\n  author={Fehle, Jakob and M{\\\"u}nster, Leonie and Schmidt, Thomas and Wolff, Christian},\n  booktitle={Proceedings of the 19th Conference on Natural Language Processing (KONVENS 2023)},\n  pages={202--218},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect-based sentiment analysis as a multi-label classification task on the domain of german hotel reviews",
+                "author": "Fehle, Jakob and M{\\\"u}nster, Leonie and Schmidt, Thomas and Wolff, Christian",
+                "booktitle": "Proceedings of the 19th Conference on Natural Language Processing (KONVENS 2023)",
+                "pages": "202--218",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "65dd5f0313fb2c6cf68dea41"
+        },
+        "loper2002nltk": {
+            "number": "[30]",
+            "title": "NLTK: the Natural Language Toolkit",
+            "text": "title={NLTK: The Natural Language Toolkit}, \n      author={Edward Loper and Steven Bird},\n      year={2002},\n      eprint={cs/0205028},\n      archivePrefix={arXiv},\n      primaryClass={cs.CL}",
+            "type": "misc",
+            "fields": {
+                "title": "NLTK: The Natural Language Toolkit",
+                "author": "Edward Loper and Steven Bird",
+                "year": "2002",
+                "eprint": "cs/0205028",
+                "archiveprefix": "arXiv",
+                "primaryclass": "cs.CL"
+            },
+            "ref_source": "bib",
+            "abstract": "The Natural Language Toolkit is a suite of program modules, data sets, tutorials and exercises, covering symbolic and statistical natural language processing. NLTK is written in Python and distributed under the GPL open source license. Over the past three years, NLTK has become popular in teaching and research. We describe the toolkit and report on its current state of development.",
+            "aminer_id": "5390994d20f70186a0e129aa"
+        },
+        "devlin2018bert": {
+            "number": "[31]",
+            "title": "BERT: Pre-training of Deep Bidirectional Transformers for Language Understanding",
+            "text": "title={Bert: Pre-training of deep bidirectional transformers for language understanding},\n  author={Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},\n  journal={arXiv preprint arXiv:1810.04805},\n  year={2018}",
+            "type": "article",
+            "fields": {
+                "title": "Bert: Pre-training of deep bidirectional transformers for language understanding",
+                "author": "Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina",
+                "journal": "arXiv preprint arXiv:1810.04805",
+                "year": "2018"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce a new language representation model called BERT, which stands for Bidirectional Encoder Representations from Transformers. Unlike recent language representation models, BERT is designed to pre-train deep bidirectional representations from unlabeled text by jointly conditioning on both left and right context in all layers. As a result, the pre-trained BERT model can be fine-tuned with just one additional output layer to create state-of-the-art models for a wide range of tasks, such as question answering and language inference, without substantial task-specific architecture modifications. BERT is conceptually simple and empirically powerful. It obtains new state-of-the-art results on eleven natural language processing tasks, including pushing the GLUE score to 80.5% (7.7% point absolute improvement), MultiNLI accuracy to 86.7% (4.6% absolute improvement), SQuAD v1.1 question answering Test F1 to 93.2 (1.5 point absolute improvement) and SQuAD v2.0 Test F1 to 83.1 (5.1 point absolute improvement).",
+            "aminer_id": "5bdc31b417c44a1f58a0b8c2"
+        },
+        "chan2020german": {
+            "number": "[32]",
+            "title": "German’s Next Language Model",
+            "text": "title={German’s Next Language Model},\n  author={Chan, Branden and Schweter, Stefan and M{\\\"o}ller, Timo},\n  booktitle={Proceedings of the 28th International Conference on Computational Linguistics},\n  pages={6788--6796},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "German’s Next Language Model",
+                "author": "Chan, Branden and Schweter, Stefan and M{\\\"o}ller, Timo",
+                "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics",
+                "pages": "6788--6796",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5f9159df91e011126509bdd5"
+        },
+        "li2019exploiting": {
+            "number": "[33]",
+            "title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+            "text": "title={Exploiting BERT for End-to-End Aspect-based Sentiment Analysis},\n  author={Li, Xin and Bing, Lidong and Zhang, Wenxuan and Lam, Wai},\n  booktitle={Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT 2019)},\n  pages={34--41},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Exploiting BERT for End-to-End Aspect-based Sentiment Analysis",
+                "author": "Li, Xin and Bing, Lidong and Zhang, Wenxuan and Lam, Wai",
+                "booktitle": "Proceedings of the 5th Workshop on Noisy User-generated Text (W-NUT 2019)",
+                "pages": "34--41",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we investigate the modeling power of contextualized embeddings from pre-trained language models, e.g. BERT, on the E2E-ABSA task. Specifically, we build a series of simple yet insightful neural baselines to deal with E2E-ABSA. The experimental results show that even with a simple linear classification layer, our BERT-based architecture can outperform state-of-the-art works. Besides, we also standardize the comparative study by consistently utilizing a hold-out validation dataset for model selection, which is largely ignored by previous works. Therefore, our work can serve as a BERT-based benchmark for E2E-ABSA.",
+            "aminer_id": "5d95c6ca3a55ac3d58c9b1ba"
+        },
+        "zhang2023sentiment": {
+            "number": "[34]",
+            "title": "Sentiment Analysis in the Era of Large Language Models: A Reality Check",
+            "text": "title={Sentiment Analysis in the Era of Large Language Models: A Reality Check},\n  author={Zhang, Wenxuan and Deng, Yue and Liu, Bing and Pan, Sinno Jialin and Bing, Lidong},\n  journal={arXiv preprint arXiv:2305.15005},\n  year={2023},\n  doi={https://doi.org/10.48550/arXiv.2305.15005}",
+            "type": "article",
+            "fields": {
+                "title": "Sentiment Analysis in the Era of Large Language Models: A Reality Check",
+                "author": "Zhang, Wenxuan and Deng, Yue and Liu, Bing and Pan, Sinno Jialin and Bing, Lidong",
+                "journal": "arXiv preprint arXiv:2305.15005",
+                "year": "2023",
+                "doi": "https://doi.org/10.48550/arXiv.2305.15005"
+            },
+            "ref_source": "bib",
+            "abstract": "Sentiment analysis (SA) has been a long-standing research area in natural language processing. It can offer rich insights into human sentiments and opinions and has thus seen considerable interest from both academia and industry. With the advent of large language models (LLMs) such as ChatGPT, there is a great potential for their employment on SA problems. However, the extent to which existing LLMs can be leveraged for different sentiment analysis tasks remains unclear. This paper aims to provide a comprehensive investigation into the capabilities of LLMs in performing various sentiment analysis tasks, from conventional sentiment classification to aspect-based sentiment analysis and multifaceted analysis of subjective texts. We evaluate performance across 13 tasks on 26 datasets and compare the results against small language models (SLMs) trained on domain-specific datasets. Our study reveals that while LLMs demonstrate satisfactory performance in simpler tasks, they lag behind in more complex tasks requiring deeper understanding or structured sentiment information. However, LLMs significantly outperform SLMs in few-shot learning settings, suggesting their potential when annotation resources are limited. We also highlight the limitations of current evaluation practices in assessing LLMs' SA abilities and propose a novel benchmark, \\textsc{SentiEval}, for a more comprehensive and realistic evaluation. Data and code during our investigations are available at \\url{https://github.com/DAMO-NLP-SG/LLM-Sentiment}.",
+            "aminer_id": "646edc9cd68f896efaddaca4"
+        },
+        "zhang2021aspect": {
+            "number": "[35]",
+            "title": "Aspect Sentiment Quad Prediction As Paraphrase Generation",
+            "text": "title={Aspect Sentiment Quad Prediction as Paraphrase Generation},\n  author={Zhang, Wenxuan and Deng, Yang and Li, Xin and Yuan, Yifei and Bing, Lidong and Lam, Wai},\n  booktitle={Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing},\n  pages={9209--9219},\n  year={2021},\n  doi={https://doi.org/10.48550/arXiv.2110.00796}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect Sentiment Quad Prediction as Paraphrase Generation",
+                "author": "Zhang, Wenxuan and Deng, Yang and Li, Xin and Yuan, Yifei and Bing, Lidong and Lam, Wai",
+                "booktitle": "Proceedings of the 2021 Conference on Empirical Methods in Natural Language Processing",
+                "pages": "9209--9219",
+                "year": "2021",
+                "doi": "https://doi.org/10.48550/arXiv.2110.00796"
+            },
+            "ref_source": "bib",
+            "abstract": "Aspect-based sentiment analysis (ABSA) has been extensively studied in recent years, which typically involves four fundamental sentiment elements, including the aspect category, aspect term, opinion term, and sentiment polarity.Existing studies usually consider the detection of partial sentiment elements, instead of predicting the four elements in one shot.In this work, we introduce the Aspect Sentiment Quad Prediction (ASQP) task, aiming to jointly detect all sentiment elements in quads for a given opinionated sentence, which can reveal a more comprehensive and complete aspect-level sentiment structure.We further propose a novel PARAPHRASE modeling paradigm to cast the ASQP task to a paraphrase generation process.On one hand, the generation formulation allows solving ASQP in an end-to-end manner, alleviating the potential error propagation in the pipeline solution.On the other hand, the semantics of the sentiment elements can be fully exploited by learning to generate them in the natural language form.Extensive experiments on benchmark datasets show the superiority of our proposed method and the capacity of crosstask transfer with the proposed unified PARA-PHRASE modeling framework.",
+            "aminer_id": "615bc2725244ab9dcbdbcbfc"
+        },
+        "honnibal2017spacy": {
+            "number": "[36]",
+            "title": "spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing",
+            "text": "title={spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing},\n  author={Honnibal, Matthew and Montani, Ines},\n  journal={To appear},\n  volume={7},\n  number={1},\n  pages={411--420},\n  year={2017}",
+            "type": "article",
+            "fields": {
+                "title": "spaCy 2: Natural language understanding with Bloom embeddings, convolutional neural networks and incremental parsing",
+                "author": "Honnibal, Matthew and Montani, Ines",
+                "journal": "To appear",
+                "volume": "7",
+                "number": "1",
+                "pages": "411--420",
+                "year": "2017"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "sun2019utilizing": {
+            "number": "[37]",
+            "title": "Utilizing BERT for Aspect-Based Sentiment Analysis Via Constructing Auxiliary Sentence",
+            "text": "title={Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence},\n  author={Sun, Chi and Huang, Luyao and Qiu, Xipeng},\n  booktitle={Proceedings of NAACL-HLT},\n  pages={380--385},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Utilizing BERT for Aspect-Based Sentiment Analysis via Constructing Auxiliary Sentence",
+                "author": "Sun, Chi and Huang, Luyao and Qiu, Xipeng",
+                "booktitle": "Proceedings of NAACL-HLT",
+                "pages": "380--385",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Aspect-based sentiment analysis (ABSA), which aims to identify fine-grained opinion polarity towards a specific aspect, is a challenging subtask of sentiment analysis (SA). In this paper, we construct an auxiliary sentence from the aspect and convert ABSA to a sentence-pair classification task, such as question answering (QA) and natural language inference (NLI). We fine-tune the pre-trained model from BERT and achieve new state-of-the-art results on SentiHood and SemEval-2014 Task 4 datasets. The source codes are available at https://github.com/HSLCY/ABSA-BERT-pair.",
+            "aminer_id": "5c98a873e1cd8e9a944fe83d"
+        },
+        "assenmacher2021re": {
+            "number": "[38]",
+            "title": "Re-Evaluating GermEval17 Using German Pre-Trained Language Models",
+            "text": "author       = {Matthias A{\\ss}enmacher and\n                  Alessandra Corvonato and\n                  Christian Heumann},\n  title        = {Re-Evaluating GermEval17 Using German Pre-Trained Language Models},\n  booktitle    = {Proceedings of the Swiss Text Analytics Conference 2021, Winterthur,\n                  Switzerland, June 14-16, 2021 (held online due to {COVID19} pandemic)},\n  series       = {{CEUR} Workshop Proceedings},\n  volume       = {2957},\n  year         = {2021},\n  url          = {https://ceur-ws.org/Vol-2957/paper1.pdf},",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Matthias A{\\ss}enmacher and Alessandra Corvonato and Christian Heumann",
+                "title": "Re-Evaluating GermEval17 Using German Pre-Trained Language Models",
+                "booktitle": "Proceedings of the Swiss Text Analytics Conference 2021, Winterthur, Switzerland, June 14-16, 2021 (held online due to {COVID19} pandemic)",
+                "series": "{CEUR} Workshop Proceedings",
+                "volume": "2957",
+                "year": "2021",
+                "url": "https://ceur-ws.org/Vol-2957/paper1.pdf"
+            },
+            "ref_source": "bib",
+            "abstract": "The lack of a commonly used benchmark data set (collection) such as (Super-)GLUE (Wang et al., 2018, 2019) for the evaluation of non-English pre-trained language models is a severe shortcoming of current English-centric NLP-research. It concentrates a large part of the research on English, neglecting the uncertainty when transferring conclusions found for the English language to other languages. We evaluate the performance of the German and multilingual BERT-based models currently available via the huggingface transformers library on the four tasks of the GermEval17 workshop. We compare them to pre-BERT architectures (Wojatzki et al., 2017; Schmitt et al., 2018; Attia et al., 2018) as well as to an ELMo-based architecture (Biesialska et al., 2020) and a BERT-based approach (Guhr et al., 2020). The observed improvements are put in relation to those for similar tasks and similar models (pre-BERT vs. BERT-based) for the English language in order to draw tentative conclusions about whether the observed improvements are transferable to German or potentially other related languages.",
+            "aminer_id": "60378e9691e011d7c73cd587"
+        },
+        "jiang2019challenge": {
+            "number": "[39]",
+            "title": "A Challenge Dataset and Effective Models for Aspect-Based Sentiment Analysis.",
+            "text": "title={A challenge dataset and effective models for aspect-based sentiment analysis},\n  author={Jiang, Qingnan and Chen, Lei and Xu, Ruifeng and Ao, Xiang and Yang, Min},\n  booktitle={Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP)},\n  pages={6280--6285},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A challenge dataset and effective models for aspect-based sentiment analysis",
+                "author": "Jiang, Qingnan and Chen, Lei and Xu, Ruifeng and Ao, Xiang and Yang, Min",
+                "booktitle": "Proceedings of the 2019 conference on empirical methods in natural language processing and the 9th international joint conference on natural language processing (EMNLP-IJCNLP)",
+                "pages": "6280--6285",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "Aspect-based sentiment analysis (ABSA) has attracted increasing attention recently due to its broad applications. In existing ABSA datasets, most sentences contain only one aspect or multiple aspects with the same sentiment polarity, which makes ABSA task degenerate to sentence-level sentiment analysis. In this paper, we present a new large-scale Multi-Aspect Multi-Sentiment (MAMS) dataset, in which each sentence contains at least two different aspects with different sentiment polarities. The release of this dataset would push forward the research in this field. In addition, we propose simple yet effective CapsNet and CapsNet-BERT models which combine the strengths of recent NLP advances. Experiments on our new dataset show that the proposed model significantly outperforms the state-of-the-art baseline methods",
+            "aminer_id": "5db929ec47c8f766461fd051"
+        },
+        "cai2020aspect": {
+            "number": "[40]",
+            "title": "Aspect-Category Based Sentiment Analysis with Hierarchical Graph Convolutional Network",
+            "text": "title={Aspect-category based sentiment analysis with hierarchical graph convolutional network},\n  author={Cai, Hongjie and Tu, Yaofeng and Zhou, Xiangsheng and Yu, Jianfei and Xia, Rui},\n  booktitle={Proceedings of the 28th international conference on computational linguistics},\n  pages={833--843},\n  year={2020}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Aspect-category based sentiment analysis with hierarchical graph convolutional network",
+                "author": "Cai, Hongjie and Tu, Yaofeng and Zhou, Xiangsheng and Yu, Jianfei and Xia, Rui",
+                "booktitle": "Proceedings of the 28th international conference on computational linguistics",
+                "pages": "833--843",
+                "year": "2020"
+            },
+            "ref_source": "bib",
+            "abstract": "Most of the aspect based sentiment analysis research aims at identifying the sentiment polarities toward some explicit aspect terms while ignores implicit aspects in text. To capture both explicit and implicit aspects, we focus on aspect-category based sentiment analysis, which involves joint aspect category detection and category-oriented sentiment classification. However, currently only a few simple studies have focused on this problem. The shortcomings in the way they defined the task make their approaches difficult to effectively learn the inner-relations between categories and the inter-relations between categories and sentiments. In this work, we re-formalize the task as a category-sentiment hierarchy prediction problem, which contains a hierarchy output structure to first identify multiple aspect categories in a piece of text, and then predict the sentiment for each of the identified categories. Specifically, we propose a Hierarchical Graph Convolutional Network (Hier-GCN), where a lower-level GCN is to model the inner-relations among multiple categories, and the higher-level GCN is to capture the inter-relations between aspect categories and sentiments. Extensive evaluations demonstrate that our hierarchy output structure is superior over existing ones, and the Hier-GCN model can consistently achieve the best results on four benchmarks.",
+            "aminer_id": "5ff880bc91e011c83266a80b"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 40,
+        "citation_types": {
+            "other": 40
+        }
+    }
+}

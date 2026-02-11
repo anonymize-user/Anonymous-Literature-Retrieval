@@ -1,0 +1,1372 @@
+{
+    "topic": "Deep Learning for Change Detection in Remote Sensing Images:\n  Comprehensive Review and Meta-Analysis",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[10]",
+                "[21]",
+                "[16]",
+                "[18]",
+                "[8]",
+                "[14]",
+                "[1]",
+                "[15]",
+                "[17]",
+                "[4]",
+                "[7]",
+                "[6]",
+                "[12]",
+                "[22]",
+                "[13]",
+                "[5]",
+                "[2]",
+                "[19]",
+                "[9]",
+                "[3]",
+                "[20]",
+                "[11]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Change detection in remote sensing",
+            "refs": [
+                "[28]",
+                "[30]",
+                "[23]",
+                "[25]",
+                "[27]",
+                "[24]",
+                "[13]",
+                "[26]",
+                "[29]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Brief Overview of deep learning",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "History",
+                    "refs": [
+                        "[37]",
+                        "[34]",
+                        "[33]",
+                        "[36]",
+                        "[38]",
+                        "[39]",
+                        "[31]",
+                        "[35]",
+                        "[32]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Deep models",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "DBNs",
+                            "refs": [
+                                "[40]",
+                                "[41]",
+                                "[43]",
+                                "[31]",
+                                "[42]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "SAEs",
+                            "refs": [
+                                "[44]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "CNNs",
+                            "refs": [
+                                "[56]",
+                                "[50]",
+                                "[42]",
+                                "[49]",
+                                "[55]",
+                                "[48]",
+                                "[51]",
+                                "[45]",
+                                "[31]",
+                                "[54]",
+                                "[46]",
+                                "[52]",
+                                "[47]",
+                                "[53]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "RNNs",
+                            "refs": [
+                                "[37]",
+                                "[59]",
+                                "[60]",
+                                "[58]",
+                                "[57]",
+                                "[61]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "GANs",
+                            "refs": [
+                                "[62]",
+                                "[31]",
+                                "[42]"
+                            ],
+                            "subsections": [],
+                            "number": "3.2.5",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.2",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Methods and data used to review DL for CD in remote sensing images",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "A meta-analysis process for data extraction",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Referred journals and conference papers",
+                    "refs": [
+                        "[20]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Brief interpretation of the results",
+                    "refs": [
+                        "[64]",
+                        "[67]",
+                        "[65]",
+                        "[63]",
+                        "[66]",
+                        "[47]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Deep learning for change detection in remote Sensing images",
+            "refs": [
+                "[20]",
+                "[68]",
+                "[69]",
+                "[46]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Fully Supervised learning based-methods",
+                    "refs": [
+                        "[83]",
+                        "[74]",
+                        "[73]",
+                        "[63]",
+                        "[72]",
+                        "[25]",
+                        "[82]",
+                        "[75]",
+                        "[71]",
+                        "[78]",
+                        "[70]",
+                        "[79]",
+                        "[76]",
+                        "[46]",
+                        "[80]",
+                        "[22]",
+                        "[77]",
+                        "[81]"
+                    ],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Fully unsupervised learning based-methods",
+                    "refs": [
+                        "[92]",
+                        "[87]",
+                        "[94]",
+                        "[95]",
+                        "[84]",
+                        "[91]",
+                        "[88]",
+                        "[89]",
+                        "[90]",
+                        "[93]",
+                        "[46]",
+                        "[22]",
+                        "[96]",
+                        "[86]",
+                        "[85]",
+                        "[14]"
+                    ],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Deep transfer learning based-methods",
+                    "refs": [
+                        "[107]",
+                        "[109]",
+                        "[98]",
+                        "[64]",
+                        "[97]",
+                        "[102]",
+                        "[99]",
+                        "[108]",
+                        "[100]",
+                        "[101]",
+                        "[110]",
+                        "[54]",
+                        "[105]",
+                        "[103]",
+                        "[106]",
+                        "[104]"
+                    ],
+                    "subsections": [],
+                    "number": "5.3",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Promising research directions",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Deep reinforcement learning",
+                    "refs": [
+                        "[118]",
+                        "[117]",
+                        "[123]",
+                        "[112]",
+                        "[116]",
+                        "[119]",
+                        "[114]",
+                        "[111]",
+                        "[124]",
+                        "[120]",
+                        "[113]",
+                        "[122]",
+                        "[115]",
+                        "[121]"
+                    ],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Weakly supervised change detection",
+                    "refs": [
+                        "[126]",
+                        "[125]",
+                        "[130]",
+                        "[128]",
+                        "[129]",
+                        "[127]"
+                    ],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        }
+    ],
+    "references": {
+        "LeCun2015": {
+            "number": "[1]",
+            "title": "Deep learning",
+            "text": "L.~Yann, B.~Yoshua, and H.~Geoffrey, ``Deep learning,'' \\emph{Nature}, vol. 521, pp. 436 -- 444, 2015.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "rish2001empirical": {
+            "number": "[2]",
+            "title": "An Empirical Study of the Naive Bayes Classifier",
+            "text": "I.~Rish, ``An empirical study of the naive bayes classifier,'' in \\emph{IJCAI 2001 workshop on empirical methods in artificial intelligence}, vol.~3, no.~22.\\hskip 1em plus 0.5em minus 0.4em\\relax IBM New York, 2001, pp. 41--46.",
+            "ref_source": "tex",
+            "abstract": "The naive Bayes classifier greatly simplify learning by assuming that features are independent given class. Although independence is generally a poor assumption, in practice naive Bayes often competes well with more sophisticated classifiers. Our broad goal is to understand the data characteristics which affect the performance of naive Bayes. Our approach uses Monte Carlo simulations that allow a systematic study of classification accuracy for several classes of randomly generated problems. We analyze the impact of the distribution entropy on the classification error, showing that low-entropy feature distributions yield good performance of naive Bayes. We also demonstrate that naive Bayes works well for certain nearlyfunctional feature dependencies, thus reaching its best performance in two opposite cases: completely independent features (as expected) and functionally dependent features (which is surprising). Another surprising result is that the accuracy of naive Bayes is not directly correlated with the degree of feature dependencies measured as the classconditional mutual information between the features. Instead, a better predictor of naive Bayes accuracy is the amount of information about the class that is lost because of the independence assumption.",
+            "aminer_id": "53e9abbeb7602d970356c536"
+        },
+        "Lewis1998": {
+            "number": "[3]",
+            "title": "Naive (bayes) at Forty: the Independence Assumption in Information Retrieval",
+            "text": "D.~D. Lewis, ``Naive (bayes) at forty: The independence assumption in information retrieval,'' in \\emph{Machine Learning: ECML-98}, C.~N{\\'e}dellec and C.~Rouveirol, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 1998, pp. 4--15.",
+            "ref_source": "tex",
+            "abstract": "The naive Bayes classifier, currently experiencing a renaissance in machine learning, has long been a core technique in information retrieval. We review some of the variations of naive Bayes models used for text retrieval and classification, focusing on the distributional assumptions made about word occurrences in documents.",
+            "aminer_id": "53908a4020f70186a0d9f217"
+        },
+        "Suykens99leastsquares": {
+            "number": "[4]",
+            "title": "Least squares support vector machine classifiers: a large scale algorithm",
+            "text": "J.~Suykens, L.~Lukas, P.~V. Dooren, B.~D. Moor, and J.~Vandewalle, ``Least squares support vector machine classifiers: a large scale algorithm,'' 1999.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "CauwenberghsP00": {
+            "number": "[5]",
+            "title": "Incremental and decremental support vector machine learning",
+            "text": "G.~Cauwenberghs and T.~A. Poggio, ``Incremental and decremental support vector machine learning,'' in \\emph{NIPS}, T.~K. Leen, T.~G. Dietterich, and V.~Tresp, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax MIT Press, 2000, pp. 409--415.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "599c7f07601a182cd28e4c1d"
+        },
+        "breiman2001random": {
+            "number": "[6]",
+            "title": "Random forests",
+            "text": "L.~Breiman, ``Random forests,'' \\emph{Machine Learning}, vol.~45, no.~1, pp. 5--32, 2001.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "6218caed5aee126c0fb094b6"
+        },
+        "GISLASON2006294": {
+            "number": "[7]",
+            "title": "Random Forests for Land Cover Classification",
+            "text": "P.~O. Gislason, J.~A. Benediktsson, and J.~R. Sveinsson, ``Random forests for land cover classification,'' \\emph{Pattern Recognition Letters}, vol.~27, no.~4, pp. 294 -- 300, 2006.",
+            "ref_source": "tex",
+            "abstract": "Random Forests are considered for classification of multisource remote sensing and geographic data. Various ensemble classification methods have been proposed in recent years. These methods have been proven to improve classification accuracy considerably. The most widely used ensemble methods are boosting and bagging. Boosting is based on sample re-weighting but bagging uses bootstrapping. The Random Forest classifier uses bagging, or bootstrap aggregating, to form an ensemble of classification and regression tree (CART)-like classifiers. In addition, it searches only a random subset of the variables for a split at each CART node, in order to minimize the correlation between the classifiers in the ensemble. This method is not sensitive to noise or overtraining, as the resampling is not based on weighting. Furthermore, it is computationally much lighter than methods based on boosting and somewhat lighter than simple bagging. In the paper, the use of the Random Forest classifier for land cover classification is explored. We compare the accuracy of the Random Forest classifier to other better-known ensemble methods on multisource remote sensing and geographic data.",
+            "aminer_id": "539099a220f70186a0e177b4"
+        },
+        "Safavian1991": {
+            "number": "[8]",
+            "title": "A Survey of Decision Tree Classifier Methodology",
+            "text": "S.~R. {Safavian} and D.~{Landgrebe}, ``A survey of decision tree classifier methodology,'' \\emph{IEEE Transactions on Systems, Man, and Cybernetics}, vol.~21, no.~3, pp. 660--674, 1991.",
+            "ref_source": "tex",
+            "abstract": "A survey is presented of current methods for decision tree classifier (DTC) designs and the various existing issues. After considering potential advantages of DTCs over single-state classifiers, the subjects of tree structure design, feature selection at each internal node, and decision and search strategies are discussed. The relation between decision trees and neutral networks (NN) is also discussed. >",
+            "aminer_id": "557d55b1f667eeed5619ac90"
+        },
+        "FRIEDL1997": {
+            "number": "[9]",
+            "title": "Decision Tree Classification of Land Cover from Remotely Sensed Data",
+            "text": "M.~Friedl and C.~Brodley, ``Decision tree classification of land cover from remotely sensed data,'' \\emph{Remote Sensing of Environment}, vol.~61, no.~3, pp. 399 -- 409, 1997.",
+            "ref_source": "tex",
+            "abstract": "Decision tree classification algorithms have significant potential for land cover mapping problems and have not been tested in detail by the remote sensing community relative to more conventional pattern recognition techniques such as maximum likelihood classification. In this paper, we present several types of decision tree classification algorithms arid evaluate them on three different remote sensing data sets. The decision tree classification algorithms tested include an univariate decision tree, a multivariate decision tree, and a hybrid decision tree capable of including several different types of classification algorithms within a single decision tree structure. Classification accuracies produced by each of these decision tree algorithms are compared with both maximum likelihood and linear discriminant function classifiers. Results from this analysis show that the decision tree algorithms consistently outperform the maximum likelihood and linear discriminant function classifiers in regard to classf — cation accuracy. In particular, the hybrid tree consistently produced the highest classification accuracies for the data sets tested. More generally, the results from this work show that decision trees have several advantages for remote sensing applications by virtue of their relatively simple, explicit, and intuitive classification structure. Further, decision tree algorithms are strictly nonparametric and, therefore, make no assumptions regarding the distribution of input data, and are flexible and robust with respect to nonlinear and noisy relations among input features and class labels.",
+            "aminer_id": "5fd58525a4e4c3c831ab8990"
+        },
+        "Voulodimos": {
+            "number": "[10]",
+            "title": "Deep Learning for Computer Vision: A Brief Review",
+            "text": "A.~Voulodimos, N.~Doulamis, A.~Doulamis, and E.~Protopapadakis, ``Deep learning for computer vision: A brief review,'' \\emph{Computational Intelligence and Neuroscience}, vol. 2018, pp. 1--13, 02 2018.",
+            "ref_source": "tex",
+            "abstract": "Over the last years deep learning methods have been shown to outperform previous state-of-the-art machine learning techniques in several fields, with computer vision being one of the most prominent cases. This review paper provides a brief overview of some of the most significant deep learning schemes used in computer vision problems, that is, Convolutional Neural Networks, Deep Boltzmann Machines and Deep Belief Networks, and Stacked Denoising Autoencoders. A brief account of their history, structure, advantages, and limitations is given, followed by a description of their applications in various computer vision tasks, such as object detection, face recognition, action and activity recognition, and human pose estimation. Finally, a brief overview is given of future directions in designing deep learning schemes for computer vision problems and the challenges involved therein.",
+            "aminer_id": "627e26b95aee126c0f7d6eb3"
+        },
+        "6639344": {
+            "number": "[11]",
+            "title": "New Types of Deep Neural Network Learning for Speech Recognition and Related Applications: an Overview",
+            "text": "L.~{Deng}, G.~{Hinton}, and B.~{Kingsbury}, ``New types of deep neural network learning for speech recognition and related applications: an overview,'' in \\emph{2013 IEEE International Conference on Acoustics, Speech and Signal Processing}, 2013, pp. 8599--8603.",
+            "ref_source": "tex",
+            "abstract": "In this paper, we provide an overview of the invited and contributed papers presented at the special session at ICASSP-2013, entitled “New Types of Deep Neural Network Learning for Speech Recognition and Related Applications,” as organized by the authors. We also describe the historical context in which acoustic models based on deep neural networks have been developed. The technical overview of the papers presented in our special session is organized into five ways of improving deep learning methods: (1) better optimization; (2) better types of neural activation function and better network architectures; (3) better ways to determine the myriad hyper-parameters of deep neural networks; (4) more appropriate ways to preprocess speech for deep neural networks; and (5) ways of leveraging multiple languages or dialects that are more easily achieved with deep neural networks than with Gaussian mixture models.",
+            "aminer_id": "53e9bb1cb7602d9704758738"
+        },
+        "Palangi2016": {
+            "number": "[12]",
+            "title": "Deep Sentence Embedding Using Long Short-Term Memory Networks: Analysis and Application to Information Retrieval",
+            "text": "H.~{Palangi}, L.~{Deng}, Y.~{Shen}, J.~{Gao}, X.~{He}, J.~{Chen}, X.~{Song}, and R.~{Ward}, ``Deep sentence embedding using long short-term memory networks: Analysis and application to information retrieval,'' \\emph{IEEE/ACM Transactions on Audio, Speech, and Language Processing}, vol.~24, no.~4, pp. 694--707, 2016.",
+            "ref_source": "tex",
+            "abstract": "This paper develops a model that addresses sentence embedding, a hot topic in current natural language processing research, using recurrent neural networks (RNN) with Long Short-Term Memory (LSTM) cells. The proposed LSTM-RNN model sequentially takes each word in a sentence, extracts its information, and embeds it into a semantic vector. Due to its ability to capture long term memory, the LSTM-RNN accumulates increasingly richer information as it goes through the sentence, and when it reaches the last word, the hidden layer of the network provides a semantic representation of the whole sentence. In this paper, the LSTM-RNN is trained in a weakly supervised manner on user click-through data logged by a commercial web search engine. Visualization and analysis are performed to understand how the embedding process works. The model is found to automatically attenuate the unimportant words and detect the salient keywords in the sentence. Furthermore, these detected keywords are found to automatically activate different cells of the LSTM-RNN, where words belonging to a similar topic activate the same cell. As a semantic representation of the sentence, the embedding vector can be used in many different applications. These automatic keyword detection and topic allocation abilities enabled by the LSTM-RNN allow the network to perform document retrieval, a difficult language processing task, where the similarity between the query and documents can be measured by the distance between their corresponding sentence embedding vectors computed by the LSTM-RNN. On a web search task, the LSTM-RNN embedding is shown to significantly outperform several existing state of the art methods. We emphasize that the proposed model generates sentence embedding vectors that are specially useful for web document retrieval tasks. A comparison with a well known general sentence embedding method, the Paragraph Vector, is performed. The results show that the proposed method in this paper significantly outperforms Paragraph Vector method for web document retrieval task.",
+            "aminer_id": "5736958b6e3b12023e4abf2f"
+        },
+        "SINGH1989": {
+            "number": "[13]",
+            "title": "Review Article Digital change detection techniques using remotely-sensed data",
+            "text": "A.~SINGH, ``Review article digital change detection techniques using remotely-sensed data,'' \\emph{International Journal of Remote Sensing}, vol.~10, no.~6, pp. 989--1003, 1989.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "53e9b365b7602d9703e46937"
+        },
+        "GONG2017212": {
+            "number": "[14]",
+            "title": "Feature Learning and Change Feature Classification Based on Deep Learning for Ternary Change Detection in Sar Images",
+            "text": "M.~Gong, H.~Yang, and P.~Zhang, ``Feature learning and change feature classification based on deep learning for ternary change detection in sar images,'' \\emph{ISPRS Journal of Photogrammetry and Remote Sensing}, vol. 129, pp. 212 -- 225, 2017.",
+            "ref_source": "tex",
+            "abstract": "Ternary change detection aims to detect changes and group the changes into positive change and negative change. It is of great significance in the joint interpretation of spatial-temporal synthetic aperture radar images. In this study, sparse autoencoder, convolutional neural networks (CNN) and unsupervised clustering are combined to solve ternary change detection problem without any supervison. Firstly, sparse autoencoder is used to transform log-ratio difference image into a suitable feature space for extracting key changes and suppressing outliers and noise. And then the learned features are clustered into three classes, which are taken as the pseudo labels for training a CNN model as change feature classifier. The reliable training samples for CNN are selected from the feature maps learned by sparse autoencoder with certain selection rules. Having training samples and the corresponding pseudo labels, the CNN model can be trained by using back propagation with stochastic gradient descent. During its training procedure, CNN is driven to learn the concept of change, and more powerful model is established to distinguish different types of changes. Unlike the traditional methods, the proposed framework integrates the merits of sparse autoencoder and CNN to learn more robust difference representations and the concept of change for ternary change detection. Experimental results on real datasets validate the effectiveness and superiority of the proposed framework.",
+            "aminer_id": "5c756e7bf56def97985d4a27"
+        },
+        "9037317": {
+            "number": "[15]",
+            "title": "Deep Depthwise Separable Convolutional Network for Change Detection in Optical Aerial Images.",
+            "text": "R.~{Liu}, D.~{Jiang}, L.~{Zhang}, and Z.~{Zhang}, ``Deep depthwise separable convolutional network for change detection in optical aerial images,'' \\emph{IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, vol.~13, pp. 1109--1118, 2020.",
+            "ref_source": "tex",
+            "abstract": "In this article, a remote sensing image change detection method based on depthwise separable convolution with U-Net is proposed, which omits the tedious steps of generating and analyzing the difference map in the traditional remote sensing image change detection method. First, two images having c-channel each can be specifically stacked into a 2c-channel image, and the change detection can be converted to an image segmentation problem, an improved full convolution network (FCN) called U-Net is exploited to directly separate the changing regions. Because the capability of the deep convolution network is proportional to the depth of the network and a deeper convolution network means the increase of the training parameters, we then replace the original convolution in FCN by the depthwise separable convolution, making the entire network lighter, while the model performs slightly better than the traditional convolution operation. Besides that, another innovation in our proposed method is to use a preference control loss function to meet the different needs of precision and recall rate. Experimental results validate the effectiveness and robustness of the proposed method.",
+            "aminer_id": "5ea013df9fced0a24b9ed967"
+        },
+        "Bovolo2007": {
+            "number": "[16]",
+            "title": "A Split-Based Approach to Unsupervised Change Detection in Large-Size Multitemporal Images: Application to Tsunami-Damage Assessment.",
+            "text": "F.~{Bovolo} and L.~{Bruzzone}, ``A split-based approach to unsupervised change detection in large-size multitemporal images: Application to tsunami-damage assessment,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~45, no.~6, pp. 1658--1670, 2007.",
+            "ref_source": "tex",
+            "abstract": "This paper presents a split-based approach (SBA) to automatic and unsupervised change detection in large-size multitemporal remote-sensing images. Unlike standard methods that are presented in the literature, the proposed approach can detect in a consistent And reliable way changes in images of large size also when the extension of the changed area is small (and, therefore, the prior probability of the class of changed pixels is very small). The method is based on the following: 1) a split of the large-size image into subimages; 2) an adaptive analysis of-each subimage; and 3) an automatic split-based threshold-selection procedure. This general approach is used for defining a system for damage assessment in multitemporal synthetic aperture radar (SAR) images. The proposed system has been developed to properly identify different levels of damages that are induced by tsunamis along coastal areas. Experimental results that are obtained on multitemporal RADARSAT-1 SAR images of the Sumatra Island, Indonesia, confirm the effectiveness of both the proposed SBA and the presented system for tsunami-damage assessment.",
+            "aminer_id": "558ade4b84ae84d265c01c9c"
+        },
+        "Coppin2004": {
+            "number": "[17]",
+            "title": "Digital change detection methods in ecosystem monitoring: a review",
+            "text": "P.~Coppin, I.~Jonckheere, K.~Nackaerts, B.~Muys, and E.~Lambin, ``Digital change detection methods in ecosystem monitoring: a review,'' \\emph{International Journal of Remote Sensing}, vol.~25, no.~9, pp. 1565--1596, 2004.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "FERANEC2007234": {
+            "number": "[18]",
+            "title": "Corine Land Cover Change Detection in Europe (case Studies of the Netherlands and Slovakia)",
+            "text": "J.~Feranec, G.~Hazeu, S.~Christensen, and G.~Jaffrain, ``Corine land cover change detection in europe (case studies of the netherlands and slovakia),'' \\emph{Land Use Policy}, vol.~24, no.~1, pp. 234 -- 247, 2007.",
+            "ref_source": "tex",
+            "abstract": "We present a land cover change detection methodology in the framework of the IMAGE and CORINE Land Cover 2000 (I&CLC2000) project managed jointly by the European Environment Agency in Copenhagen, Denmark and the Joint Research Centre of the European Commission in Ispra, Italy. The generated data layers CLC2000 (land cover for the year 2000) and CLC90/2000-changes (land cover changes between the years 1990–2000) cover 29 European countries with a total area of about 4.5 million square kilometers at scale 1:100000. The variants of computer aided visual interpretation of satellite images referred to as updating and backdating were applied in the I&CLC2000 project. This makes use of the revised CLC90 data layer and the Landsat ETM satellite images from 2000 (±1 year) for generation of the CLC 2000 data layer. The CLC90/2000-changes data layer is generated by the overlay of the CLC90 and CLC2000 data layers with the change area of minimum 5ha. This approach may overestimate and underestimate identified land cover changes in some specific situations described in the paper. As an example of land cover change, identification obtained by applying the updating method in the case of the Netherlands is presented. An area of 1681km2 of land cover change was identified for the period 1986–2000. Backdating was a suitable methodological tool applied to the land cover inventory in Slovakia for the years 1970–2000 (3156km2 of land cover changes were identified). Thematic accuracy of derived data layers is ⩾85% and the geometric accuracy is better than 100m. The CLC methodology and results are widely used in several other projects and are of relevance to policies in land management, nature conservation and water management.",
+            "aminer_id": "5fc8d90f4187240e248050d3"
+        },
+        "VIANA2019621": {
+            "number": "[19]",
+            "title": "Land Use/Land Cover Change Detection and Urban Sprawl Analysis",
+            "text": "C.~M. Viana, S.~Oliveira, S.~C. Oliveira, and J.~Rocha, ``29 - land use/land cover change detection and urban sprawl analysis,'' in \\emph{Spatial Modeling in GIS and R for Earth and Environmental Sciences}, H.~R. Pourghasemi and C.~Gokceoglu, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Elsevier, 2019, pp. 621 -- 651.",
+            "ref_source": "tex",
+            "abstract": "This study presents a proposed application of the time-weighted dynamic time warping method for urban sprawl analysis. Four spectral indices were computed from a long time-series of Landsat satellite imagery, corresponding to 48 scenes acquired between 2006 and 2018. The spectral indices were the normalized difference vegetation index, the normalized difference built-up index, the normalized difference water index, and the normalized difference bareness index, which when processed resulted in 192 different images. The R package dtwSat was used for image processing, since it represents one of the few open-source software programs available for processing large time-series datasets. The method was tested applied in the Alentejo Region of southern Portugal; traditionally a rural region, where urban sprawl presents risks for the preservation of agricultural systems and for ecosystem sustainability. The sprawl analysis was integrated in a geographic information system, in which we computed an expansion index to quantitatively assess the three main urban land expansion types: infill, extension, and leapfrog. The results show that, between 2007 and 2012, the main changes are due to extension (50 ha), but with a significant amount of infill (36 ha) and leapfrog growth (4 ha), with the latter being the worst-case scenario. However, in the subsequent period, 2012–17, urban growth decreased to about 10 ha, comprising both infill and extension, but notably leapfrog expansion disappeared. Our methodology proved to be flexible for managing irregular sampling and an out-of-phase time-series. The procedure offers a quantitative means of assessing urban sprawl dynamics and represents a potential strategy for defining sustainable urban development.",
+            "aminer_id": "6218d5c15aee126c0fcabc79"
+        },
+        "MA2019166": {
+            "number": "[20]",
+            "title": "Deep Learning in Remote Sensing Applications: A Meta-Analysis and Review",
+            "text": "``Deep learning in remote sensing applications: A meta-analysis and review,'' \\emph{ISPRS Journal of Photogrammetry and Remote Sensing}, vol. 152, pp. 166 -- 177, 2019.",
+            "ref_source": "tex",
+            "abstract": "Deep learning (DL) algorithms have seen a massive rise in popularity for remote-sensing image analysis over the past few years. In this study, the major DL concepts pertinent to remote-sensing are introduced, and more than 200 publications in this field, most of which were published during the last two years, are reviewed and analyzed. Initially, a meta-analysis was conducted to analyze the status of remote sensing DL studies in terms of the study targets, DL model(s) used, image spatial resolution(s), type of study area, and level of classification accuracy achieved. Subsequently, a detailed review is conducted to describe/discuss how DL has been applied for remote sensing image analysis tasks including image fusion, image registration, scene classification, object detection, land use and land cover (LULC) classification, segmentation, and object-based image analysis (OBIA). This review covers nearly every application and technology in the field of remote sensing, ranging from preprocessing to mapping. Finally, a conclusion regarding the current state-of-the art methods, a critical conclusion on open challenges, and directions for future research are presented.",
+            "aminer_id": "5fb17c1dd4150a363c9a4f0e"
+        },
+        "8113128": {
+            "number": "[21]",
+            "title": "Deep Learning in Remote Sensing: A Comprehensive Review and List of Resources",
+            "text": "X.~X. {Zhu}, D.~{Tuia}, L.~{Mou}, G.~{Xia}, L.~{Zhang}, F.~{Xu}, and F.~{Fraundorfer}, ``Deep learning in remote sensing: A comprehensive review and list of resources,'' \\emph{IEEE Geoscience and Remote Sensing Magazine}, vol.~5, no.~4, pp. 8--36, 2017.",
+            "ref_source": "tex",
+            "abstract": "Standing at the paradigm shift towards data-intensive science, machine learning techniques are becoming increasingly important. In particular, as a major breakthrough in the field, deep learning has proven as an extremely powerful tool in many fields. Shall we embrace deep learning as the key to all? Or, should we resist a 'black-box' solution? There are controversial opinions in the remote sensing community. In this article, we analyze the challenges of using deep learning for remote sensing data analysis, review the recent advances, and provide resources to make deep learning in remote sensing ridiculously simple to start with. More importantly, we advocate remote sensing scientists to bring their expertise into deep learning, and use it as an implicit general model to tackle unprecedented large-scale influential challenges, such as climate change and urbanization.",
+            "aminer_id": "5c75731ff56def979886e2a9"
+        },
+        "7486259": {
+            "number": "[22]",
+            "title": "Deep Learning for Remote Sensing Data: A Technical Tutorial on the State of the Art",
+            "text": "L.~{Zhang}, L.~{Zhang}, and B.~{Du}, ``Deep learning for remote sensing data: A technical tutorial on the state of the art,'' \\emph{IEEE Geoscience and Remote Sensing Magazine}, vol.~4, no.~2, pp. 22--40, 2016.",
+            "ref_source": "tex",
+            "abstract": "Deep-learning (DL) algorithms, which learn the representative and discriminative features in a hierarchical manner from the data, have recently become a hotspot in the machine-learning area and have been introduced into the geoscience and remote sensing (RS) community for RS big data analysis. Considering the low-level features (e.g., spectral and texture) as the bottom level, the output feature representation from the top level of the network can be directly fed into a subsequent classifier for pixel-based classification. As a matter of fact, by carefully addressing the practical demands in RS applications and designing the input?output levels of the whole network, we have found that DL is actually everywhere in RS data analysis: from the traditional topics of image preprocessing, pixel-based classification, and target recognition, to the recent challenging tasks of high-level semantic feature extraction and RS scene understanding.In this technical tutorial, a general framework of DL for RS data is provided, and the state-of-the-art DL methods in RS are regarded as special cases of input-output data combined with various deep networks and tuning tricks. Although extensive experimental results confirm the excellent performance of the DL-based algorithms in RS big data analysis, even more exciting prospects can be expected for DL in RS. Key bottlenecks and potential directions are also indicated in this article, guiding further research into DL for RS data.",
+            "aminer_id": "5c75633ef56def9798e8cea1"
+        },
+        "Liu2015": {
+            "number": "[23]",
+            "title": "Hierarchical Unsupervised Change Detection in Multitemporal Hyperspectral Images",
+            "text": "S.~{Liu}, L.~{Bruzzone}, F.~{Bovolo}, and P.~{Du}, ``Hierarchical unsupervised change detection in multitemporal hyperspectral images,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~53, no.~1, pp. 244--260, 2015.",
+            "ref_source": "tex",
+            "abstract": "The new generation of satellite hyperspectral (HS) sensors can acquire very detailed spectral information directly related to land surface materials. Thus, when multitemporal images are considered, they allow us to detect many potential changes in land covers. This paper addresses the change-detection (CD) problem in multitemporal HS remote sensing images, analyzing the complexity of this task. A novel hierarchical CD approach is proposed, which is aimed at identifying all the possible change classes present between the considered images. In greater detail, in order to formalize the CD problem in HS images, an analysis of the concept of \"change\" is given from the perspective of pixel spectral behaviors. The proposed novel hierarchical scheme is developed by considering spectral change information to identify the change classes having discriminable spectral behaviors. Due to the fact that, in real applications, reference samples are often not available, the proposed approach is designed in an unsupervised way. Experimental results obtained on both simulated and real multitemporal HS images demonstrate the effectiveness of the proposed CD method.",
+            "aminer_id": "55323da445cec66b6f9df1e5"
+        },
+        "Yang2019_bb": {
+            "number": "[24]",
+            "title": "Unsupervised Change Detection Based on a Unified Framework for Weighted Collaborative Representation with RDDL and Fuzzy Clustering.",
+            "text": "G.~{Yang}, H.~{Li}, W.~{Wang}, W.~{Yang}, and W.~J. {Emery}, ``Unsupervised change detection based on a unified framework for weighted collaborative representation with rddl and fuzzy clustering,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~57, no.~11, pp. 8890--8903, 2019.",
+            "ref_source": "tex",
+            "abstract": "In this paper, we propose a novel unsupervised change detection method of remote sensing (RS) images based on a unified framework for weighted collaborative representation (WCR) with robust deep dictionary learning (RDDL) and fuzzy clustering. Specifically, WCR is employed to collaboratively represent neighborhood features with lower computational complexity, for which the RDDL model is built to learn more effective and representative overcomplete dictionary and enhance the robustness against the noise and outliers. Meanwhile, in order to make the resulting collaborative coefficients more beneficial for clustering, the unified framework for WCR with RDDL and fuzzy clustering is designed. By doing so, our framework not only precludes the utilization of third-party clustering algorithm, but also achieves better detection performance. Subsequently, the spatial constraint is enforced on the membership matrix to yield the updated one for further improving the accuracy of change detection. Finally, a binary change mask (CM) is achieved by assigning the pixels into the changed and unchanged classes. Experiments are performed on five pairs of RS images, and experimental results demonstrate the effectiveness of the proposed method.",
+            "aminer_id": "5dbab6a147c8f76646289d3f"
+        },
+        "Liu2019": {
+            "number": "[25]",
+            "title": "Remote Sensing Image Change Detection Based on Information Transmission and Attention Mechanism",
+            "text": "R.~{Liu}, Z.~{Cheng}, L.~{Zhang}, and J.~{Li}, ``Remote sensing image change detection based on information transmission and attention mechanism,'' \\emph{IEEE Access}, vol.~7, pp. 156\\,349--156\\,359, 2019.",
+            "ref_source": "tex",
+            "abstract": "Change detection is one of the core issues of earth observation and has been extensively studied in recent decades. This paper presents a novel deep neural network architecture based on information transmission and attention mechanism. Existing methods rely on a simple mechanism for independently encoding bi-temporal images to obtain their representation vectors. In view of the fact that these methods do not make full use of the rich information between bi-temporal images, we introduce the information transmission module in the design of DNN structure for doing the transmission and interaction of information. In addition, we introduce the attention mechanism behind the information transmission module to give the corresponding attention weight to each temporal image feature so as to enhance the change information of the image, which noticeably improves final prediction. The proposed network is validated on real remote sensing image data sets. Both visual and quantitative analyses of the experimental results demonstrate competitiveness of the proposed method.",
+            "aminer_id": "5de0dc98df1a9c0c415c21a7"
+        },
+        "Kevin2018": {
+            "number": "[26]",
+            "title": "Unsupervised Change Detection in Satellite Images Using Convolutional Neural Networks",
+            "text": "K.~L. de~Jong and A.~S. Bosman, ``Unsupervised change detection in satellite images using convolutional neural networks,'' \\emph{CoRR}, vol. abs/1812.05815, 2018.",
+            "ref_source": "tex",
+            "abstract": "This paper proposes an efficient unsupervised method for detecting relevant changes between two temporally different images of the same scene. A convolutional neural network (CNN) for semantic segmentation is implemented to extract compressed image features, as well as to classify the detected changes into the correct semantic classes. A difference image is created using the feature map information generated by the CNN, without explicitly training on target difference images. Thus, the proposed change detection method is unsupervised, and can be performed using any CNN model pre-trained for semantic segmentation.",
+            "aminer_id": "5c2c7a9217c44a4e7cf313a3"
+        },
+        "Kadhim2016": {
+            "number": "[27]",
+            "title": "Advances in Remote Sensing Applications for Urban Sustainability",
+            "text": "N.~Kadhim, M.~Mourshed, and M.~Bray, ``Advances in remote sensing applications for urban sustainability,'' \\emph{Euro-Mediterranean Journal for Environmental Integration}, vol.~1, no.~7, 2016.",
+            "ref_source": "tex",
+            "abstract": "It is essential to monitor urban evolution at spatial and temporal scales to improve our understanding of the changes in cities and their impact on natural resources and environmental systems. Various aspects of remote sensing are routinely used to detect and map features and changes on land and sea surfaces, and in the atmosphere that affect urban sustainability. We provide a critical and comprehensive review of the characteristics of remote sensing systems, and in particular the trade-offs between various system parameters, as well as their use in two key research areas: (a) issues resulting from the expansion of urban environments, and (b) sustainable urban development. The analysis identifies three key trends in the existing literature: (a) the integration of heterogeneous remote sensing data, primarily for investigating or modelling urban environments as a complex system, (b) the development of new algorithms for effective extraction of urban features, and (c) the improvement in the accuracy of traditional spectral-based classification algorithms for addressing the spectral heterogeneity within urban areas. Growing interests in renewable energy have also resulted in the increased use of remote sensing—for planning, operation, and maintenance of energy infrastructures, in particular the ones with spatial variability, such as solar, wind, and geothermal energy. The proliferation of sustainability thinking in all facets of urban development and management also acts as a catalyst for the increased use of, and advances in, remote sensing for urban applications.",
+            "aminer_id": "58d4f07b0cf210d30c59e9e5"
+        },
+        "ZhangDianjun2016": {
+            "number": "[28]",
+            "title": "Estimation of Soil Moisture from Optical and Thermal Remote Sensing: A Review.",
+            "text": "Z.~Dianjun and Z.~Guoqing, ``Estimation of soil moisture from optical and thermal remote sensing: A review,'' \\emph{Sensors (Basel)}, vol.~16, no.~8, 2016.",
+            "ref_source": "tex",
+            "abstract": "As an important parameter in recent and numerous environmental studies, soil moisture (SM) influences the exchange of water and energy at the interface between the land surface and atmosphere. Accurate estimate of the spatio-temporal variations of SM is critical for numerous large-scale terrestrial studies. Although microwave remote sensing provides many algorithms to obtain SM at large scale, such as SMOS and SMAP etc., resulting in many data products, they are almost low resolution and not applicable in small catchment or field scale. Estimations of SM from optical and thermal remote sensing have been studied for many years and significant progress has been made. In contrast to previous reviews, this paper presents a new, comprehensive and systematic review of using optical and thermal remote sensing for estimating SM. The physical basis and status of the estimation methods are analyzed and summarized in detail. The most important and latest advances in soil moisture estimation using temporal information have been shown in this paper. SM estimation from optical and thermal remote sensing mainly depends on the relationship between SM and the surface reflectance or vegetation index. The thermal infrared remote sensing methods uses the relationship between SM and the surface temperature or variations of surface temperature/vegetation index. These approaches often have complex derivation processes and many approximations. Therefore, combinations of optical and thermal infrared remotely sensed data can provide more valuable information for SM estimation. Moreover, the advantages and weaknesses of different approaches are compared and applicable conditions as well as key issues in current soil moisture estimation algorithms are discussed. Finally, key problems and suggested solutions are proposed for future research.",
+            "aminer_id": "599c7a7e601a182cd26be271"
+        },
+        "Sublime_2019": {
+            "number": "[29]",
+            "title": "Automatic Post-Disaster Damage Mapping Using Deep-Learning Techniques for Change Detection: Case Study of the Tohoku Tsunami.",
+            "text": "J.~Sublime and E.~Kalinicheva, ``Automatic post-disaster damage mapping using deep-learning techniques for change detection: Case study of the tohoku tsunami,'' \\emph{Remote Sensing}, vol.~11, no.~9, p. 1123, May 2019.",
+            "ref_source": "tex",
+            "abstract": "Post-disaster damage mapping is an essential task following tragic events such as hurricanes, earthquakes, and tsunamis. It is also a time-consuming and risky task that still often requires the sending of experts on the ground to meticulously map and assess the damages. Presently, the increasing number of remote-sensing satellites taking pictures of Earth on a regular basis with programs such as Sentinel, ASTER, or Landsat makes it easy to acquire almost in real time images from areas struck by a disaster before and after it hits. While the manual study of such images is also a tedious task, progress in artificial intelligence and in particular deep-learning techniques makes it possible to analyze such images to quickly detect areas that have been flooded or destroyed. From there, it is possible to evaluate both the extent and the severity of the damages. In this paper, we present a state-of-the-art deep-learning approach for change detection applied to satellite images taken before and after the Tohoku tsunami of 2011. We compare our approach with other machine-learning methods and show that our approach is superior to existing techniques due to its unsupervised nature, good performance, and relative speed of analysis.",
+            "aminer_id": "5d04e7d4da56295d08cc9e27"
+        },
+        "Kolos2019": {
+            "number": "[30]",
+            "title": "Procedural Synthesis of Remote Sensing Images for Robust Change Detection with Neural Networks",
+            "text": "M.~Kolos, A.~Marin, A.~Artemov, and E.~Burnaev, ``Procedural synthesis of remote sensing images for robust change detection with neural networks,'' in \\emph{Advances in Neural Networks -- ISNN 2019}, H.~Lu, H.~Tang, and Z.~Wang, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Cham: Springer International Publishing, 2019, pp. 371--387.",
+            "ref_source": "tex",
+            "abstract": "Data-driven methods such as convolutional neural networks (CNNs) are known to deliver state-of-the-art performance on image recognition tasks when the training data are abundant. However, in some instances, such as change detection in remote sensing images, annotated data cannot be obtained in sufficient quantities. In this work, we propose a simple and efficient method for creating realistic targeted synthetic datasets in the remote sensing domain, leveraging the opportunities offered by game development engines. We provide a description of the pipeline for procedural geometry generation and rendering as well as an evaluation of the efficiency of produced datasets in a change detection scenario. Our evaluations demonstrate that our pipeline helps to improve the performance and convergence of deep learning models when the amount of real-world data is severely limited.",
+            "aminer_id": "5ce3ce16e1cd8e512a5bf801"
+        },
+        "Goodfellow2016": {
+            "number": "[31]",
+            "title": "Deep Learning",
+            "text": "I.~Goodfellow, Y.~Bengio, and A.~Courville, \\emph{Deep Learning}.\\hskip 1em plus 0.5em minus 0.4em\\relax The MIT Press, 2016.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "reed99a": {
+            "number": "[32]",
+            "title": "Neural Smithing: Supervised Learning in Feedforward Artificial Neural Networks",
+            "text": "R.~D. Reed and R.~J. Marks, \\emph{Neural Smithing: Supervised Learning in Feedforward Artificial Neural Networks}.\\hskip 1em plus 0.5em minus 0.4em\\relax {MIT} Press, 1999.",
+            "ref_source": "tex",
+            "abstract": "From the Publisher:Artificial neural networks are nonlinear mapping systems whose structure is loosely based on principles observed in the nervous systems of humans and animals. The basic idea is that massive systems of simple units linked together in appropriate ways can generate many complex and interesting behaviors. This book focuses on the subset of feedforward artificial neural networks called multilayer perceptions (MLP). These are the most widely used neural networks, with applications as diverse as finance (forecasting), manufacturing (process control), and science (speech and image recognition). This book presents an extensive and practical overview of almost every aspect of MLP methodology, progressing from an initial discussion of what MLPs are and how they might be used to an in-depth examination of technical factors affecting performance. The book can be used as a tool kit by readers interested in applying networks to specific problems, yet it also presents theory and references outlining the last ten years of MLP research.",
+            "aminer_id": "5390c04520f70186a0f57aee"
+        },
+        "McCullochPitts43": {
+            "number": "[33]",
+            "title": "A Logical Calculus of the Ideas Immanent in Nervous Activity",
+            "text": "W.~S. McCulloch and W.~Pitts, ``A logical calculus of the ideas immanent in nervous activity,'' \\emph{Bulletin of Mathematical Biophysics}, vol.~5, pp. 115--133, 1943.",
+            "ref_source": "tex",
+            "abstract": "Because of the “all-or-none” character of nervous activity, neural events and the relations among them can be treated by means of propositional logic. It is found that the behavior of every net can be described in these terms, with the addition of more complicated logical means for nets containing circles; and that for any logical expression satisfying certain conditions, one can find a net behaving in the fashion it describes. It is shown that many particular choices among possible neurophysiological assumptions are equivalent, in the sense that for every net behaving under one assumption, there exists another net which behaves under the other and gives the same results, although perhaps not in the same time. Various applications of the calculus are discussed.",
+            "aminer_id": "5390879d20f70186a0d432be"
+        },
+        "hebb:behavior": {
+            "number": "[34]",
+            "title": "The Organization of Behavior: A Neuropsychological Theory",
+            "text": "D.~O. Hebb, \\emph{The Organization of Behavior: {A} Neuropsychological Theory}.\\hskip 1em plus 0.5em minus 0.4em\\relax New York: Wiley, 1949.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "53e9b350b7602d9703e29cb0"
+        },
+        "rosenblatt1958perceptron": {
+            "number": "[35]",
+            "title": "The perceptron: A probabilistic model for information storage and organization in the brain.",
+            "text": "F.~Rosenblatt, ``{The perceptron: A probabilistic model for information storage and organization in the brain.}'' \\emph{Psychological Review}, vol.~65, no.~6, pp. 386--408, 1958.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Rumelhart:1986we": {
+            "number": "[36]",
+            "title": "Learning Representations by Back-Propagating Errors",
+            "text": "D.~E. Rumelhart, G.~E. Hinton, and R.~J. Williams, ``{Learning Representations by Back-propagating Errors},'' \\emph{Nature}, vol. 323, no. 6088, pp. 533--536, 1986.",
+            "ref_source": "tex",
+            "abstract": "This chapter contains sections titled: The Problem, The Generalized Delta Rule, Simulation Results, Some Further Generalizations, Conclusion",
+            "aminer_id": "5390879d20f70186a0d43271"
+        },
+        "Rumelhart1988": {
+            "number": "[37]",
+            "title": "Neurocomputing: Foundations of Research",
+            "text": "D.~E.~Rumelhart, G.~E.~Hinton, and R.~J.~Williams, ``Neurocomputing: Foundations of research,'' J.~A. Anderson and E.~Rosenfeld, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Cambridge, MA, USA: MIT Press, 1988, ch. Learning Representations by Back-propagating Errors, pp. 696--699.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "656da223939a5f4082da2f79"
+        },
+        "Hinton:2006": {
+            "number": "[38]",
+            "title": "Reducing the Dimensionality of Data with Neural Networks",
+            "text": "G.~E. Hinton and R.~R. Salakhutdinov, ``Reducing the dimensionality of data with neural networks,'' \\emph{Science}, vol. 313, pp. 504 -- 507, 2006.",
+            "ref_source": "tex",
+            "abstract": "High-dimensional data can be converted to low-dimensional codes by training a multilayer neural network with a small central layer to reconstruct high-dimensional input vectors. Gradient descent can be used for fine-tuning the weights in such “autoencoder” networks, but this works well only if the initial weights are close to a good solution. We describe an effective way of initializing the weights that allows deep autoencoder networks to learn low-dimensional codes that work much better than principal components analysis as a tool to reduce the dimensionality of data.",
+            "aminer_id": "55a3d8cec91b587b09644b98"
+        },
+        "Bengio:LeCun:07": {
+            "number": "[39]",
+            "title": "Scaling Learning Algorithms towards AI",
+            "text": "Y.~Bengio and Y.~LeCun, ``Scaling learning algorithms towards ai,'' in \\emph{Large Scale Kernel Machines}, L.~Bottou, O.~Chapelle, D.~DeCoste, and J.~Weston, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Cambridge, MA: MIT Press, 2007.",
+            "ref_source": "tex",
+            "abstract": "One long-term goal of machine learning research is to produce methods that are applicable to highly complex tasks, such as perception (vision, audition ), rea- soning, intelligent control, and other artificially intelligent behaviors. We arg ue that in order to progress toward this goal, the Machine Learning community must endeavor to discover algorithms that can learn highly complex functions, with min- imal need for prior knowledge, and with minimal human intervention. We present mathematical and empirical evidence suggesting that many popular approaches to non-parametric learning, particularly kernel methods, are fundame ntally lim- ited in their ability to learn complex high-dimensional functions. Our analysis focuses on two problems. First, kernel machines are shallow architectures, in which one large layer of simple template matchersis followed by a single layer of trainable coefficients. We argue that shallow architectures can be ver y ineffi- cient in terms of required number of computational elements and examples. Sec- ond, we analyze a limitation of kernel machines with a local kernel, linked to th e curse of dimensionality, that applies to supervised, unsupervised (man ifold learn- ing) and semi-supervised kernel machines. Using empirical results on invariant image recognition tasks, kernel methods are compared with deep architectures, in which lower-level features or concepts are progressively combined into more ab- stract and higher-level representations. We argue that deep architec tures have the potential to generalize in non-local ways, i.e., beyond immediate neighbors, and that this is crucial in order to make progress on the kind of complex tasks r equired for artificial intelligence.",
+            "aminer_id": "53e9b4ceb7602d9703fee5c8"
+        },
+        "Mohamed5704567": {
+            "number": "[40]",
+            "title": "Acoustic Modeling Using Deep Belief Networks",
+            "text": "A.~{Mohamed}, G.~E. {Dahl}, and G.~{Hinton}, ``Acoustic modeling using deep belief networks,'' \\emph{IEEE Transactions on Audio, Speech, and Language Processing}, vol.~20, no.~1, pp. 14--22, 2012.",
+            "ref_source": "tex",
+            "abstract": "Gaussian mixture models are currently the dominant technique for modeling the emission distribution of hidden Markov models for speech recognition. We show that better phone recognition on the TIMIT dataset can be achieved by replacing Gaussian mixture models by deep neural networks that contain many layers of features and a very large number of parameters. These networks are first pre-trained as a multi-layer generative model of a window of spectral feature vectors without making use of any discriminative information. Once the generative pre-training has designed the features, we perform discriminative fine-tuning using backpropagation to adjust the features slightly to make them better at predicting a probability distribution over the states of monophone hidden Markov models.",
+            "aminer_id": "5390b68720f70186a0f1d1b7"
+        },
+        "Mohamed5947494": {
+            "number": "[41]",
+            "title": "Deep belief networks using discriminative features for phone recognition",
+            "text": "A.~{Mohamed}, T.~N. {Sainath}, G.~{Dahl}, B.~{Ramabhadran}, G.~E. {Hinton}, and M.~A. {Picheny}, ``Deep belief networks using discriminative features for phone recognition,'' in \\emph{2011 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)}, 2011, pp. 5060--5063.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "53e999e7b7602d970222afdd"
+        },
+        "Li8697135": {
+            "number": "[42]",
+            "title": "Deep Learning for Hyperspectral Image Classification: an Overview",
+            "text": "S.~{Li}, W.~{Song}, L.~{Fang}, Y.~{Chen}, P.~{Ghamisi}, and J.~A. {Benediktsson}, ``Deep learning for hyperspectral image classification: An overview,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~57, no.~9, pp. 6690--6709, 2019.",
+            "ref_source": "tex",
+            "abstract": "Hyperspectral image (HSI) classification has become a hot topic in the field of remote sensing. In general, the complex characteristics of hyperspectral data make the accurate classification of such data challenging for traditional machine learning methods. In addition, hyperspectral imaging often deals with an inherently nonlinear relation between the captured spectral information and the corresponding materials. In recent years, deep learning has been recognized as a powerful feature-extraction tool to effectively address nonlinear problems and widely used in a number of image processing tasks. Motivated by those successful applications, deep learning has also been introduced to classify HSIs and demonstrated good performance. This survey paper presents a systematic review of deep learning-based HSI classification literatures and compares several strategies for this topic. Specifically, we first summarize the main challenges of HSI classification which cannot be effectively overcome by traditional machine learning methods, and also introduce the advantages of deep learning to handle these problems. Then, we build a framework that divides the corresponding works into spectral-feature networks, spatial-feature networks, and spectral-spatial-feature networks to systematically review the recent achievements in deep learning-based HSI classification. In addition, considering the fact that available training samples in the remote sensing field are usually very limited and training deep networks require a large number of samples, we include some strategies to improve classification performance, which can provide some guidelines for future studies on this topic. Finally, several representative deep learning-based classification methods are conducted on real HSIs in our experiments.",
+            "aminer_id": "5ce3ae16ced107d4c65d0661"
+        },
+        "Buckner": {
+            "number": "[43]",
+            "title": "Connectionism",
+            "text": "\\BIBentryALTinterwordspacing C.~{Buckner} and J.~{Garson}, ``Connectionism,'' \\emph{E. N. Zalta (Ed.), The stanford encyclopedia of philosophy (Fall 2019). Stanford: Metaphysics Research Lab, Stanford University.}, 2019. [Online]. Available: \\url{https://plato.stanford.edu/entries/connectionism/} \\BIBentrySTDinterwordspacing",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ZABALZA20161": {
+            "number": "[44]",
+            "title": "Novel Segmented Stacked Autoencoder for Effective Dimensionality Reduction and Feature Extraction in Hyperspectral Imaging",
+            "text": "J.~Zabalza, J.~Ren, J.~Zheng, H.~Zhao, C.~Qing, Z.~Yang, P.~Du, and S.~Marshall, ``Novel segmented stacked autoencoder for effective dimensionality reduction and feature extraction in hyperspectral imaging,'' \\emph{Neurocomputing}, vol. 185, pp. 1 -- 10, 2016.",
+            "ref_source": "tex",
+            "abstract": "Stacked autoencoders (SAEs), as part of the deep learning (DL) framework, have been recently proposed for feature extraction in hyperspectral remote sensing. With the help of hidden nodes in deep layers, a high-level abstraction is achieved for data reduction whilst maintaining the key information of the data. As hidden nodes in SAEs have to deal simultaneously with hundreds of features from hypercubes as inputs, this increases the complexity of the process and leads to limited abstraction and performance. As such, segmented SAE (S-SAE) is proposed by confronting the original features into smaller data segments, which are separately processed by different smaller SAEs. This has resulted in reduced complexity but improved efficacy of data abstraction and accuracy of data classification.",
+            "aminer_id": "599c780e601a182cd259ac9b"
+        },
+        "LeCunBoserDenkerEtAl89": {
+            "number": "[45]",
+            "title": "Backpropagation Applied to Handwritten Zip Code Recognition",
+            "text": "Y.~LeCun, B.~Boser, J.~S. Denker, D.~Henderson, R.~E. Howard, W.~Hubbard, and L.~D. Jackel, ``Backpropagation applied to handwritten zip code recognition,'' \\emph{Neural Computation}, vol.~1, pp. 541--551, 1989.",
+            "ref_source": "tex",
+            "abstract": "The ability of learning networks to generalize can be greatly enhanced by providing constraints from the task domain. This paper demonstrates how such constraints can be integrated into a backpropagation network through the architecture of the network. This approach has been successfully applied to the recognition of handwritten zip code digits provided by the U.S. Postal Service. A single network learns the entire recognition operation, going from the normalized image of the character to the final classification.",
+            "aminer_id": "5390a01420f70186a0e47117"
+        },
+        "Zhang2016": {
+            "number": "[46]",
+            "title": "Road crack detection using deep convolutional neural network",
+            "text": "L.~{Zhang}, F.~{Yang}, Y.~{Daniel Zhang}, and Y.~J. {Zhu}, ``Road crack detection using deep convolutional neural network,'' in \\emph{2016 IEEE International Conference on Image Processing (ICIP)}, Sep. 2016, pp. 3708--3712.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "58d83028d649053542fe51f2"
+        },
+        "Yamashita2018": {
+            "number": "[47]",
+            "title": "Convolutional neural networks: an overview and application in radiology",
+            "text": "Y.~Rikiya, D.~R.~K. Gian, and T.~Kaori, ``Convolutional neural networks: an overview and application in radiology,'' \\emph{Insights into Imaging}, vol.~9, pp. 115--133, 2018.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5cd4a82dced107d4c6e8114e"
+        },
+        "ITO1991385": {
+            "number": "[48]",
+            "title": "Representation of Functions by Superpositions of a Step or Sigmoid Function and Their Applications to Neural Network Theory",
+            "text": "Y.~Ito, ``Representation of functions by superpositions of a step or sigmoid function and their applications to neural network theory,'' \\emph{Neural Networks}, vol.~4, no.~3, pp. 385 -- 394, 1991.",
+            "ref_source": "tex",
+            "abstract": "The starting point of this article is the inversion formula of the Radon transform; the article aims to contribute to the theory of three-layered neural networks. Let H be the Heaviside function. Then, for any function ƒ∈S(Rn there is a function gf such that f can be represented on Rn by an integral ƒ H(x · ω − t)gf(t, ω)dt dμ(ω), where μ is the uniform measure on the unit sphere Sn−1 and t∈R Further-more, f can be approximated uniformly arbitrarily well on the whole space Snby a finite sum of the form ΣkakH(x · ω(k) − t(k)). Let Hρ be a sigmoid function on R defined by Hρ(t) = ƒ H(t − x · ω) dρ(x), where ρ is a spherically symmetric probability measure. Suppose that ρ satisfies a few further conditions. Then, for any ƒ∈S(Rn, there is a function gf,ρ such that f can be written ƒHρ(x · ω − t)gf,ρ(t, ω)dt dμ(ω) with the unscaled sigmoid function Hρ fixed beforehand. This expression can also be approximated uniformly arbitrarily well on Rn by a finite sum.",
+            "aminer_id": "5390879d20f70186a0d44704"
+        },
+        "ANASTASSIOU20111111": {
+            "number": "[49]",
+            "title": "Univariate hyperbolic tangent neural network approximation",
+            "text": "G.~A. Anastassiou, ``Univariate hyperbolic tangent neural network approximation,'' \\emph{Mathematical and Computer Modelling}, vol.~53, no.~5, pp. 1111 -- 1132, 2011.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Agostinelli2014LearningAF": {
+            "number": "[50]",
+            "title": "Learning Activation Functions to Improve Deep Neural Networks",
+            "text": "F.~Agostinelli, M.~D. Hoffman, P.~J. Sadowski, and P.~Baldi, ``Learning activation functions to improve deep neural networks,'' \\emph{CoRR}, vol. abs/1412.6830, 2014.",
+            "ref_source": "tex",
+            "abstract": "Artificial neural networks typically have a fixed, non-linear activation function at each neuron. We have designed a novel form of piecewise linear activation function that is learned independently for each neuron using gradient descent. With this adaptive activation function, we are able to improve upon deep neural network architectures composed of static rectified linear units, achieving state-of-the-art performance on CIFAR-10 (7.51%), CIFAR-100 (30.83%), and a benchmark from high-energy physics involving Higgs boson decay modes.",
+            "aminer_id": "5550417145ce0a409eb3b496"
+        },
+        "xu2015empirical": {
+            "number": "[51]",
+            "title": "Empirical Evaluation of Rectified Activations in Convolutional Network",
+            "text": "B.~Xu, N.~Wang, T.~Chen, and M.~Li, ``{Empirical Evaluation of Rectified Activations in Convolutional Network},'' 2015.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "573696116e3b12023e52439d"
+        },
+        "Andrej42455": {
+            "number": "[52]",
+            "title": "Large-Scale Video Classification with Convolutional Neural Networks",
+            "text": "A.~Karpathy, G.~Toderici, S.~Shetty, T.~Leung, R.~Sukthankar, and L.~Fei-Fei, ``Large-scale video classification with convolutional neural networks,'' in \\emph{Proceedings of International Computer Vision and Pattern Recognition (CVPR 2014)}, 2014.",
+            "ref_source": "tex",
+            "abstract": "Convolutional Neural Networks (CNNs) have been established as a powerful class of models for image recognition problems. Encouraged by these results, we provide an extensive empirical evaluation of CNNs on large-scale video classification using a new dataset of 1 million YouTube videos belonging to 487 classes. We study multiple approaches for extending the connectivity of a CNN in time domain to take advantage of local spatio-temporal information and suggest a multiresolution, foveated architecture as a promising way of speeding up the training. Our best spatio-temporal networks display significant performance improvements compared to strong feature-based baselines (55.3% to 63.9%), but only a surprisingly modest improvement compared to single-frame models (59.3% to 60.9%). We further study the generalization performance of our best model by retraining the top layers on the UCF-101 Action Recognition dataset and observe significant performance improvements compared to the UCF-101 baseline model (63.3% up from 43.9%).",
+            "aminer_id": "621951a65aee126c0ffa9b95"
+        },
+        "NIPS2012Alex": {
+            "number": "[53]",
+            "title": "ImageNet Classification with Deep Convolutional Neural Networks",
+            "text": "A.~Krizhevsky, I.~Sutskever, and G.~E. Hinton, ``Imagenet classification with deep convolutional neural networks,'' in \\emph{Advances in Neural Information Processing Systems 25}, F.~Pereira, C.~J.~C. Burges, L.~Bottou, and K.~Q. Weinberger, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Curran Associates, Inc., 2012, pp. 1097--1105.",
+            "ref_source": "tex",
+            "abstract": "We trained a large, deep convolutional neural network to classify the 1.2 million high-resolution images in the ImageNet LSVRC-2010 contest into the 1000 different classes. On the test data, we achieved top-1 and top-5 error rates of 37.5% and 17.0%, respectively, which is considerably better than the previous state-of-the-art. The neural network, which has 60 million parameters and 650,000 neurons, consists of five convolutional layers, some of which are followed by max-pooling layers, and three fully connected layers with a final 1000-way softmax. To make training faster, we used non-saturating neurons and a very efficient GPU implementation of the convolution operation. To reduce overfitting in the fully connected layers we employed a recently developed regularization method called \"dropout\" that proved to be very effective. We also entered a variant of this model in the ILSVRC-2012 competition and achieved a winning top-5 test error rate of 15.3%, compared to 26.2% achieved by the second-best entry.",
+            "aminer_id": "53e9a281b7602d9702b88a98"
+        },
+        "Simonyan15": {
+            "number": "[54]",
+            "title": "Very Deep Convolutional Networks for Large-Scale Image Recognition",
+            "text": "K.~Simonyan and A.~Zisserman, ``Very deep convolutional networks for large-scale image recognition,'' in \\emph{International Conference on Learning Representations}, 2015.",
+            "ref_source": "tex",
+            "abstract": "In this work we investigate the effect of the convolutional network depth on its accuracy in the large-scale image recognition setting. Our main contribution is a thorough evaluation of networks of increasing depth using an architecture with very small (3x3) convolution filters, which shows that a significant improvement on the prior-art configurations can be achieved by pushing the depth to 16-19 weight layers. These findings were the basis of our ImageNet Challenge 2014 submission, where our team secured the first and the second places in the localisation and classification tracks respectively. We also show that our representations generalise well to other datasets, where they achieve state-of-the-art results. We have made our two best-performing ConvNet models publicly available to facilitate further research on the use of deep visual representations in computer vision.",
+            "aminer_id": "5550415645ce0a409eb3a69e"
+        },
+        "He7780459": {
+            "number": "[55]",
+            "title": "Deep Residual Learning for Image Recognition",
+            "text": "K.~{He}, X.~{Zhang}, S.~{Ren}, and J.~{Sun}, ``Deep residual learning for image recognition,'' in \\emph{2016 IEEE Conference on Computer Vision and Pattern Recognition (CVPR)}, June 2016, pp. 770--778.",
+            "ref_source": "tex",
+            "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
+            "aminer_id": "573696026e3b12023e515eec"
+        },
+        "Jordan2018": {
+            "number": "[56]",
+            "title": "Common architectures in convolutional neural networks",
+            "text": "J.~{Jordan}, ``Common architectures in convolutional neural networks,'' in \\emph{https://www.jeremyjordan.me/convnet-architectures/}, 2018.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "lipton2015": {
+            "number": "[57]",
+            "title": "A Critical Review of Recurrent Neural Networks for Sequence Learning",
+            "text": "Z.~C. Lipton, J.~Berkowitz, and C.~Elkan, ``A critical review of recurrent neural networks for sequence learning,'' 2015.",
+            "ref_source": "tex",
+            "abstract": "Countless learning tasks require dealing with sequential data. Image captioning, speech synthesis, and music generation all require that a model produce outputs that are sequences. In other domains, such as time series prediction, video analysis, and musical information retrieval, a model must learn from inputs that are sequences. Interactive tasks, such as translating natural language, engaging in dialogue, and controlling a robot, often demand both capabilities. Recurrent neural networks (RNNs) are connectionist models that capture the dynamics of sequences via cycles in the network of nodes. Unlike standard feedforward neural networks, recurrent networks retain a state that can represent information from an arbitrarily long context window. Although recurrent neural networks have traditionally been difficult to train, and often contain millions of parameters, recent advances in network architectures, optimization techniques, and parallel computation have enabled successful large-scale learning with them. In recent years, systems based on long short-term memory (LSTM) and bidirectional (BRNN) architectures have demonstrated ground-breaking performance on tasks as varied as image captioning, language translation, and handwriting recognition. In this survey, we review and synthesize the research that over the past three decades first yielded and then made practical these powerful learning models. When appropriate, we reconcile conflicting notation and nomenclature. Our goal is to provide a self-contained explication of the state of the art together with a historical perspective and references to primary research.",
+            "aminer_id": "573696016e3b12023e515b10"
+        },
+        "WittenFrankHall11": {
+            "number": "[58]",
+            "title": "Data Mining: Practical Machine Learning Tools and Techniques",
+            "text": "I.~H. Witten, E.~Frank, and M.~A. Hall, \\emph{Data Mining: Practical Machine Learning Tools and Techniques}, 3rd~ed., ser. Morgan Kaufmann Series in Data Management Systems.\\hskip 1em plus 0.5em minus 0.4em\\relax Amsterdam: Morgan Kaufmann, 2011.",
+            "ref_source": "tex",
+            "abstract": "Data Mining: Practical Machine Learning Tools and Techniques offers a thorough grounding in machine learning concepts as well as practical advice on applying machine learning tools and techniques in real-world data mining situations. This highly anticipated third edition of the most acclaimed work on data mining and machine learning will teach you everything you need to know about preparing inputs, interpreting outputs, evaluating results, and the algorithmic methods at the heart of successful data mining. Thorough updates reflect the technical changes and modernizations that have taken place in the field since the last edition, including new material on Data Transformations, Ensemble Learning, Massive Data Sets, Multi-instance Learning, plus a new version of the popular Weka machine learning software developed by the authors. Witten, Frank, and Hall include both tried-and-true techniques of today as well as methods at the leading edge of contemporary research. *Provides a thorough grounding in machine learning concepts as well as practical advice on applying the tools and techniques to your data mining projects *Offers concrete tips and techniques for performance improvement that work by transforming the input or output in machine learning methods *Includes downloadable Weka software toolkit, a collection of machine learning algorithms for data mining tasks-in an updated, interactive interface. Algorithms in toolkit cover: data pre-processing, classification, regression, clustering, association rules, visualization",
+            "aminer_id": "64eae0f03fda6d7f06006113"
+        },
+        "HochSchm97": {
+            "number": "[59]",
+            "title": "Long short-term memory",
+            "text": "S.~Hochreiter and J.~Schmidhuber, ``Long short-term memory,'' \\emph{Neural Computation}, vol.~9, no.~8, pp. 1735--1780, 1997.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chung2014empirical": {
+            "number": "[60]",
+            "title": "Empirical Evaluation of Gated Recurrent Neural Networks on Sequence Modeling",
+            "text": "J.~Chung, C.~Gulcehre, K.~Cho, and Y.~Bengio, ``Empirical evaluation of gated recurrent neural networks on sequence modeling,'' 2014.",
+            "ref_source": "tex",
+            "abstract": "In this paper we compare different types of recurrent units in recurrent neural networks (RNNs). Especially, we focus on more sophisticated units that implement a gating mechanism, such as a long short-term memory (LSTM) unit and a recently proposed gated recurrent unit (GRU). We evaluate these recurrent units on the tasks of polyphonic music modeling and speech signal modeling. Our experiments revealed that these advanced recurrent units are indeed better than more traditional recurrent units such as tanh units. Also, we found GRU to be comparable to LSTM.",
+            "aminer_id": "5550415d45ce0a409eb3aa60"
+        },
+        "Junyoung2014": {
+            "number": "[61]",
+            "title": "Generative adversarial nets",
+            "text": "C.~Junyoung, C.~Gulcehre, K.~Cho, and Y.~Bengio, ``\\BIBforeignlanguage{English (US)}{Empirical evaluation of gated recurrent neural networks on sequence modeling},'' in \\emph{\\BIBforeignlanguage{English (US)}{NIPS 2014 Workshop on Deep Learning, December 2014}}, 2014.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "648d64f1d68f896efad4a333"
+        },
+        "NIPS2014_Goodfellow": {
+            "number": "[62]",
+            "title": "Newly Built Construction Detection in SAR Images Using Deep Learning",
+            "text": "I.~Goodfellow, J.~Pouget-Abadie, M.~Mirza, B.~Xu, D.~Warde-Farley, S.~Ozair, A.~Courville, and Y.~Bengio, ``Generative adversarial nets,'' in \\emph{Advances in Neural Information Processing Systems 27}, Z.~Ghahramani, M.~Welling, C.~Cortes, N.~D. Lawrence, and K.~Q. Weinberger, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Curran Associates, Inc., 2014, pp. 2672--2680.",
+            "ref_source": "tex",
+            "abstract": "Remote sensing data can be utilized to help developing countries monitor the use of land. However, the problem of constant cloud coverage prevents us from taking full advantage of satellite optical images. Therefore, we instead opt to use data from synthetic-aperture radar (SAR), which can capture images of the Earth’s surface regardless of the weather conditions. In this study, we use SAR data to identify newly built constructions. Most studies on change detection tend to detect all of the changes that have a similar temporal change characteristic occurring on two occasions, while we want to identify only the constructions and avoid detecting other changes such as the seasonal change of vegetation. To do so, we study various deep learning network techniques and have decided to propose the fully convolutional network with a skip connection. We train this network with pairs of SAR data acquired on two different occasions from Bangkok and the ground truth, which we manually create from optical images available from Google Earth for all of the SAR pairs. Experiments to assign the most suitable patch size, loss weighting, and epoch number to the network are discussed in this paper. The trained model can be used to generate a binary map that indicates the position of these newly built constructions precisely with the Bangkok dataset, as well as with the Hanoi and Xiamen datasets with acceptable results. The proposed model can even be used with SAR images of the same specific satellite from another orbit direction and still give promising results.",
+            "aminer_id": "5d70df2047c8f76646cc5a3c"
+        },
+        "Jaturapitpornchai_2019": {
+            "number": "[63]",
+            "title": "Transferred deep learning-based change detection in remote sensing images",
+            "text": "R.~Jaturapitpornchai, M.~Matsuoka, N.~Kanemoto, S.~Kuzuoka, R.~Ito, and R.~Nakamura, ``Newly built construction detection in sar images using deep learning,'' \\emph{Remote Sensing}, vol.~11, no.~12, pp. 1--24, Jun 2019.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5ce3aeb0ced107d4c65eb067"
+        },
+        "Yang20199": {
+            "number": "[64]",
+            "title": "Change Detection in Synthetic Aperture Radar Images Based on Deep Neural Networks",
+            "text": "M.~{Yang}, L.~{Jiao}, F.~{Liu}, B.~{Hou}, and S.~{Yang}, ``Transferred deep learning-based change detection in remote sensing images,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~57, no.~9, pp. 6960--6973, Sep. 2019.",
+            "ref_source": "tex",
+            "abstract": "This paper presents a novel change detection approach for synthetic aperture radar images based on deep learning. The approach accomplishes the detection of the changed and unchanged areas by designing a deep neural network. The main guideline is to produce a change detection map directly from two images with the trained deep neural network. The method can omit the process of generating a difference image (DI) that shows difference degrees between multitemporal synthetic aperture radar images. Thus, it can avoid the effect of the DI on the change detection results. The learning algorithm for deep architectures includes unsupervised feature learning and supervised fine-tuning to complete classification. The unsupervised feature learning aims at learning the representation of the relationships between the two images. In addition, the supervised fine-tuning aims at learning the concepts of the changed and unchanged pixels. Experiments on real data sets and theoretical analysis indicate the advantages, feasibility, and potential of the proposed method. Moreover, based on the results achieved by various traditional algorithms, respectively, deep learning can further improve the detection performance.",
+            "aminer_id": "558c4ad0e4b0cfb70a1cd1f6"
+        },
+        "7120131": {
+            "number": "[65]",
+            "title": "Learning a Transferable Change Rule from a Recurrent Neural Network for Land Cover Change Detection.",
+            "text": "M.~{Gong}, J.~{Zhao}, J.~{Liu}, Q.~{Miao}, and L.~{Jiao}, ``Change detection in synthetic aperture radar images based on deep neural networks,'' \\emph{IEEE Transactions on Neural Networks and Learning Systems}, vol.~27, no.~1, pp. 125--138, 2016.",
+            "ref_source": "tex",
+            "abstract": "When exploited in remote sensing analysis, a reliable change rule with transfer ability can detect changes accurately and be applied widely. However, in practice, the complexity of land cover changes makes it difficult to use only one change rule or change feature learned from a given multi-temporal dataset to detect any other new target images without applying other learning processes. In this study, we consider the design of an efficient change rule having transferability to detect both binary and multi-class changes. The proposed method relies on an improved Long Short-Term Memory (LSTM) model to acquire and record the change information of long-term sequence remote sensing data. In particular, a core memory cell is utilized to learn the change rule from the information concerning binary changes or multi-class changes. Three gates are utilized to control the input, output and update of the LSTM model for optimization. In addition, the learned rule can be applied to detect changes and transfer the change rule from one learned image to another new target multi-temporal image. In this study, binary experiments, transfer experiments and multi-class change experiments are exploited to demonstrate the superiority of our method. Three contributions of this work can be summarized as follows: (1) the proposed method can learn an effective change rule to provide reliable change information for multi-temporal images; (2) the learned change rule has good transferability for detecting changes in new target images without any extra learning process, and the new target images should have a multi-spectral distribution similar to that of the training images; and (3) to the authors’ best knowledge, this is the first time that deep learning in recurrent neural networks is exploited for change detection. In addition, under the framework of the proposed method, changes can be detected under both binary detection and multi-class change detection.",
+            "aminer_id": "599c7a36601a182cd269c07d"
+        },
+        "Lyu_2016": {
+            "number": "[66]",
+            "title": "Change Detection Based on Deep Feature Representation and Mapping Transformation for Multi-Spatial-resolution Remote Sensing Images",
+            "text": "H.~Lyu, H.~Lu, and L.~Mou, ``Learning a transferable change rule from a recurrent neural network for land cover change detection,'' \\emph{Remote Sensing}, vol.~8, no.~6, p. 506, Jun 2016.",
+            "ref_source": "tex",
+            "abstract": "Multi-spatial-resolution change detection is a newly proposed issue and it is of great significance in remote sensing, environmental and land use monitoring, etc. Though multi-spatial-resolution image-pair are two kinds of representations of the same reality, they are often incommensurable superficially due to their different modalities and properties. In this paper, we present a novel multi-spatial-resolution change detection framework, which incorporates deep-architecture-based unsupervised feature learning and mapping-based feature change analysis. Firstly, we transform multi-resolution image-pair into the same pixel-resolution through co-registration, followed by details recovery, which is designed to remedy the spatial details lost in the registration. Secondly, the denoising autoencoder is stacked to learn local and high-level representation/feature from the local neighborhood of the given pixel, in an unsupervised fashion. Thirdly, motivated by the fact that multi-resolution image-pair share the same reality in the unchanged regions, we try to explore the inner relationships between them by building a mapping neural network. And it can be used to learn a mapping function based on the most-unlikely-changed feature-pairs, which are selected from all the feature-pairs via a coarse initial change map generated in advance. The learned mapping function can bridge the different representations and highlight changes. Finally, we can build a robust and contractive change map through feature similarity analysis, and the change detection result is obtained through the segmentation of the final change map. Experiments are carried out on four real datasets, and the results confirmed the effectiveness and superiority of the proposed method.",
+            "aminer_id": "5c755433f56def9798644db8"
+        },
+        "ZHANG201624": {
+            "number": "[67]",
+            "title": "Spectral Feature Selection for Supervised and Unsupervised Learning",
+            "text": "P.~Zhang, M.~Gong, L.~Su, J.~Liu, and Z.~Li, ``Change detection based on deep feature representation and mapping transformation for multi-spatial-resolution remote sensing images,'' \\emph{ISPRS Journal of Photogrammetry and Remote Sensing}, vol. 116, pp. 24 -- 41, 2016.",
+            "ref_source": "tex",
+            "abstract": "Feature selection aims to reduce dimensionality for building comprehensible learning models with good generalization performance. Feature selection algorithms are largely studied separately according to the type of learning: supervised or unsupervised. This work exploits intrinsic properties underlying supervised and unsupervised feature selection algorithms, and proposes a unified framework for feature selection based on spectral graph theory. The proposed framework is able to generate families of algorithms for both supervised and unsupervised feature selection. And we show that existing powerful algorithms such as ReliefF (supervised) and Laplacian Score (unsupervised) are special cases of the proposed framework. To the best of our knowledge, this work is the first attempt to unify supervised and unsupervised feature selection, and enable their joint study under a general framework. Experiments demonstrated the efficacy of the novel algorithms derived from the framework.",
+            "aminer_id": "53909f2d20f70186a0e37ef1"
+        },
+        "Zhao2007SpectralFS": {
+            "number": "[68]",
+            "title": "Supervised and unsupervised transfer learning for question answering",
+            "text": "Z.~Zhao and H.~Liu, ``Spectral feature selection for supervised and unsupervised learning,'' in \\emph{ICML '07}, 2007.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5b1642a68fbcbf6e5a9b7dc7"
+        },
+        "chung-etal-2018-supervised": {
+            "number": "[69]",
+            "title": "Deep learning of representations: Looking forward",
+            "text": "Y.-A. Chung, H.-Y. Lee, and J.~Glass, ``Supervised and unsupervised transfer learning for question answering,'' in \\emph{Proceedings of the 2018 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies}, vol.~1.\\hskip 1em plus 0.5em minus 0.4em\\relax New Orleans, Louisiana: Association for Computational Linguistics, Jun. 2018, pp. 1585--1594.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5390bda020f70186a0f46f63"
+        },
+        "Bengio2013": {
+            "number": "[70]",
+            "title": "Do Deep Features Generalize from Everyday Objects to Remote Sensing and Aerial Scenes Domains?",
+            "text": "Y.~Bengio, ``Deep learning of representations: Looking forward,'' in \\emph{Statistical Language and Speech Processing}, A.-H. Dediu, C.~Mart{\\'i}n-Vide, R.~Mitkov, and B.~Truthe, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Berlin, Heidelberg: Springer Berlin Heidelberg, 2013, pp. 1--37.",
+            "ref_source": "tex",
+            "abstract": "In this paper, we evaluate the generalization power of deep features (ConvNets) in two new scenarios: aerial and remote sensing image classification. We evaluate experimentally ConvNets trained for recognizing everyday objects for the classification of aerial and remote sensing images. ConvNets obtained the best results for aerial images, while for remote sensing, they performed well but were outperformed by low-level color descriptors, such as BIC. We also present a correlation analysis, showing the potential for combining/fusing different ConvNets with other descriptors or even for combining multiple ConvNets. A preliminary set of experiments fusing ConvNets obtains state-of-the-art results for the well-known UCMerced dataset.",
+            "aminer_id": "573697826e3b12023e6696fd"
+        },
+        "Penatti7301382": {
+            "number": "[71]",
+            "title": "U-net: Convolutional networks for biomedical image segmentation",
+            "text": "O.~A.~B. {Penatti}, K.~{Nogueira}, and J.~A. {dos Santos}, ``Do deep features generalize from everyday objects to remote sensing and aerial scenes domains?'' in \\emph{2015 IEEE Conference on Computer Vision and Pattern Recognition Workshops (CVPRW)}, June 2015, pp. 44--51.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "573698016e3b12023e6da477"
+        },
+        "Ronneberger2015": {
+            "number": "[72]",
+            "title": "Forest Damage Assessment Using Deep Learning on High Resolution Remote Sensing Data.",
+            "text": "O.~Ronneberger, P.~Fischer, and T.~Brox, ``U-net: Convolutional networks for biomedical image segmentation,'' in \\emph{Medical Image Computing and Computer-Assisted Intervention -- MICCAI 2015}, N.~Navab, J.~Hornegger, W.~M. Wells, and A.~F. Frangi, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax Cham: Springer International Publishing, 2015, pp. 234--241.",
+            "ref_source": "tex",
+            "abstract": "Storms can cause significant damage to forest areas, affecting biodiversity and infrastructure and leading to economic loss. Thus, rapid detection and mapping of windthrows are crucially important for forest management. Recent advances in computer vision have led to highly-accurate image classification algorithms such as Convolutional Neural Network (CNN) architectures. In this study, we tested and implemented an algorithm based on CNNs in an ArcGIS environment for automatic detection and mapping of damaged areas. The algorithm was trained and tested on a forest area in Bavaria, Germany. . It is a based on a modified U-Net architecture that was optimized for the pixelwise classification of multispectral aerial remote sensing data. The neural network was trained on labeled damaged areas from after-storm aerial orthophotos of a ca. 109km(2) forest area with RGB and NIR bands and 0.2-m spatial resolution. Around 10(7) pixels of labeled data were used in the process. Once the network is trained, predictions on further datasets can be computed within seconds, depending on the size of the input raster and the computational power used. The overall accuracy on our test dataset was 92%. During visual validation, labeling errors were found in the reference data that somewhat biased the results because the algorithm in some instance performed better than the human labeling procedure, while missing areas affected by shadows. Our results are very good in terms of precision, and the methods introduced in this paper have several additional advantages compared to traditional methods: CNNs automatically detect high- and low-level features in the data, leading to high classification accuracies, while only one after-storm image is needed in comparison to two images for approaches based on change detection. Furthermore, flight parameters do not affect the results in the same way as for approaches that require DSMs and DTMs as the classification is only based on the image data themselves, and errors occurring in the computation of DSMs and DTMs do not affect the results with respect to the z component. The integration into the ArcGIS Platform allows a streamlined workflow for forest management, as the results can be accessed by mobile devices in the field to allow for high-accuracy ground-truthing and additional mapping that can be synchronized back into the database. Our results and the provided automatic workflow highlight the potential of deep learning on high-resolution imagery and GIS for fast and efficient post-disaster damage assessment as a first step of disaster management.",
+            "aminer_id": "5dda57b1df1a9c0c415829c8"
+        },
+        "Mahmoud2019": {
+            "number": "[73]",
+            "title": "End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet plus",
+            "text": "Z.~M. Hamdi, M.~Brandmeier, and C.~Straub, ``{Forest Damage Assessment Using Deep Learning on High Resolution Remote Sensing Data},'' \\emph{{Remote Sensing}}, vol.~{11}, no.~{17}, {SEP 1} {2019}.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Peng2019": {
+            "number": "[74]",
+            "title": "GETNET: A General End-to-End 2-D CNN Framework for Hyperspectral Image Change Detection",
+            "text": "D.~Peng, Y.~Zhang, and H.~Guan, ``{End-to-End Change Detection for High Resolution Satellite Images Using Improved UNet plus},'' \\emph{{Remote Sensing}}, vol.~{11}, no.~{11}, {JUN 1} {2019}.",
+            "ref_source": "tex",
+            "abstract": "Change detection (CD) is an important application of remote sensing, which provides timely change information about large-scale Earth surface. With the emergence of hyperspectral imagery, CD technology has been greatly promoted, as hyperspectral data with the highspectral resolution are capable of detecting finer changes than using the traditional multispectral imagery. Nevertheless, the high dimension of hyperspectral data makes it difficult to implement traditional CD algorithms. Besides, endmember abundance information at subpixel level is often not fully utilized. In order to better handle high dimension problem and explore abundance information, this paper presents a General End-to-end Two-dimensional CNN (GETNET) framework for hyperspectral image change detection (HSI-CD). The main contributions of this work are threefold: 1) Mixed-affinity matrix that integrates subpixel representation is introduced to mine more cross-channel gradient features and fuse multi-source information; 2) 2-D CNN is designed to learn the discriminative features effectively from multi-source data at a higher level and enhance the generalization ability of the proposed CD algorithm; 3) A new HSI-CD data set is designed for the objective comparison of different methods. Experimental results on real hyperspectral data sets demonstrate the proposed method outperforms most of the state-of-the-arts.",
+            "aminer_id": "5c2ea7c6df5b8c0b3ced348a"
+        },
+        "Wang2019": {
+            "number": "[75]",
+            "title": "Change vector analysis: an approach for detecting forest changes with Landsat",
+            "text": "Q.~Wang, Z.~Yuan, Q.~Du, and X.~Li, ``{GETNET: A General End-to-End 2-D CNN Framework for Hyperspectral Image Change Detection},'' \\emph{{IEEE Transactions on Geoscience and Remote Sensing }}, vol.~{57}, no.~{1}, pp. {3--13}, {JAN} {2019}.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "65b99f63939a5f408210ab6c"
+        },
+        "Malila1980": {
+            "number": "[76]",
+            "title": "Dual-Dense Convolution Network for Change Detection of High-Resolution Panchromatic Imagery",
+            "text": "W.~A. Malila, ``Change vector analysis: An approach for detecting forest changes with landsat,'' in \\emph{LARS Symp.}, 1980.",
+            "ref_source": "tex",
+            "abstract": "This paper presents a robust change detection algorithm for high-resolution panchromatic imagery using a proposed dual-dense convolutional network (DCN). In this work, a joint structure of two deep convolutional networks with dense connectivity in convolution layers is designed in order to accomplish change detection for satellite images acquired at different times. The proposed network model detects pixel-wise temporal change based on local characteristics by incorporating information from neighboring pixels. Dense connection in convolution layers is designed to reuse preceding feature maps by connecting them to all subsequent layers. Dual networks are incorporated by measuring the dissimilarity of two temporal images. In the proposed algorithm for change detection, a contrastive loss function is used in a learning stage by running over multiple pairs of samples. According to our evaluation, we found that the proposed framework achieves better detection performance than conventional algorithms, in area under the curve (AUC) of 0.97, percentage correct classification (PCC) of 99%, and Kappa of 69, on average.",
+            "aminer_id": "5c757dcef56def9798b24744"
+        },
+        "Wahyu2018": {
+            "number": "[77]",
+            "title": "Detecting Large-Scale Urban Land Cover Changes from Very High Resolution Remote Sensing Images Using CNN-Based Classification",
+            "text": "W.~Wiratama, J.~Lee, S.-E. Park, and D.~Sim, ``{Dual-Dense Convolution Network for Change Detection of High-Resolution Panchromatic Imagery},'' \\emph{{Applied Sciences-Basel}}, vol.~{8}, no.~{10}, {OCT} {2018}.",
+            "ref_source": "tex",
+            "abstract": "The study investigates land use/cover classification and change detection of urban areas from very high resolution (VHR) remote sensing images using deep learning-based methods. Firstly, we introduce a fully Atrous convolutional neural network (FACNN) to learn the land cover classification. In the FACNN an encoder, consisting of full Atrous convolution layers, is proposed for extracting scale robust features from VHR images. Then, a pixel-based change map is produced based on the classification map of current images and an outdated land cover geographical information system (GIS) map. Both polygon-based and object-based change detection accuracy is investigated, where a polygon is the unit of the GIS map and an object consists of those adjacent changed pixels on the pixel-based change map. The test data covers a rapidly developing city of Wuhan (8000 km2), China, consisting of 0.5 m ground resolution aerial images acquired in 2014, and 1 m ground resolution Beijing-2 satellite images in 2017, and their land cover GIS maps. Testing results showed that our FACNN greatly exceeded several recent convolutional neural networks in land cover classification. Second, the object-based change detection could achieve much better results than a pixel-based method, and provide accurate change maps to facilitate manual urban land cover updating.",
+            "aminer_id": "5cdd36d0ced107d4c68c09b0"
+        },
+        "ZhangChi2019": {
+            "number": "[78]",
+            "title": "Multitask learning for large-scale semantic change detection",
+            "text": "C.~Zhang, S.~Wei, S.~Ji, and M.~Lu, ``{Detecting Large-Scale Urban Land Cover Changes from Very High Resolution Remote Sensing Images Using CNN-Based Classification},'' \\emph{{ISPRS International Journal of Geo-Information}}, vol.~{8}, no.~{4}, {APR} {2019}.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5d67a44c3a55ac0dea01ee98"
+        },
+        "Daudt2019": {
+            "number": "[79]",
+            "title": "The Spectral-Spatial Joint Learning for Change Detection in Multispectral Imagery",
+            "text": "R.~C. Daudt, B.~L. Saux, A.~Boulch, and Y.~Gousseau, ``Multitask learning for large-scale semantic change detection,'' \\emph{Computer Vision and Image Understanding}, vol. 187, p. 102783, 2019.",
+            "ref_source": "tex",
+            "abstract": "Change detection is one of the most important applications in the remote sensing domain. More and more attention is focused on deep neural network based change detection methods. However, many deep neural networks based methods did not take both the spectral and spatial information into account. Moreover, the underlying information of fused features is not fully explored. To address the above-mentioned problems, a Spectral-Spatial Joint Learning Network (SSJLN) is proposed. SSJLN contains three parts: spectral-spatial joint representation, feature fusion, and discrimination learning. First, the spectral-spatial joint representation is extracted from the network similar to the Siamese CNN (S-CNN). Second, the above-extracted features are fused to represent the difference information that proves to be effective for the change detection task. Third, the discrimination learning is presented to explore the underlying information of obtained fused features to better represent the discrimination. Moreover, we present a new loss function that considers both the losses of the spectral-spatial joint representation procedure and the discrimination learning procedure. The effectiveness of our proposed SSJLN is verified on four real data sets. Extensive experimental results show that our proposed SSJLN can outperform the other state-of-the-art change detection methods.",
+            "aminer_id": "5c99fa753cb210d2719cc754"
+        },
+        "Zhang20199": {
+            "number": "[80]",
+            "title": "Change Detection Between Multimodal Remote Sensing Data Using Siamese CNN.",
+            "text": "W.~Zhang and X.~Lu, ``{The Spectral-Spatial Joint Learning for Change Detection in Multispectral Imagery},'' \\emph{{Remote Sensing}}, vol.~{11}, no.~{3}, {FEB 1} {2019}.",
+            "ref_source": "tex",
+            "abstract": "Detecting topographic changes in the urban environment has always been an important task for urban planning and monitoring. In practice, remote sensing data are often available in different modalities and at different time epochs. Change detection between multimodal data can be very challenging since the data show different characteristics. Given 3D laser scanning point clouds and 2D imagery from different epochs, this paper presents a framework to detect building and tree changes. First, the 2D and 3D data are transformed to image patches, respectively. A Siamese CNN is then employed to detect candidate changes between the two epochs. Finally, the candidate patch-based changes are grouped and verified as individual object changes. Experiments on the urban data show that 86.4\\% of patch pairs can be correctly classified by the model.",
+            "aminer_id": "5c8f3d5c4895d9cbc6361d8e"
+        },
+        "ZhenchaoZhang2018": {
+            "number": "[81]",
+            "title": "SAR Image Change Detection Based on Deep Denoising and CNN",
+            "text": "Z.~Zhang, G.~Vosselman, M.~Gerke, D.~Tuia, and M.~Y. Yang, ``Change detection between multimodal remote sensing data using siamese {CNN},'' \\emph{CoRR}, vol. abs/1807.09562, 2018.",
+            "ref_source": "tex",
+            "abstract": "The intrinsic noise of synthetic aperture radar (SAR) images has a big influence to the image processing performance, especially in change detection (CD). Image denoising is an important branch of image restoration which aims at enhancing the quality of images. The detection accuracy of CD depends greatly on the quality of red difference image (DI), therefore image denoising can be regarded as a vital step in SAR CD. However, few researches focused on this problem. In this study, an end-to-end deep denoising model is first designed to remove the noise of SAR images. With the help of abundant simulated SAR images, deep denoising model is trained effectively to estimate the noise component. Then clean image can be achieved by removing this noise component from the original SAR image. After denoising, the new image pair will generate a clean DI. At last, DI is classified into changed and unchanged areas by a three-layer Convolutional Neural Network (CNN). Three real SAR image pairs demonstrate the effectiveness of the proposed method.",
+            "aminer_id": "5ce3ae9dced107d4c65ea5c6"
+        },
+        "Cao2019a": {
+            "number": "[82]",
+            "title": "Fusion Network for Change Detection of High-Resolution Panchromatic Imagery",
+            "text": "X.~{Cao}, Y.~{Ji}, L.~{Wang}, B.~{Ji}, L.~{Jiao}, and J.~{Han}, ``Sar image change detection based on deep denoising and cnn,'' \\emph{IET Image Processing}, vol.~13, no.~9, pp. 1509--1515, 2019.",
+            "ref_source": "tex",
+            "abstract": "This paper proposes a fusion network for detecting changes between two high-resolution panchromatic images. The proposed fusion network consists of front- and back-end neural network architectures to generate dual outputs for change detection. Two networks for change detection were applied to handle image- and high-level changes of information, respectively. The fusion network employs single-path and dual-path networks to accomplish low-level and high-level differential detection, respectively. Based on two dual outputs, a two-stage decision algorithm was proposed to efficiently yield the final change detection results. The dual outputs were incorporated into the two-stage decision by operating logical operations. The proposed algorithm was designed to incorporate not only dual network outputs but also neighboring information. In this paper, a new fused loss function was presented to estimate the errors and optimize the proposed network during the learning stage. Based on our experimental evaluation, the proposed method yields a better detection performance than conventional neural network algorithms, with an average area under the curve of 0.9709, percentage correct classification of 99%, and Kappa of 75 for many test datasets.",
+            "aminer_id": "5ce3a8d9ced107d4c6558a9b"
+        },
+        "Wahyu20199": {
+            "number": "[83]",
+            "title": "Land-Use Change Detection with Convolutional Neural Network Methods",
+            "text": "W.~Wiratama and D.~Sim, ``{Fusion Network for Change Detection of High-Resolution Panchromatic Imagery},'' \\emph{{Applied Sciences-Basel}}, vol.~{9}, no.~{7}, {APR 1} {2019}.",
+            "ref_source": "tex",
+            "abstract": "Convolutional neural networks (CNN) have been used increasingly in several land-use classification tasks, but there is a need to further investigate its potential. This study aims to evaluate the performance of CNN methods for land classification and to identify land-use (LU) change. Eight transferred CNN-based models were fully evaluated on remote sensing data for LU scene classification using three pre-trained CNN models AlexNet, GoogLeNet, and VGGNet. The classification accuracy of all the models ranges from 95% to 98% with the best-performed method the transferred CNN model combined with support vector machine (SVM) as feature classifier (CNN-SVM). The transferred CNN-SVM model was then applied to orthophotos of the northeastern Cloverdale as part of the City of Surrey, Canada from 2004 to 2017 to perform LU classification and LU change analysis. Two sources of datasets were used to train the CNN–SVM model to solve a practical issue with the limited data. The obtained results indicated that residential areas were expanding by creating higher density, while green areas and low-density residential areas were decreasing over the years, which accurately indicates the trend of LU change in the community of Cloverdale study area.",
+            "aminer_id": "619b65ee1c45e57ce9ae2f74"
+        },
+        "Cao2019b": {
+            "number": "[84]",
+            "title": "Deep Learning and Superpixel Feature Extraction Based on Contractive Autoencoder for Change Detection in SAR Images",
+            "text": "C.~Cao, S.~Dragicevic, and S.~Li, ``Land-use change detection with convolutional neural network methods,'' \\emph{Environments}, vol.~6, 2019.",
+            "ref_source": "tex",
+            "abstract": "Image segmentation based on superpixel is used in urban and land cover change detection for fast locating region of interest. However, the segmentation algorithms often degrade due to speckle noise in synthetic aperture radar images. In this paper, a feature learning method using a stacked contractive autoencoder (sCAE) is presented to extract the temporal change feature from superpixel with noise suppression. First, an affiliated temporal change image, which obtains temporal difference in the pixel level, are built by three different metrics. Second, the simple linear iterative clustering algorithm is used to generate superpixels, which tightly adhere to the change image boundaries for the purpose of acquiring homogeneous change samples. Third, a sCAE network is trained with the superpixel samples as input to learn the change features in semantic. Then, the encoded features by this sCAE model are binary classified to create the change result map. Finally, the proposed method is compared with methods based on principal components analysis and Markov random fields. Experiment results show that our deep learning model can separate nonlinear noise efficiently from change features and obtain better performance in change detection for synthetic aperture radar images than conventional change detection algorithms.",
+            "aminer_id": "5c208e3cdf5b8c0b3cfa8fc1"
+        },
+        "Lv2018": {
+            "number": "[85]",
+            "title": "Feature-Level Change Detection Using Deep Representation and Feature Change Analysis for Multispectral Imagery",
+            "text": "N.~{Lv}, C.~{Chen}, T.~{Qiu}, and A.~K. {Sangaiah}, ``Deep learning and superpixel feature extraction based on contractive autoencoder for change detection in sar images,'' \\emph{IEEE Transactions on Industrial Informatics}, vol.~14, no.~12, pp. 5530--5538, Dec 2018.",
+            "ref_source": "tex",
+            "abstract": "Due to the noise interference and redundancy in multispectral images, it is promising to transform the available spectral channels into a suitable feature space for relieving noise and reducing the redundancy. The booming of deep learning provides a flexible tool to learn abstract and invariant features directly from the data in their raw forms. In this letter, we propose an unsupervised change detection technique for multispectral images, in which we combine deep belief networks (DBNs) and feature change analysis to highlight changes. First, a DBN is established to capture the key information for discrimination and suppress the irrelevant variations. Second, we map bitemporal change feature into a 2-D polar domain to characterize the change information. Finally, an unsupervised clustering algorithm is adopted to distinguish the changed and unchanged pixels, and then, the changed types can be identified by classifying the changed pixels into several classes according to the directions of feature changes. The experimental results demonstrate the effectiveness and robustness of the proposed method.",
+            "aminer_id": "58437707ac44360f1082b7f8"
+        },
+        "Zhangh2016": {
+            "number": "[86]",
+            "title": "Deep Learning and Mapping Based Ternary Change Detection for Information Unbalanced Images.",
+            "text": "H.~{Zhang}, M.~{Gong}, P.~{Zhang}, L.~{Su}, and J.~{Shi}, ``Feature-level change detection using deep representation and feature change analysis for multispectral imagery,'' \\emph{IEEE Geoscience and Remote Sensing Letters}, vol.~13, no.~11, pp. 1666--1670, Nov 2016.",
+            "ref_source": "tex",
+            "abstract": "This paper mainly introduces a novel deep learning and mapping (DLM) framework oriented to the ternary change detection task for information unbalanced images. Different from the traditional intensity-based methods available, the DLM framework is based on the operation of the features extracted from the two images. Due to the excellent performance of deep learning in information representation and feature learning, two networks are used here. First, the stacked denoising autoencoder is used on two images, serving as a feature extractor. Then after a sample selection process, the stacked mapping network is employed to obtain the mapping functions, establishing the relationship between the features for each class. Finally, a comparison between the features is made and the final ternary map is generated through the clustering of the comparison result. This work is highlighted by two aspects. Firstly, previous works focus on two images with similar properties, whereas the DLM framework is based on two images with quite different properties, which is a usually encountered case. Secondly, the DLM framework is based on the analysis of feature instead of superficial intensity, which avoids the corruptions of unbalanced information to a large extent. Parameter tests on three datasets provide us with the appropriate parameter settings and the corresponding experimental results demonstrate its robustness and effectiveness in terms of accuracy and time complexity.",
+            "aminer_id": "599c7ae3601a182cd26ee02c"
+        },
+        "Su2017": {
+            "number": "[87]",
+            "title": "Change Detection in Sar Images Based on Deep Semi-Nmf and Svd Networks",
+            "text": "L.~Su, M.~Gong, P.~Zhang, M.~Zhang, J.~Liu, and H.~Yang, ``Deep learning and mapping based ternary change detection for information unbalanced images,'' \\emph{Pattern Recognition}, vol.~66, pp. 213 -- 228, 2017.",
+            "ref_source": "tex",
+            "abstract": "With the development of Earth observation programs, more and more multi-temporal synthetic aperture radar (SAR) data are available from remote sensing platforms. Therefore, it is demanding to develop unsupervised methods for SAR image change detection. Recently, deep learning-based methods have displayed promising performance for remote sensing image analysis. However, these methods can only provide excellent performance when the number of training samples is sufficiently large. In this paper, a novel simple method for SAR image change detection is proposed. The proposed method uses two singular value decomposition (SVD) analyses to learn the non-linear relations between multi-temporal images. By this means, the proposed method can generate more representative feature expressions with fewer samples. Therefore, it provides a simple yet effective way to be designed and trained easily. Firstly, deep semi-nonnegative matrix factorization (Deep Semi-NMF) is utilized to select pixels that have a high probability of being changed or unchanged as samples. Next, image patches centered at these sample pixels are generated from the input multi-temporal SAR images. Then, we build SVD networks, which are comprised of two SVD convolutional layers and one histogram feature generation layer. Finally, pixels in both multi-temporal SAR images are classified by the SVD networks, and then the final change map can be obtained. The experimental results of three SAR datasets have demonstrated the effectiveness and robustness of the proposed method.",
+            "aminer_id": "599c7a34601a182cd269b8f3"
+        },
+        "Feng2017": {
+            "number": "[88]",
+            "title": "Nonnegative Matrix Factorization: A Comprehensive Review",
+            "text": "F.~Gao, X.~Liu, J.~Dong, G.~Zhong, and M.~Jian, ``Change detection in sar images based on deep semi-nmf and svd networks,'' \\emph{Remote Sensing}, vol.~9, p. 435, 05 2017.",
+            "ref_source": "tex",
+            "abstract": "Nonnegative Matrix Factorization (NMF), a relatively novel paradigm for dimensionality reduction, has been in the ascendant since its inception. It incorporates the nonnegativity constraint and thus obtains the parts-based representation as well as enhancing the interpretability of the issue correspondingly. This survey paper mainly focuses on the theoretical research into NMF over the last 5 years, where the principles, basic models, properties, and algorithms of NMF along with its various modifications, extensions, and generalizations are summarized systematically. The existing NMF algorithms are divided into four categories: Basic NMF (BNMF), Constrained NMF (CNMF), Structured NMF (SNMF), and Generalized NMF (GNMF), upon which the design principles, characteristics, problems, relationships, and evolution of these algorithms are presented and analyzed comprehensively. Some related work not on NMF that NMF should learn from or has connections with is involved too. Moreover, some open issues remained to be solved are discussed. Several relevant application areas of NMF are also briefly described. This survey aims to construct an integrated, state-of-the-art framework for NMF concept, from which the follow-up research may benefit.",
+            "aminer_id": "5390bb7b20f70186a0f3f636"
+        },
+        "Wang6165290": {
+            "number": "[89]",
+            "title": "Restructuring of Deep Neural Network Acoustic Models with Singular Value Decomposition.",
+            "text": "Y.~{Wang} and Y.~{Zhang}, ``Nonnegative matrix factorization: A comprehensive review,'' \\emph{IEEE Transactions on Knowledge and Data Engineering}, vol.~25, no.~6, pp. 1336--1353, 2013.",
+            "ref_source": "tex",
+            "abstract": "Recently proposed deep neural network (DNN) obtains significant accuracy improvements in many large vocabulary continuous speech recognition (LVCSR) tasks. However, DNN requires much more parameters than traditional systems, which brings huge cost during online evaluation, and also limits the application of DNN in a lot of scenarios. In this paper we present our new effort on DNN aiming at reducing the model size while keeping the accuracy improvements. We apply singular value decomposition (SVD) on the weight matrices in DNN, and then restructure the model based on the inherent sparseness of the original matrices. After restructuring we can reduce the DNN model size significantly with negligible accuracy loss. We also fine-tune the restructured model using the regular back-propagation method to get the accuracy back when reducing the DNN model size heavily. The proposed method has been evaluated on two LVCSR tasks, with context-dependent DNN hidden Markov model (CD-DNN-HMM). Experimental results show that the proposed approach dramatically reduces the DNN model size by more than 80% without losing any accuracy. Index Terms: deep neural network, singular value decomposition, model restructuring",
+            "aminer_id": "53e9b8c1b7602d970449f14f"
+        },
+        "XueLG13": {
+            "number": "[90]",
+            "title": "A Generative Discriminatory Classified Network for Change Detection in Multispectral Imagery",
+            "text": "J.~Xue, J.~Li, and Y.~Gong, ``Restructuring of deep neural network acoustic models with singular value decomposition.'' in \\emph{INTERSPEECH}, F.~Bimbot, C.~Cerisara, C.~Fougeron, G.~Gravier, L.~Lamel, F.~Pellegrino, and P.~Perrier, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax ISCA, 2013, pp. 2365--2369.",
+            "ref_source": "tex",
+            "abstract": "Multispectral image change detection based on deep learning generally needs a large amount of training data. However, it is difficult and expensive to mark a large amount of labeled data. To deal with this problem, we propose a generative discriminatory classified network (GDCN) for multispectral image change detection, in which labeled data, unlabeled data, and new fake data generated by generative adversarial networks are used. The GDCN consists of a discriminatory classified network (DCN) and a generator. The DCN divides the input data into changed class, unchanged class, and extra class, i.e., fake class. The generator recovers the real data from input noises to provide additional training samples so as to boost the performance of the DCN. Finally, the bitemporal multispectral images are input to the DCN to get the final change map. Experimental results on the real multispectral imagery datasets demonstrate that the proposed GDCN trained by unlabeled data and a small amount of labeled data can achieve competitive performance compared with existing methods.",
+            "aminer_id": "5c5104cf7301396d1f0a268f"
+        },
+        "Gongg2019": {
+            "number": "[91]",
+            "title": "Saliency-Guided Deep Neural Networks for SAR Image Change Detection",
+            "text": "M.~{Gong}, Y.~{Yang}, T.~{Zhan}, X.~{Niu}, and S.~{Li}, ``A generative discriminatory classified network for change detection in multispectral imagery,'' \\emph{IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, vol.~12, no.~1, pp. 321--333, Jan 2019.",
+            "ref_source": "tex",
+            "abstract": "Change detection is an important task to identify land-cover changes between the acquisitions at different times. For synthetic aperture radar (SAR) images, inherent speckle noise of the images can lead to false changed points, which affects the change detection performance. Besides, the supervised classifier in change detection framework requires numerous training samples, which are generally obtained by manual labeling. In this paper, a novel unsupervised method named saliency-guided deep neural networks (SGDNNs) is proposed for SAR image change detection. In the proposed method, to weaken the influence of speckle noise, a salient region that probably belongs to the changed object is extracted from the difference image. To obtain pseudotraining samples automatically, hierarchical fuzzy C-means (HFCM) clustering is developed to select samples with higher probabilities to be changed and unchanged. Moreover, to enhance the discrimination of sample features, DNNs based on the nonnegative- and Fisher-constrained autoencoder are applied for final detection. Experimental results on five real SAR data sets demonstrate the effectiveness of the proposed approach.",
+            "aminer_id": "5d0b00a38607575390fd66d8"
+        },
+        "Geng2019": {
+            "number": "[92]",
+            "title": "Hierarchical Unsupervised Fuzzy Clustering",
+            "text": "J.~{Geng}, X.~{Ma}, X.~{Zhou}, and H.~{Wang}, ``Saliency-guided deep neural networks for sar image change detection,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~57, no.~10, pp. 7365--7377, 2019.",
+            "ref_source": "tex",
+            "abstract": "A recursive algorithm for hierarchical fuzzy partitioning is presented. The algorithm has the advantages of hierarchical clustering, while maintaining fuzzy clustering rules. Each pattern can have a nonzero membership in more than one subset of the data in the hierarchy. Optimal feature extraction and reduction is optionally reapplied for each subset. Combining hierarchical and fuzzy concepts is suggested as a natural feasible solution to the cluster validity problem of real data. The convergence and membership conservation of the algorithm are proven. The algorithm is shown to be effective for a variety of data sets with a wide dynamic range of both covariance matrices and number of members in each class.",
+            "aminer_id": "5390b5c620f70186a0f091f0"
+        },
+        "Geva19999": {
+            "number": "[93]",
+            "title": "Unsupervised deep noise modeling for hyperspectral image change detection",
+            "text": "A.~B. Geva, ``Hierarchical unsupervised fuzzy clustering,'' \\emph{IEEE Transactions on Fuzzy Systems}, vol.~7, no.~6, pp. 723--733, 1999.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5c99fa753cb210d2719cc766"
+        },
+        "Xuelong2019": {
+            "number": "[94]",
+            "title": "Automatic Building Change Image Quality Assessment in High Resolution Remote Sensing Based on Deep Learning.",
+            "text": "X.~Li, Z.~Yuan, and Q.~Wang, ``Unsupervised deep noise modeling for hyperspectral image change detection,'' \\emph{Remote Sensing}, vol.~11, no.~3, 2019.",
+            "ref_source": "tex",
+            "abstract": "The multi-temporal high-resolution remote sensing (HRRS) images are usually acquired at different imaging angles, with serious noise interferences and obvious building shadows, so that detecting the changes of urban buildings is a problem. In order to address this challenge, a deep learning-based algorithm called ABCDHIDL is proposed to automatically detect the building changes from multi-temporal HRRS images. Firstly, an automatic selection method of labeled samples of building changes based on morphology (ASLSBCM) is proposed. Secondly, a deep learning model (DBN-ELM) for building changes detection based on deep belief network (DBN) and extreme learning machine (ELM) is proposed. A convolution operation is employed to extract the spectral, texture and spatial features and generate a combined low-level features vector for each pixel in the multi-temporal HRRS images. The unlabeled samples are introduced to pre-train the DBN, and the parameters of DBN-ELM are globally optimized by jointly using the ELM classifier and the labeled samples are offered by ASLSBCM to further improve the detection accuracy. In order to evaluate the performance of ABCDHIDL, four groups of double-temporal WorldView2 HRRS images in four different experimental regions are selected respectively as the test datasets, and five other representative methods are used and compared with ABCDHIDL in the experiments of buildings change detection. The results show that ABCDHIDL has higher accuracy and automation level than the other five methods despite its relatively higher time consumption.",
+            "aminer_id": "5dbab5ba47c8f766462898ee"
+        },
+        "Huang2019": {
+            "number": "[95]",
+            "title": "No-reference Image Quality Assessment Using Modified Extreme Learning Machine Classifier",
+            "text": "F.~Huang, Y.~Yu, and T.~Feng, ``Automatic building change image quality assessment in high resolution remote sensing based on deep learning,'' \\emph{Journal of Visual Communication and Image Representation}, vol.~63, p. 102585, 2019.",
+            "ref_source": "tex",
+            "abstract": "In this paper, we present a machine learning approach to measure the visual quality of JPEG-coded images. The features for predicting the perceived image quality are extracted by considering key human visual sensitivity (HVS) factors such as edge amplitude, edge length, background activity and background luminance. Image quality assessment involves estimating the functional relationship between HVS features and subjective test scores. The quality of the compressed images are obtained without referring to their original images ('No Reference' metric). Here, the problem of quality estimation is transformed to a classification problem and solved using extreme learning machine (ELM) algorithm. In ELM, the input weights and the bias values are randomly chosen and the output weights are analytically calculated. The generalization performance of the ELM algorithm for classification problems with imbalance in the number of samples per quality class depends critically on the input weights and the bias values. Hence, we propose two schemes, namely the k-fold selection scheme (KS-ELM) and the real-coded genetic algorithm (RCGA-ELM) to select the input weights and the bias values such that the generalization performance of the classifier is a maximum. Results indicate that the proposed schemes significantly improve the performance of ELM classifier under imbalance condition for image quality assessment. The experimental results prove that the estimated visual quality of the proposed RCGA-ELM emulates the mean opinion score very well. The experimental results are compared with the existing JPEG no-reference image quality metric and full-reference structural similarity image quality metric.",
+            "aminer_id": "5390a2e920f70186a0e682c8"
+        },
+        "SURESH2009541": {
+            "number": "[96]",
+            "title": "A Survey on Transfer Learning",
+            "text": "S.~Suresh, R.~V. Babu, and H.~J. Kim, ``No-reference image quality assessment using modified extreme learning machine classifier,'' \\emph{Applied Soft Computing}, vol.~9, no.~2, pp. 541 -- 552, 2009.",
+            "ref_source": "tex",
+            "abstract": "A major assumption in many machine learning and data mining algorithms is that the training and future data must be in the same feature space and have the same distribution. However, in many real-world applications, this assumption may not hold. For example, we sometimes have a classification task in one domain of interest, but we only have sufficient training data in another domain of interest, where the latter data may be in a different feature space or follow a different data distribution. In such cases, knowledge transfer, if done successfully, would greatly improve the performance of learning by avoiding much expensive data-labeling efforts. In recent years, transfer learning has emerged as a new learning framework to address this problem. This survey focuses on categorizing and reviewing the current progress on transfer learning for classification, regression, and clustering problems. In this survey, we discuss the relationship between transfer learning and other related machine learning techniques such as domain adaptation, multitask learning and sample selection bias, as well as covariate shift. We also explore some potential future issues in transfer learning research.",
+            "aminer_id": null
+        },
+        "Pan2010": {
+            "number": "[97]",
+            "title": "A Survey of Transfer Learning",
+            "text": "S.~J. {Pan} and Q.~{Yang}, ``A survey on transfer learning,'' \\emph{IEEE Transactions on Knowledge and Data Engineering}, vol.~22, no.~10, pp. 1345--1359, 2010.",
+            "ref_source": "tex",
+            "abstract": "Machine learning and data mining techniques have been used in numerous real-world applications. An assumption of traditional machine learning methodologies is the training data and testing data are taken from the same domain, such that the input feature space and data distribution characteristics are the same. However, in some real-world machine learning scenarios, this assumption does not hold. There are cases where training data is expensive or difficult to collect. Therefore, there is a need to create high-performance learners trained with more easily obtained data from different domains. This methodology is referred to as transfer learning. This survey paper formally defines transfer learning, presents information on current solutions, and reviews applications applied to transfer learning. Lastly, there is information listed on software downloads for various transfer learning solutions and a discussion of possible future research work. The transfer learning solutions surveyed are independent of data size and can be applied to big data environments.",
+            "aminer_id": "58d4f9630cf210d30c5a01d9"
+        },
+        "Weiss2016": {
+            "number": "[98]",
+            "title": "Object Detection with Deep Learning: A Review",
+            "text": "K.~Weiss, T.~M. Khoshgoftaar, and D.~Wang, ``A survey of transfer learning,'' \\emph{Journal of Big Data}, vol.~3, 2016.",
+            "ref_source": "tex",
+            "abstract": "Due to object detection’s close relationship with video analysis and image understanding, it has attracted much research attention in recent years. Traditional object detection methods are built on handcrafted features and shallow trainable architectures. Their performance easily stagnates by constructing complex ensembles that combine multiple low-level image features with high-level context from object detectors and scene classifiers. With the rapid development in deep learning, more powerful tools, which are able to learn semantic, high-level, deeper features, are introduced to address the problems existing in traditional architectures. These models behave differently in network architecture, training strategy, and optimization function. In this paper, we provide a review of deep learning-based object detection frameworks. Our review begins with a brief introduction on the history of deep learning and its representative tool, namely, the convolutional neural network. Then, we focus on typical generic object detection architectures along with some modifications and useful tricks to improve detection performance further. As distinct specific detection tasks exhibit different characteristics, we also briefly survey several specific tasks, including salient object detection, face detection, and pedestrian detection. Experimental analyses are also provided to compare various methods and draw some meaningful conclusions. Finally, several promising directions and tasks are provided to serve as guidelines for future work in both object detection and relevant neural network-based learning systems.",
+            "aminer_id": "5b67b4b417c44aac1c866f95"
+        },
+        "zhao2018object": {
+            "number": "[99]",
+            "title": "Fine-tuning Convolutional Neural Network with Transfer Learning for Semantic Segmentation of Ground-Level Oilseed Rape Images in a Field with High Weed Pressure.",
+            "text": "Z.-Q. Zhao, P.~Zheng, S.-t. Xu, and X.~Wu, ``Object detection with deep learning: A review,'' 2018.",
+            "ref_source": "tex",
+            "abstract": "Image processing technology has gained considerable attention in agricultural proximal sensing applications, including plant disease detection, vegetation fraction estimation, monitoring of the crop growth status, and image-based site-specific management. Image segmentation is the first and crucial step to process complex infield images. However, image segmentation by either hand engineered-based or deep learning-based methods that train the entire system from scratch is a daunting task and needs several hundreds of labeled images that may be difficult to obtain in practice. The recent development of transfer learning has shown the potential of transferring the learned feature detectors of a pre-trained convolutional neural network to a new image dataset. This study was thus aimed to evaluate three transfer learning methods using a VGG16-based encoder net for semantic segmentation of oilseed rapes images in a field with high-density weeds. Three different transfer learning approaches using a VGG16-based encoder model were proposed, and their performances were compared to a VGG19-based encoder net. Relying on the intensive use of data augmentation and transfer learning, we showed that such networks could be trained end-to-end using a few annotated training images. The highest accuracy of 96% was obtained by the VGG16-based encoder net in which the fine-tuned model was only used for feature extraction and the segmentation was performed using shallow machine learning classifiers (MLCs). Transfer learning demonstrated to be efficient and presented a robust performance in segmenting plants amongst high-density weeds. The implementation of MLCs is reasonable for real-time applications with the segmentation time less than 0.05 s/image.",
+            "aminer_id": "5deb794adf1a9c0c41616861"
+        },
+        "ABDALLA2019105091": {
+            "number": "[100]",
+            "title": "Change detection based on deep features and low rank",
+            "text": "A.~Abdalla, H.~Cen, L.~Wan, R.~Rashid, H.~Weng, W.~Zhou, and Y.~He, ``Fine-tuning convolutional neural network with transfer learning for semantic segmentation of ground-level oilseed rape images in a field with high weed pressure,'' \\emph{Computers and Electronics in Agriculture}, vol. 167, p. 105091, 2019.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5a4aef6f17c44a2190f783ed"
+        },
+        "Bin2017": {
+            "number": "[101]",
+            "title": "ImageNet: A Large-Scale Hierarchical Image Database",
+            "text": "B.~Hou, Y.~Wang, and Q.~Liu, ``Change detection based on deep features and low rank,'' \\emph{IEEE Geoscience and Remote Sensing Letters}, vol.~PP, pp. 1--5, 11 2017.",
+            "ref_source": "tex",
+            "abstract": "The explosion of image data on the Internet has the potential to foster more sophisticated and robust models and algorithms to index, retrieve, organize and interact with images and multimedia data. But exactly how such data can be harnessed and organized remains a critical problem. We introduce here a new database called “ImageNet”, a large-scale ontology of images built upon the backbone of the WordNet structure. ImageNet aims to populate the majority of the 80,000 synsets of WordNet with an average of 500-1000 clean and full resolution images. This will result in tens of millions of annotated images organized by the semantic hierarchy of WordNet. This paper offers a detailed analysis of ImageNet in its current state: 12 subtrees with 5247 synsets and 3.2 million images in total. We show that ImageNet is much larger in scale and diversity and much more accurate than the current image datasets. Constructing such a large-scale database is a challenging task. We describe the data collection scheme with Amazon Mechanical Turk. Lastly, we illustrate the usefulness of ImageNet through three simple applications in object recognition, image classification and automatic object clustering. We hope that the scale, accuracy, diversity and hierarchical structure of ImageNet can offer unparalleled opportunities to researchers in the computer vision community and beyond.",
+            "aminer_id": "53e9b844b7602d970440513c"
+        },
+        "imagenet_cvpr09": {
+            "number": "[102]",
+            "title": "AID: A Benchmark Data Set for Performance Evaluation of Aerial Scene Classification",
+            "text": "J.~Deng, W.~Dong, R.~Socher, L.-J. Li, K.~Li, and L.~Fei-Fei, ``{ImageNet: A Large-Scale Hierarchical Image Database},'' in \\emph{CVPR09}, 2009.",
+            "ref_source": "tex",
+            "abstract": "Aerial scene classification, which aims to automatically label an aerial image with a specific semantic category, is a fundamental problem for understanding high-resolution remote sensing imagery. In recent years, it has become an active task in remote sensing area and numerous algorithms have been proposed for this task, including many machine learning and data-driven approaches. However, the existing datasets for aerial scene classification like UC-Merced dataset and WHU-RS19 are with relatively small sizes, and the results on them are already saturated. This largely limits the development of scene classification algorithms. This paper describes the Aerial Image Dataset (AID): a large-scale dataset for aerial scene classification. The goal of AID is to advance the state-of-the-arts in scene classification of remote sensing images. For creating AID, we collect and annotate more than ten thousands aerial scene images. In addition, a comprehensive review of the existing aerial scene classification techniques as well as recent widely-used deep learning methods is given. Finally, we provide a performance analysis of typical aerial scene classification and deep learning approaches on AID, which can be served as the baseline results on this benchmark.",
+            "aminer_id": "58437725ac44360f1082fcdb"
+        },
+        "7907303": {
+            "number": "[103]",
+            "title": "Sample Selection Based Change Detection with Dilated Network Learning in Remote Sensing Images",
+            "text": "G.~{Xia}, J.~{Hu}, F.~{Hu}, B.~{Shi}, X.~{Bai}, Y.~{Zhong}, L.~{Zhang}, and X.~{Lu}, ``Aid: A benchmark data set for performance evaluation of aerial scene classification,'' \\emph{IEEE Transactions on Geoscience and Remote Sensing}, vol.~55, no.~7, pp. 3965--3981, 2017.",
+            "ref_source": "tex",
+            "abstract": "The change detection system plays an active role in remote sensing images by detecting the changes in the image environment. Changes may be occur frequently due to the seasonal factors such as deforestation, natural disorders, etc. The objective of this paper is to develop an effective approach to find the changes that were experienced over a time period. The changes detected by difference image (DI) method is not efficient because it has the drawbacks in speckle noise suppression and classification, also the quality of DI affects the change map. This paper proposes a sample selection-multiple dilated convolutional neural network for the detection of changed and unchanged areas. In this, multiple dilation rates are incorporated, that overcome the existing gridding problems in network. The feature map determined at fully connected network extracts the global information by widening the receptive field that covers all the regions without any missing portions in the image. Hence, this type of architecture improves the learning in deep network by detecting the changes accurately. Finally, the trained network model achieves a feature map from the two images with the classified result of changed and unchanged pixels. The accuracy of the proposed change detection result provides improved results as compared with the existing algorithms. The performance metrics like false positive, false negative, overall error, the percentage of correct classification and Kappa are used for the estimation of the proposed image change detection task. Experiments are conducted on seven real datasets, and the result shows the better detection result than the other existing approaches.",
+            "aminer_id": "5f1d6cbe9fced0a24b5c372e"
+        },
+        "Venugopal2019": {
+            "number": "[104]",
+            "title": "Deep Residual Learning for Image Recognition",
+            "text": "N.~Venugopal, ``Sample selection based change detection with dilated network learning in remote sensing images,'' \\emph{Sensing and Imaging}, vol.~20, 12 2019.",
+            "ref_source": "tex",
+            "abstract": "Deeper neural networks are more difficult to train. We present a residual learning framework to ease the training of networks that are substantially deeper than those used previously. We explicitly reformulate the layers as learning residual functions with reference to the layer inputs, instead of learning unreferenced functions. We provide comprehensive empirical evidence showing that these residual networks are easier to optimize, and can gain accuracy from considerably increased depth. On the ImageNet dataset we evaluate residual nets with a depth of up to 152 layers - 8× deeper than VGG nets [40] but still having lower complexity. An ensemble of these residual nets achieves 3.57% error on the ImageNet test set. This result won the 1st place on the ILSVRC 2015 classification task. We also present analysis on CIFAR-10 with 100 and 1000 layers. The depth of representations is of central importance for many visual recognition tasks. Solely due to our extremely deep representations, we obtain a 28% relative improvement on the COCO object detection dataset. Deep residual nets are foundations of our submissions to ILSVRC & COCO 2015 competitions1, where we also won the 1st places on the tasks of ImageNet detection, ImageNet localization, COCO detection, and COCO segmentation.",
+            "aminer_id": "573696026e3b12023e515eec"
+        },
+        "Kaiming2015": {
+            "number": "[105]",
+            "title": "Triplet-Based Semantic Relation Learning for Aerial Remote Sensing Image Change Detection",
+            "text": "K.~He, X.~Zhang, S.~Ren, and J.~Sun, ``Deep residual learning for image recognition,'' \\emph{CoRR}, vol. abs/1512.03385, 2015.",
+            "ref_source": "tex",
+            "abstract": "This letter presents a novel supervised change detection method based on a deep siamese semantic network framework, which is trained by using improved triplet loss function for optical aerial images. The proposed framework can not only extract features directly from image pairs which include multiscale information and are more abstract as well as robust, but also enhance the interclass separability and the intraclass inseparability by learning semantic relation. The feature vectors of the pixels pair with the same label are closer, and at the same time, the feature vectors of the pixels with different labels are farther from each other. Moreover, we use the distance of the feature map to detect the changes on the difference map between the image pair. Binarized change map can be obtained by a simple threshold. Experiments on optical aerial image data set validate that the proposed approach produces comparable, even better results, favorably to the state-of-the-art methods in terms of F-measure.",
+            "aminer_id": "5c5104cf7301396d1f0a2711"
+        },
+        "ZhangM2019": {
+            "number": "[106]",
+            "title": "DeepLab: Semantic Image Segmentation with Deep Convolutional Nets, Atrous Convolution, and Fully Connected CRFs",
+            "text": "M.~{Zhang}, G.~{Xu}, K.~{Chen}, M.~{Yan}, and X.~{Sun}, ``Triplet-based semantic relation learning for aerial remote sensing image change detection,'' \\emph{IEEE Geoscience and Remote Sensing Letters}, vol.~16, no.~2, pp. 266--270, Feb 2019.",
+            "ref_source": "tex",
+            "abstract": "In this work we address the task of semantic image segmentation with Deep Learning and make three main contributions that are experimentally shown to have substantial practical merit. First, we highlight convolution with upsampled filters, or 'atrous convolution', as a powerful tool in dense prediction tasks. Atrous convolution allows us to explicitly control the resolution at which feature responses are computed within Deep Convolutional Neural Networks. It also allows us to effectively enlarge the field of view of filters to incorporate larger context without increasing the number of parameters or the amount of computation. Second, we propose atrous spatial pyramid pooling (ASPP) to robustly segment objects at multiple scales. ASPP probes an incoming convolutional feature layer with filters at multiple sampling rates and effective fields-of-views, thus capturing objects as well as image context at multiple scales. Third, we improve the localization of object boundaries by combining methods from DCNNs and probabilistic graphical models. The commonly deployed combination of max-pooling and downsampling in DCNNs achieves invariance but has a toll on localization accuracy. We overcome this by combining the responses at the final DCNN layer with a fully connected Conditional Random Field (CRF), which is shown both qualitatively and quantitatively to improve localization performance. Our proposed \"DeepLab\" system sets the new state-of-art at the PASCAL VOC-2012 semantic image segmentation task, reaching 79.7 percent mIOU in the test set, and advances the results on three other datasets: PASCAL-Context, PASCAL-Person-Part, and Cityscapes. All of our code is made publicly available online.",
+            "aminer_id": "5550411845ce0a409eb387e2"
+        },
+        "Liang": {
+            "number": "[107]",
+            "title": "The Pascal Visual Object Classes (VOC) Challenge",
+            "text": "L.~Chen, G.~Papandreou, I.~Kokkinos, K.~Murphy, and A.~L. Yuille, ``Deeplab: Semantic image segmentation with deep convolutional nets, atrous convolution, and fully connected crfs,'' \\emph{CoRR}, vol. abs/1606.00915, 2016.",
+            "ref_source": "tex",
+            "abstract": "The Pascal Visual Object Classes (VOC) challenge is a benchmark in visual object category recognition and detection, providing the vision and machine learning communities with a standard dataset of images and annotation, and standard evaluation procedures. Organised annually from 2005 to present, the challenge and its associated dataset has become accepted as the benchmark for object detection.This paper describes the dataset and evaluation procedure. We review the state-of-the-art in evaluated methods for both classification and detection, analyse whether the methods are statistically different, what they are learning from the images (e.g. the object or its context), and what the methods find easy or confuse. The paper concludes with lessons learnt in the three year history of the challenge, and proposes directions for future improvement and extension.",
+            "aminer_id": "5390a8dc20f70186a0e9f181"
+        },
+        "pascal-voc-2012": {
+            "number": "[108]",
+            "title": "Dual Learning-Based Siamese Framework for Change Detection Using Bi-Temporal VHR Optical Remote Sensing Images.",
+            "text": "M.~Everingham, L.~Van~Gool, C.~K.~I. Williams, J.~Winn, and A.~Zisserman, ``The pascal visual object classes (voc) challenge,'' \\emph{International Journal of Computer Vision}, vol.~88, no.~2, pp. 303--338, 2010.",
+            "ref_source": "tex",
+            "abstract": "As a fundamental and profound task in remote sensing, change detection from very-high-resolution (VHR) images plays a vital role in a wide range of applications and attracts considerable attention. Current methods generally focus on the research of simultaneously modeling and discriminating the changed and unchanged features. In practice, for bi-temporal VHR optical remote sensing images, the temporal spectral variability tends to exist in all bands throughout the entire paired images, making it difficult to distinguish none-changes and changes with a single model. In this paper, motivated by this observation, we propose a novel hybrid end-to-end framework named dual learning-based Siamese framework (DLSF) for change detection. The framework comprises two parallel streams which are dual learning-based domain transfer and Siamese-based change decision. The former stream is aimed at reducing the domain differences of two paired images and retaining the intrinsic information by translating them into each other's domain. While the latter stream is aimed at learning a decision strategy to decide the changes in two domains, respectively. By training our proposed framework with certain change map references, this method learns a cross-domain translation in order to suppress the differences of unchanged regions and highlight the differences of changed regions in two domains, respectively, then focus on the detection of changed regions. To the best of our knowledge, the idea of incorporating dual learning framework and Siamese network for change detection is novel. The experimental results on two datasets and the comparison with other state-of-the-art methods verify the efficiency and superiority of our proposed DLSF.",
+            "aminer_id": "5d0b00c28607575390fe0bbe"
+        },
+        "Fang2019DualLS": {
+            "number": "[109]",
+            "title": "Transferred Deep Learning for Sea Ice Change Detection from Synthetic-Aperture Radar Images",
+            "text": "B.~Fang, L.~Pan, and R.~Kou, ``Dual learning-based siamese framework for change detection using bi-temporal vhr optical remote sensing images,'' \\emph{Remote Sensing}, vol.~11, p. 1292, 2019.",
+            "ref_source": "tex",
+            "abstract": "High-quality sea ice monitoring is crucial to navigation safety and climate research in the polar regions. In this letter, a transferred multilevel fusion network (MLFN) is proposed for sea ice change detection from synthetic-aperture radar (SAR) images. Considering the fact that training data are limited in the task of sea ice change detection, a large data set was used to train the MLFN, and the deep knowledge can be transferred to sea ice analysis. In addition, cascade dense blocks are employed to optimize the convolutional layers. Multilayer feature fusion is introduced to exploit the complementary information among low-, mid-, and high-level feature representations. Therefore, more discriminative feature extraction can be achieved by the MLFN. Furthermore, the fine-tune strategy is utilized to optimize the network parameters. The experimental results on two real sea ice data sets demonstrated that the proposed method achieved better performance than other competitive methods.",
+            "aminer_id": "5da056bb47c8f76646056d51"
+        },
+        "Gao2019": {
+            "number": "[110]",
+            "title": "Human-level Control Through Deep Reinforcement Learning",
+            "text": "Y.~{Gao}, F.~{Gao}, J.~{Dong}, and S.~{Wang}, ``Transferred deep learning for sea ice change detection from synthetic-aperture radar images,'' \\emph{IEEE Geoscience and Remote Sensing Letters}, vol.~16, no.~10, pp. 1655--1659, Oct 2019.",
+            "ref_source": "tex",
+            "abstract": "n artificial agent is developed that learns to play a diverse range of classic Atari 2600 computer games directly from sensory experience, achieving a performance comparable to that of an expert human player; this work paves the way to building general-purpose learning algorithms that bridge the divide between perception and action.",
+            "aminer_id": "55a6bae665ce054aad73115b"
+        },
+        "Mnih2015": {
+            "number": "[111]",
+            "title": "Target-driven Visual Navigation in Indoor Scenes Using Deep Reinforcement Learning.",
+            "text": "V.~Mnih, K.~Kavukcuoglu, D.~Silver, A.~A. Rusu, J.~Veness, M.~G. Bellemare, A.~Graves, M.~Riedmiller, A.~K. Fidjeland, G.~Ostrovski, S.~Petersen, C.~Beattie, A.~Sadik, I.~Antonoglou, H.~King, D.~Kumaran, D.~Wierstra, S.~Legg, and D.~Hassabis, ``Human-level control through deep reinforcement learning,'' \\emph{Nature}, vol. 518, pp. 529--533, 2015.",
+            "ref_source": "tex",
+            "abstract": "Two less addressed issues of deep reinforcement learning are (1) lack of generalization capability to new goals, and (2) data inefficiency, i.e., the model requires several (and often costly) episodes of trial and error to converge, which makes it impractical to be applied to real-world scenarios. In this paper, we address these two issues and apply our model to target-driven visual navigation. To address the first issue, we propose an actor-critic model whose policy is a function of the goal as well as the current state, which allows better generalization. To address the second issue, we propose the AI2-THOR framework, which provides an environment with high-quality 3D scenes and a physics engine. Our framework enables agents to take actions and interact with objects. Hence, we can collect a huge number of training samples efficiently. We show that our proposed method (1) converges faster than the state-of-the-art deep reinforcement learning methods, (2) generalizes across targets and scenes, (3) generalizes to a real robot scenario with a small amount of fine-tuning (although the model is trained in simulation), (4) is end-to-end trainable and does not need feature engineering, feature matching between frames or 3D reconstruction of the environment.",
+            "aminer_id": "599c7bf6601a182cd2777a36"
+        },
+        "7989381": {
+            "number": "[112]",
+            "title": "Deep Reinforcement Learning for Multiagent Systems: A Review of Challenges, Solutions, and Applications",
+            "text": "Y.~{Zhu}, R.~{Mottaghi}, E.~{Kolve}, J.~J. {Lim}, A.~{Gupta}, L.~{Fei-Fei}, and A.~{Farhadi}, ``Target-driven visual navigation in indoor scenes using deep reinforcement learning,'' in \\emph{2017 IEEE International Conference on Robotics and Automation (ICRA)}, 2017, pp. 3357--3364.",
+            "ref_source": "tex",
+            "abstract": "Reinforcement learning (RL) algorithms have been around for decades and employed to solve various sequential decision-making problems. These algorithms, however, have faced great challenges when dealing with high-dimensional environments. The recent development of deep learning has enabled RL methods to drive optimal policies for sophisticated and capable agents, which can perform efficiently in these challenging environments. This article addresses an important aspect of deep RL related to situations that require multiple agents to communicate and cooperate to solve complex tasks. A survey of different approaches to problems related to multiagent deep RL (MADRL) is presented, including nonstationarity, partial observability, continuous state and action spaces, multiagent training schemes, and multiagent transfer learning. The merits and demerits of the reviewed methods will be analyzed and discussed with their corresponding applications explored. It is envisaged that this review provides insights about various MADRL methods and can lead to the future development of more robust and highly useful multiagent learning methods for solving real-world problems.",
+            "aminer_id": "5e7b2d3c93d709897c422b90"
+        },
+        "9043893": {
+            "number": "[113]",
+            "title": "Combining Planning and Deep Reinforcement Learning in Tactical Decision Making for Autonomous Driving.",
+            "text": "T.~T. {Nguyen}, N.~D. {Nguyen}, and S.~{Nahavandi}, ``Deep reinforcement learning for multiagent systems: A review of challenges, solutions, and applications,'' \\emph{IEEE Transactions on Cybernetics}, pp. 1--14, 2020.",
+            "ref_source": "tex",
+            "abstract": "Tactical decision making for autonomous driving is challenging due to the diversity of environments, the uncertainty in the sensor information, and the complex interaction with other road users. This paper introduces a general framework for tactical decision making, which combines the concepts of planning and learning, in the form of Monte Carlo tree search and deep reinforcement learning. The method is based on the AlphaGo Zero algorithm, which is extended to a domain with a continuous state space where self-play cannot be used. The framework is applied to two different highway driving cases in a simulated environment and it is shown to perform better than a commonly used baseline method. The strength of combining planning and learning is also illustrated by a comparison to using the Monte Carlo tree search or the neural network policy separately.",
+            "aminer_id": "5cd2b398e1cd8e091e169fed"
+        },
+        "8911507": {
+            "number": "[114]",
+            "title": "Deep Reinforcement Learning and Permissioned Blockchain for Content Caching in Vehicular Edge Computing and Networks",
+            "text": "C.~{Hoel}, K.~{Driggs-Campbell}, K.~{Wolff}, L.~{Laine}, and M.~{Kochenderfer}, ``Combining planning and deep reinforcement learning in tactical decision making for autonomous driving,'' \\emph{IEEE Transactions on Intelligent Vehicles}, pp. 1--12, 2019.",
+            "ref_source": "tex",
+            "abstract": "Vehicular Edge Computing (VEC) is a promising paradigm to enable huge amount of data and multimedia content to be cached in proximity to vehicles. However, high mobility of vehicles and dynamic wireless channel condition make it challenge to design an optimal content caching policy. Further, with much sensitive personal information, vehicles may be not willing to caching their contents to an untrusted caching provider. Deep Reinforcement Learning (DRL) is an emerging technique to solve the problem with high-dimensional and time-varying features. Permission blockchain is able to establish a secure and decentralized peer-to-peer transaction environment. In this paper, we integrate DRL and permissioned blockchain into vehicular networks for intelligent and secure content caching. We first propose a blockchain empowered distributed content caching framework where vehicles perform content caching and base stations maintain the permissioned blockchain. Then, we exploit the advanced DRL approach to design an optimal content caching scheme with taking mobility into account. Finally, we propose a new block verifier selection method, Proof-of-Utility (PoU), to accelerate block verification process. Security analysis shows that our proposed blockchain empowered content caching can achieve security and privacy protection. Numerical results based on a real dataset from Uber indicate that the DRL-inspired content caching scheme significantly outperforms two benchmark policies.",
+            "aminer_id": "5dfb4b0b3a55acc370a5e204"
+        },
+        "8998330": {
+            "number": "[115]",
+            "title": "Three-step Action Search Networks with Deep Q-learning for Real-Time Object Tracking",
+            "text": "Y.~{Dai}, D.~{Xu}, K.~{Zhang}, S.~{Maharjan}, and Y.~{Zhang}, ``Deep reinforcement learning and permissioned blockchain for content caching in vehicular edge computing and networks,'' \\emph{IEEE Transactions on Vehicular Technology}, vol.~69, no.~4, pp. 4312--4324, 2020.",
+            "ref_source": "tex",
+            "abstract": "•A Three-Step Action Search network (TSAS) is designed for real-time object tracking.•A collaborative learning strategy is developed to learn the TSAS network in order to achieve more discriminative.•TSAS network is supervised in a sense of action classification and is also formulated as a reinforcement learning of cumulative rewards along the action steps and the time steps.•Two action-value functions are approximated through deep networks in order to determine the best action for object tracking.•Deep reinforcement learning is exploited to deal with the localization delay in the action steps effectively and explore the long-term information in videos efficiently.",
+            "aminer_id": "5e5e190f93d709897ce4bb3d"
+        },
+        "TENG2020107188": {
+            "number": "[116]",
+            "title": "End-to-End Active Object Tracking and Its Real-World Deployment Via Reinforcement Learning",
+            "text": "Z.~Teng, B.~Zhang, and J.~Fan, ``Three-step action search networks with deep q-learning for real-time object tracking,'' \\emph{Pattern Recognition}, vol. 101, pp. 1--11, 2020.",
+            "ref_source": "tex",
+            "abstract": "We study active object tracking, where a tracker takes visual observations (i.e., frame sequences) as input and produces the corresponding camera control signals as output (e.g., move forward, turn left, etc.). Conventional methods tackle tracking and camera control tasks separately, and the resulting system is difficult to tune jointly. These methods also require significant human efforts for image labeling and expensive trial-and-error system tuning in the real world. To address these issues, we propose, in this paper, an end-to-end solution via deep reinforcement learning. A ConvNet-LSTM function approximator is adopted for the direct frame-to-action prediction. We further propose an environment augmentation technique and a customized reward function, which are crucial for successful training. The tracker trained in simulators (ViZDoom and Unreal Engine) demonstrates good generalization behaviors in the case of unseen object moving paths, unseen object appearances, unseen backgrounds, and distracting objects. The system is robust and can restore tracking after occasional lost of the target being tracked. We also find that the tracking ability, obtained solely from simulators, can potentially transfer to real-world scenarios. We demonstrate successful examples of such transfer, via experiments over the VOT dataset and the deployment of a real-world robot using the proposed active tracker trained in simulation.",
+            "aminer_id": "5b8c9f5317c44af36f8b77c4"
+        },
+        "8642452": {
+            "number": "[117]",
+            "title": "Deep reinforcement active learning for human-in-the-loop person re-identification",
+            "text": "W.~{Luo}, P.~{Sun}, F.~{Zhong}, W.~{Liu}, T.~{Zhang}, and Y.~{Wang}, ``End-to-end active object tracking and its real-world deployment via reinforcement learning,'' \\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, pp. 1--14, 2019.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5e63725891e011ae97a69bb7"
+        },
+        "Liu_2019_ICCV": {
+            "number": "[118]",
+            "title": "Feature Aggregation with Reinforcement Learning for Video-Based Person Re-Identification",
+            "text": "Z.~Liu, J.~Wang, S.~Gong, H.~Lu, and D.~Tao, ``Deep reinforcement active learning for human-in-the-loop person re-identification,'' in \\emph{The IEEE International Conference on Computer Vision (ICCV)}, October 2019.",
+            "ref_source": "tex",
+            "abstract": "Video-based person re-identification (re-id) matches two tracks of persons from different cameras. Features are extracted from the images of a sequence and then aggregated as a track feature. Compared to existing works that aggregate frame features by simply averaging them or using temporal models such as recurrent neural networks, we propose an intelligent feature aggregate method based on reinforcement learning. Specifically, we train an agent to determine which frames in the sequence should be abandoned in the aggregation, which can be treated as a decision making process. By this way, the proposed method avoids introducing noisy information of the sequence and retains these valuable frames when generating a track feature. On benchmark data sets, experimental results show that our method can boost the re-id accuracy obviously based on the state-of-the-art models.",
+            "aminer_id": "5c8cced3e1cd8e5dafc00571"
+        },
+        "8666162": {
+            "number": "[119]",
+            "title": "Review of deep learning algorithms and architectures",
+            "text": "W.~{Zhang}, X.~{He}, W.~{Lu}, H.~{Qiao}, and Y.~{Li}, ``Feature aggregation with reinforcement learning for video-based person re-identification,'' \\emph{IEEE Transactions on Neural Networks and Learning Systems}, vol.~30, no.~12, pp. 3847--3852, 2019.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5cf488f2da56291d5815257e"
+        },
+        "8694781": {
+            "number": "[120]",
+            "title": "Asynchronous Methods for Deep Reinforcement Learning",
+            "text": "A.~{Shrestha} and A.~{Mahmood}, ``Review of deep learning algorithms and architectures,'' \\emph{IEEE Access}, vol.~7, pp. 53\\,040--53\\,065, 2019.",
+            "ref_source": "tex",
+            "abstract": "We propose a conceptually simple and lightweight framework for deep reinforcement learning that uses asynchronous gradient descent for optimization of deep neural network controllers. We present asynchronous variants of four standard reinforcement learning algorithms and show that parallel actor-learners have a stabilizing effect on training allowing all four methods to successfully train neural network controllers. The best performing method, an asynchronous variant of actor-critic, surpasses the current state-of-the-art on the Atari domain while training for half the time on a single multi-core CPU instead of a GPU. Furthermore, we show that asynchronous actor-critic succeeds on a wide variety of continuous motor control problems as well as on a new task of navigating random 3D mazes using a visual input.",
+            "aminer_id": "599c7b59601a182cd272bd2a"
+        },
+        "Volodymyr2016": {
+            "number": "[121]",
+            "title": "A Ship Rotation Detection Model in Remote Sensing Images Based on Feature Fusion Pyramid Network and Deep Reinforcement Learning.",
+            "text": "V.~Mnih, A.~P. Badia, M.~Mirza, A.~Graves, T.~Lillicrap, T.~Harley, D.~Silver, and K.~Kavukcuoglu, ``Asynchronous methods for deep reinforcement learning,'' in \\emph{Proceedings of The 33rd International Conference on Machine Learning}, ser. Proceedings of Machine Learning Research, M.~F. Balcan and K.~Q. Weinberger, Eds., vol.~48.\\hskip 1em plus 0.5em minus 0.4em\\relax New York, New York, USA: PMLR, 20--22 Jun 2016, pp. 1928--1937.",
+            "ref_source": "tex",
+            "abstract": "Ship detection plays an important role in automatic remote sensing image interpretation. The scale difference, large aspect ratio of ship, complex remote sensing image background and ship dense parking scene make the detection task difficult. To handle the challenging problems above, we propose a ship rotation detection model based on a Feature Fusion Pyramid Network and deep reinforcement learning (FFPN-RL) in this paper. The detection network can efficiently generate the inclined rectangular box for ship. First, we propose the Feature Fusion Pyramid Network (FFPN) that strengthens the reuse of different scales features, and FFPN can extract the low level location and high level semantic information that has an important impact on multi-scale ship detection and precise location of dense parking ships. Second, in order to get accurate ship angle information, we apply deep reinforcement learning to the inclined ship detection task for the first time. In addition, we put forward prior policy guidance and a long-term training method to train an angle prediction agent constructed through a dueling structure Q network, which is able to iteratively and accurately obtain the ship angle. In addition, we design soft rotation non-maximum suppression to reduce the missed ship detection while suppressing the redundant detection boxes. We carry out detailed experiments on the remote sensing ship image dataset, and the experiments validate that our FFPN-RL ship detection model has efficient detection performance.",
+            "aminer_id": "5c431366df5b8c0b3cd5fe1d"
+        },
+        "Fu2018ASR": {
+            "number": "[122]",
+            "title": "An Aircraft Detection Framework Based on Reinforcement Learning and Convolutional Neural Networks in Remote Sensing Images.",
+            "text": "K.~Fu, Y.~D. Li, H.~Sun, X.~Yang, G.~Xu, Y.~Li, and X.~Sun, ``A ship rotation detection model in remote sensing images based on feature fusion pyramid network and deep reinforcement learning,'' \\emph{Remote Sensing}, vol.~10, pp. 1--26, 2018.",
+            "ref_source": "tex",
+            "abstract": "Aircraft detection has attracted increasing attention in the field of remote sensing image analysis. Complex background, illumination change and variations of aircraft kind and size in remote sensing images make the task challenging. In our work, we propose an effective aircraft detection framework based on reinforcement learning and a convolutional neural network (CNN) model. Aircraft in remote sensing images can be accurately and robustly located with the help of the searching mechanism that the candidate region is dynamically reduced to the correct location of aircraft, which is implemented through reinforcement learning. The detection framework overcomes the difficulties that the current detection methods based on reinforcement learning are only able to detect a fixed number of objects. Specifically, we adopt the restricted EdgeBoxes that generate the high-quality candidate boxes through the prior aircraft knowledge at first. Then, we train an intelligent detection agent through reinforcement learning and apprenticeship learning. The detection agent accurately locates the aircraft in the candidate boxes within several actions, and it even performs better than the greed strategy in apprenticeship learning. During the final detection step, we carefully design the CNN model that predicts the probability that the localization result generated by the detection agent is an aircraft. Comparative experiments demonstrate the accuracy and efficiency of our aircraft detection framework.",
+            "aminer_id": "5ac1827b17c44a1fda915cf3"
+        },
+        "Li2018AnAD": {
+            "number": "[123]",
+            "title": "Incremental Multi-Step Q-Learning",
+            "text": "Y.~Li, K.~Fu, H.~Sun, and X.~Sun, ``An aircraft detection framework based on reinforcement learning and convolutional neural networks in remote sensing images,'' \\emph{Remote Sensing}, vol.~10, pp. 1--17, 2018.",
+            "ref_source": "tex",
+            "abstract": "This paper presents a novel incremental algorithm that combines Q-learning, a well-known dynamic-programming based reinforcement learning method, with the TD(λ) return estimation process, which is typically used in actor-critic learning, another well-known dynamic-programming based reinforcement learning method. The parameter λ is used to distribute credit throughout sequences of actions, leading to faster learning and also helping to alleviate the non-Markovian effect of coarse state-space quantization. The resulting algorithm, Q(λ)-learning, thus combines some of the best features of the Q-learning and actor-critic learning paradigms. The behavior of this algorithm has been demonstrated through computer simulations.",
+            "aminer_id": "539087d420f70186a0d5e5da"
+        },
+        "PENG1994226": {
+            "number": "[124]",
+            "title": "A Brief Introduction to Weakly Supervised Learning",
+            "text": "J.~Peng and R.~J. Williams, ``Incremental multi-step q-learning,'' in \\emph{Machine Learning Proceedings 1994}, W.~W. Cohen and H.~Hirsh, Eds.\\hskip 1em plus 0.5em minus 0.4em\\relax San Francisco (CA): Morgan Kaufmann, 1994, pp. 226 -- 232.",
+            "ref_source": "tex",
+            "abstract": "Supervised learning techniques construct predictive models by learning from a large number of training examples, where each training example has a label indicating its ground-truth output. Though current techniques have achieved great success, it is noteworthy that in many tasks it is difficult to get strong supervision information like fully ground-truth labels due to the high cost of the data-labeling process. Thus, it is desirable for machine-learning techniques to work with weak supervision. This article reviews some research progress of weakly supervised learning, focusing on three typical types of weak supervision: incomplete supervision, where only a subset of training data is given with labels; inexact supervision, where the training data are given with only coarse-grained labels; and inaccurate supervision, where the given labels are not always ground-truth.",
+            "aminer_id": "5fd55f258cdecd4daa142ae3"
+        },
+        "Zhou2017": {
+            "number": "[125]",
+            "title": "A Survey on Object Detection in Optical Remote Sensing Images",
+            "text": "Z.-H. Zhou, ``{A brief introduction to weakly supervised learning},'' \\emph{National Science Review}, vol.~5, no.~1, pp. 44--53, 08 2017.",
+            "ref_source": "tex",
+            "abstract": "Object detection in optical remote sensing images, being a fundamental but challenging problem in the field of aerial and satellite image analysis, plays an important role for a wide range of applications and is receiving significant attention in recent years. While enormous methods exist, a deep review of the literature concerning generic object detection is still lacking. This paper aims to provide a review of the recent progress in this field. Different from several previously published surveys that focus on a specific object class such as building and road, we concentrate on more generic object categories including, but are not limited to, road, building, tree, vehicle, ship, airport, urban-area. Covering about 270 publications we survey (1) template matching-based object detection methods, (2) knowledge-based object detection methods, (3) object-based image analysis (OBIA)-based object detection methods, (4) machine learning-based object detection methods, and (5) five publicly available datasets and three standard evaluation metrics. We also discuss the challenges of current studies and propose two promising research directions, namely deep learning-based feature representation and weakly supervised learning-based geospatial object detection. It is our hope that this survey will be beneficial for the researchers to have better understanding of this research field.",
+            "aminer_id": "5c61097fda56297340b7c0f2"
+        },
+        "CHENG201611": {
+            "number": "[126]",
+            "title": "Towards safe weakly supervised learning",
+            "text": "G.~Cheng and J.~Han, ``A survey on object detection in optical remote sensing images,'' \\emph{ISPRS Journal of Photogrammetry and Remote Sensing}, vol. 117, pp. 11 -- 28, 2016.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5d041b1e3a55acfcafefcc7a"
+        },
+        "Li8735810": {
+            "number": "[127]",
+            "title": "Weakly Supervised Target Detection in Remote Sensing Images Based on Transferred Deep Features and Negative Bootstrapping",
+            "text": "Y.~{Li}, L.~{Guo}, and Z.~{Zhou}, ``Towards safe weakly supervised learning,'' \\emph{IEEE Transactions on Pattern Analysis and Machine Intelligence}, pp. 1--14, 2019.",
+            "ref_source": "tex",
+            "abstract": "Target detection in remote sensing images (RSIs) is a fundamental yet challenging problem faced for remote sensing images analysis. More recently, weakly supervised learning, in which training sets require only binary labels indicating whether an image contains the object or not, has attracted considerable attention owing to its obvious advantages such as alleviating the tedious and time consuming work of human annotation. Inspired by its impressive success in computer vision field, in this paper, we propose a novel and effective framework for weakly supervised target detection in RSIs based on transferred deep features and negative bootstrapping. On one hand, to effectively mine information from RSIs and improve the performance of target detection, we develop a transferred deep model to extract high-level features from RSIs, which can be achieved by pre-training a convolutional neural network model on a large-scale annotated dataset (e.g. ImageNet) and then transferring it to our task by domain-specifically fine-tuning it on RSI datasets. On the other hand, we integrate negative bootstrapping scheme into detector training process to make the detector converge more stably and faster by exploiting the most discriminative training samples. Comprehensive evaluations on three RSI datasets and comparisons with state-of-the-art weakly supervised target detection approaches demonstrate the effectiveness and superiority of the proposed method.",
+            "aminer_id": "599f6be59c058f45105b0e67"
+        },
+        "Zhou2016WeaklyST": {
+            "number": "[128]",
+            "title": "Negative Bootstrapping for Weakly Supervised Target Detection in Remote Sensing Images",
+            "text": "P.~Zhou, G.~Cheng, Z.~Liu, S.~Bu, and X.~Hu, ``Weakly supervised target detection in remote sensing images based on transferred deep features and negative bootstrapping,'' \\emph{Multidimensional Systems and Signal Processing}, vol.~27, pp. 925--944, 2016.",
+            "ref_source": "tex",
+            "abstract": "When training a classifier in a traditional weakly supervised learning scheme, negative samples are obtained by randomly sampling. However, it may bring deterioration or fluctuation for the performance of the classifier during the iterative training process. Considering a classifier is inclined to misclassify negative examples which resemble positive ones, comprising these misclassified and informative negatives should be important for enhancing the effectiveness and robustness of the classifier. In this paper, we propose to integrate Negative Bootstrapping scheme into weakly supervised learning framework to achieve effective target detection in remote sensing images. Compared with traditional weakly supervised target detection schemes, this method mainly has three advantages. Firstly, our model training framework converges more stable and faster by selecting the most discriminative training samples. Secondly, on each iteration, we utilize the negative samples which are most easily misclassified to refine target detector, obtaining better performance. Thirdly, we employ a pre-trained convolutional neural network (CNN) model named Caffe to extract high-level features from RSIs, which carry more semantic meanings and hence yield effective image representation. Comprehensive evaluations on a high resolution airplane dataset and comparisons with state-of-the-art weakly supervised target detection approaches demonstrate the effectiveness and robustness of the proposed method.",
+            "aminer_id": "55323dcb45cec66b6f9dfe2a"
+        },
+        "7153907": {
+            "number": "[129]",
+            "title": "PGA-SiamNet: Pyramid Feature-Based Attention-Guided Siamese Network for Remote Sensing Orthoimagery Building Change Detection.",
+            "text": "P.~{Zhou}, D.~{Zhang}, G.~{Cheng}, and J.~{Han}, ``Negative bootstrapping for weakly supervised target detection in remote sensing images,'' in \\emph{2015 IEEE International Conference on Multimedia Big Data}, 2015, pp. 318--323.",
+            "ref_source": "tex",
+            "abstract": "In recent years, building change detection has made remarkable progress through using deep learning. The core problems of this technique are the need for additional data (e.g., Lidar or semantic labels) and the difficulty in extracting sufficient features. In this paper, we propose an end-to-end network, called the pyramid feature-based attention-guided Siamese network (PGA-SiamNet), to solve these problems. The network is trained to capture possible changes using a convolutional neural network in a pyramid. It emphasizes the importance of correlation among the input feature pairs by introducing a global co-attention mechanism. Furthermore, we effectively improved the long-range dependencies of the features by utilizing various attention mechanisms and then aggregating the features of the low-level and co-attention level; this helps to obtain richer object information. Finally, we evaluated our method with a publicly available dataset (WHU) building dataset and a new dataset (EV-CD) building dataset. The experiments demonstrate that the proposed method is effective for building change detection and outperforms the existing state-of-the-art methods on high-resolution remote sensing orthoimages in various metrics.",
+            "aminer_id": "5e60d63393d709897cceaf85"
+        },
+        "Jiang20119": {
+            "number": "[130]",
+            "title": "Remote Sensing",
+            "text": "H.~Jiang, X.~Hu, K.~Li, J.~Zhang, J.~Gong, and M.~Zhang, ``Pga-siamnet: Pyramid feature-based attention-guided siamese network for remote sensing orthoimagery building change detection,'' \\emph{Remote Sensing}, vol.~12, no.~3, 2020.",
+            "ref_source": "tex",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {}
+}

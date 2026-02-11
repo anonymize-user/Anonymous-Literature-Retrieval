@@ -1,0 +1,348 @@
+{
+    "topic": "Some recent advances in reasoning based on analogical proportions",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[4]",
+                "[30]",
+                "[20]",
+                "[21]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Background",
+            "refs": [
+                "[29]",
+                "[6]",
+                "[25]",
+                "[24]",
+                "[26]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Improving analogical proportions-based inference ",
+            "refs": [
+                "[29]",
+                "[5]",
+                "[6]",
+                "[3]",
+                "[23]",
+                "[18]",
+                "[19]",
+                "[7]",
+                "[10]",
+                "[8]",
+                "[28]",
+                "[16]",
+                "[14]",
+                "[26]",
+                "[27]"
+            ],
+            "subsections": [],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Analogical proportions-based explanations",
+            "refs": [
+                "[2]",
+                "[17]",
+                "[32]",
+                "[22]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Analogical proportions and multivalued dependency",
+            "refs": [
+                "[13]",
+                "[9]",
+                "[12]",
+                "[15]",
+                "[1]",
+                "[26]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Concluding remarks",
+            "refs": [
+                "[11]",
+                "[31]"
+            ],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        }
+    ],
+    "references": {
+        "sigmod/BeeriFH77": {
+            "number": "[1]",
+            "title": "A Complete Axiomatization for Functional and Multivalued Dependencies in Database Relations",
+            "text": "C. Beeri, R. Fagin, and J. H. Howard. A complete axiomatization for functional and multivalued dependencies in database relations. Proc. ACM SIGMOD Int. Conf. on Mgmt. of Data, (D. C. P. Smith, ed.), Toronto, Aug. 3-5, pages 47--61, 1977.",
+            "ref_source": "tex",
+            "abstract": "We investigate the inference rules that can be applied to functional and multivalued dependencies that exist in a database relation. Three types of rules are discussed. First, we list the well known rules for functional dependencies. Then we investigate the rules for multivalued dependencies. It is shown that for each rule for functional dependencies the same rule or a similar rule holds for multivalued dependencies. There is, however, one additional rule for multivalued dependencies that has no parallel among the rules for functional dependencies. Finally, we present rules that involve functional and multivalued dependencies together. The main result of the paper is that the rules presented are complete for the family of functional and multivalued dependencies.",
+            "aminer_id": "5390881820f70186a0d815a2"
+        },
+        "BilPraRicWilFQAS2017": {
+            "number": "[2]",
+            "title": "Towards Analogy-Based Decision - A Proposal",
+            "text": "R. Billingsley, H. Prade, G. Richard, and M.-A. Williams. Towards analogy-based decision - A proposal. Proc. 12th Int. Conf. on Flexible Query Answering Systems (FQAS'17), (H. Christiansen, H. Jaudoin, P. Chountas, T. Andreasen, H. L. Larsen, eds.), London, June 21-22, volume 10333 of LNCS, pages 28--35, Springer, 2017.",
+            "ref_source": "tex",
+            "abstract": "This short paper outlines an analogy-based decision method. It takes advantage of analogical proportions between situations, i.e., a is to b as c is to d, for proposing plausibly good decisions that may be appropriate for a new situation at hand. It goes beyond case-based decision where the idea of graded similarity may hide some small but crucial differences between situations. The method relies on triples of known cases rather than on individual cases for making a prediction on the appropriateness of a potential decision, or for proposing a way of adapting a decision according to situations. The approach may be of interest in a variety of problems ranging from flexible querying systems to cooperative artificial agents.",
+            "aminer_id": "599c7ddb601a182cd285c88a"
+        },
+        "Bong": {
+            "number": "[3]",
+            "title": "Pattern Recognition",
+            "text": "M. M. Bongard. Pattern Recognition. Hayden Book, Spartan Books, Rochelle Park, 1970.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "BouPraSUM2022": {
+            "number": "[4]",
+            "title": "Logical proportions-related classification methods beyond analogy",
+            "text": "M. Bounhas and H. Prade. Logical proportions-related classification methods beyond analogy. Proc. 15th Int. Conf. on Scalable Uncertainty Management (SUM'22), (F. Dupin de Saint-Cyr, M. Ozt\\\"urk-Escoffier, and N. Potyka, eds.), Paris, Oct. 17-19, volume 13562 of LNCS, pages 219--234. Springer, 2022.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "63b3f20290e50fcafdeab803"
+        },
+        "BouPraRicECAI2014": {
+            "number": "[5]",
+            "title": "Analogical classification: A new way to deal with examples",
+            "text": "M. Bounhas, H. Prade, and G. Richard. Analogical classification: A new way to deal with examples. Proc. 21st Europ. Conf. on Artificial Intelligence (ECAI'14), pages 135--140. IOS Press, 2014.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "599c7c2a601a182cd278f56a"
+        },
+        "BouPraRicIJAR2017b": {
+            "number": "[6]",
+            "title": "Analogy-based Classifiers for Nominal or Numerical Data",
+            "text": "M. Bounhas, H. Prade, and G. Richard. Analogy-based classifiers for nominal or numerical data. Int. J. Approx. Reason., 91: 36--55, 2017.",
+            "ref_source": "tex",
+            "abstract": "Introduced a decade ago, analogy-based classification methods constitute a noticeable addition to the set of instance-based learning techniques. They provide valuable results in terms of accuracy on many classical datasets. They rely on the notion of analogical proportions which are statements of the form “A is to B as C is to D”. Analogical proportions have been in particular formalized in Boolean and numerical settings. In both cases, one of the four components of the proportion can be computed from the three others, when the proportion holds. Analogical classifiers look for all triples of examples in the sample set that are in analogical proportion with the item to be classified on a maximal number of attributes and for which the corresponding analogical proportion equation on the class has a solution. In this paper when classifying a new item, we specially emphasize an approach where the whole set of triples that can be built from the sample set is not considered. We just focus on a small part of the candidate triples. Namely, in order to restrict the scope of the search, we first look for examples that are as similar as possible to the new item to be classified. We then only consider the pairs of examples presenting the same dissimilarity as between the new item and one of its closest neighbors. In this way, we implicitly build triples that are in analogical proportion on all attributes with the new item. Then the classification is made on the basis of an additive aggregation of the truth values corresponding to the pairs that can be analogically associated with the pairs made of the target item and one of its nearest neighbors. We then only deal with pairs leading to a solvable analogical equation for the class. This new algorithm provides results as good as previous analogical classifiers with a lower average complexity, both in nominal and numerical cases.",
+            "aminer_id": "5a260c6e17c44a4ba8a2de5d"
+        },
+        "BouPraRicIJAR2017a": {
+            "number": "[7]",
+            "title": "Oddness/evenness-based classifiers for boolean or numerical data",
+            "text": "M. Bounhas, H. Prade, and G. Richard. Oddness/evenness-based classifiers for boolean or numerical data. Int. J. Approx. Reasoning, 82: 81--100, 2017.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "CouHugPraRicIJCAI2017": {
+            "number": "[8]",
+            "title": "Analogy-preserving functions: A way to extend Boolean samples",
+            "text": "M. Couceiro, N. Hug, H. Prade, and G. Richard. Analogy-preserving functions: A way to extend Boolean samples. In Proc. 26th Int. Joint Conf. on Artificial Intelligence (IJCAI'17), (C. Sierra, ed.), Melbourne, Aug. 19-25, 1575--1581, 2017.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "59ae3c262bbe271c4c71ef13"
+        },
+        "CouHugPraRicIJCAI2018": {
+            "number": "[9]",
+            "title": "Behavior of analogical inference w.r.t. Boolean functions",
+            "text": "M. Couceiro, N. Hug, H. Prade, and G. Richard. Behavior of analogical inference w.r.t. Boolean functions. In Proc. 27th Int. Joint Conf. on Artificial Intelligence (IJCAI'18), (J. Lang, ed.), Stockholm, July 13-19, pages 2057--2063, 2018.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5b67b46417c44aac1c861496"
+        },
+        "CouceiroLMPR20": {
+            "number": "[10]",
+            "title": "When Nominal Analogical Proportions Do Not Fail",
+            "text": "M. Couceiro, E. Lehtonen, L. Miclet, H. Prade, and G. Richard. When nominal analogical proportions do not fail. Proc. 14th Int. Conf. Scalable Uncertainty Management (SUM'20), (J. Davis, K. Tabia, eds.), Bozen-Bolzano (virtual event) Sept. 23-25, volume 12322 of LNCS, pages 68--83. Springer, 2020.",
+            "ref_source": "tex",
+            "abstract": "Analogical proportions are statements of the form “\\(\\mathbf {a}\\) is to \\(\\mathbf {b}\\) as \\(\\mathbf {c}\\) is to \\(\\mathbf {d}\\)”, where \\(\\mathbf {a}\\), \\(\\mathbf {b}\\), \\(\\mathbf {c}\\), \\(\\mathbf {d}\\) are tuples of attribute values describing items. The mechanism of analogical inference, empirically proved to be efficient in classification and reasoning tasks, started to be better understood when the characterization of the class of classification functions with which the analogical inference always agrees was established for Boolean attributes. The purpose of this paper is to study the case of finite attribute domains that are not necessarily two-valued, i.e., when attributes are nominal. In particular, we describe the more stringent class of “hard” analogy preserving (HAP) functions \\(f :X_1\\,\\times \\,\\dots \\,\\times \\,X_m \\rightarrow X\\) over finite domains \\(X_1, \\dots , X_m, X\\) for binary classification purposes. This description is obtained in two steps. First we observe that such AP functions are almost affine, that is, their restriction to any \\(S_1 \\times \\dots \\times S_m\\), where \\(S_i \\subseteq X_i\\) and \\(|{S_i}| \\le 2\\) (\\(1 \\le i \\le m\\)), can be turned into an affine function by renaming variable and function values. We then use this result together with some universal algebraic tools to show that they are essentially unary or quasi-linear, which provides a general representation of HAP functions. As a by-product, in the case when \\(X_1 = \\dots = X_m = X\\), it follows that this class of HAP functions constitutes a clone on X, thus generalizing several results by some of the authors in the Boolean case.",
+            "aminer_id": "5ff6821bd4150a363cb8d95c"
+        },
+        "DubPraRicFSS2016": {
+            "number": "[11]",
+            "title": "Multiple-valued extensions of analogical proportions",
+            "text": "D. Dubois, H. Prade, and G. Richard. Multiple-valued extensions of analogical proportions. Fuzzy Sets and Systems, 292: 193--202, 2016.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "tods/Fagin77": {
+            "number": "[12]",
+            "title": "Multivalued Dependencies and a New Normal Form for Relational Databases",
+            "text": "R. Fagin. Multivalued dependencies and a new normal form for relational databases. ACM Trans. Database Syst., 2(3): 262--278, 1977.",
+            "ref_source": "tex",
+            "abstract": "A new type of dependency, which includes the well-known functional dependencies as a special case, is defined for relational databases. By using this concept, a new (“fourth”) normal form for relation schemata is defined. This fourth normal form is strictly stronger than Codd's “improved third normal form” (or “Boyce-Codd normal form”). It is shown that every relation schema can be decomposed into a family of relation schemata in fourth normal form without loss of information (that is, the original relation can be obtained from the new relations by taking joins).",
+            "aminer_id": "53e9b45eb7602d9703f5d52d"
+        },
+        "FischerG84": {
+            "number": "[13]",
+            "title": "Weak Multivalued Dependencies",
+            "text": "P. C. Fischer and D. Van Gucht. Weak multivalued dependencies. Proc. 3rd ACM SIGACT-SIGMOD Symp. on Principles of Database Systems, April 2-4, Waterloo, Ontario, pages 266--274, 1984.",
+            "ref_source": "tex",
+            "abstract": "Article Free Access Share on Weak multivalued dependencies Authors: Patrick C. Fischer Vanderbilt University Vanderbilt UniversityView Profile , Dirk Van Gucht Vanderbilt University Vanderbilt UniversityView Profile Authors Info & Claims PODS '84: Proceedings of the 3rd ACM SIGACT-SIGMOD symposium on Principles of database systemsApril 1984 Pages 266–274https://doi.org/10.1145/588011.588050Online:02 April 1984Publication History 23citation240DownloadsMetricsTotal Citations23Total Downloads240Last 12 Months4Last 6 weeks1 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteeReaderPDF",
+            "aminer_id": "5390893e20f70186a0d93999"
+        },
+        "Found": {
+            "number": "[14]",
+            "title": "Phaeaco: A Cognitive Architecture Inspired by Bongards Problems",
+            "text": "H. Foundalis. Phaeaco: A Cognitive Architecture Inspired by Bongards Problems. Doctoral dissertation, Indiana University, Center for Research on Concepts and Cognition (CRCC), Bloomington, 2006.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "fuin/HartmannL09": {
+            "number": "[15]",
+            "title": "On inferences of weak multivalued dependencies",
+            "text": "S. Hartmann and S. Link. On inferences of weak multivalued dependencies. Fundam. Informaticae, 92 (1-2): 83--102, 2009.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Hof": {
+            "number": "[16]",
+            "title": "Gödel, Escher, Bach: an Eternal Golden Braid",
+            "text": "D. R. Hofstadter. G\\\"odel, Escher, Bach: an Eternal Golden Braid. Basic Books, New York, 1979.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "6491b342d68f896efaa2218d"
+        },
+        "HullermeierMDAI20": {
+            "number": "[17]",
+            "title": "Towards Analogy-Based Explanations in Machine Learning",
+            "text": "E. Huellermeier. Towards analogy-based explanations in machine learning. Proc. 17th Int. Conf. on Modeling Decisions for Artificial Intelligence (MDAI'20), (V. Torra, Y. Narukawa, J. Nin, and N. Agell, eds.), Sant Cugat, Spain, Sept. 2-4, volume 12256 of LNCS, pages 205--217. Springer, 2020.",
+            "ref_source": "tex",
+            "abstract": "Principles of analogical reasoning have recently been applied in the context of machine learning, for example to develop new methods for classification and preference learning. In this paper, we argue that, while analogical reasoning is certainly useful for constructing new learning algorithms with high predictive accuracy, is arguably not less interesting from an interpretability and explainability point of view. More specifically, we take the view that an analogy-based approach is a viable alternative to existing approaches in the realm of explainable AI and interpretable machine learning, and that analogy-based explanations of the predictions produced by a machine learning algorithm can complement similarity-based explanations in a meaningful way. To corroborate these claims, we outline the basic idea of an analogy-based explanation and illustrate its potential usefulness by means of some examples.",
+            "aminer_id": "5ece3bcb91e011dc23c22539"
+        },
+        "Klein1983": {
+            "number": "[18]",
+            "title": "Analogy and mysticism and the structure of culture (and Comments & Reply)",
+            "text": "S. Klein. Analogy and mysticism and the structure of culture (and Comments \\& Reply). Current Anthropology, 24 (2): 151--180, 1983.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "iccbr/LieberNP19": {
+            "number": "[19]",
+            "title": "Improving Analogical Extrapolation Using Case Pair Competence",
+            "text": "J. Lieber, E. Nauer, and H. Prade. Improving analogical extrapolation using case pair competence. Proc. 27th Int. Conf. Case-Based Reasoning (ICCBR'19), (K. Bach, C. Marling, eds.), Otzenhausen, Sept. 8-12, volume 11680 of LNCS, pages 251--265, Springer, 2019.",
+            "ref_source": "tex",
+            "abstract": "An analogical proportion is a quaternary relation that is to be read \"a is to b as c is to d\", verifying some symmetry and permutation properties. As can be seen, it involves a pair of pairs. Such a relation is at the basis of an approach to case-based reasoning called analogical extrapolation, which consists in retrieving three cases forming an analogical proportion with the target problem in the problem space and then in finding a solution to this problem by solving an analogical equation in the solution space. This paper studies how the notion of competence of pairs of source cases can be estimated and used in order to improve extrapolation. A preprocessing of the case base associates to each case pair a competence given by two scores: the support and the confidence of the case pair, computed on the basis of other case pairs forming an analogical proportion with it. An evaluation in a Boolean setting shows that using case pair competences improves significantly the result of the analogical extrapolation process.",
+            "aminer_id": "5d6f8c293a55ac11a4fda67d"
+        },
+        "LimPraRicSUM2022": {
+            "number": "[20]",
+            "title": "Using analogical proportions for explanations",
+            "text": "S. Lim, H. Prade, and G. Richard. Using analogical proportions for explanations. Proc. 15th Int. Conf. on Scalable Uncertainty Management (SUM'22), (F. Dupin de Saint-Cyr, M. Ozt\\\"urk-Escoffier, and N. Potyka, eds.), Paris, Oct. 17-19, volume 13562 of LNCS, pages 309--325. Springer, 2022.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "63b3f20290e50fcafdeab814"
+        },
+        "LinkPraRicSUM2022": {
+            "number": "[21]",
+            "title": "Analogical proportions, multivalued dependencies and explanations",
+            "text": "S. Link, H. Prade, and G. Richard. Analogical proportions, multivalued dependencies and explanations. Proc. 15th Int. Conf. on Scalable Uncertainty Management (SUM'22), (F. Dupin de Saint-Cyr, M. Ozt\\\"urk-Escoffier, and N. Potyka, eds.), Paris, Oct. 17-19, volume 13562 of LNCS, pages 351--360. Springer, 2022.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "63b3f20290e50fcafdeab817"
+        },
+        "icml/0001GCIN21": {
+            "number": "[22]",
+            "title": "Explanations for monotonic classifiers",
+            "text": "J. Marques-Silva, T. Gerspacher, M. C. Cooper, A. Ignatiev, and N. Narodytska. Explanations for monotonic classifiers. Proc. 38th Int. Conf. on Machine Learning (ICML'21), (M. Meila and T. Zhang, eds.), 18-24 July, Virtual Event, volume 139 of Proc. of Machine Learning Research, pages 7469--7479. PMLR, 2021.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "60b9750191e0114df725496a"
+        },
+        "MicBayDelJAIR2008": {
+            "number": "[23]",
+            "title": "Analogical Dissimilarity: Definition, Algorithms and Two Experiments in Machine Learning.",
+            "text": "L. Miclet, S. Bayoudh, and A. Delhay. Analogical dissimilarity: Definition, algorithms and two experiments in machine learning. JAIR, 32:793--824, 2008.",
+            "ref_source": "tex",
+            "abstract": "This paper defines the notion of analogical dissimilarity between four objects, with a special focus on objects structured as sequences. Firstly, it studies the case where the four objects have a null analogical dissimilarity, i.e. are in analogical proportion. Secondly, when one of these objects is unknown, it gives algorithms to compute it. Thirdly, it tackles the problem of defining analogical dissimilarity, which is a measure of how far four objects are from being in analogical proportion. In particular, when objects are sequences, it gives a definition and an algorithm based on an optimal alignment of the four sequences. It gives also learning algorithms, i.e. methods to find the triple of objects in a learning sample which has the least analogical dissimilarity with a given object. Two practical experiments are described: the first is a classification problem on benchmarks of binary and nominal data, the second shows how the generation of sequences by solving analogical equations enables a handwritten character recognition system to rapidly be adapted to a new writer.",
+            "aminer_id": "5390a6b120f70186a0e8446d"
+        },
+        "MicPraECSQARU2009": {
+            "number": "[24]",
+            "title": "Handling Analogical Proportions in Classical Logic and Fuzzy Logics Settings",
+            "text": "L. Miclet and H. Prade. Handling analogical proportions in classical logic and fuzzy logics settings. In Proc. 10th Europ. Conf. on Symbolic and Quantitative Approaches to Reasoning with Uncertainty (ECSQARU'09), Verona, July 1-3, volume 5590 of LNCS, pages 638--650, Springer, 2009.",
+            "ref_source": "tex",
+            "abstract": "Analogical proportions are statements of the form \"A is to B as C is to D\" which play a key role in analogical reasoning. We propose a logical encoding of analogical proportions in a propositional setting, which is then extended to different fuzzy logics. Being in an analogical proportion is viewed as a quaternary connective relating four propositional variables. Interestingly enough, the fuzzy formalizations that are thus obtained parallel numerical models of analogical proportions. Potential applications to case-based reasoning and learning are outlined.",
+            "aminer_id": "5390a54720f70186a0e78ce9"
+        },
+        "PirYvon99": {
+            "number": "[25]",
+            "title": "Analogy in the lexicon: a probe into analogy-based machine learning of language",
+            "text": "V. Pirrelli and F. Yvon. Analogy in the lexicon: a probe into analogy-based machine learning of language. Proc. 6th Int. Symp. on Human Communic., Santiago de Cuba, 1999.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "5b076eb4da5629516ce740d6"
+        },
+        "PraRicLU2013": {
+            "number": "[26]",
+            "title": "From Analogical Proportion to Logical Proportions",
+            "text": "H. Prade and G. Richard. From analogical proportion to logical proportions. Logica Univers., 7: 441--505, 2013.",
+            "ref_source": "tex",
+            "abstract": "Analogies play an important role in many reasoning tasks. This chapter surveys a series of recent works developing a logical view of the notion of analogical proportion, and its applications. Analogical proportions are statements of the form \"A is to B as C is to D\". The logical representation used for encoding such proportions takes both into account what the four situations A, B, C, D have in common and how they differ. Thanks to the use of a Boolean modeling extended with suitable fuzzy logic connectives, the approach can deal with situations described by features that may be binary or multiple-valued. It is shown that an analogical proportion is a particular case of a more general concept, namely the one of logical proportion. Among the 120 existing logical proportions, we single out two groups of 4 proportions for their remarkable properties: the homogeneous proportions (including the analogical proportion) which are symmetrical, and the heterogeneous proportions which are not. These eight proportions are the only logical proportions to satisfy a remarkable code-independency property. We emphasize the interest of these two groups of proportions for dealing with a variety of reasoning tasks, ranging from the solving of IQ tests, to transductive reasoning for classification, to interpolative and extrapolative reasoning, and also to the handling of quizzes of the \"find the odd one out\" type. The approach does not just rely on the exploitation of similarities between pairs of cases (as in case-based reasoning), but rather takes advantage of the parallel made between a situation to be evaluated or to be completed, with triples of other situations.",
+            "aminer_id": "53e9aab0b7602d970342dd12"
+        },
+        "PraRicIFCOLOG2014": {
+            "number": "[27]",
+            "title": "Homogenous and heterogeneous logical proportions",
+            "text": "H. Prade and G. Richard. Homogenous and heterogeneous logical proportions. IfCoLog J. of Logics and their Applications, 1(1): 1--51, 20.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "56d8980bdabfae2eee1fc761"
+        },
+        "ipmu/PradeR16": {
+            "number": "[28]",
+            "title": "On Different Ways to Be (dis)similar to Elements in a Set. Boolean Analysis and Graded Extension",
+            "text": "H. Prade and G. Richard. On different ways to be (dis)similar to elements in a set. Boolean analysis and graded extension. In J. P. Carvalho, M.-J. Lesot, U. Kaymak, S. M. Vieira, B. Bouchon-Meunier, and R. R. Yager, editors, Proc. 16th Int. Conf. on Information Processing and Management of Uncertainty in Knowledge-Based Systems (IPMU'16), Part II, Eindhoven, June 20-24, volume 611 of CCIS, pages 605--618. Springer, 2016.",
+            "ref_source": "tex",
+            "abstract": "We investigate here two questions, first in a Boolean setting and then in a gradual setting: Can we give a formal meaning to “being at odds” (in the sense of being an outlayer) with regard to a subset and, as a dual problem, can we give a meaning to “being even” (in the sense of conforming to a given set of values). Is there a relation between oddness and evenness? Such questions emerge from recent proposals for using oddness or evenness measures in classification problems. This paper is dedicated to a formal study of the oddness and evenness indices in the case of subsets with three or four elements, which are at the basis of the associated measures. Triples are indeed the only subsets such that adding an item that conforms to the triple minority, if any, destroys the majority. It appears that the notions of oddness and evenness are not simple dual of each other; a third notion of being “balanced” interplays with the two others. This is discussed in the setting of squares and hexagons of opposition. The notions of oddness and evenness are related to the study of homogeneous and heterogeneous logical proportions that link four Boolean variables through the conjunction of two equivalences between similarity or dissimilarity indicators pertaining to pairs of these variables. Although elementary, the analysis provides an organized view of new notions that appear to be meaningful when revisiting the old ideas of similarity and dissimilarity in a new perspective. As a side result, it is also mentioned that the logical proportion underlying the idea of being balanced corresponds to the logical encoding of Bongard problems.",
+            "aminer_id": "57d063d8ac44367354292b72"
+        },
+        "PraRicIJAR2018": {
+            "number": "[29]",
+            "title": "Analogical Proportions: from Equality to Inequality",
+            "text": "H. Prade and G. Richard. Analogical proportions: From equality to inequality. Int. J. Approx. Reason., 101: 234--254, 2018.",
+            "ref_source": "tex",
+            "abstract": "Analogical proportions are statements of the form a is to b as c is to d. Such expressions compare the pair (a,b) with the pair (c,d). Previous papers have developed logical modelings of such proportions both in Boolean and in multiple-valued settings. They emphasize a reading of the proportion as “the way a and b differ is the same as c and d differ”. The ambition of this paper is twofold. The paper first provides a deeper understanding and further justifications of the Boolean modeling, before introducing analogical inequalities, where “as” is replaced by “as much as” in the comparison of two pairs. From an abstract viewpoint, analogical proportions are supposed to obey at least three postulates expressing reflexivity, symmetry, and stability under central permutation. Nevertheless these postulates are not enough to determine a single model and a minimality condition has to be added as shown in this paper. These models are organized in a complete lattice based on set inclusion. This leads us to discuss lower and upper approximations of the minimal model. Apart from being minimal, this model can also be evaluated in terms of Kolmogorov complexity via an expression reflecting the intended meaning of analogy. We show that the six Boolean patterns of the minimal model that make Boolean analogy true minimize this expression. Besides, analogical proportions extend to 4-tuples of Boolean vectors. This enables us to explain why analogical proportions also reads in terms of similarity (rather than difference, i.e., dissimilarity): a and d share the same presence or absence of features as b and c. Moreover, we establish a link between analogical proportion and Hamming distances between components of the proportion. We also emphasize that analogical proportions are pervasive in any comparison of two vectors a and d that implicitly induce the existence of “intermediary” vectors b and c forming together such a proportion. The similarity reading and the dissimilarity reading of a Boolean analogical proportion are no longer equivalent in the multiple-valued setting, where they give birth to two distinct options that are recalled. These options are also discussed with respect to their capability to handle so-called “continuous” logical proportions of the form a is to b as b is to c involving some idea of “betweenness”. In all the previously investigated issues, the pairs involved in the 4-tuples were compared via equalities of similarities or equalities of dissimilarities. This observation suggests to also consider statements of the form “a is to b at least as much as c is to d”, leading to the concept of “analogical inequalities”. Thus, instead of expressing equality between differences or similarities, as it is the case for analogical proportions, it is also interesting to express inequalities between such differences or similarities. Starting from the modeling of analogical proportions, we investigate the logical modeling of analogical inequalities, both in the Boolean and in the multiple-valued cases, and discuss their potential use in relation with some recent related work in computer vision.",
+            "aminer_id": "5bbacb8817c44aecc4eaf14c"
+        },
+        "PraRicIJCAI2021": {
+            "number": "[30]",
+            "title": "Analogical Proportions: Why They Are Useful in AI",
+            "text": "H. Prade and G. Richard. Analogical proportions: Why they are useful in AI. Proc. 30th Int. Joint Conf. on Artificial Intelligence (IJCAI'21), (Z.-H. Zhou, ed.), Virtual Event / Montreal, Aug. 19-27, pages 4568--4576, 2021.",
+            "ref_source": "tex",
+            "abstract": "This paper presents a survey of researches in analogical reasoning whose building block are analogical proportions which are statements of the form “a is to b as c is to d”. They have been developed in the last twenty years within an Artificial Intelligence perspective. After discussing their formal modeling with the associated inference mechanism, the paper reports the main results obtained in various AI domains ranging from computational linguistics to classification, including image processing, I.Q. tests, case based reasoning, preference learning, and formal concepts analysis. The last section discusses some new theoretical concerns, and the potential of analogical proportions in other areas such as argumentation, transfer learning, and XAI.",
+            "aminer_id": "6124dd9991e0114cbe7a980a"
+        },
+        "aicom/PradeR21": {
+            "number": "[31]",
+            "title": "Multiple Analogical Proportions",
+            "text": "H. Prade and G. Richard. Multiple analogical proportions. AI Communic., 34: 211--228, 2021.",
+            "ref_source": "tex",
+            "abstract": "Analogical proportions are statements of the form “a is to b as c is to d”, denoted a : b : : c : d, that may apply to any type of items a, b, c, d. Analogical proportions, as a building block for analogical reasoning, is then a tool of interest in artificial intelligence. Viewed as a relation between pairs ( a , b ) and ( c , d ), these proportions are supposed to obey three postulates: reflexivity, symmetry, and central permutation (i.e., b and c can be exchanged). The logical modeling of analogical proportions expresses that a and b differ in the same way as c and d, when the four items are represented by vectors encoding Boolean properties. When items are real numbers, numerical proportions – arithmetic and geometric proportions – can be considered as prototypical examples of analogical proportions. Taking inspiration of an old practice where numerical proportions were handled in a vectorial way and where sequences of numerical proportions of the form x 1 : x 2 : ⋯ : x n : : y 1 : y 2 : ⋯ : y n were in use, we emphasize a vectorial treatment of Boolean analogical proportions and we propose a Boolean logic counterpart to such sequences. This provides a linear algebra calculus of analogical inference and acknowledges the fact that analogical proportions should not be considered in isolation. Moreover, this also leads us to reconsider the postulates underlying analogical proportions (since central permutation makes no sense when n ⩾ 3) and then to formalize a weak form of analogical proportion which no longer obeys the central permutation postulate inherited from numerical proportions. But these weak proportions may still be combined in multiple weak analogical proportions.",
+            "aminer_id": "61c982435244ab9dcb050086"
+        },
+        "PraRicAFIA22": {
+            "number": "[32]",
+            "title": "Explications analogiques",
+            "text": "H. Prade and G. Richard. Explications analogiques. Bulletin de l'AFIA, 116: 17--18, 2022.",
+            "ref_source": "tex",
+            "abstract": "",
+            "aminer_id": "645649b2d68f896efae70666"
+        }
+    },
+    "citation_analysis": {}
+}

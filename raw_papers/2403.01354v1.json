@@ -1,0 +1,1081 @@
+{
+    "topic": "An Overview of Minimum Convex Cover and Maximum Hidden Set",
+    "sections": [
+        {
+            "section_title": "Preliminaries",
+            "refs": [
+                "[42]",
+                "[48]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Hardness Results",
+            "refs": [
+                "[5]",
+                "[6]",
+                "[4]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Determining the Gap",
+                    "refs": [
+                        "[42]",
+                        "[33]",
+                        "[47]",
+                        "[43]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "General position",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "2.1.1",
+                            "level": 3
+                        }
+                    ],
+                    "number": "2.1",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Exact and Approximation Algorithms",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Polygons with Holes",
+                    "refs": [
+                        "[5]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Simple Polygons",
+                    "refs": [
+                        "[7]",
+                        "[18]",
+                        "[23]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Polygons Weakly Visible from a Convex Edge",
+                    "refs": [
+                        "[42]",
+                        "[40]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Using Edges as a Poset",
+                            "refs": [
+                                "[32]",
+                                "[40]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "A hidden set without an antichain",
+                            "refs": [
+                                "[1]",
+                                "[16]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Convex cover and hidden set in convex fans and monotone mountains",
+                    "refs": [
+                        "[16]"
+                    ],
+                    "subsections": [],
+                    "number": "3.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Rocking chair polygons",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Convex cover and hidden set in star-shaped polygons",
+                    "refs": [
+                        "[37]"
+                    ],
+                    "subsections": [],
+                    "number": "3.6",
+                    "level": 2
+                },
+                {
+                    "section_title": "Convex cover and hidden set in weak visibility polygons",
+                    "refs": [
+                        "[16]"
+                    ],
+                    "subsections": [],
+                    "number": "3.7",
+                    "level": 2
+                },
+                {
+                    "section_title": "Convex cover and hidden set in simple orthogonal polygons",
+                    "refs": [
+                        "[36]"
+                    ],
+                    "subsections": [],
+                    "number": "3.8",
+                    "level": 2
+                },
+                {
+                    "section_title": "Funnel Polygons",
+                    "refs": [
+                        "[41]",
+                        "[16]"
+                    ],
+                    "subsections": [],
+                    "number": "3.9",
+                    "level": 2
+                },
+                {
+                    "section_title": "Pseudotriangles",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.10",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [
+                "[41]",
+                "[33]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        }
+    ],
+    "references": {
+        "DBLP:journals/algorithmica/GuibasHLST87": {
+            "number": "[1]",
+            "title": "Linear-time Algorithms for Visibility and Shortest Path Problems Inside Triangulated Simple Polygons",
+            "text": "author    = {Leonidas J. Guibas and\n               John Hershberger and\n               Daniel Leven and\n               Micha Sharir and\n               Robert Endre Tarjan},\n  title     = {Linear-Time Algorithms for Visibility and Shortest Path Problems Inside\n               Triangulated Simple Polygons},\n  journal   = {Algorithmica},\n  volume    = {2},\n  pages     = {209--233},\n  year      = {1987},\n  url       = {https://doi.org/10.1007/BF01840360},\n  doi       = {10.1007/BF01840360},\n  timestamp = {Wed, 03 Jan 2018 16:51:51 +0100},\n  biburl    = {https://dblp.org/rec/journals/algorithmica/GuibasHLST87.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org}",
+            "type": "article",
+            "fields": {
+                "author": "Leonidas J. Guibas and John Hershberger and Daniel Leven and Micha Sharir and Robert Endre Tarjan",
+                "title": "Linear-Time Algorithms for Visibility and Shortest Path Problems Inside Triangulated Simple Polygons",
+                "journal": "Algorithmica",
+                "volume": "2",
+                "pages": "209--233",
+                "year": "1987",
+                "url": "https://doi.org/10.1007/BF01840360",
+                "doi": "10.1007/BF01840360",
+                "timestamp": "Wed, 03 Jan 2018 16:51:51 +0100",
+                "biburl": "https://dblp.org/rec/journals/algorithmica/GuibasHLST87.bib",
+                "bibsource": "dblp computer science bibliography, https://dblp.org"
+            },
+            "ref_source": "bib",
+            "abstract": "We present linear time algorithms for solving the following problems involving a simple planar polygon P : (i) Computing the collection of all shortest paths inside P from a given source vertex s to all the other vertices of P ; (ii) Computing the subpolygon of P consisting of points that are visible from a segment within P ; (iii) Preprocessing P so that for any query ray r emerging from some fixed edge e of P , we can find in logarithmic time the first intersection of r with the boundary of P ; (iv) Preprocessing P so that for any query point x in P , we can find in logarithmic time the portion of the edge e that is visible from x ; (v) Preprocessing P so that for any query point x inside P and direction u , we can find in logarithmic time the first point on the boundary of P hit by the ray at direction u from x ; (vi) Calculating a hierarchical decomposition of P into smaller polygons by recursive polygon cutting, as in [Ch]. (vii) Calculating the (clockwise and counterclockwise) “convex ropes” (in the terminology of [PS]) from a fixed vertex s of P lying on its convex hull, to all other vertices of P . All these algorithms are based on a recent linear time algorithm of Tarjan and Van Wyk for triangulating a simple polygon, but use additional techniques to make all subsequent phases of these algorithms also linear.",
+            "aminer_id": "5390877920f70186a0d2e7bb"
+        },
+        "DBLP:journals/algorithmica/Hershberger89": {
+            "number": "[2]",
+            "title": "An Optimal Visibility Graph Algorithm for Triangulated Simple Polygons",
+            "text": "author    = {John Hershberger},\n  title     = {An Optimal Visibility Graph Algorithm for Triangulated Simple Polygons},\n  journal   = {Algorithmica},\n  volume    = {4},\n  number    = {1},\n  pages     = {141--155},\n  year      = {1989},\n  url       = {https://doi.org/10.1007/BF01553883},\n  doi       = {10.1007/BF01553883},\n  timestamp = {Wed, 03 Jan 2018 16:51:51 +0100},\n  biburl    = {https://dblp.org/rec/journals/algorithmica/Hershberger89.bib},\n  bibsource = {dblp computer science bibliography, https://dblp.org}",
+            "type": "article",
+            "fields": {
+                "author": "John Hershberger",
+                "title": "An Optimal Visibility Graph Algorithm for Triangulated Simple Polygons",
+                "journal": "Algorithmica",
+                "volume": "4",
+                "number": "1",
+                "pages": "141--155",
+                "year": "1989",
+                "url": "https://doi.org/10.1007/BF01553883",
+                "doi": "10.1007/BF01553883",
+                "timestamp": "Wed, 03 Jan 2018 16:51:51 +0100",
+                "biburl": "https://dblp.org/rec/journals/algorithmica/Hershberger89.bib",
+                "bibsource": "dblp computer science bibliography, https://dblp.org"
+            },
+            "ref_source": "bib",
+            "abstract": "LetP be a triangulated simple polygon withn sides. The visibility graph ofP has an edge between every pair of polygon vertices that can be connected by an open segment in the interior ofP. We describe an algorithm that finds the visibility graph ofP inO(m) time, wherem is the number of edges in the visibility graph. Becausem can be as small asO(n), the algorithm improves on the more general visibility algorithms of Asanoet al. [AAGHI] and Welzl [W], which take Θ(n 2) time, and on Suri'sO(m logn) visibility graph algorithm for simple polygons [S].",
+            "aminer_id": "53e9bb52b7602d970479240c"
+        },
+        "PAVLIDIS1968165": {
+            "number": "[3]",
+            "title": "Analysis of Set Patterns",
+            "text": "title = {Analysis of set patterns},\njournal = {Pattern Recognition},\nvolume = {1},\nnumber = {2},\npages = {165-178},\nyear = {1968},\nissn = {0031-3203},\ndoi = {https://doi.org/10.1016/0031-3203(68)90006-X},\nurl = {https://www.sciencedirect.com/science/article/pii/003132036890006X},\nauthor = {T. Pavlidis}",
+            "type": "article",
+            "fields": {
+                "title": "Analysis of set patterns",
+                "journal": "Pattern Recognition",
+                "volume": "1",
+                "number": "2",
+                "pages": "165-178",
+                "year": "1968",
+                "issn": "0031-3203",
+                "doi": "https://doi.org/10.1016/0031-3203(68)90006-X",
+                "url": "https://www.sciencedirect.com/science/article/pii/003132036890006X",
+                "author": "T. Pavlidis"
+            },
+            "ref_source": "bib",
+            "abstract": "In recent years a number of methods have been suggested which attempt to solve the Pattern Recognition Problem using a so-called linguistic approach. A given image is represented though primitives (or signs) and the classifications are decided on the basis of the occurrence of certain primitives and their interrelation. This paper deals with the development of such a method.",
+            "aminer_id": "53e99a4eb7602d97022b1897"
+        },
+        "Abrahamsen2022CoveringPI": {
+            "number": "[4]",
+            "title": "Covering Polygons is Even Harder",
+            "text": "title={Covering Polygons is Even Harder},\n  author={Mikkel Abrahamsen},\n  journal={2021 IEEE 62nd Annual Symposium on Foundations of Computer Science (FOCS)},\n  year={2022},\n  pages={375-386}",
+            "type": "article",
+            "fields": {
+                "title": "Covering Polygons is Even Harder",
+                "author": "Mikkel Abrahamsen",
+                "journal": "2021 IEEE 62nd Annual Symposium on Foundations of Computer Science (FOCS)",
+                "year": "2022",
+                "pages": "375-386"
+            },
+            "ref_source": "bib",
+            "abstract": "In the Minimum Convex Cover (MCC) problem, we are given a simple polygon $\\mathcal{P}$ and an integer $k$, and the question is if there exist $k$ convex polygons whose union is $\\mathcal{P}$. It is known that MCC is NP-hard [Culberson & Reckhow: Covering polygons is hard, FOCS 1988/Journal of Algorithms 1994] and in $\\exists \\mathbb{R}$ [O'Rourke: The complexity of computing minimum convex covers for polygons, Allerton 1982]. We prove that MCC is $\\exists \\mathbb{R}$-hard, and the problem is thus $\\exists \\mathbb{R}$-complete. In other words, the problem is equivalent to deciding whether a system of polynomial equations and inequalities with integer coefficients has a real solution. If a cover for our constructed polygon exists, then so does a cover consisting entirely of triangles. As a byproduct, we therefore also establish that it is $\\exists \\mathbb{R}$-complete to decide whether $k$ triangles cover a given polygon. The issue that it was not known if finding a minimum cover is in N P has repeatedly been raised in the literature, and it was mentioned as a “long-standing open question” already in 2001 [Eidenbenz & Widmayer: An approximation algorithm for minimum convex cover with logarithmic performance guarantee, ESA 2001/SIAM Journal on Computing 2003]. We prove that assuming the widespread belief that $\\mathsf{NP}\\neq\\exists \\mathbb{R}$, the problem is not in N P. An implication of the result is that many natural approaches to finding small covers are bound to give suboptimal solutions in some cases, since irrational coordinates of arbitrarily high algebraic degree can be needed for the corners of the pieces in an optimal solution.",
+            "aminer_id": "60bed00691e0118491817804"
+        },
+        "EidenbenzConvexCover": {
+            "number": "[5]",
+            "title": "An Approximation Algorithm for Minimum Convex Cover with Logarithmic Performance Guarantee",
+            "text": "author = {Eidenbenz, Stephan J. and Widmayer, Peter},\ntitle = {An Approximation Algorithm for Minimum Convex Cover with Logarithmic Performance Guarantee},\njournal = {SIAM Journal on Computing},\nvolume = {32},\nnumber = {3},\npages = {654-670},\nyear = {2003},\ndoi = {10.1137/S0097539702405139},\n\nURL = { \n        https://doi.org/10.1137/S0097539702405139\n},\neprint = { \n        https://doi.org/10.1137/S0097539702405139\n}",
+            "type": "article",
+            "fields": {
+                "author": "Eidenbenz, Stephan J. and Widmayer, Peter",
+                "title": "An Approximation Algorithm for Minimum Convex Cover with Logarithmic Performance Guarantee",
+                "journal": "SIAM Journal on Computing",
+                "volume": "32",
+                "number": "3",
+                "pages": "654-670",
+                "year": "2003",
+                "doi": "10.1137/S0097539702405139",
+                "url": "https://doi.org/10.1137/S0097539702405139",
+                "eprint": "https://doi.org/10.1137/S0097539702405139"
+            },
+            "ref_source": "bib",
+            "abstract": "The problem Minimum Convex Cover of covering a given polygon with a minimum number of (possibly overlapping) convex polygons is known to be NP-hard, even for polygons without holes [3]. We propose a polynomial-time approximation algorithm for this problem for polygons with or without holes that achieves an approximation ratio of O(log n), where n is the number of vertices in the input polygon. To obtain this result, we first show that an optimum solution of a restricted version of this problem, where the vertices of the convex polygons may only lie on a certain grid, contains at most three times as many convex polygons as the optimum solution of the unrestricted problem. As a second step, we use dynamic programming to obtain a convex polygon which is maximum with respect to the number of “basic triangles” that are not yet covered by another convex polygon. We obtain a solution that is at most a logarithmic factor off the optimum by iteratively applying our dynamic programming algorithm. Furthermore, we show that Minimum Convex Cover is APX-hard, i.e., there exists a constant δ > 0 such that no polynomial-time algorithm can achieve an approximation ratio of 1 + δ. We obtain this result by analyzing and slightly modifying an already existing reduction [3].",
+            "aminer_id": "53908b1820f70186a0db5221"
+        },
+        "EIDENBENZHidden": {
+            "number": "[6]",
+            "title": "Inapproximability of Finding Maximum Hidden Sets on Polygons and Terrains",
+            "text": "title = {Inapproximability of finding maximum hidden sets on polygons and terrains},\njournal = {Computational Geometry},\nvolume = {21},\nnumber = {3},\npages = {139-153},\nyear = {2002},\nissn = {0925-7721},\ndoi = {https://doi.org/10.1016/S0925-7721(01)00029-3},\nurl = {https://www.sciencedirect.com/science/article/pii/S0925772101000293},\nauthor = {Stephan Eidenbenz},\nkeywords = {Hiding, Visibility, Inapproximability, Polygons, Terrains}",
+            "type": "article",
+            "fields": {
+                "title": "Inapproximability of finding maximum hidden sets on polygons and terrains",
+                "journal": "Computational Geometry",
+                "volume": "21",
+                "number": "3",
+                "pages": "139-153",
+                "year": "2002",
+                "issn": "0925-7721",
+                "doi": "https://doi.org/10.1016/S0925-7721(01)00029-3",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0925772101000293",
+                "author": "Stephan Eidenbenz",
+                "keywords": "Hiding, Visibility, Inapproximability, Polygons, Terrains"
+            },
+            "ref_source": "bib",
+            "abstract": "How many people can hide in a given terrain, without any two of them seeing each other? We are interested in finding the precise number and an optimal placement of people to be hidden, given a terrain with n vertices. In this paper, we show that this is not at all easy: The problem of placing a maximum number of hiding people is almost as hard to approximate as the Maximum Clique problem, i.e., it cannot be approximated by any polynomial-time algorithm with an approximation ratio of nε for some ε>0, unless P=NP. This is already true for a simple polygon with holes (instead of a terrain). If we do not allow holes in the polygon, we show that there is a constant ε>0 such that the problem cannot be approximated with an approximation ratio of 1+ε.",
+            "aminer_id": "5390881820f70186a0d81ab6"
+        },
+        "Alegra2019A1A": {
+            "number": "[7]",
+            "title": "A 1/4-Approximation Algorithm for the Maximum Hidden Vertex Set Problem in Simple Polygons∗",
+            "text": "title={A 1/4-Approximation Algorithm for the Maximum Hidden Vertex Set Problem in Simple Polygons},\n  author={Carlos Alegr{\\'i}a and Pritam Bhattacharya and Subir Kumar Ghosh},\n  booktitle={European Workshop on Computational Geometry},\n  year={2019}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "A 1/4-Approximation Algorithm for the Maximum Hidden Vertex Set Problem in Simple Polygons",
+                "author": "Carlos Alegr{\\'i}a and Pritam Bhattacharya and Subir Kumar Ghosh",
+                "booktitle": "European Workshop on Computational Geometry",
+                "year": "2019"
+            },
+            "ref_source": "bib",
+            "abstract": "1 Given a simple polygon, two points in its interior are said to be hidden to each other if the straight 2 line segment connecting them intersects the exterior of the polygon. We study the Maximum 3 Hidden Vertex Set problem, where given a simple polygon, we are required to find a subset of 4 vertices of maximum cardinality such that every pair of them are hidden to each other. This 5 problem is known to be NP-hard, and in fact also APX-hard. In this paper we present a O(n2) 6 time algorithm to compute a 1/4-approximation to the maximum hidden vertex set of a simple 7 polygon. Although exact algorithms are known for some special classes of polygons (such as 8 polygons that are weakly visible from a convex edge), to the best of our knowledge this is the 9 first deterministic polynomial-time algorithm to compute a constant-factor approximation to the 10 optimal solution for general simple polygons without holes. 11",
+            "aminer_id": "61c90b355244ab9dcb3a8e61"
+        },
+        "guard-hard": {
+            "number": "[8]",
+            "title": "The Art Gallery Problem is ER-Complete",
+            "text": "author = {Abrahamsen, Mikkel and Adamaszek, Anna and Miltzow, Tillmann},\ntitle = {The Art Gallery Problem is ER-Complete},\nyear = {2018},\nisbn = {9781450355599},\npublisher = {Association for Computing Machinery},\naddress = {New York, NY, USA},\nurl = {https://doi.org/10.1145/3188745.3188868},\ndoi = {10.1145/3188745.3188868},\nbooktitle = {Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing},\npages = {65–73},\nnumpages = {9},\nkeywords = {Art Gallery Problem, Existential Theory of the Reals},\nlocation = {Los Angeles, CA, USA},\nseries = {STOC 2018}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Abrahamsen, Mikkel and Adamaszek, Anna and Miltzow, Tillmann",
+                "title": "The Art Gallery Problem is ER-Complete",
+                "year": "2018",
+                "isbn": "9781450355599",
+                "publisher": "Association for Computing Machinery",
+                "address": "New York, NY, USA",
+                "url": "https://doi.org/10.1145/3188745.3188868",
+                "doi": "10.1145/3188745.3188868",
+                "booktitle": "Proceedings of the 50th Annual ACM SIGACT Symposium on Theory of Computing",
+                "pages": "65–73",
+                "numpages": "9",
+                "keywords": "Art Gallery Problem, Existential Theory of the Reals",
+                "location": "Los Angeles, CA, USA",
+                "series": "STOC 2018"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "Till": {
+            "number": "[9]",
+            "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem",
+            "text": "title={A Practical Algorithm with Performance Guarantees for the Art Gallery Problem}, \n      author={Simon Hengeveld and Tillmann Miltzow},\n      year={2023},\n      eprint={2007.06920},\n      archivePrefix={arXiv},\n      primaryClass={cs.CG}",
+            "type": "misc",
+            "fields": {
+                "title": "A Practical Algorithm with Performance Guarantees for the Art Gallery Problem",
+                "author": "Simon Hengeveld and Tillmann Miltzow",
+                "year": "2023",
+                "eprint": "2007.06920",
+                "archiveprefix": "arXiv",
+                "primaryclass": "cs.CG"
+            },
+            "ref_source": "bib",
+            "abstract": "Given a closed simple polygon $P$, we say two points $p,q$ see each other if the segment $pq$ is fully contained in $P$. The art gallery problem seeks a minimum size set $G\\subset P$ of guards that sees $P$ completely. The only currently correct algorithm to solve the art gallery problem exactly uses algebraic methods and is attributed to Sharir. As the art gallery problem is ER-complete, it seems unlikely to avoid algebraic methods, without additional assumptions. In this paper, we introduce the notion of vision stability. In order to describe vision stability consider an enhanced guard that can see \"around the corner\" by an angle of $\\delta$ or a diminished guard whose vision is by an angle of $\\delta$ \"blocked\" by reflex vertices. A polygon $P$ has vision stability $\\delta$ if the optimal number of enhanced guards to guard $P$ is the same as the optimal number of diminished guards to guard $P$. We will argue that most relevant polygons are vision stable. We describe a one-shot vision stable algorithm that computes an optimal guard set for visionstable polygons using polynomial time and solving one integer program. It guarantees to find the optimal solution for every vision stable polygon. We implemented an iterative visionstable algorithm and show its practical performance is slower, but comparable with other state of the art algorithms. Our iterative algorithm is inspired and follows closely the one-shot algorithm. It delays several steps and only computes them when deemed necessary. Given a chord $c$ of a polygon, we denote by $n(c)$ the number of vertices visible from $c$. The chord-width of a polygon is the maximum $n(c)$ over all possible chords $c$. The set of vision stable polygons admits an FPT algorithm when parametrized by the chord-width. Furthermore, the one-shot algorithm runs in FPT time, when parameterized by the number of reflex vertices.",
+            "aminer_id": "5f0ed60c91e011ead9665368"
+        },
+        "Alon-Sariel": {
+            "number": "[10]",
+            "title": "Guarding Galleries and Terrains",
+            "text": "title = {Guarding galleries and terrains},\njournal = {Information Processing Letters},\nvolume = {100},\nnumber = {6},\npages = {238-245},\nyear = {2006},\nissn = {0020-0190},\ndoi = {https://doi.org/10.1016/j.ipl.2006.05.014},\nurl = {https://www.sciencedirect.com/science/article/pii/S0020019006001359},\nauthor = {Alon Efrat and Sariel Har-Peled}",
+            "type": "article",
+            "fields": {
+                "title": "Guarding galleries and terrains",
+                "journal": "Information Processing Letters",
+                "volume": "100",
+                "number": "6",
+                "pages": "238-245",
+                "year": "2006",
+                "issn": "0020-0190",
+                "doi": "https://doi.org/10.1016/j.ipl.2006.05.014",
+                "url": "https://www.sciencedirect.com/science/article/pii/S0020019006001359",
+                "author": "Alon Efrat and Sariel Har-Peled"
+            },
+            "ref_source": "bib",
+            "abstract": "Let P be a polygon with n vertices. We say that two points of P see each other if the line segment connecting them lies inside (the closure of) P. In this paper we present efficient approximation algorithms for finding the smallest set G of points of P so that each point of P is seen by at least one point of G, and the points of G are constrained to be belong to the set of vertices of an arbitrarily dense grind. We also present similar algorithms for terrains and polygons with holes.",
+            "aminer_id": "53908af920f70186a0db0671"
+        },
+        "keil": {
+            "number": "[11]",
+            "title": "On the Time Bound for Convex Decomposition of Simple Polygons.",
+            "text": "author = {Keil, Mark and Snoeyink, Jack},\ntitle = {ON THE TIME BOUND FOR CONVEX DECOMPOSITION OF SIMPLE POLYGONS},\njournal = {International Journal of Computational Geometry \\& Applications},\nvolume = {12},\nnumber = {03},\npages = {181-192},\nyear = {2002},\ndoi = {10.1142/S0218195902000803},\n\nURL = {        https://doi.org/10.1142/S0218195902000803\n\n},\neprint = { \n    \n        https://doi.org/10.1142/S0218195902000803\n\n}",
+            "type": "article",
+            "fields": {
+                "author": "Keil, Mark and Snoeyink, Jack",
+                "title": "ON THE TIME BOUND FOR CONVEX DECOMPOSITION OF SIMPLE POLYGONS",
+                "journal": "International Journal of Computational Geometry \\& Applications",
+                "volume": "12",
+                "number": "03",
+                "pages": "181-192",
+                "year": "2002",
+                "doi": "10.1142/S0218195902000803",
+                "url": "https://doi.org/10.1142/S0218195902000803",
+                "eprint": "https://doi.org/10.1142/S0218195902000803"
+            },
+            "ref_source": "bib",
+            "abstract": "We show that a decomposition of a simple polygon having n vertices, r of which are reflex, into a minimum number of convex regions without the addition of Steiner vertices can be computed in O(n + r2 min {r2, n}) time and space. A Java demo is available at .",
+            "aminer_id": "53e9b607b7602d970415978e"
+        },
+        "chazelle1985optimal": {
+            "number": "[12]",
+            "title": "Optimal Convex Decompositions",
+            "text": "title={Optimal convex decompositions},\n  author={Chazelle, Bernard and Dobkin, David P},\n  booktitle={Machine Intelligence and pattern recognition},\n  volume={2},\n  pages={63--133},\n  year={1985},\n  publisher={Elsevier}",
+            "type": "incollection",
+            "fields": {
+                "title": "Optimal convex decompositions",
+                "author": "Chazelle, Bernard and Dobkin, David P",
+                "booktitle": "Machine Intelligence and pattern recognition",
+                "volume": "2",
+                "pages": "63--133",
+                "year": "1985",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "The problem of decomposing a non-convex simple polygon into a minimum number of convex polygons is solved. The decomposition allows for the introduction of Steiner points. Two algorithms are proposed. The first verifies that the problem is doable in polynomial time. The second provides an efficient method. Along the way, numerous results of independent interest in pure geometry as well as geometric complexity are stated.",
+            "aminer_id": "6217ebe45aee126c0f58fb68"
+        },
+        "hertel1983fast": {
+            "number": "[13]",
+            "title": "Fast triangulation of simple polygons",
+            "text": "title={Fast triangulation of simple polygons},\n  author={Hertel, Stefan and Mehlhorn, Kurt},\n  booktitle={Foundations of Computation Theory: Proceedings of the 1983 International FCT-Conference Borgholm, Sweden, August 21--27, 1983 4},\n  pages={207--218},\n  year={1983},\n  organization={Springer}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Fast triangulation of simple polygons",
+                "author": "Hertel, Stefan and Mehlhorn, Kurt",
+                "booktitle": "Foundations of Computation Theory: Proceedings of the 1983 International FCT-Conference Borgholm, Sweden, August 21--27, 1983 4",
+                "pages": "207--218",
+                "year": "1983",
+                "organization": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53908b1820f70186a0db4e0f"
+        },
+        "Joe": {
+            "number": "[14]",
+            "title": "Approximating Maximum Independent Set for Rectangles in the Plane",
+            "text": "title={Approximating Maximum Independent Set for Rectangles in the Plane},\n  author={Joseph S. B. Mitchell},\n  journal={2021 IEEE 62nd Annual Symposium on Foundations of Computer Science (FOCS)},\n  year={2021},\n  pages={339-350}",
+            "type": "article",
+            "fields": {
+                "title": "Approximating Maximum Independent Set for Rectangles in the Plane",
+                "author": "Joseph S. B. Mitchell",
+                "journal": "2021 IEEE 62nd Annual Symposium on Foundations of Computer Science (FOCS)",
+                "year": "2021",
+                "pages": "339-350"
+            },
+            "ref_source": "bib",
+            "abstract": "We give a polynomial-time constant-factor approximation algorithm for maximum independent set for (axis-aligned) rectangles in the plane. Using a polynomial-time algorithm, the best approximation factor previously known is $O(\\log\\log n)$. The results are based on a new form of recursive partitioning in the plane, in which faces that are constant-complexity and orthogonally convex are recursively partitioned into a constant number of such faces.",
+            "aminer_id": "5ff4399191e01130648dc37c"
+        },
+        "SODA22": {
+            "number": "[15]",
+            "title": "A 3-Approximation Algorithm for Maximum Independent Set of Rectangles",
+            "text": "author = {Waldo Gálvez and Arindam Khan and Mathieu Mari and Tobias Mömke and Madhusudhan Reddy Pittu and Andreas Wiese},\ntitle = {A 3-Approximation Algorithm for Maximum Independent Set of Rectangles},\nbooktitle = {Proceedings of the 2022 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)},\nchapter = {},\nyear = {2022},\npublisher = {Society for Industrial and Applied Mathematics},\npages = {894-905},\ndoi = {10.1137/1.9781611977073.38},\nURL = {https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.38},\neprint = {https://epubs.siam.org/doi/pdf/10.1137/1.9781611977073.38}",
+            "type": "inbook",
+            "fields": {
+                "author": "Waldo Gálvez and Arindam Khan and Mathieu Mari and Tobias Mömke and Madhusudhan Reddy Pittu and Andreas Wiese",
+                "title": "A 3-Approximation Algorithm for Maximum Independent Set of Rectangles",
+                "booktitle": "Proceedings of the 2022 Annual ACM-SIAM Symposium on Discrete Algorithms (SODA)",
+                "chapter": "",
+                "year": "2022",
+                "publisher": "Society for Industrial and Applied Mathematics",
+                "pages": "894-905",
+                "doi": "10.1137/1.9781611977073.38",
+                "url": "https://epubs.siam.org/doi/abs/10.1137/1.9781611977073.38",
+                "eprint": "https://epubs.siam.org/doi/pdf/10.1137/1.9781611977073.38"
+            },
+            "ref_source": "bib",
+            "abstract": "We study the Maximum Independent Set of Rectangles (MISR) problem, where we are given a set of axis-parallel rectangles in the plane and the goal is to select a subset of non-overlapping rectangles of maximum cardinality. In a recent breakthrough, Mitchell [2021] obtained the first constant-factor approximation algorithm for MISR. His algorithm achieves an approximation ratio of 10 and it is based on a dynamic program that intuitively recursively partitions the input plane into special polygons called corner-clipped rectangles (CCRs), without intersecting certain special horizontal line segments called fences. In this paper, we present a $(2+\\epsilon)$-approximation algorithm for MISR which is also based on a recursive partitioning scheme. First, we use a partition into a class of axis-parallel polygons with constant complexity each that are more general than CCRs. This allows us to provide an arguably simpler analysis and at the same time already improves the approximation ratio to 6. Then, using a more elaborate charging scheme and a recursive partitioning into general axis-parallel polygons with constant complexity, we improve our approximation ratio to $2+\\epsilon$. In particular, we construct a recursive partitioning based on more general fences which can be sequences of up to $O(1/\\epsilon)$ line segments each. This partitioning routine and our other new ideas may be useful for future work towards a PTAS for MISR.",
+            "aminer_id": "60e42bbfdfae54001623ba4c"
+        },
+        "GhoshWeakVisible": {
+            "number": "[16]",
+            "title": "Characterizing and Recognizing Weak Visibility Polygons",
+            "text": "title = {Characterizing and recognizing weak visibility polygons},\njournal = {Computational Geometry},\nvolume = {3},\nnumber = {4},\npages = {213-233},\nyear = {1993},\nissn = {0925-7721},\ndoi = {https://doi.org/10.1016/0925-7721(93)90010-4},\nurl = {https://www.sciencedirect.com/science/article/pii/0925772193900104},\nauthor = {Subir Kumar Ghosh and Anil Maheshwari and Sudebkumar Prasant Pal and Sanjeev Saluja and C.E. {Veni Madhavan}}",
+            "type": "article",
+            "fields": {
+                "title": "Characterizing and recognizing weak visibility polygons",
+                "journal": "Computational Geometry",
+                "volume": "3",
+                "number": "4",
+                "pages": "213-233",
+                "year": "1993",
+                "issn": "0925-7721",
+                "doi": "https://doi.org/10.1016/0925-7721(93)90010-4",
+                "url": "https://www.sciencedirect.com/science/article/pii/0925772193900104",
+                "author": "Subir Kumar Ghosh and Anil Maheshwari and Sudebkumar Prasant Pal and Sanjeev Saluja and C.E. {Veni Madhavan}"
+            },
+            "ref_source": "bib",
+            "abstract": "A polygon is said to be a weak visibility polygon if every point of the polygon is visible from some point of an internal segment. In this paper we derive properties of shortest paths in weak visibility polygons and present a characterization of weak visibility polygons in terms of shortest paths between vertices. These properties lead to the following efficient algorithms: (i) an O(E) time algorithm for determining whether a simple polygon P is a weak visibility polygon and for computing a visibility chord if it exist, where E is the size of the visibility graph of P and (ii) an O(n2) time algorithm for computing the maximum hidden vertex set in an n-sided polygon weakly visible from a convex edge.",
+            "aminer_id": "539087be20f70186a0d53314"
+        },
+        "CLRS": {
+            "number": "[17]",
+            "title": "Introduction to algorithms",
+            "text": "title={Introduction to algorithms},\n  author={Cormen, Thomas H and Leiserson, Charles E and Rivest, Ronald L and Stein, Clifford},\n  year={2022},\n  publisher={MIT press}",
+            "type": "book",
+            "fields": {
+                "title": "Introduction to algorithms",
+                "author": "Cormen, Thomas H and Leiserson, Charles E and Rivest, Ronald L and Stein, Clifford",
+                "year": "2022",
+                "publisher": "MIT press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "61c997025244ab9dcb8bcb86"
+        },
+        "suriFirst": {
+            "number": "[18]",
+            "title": "A Linear Time Algorithm for Minimum Link Paths Inside a Simple Polygon",
+            "text": "title={A linear time algorithm for minimum link paths inside a simple polygon},\n  author={Suri, Subhash},\n  journal={Computer Vision, Graphics, and Image Processing},\n  volume={35},\n  number={1},\n  pages={99--110},\n  year={1986},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A linear time algorithm for minimum link paths inside a simple polygon",
+                "author": "Suri, Subhash",
+                "journal": "Computer Vision, Graphics, and Image Processing",
+                "volume": "35",
+                "number": "1",
+                "pages": "99--110",
+                "year": "1986",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390877f20f70186a0d2fc07"
+        },
+        "ghosh": {
+            "number": "[19]",
+            "title": "Computing the Visibility Polygon from a Convex Set and Related Problems",
+            "text": "title={Computing the visibility polygon from a convex set and related problems},\n  author={Ghosh, Subir Kumar},\n  journal={Journal of Algorithms},\n  volume={12},\n  number={1},\n  pages={75--95},\n  year={1991},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Computing the visibility polygon from a convex set and related problems",
+                "author": "Ghosh, Subir Kumar",
+                "journal": "Journal of Algorithms",
+                "volume": "12",
+                "number": "1",
+                "pages": "75--95",
+                "year": "1991",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we propose efficient algorithms for computing the complete and weak visibility polygons of a simple polygon P of n vertices from a convex set C inside P. The algorithm for computing the complete visibility polygon of P from C takes O(n + k) time in the worst case, where k is the number of extreme points of the convex set C. Given a triangulation of P - C, the algorithm for computing the weak visibility polygon of P from C takes O(n + k) time in the worst case. We also show that computing the complete and weak visibility polygons of P from a nonconvex set inside P has the same time complexity. The algorithm for computing the complete visibility polygon of P from a convex set inside P leads to efficient algorithms for the following problems: (i) Given a polygon Q of m vertices inside another polygon P of n vertices, construct a minimum nested convex polygon K between P and Q. The algorithm runs in O((n + m)log k) time, where k is the number of vertices of K. This is an improvement over the O((n + m)log(n + m)) time algorithm of Wang and Chan. (ii) Given two points inside a polygon P, compute a minimum link path between them inside P. Given a triangulation of P, the algorithm takes O(n) time. Suri also proposed a linear time algorithm for this problem in a triangulated polygon but our algorithm is simpler.",
+            "aminer_id": "5390879d20f70186a0d4385f"
+        },
+        "hershbergerSnoeyinkHomotopy": {
+            "number": "[20]",
+            "title": "Computing Minimum Length Paths of a Given Homotopy Class",
+            "text": "title={Computing minimum length paths of a given homotopy class},\n  author={Hershberger, John and Snoeyink, Jack},\n  journal={Computational geometry},\n  volume={4},\n  number={2},\n  pages={63--97},\n  year={1994},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Computing minimum length paths of a given homotopy class",
+                "author": "Hershberger, John and Snoeyink, Jack",
+                "journal": "Computational geometry",
+                "volume": "4",
+                "number": "2",
+                "pages": "63--97",
+                "year": "1994",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "In this abstract, we use the universal covering space of a surface to generalize previous results on computing paths in a simple polygon. We look at optimizing paths among obstacles in the plane under the Euclidean and link metrics and polygonal convex distance functions. The universal cover is a unifying framework that reveals connections between minimum paths under these three distance functions, as well as yielding simpler linear-time algorithms for shortest path trees and minimum link paths in simple polygons.",
+            "aminer_id": "68c11b07163c01c85099dfdc"
+        },
+        "handbook99": {
+            "number": "[21]",
+            "title": "Handbook of computational geometry",
+            "text": "title={Handbook of computational geometry},\n  author={Sack, J{\\\"o}rg-R{\\\"u}diger and Urrutia, Jorge},\n  year={1999},\n  publisher={Elsevier}",
+            "type": "book",
+            "fields": {
+                "title": "Handbook of computational geometry",
+                "author": "Sack, J{\\\"o}rg-R{\\\"u}diger and Urrutia, Jorge",
+                "year": "1999",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e99ab8b7602d9702331268"
+        },
+        "handbook": {
+            "number": "[22]",
+            "title": "Handbook of Discrete and Computational Geometry",
+            "text": "title={Handbook of discrete and computational geometry},\n  author={Toth, Csaba D and O'Rourke, Joseph and Goodman, Jacob E},\n  year={2017},\n  publisher={CRC press}",
+            "type": "book",
+            "fields": {
+                "title": "Handbook of discrete and computational geometry",
+                "author": "Toth, Csaba D and O'Rourke, Joseph and Goodman, Jacob E",
+                "year": "2017",
+                "publisher": "CRC press"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e9ab48b7602d97034dcf05"
+        },
+        "revisited": {
+            "number": "[23]",
+            "title": "Minimum-Link Paths Revisited",
+            "text": "title={Minimum-link paths revisited},\n  author={Joseph S. B. Mitchell and Valentin Polishchuk and Mikko Sysikaski},\n  journal={Computational Geometry},\n  volume={47},\n  number={6},\n  pages={651--667},\n  year={2014},\n  publisher={Elsevier},\n  note={Special issue on EuroCG'11}",
+            "type": "article",
+            "fields": {
+                "title": "Minimum-link paths revisited",
+                "author": "Joseph S. B. Mitchell and Valentin Polishchuk and Mikko Sysikaski",
+                "journal": "Computational Geometry",
+                "volume": "47",
+                "number": "6",
+                "pages": "651--667",
+                "year": "2014",
+                "publisher": "Elsevier",
+                "note": "Special issue on EuroCG'11"
+            },
+            "ref_source": "bib",
+            "abstract": "A path or a polygonal domain is C-oriented if the orientations of its edges belong to a set of C given orientations; this is a generalization of the notable rectilinear case (C = 2). We study exact and approximation algorithms for minimum-link C-oriented paths and paths with unrestricted orientations, both in C-oriented and in general domains. Our two main algorithms are as follows: A subquadratic-time algorithm with a non-trivial approximation guarantee for general (unrestricted-orientation) minimum-link paths in general domains. An algorithm to find a minimum-link C-oriented path in a C-oriented domain. Our algorithm is simpler and more time-space efficient than the prior algorithm. We also obtain several related results: - 3SUM-hardness of determining the link distance with unrestricted orientations (even in a rectilinear domain). - An optimal algorithm for finding a minimum-link rectilinear path in a rectilinear domain. The algorithm and its analysis are simpler than the existing ones. - An extension of our methods to find a C-oriented minimum-link path in a general (not necessarily C-oriented) domain. - A more efficient algorithm to compute a 2-approximate C-oriented minimum-link path. - A notion of \"robust\" paths. We show how minimum-link C-oriented paths approximate the robust paths with unrestricted orientations to within an additive error of 1.",
+            "aminer_id": "5390bfa220f70186a0f53c94"
+        },
+        "suri1990some": {
+            "number": "[24]",
+            "title": "On Some Link Distance Problems in a Simple Polygon",
+            "text": "title={On some link distance problems in a simple polygon},\n  author={Suri, Subhash},\n  journal={IEEE transactions on Robotics and Automation},\n  volume={6},\n  number={1},\n  pages={108--113},\n  year={1990},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "On some link distance problems in a simple polygon",
+                "author": "Suri, Subhash",
+                "journal": "IEEE transactions on Robotics and Automation",
+                "volume": "6",
+                "number": "1",
+                "pages": "108--113",
+                "year": "1990",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "A technique is presented for preprocessing a simple polygon to answer link distance queries. The preprocessing requires linear time and the time to triangulate the polygon, and it uses linear storage. As an application of the technique, optimal algorithms for several fundamental link distance problems are derived",
+            "aminer_id": "557d42a36feeaa8086da8e1d"
+        },
+        "ams": {
+            "number": "[25]",
+            "title": "Logarithmic-time link path queries in a simple polygon",
+            "text": "title={Logarithmic-time link path queries in a simple polygon},\n  author={Arkin, Esther M. and Mitchell, Joseph S. B. and Suri, Subhash},\n  journal={International Journal of Computational Geometry \\& Applications},\n  volume={5},\n  number={04},\n  pages={369--395},\n  year={1995},\n  publisher={World Scientific}",
+            "type": "article",
+            "fields": {
+                "title": "Logarithmic-time link path queries in a simple polygon",
+                "author": "Arkin, Esther M. and Mitchell, Joseph S. B. and Suri, Subhash",
+                "journal": "International Journal of Computational Geometry \\& Applications",
+                "volume": "5",
+                "number": "04",
+                "pages": "369--395",
+                "year": "1995",
+                "publisher": "World Scientific"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "pocchiola1996visibility": {
+            "number": "[26]",
+            "title": "The Visibility Complex",
+            "text": "title={The Visibility Complex},\n  author={Pocchiola, Michel and Vegter, Gert},\n  journal={International Journal of Computational Geometry \\& Applications},\n  volume={6},\n  number={4},\n  pages={381--397},\n  year={1996},\n  publisher={World Scientific}",
+            "type": "article",
+            "fields": {
+                "title": "The Visibility Complex",
+                "author": "Pocchiola, Michel and Vegter, Gert",
+                "journal": "International Journal of Computational Geometry \\& Applications",
+                "volume": "6",
+                "number": "4",
+                "pages": "381--397",
+                "year": "1996",
+                "publisher": "World Scientific"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "pedestrian": {
+            "number": "[27]",
+            "title": "A Pedestrian Approach to Ray Shooting: Shoot a Ray, Take a Walk",
+            "text": "title={A pedestrian approach to ray shooting: Shoot a ray, take a walk},\n  author={Hershberger, John and Suri, Subhash},\n  journal={Journal of Algorithms},\n  volume={18},\n  number={3},\n  pages={403--431},\n  year={1995},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "A pedestrian approach to ray shooting: Shoot a ray, take a walk",
+                "author": "Hershberger, John and Suri, Subhash",
+                "journal": "Journal of Algorithms",
+                "volume": "18",
+                "number": "3",
+                "pages": "403--431",
+                "year": "1995",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "We propose a very simple ray-shooting algorithm, whose only data structure is a triangulation. The query algorithm, after locating the triangle containing the origin of the ray, walks along the ray, advancing from one triangle to a neighboring one until the polygon boundary is reached. The key result of the paper is a Steiner triangulation of a simple polygon with the property that a ray can intersect at most O(log n) triangles before reaching the polygon boundary. We are able to compute such a triangulation in linear sequential time, or in O(log n) parallel time using O(n/log n) processors. This gives a simple, yet optimal, ray-shooting algorithm for a simple polygon. Using a well-known technique, we can extend our triangulation procedure to a multiconnected polygon with k components and n vertices, so that a ray intersects at most O(√k log n) triangles.",
+            "aminer_id": "539087cb20f70186a0d59843"
+        },
+        "BangJensen": {
+            "number": "[28]",
+            "title": "Digraphs Theory, Algorithms and Applications",
+            "text": "title={Digraphs Theory, Algorithms and Applications},\nauthor={Bang-Jensen, J{\\o}rgen and Gutin, Gregory},\nedition={1},\nyear={2000},\npublisher={Springer-Verlag},\naddress={Berlin}",
+            "type": "book",
+            "fields": {
+                "title": "Digraphs Theory, Algorithms and Applications",
+                "author": "Bang-Jensen, J{\\o}rgen and Gutin, Gregory",
+                "edition": "1",
+                "year": "2000",
+                "publisher": "Springer-Verlag",
+                "address": "Berlin"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390a37f20f70186a0e6d348"
+        },
+        "ChenFlow": {
+            "number": "[29]",
+            "title": "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time",
+            "text": "author={Chen, Li and Kyng, Rasmus and Liu, Yang P. and Peng, Richard and Gutenberg, Maximilian Probst and Sachdeva, Sushant},\n  booktitle={2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)}, \n  title={Maximum Flow and Minimum-Cost Flow in Almost-Linear Time}, \n  year={2022},\n  volume={},\n  number={},\n  pages={612-623},\n  doi={10.1109/FOCS54457.2022.00064}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Chen, Li and Kyng, Rasmus and Liu, Yang P. and Peng, Richard and Gutenberg, Maximilian Probst and Sachdeva, Sushant",
+                "booktitle": "2022 IEEE 63rd Annual Symposium on Foundations of Computer Science (FOCS)",
+                "title": "Maximum Flow and Minimum-Cost Flow in Almost-Linear Time",
+                "year": "2022",
+                "volume": "",
+                "number": "",
+                "pages": "612-623",
+                "doi": "10.1109/FOCS54457.2022.00064"
+            },
+            "ref_source": "bib",
+            "abstract": "We give an algorithm that computes exact maximum flows and minimum-cost flows on directed graphs with m edges and polynomially bounded integral demands, costs, and capacities in $m^{1+o(1)}$ time. Our algorithm builds the flow through a sequence of $m^{1+o(1)}$ approximate undirected minimum-ratio cycles, each of which is computed and processed in amortized $m^{o(1)}$ time using a new dynamic graph data structure. Our framework extends to algorithms running in $m^{1+o(1)}$ time for computing flows that minimize general edge-separable convex functions to high accuracy. This gives almost-linear time algorithms for several problems including entropy-regularized optimal transport, matrix scaling, p-norm flows, and p-norm isotonic regression on arbitrary directed acyclic graphs.",
+            "aminer_id": "621ee1895aee126c0f26afa5"
+        },
+        "GhoshSPT": {
+            "number": "[30]",
+            "title": "Computing the Shortest Path Tree in a Weak Visibility Polygon",
+            "text": "author=\"Ghosh, Subir Kumar\nand Maheshwari, Anil\nand Pal, Sudebkumar Prasant\nand Saluja, Sanjeev\nand Madhavan, C. E. Veni\",\neditor=\"Biswas, Somenath\nand Nori, Kesav V.\",\ntitle=\"Computing the shortest path tree in a weak visibility polygon\",\nbooktitle=\"Foundations of Software Technology and Theoretical Computer Science\",\nyear=\"1991\",\npublisher=\"Springer Berlin Heidelberg\",\naddress=\"Berlin, Heidelberg\",\npages=\"369--389\",\nisbn=\"978-3-540-46612-3\"",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Ghosh, Subir Kumar and Maheshwari, Anil and Pal, Sudebkumar Prasant and Saluja, Sanjeev and Madhavan, C. E. Veni",
+                "editor": "Biswas, Somenath and Nori, Kesav V.",
+                "title": "Computing the shortest path tree in a weak visibility polygon",
+                "booktitle": "Foundations of Software Technology and Theoretical Computer Science",
+                "year": "1991",
+                "publisher": "Springer Berlin Heidelberg",
+                "address": "Berlin, Heidelberg",
+                "pages": "369--389",
+                "isbn": "978-3-540-46612-3"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper we propose two linear time algorithms for computing the shortest path tree rooted at any vertex of a weak visibility polygon. The first algorithm computes the shortest path tree in a polygon weakly visible from a given internal segment. The second algorithm computes the shortest path tree in a weak visibility polygon without the knowledge of a visibility segment. In both algorithms we use the convexity property of shortest paths in weak visibility polygons established in [4,11].",
+            "aminer_id": "53908adf20f70186a0dad242"
+        },
+        "fulkerson1956note": {
+            "number": "[31]",
+            "title": "Note on Dilworth’s decomposition theorem for partially ordered sets",
+            "text": "title={Note on Dilworth’s decomposition theorem for partially ordered sets},\n  author={Fulkerson, Delbert R},\n  journal={Proceedings of the American Mathematical Society},\n  volume={7},\n  number={4},\n  pages={701--702},\n  year={1956}",
+            "type": "article",
+            "fields": {
+                "title": "Note on Dilworth’s decomposition theorem for partially ordered sets",
+                "author": "Fulkerson, Delbert R",
+                "journal": "Proceedings of the American Mathematical Society",
+                "volume": "7",
+                "number": "4",
+                "pages": "701--702",
+                "year": "1956"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "62173f045aee126c0f882240"
+        },
+        "dilworth1950decomposition": {
+            "number": "[32]",
+            "title": "A Decomposition Theorem for Partially Ordered Sets",
+            "text": "title={A decomposition theorem for partially ordered sets},\n  author={Dilworth, R. P.},\n  journal={Ann. of Math.},\n  volume={51},\n  number={1},\n  pages={161--166},\n  year={1950},",
+            "type": "article",
+            "fields": {
+                "title": "A decomposition theorem for partially ordered sets",
+                "author": "Dilworth, R. P.",
+                "journal": "Ann. of Math.",
+                "volume": "51",
+                "number": "1",
+                "pages": "161--166",
+                "year": "1950"
+            },
+            "ref_source": "bib",
+            "abstract": "Otherwise a and b are non-comparable. A subset S of P is independent if every two distinct elements of S are non-comparable. S is dependent if it contains two distinct elements which are comparable. A subset C of P is a chain if every two of its elements are comparable.",
+            "aminer_id": "53e9b3eeb7602d9703edc6b7"
+        },
+        "browne2022collapsing": {
+            "number": "[33]",
+            "title": "Collapsing the Hidden-Set Convex-Cover Inequality",
+            "text": "title={Collapsing the Hidden-Set Convex-Cover Inequality},\n  author={Browne, Reilly and Chiu, Eric},\n  booktitle={Proceedings of the 38th Computational Geometry Young Researchers Forum (CG:YRF 2022)},\n  pages={27--32},\n  year={2022},\n  organization={Schloss Dagstuhl--Leibniz-Zentrum f{\\\"u}r Informatik}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Collapsing the Hidden-Set Convex-Cover Inequality",
+                "author": "Browne, Reilly and Chiu, Eric",
+                "booktitle": "Proceedings of the 38th Computational Geometry Young Researchers Forum (CG:YRF 2022)",
+                "pages": "27--32",
+                "year": "2022",
+                "organization": "Schloss Dagstuhl--Leibniz-Zentrum f{\\\"u}r Informatik"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "khot2001improved": {
+            "number": "[34]",
+            "title": "Improved Inapproximability Results for MaxClique, Chromatic Number and Approximate Graph Coloring",
+            "text": "title={Improved inapproximability results for maxclique, chromatic number and approximate graph coloring},\n  author={Khot, Subhash},\n  booktitle={Proceedings 42nd IEEE Symposium on Foundations of Computer Science},\n  pages={600--609},\n  year={2001},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Improved inapproximability results for maxclique, chromatic number and approximate graph coloring",
+                "author": "Khot, Subhash",
+                "booktitle": "Proceedings 42nd IEEE Symposium on Foundations of Computer Science",
+                "pages": "600--609",
+                "year": "2001",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we present improved inapproximability results for three problems : the problem of finding the maximum clique size in a graph, the problem of finding the chromatic number of a graph, and the problem of coloring a graph with a small chromatic number with a small number of colors.Hastad's celebrated result [13] shows that the maximum clique size in a graph with n vertices is inapproximable in polynomial time within a factor n(1-epsilon) for arbitrarily small constant epsilon > 0 unless NP=ZPP. In this paper, we aim at getting the best subconstant value of epsilon in Hastad's result. We prove that clique size is inapproximable within a factor n/2((log n)1 - gamma) (corresponding to epsilon = 1/(log n)(gamma) ) for some constant gamma > 0 unless NP subset of or equal to ZPTIME(2((log n)O(1))). This improves the previous best inapproximability factor of n/2(O(log n/root log log n)) (corresponding to epsilon = O(1/root log log n)) due to Engebretsen and Holmerin [7].A similar result is obtained for the problem of approximating chromatic number of a graph. Feige and Kilian [10] prove that chromatic number is hard to approximate within factor n(1-epsilon) for any constant epsilon > 0 unless NP=ZPP. We use some of their techniques to give a much simpler proof of the same result and also improve the hardness factor to - n for some constant gamma > 0. The above two results n/2(log n)(1 - gamma) are obtained by constructing a new Hadamard code based PCP inner verifier.We also present a new hardness result for approximate graph coloring. We show that for all sufficiently large constants k, it is NP-hard to color a k-colorable graph with k1/25((log k)) colors. This improves a result of Furer [11] that for arbitrarily small constant epsilon > 0, for sufficiently large constants k, it is hard to color a k-colorable graph with k(3/2-epsilon) colors.",
+            "aminer_id": "53908d6520f70186a0dd2338"
+        },
+        "hastad1996clique": {
+            "number": "[35]",
+            "title": "Clique is hard to approximate within n/sup 1-/spl epsiv",
+            "text": "title={Clique is hard to approximate within n/sup 1-/spl epsiv},\n  author={Hastad, Johan},\n  booktitle={Proceedings of 37th Conference on Foundations of Computer Science},\n  pages={627--636},\n  year={1996},\n  organization={IEEE}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Clique is hard to approximate within n/sup 1-/spl epsiv",
+                "author": "Hastad, Johan",
+                "booktitle": "Proceedings of 37th Conference on Foundations of Computer Science",
+                "pages": "627--636",
+                "year": "1996",
+                "organization": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "68ac89b110159f9ae87b3d6c"
+        },
+        "Franzblau": {
+            "number": "[36]",
+            "title": "Performance Guarantees on a Sweep-Line Heuristic for Covering Rectilinear Polygons with Rectangles",
+            "text": "author = {Franzblau, D. S.},\ntitle = {Performance Guarantees on a Sweep-Line Heuristic for Covering Rectilinear Polygons with Rectangles},\njournal = {SIAM Journal on Discrete Mathematics},\nvolume = {2},\nnumber = {3},\npages = {307-321},\nyear = {1989},\ndoi = {10.1137/0402027},\n\nURL = { \n    \n        https://doi.org/10.1137/0402027\n    \n},\neprint = { \n        https://doi.org/10.1137/0402027\n}\n,",
+            "type": "article",
+            "fields": {
+                "author": "Franzblau, D. S.",
+                "title": "Performance Guarantees on a Sweep-Line Heuristic for Covering Rectilinear Polygons with Rectangles",
+                "journal": "SIAM Journal on Discrete Mathematics",
+                "volume": "2",
+                "number": "3",
+                "pages": "307-321",
+                "year": "1989",
+                "doi": "10.1137/0402027",
+                "url": "https://doi.org/10.1137/0402027",
+                "eprint": "https://doi.org/10.1137/0402027"
+            },
+            "ref_source": "bib",
+            "abstract": "Finding the minimum number of rectangles required to cover a rectilinear or orthogonal polygon, where overlapping of rectangles is allowed, is one of several well-known, hard geometric decomposition problems. This paper reports the first results known that give worst-case performance bounds for an approximation algorithm for this problem. It is proved that partitioning the polygon into rectangles (with no overlapping) produces at most $2\\theta + h - 1$ rectangles, where $\\theta $ is the minimum number of rectangles in a cover, and h is the number of holes. Examples are also given in which this bound is tight. The proof is based on counting arguments, and on Euler’s formula for a planar graph. This paper shows that extending rectangles vertically and deleting duplicates produces at most $O(\\theta \\log \\theta )$ rectangles. For the proof, geometric constraints are used to construct a large an-tirectangle, a set of points with no two contained in the same rectangle. This algorithm has an $O(n\\log n)$ implementation using balanced trees, where n is the number of vertices.",
+            "aminer_id": "5390878e20f70186a0d3a6d8"
+        },
+        "linearKernel": {
+            "number": "[37]",
+            "title": "An Optimal Algorithm for Finding the Kernel of a Polygon",
+            "text": "author = {Lee, D. and Preparata, F.},\nyear = {1979},\nmonth = {07},\npages = {415-421},\ntitle = {An Optimal Algorithm for Finding the Kernel of a Polygon},\nvolume = {26},\njournal = {Journal of the ACM (JACM)},\ndoi = {10.1145/322139.322142}",
+            "type": "article",
+            "fields": {
+                "author": "Lee, D. and Preparata, F.",
+                "year": "1979",
+                "month": "07",
+                "pages": "415-421",
+                "title": "An Optimal Algorithm for Finding the Kernel of a Polygon",
+                "volume": "26",
+                "journal": "Journal of the ACM (JACM)",
+                "doi": "10.1145/322139.322142"
+            },
+            "ref_source": "bib",
+            "abstract": "article Free AccessAn Optimal Algorithm for Finding the Kernel of a Polygon Authors: D. T. Lee Department of Electrical Engineering and Computer Science, Northwestern University, Evanston, IL and University of Illinois at Urbana-Champaign, Urbana, Illinois Department of Electrical Engineering and Computer Science, Northwestern University, Evanston, IL and University of Illinois at Urbana-Champaign, Urbana, IllinoisView Profile , F. P. Preparata Coordinated Science Laboratory, University of Illinois at Urbana-Champaign, Urbana, IL Coordinated Science Laboratory, University of Illinois at Urbana-Champaign, Urbana, ILView Profile Authors Info & Claims Journal of the ACMVolume 26Issue 3july 1979 pp 415–421https://doi.org/10.1145/322139.322142Published:01 July 1979Publication History 113citation1,841DownloadsMetricsTotal Citations113Total Downloads1,841Last 12 Months111Last 6 weeks50 Get Citation AlertsNew Citation Alert added!This alert has been successfully added and will be sent to:You will be notified whenever a record that you have chosen has been cited.To manage your alert preferences, click on the button below.Manage my AlertsNew Citation Alert!Please log in to your account Save to BinderSave to BinderCreate a New BinderNameCancelCreateExport CitationPublisher SiteeReaderPDF",
+            "aminer_id": "539087f920f70186a0d73425"
+        },
+        "stade2022complexity": {
+            "number": "[38]",
+            "title": "The Point-Boundary Art Gallery Problem is ER-hard",
+            "text": "title={The Point-Boundary Art Gallery Problem is ER-hard},\n  author={Stade, Jack},\n  journal={arXiv preprint arXiv:2210.12817},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "The Point-Boundary Art Gallery Problem is ER-hard",
+                "author": "Stade, Jack",
+                "journal": "arXiv preprint arXiv:2210.12817",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "bonnet2016approximation": {
+            "number": "[39]",
+            "title": "An approximation algorithm for the art gallery problem",
+            "text": "title={An approximation algorithm for the art gallery problem},\n  author={Bonnet, {\\'E}douard and Miltzow, Tillmann},\n  journal={arXiv preprint arXiv:1607.05527},\n  year={2016}",
+            "type": "article",
+            "fields": {
+                "title": "An approximation algorithm for the art gallery problem",
+                "author": "Bonnet, {\\'E}douard and Miltzow, Tillmann",
+                "journal": "arXiv preprint arXiv:1607.05527",
+                "year": "2016"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7ba8601a182cd2754614"
+        },
+        "ChenUpdated": {
+            "number": "[40]",
+            "title": "A Deterministic Almost-Linear Time Algorithm for Minimum-Cost Flow",
+            "text": "author={Brand, Jan Van Den and Chen, Li and Peng, Richard and Kyng, Rasmus and Liu, Yang P. and Gutenberg, Maximilian Probst and Sachdeva, Sushant and Sidford, Aaron},\n  booktitle={2023 IEEE 64th Annual Symposium on Foundations of Computer Science (FOCS)}, \n  title={A Deterministic Almost-Linear Time Algorithm for Minimum-Cost Flow}, \n  year={2023},\n  volume={},\n  number={},\n  pages={503-514},\n  doi={10.1109/FOCS57990.2023.00037}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Brand, Jan Van Den and Chen, Li and Peng, Richard and Kyng, Rasmus and Liu, Yang P. and Gutenberg, Maximilian Probst and Sachdeva, Sushant and Sidford, Aaron",
+                "booktitle": "2023 IEEE 64th Annual Symposium on Foundations of Computer Science (FOCS)",
+                "title": "A Deterministic Almost-Linear Time Algorithm for Minimum-Cost Flow",
+                "year": "2023",
+                "volume": "",
+                "number": "",
+                "pages": "503-514",
+                "doi": "10.1109/FOCS57990.2023.00037"
+            },
+            "ref_source": "bib",
+            "abstract": "We give a deterministic m^1+o(1) time algorithm that computes exact maximum flows and minimum-cost flows on directed graphs with m edges and polynomially bounded integral demands, costs, and capacities. As a consequence, we obtain the first running time improvement for deterministic algorithms that compute maximum-flow in graphs with polynomial bounded capacities since the work of Goldberg-Rao [J.ACM '98]. Our algorithm builds on the framework of Chen-Kyng-Liu-Peng-Gutenberg-Sachdeva [FOCS '22] that computes an optimal flow by computing a sequence of m^1+o(1)-approximate undirected minimum-ratio cycles. We develop a deterministic dynamic graph data-structure to compute such a sequence of minimum-ratio cycles in an amortized m^o(1) time per edge update. Our key technical contributions are deterministic analogues of the vertex sparsification and edge sparsification components of the data-structure from Chen et al. For the vertex sparsification component, we give a method to avoid the randomness in Chen et al. which involved sampling random trees to recurse on. For the edge sparsification component, we design a deterministic algorithm that maintains an embedding of a dynamic graph into a sparse spanner. We also show how our dynamic spanner can be applied to give a deterministic data structure that maintains a fully dynamic low-stretch spanning tree on graphs with polynomially bounded edge lengths, with subpolynomial average stretch and subpolynomial amortized time per edge update.",
+            "aminer_id": "6516338d3fda6d7f065e5180"
+        },
+        "browne2023convex": {
+            "number": "[41]",
+            "title": "Convex Cover and Hidden Set in Funnel Polygons",
+            "text": "title={Convex Cover and Hidden Set in Funnel Polygons}, \n      author={Reilly Browne},\n      year={2023},\n      eprint={2305.10341},\n      archivePrefix={arXiv},\n      primaryClass={cs.CG}",
+            "type": "misc",
+            "fields": {
+                "title": "Convex Cover and Hidden Set in Funnel Polygons",
+                "author": "Reilly Browne",
+                "year": "2023",
+                "eprint": "2305.10341",
+                "archiveprefix": "arXiv",
+                "primaryclass": "cs.CG"
+            },
+            "ref_source": "bib",
+            "abstract": "We present linear-time algorithms for both maximum hidden set and minimum convex cover in funnel polygons. These algorithms show that funnel polygons are \"homestead\" polygons, i.e. polygons for which the hidden set number and the convex cover number coincide. We extend the algorithm to apply to maximum hidden vertex set and use the result to give a 2-approximation for all three problems in pseudotriangles.",
+            "aminer_id": "64659ad1d68f896efa875348"
+        },
+        "shermer_1989": {
+            "number": "[42]",
+            "title": "Hiding people in polygons",
+            "text": "title={Hiding people in polygons}, \n    volume={42}, \n    number={2-3}, \n    journal={Computing}, \n    author={Shermer, T.}, \n    year={1989}, \n    pages={109–131}",
+            "type": "article",
+            "fields": {
+                "title": "Hiding people in polygons",
+                "volume": "42",
+                "number": "2-3",
+                "journal": "Computing",
+                "author": "Shermer, T.",
+                "year": "1989",
+                "pages": "109–131"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5390879220f70186a0d3cdb0"
+        },
+        "Gella2014CliqueCO": {
+            "number": "[43]",
+            "title": "Clique cover of graphs",
+            "text": "title={Clique cover of graphs},\n  author={Frederick S. Gella and Rosalio G. Artes},\n  journal={Applied mathematical sciences},\n  year={2014},\n  volume={8},\n  pages={4301-4307}",
+            "type": "article",
+            "fields": {
+                "title": "Clique cover of graphs",
+                "author": "Frederick S. Gella and Rosalio G. Artes",
+                "journal": "Applied mathematical sciences",
+                "year": "2014",
+                "volume": "8",
+                "pages": "4301-4307"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5c7568e8f56def979823d383"
+        },
+        "Bajuelos": {
+            "number": "[44]",
+            "title": "Escondiendo puntos en espirales e histogramas",
+            "text": "title = {Escondiendo puntos en espirales e histogramas},\n       booktitle = {Actas de las VI Jornadas de Matem{\\'a}tica Discreta y Algor{\\'i}tmica, JMDA'08},\n          author = {Antonio Leslie Bajuelos Dom{\\'i}nguez and Santiago Canales Cano and Gregorio Hern{\\'a}ndez Pe{\\~n}alver and Ana Mafalda Martins},\n       publisher = {Universidad de Lleida},\n         address = {Espa{\\~n}a},\n            year = {2008},\n        abstract = {El problema de maximizar el n{\\'u}mero de v{\\'e}rtices que no son visibles dos a  dos en un pol{\\'i}gono simple P, (MAXIMUN HIDDEN VERTEX SET) es un problema NP-duro [6]. En este trabajo se resuelve el problema para dos tipos de pol{\\'i}gonos: espirales e histogramas. Para los primeros se obtiene un algoritmo lineal que resuelve el problema MHVS y cotas para el m{\\'a}ximo n{\\'u}mero h de v{\\'e}rtices ocultos, [r2 ]+ 1 {$\\leq$} h {$\\leq$} r + 1, siendo r el n{\\'u}mero de v{\\'e}rtices c{\\'o}ncavos del pol{\\'i}gono espiral. Para pol{\\'i}gonos histograma se demuestra que h = r ? (p ? 1), siendo p el n{\\'u}mero de lados fondo.},\n        keywords = {Visibilidad, puntos ocultos, espiral, histograma.},\n             url = {https://oa.upm.es/4564/}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Escondiendo puntos en espirales e histogramas",
+                "booktitle": "Actas de las VI Jornadas de Matem{\\'a}tica Discreta y Algor{\\'i}tmica, JMDA'08",
+                "author": "Antonio Leslie Bajuelos Dom{\\'i}nguez and Santiago Canales Cano and Gregorio Hern{\\'a}ndez Pe{\\~n}alver and Ana Mafalda Martins",
+                "publisher": "Universidad de Lleida",
+                "address": "Espa{\\~n}a",
+                "year": "2008",
+                "abstract": "El problema de maximizar el n{\\'u}mero de v{\\'e}rtices que no son visibles dos a dos en un pol{\\'i}gono simple P, (MAXIMUN HIDDEN VERTEX SET) es un problema NP-duro [6]. En este trabajo se resuelve el problema para dos tipos de pol{\\'i}gonos: espirales e histogramas. Para los primeros se obtiene un algoritmo lineal que resuelve el problema MHVS y cotas para el m{\\'a}ximo n{\\'u}mero h de v{\\'e}rtices ocultos, [r2 ]+ 1 {$\\leq$} h {$\\leq$} r + 1, siendo r el n{\\'u}mero de v{\\'e}rtices c{\\'o}ncavos del pol{\\'i}gono espiral. Para pol{\\'i}gonos histograma se demuestra que h = r ? (p ? 1), siendo p el n{\\'u}mero de lados fondo.",
+                "keywords": "Visibilidad, puntos ocultos, espiral, histograma.",
+                "url": "https://oa.upm.es/4564/"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "56d895a6dabfae2eee0cb068"
+        },
+        "ShermerThesis": {
+            "number": "[45]",
+            "title": "Visibility properties of polygons",
+            "text": "title = {Visibility Properties of Polygons},\n    school = {McGill University School of Computer Science},\n    author = {Thomas C. Shermer},\n    year = {1989}",
+            "type": "phdthesis",
+            "fields": {
+                "title": "Visibility Properties of Polygons",
+                "school": "McGill University School of Computer Science",
+                "author": "Thomas C. Shermer",
+                "year": "1989"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e99ac4b7602d970234307d"
+        },
+        "hoorfar2017minimum": {
+            "number": "[46]",
+            "title": "Minimum Hidden Guarding of Histogram Polygons",
+            "text": "title={Minimum Hidden Guarding of Histogram Polygons}, \n      author={Hamid Hoorfar and Alireza Bagheri},\n      year={2017},\n      eprint={1708.05815},\n      archivePrefix={arXiv},\n      primaryClass={cs.CG}",
+            "type": "misc",
+            "fields": {
+                "title": "Minimum Hidden Guarding of Histogram Polygons",
+                "author": "Hamid Hoorfar and Alireza Bagheri",
+                "year": "2017",
+                "eprint": "1708.05815",
+                "archiveprefix": "arXiv",
+                "primaryclass": "cs.CG"
+            },
+            "ref_source": "bib",
+            "abstract": "A hidden guard set G is a set of point guards in polygon P that all points of the polygon are visible from some guards in G under the constraint that no two guards may see each other. In this paper, we consider the problem for finding minimum hidden guard sets in histogram polygons under orthogonal visibility. Two points p and q are orthogonally visible if the orthogonal bounding rectangle for p and q lies within P. It is known that the problem is NP-hard for simple polygon with general visibility and it is true for simple orthogonal polygon. We proposed a linear time exact algorithm for finding minimum hidden guard set in histogram polygons under orthogonal visibility. In our algorithm, it is allowed that guards place everywhere in the polygon.",
+            "aminer_id": "5a260c8417c44a4ba8a31727"
+        },
+        "culbreck": {
+            "number": "[47]",
+            "title": "Covering Polygons is Hard",
+            "text": "author={Culberson, J.C. and Reckhow, R.A.},\n  booktitle={[Proceedings 1988] 29th Annual Symposium on Foundations of Computer Science}, \n  title={Covering polygons is hard}, \n  year={1988},\n  volume={},\n  number={},\n  pages={601-611},\n  doi={10.1109/SFCS.1988.21976}",
+            "type": "INPROCEEDINGS",
+            "fields": {
+                "author": "Culberson, J.C. and Reckhow, R.A.",
+                "booktitle": "[Proceedings 1988] 29th Annual Symposium on Foundations of Computer Science",
+                "title": "Covering polygons is hard",
+                "year": "1988",
+                "volume": "",
+                "number": "",
+                "pages": "601-611",
+                "doi": "10.1109/SFCS.1988.21976"
+            },
+            "ref_source": "bib",
+            "abstract": "It is shown that the following minimum cover problems are NP-hard, even for polygons without holes: (1) covering an arbitrary polygon with convex polygons; (2) covering the boundary of an arbitrary polygon with convex polygons; (3) covering an orthogonal polygon with rectangles; and (4) covering the boundary of an orthogonal polygon with rectangles. It is noted that these results hold even if the polygons are required to be in general position",
+            "aminer_id": "539087c320f70186a0d54c54"
+        },
+        "abrahamsen_et_al:LIPIcs.SoCG.2023.66": {
+            "number": "[48]",
+            "title": "Constructing Concise Convex Covers via Clique Covers",
+            "text": "author =\t{Abrahamsen, Mikkel and Bille Meyling, William and Nusser, Andr\\'{e}},\n  title =\t{{Constructing Concise Convex Covers via Clique Covers}},\n  booktitle =\t{39th International Symposium on Computational Geometry (SoCG 2023)},\n  pages =\t{66:1--66:9},\n  series =\t{Leibniz International Proceedings in Informatics (LIPIcs)},\n  ISBN =\t{978-3-95977-273-0},\n  ISSN =\t{1868-8969},\n  year =\t{2023},\n  volume =\t{258},\n  editor =\t{Chambers, Erin W. and Gudmundsson, Joachim},\n  publisher =\t{Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik},\n  address =\t{Dagstuhl, Germany},\n  URL =\t\t{https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2023.66},\n  URN =\t\t{urn:nbn:de:0030-drops-179164},\n  doi =\t\t{10.4230/LIPIcs.SoCG.2023.66},\n  annote =\t{Keywords: Convex cover, Polygons with holes, Algorithm engineering, Vertex clique cover}",
+            "type": "InProceedings",
+            "fields": {
+                "author": "Abrahamsen, Mikkel and Bille Meyling, William and Nusser, Andr\\'{e}",
+                "title": "{Constructing Concise Convex Covers via Clique Covers}",
+                "booktitle": "39th International Symposium on Computational Geometry (SoCG 2023)",
+                "pages": "66:1--66:9",
+                "series": "Leibniz International Proceedings in Informatics (LIPIcs)",
+                "isbn": "978-3-95977-273-0",
+                "issn": "1868-8969",
+                "year": "2023",
+                "volume": "258",
+                "editor": "Chambers, Erin W. and Gudmundsson, Joachim",
+                "publisher": "Schloss Dagstuhl -- Leibniz-Zentrum f{\\\"u}r Informatik",
+                "address": "Dagstuhl, Germany",
+                "url": "https://drops.dagstuhl.de/entities/document/10.4230/LIPIcs.SoCG.2023.66",
+                "urn": "urn:nbn:de:0030-drops-179164",
+                "doi": "10.4230/LIPIcs.SoCG.2023.66",
+                "annote": "Keywords: Convex cover, Polygons with holes, Algorithm engineering, Vertex clique cover"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 48,
+        "citation_types": {
+            "other": 48
+        }
+    }
+}

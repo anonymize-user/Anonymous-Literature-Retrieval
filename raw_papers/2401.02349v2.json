@@ -1,0 +1,1026 @@
+{
+    "topic": "A Survey Analyzing Generalization in Deep Reinforcement Learning",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[29]",
+                "[23]",
+                "[61]",
+                "[60]",
+                "[69]",
+                "[47]",
+                "[73]",
+                "[75]",
+                "[72]",
+                "[41]",
+                "[77]",
+                "[86]",
+                "[46]",
+                "[24]",
+                "[80]",
+                "[64]",
+                "[44]",
+                "[87]",
+                "[71]",
+                "[84]",
+                "[16]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Preliminaries on Deep Reinforcement Learning",
+            "refs": [
+                "[87]",
+                "[73]",
+                "[70]",
+                "[9]",
+                "[8]",
+                "[74]",
+                "[72]",
+                "[54]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "How to Achieve Generalization?",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Generic Reinforcement Learning Algorithm",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Base Generalization in Deep Reinforcement Learning ",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Algorithmic Generalization",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Generalization Through Rewards",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.4",
+                    "level": 2
+                },
+                {
+                    "section_title": "Generalization Through Observations",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.5",
+                    "level": 2
+                },
+                {
+                    "section_title": "Generalization Through Environment Dynamics",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.6",
+                    "level": 2
+                },
+                {
+                    "section_title": "Generalization Through Policy",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.7",
+                    "level": 2
+                },
+                {
+                    "section_title": "Assessing Generalization",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.8",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Roots of Overestimation in Deep Reinforcement Learning",
+            "refs": [
+                "[13]",
+                "[26]",
+                "[4]",
+                "[80]",
+                "[10]",
+                "[18]",
+                "[77]",
+                "[68]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "The Role of Exploration in Overfitting",
+            "refs": [
+                "[7]",
+                "[58]",
+                "[17]",
+                "[52]",
+                "[26]",
+                "[35]",
+                "[86]",
+                "[27]",
+                "[61]",
+                "[31]",
+                "[25]",
+                "[66]",
+                "[65]",
+                "[34]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Regularization",
+            "refs": [
+                "[50]",
+                "[90]",
+                "[49]",
+                "[42]",
+                "[85]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "Data Augmentation",
+                    "refs": [
+                        "[2]",
+                        "[12]",
+                        "[3]",
+                        "[30]",
+                        "[14]",
+                        "[1]",
+                        "[50]",
+                        "[90]",
+                        "[53]",
+                        "[6]",
+                        "[49]",
+                        "[42]",
+                        "[83]",
+                        "[57]",
+                        "[85]",
+                        "[15]",
+                        "[38]",
+                        "[79]"
+                    ],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Direct Function Regularization",
+                    "refs": [
+                        "[22]",
+                        "[3]",
+                        "[14]",
+                        "[48]",
+                        "[28]",
+                        "[29]",
+                        "[32]",
+                        "[59]",
+                        "[82]",
+                        "[47]",
+                        "[70]",
+                        "[45]",
+                        "[41]",
+                        "[30]",
+                        "[67]",
+                        "[53]",
+                        "[42]",
+                        "[57]",
+                        "[55]",
+                        "[1]",
+                        "[83]",
+                        "[79]"
+                    ],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "The Adversarial Perspective for Deep Neural Policy Generalization",
+                    "refs": [
+                        "[22]",
+                        "[37]",
+                        "[67]",
+                        "[47]",
+                        "[56]",
+                        "[43]",
+                        "[45]",
+                        "[39]",
+                        "[29]",
+                        "[23]",
+                        "[40]",
+                        "[42]",
+                        "[41]",
+                        "[44]"
+                    ],
+                    "subsections": [],
+                    "number": "6.3",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Meta-Reinforcement Learning and Meta Gradients",
+            "refs": [
+                "[89]",
+                "[81]",
+                "[63]",
+                "[36]"
+            ],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Transfer in Reinforcement Learning",
+            "refs": [
+                "[5]",
+                "[19]",
+                "[78]",
+                "[76]",
+                "[33]"
+            ],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Lifelong Reinforcement Learning",
+            "refs": [
+                "[20]",
+                "[11]",
+                "[51]",
+                "[88]"
+            ],
+            "subsections": [],
+            "number": "9",
+            "level": 1
+        },
+        {
+            "section_title": "Inverse Reinforcement Learning",
+            "refs": [
+                "[21]",
+                "[62]"
+            ],
+            "subsections": [],
+            "number": "10",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "11",
+            "level": 1
+        }
+    ],
+    "references": {
+        "agarwal21": {
+            "number": "[1]",
+            "title": "Contrastive Behavioral Similarity Embeddings for Generalization in Reinforcement Learning",
+            "text": "\\bibitem[Agarwal et~al., 2021a]{agarwal21} Agarwal, R., Machado, M.~C., Castro, P.~S., and Bellemare, M.~G. (2021a). \\newblock Contrastive behavioral similarity embeddings for generalization in reinforcement learning. \\newblock In {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Reinforcement learning methods trained on few environments rarely learn policies that generalize to unseen environments. To improve generalization, we incorporate the inherent sequential structure in reinforcement learning into the representation learning process. This approach is orthogonal to recent approaches, which rarely exploit this structure explicitly. Specifically, we introduce a theoretically motivated policy similarity metric (PSM) for measuring behavioral similarity between states. PSM assigns high similarity to states for which the optimal policies in those states as well as in future states are similar. We also present a contrastive representation learning procedure to embed any state similarity metric, which we instantiate with PSM to obtain policy similarity embeddings (PSEs). We demonstrate that PSEs improve generalization on diverse benchmarks, including LQR with spurious correlations, a jumping task from pixels, and Distracting DM Control Suite.",
+            "aminer_id": "6000274491e011b170d7c080"
+        },
+        "bell21": {
+            "number": "[2]",
+            "title": "Deep Reinforcement Learning at the Edge of the Statistical Precipice",
+            "text": "\\bibitem[Agarwal et~al., 2021b]{bell21} Agarwal, R., Schwarzer, M., Castro, P.~S., Courville, A.~C., and Bellemare, M.~G. (2021b). \\newblock Deep reinforcement learning at the edge of the statistical precipice. \\newblock In Ranzato, M., Beygelzimer, A., Dauphin, Y.~N., Liang, P., and Vaughan, J.~W., editors, {\\em Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}, pages 29304--29320.",
+            "ref_source": "bbl",
+            "abstract": "Deep reinforcement learning (RL) algorithms are predominantly evaluated by comparing their relative performance on a large suite of tasks. Most published results on deep RL benchmarks compare point estimates of aggregate performance such as mean and median scores across tasks, ignoring the statistical uncertainty implied by the use of a finite number of training runs. Beginning with the Arcade Learning Environment (ALE), the shift towards computationally-demanding benchmarks has led to the practice of evaluating only a small number of runs per task, exacerbating the statistical uncertainty in point estimates. In this paper, we argue that reliable evaluation in the few run deep RL regime cannot ignore the uncertainty in results without running the risk of slowing down progress in the field. We illustrate this point using a case study on the Atari 100k benchmark, where we find substantial discrepancies between conclusions drawn from point estimates alone versus a more thorough statistical analysis. With the aim of increasing the field's confidence in reported results with a handful of runs, we advocate for reporting interval estimates of aggregate performance and propose performance profiles to account for the variability in results, as well as present more robust and efficient aggregate metrics, such as interquartile mean scores, to achieve small uncertainty in results. Using such statistical tools, we scrutinize performance evaluations of existing algorithms on other widely used RL benchmarks including the ALE, Procgen, and the DeepMind Control Suite, again revealing discrepancies in prior comparisons. Our findings call for a change in how we evaluate performance in deep RL, for which we present a more rigorous evaluation methodology, accompanied with an open-source library rliable, to prevent unreliable results from stagnating the field.",
+            "aminer_id": "612d9dd25244ab9dcbdfb3dc"
+        },
+        "amit20": {
+            "number": "[3]",
+            "title": "Discount Factor As a Regularizer in Reinforcement Learning",
+            "text": "\\bibitem[Amit et~al., 2020]{amit20} Amit, R., Meir, R., and Ciosek, K. (2020). \\newblock Discount factor as a regularizer in reinforcement learning. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "Specifying a Reinforcement Learning (RL) task involves choosing a suitable planning horizon, which is typically modeled by a discount factor. It is known that applying RL algorithms with a lower discount factor can act as a regularizer, improving performance in the limited data regime. Yet the exact nature of this regularizer has not been investigated. In this work, we fill in this gap. For several Temporal-Difference (TD) learning methods, we show an explicit equivalence between using a reduced discount factor and adding an explicit regularization term to the algorithm's loss. Motivated by the equivalence, we empirically study this technique compared to standard L_2 regularization by extensive experiments in discrete and continuous domains, using tabular and functional representations. Our experiments suggest the regularization effectiveness is strongly related to properties of the available data, such as size, distribution, and mixing rate.",
+            "aminer_id": "64d52c8f3fda6d7f0663c05c"
+        },
+        "oron17": {
+            "number": "[4]",
+            "title": "Averaged-dqn: Variance reduction and stabilization for deep reinforcement learning",
+            "text": "\\bibitem[Anschel et~al., 2017]{oron17} Anschel, O., Baram, N., and Shimkin, N. (2017). \\newblock Averaged-dqn: Variance reduction and stabilization for deep reinforcement learning. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7b59601a182cd272baae"
+        },
+        "barr17": {
+            "number": "[5]",
+            "title": "Successor features for transfer in reinforcement learning",
+            "text": "\\bibitem[Barreto et~al., 2017]{barr17} Barreto, A., Dabney, W., Munos, R., Hunt, J.~J., Schaul, T., Silver, D., and van Hasselt, H. (2017). \\newblock Successor features for transfer in reinforcement learning. \\newblock In Guyon, I., von Luxburg, U., Bengio, S., Wallach, H.~M., Fergus, R., Vishwanathan, S. V.~N., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 30: Annual Conference on Neural Information Processing Systems 2017, December 4-9, 2017, Long Beach, CA, {USA}}, pages 4055--4065.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a260c0917c44a4ba8a1dfd6"
+        },
+        "bell13": {
+            "number": "[6]",
+            "title": "The Arcade Learning Environment: an Evaluation Platform for General Agents",
+            "text": "\\bibitem[Bellemare et~al., 2013]{bell13} Bellemare, M.~G., Naddaf, Y., Veness, J., and Bowling, M. (2013). \\newblock The arcade learning environment: An evaluation platform for general agents. \\newblock {\\em Journal Artificial Intelligence Research (JAIR)}, 47:253--279.",
+            "ref_source": "bbl",
+            "abstract": "In this article we introduce the Arcade Learning Environment (ALE): both a challenge problem and a platform and methodology for evaluating the development of general, domain-independent AI technology. ALE provides an interface to hundreds of Atari 2600 game environments, each one different, interesting, and designed to be a challenge for human players. ALE presents significant research challenges for reinforcement learning, model learning, model-based planning, imitation learning, transfer learning, and intrinsic motivation. Most importantly, it provides a rigorous testbed for evaluating and comparing approaches to these problems. We illustrate the promise of ALE by developing and benchmarking domain-independent agents designed using well-established AI techniques for both reinforcement learning and planning. In doing so, we also propose an evaluation methodology made possible by ALE, reporting empirical results on over 55 different games. All of the software, including the benchmark agents, is publicly available.",
+            "aminer_id": "5390bed320f70186a0f4e82a"
+        },
+        "bell16nips": {
+            "number": "[7]",
+            "title": "Unifying count-based exploration and intrinsic motivation",
+            "text": "\\bibitem[Bellemare et~al., 2016]{bell16nips} Bellemare, M.~G., Srinivasan, S., Ostrovski, G., Schaul, T., Saxton, D., and Munos, R. (2016). \\newblock Unifying count-based exploration and intrinsic motivation. \\newblock In Lee, D.~D., Sugiyama, M., von Luxburg, U., Guyon, I., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain}, pages 1471--1479.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "57a4e91aac44365e35c975e0"
+        },
+        "bellman57": {
+            "number": "[8]",
+            "title": "Dynamic programming",
+            "text": "\\bibitem[Bellman, 1957]{bellman57} Bellman, R. (1957). \\newblock Dynamic programming. \\newblock Princeton University Press, Princeton.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f0dcda19fced0a24b7f1c2c"
+        },
+        "bellman59": {
+            "number": "[9]",
+            "title": "Functional approximation and dynamic programming",
+            "text": "\\bibitem[Bellman and Dreyfus, 1959]{bellman59} Bellman, R. and Dreyfus, S. (1959). \\newblock Functional approximation and dynamic programming. \\newblock Mathematical Tables and Other Aids to Computation.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "moore94": {
+            "number": "[10]",
+            "title": "Generalization in reinforcement learning: Safely approximating the value function",
+            "text": "\\bibitem[Boyan and Moore, 1994]{moore94} Boyan, J.~A. and Moore, A.~W. (1994). \\newblock Generalization in reinforcement learning: Safely approximating the value function. \\newblock In Tesauro, G., Touretzky, D.~S., and Leen, T.~K., editors, {\\em Advances in Neural Information Processing Systems 7, {[NIPS} Conference, Denver, Colorado, USA, 1994]}, pages 369--376. {MIT} Press.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e998f6b7602d9702136ce7"
+        },
+        "chandak20": {
+            "number": "[11]",
+            "title": "Lifelong Learning with a Changing Action Set",
+            "text": "\\bibitem[Chandak et~al., 2020]{chandak20} Chandak, Y., Theocharous, G., Nota, C., and Thomas, P.~S. (2020). \\newblock Lifelong learning with a changing action set. \\newblock In {\\em {AAAI Conference on Artificial Intelligence, AAAI }}.",
+            "ref_source": "bbl",
+            "abstract": "In many real-world sequential decision making problems, the number of available actions (decisions) can vary over time. While problems like catastrophic forgetting, changing transition dynamics, changing rewards functions, etc. have been well-studied in the lifelong learning literature, the setting where the size of the action set changes remains unaddressed. In this paper, we present first steps towards developing an algorithm that autonomously adapts to an action set whose size changes over time. To tackle this open problem, we break it into two problems that can be solved iteratively: inferring the underlying, unknown, structure in the space of actions and optimizing a policy that leverages this structure. We demonstrate the efficiency of this approach on large-scale real-world lifelong learning problems.",
+            "aminer_id": "5cf8e4633a55ac7fe7882beb"
+        },
+        "cobbe19": {
+            "number": "[12]",
+            "title": "Leveraging procedural generation to benchmark reinforcement learning",
+            "text": "\\bibitem[Cobbe et~al., 2020]{cobbe19} Cobbe, K., Hesse, C., Hilton, J., and Schulman, J. (2020). \\newblock Leveraging procedural generation to benchmark reinforcement learning. \\newblock In {\\em Proceedings of the 37th International Conference on Machine Learning, {ICML} 2020, 13-18 July 2020, Virtual Event}, volume 119 of {\\em Proceedings of Machine Learning Research}, pages 2048--2056. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5de783d33a55ac74ccc86c58"
+        },
+        "cobbe21": {
+            "number": "[13]",
+            "title": "Phasic policy gradient",
+            "text": "\\bibitem[Cobbe et~al., 2021]{cobbe21} Cobbe, K., Hilton, J., Klimov, O., and Schulman, J. (2021). \\newblock Phasic policy gradient. \\newblock In Meila, M. and Zhang, T., editors, {\\em Proceedings of the 38th International Conference on Machine Learning, {ICML} 2021, 18-24 July 2021, Virtual Event}, volume 139 of {\\em Proceedings of Machine Learning Research}, pages 2020--2027. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f5c9bc891e0115b33151d96"
+        },
+        "cobbe19icml": {
+            "number": "[14]",
+            "title": "Quantifying Generalization in Reinforcement Learning",
+            "text": "\\bibitem[Cobbe et~al., 2019]{cobbe19icml} Cobbe, K., Klimov, O., Hesse, C., Kim, T., and Schulman, J. (2019). \\newblock Quantifying generalization in reinforcement learning. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we investigate the problem of overfitting in deep reinforcement learning. Among the most common benchmarks in RL, it is customary to use the same environments for both training and testing. This practice offers relatively little insight into an agent's ability to generalize. We address this issue by using procedurally generated environments to construct distinct training and test sets. Most notably, we introduce a new environment called CoinRun, designed as a benchmark for generalization in RL. Using CoinRun, we find that agents overfit to surprisingly large training sets. We then show that deeper convolutional architectures improve generalization, as do methods traditionally found in supervised learning, including L2 regularization, dropout, data augmentation and batch normalization.",
+            "aminer_id": "5c2c7a9217c44a4e7cf315b9"
+        },
+        "dennis20": {
+            "number": "[15]",
+            "title": "Emergent complexity and zero-shot transfer via unsupervised environment design",
+            "text": "\\bibitem[Dennis et~al., 2020]{dennis20} Dennis, M., Jaques, N., Vinitsky, E., Bayen, A.~M., Russell, S., Critch, A., and Levine, S. (2020). \\newblock Emergent complexity and zero-shot transfer via unsupervised environment design. \\newblock In {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f7fdd328de39f0828397d79"
+        },
+        "fawzi22": {
+            "number": "[16]",
+            "title": "Discovering Faster Matrix Multiplication Algorithms with Reinforcement Learning",
+            "text": "\\bibitem[Fawzi et~al., 2022]{fawzi22} Fawzi, A., Balog, M., Huang, A., Hubert, T., Romera{-}Paredes, B., Barekatain, M., Novikov, A., Ruiz, F. J.~R., Schrittwieser, J., Swirszcz, G., Silver, D., Hassabis, D., and Kohli, P. (2022). \\newblock Discovering faster matrix multiplication algorithms with reinforcement learning. \\newblock {\\em Nature}, 610(7930):47--53.",
+            "ref_source": "bbl",
+            "abstract": "Improving the efficiency of algorithms for fundamental computations can have a widespread impact, as it can affect the overall speed of a large amount of computations. Matrix multiplication is one such primitive task, occurring in many systems—from neural networks to scientific computing routines. The automatic discovery of algorithms using machine learning offers the prospect of reaching beyond human intuition and outperforming the current best human-designed algorithms. However, automating the algorithm discovery procedure is intricate, as the space of possible algorithms is enormous. Here we report a deep reinforcement learning approach based on AlphaZero 1 for discovering efficient and provably correct algorithms for the multiplication of arbitrary matrices. Our agent, AlphaTensor, is trained to play a single-player game where the objective is finding tensor decompositions within a finite factor space. AlphaTensor discovered algorithms that outperform the state-of-the-art complexity for many matrix sizes. Particularly relevant is the case of 4 × 4 matrices in a finite field, where AlphaTensor’s algorithm improves on Strassen’s two-level algorithm for the first time, to our knowledge, since its discovery 50 years ago 2 . We further showcase the flexibility of AlphaTensor through different use-cases: algorithms with state-of-the-art complexity for structured matrix multiplication and improved practical efficiency by optimizing matrix multiplication for runtime on specific hardware. Our results highlight AlphaTensor’s ability to accelerate the process of algorithmic discovery on a range of problems, and to optimize for different criteria.",
+            "aminer_id": "6340034590e50fcafd1fbbcc"
+        },
+        "fortun18": {
+            "number": "[17]",
+            "title": "Noisy networks for exploration",
+            "text": "\\bibitem[Fortunato et~al., 2018]{fortun18} Fortunato, M., Azar, M.~G., Piot, B., Menick, J., Osband, I., Graves, A., Mnih, V., Munos, R., Hassabis, D., Pietquin, O., Blundell, C., and Legg, S. (2018). \\newblock Noisy networks for exploration. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c795b601a182cd2633fe1"
+        },
+        "meger18": {
+            "number": "[18]",
+            "title": "Addressing Function Approximation Error in Actor-Critic Methods",
+            "text": "\\bibitem[Fujimoto et~al., 2018]{meger18} Fujimoto, S., van Hoof, H., and Meger, D. (2018). \\newblock Addressing function approximation error in actor-critic methods. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "In value-based reinforcement learning methods such as deep Q-learning, function approximation errors are known to lead to overestimated value estimates and suboptimal policies. We show that this problem persists in an actor-critic setting and propose novel mechanisms to minimize its effects on both the actor and the critic. Our algorithm builds on Double Q-learning, by taking the minimum value between a pair of critics to limit overestimation. We draw the connection between target networks and overestimation bias, and suggest delaying policy updates to reduce per-update error and further improve performance. We evaluate our method on the suite of OpenAI gym tasks, outperforming the state of the art in every environment tested.",
+            "aminer_id": "5ac1829d17c44a1fda91808d"
+        },
+        "gamrian19": {
+            "number": "[19]",
+            "title": "Transfer Learning for Related Reinforcement Learning Tasks Via Image-to-Image Translation",
+            "text": "\\bibitem[Gamrian and Goldberg, 2019]{gamrian19} Gamrian, S. and Goldberg, Y. (2019). \\newblock Transfer learning for related reinforcement learning tasks via image-to-image translation. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "Despite the remarkable success of Deep RL in learning control policies from raw pixels, the resulting models do not generalize. We demonstrate that a trained agent fails completely when facing small visual changes, and that fine-tuning- the common transfer learning paradigm-fails to adapt to these changes, to the extent that it is faster to re-train the model from scratch. We show that by separating the visual transfer task from the control policy we achieve substantially better sample efficiency and transfer behavior, allowing an agent trained on the source task to transfer well to the target tasks. The visual mapping from the target to the source domain is performed using unaligned GANs, resulting in a control policy that can be further improved using imitation learning from imperfect demonstrations. We demonstrate the approach on synthetic visual variants of the Breakout game, as well as on transfer between subsequent levels of Road Fighter, a Nintendo car-driving game. A visualization of our approach can be seen in https://youtu.be/4mnkzYyXMn4 and https://youtu.be/KCGTrQi6Ogo.",
+            "aminer_id": "5b67b4b917c44aac1c867a1a"
+        },
+        "garcia19": {
+            "number": "[20]",
+            "title": "A meta-mdp approach to exploration for lifelong reinforcement learning",
+            "text": "\\bibitem[Garcia and Thomas, 2019]{garcia19} Garcia, F.~M. and Thomas, P.~S. (2019). \\newblock A meta-mdp approach to exploration for lifelong reinforcement learning. \\newblock In Wallach, H.~M., Larochelle, H., Beygelzimer, A., d'Alch{\\'{e}}{-}Buc, F., Fox, E.~B., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada}, pages 5692--5701.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c61606ae1cd8eae1501e151"
+        },
+        "garg21": {
+            "number": "[21]",
+            "title": "IQ-Learn: Inverse Soft-Q Learning for Imitation",
+            "text": "\\bibitem[Garg et~al., 2021]{garg21} Garg, D., Chakraborty, S., Cundy, C., Song, J., and Ermon, S. (2021). \\newblock Iq-learn: Inverse soft-q learning for imitation. \\newblock {\\em Neural Information Processing Systems (NeurIPS) [Spotlight Presentation]}.",
+            "ref_source": "bbl",
+            "abstract": "In many sequential decision-making problems (e.g., robotics control, game playing, sequential prediction), human or expert data is available containing useful information about the task. However, imitation learning (IL) from a small amount of expert data can be challenging in high-dimensional environments with complex dynamics. Behavioral cloning is a simple method that is widely used due to its simplicity of implementation and stable convergence but doesn't utilize any information involving the environment's dynamics. Many existing methods that exploit dynamics information are difficult to train in practice due to an adversarial optimization process over reward and policy approximators or biased, high variance gradient estimators. We introduce a method for dynamics-aware IL which avoids adversarial training by learning a single Q-function, implicitly representing both reward and policy. On standard benchmarks, the implicitly learned rewards show a high positive correlation with the ground-truth rewards, illustrating our method can also be used for inverse reinforcement learning (IRL). Our method, Inverse soft-Q learning (IQ-Learn) obtains state-of-the-art results in offline and online imitation learning settings, significantly outperforming existing methods both in the number of required environment interactions and scalability in high-dimensional spaces, often by more than 3x.",
+            "aminer_id": "60d53dfd91e01153881e8484"
+        },
+        "glaeve19": {
+            "number": "[22]",
+            "title": "Adversarial Policies: Attacking Deep Reinforcement Learning",
+            "text": "\\bibitem[Gleave et~al., 2020]{glaeve19} Gleave, A., Dennis, M., Wild, C., Neel, K., Levine, S., and Russell, S. (2020). \\newblock Adversarial policies: Attacking deep reinforcement learning. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Deep reinforcement learning (RL) policies are known to be vulnerable to adversarial perturbations to their observations, similar to adversarial examples for classifiers. However, an attacker is not usually able to directly modify another agent's observations. This might lead one to wonder: is it possible to attack an RL agent simply by choosing an adversarial policy acting in a multi-agent environment so as to create natural observations that are adversarial? We demonstrate the existence of adversarial policies in zero-sum games between simulated humanoid robots with proprioceptive observations, against state-of-the-art victims trained via self-play to be robust to opponents. The adversarial policies reliably win against the victims but generate seemingly random and uncoordinated behavior. We find that these policies are more successful in high-dimensional environments, and induce substantially different activations in the victim policy network than when the victim plays against a normal opponent. Videos are available at this https URL.",
+            "aminer_id": "5ced81663a55ac3a96fe48f9"
+        },
+        "fellow15": {
+            "number": "[23]",
+            "title": "Explaning and harnessing adversarial examples",
+            "text": "\\bibitem[Goodfellow et~al., 2015]{fellow15} Goodfellow, I., Shelens, J., and Szegedy, C. (2015). \\newblock Explaning and harnessing adversarial examples. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "gemini23": {
+            "number": "[24]",
+            "title": "Gemini: A family of highly capable multimodal models",
+            "text": "\\bibitem[{Google Gemini}, 2023]{gemini23} {Google Gemini} (2023). \\newblock Gemini: A family of highly capable multimodal models. \\newblock {\\em Technical Report}, https://arxiv.org/abs/2312.11805.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "657161df5258c615a44284a0"
+        },
+        "jess20": {
+            "number": "[25]",
+            "title": "Combining Q-Learning and Search with Amortized Value Estimates",
+            "text": "\\bibitem[Hamrick et~al., 2020]{jess20} Hamrick, J., Bapst, V., SanchezGonzalez, A., Pfaff, T., Weber, T., Buesing, L., and Battaglia, P. (2020). \\newblock Combining q-learning and search with amortized value estimates. \\newblock In {\\em 8th International Conference on Learning Representations, {ICLR}}.",
+            "ref_source": "bbl",
+            "abstract": "We introduce \"Search with Amortized Value Estimates\" (SAVE), an approach for combining model-free Q-learning with model-based Monte-Carlo Tree Search (MCTS). In SAVE, a learned prior over state-action values is used to guide MCTS, which estimates an improved set of state-action values. The new Q-estimates are then used in combination with real experience to update the prior. This effectively amortizes the value computation performed by MCTS, resulting in a cooperative relationship between model-free learning and model-based search. SAVE can be implemented on top of any Q-learning agent with access to a model, which we demonstrate by incorporating it into agents that perform challenging physical reasoning tasks and Atari. SAVE consistently achieves higher rewards with fewer training steps, and---in contrast to typical model-based search approaches---yields strong performance with very small search budgets. By combining real experience with information computed during search, SAVE demonstrates that it is possible to improve on both the performance of model-free learning and the computational cost of planning.",
+            "aminer_id": "5dea26e53a55acc67981d771"
+        },
+        "hado16": {
+            "number": "[26]",
+            "title": "Deep reinforcement learning with double q-learning",
+            "text": "\\bibitem[Hasselt et~al., 2016]{hado16} Hasselt, H.~v., Guez, A., and Silver, D. (2016). \\newblock Deep reinforcement learning with double q-learning. \\newblock {\\em AAAI Conference on Artificial Intelligence, AAAI}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736960b6e3b12023e51e3ea"
+        },
+        "hout17": {
+            "number": "[27]",
+            "title": "VIME: Variational Information Maximizing Exploration",
+            "text": "\\bibitem[Houthooft et~al., 2016]{hout17} Houthooft, R., Chen, X., Duan, Y., Schulman, J., Turck, F.~D., and Abbeel, P. (2016). \\newblock {VIME:} variational information maximizing exploration. \\newblock In Lee, D.~D., Sugiyama, M., von Luxburg, U., Guyon, I., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain}, pages 1109--1117.",
+            "ref_source": "bbl",
+            "abstract": "Scalable and effective exploration remains a key challenge in reinforcement learning (RL). While there are methods with optimality guarantees in the setting of discrete state and action spaces, these methods cannot be applied in high-dimensional deep RL scenarios. As such, most contemporary RL relies on simple heuristics such as epsilon-greedy exploration or adding Gaussian noise to the controls. This paper introduces Variational Information Maximizing Exploration (VIME), an exploration strategy based on maximization of information gain about the agent's belief of environment dynamics. We propose a practical implementation, using variational inference in Bayesian neural networks which efficiently handles continuous state and action spaces. VIME modifies the MDP reward function, and can be applied with several different underlying RL algorithms. We demonstrate that VIME achieves significantly better performance compared to heuristic exploration methods across a variety of continuous control tasks and algorithms, including tasks with very sparse rewards.",
+            "aminer_id": "58d83051d649053542fe9b19"
+        },
+        "huan20": {
+            "number": "[28]",
+            "title": "Robust deep reinforcement learning against adversarial perturbations on state observatons",
+            "text": "\\bibitem[Huan et~al., 2020]{huan20} Huan, Z., Hongge, C., Chaowei, X., Li, B., Boning, M., Liu, D., and Hsiesh, C. (2020). \\newblock Robust deep reinforcement learning against adversarial perturbations on state observatons. \\newblock {\\em Conference on Neural Information Processing Systems (NeurIPS)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "huang17": {
+            "number": "[29]",
+            "title": "Adversarial Attacks on Neural Network Policies",
+            "text": "\\bibitem[Huang et~al., 2017]{huang17} Huang, S., Papernot, N., Goodfellow, Ian an~Duan, Y., and Abbeel, P. (2017). \\newblock Adversarial attacks on neural network policies. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Machine learning classifiers are known to be vulnerable to inputs maliciously constructed by adversaries to force misclassification. Such adversarial examples have been extensively studied in the context of computer vision applications. In this work, we show adversarial attacks are also effective when targeting neural network policies in reinforcement learning. Specifically, we show existing adversarial example crafting techniques can be used to significantly degrade test-time performance of trained policies. Our threat model considers adversaries capable of introducing small perturbations to the raw input of the policy. We characterize the degree of vulnerability across tasks and training algorithms, for a subclass of adversarial-example attacks in white-box and black-box settings. Regardless of the learned task or training algorithm, we observe a significant drop in performance, even with small adversarial perturbations that do not interfere with human perception. Videos are available at this http URL.",
+            "aminer_id": "5c88bba94895d9cbc6904db7"
+        },
+        "maxim19": {
+            "number": "[30]",
+            "title": "Generalization in Reinforcement Learning with Selective Noise Injection and Information Bottleneck.",
+            "text": "\\bibitem[Igl et~al., 2019]{maxim19} Igl, M., Ciosek, K., Li, Y., Tschiatschek, S., Zhang, C., Devlin, S., and Hofmann, K. (2019). \\newblock Generalization in reinforcement learning with selective noise injection and information bottleneck. \\newblock In Wallach, H.~M., Larochelle, H., Beygelzimer, A., d'Alch{\\'{e}}{-}Buc, F., Fox, E.~B., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 32: Annual Conference on Neural Information Processing Systems 2019, NeurIPS 2019, December 8-14, 2019, Vancouver, BC, Canada}, pages 13956--13968.",
+            "ref_source": "bbl",
+            "abstract": "The ability for policies to generalize to new environments is key to the broad application of RL agents. A promising approach to prevent an agent's policy from overfitting to a limited set of training environments is to apply regularization techniques originally developed for supervised learning. However, there are stark differences between supervised learning and RL. We discuss those differences and propose modifications to existing regularization techniques in order to better adapt them to RL. In particular, we focus on regularization techniques relying on the injection of noise into the learned function, a family that includes some of the most widely used approaches such as Dropout and Batch Normalization. To adapt them to RL, we propose Selective Noise Injection (SNI), which maintains the regularizing effect the injected noise has, while mitigating the adverse effects it has on the gradient quality. Furthermore, we demonstrate that the Information Bottleneck (IB) is a particularly well suited regularization technique for RL as it is effective in the low-data regime encountered early on in training RL agents. Combining the IB with SNI, we significantly outperform current state of the art results, including on the recently proposed generalization benchmark Coinrun.",
+            "aminer_id": "5db961983a55ace818d7b452"
+        },
+        "baird95": {
+            "number": "[31]",
+            "title": "Residual Algorithms: Reinforcement Learning with Function Approximation",
+            "text": "\\bibitem[III, 1995]{baird95} III, L. C.~B. (1995). \\newblock Residual algorithms: Reinforcement learning with function approximation. \\newblock In Prieditis, A. and Russell, S., editors, {\\em Machine Learning, Proceedings of the Twelfth International Conference on Machine Learning, Tahoe City, California, USA, July 9-12, 1995}, pages 30--37. Morgan Kaufmann.",
+            "ref_source": "bbl",
+            "abstract": "A number of reinforcement learning algorithms have been developed that are guaranteed to converge to the optimal solution when used with lookup tables. It is shown, however, that these algorithms can easily become unstable when implemented directly with a general function-approximation system, such as a sigmoidal multilayer perceptron, a radial-basis-function system, a memory-based learning system, or even a linear function-approximation system. A new class of algorithms, residual gradient algorithms, is proposed, which perform gradient descent on the mean squared Bellman residual, guaranteeing convergence. It is shown, however, that they may learn very slowly in some cases. A larger class of algorithms, residual algorithms, is proposed that has the guaranteed convergence of the residual gradient algorithms, yet can retain the fast learning speed of direct algorithms. In fact, both direct and residual gradient algorithms are shown to be special cases of residual algorithms, and it is shown that residual algorithms can combine the advantages of each approach. The direct, residual gradient, and residual forms of value iteration, Q-learning, and advantage learning are all presented. Theoretical analysis is given explaining the properties these algorithms have, and simulation results are given that demonstrate these properties.",
+            "aminer_id": "53e9a63eb7602d9702f6f612"
+        },
+        "iof15": {
+            "number": "[32]",
+            "title": "Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift",
+            "text": "\\bibitem[Ioffe and Szegedy, 2015]{iof15} Ioffe, S. and Szegedy, C. (2015). \\newblock Batch normalization: Accelerating deep network training by reducing internal covariate shift. \\newblock In Bach, F.~R. and Blei, D.~M., editors, {\\em Proceedings of the 32nd International Conference on Machine Learning, {ICML} 2015, Lille, France, 6-11 July 2015}, volume~37 of {\\em {JMLR} Workshop and Conference Proceedings}, pages 448--456. JMLR.org.",
+            "ref_source": "bbl",
+            "abstract": "Training Deep Neural Networks is complicated by the fact that the distribution of each layer's inputs changes during training, as the parameters of the previous layers change. This slows down the training by requiring lower learning rates and careful parameter initialization, and makes it notoriously hard to train models with saturating nonlinearities. We refer to this phenomenon as internal covariate shift , and address the problem by normalizing layer inputs. Our method draws its strength from making normalization a part of the model architecture and performing the normalization for each training mini-batch . Batch Normalization allows us to use much higher learning rates and be less careful about initialization, and in some cases eliminates the need for Dropout. Applied to a state-of-the-art image classification model, Batch Normalization achieves the same accuracy with 14 times fewer training steps, and beats the original model by a significant margin. Using an ensemble of batch-normalized networks, we improve upon the best published result on ImageNet classification: reaching 4.82% top-5 test error, exceeding the accuracy of human raters.",
+            "aminer_id": "573696ce6e3b12023e5ce95a"
+        },
+        "jain20": {
+            "number": "[33]",
+            "title": "Generalization to new actions in reinforcement learning",
+            "text": "\\bibitem[Jain et~al., 2020]{jain20} Jain, A., Szot, A., and Lim, J.~J. (2020). \\newblock Generalization to new actions in reinforcement learning. \\newblock In {\\em Proceedings of the 37th International Conference on Machine Learning, {ICML} 2020, 13-18 July 2020, Virtual Event}, volume 119 of {\\em Proceedings of Machine Learning Research}, pages 4661--4672. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5fa2901991e011cda13f50a5"
+        },
+        "kakade03": {
+            "number": "[34]",
+            "title": "On the Sample Complexity of Reinforcement Learning",
+            "text": "\\bibitem[Kakade, 2003]{kakade03} Kakade, S. (2003). \\newblock On the sample complexity of reinforcement learning. \\newblock In {\\em PhD Thesis}.",
+            "ref_source": "bbl",
+            "abstract": "This thesis is a detailed investigation into the following question: how much data must an agent collect in order to perform successfully? This question is analogous to the classical issue of the sample complexity in supervised learning, but is harder because of the increased realism of the reinforcement learning setting. This thesis summarizes recent sample complexity results in the reinforcement learning literature and builds on these results to provide novel algorithms with strong performance guarantees. We focus on a variety of reasonable performance criteria and sampling models by which agents may access the environment. For instance, in a policy search setting, we consider the problem of how much simulated experience is required to reliably choose a good policy among a restricted class of policies II (as in Kearns, Mansour, and Ng [2000]). In a more online setting, we consider the case in which an agent is placed in an environment and must follow one unbroken chain of experience with no access to offline simulation (as in Kearns and Singh [1998]). We build on the sample based algorithms suggested by Kearns, Mansour, and Ng [2000]. Their sample complexity bounds have no dependence on the size of the state space, an exponential dependence on the planning horizon time, and linear dependence on the complexity of II. We suggest novel algorithms with more restricted guarantees whose sample complexities are again independent of the size of the state space and depend linearly on the complexity of the policy class II, but have only a polynomial dependence on the horizon time. We pay particular attention to the tradeoffs made by such algorithms.",
+            "aminer_id": null
+        },
+        "hado23": {
+            "number": "[35]",
+            "title": "Human-level atari 200x faster",
+            "text": "\\bibitem[Kapturowski et~al., 2023]{hado23} Kapturowski, S., Campos, V., Jiang, R., Rakicevic, N., van Hasselt, H., Blundell, C., and Badia, A.~P. (2023). \\newblock Human-level atari 200x faster. \\newblock In {\\em The Eleventh International Conference on Learning Representations, {ICLR} 2023}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "6327dda690e50fcafd67de8e"
+        },
+        "kirsch22": {
+            "number": "[36]",
+            "title": "Introducing Symmetries to Black Box Meta Reinforcement Learning",
+            "text": "\\bibitem[Kirsch et~al., 2022]{kirsch22} Kirsch, L., Flennerhag, S., van Hasselt, H., Friesen, A.~L., Oh, J., and Chen, Y. (2022). \\newblock Introducing symmetries to black box meta reinforcement learning. \\newblock In {\\em AAAI Conference on Artificial Intelligence, AAAI}.",
+            "ref_source": "bbl",
+            "abstract": "Meta reinforcement learning (RL) attempts to discover new RL algorithms automatically from environment interaction. In so-called black-box approaches, the policy and the learning algorithm are jointly represented by a single neural network. These methods are very flexible, but they tend to underperform compared to human-engineered RL algorithms in terms of generalisation to new, unseen environments. In this paper, we explore the role of symmetries in meta-generalisation. We show that a recent successful meta RL approach that meta-learns an objective for backpropagation-based learning exhibits certain symmetries (specifically the reuse of the learning rule, and invariance to input and output permutations) that are not present in typical black-box meta RL systems. We hypothesise that these symmetries can play an important role in meta-generalisation. Building off recent work in black-box supervised meta learning, we develop a black-box meta RL system that exhibits these same symmetries. We show through careful experimentation that incorporating these symmetries can lead to algorithms with a greater ability to generalise to unseen action & observation spaces, tasks, and environments.",
+            "aminer_id": "614bf07f5244ab9dcbc5d688"
+        },
+        "korkmaz20": {
+            "number": "[37]",
+            "title": "Nesterov Momentum Adversarial Perturbations in the Deep Reinforcement Learning Domain",
+            "text": "\\bibitem[Korkmaz, 2020]{korkmaz20} Korkmaz, E. (2020). \\newblock Nesterov momentum adversarial perturbations in the deep reinforcement learning domain. \\newblock {\\em International Conference on Machine Learning (ICML) Workshop.}",
+            "ref_source": "bbl",
+            "abstract": "Deep reinforcement learning algorithms achieved significant success in the last five years and gave birth to a new research area. Currently, deep reinforcement learning algorithms have been deployed in many different fields from resource management to deep neural architecture design. Exploring the generalization capabilities of deep reinforcement learning algorithms still remains an active area of research. One way to asses the generalization of deep reinforcement learning agents lies in investigating their reactions to adversarial perturbations. In this paper, we propose a new Nesterov momentum based optimization to find adversarial perturbations for the deep reinforcement learning domain. We show in our experiments our Nesterov momentum based approach achieves state-of-the-art results in various games from the Atari environment. We believe our proposed approach can be an important initial step in the robustification of deep reinforcement learning agents.",
+            "aminer_id": "61c734375244ab9dcb7f171b"
+        },
+        "korkmaz2021natural": {
+            "number": "[38]",
+            "title": "Adversarial Training Blocks Generalization in Neural Policies",
+            "text": "\\bibitem[Korkmaz, 2021a]{korkmaz2021natural} Korkmaz, E. (2021a). \\newblock Adversarial training blocks generalization in neural policies. \\newblock {\\em International Conference on Learning Representation (ICLR) Robust and Reliable Machine Learning in the Real World Workshop}.",
+            "ref_source": "bbl",
+            "abstract": "Deep neural networks have made it possible for reinforcement learning algorithms to learn from raw high dimensional inputs. This jump in the progress has caused deep reinforcement learning algorithms to be deployed in many different ﬁelds from ﬁnancial markets to biomedical applications. While the vulnerability of deep neural networks to imperceptible speciﬁcally crafted perturbations has also been inherited by deep reinforcement learning agents, several adversarial training methods have been proposed to overcome this vulnerability. In this paper we focus on state-of-the-art adversarial training algorithms and investigate their robustness to semantically meaningful natural perturbations ranging from changes in brightness to rotation. We conduct several experiments in the OpenAI Atari environments, and ﬁnd that state-of-the-art adversarially trained neural policies are more sensitive to natural perturbations than vanilla trained agents. We believe our investigation lays out intriguing properties of adversarial training and our observations can help build robust and generalizable neural policies.",
+            "aminer_id": "61c9d7d15244ab9dcb40e77c"
+        },
+        "korkmazuai": {
+            "number": "[39]",
+            "title": "Investigating Vulnerabilities of Deep Neural Policies",
+            "text": "\\bibitem[Korkmaz, 2021b]{korkmazuai} Korkmaz, E. (2021b). \\newblock Investigating vulnerabilities of deep neural policies. \\newblock In de~Campos, C.~P., Maathuis, M.~H., and Quaeghebeur, E., editors, {\\em Proceedings of the Thirty-Seventh Conference on Uncertainty in Artificial Intelligence, {UAI} 2021, Virtual Event, 27-30 July 2021}, volume 161 of {\\em Proceedings of Machine Learning Research}, pages 1661--1670. {AUAI} Press.",
+            "ref_source": "bbl",
+            "abstract": "Reinforcement learning policies based on deep neural networks are vulnerable to imperceptible adversarial perturbations to their inputs, in much the same way as neural network image classifiers. Recent work has proposed several methods to improve the robustness of deep reinforcement learning agents to adversarial perturbations based on training in the presence of these imperceptible perturbations (i.e. adversarial training). In this paper, we study the effects of adversarial training on the neural policy learned by the agent. In particular, we follow two distinct parallel approaches to investigate the outcomes of adversarial training on deep neural policies based on worst-case distributional shift and feature sensitivity. For the first approach, we compare the Fourier spectrum of minimal perturbations computed for both adversarially trained and vanilla trained neural policies. Via experiments in the OpenAI Atari environments we show that minimal perturbations computed for adversarially trained policies are more focused on lower frequencies in the Fourier domain, indicating a higher sensitivity of these policies to low frequency perturbations. For the second approach, we propose a novel method to measure the feature sensitivities of deep neural policies and we compare these feature sensitivity differences in state-of-the-art adversarially trained deep neural policies and vanilla trained deep neural policies. We believe our results can be an initial step towards understanding the relationship between adversarial training and different notions of robustness for neural policies.",
+            "aminer_id": "612d9dd25244ab9dcbdfb2dc"
+        },
+        "korkmazmap21": {
+            "number": "[40]",
+            "title": "Non-Robust Feature Mapping in Deep Reinforcement Learning",
+            "text": "\\bibitem[Korkmaz, 2021c]{korkmazmap21} Korkmaz, E. (2021c). \\newblock Non-robust feature mapping in deep reinforcement learning. \\newblock {\\em International Conference on Machine Learning (ICML) Adversarial Machine Learning Workshop}.",
+            "ref_source": "bbl",
+            "abstract": "Adversarial perturbations to state observations can dramatically degrade the performance of deep reinforcement learning policies, and thus raise concerns regarding the robustness of deep reinforcement learning agents. A sizeable body of work has focused on addressing the robustness problem in deep reinforcement learning, and there are several recent proposals for adversarial training methods in the deep reinforcement learning domain. In our work we focus on the robustness of state-of-the-art adversarially trained deep reinforcement learning policies and vanilla trained deep reinforcement learning polices. We propose two novel algorithms to map non-robust features in deep reinforcement learning policies. We conduct several experiments in the Arcade Learning Environment (ALE), and with our proposed feature mapping algorithms we show that while the state-of-the-art adversarial training method eliminates a certain set of non-robust features, a new set of non-robust features more intrinsic to the adversarial training are created. Our results lay out concerns that arise when using existing stateof-the-art adversarial training methods, and we believe our proposed feature mapping algorithm can aid in the process of building more robust deep reinforcement learning policies.",
+            "aminer_id": "61c896755244ab9dcb9ddfe4"
+        },
+        "korkmaz22": {
+            "number": "[41]",
+            "title": "Deep Reinforcement Learning Policies Learn Shared Adversarial Features Across MDPs",
+            "text": "\\bibitem[Korkmaz, 2022]{korkmaz22} Korkmaz, E. (2022). \\newblock Deep reinforcement learning policies learn shared adversarial features across mdps. \\newblock {\\em AAAI Conference on Artificial Intelligence, AAAI}.",
+            "ref_source": "bbl",
+            "abstract": "The use of deep neural networks as function approximators has led to striking progress for reinforcement learning algorithms and applications. Yet the knowledge we have on decision boundary geometry and the loss landscape of neural policies is still quite limited. In this paper we propose a framework to investigate the decision boundary and loss landscape similarities across states and across MDPs. We conduct experiments in various games from Arcade Learning Environment, and discover that high sensitivity directions for neural policies are correlated across MDPs. We argue that these high sensitivity directions support the hypothesis that non-robust features are shared across training environments of reinforcement learning agents. We believe our results reveal fundamental properties of the environments used in deep reinforcement learning training, and represent a tangible step towards building robust and reliable deep reinforcement learning agents.",
+            "aminer_id": "627e2c305aee126c0f8f8cdf"
+        },
+        "korkmaz2023aaai": {
+            "number": "[42]",
+            "title": "Adversarial Robust Deep Reinforcement Learning Requires Redefining Robustness",
+            "text": "\\bibitem[Korkmaz, 2023]{korkmaz2023aaai} Korkmaz, E. (2023). \\newblock Adversarial robust deep reinforcement learning requires redefining robustness. \\newblock {\\em AAAI Conference on Artificial Intelligence, AAAI}.",
+            "ref_source": "bbl",
+            "abstract": "Learning from raw high dimensional data via interaction with a given environment has been effectively achieved through the utilization of deep neural networks. Yet the observed degradation in policy performance caused by imperceptible worst-case policy dependent translations along high sensitivity directions (i.e. adversarial perturbations) raises concerns on the robustness of deep reinforcement learning policies. In our paper, we show that these high sensitivity directions do not lie only along particular worst-case directions, but rather are more abundant in the deep neural policy landscape and can be found via more natural means in a black-box setting. Furthermore, we show that vanilla training techniques intriguingly result in learning more robust policies compared to the policies learnt via the state-of-the-art adversarial training techniques. We believe our work lays out intriguing properties of the deep reinforcement learning policy manifold and our results can help to build robust and generalizable deep reinforcement learning policies.",
+            "aminer_id": "63c8b59590e50fcafd90bc02"
+        },
+        "korkmazneurips24": {
+            "number": "[43]",
+            "title": "Adversarial Robust Deep Reinforcement Learning is Neither Robust nor Safe",
+            "text": "\\bibitem[Korkmaz, 2024a]{korkmazneurips24} Korkmaz, E. (2024a). \\newblock {A}dversarial {R}obust {D}eep {R}einforcement {L}earning is {N}either {R}obust nor {S}afe. \\newblock Conference on Neural Information Processing Systems (NeurIPS) Workshop on Statistical Foundations of LLMs and Foundation Models.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "korkmazthesis24": {
+            "number": "[44]",
+            "title": "Principled Analysis of Machine Learning Paradigms",
+            "text": "\\bibitem[Korkmaz, 2024b]{korkmazthesis24} Korkmaz, E. (2024b). \\newblock Principled {A}nalysis of {M}achine {L}earning {P}aradigms. \\newblock PhD Thesis.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ezgikorkmazicml24": {
+            "number": "[45]",
+            "title": "Understanding and Diagnosing Deep Reinforcement Learning",
+            "text": "\\bibitem[Korkmaz, 2024c]{ezgikorkmazicml24} Korkmaz, E. (2024c). \\newblock Understanding and diagnosing deep reinforcement learning. \\newblock In {\\em Proceedings of the 41st International Conference on Machine Learning {ICML}}, Proceedings of Machine Learning Research (PMLR). {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "Deep neural policies have recently been installed in a diverse range of settings, from biotechnology to automated financial systems. However, the utilization of deep neural networks to approximate the value function leads to concerns on the decision boundary stability, in particular, with regard to the sensitivity of policy decision making to indiscernible, non-robust features due to highly non-convex and complex deep neural manifolds. These concerns constitute an obstruction to understanding the reasoning made by deep neural policies, and their foundational limitations. Hence, it is crucial to develop techniques that aim to understand the sensitivities in the learnt representations of neural network policies. To achieve this we introduce a theoretically founded method that provides a systematic analysis of the unstable directions in the deep neural policy decision boundary across both time and space. Through experiments in the Arcade Learning Environment (ALE), we demonstrate the effectiveness of our technique for identifying correlated directions of instability, and for measuring how sample shifts remold the set of sensitive directions in the neural policy landscape. Most importantly, we demonstrate that state-of-the-art robust training techniques yield learning of disjoint unstable directions, with dramatically larger oscillations over time, when compared to standard training. We believe our results reveal the fundamental properties of the decision process made by reinforcement learning policies, and can help in constructing reliable and robust deep neural policies.",
+            "aminer_id": "667a853c01d2a3fbfc485574"
+        },
+        "korkmaz2023icml": {
+            "number": "[46]",
+            "title": "Detecting Adversarial Directions in Deep Reinforcement Learning to Make Robust Decisions",
+            "text": "\\bibitem[Korkmaz and Brown{-}Cohen, 2023]{korkmaz2023icml} Korkmaz, E. and Brown{-}Cohen, J. (2023). \\newblock Detecting adversarial directions in deep reinforcement learning to make robust decisions. \\newblock In {\\em International Conference on Machine Learning, {ICML} 2023}, volume 202 of {\\em Proceedings of Machine Learning Research}, pages 17534--17543. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "Learning in MDPs with highly complex state representations is currently possible due to multiple advancements in reinforcement learning algorithm design. However, this incline in complexity, and furthermore the increase in the dimensions of the observation came at the cost of volatility that can be taken advantage of via adversarial attacks (i.e. moving along worst-case directions in the observation space). To solve this policy instability problem we propose a novel method to detect the presence of these non-robust directions via local quadratic approximation of the deep neural policy loss. Our method provides a theoretical basis for the fundamental cut-off between safe observations and adversarial observations. Furthermore, our technique is computationally efficient, and does not depend on the methods used to produce the worst-case directions. We conduct extensive experiments in the Arcade Learning Environment with several different adversarial attack techniques. Most significantly, we demonstrate the effectiveness of our approach even in the setting where non-robust directions are explicitly optimized to circumvent our proposed method.",
+            "aminer_id": "648697e6d68f896efaa87914"
+        },
+        "kos17": {
+            "number": "[47]",
+            "title": "Delving into Adversarial Attacks on Deep Policies",
+            "text": "\\bibitem[Kos and Song, 2017]{kos17} Kos, J. and Song, D. (2017). \\newblock Delving into adversarial attacks on deep policies. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Adversarial examples have been shown to exist for a variety of deep learning architectures. Deep reinforcement learning has shown promising results on training agent policies directly on raw inputs such as image pixels. In this paper we present a novel study into adversarial attacks on deep reinforcement learning polices. We compare the effectiveness of the attacks using adversarial examples vs. random noise. We present a novel method for reducing the number of times adversarial examples need to be injected for a successful attack, based on the value function. We further explore how re-training on random noise and FGSM perturbations affects the resilience against adversarial examples.",
+            "aminer_id": "599c798c601a182cd264a0c7"
+        },
+        "le21": {
+            "number": "[48]",
+            "title": "Metrics and continuity in reinforcement learning",
+            "text": "\\bibitem[Lan et~al., 2021]{le21} Lan, C.~L., Bellemare, M.~G., and Castro, P.~S. (2021). \\newblock Metrics and continuity in reinforcement learning. \\newblock In {\\em Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI} 2021, Virtual Event, February 2-9, 2021}, pages 8261--8269. {AAAI} Press.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "601a7d0d91e0111e8877d97d"
+        },
+        "laskin20": {
+            "number": "[49]",
+            "title": "Reinforcement learning with augmented data",
+            "text": "\\bibitem[Laskin et~al., 2020a]{laskin20} Laskin, M., Lee, K., Stooke, A., Pinto, L., Abbeel, P., and Srinivas, A. (2020a). \\newblock Reinforcement learning with augmented data. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5eabf34c91e011664ffd2a20"
+        },
+        "laskin20icml": {
+            "number": "[50]",
+            "title": "CURL: Contrastive Unsupervised Representations for Reinforcement Learning",
+            "text": "\\bibitem[Laskin et~al., 2020b]{laskin20icml} Laskin, M., Srinivas, A., and Abbeel, P. (2020b). \\newblock {CURL:} contrastive unsupervised representations for reinforcement learning. \\newblock In {\\em Proceedings of the 37th International Conference on Machine Learning, {ICML} 2020, 13-18 July 2020, Virtual Event}, volume 119 of {\\em Proceedings of Machine Learning Research}, pages 5639--5650. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "We present CURL: Contrastive Unsupervised Representations for Reinforcement Learning. CURL extracts high-level features from raw pixels using contrastive learning and performs off-policy control on top of the extracted features. CURL outperforms prior pixel-based methods, both model-based and model-free, on complex tasks in the DeepMind Control Suite and Atari Games showing 1.9x and 1.2x performance gains at the 100K environment and interaction steps benchmarks respectively. On the DeepMind Control Suite, CURL is the first image-based algorithm to nearly match the sample-efficiency of methods that use state-based features. Our code is open-sourced and available at this https URL.",
+            "aminer_id": "5e8ef2ae91e011679da0f245"
+        },
+        "leca21": {
+            "number": "[51]",
+            "title": "Lipschitz Lifelong Reinforcement Learning",
+            "text": "\\bibitem[Lecarpentier et~al., 2021]{leca21} Lecarpentier, E., Abel, D., Asadi, K., Jinnai, Y., Rachelson, E., and Littman, M.~L. (2021). \\newblock Lipschitz lifelong reinforcement learning. \\newblock In {\\em Thirty-Fifth {AAAI} Conference on Artificial Intelligence, {AAAI} 2021, Thirty-Third Conference on Innovative Applications of Artificial Intelligence, {IAAI} 2021, The Eleventh Symposium on Educational Advances in Artificial Intelligence, {EAAI} 2021, Virtual Event, February 2-9, 2021}, pages 8270--8278. {AAAI} Press.",
+            "ref_source": "bbl",
+            "abstract": "We consider the problem of knowledge transfer when an agent is facing a series of Reinforcement Learning (RL) tasks. We introduce a novel metric between Markov Decision Processes and establish that close MDPs have close optimal value functions. Formally, the optimal value functions are Lipschitz continuous with respect to the tasks space. These theoretical results lead us to a value-transfer method for Lifelong RL, which we use to build a PAC-MDP algorithm with improved convergence rate. Further, we show the method to experience no negative transfer with high probability. We illustrate the benefits of the method in Lifelong RL experiments.",
+            "aminer_id": "67485f1fae8580e7fff2465e"
+        },
+        "lee21": {
+            "number": "[52]",
+            "title": "SUNRISE: A Simple Unified Framework for Ensemble Learning in Deep Reinforcement Learning",
+            "text": "\\bibitem[Lee et~al., 2021]{lee21} Lee, K., Laskin, M., Srinivas, A., and Abbeel, P. (2021). \\newblock {SUNRISE:} {A} simple unified framework for ensemble learning in deep reinforcement learning. \\newblock In Meila, M. and Zhang, T., editors, {\\em Proceedings of the 38th International Conference on Machine Learning, {ICML} 2021, 18-24 July 2021, Virtual Event}, volume 139 of {\\em Proceedings of Machine Learning Research}, pages 6131--6141. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "Off-policy deep reinforcement learning (RL) has been successful in a range of challenging domains. However, standard off-policy RL algorithms can suffer from several issues, such as instability in Q-learning and balancing exploration and exploitation. To mitigate these issues, we present SUNRISE, a simple unified ensemble method, which is compatible with various off-policy RL algorithms. SUNRISE integrates two key ingredients: (a) ensemble-based weighted Bellman backups, which re-weight target Q-values based on uncertainty estimates from a Q-ensemble, and (b) an inference method that selects actions using the highest upper-confidence bounds for efficient exploration. By enforcing the diversity between agents using Bootstrap with random initialization, we show that these different ideas are largely orthogonal and can be fruitfully integrated, together further improving the performance of existing off-policy RL algorithms, such as Soft Actor-Critic and Rainbow DQN, for both continuous and discrete control tasks on both low-dimensional and high-dimensional environments. Our training code is available at https://github.com/pokaxpoka/sunrise.",
+            "aminer_id": "5f0842f091e01137f86677bb"
+        },
+        "lee20": {
+            "number": "[53]",
+            "title": "Network Randomization: A Simple Technique for Generalization in Deep Reinforcement Learning.",
+            "text": "\\bibitem[Lee et~al., 2020]{lee20} Lee, K., Lee, K., Shin, J., and Lee, H. (2020). \\newblock Network randomization: {A} simple technique for generalization in deep reinforcement learning. \\newblock In {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Deep reinforcement learning (RL) agents often fail to generalize to unseen environments (yet semantically similar to trained agents), particularly when they are trained on high-dimensional state spaces, such as images. In this paper, we propose a simple technique to improve a generalization ability of deep RL agents by introducing a randomized (convolutional) neural network that randomly perturbs input observations. It enables trained agents to adapt to new domains by learning robust features invariant across varied and randomized environments. Furthermore, we consider an inference method based on the Monte Carlo approximation to reduce the variance induced by this randomization. We demonstrate the superiority of our method across 2D CoinRun, 3D DeepMind Lab exploration and 3D robotics control tasks: it significantly outperforms various regularization and data augmentation methods for the same purpose.",
+            "aminer_id": "5da598be3a55ac246668897a"
+        },
+        "lin93": {
+            "number": "[54]",
+            "title": "Reinforcement learning for robots using neural networks",
+            "text": "\\bibitem[Lin, 1993]{lin93} Lin, L.-J. (1993). \\newblock Reinforcement learning for robots using neural networks. \\newblock Technical report.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9a23eb7602d9702b4416f"
+        },
+        "lin17": {
+            "number": "[55]",
+            "title": "Tactics of adversarial attack on deep reinforcement learning agents",
+            "text": "\\bibitem[Lin et~al., 2017]{lin17} Lin, Y.-C., Zhang-Wei, H., Liao, Y.-H., Shih, M.-L., Liu, i.-Y., and Sun, M. (2017). \\newblock Tactics of adversarial attack on deep reinforcement learning agents. \\newblock {\\em IJCAI}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "59ae3c262bbe271c4c71f155"
+        },
+        "littman94": {
+            "number": "[56]",
+            "title": "Markov Games As a Framework for Multi-Agent Reinforcement Learning",
+            "text": "\\bibitem[Littman, 1994]{littman94} Littman, M.~L. (1994). \\newblock Markov games as a framework for multi-agent reinforcement learning. \\newblock In Cohen, W.~W. and Hirsh, H., editors, {\\em Machine Learning, Proceedings of the Eleventh International Conference, Rutgers University, New Brunswick, NJ, USA, July 10-13, 1994}, pages 157--163. Morgan Kaufmann.",
+            "ref_source": "bbl",
+            "abstract": "In the Markov decision process (MDP) formalization of reinforcement learning, a single adaptive agent interacts with an environment defined by a probabilistic transition function. In this solipsis-tic view, secondary agents can only be part of the environment and are therefore fixed in their behavior. The framework of Markov games allows us to widen this view to include multiple adaptive agents with interacting or competing goals. This paper considers a step in this direction in which exactly two agents with diametrically opposed goals share an environment. It describes a Q-learning-like algorithm for finding optimal policies and demonstrates its application to a simple two-player game in which the optimal policy is probabilistic.",
+            "aminer_id": "53e9bd45b7602d97049d396c"
+        },
+        "liu21": {
+            "number": "[57]",
+            "title": "Regularization Matters in Policy Optimization - an Empirical Study on Continuous Control",
+            "text": "\\bibitem[Liu et~al., 2021]{liu21} Liu, Z., Li, X., and Darrell, T. (2021). \\newblock Regularization matters in policy optimization - an empirical study on continuous control. \\newblock In {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "Deep Reinforcement Learning (Deep RL) has been receiving increasingly more attention  thanks to its encouraging performance on a variety of control tasks. Yet, conventional regularization techniques in training neural networks (e.g., $L_2$ regularization, dropout) have been largely ignored in RL methods, possibly because agents are typically trained and evaluated in the same environment, and because the deep RL community focuses more on high-level algorithm designs. In this work, we present the first comprehensive study of regularization techniques with multiple policy optimization algorithms on continuous control tasks. Interestingly, we find conventional regularization techniques on the policy networks can often bring large improvement, especially on harder tasks. Our findings are shown to be robust against training hyperparameter variations. We also compare these techniques with the more widely used entropy regularization. In addition, we study regularizing different components and find that only regularizing the policy network is typically the best. We further analyze why regularization may help generalization in RL from four perspectives - sample complexity, reward distribution, weight norm, and noise robustness. We hope our study provides guidance for future practices in regularizing policy optimization algorithms. Our code is available at https://github.com/xuanlinli17/iclr2021_rlreg .",
+            "aminer_id": "67483b72ae8580e7ffeb84ab"
+        },
+        "mahankali24": {
+            "number": "[58]",
+            "title": "Random Latent Exploration for Deep Reinforcement Learning",
+            "text": "\\bibitem[Mahankali et~al., 2024]{mahankali24} Mahankali, S., Hong, Z., Sekhari, A., Rakhlin, A., and Agrawal, P. (2024). \\newblock Random latent exploration for deep reinforcement learning. \\newblock In {\\em Forty-first International Conference on Machine Learning, {ICML} 2024, Vienna, Austria, July 21-27, 2024}. OpenReview.net.",
+            "ref_source": "bbl",
+            "abstract": "The ability to efficiently explore high-dimensional state spaces is essential for the practical success of deep Reinforcement Learning (RL). This paper introduces a new exploration technique called Random Latent Exploration (RLE), that combines the strengths of exploration bonuses and randomized value functions (two popular approaches for effective exploration in deep RL). RLE leverages the idea of perturbing rewards by adding structured random rewards to the original task rewards in certain (random) states of the environment, to encourage the agent to explore the environment during training. RLE is straightforward to implement and performs well in practice. To demonstrate the practical effectiveness of RLE, we evaluate it on the challenging Atari and IsaacGym benchmarks and show that RLE exhibits higher overall scores across all the tasks than other approaches, including action-noise and randomized value function exploration.",
+            "aminer_id": "667a997e01d2a3fbfccfc128"
+        },
+        "malik21": {
+            "number": "[59]",
+            "title": "When is Generalizable Reinforcement Learning Tractable?",
+            "text": "\\bibitem[Malik et~al., 2021]{malik21} Malik, D., Li, Y., and Ravikumar, P. (2021). \\newblock When is generalizable reinforcement learning tractable? \\newblock In Ranzato, M., Beygelzimer, A., Dauphin, Y.~N., Liang, P., and Vaughan, J.~W., editors, {\\em Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}, pages 8032--8045.",
+            "ref_source": "bbl",
+            "abstract": "Agents trained by reinforcement learning (RL) often fail to generalize beyond the environment they were trained in, even when presented with new scenarios that seem similar to the training environment. We study the query complexity required to train RL agents that generalize to multiple environments. Intuitively, tractable generalization is only possible when the environments are similar or close in some sense. To capture this, we introduce Weak Proximity, a natural structural condition that requires the environments to have highly similar transition and reward functions and share a policy providing optimal value. Despite such shared structure, we prove that tractable generalization is impossible in the worst case. This holds even when each individual environment can be efficiently solved to obtain an optimal linear policy, and when the agent possesses a generative model. Our lower bound applies to the more complex task of representation learning for efficient generalization to multiple environments. On the positive side, we introduce Strong Proximity, a strengthened condition which we prove is sufficient for efficient generalization.",
+            "aminer_id": "5ff437bf91e01130648dc362"
+        },
+        "daniel23": {
+            "number": "[60]",
+            "title": "Faster Sorting Algorithms Discovered Using Deep Reinforcement Learning",
+            "text": "\\bibitem[Mankowitz et~al., 2023]{daniel23} Mankowitz, D.~J., Michi, A., Zhernov, A., Gelmi, M., Selvi, M., Paduraru, C., Leurent, E., Iqbal, S., Lespiau, J., Ahern, A., K{\\\"{o}}ppe, T., Millikin, K., Gaffney, S., Elster, S., Broshear, J., Gamble, C., Milan, K., Tung, R., Hwang, M., Cemgil, T., Barekatain, M., Li, Y., Mandhane, A., Hubert, T., Schrittwieser, J., Hassabis, D., Kohli, P., Riedmiller, M.~A., Vinyals, O., and Silver, D. (2023). \\newblock Faster sorting algorithms discovered using deep reinforcement learning. \\newblock {\\em Nature}, 618(7964):257--263.",
+            "ref_source": "bbl",
+            "abstract": "Fundamental algorithms such as sorting or hashing are used trillions of times on any given day1. As demand for computation grows, it has become critical for these algorithms to be as performant as possible. Whereas remarkable progress has been achieved in the past2, making further improvements on the efficiency of these routines has proved challenging for both human scientists and computational approaches. Here we show how artificial intelligence can go beyond the current state of the art by discovering hitherto unknown routines. To realize this, we formulated the task of finding a better sorting routine as a single-player game. We then trained a new deep reinforcement learning agent, AlphaDev, to play this game. AlphaDev discovered small sorting algorithms from scratch that outperformed previously known human benchmarks. These algorithms have been integrated into the LLVM standard C++ sort library3. This change to this part of the sort library represents the replacement of a component with an algorithm that has been automatically discovered using reinforcement learning. We also present results in extra domains, showcasing the generality of the approach.",
+            "aminer_id": "6481466593eaf70452949e12"
+        },
+        "mn15": {
+            "number": "[61]",
+            "title": "Human-level Control Through Deep Reinforcement Learning",
+            "text": "\\bibitem[Mnih et~al., 2015]{mn15} Mnih, V., Kavukcuoglu, K., Silver, D., Rusu, A.~A., Veness, J., Bellemare, a.~G., Graves, A., Riedmiller, M., Fidjeland, A., Ostrovski, G., Petersen, S., Beattie, C., Sadik, A., Antonoglou, King, H., Kumaran, D., Wierstra, D., Legg, S., and Hassabis, D. (2015). \\newblock Human-level control through deep reinforcement learning. \\newblock {\\em Nature}, 518:529–533.",
+            "ref_source": "bbl",
+            "abstract": "n artificial agent is developed that learns to play a diverse range of classic Atari 2600 computer games directly from sensory experience, achieving a performance comparable to that of an expert human player; this work paves the way to building general-purpose learning algorithms that bridge the divide between perception and action.",
+            "aminer_id": "55a6bae665ce054aad73115b"
+        },
+        "ng00": {
+            "number": "[62]",
+            "title": "Algorithms for inverse reinforcement learning",
+            "text": "\\bibitem[Ng and Russell, 2000]{ng00} Ng, A.~Y. and Russell, S.~J. (2000). \\newblock Algorithms for inverse reinforcement learning. \\newblock In Langley, P., editor, {\\em Proceedings of the Seventeenth International Conference on Machine Learning {(ICML} 2000), Stanford University, Stanford, CA, USA, June 29 - July 2, 2000}, pages 663--670.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "oh20": {
+            "number": "[63]",
+            "title": "Discovering reinforcement learning algorithms",
+            "text": "\\bibitem[Oh et~al., 2020]{oh20} Oh, J., Hessel, M., Czarnecki, W.~M., Xu, Z., van Hasselt, H., Singh, S., and Silver, D. (2020). \\newblock Discovering reinforcement learning algorithms. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f15691191e011d7db223a84"
+        },
+        "openai23": {
+            "number": "[64]",
+            "title": "GPT-4 Technical Report",
+            "text": "\\bibitem[OpenAI, 2023]{openai23} OpenAI (2023). \\newblock Gpt-4 technical report. \\newblock {\\em CoRR}.",
+            "ref_source": "bbl",
+            "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
+            "aminer_id": "687bb8fe163c01c850160670"
+        },
+        "osband16nips": {
+            "number": "[65]",
+            "title": "Deep exploration via bootstrapped DQN",
+            "text": "\\bibitem[Osband et~al., 2016a]{osband16nips} Osband, I., Blundell, C., Pritzel, A., and Roy, B.~V. (2016a). \\newblock Deep exploration via bootstrapped {DQN}. \\newblock In Lee, D.~D., Sugiyama, M., von Luxburg, U., Guyon, I., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 29: Annual Conference on Neural Information Processing Systems 2016, December 5-10, 2016, Barcelona, Spain}, pages 4026--4034.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7f08601a182cd28e59eb"
+        },
+        "osband16": {
+            "number": "[66]",
+            "title": "Generalization and Exploration Via Randomized Value Functions",
+            "text": "\\bibitem[Osband et~al., 2016b]{osband16} Osband, I., Roy, B.~V., and Wen, Z. (2016b). \\newblock Generalization and exploration via randomized value functions. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "We propose randomized least-squares value iteration (RLSVI) -- a new reinforcement learning algorithm designed to explore and generalize efficiently via linearly parameterized value functions. We explain why versions of least-squares value iteration that use Boltzmann or epsilon-greedy exploration can be highly inefficient, and we present computational results that demonstrate dramatic efficiency gains enjoyed by RLSVI. Further, we establish an upper bound on the expected regret of RLSVI that demonstrates near-optimality in a tabula rasa learning context. More broadly, our results suggest that randomized value functions offer a promising approach to tackling a critical challenge in reinforcement learning: synthesizing efficient exploration and effective generalization.",
+            "aminer_id": "53e9a4f3b7602d9702e141ef"
+        },
+        "pinto17": {
+            "number": "[67]",
+            "title": "Robust Adversarial Reinforcement Learning",
+            "text": "\\bibitem[Pinto et~al., 2017]{pinto17} Pinto, L., Davidson, J., Sukthankar, R., and Gupta, A. (2017). \\newblock Robust adversarial reinforcement learning. \\newblock In Precup, D. and Teh, Y.~W., editors, {\\em Proceedings of the 34th International Conference on Machine Learning, {ICML} 2017, Sydney, NSW, Australia, 6-11 August 2017}, volume~70 of {\\em Proceedings of Machine Learning Research}, pages 2817--2826. {PMLR}.",
+            "ref_source": "bbl",
+            "abstract": "Deep neural networks coupled with fast simulation and improved computation have led to recent successes in the field of reinforcement learning (RL). However, most current RL-based approaches fail to generalize since: (a) the gap between simulation and real world is so large that policy-learning approaches fail to transfer; (b) even if policy learning is done in real world, the data scarcity leads to failed generalization from training to test scenarios (e.g., due to different friction or object masses). Inspired from H∞ control methods, we note that both modeling errors and differences in training and test scenarios can be viewed as extra forces/disturbances in the system. This paper proposes the idea of robust adversarial reinforcement learning (RARL), where we train an agent to operate in the presence of a destabilizing adversary that applies disturbance forces to the system. The jointly trained adversary is reinforced - that is, it learns an optimal destabilization policy. We formulate the policy learning as a zero-sum, minimax objective function. Extensive experiments in multiple environments (InvertedPendulum, HalfCheetah, Swimmer, Hopper, Walker2d and Ant) conclusively demonstrate that our method (a) improves training stability; (b) is robust to differences in training/test conditions; and c) outperform the baseline even in the absence of the adversary.",
+            "aminer_id": null
+        },
+        "fergus21": {
+            "number": "[68]",
+            "title": "Decoupling Value and Policy for Generalization in Reinforcement Learning",
+            "text": "\\bibitem[Raileanu and Fergus, 2021]{fergus21} Raileanu, R. and Fergus, R. (2021). \\newblock Decoupling value and policy for generalization in reinforcement learning. \\newblock In {\\em International Conference on Machine Learning (ICML)}.",
+            "ref_source": "bbl",
+            "abstract": "Standard deep reinforcement learning algorithms use a shared representation for the policy and value function, especially when training directly from images. However, we argue that more information is needed to accurately estimate the value function than to learn the optimal policy. Consequently, the use of a shared representation for the policy and value function can lead to overfitting. To alleviate this problem, we propose two approaches which are combined to create IDAAC: Invariant Decoupled Advantage Actor-Critic. First, IDAAC decouples the optimization of the policy and value function, using separate networks to model them. Second, it introduces an auxiliary loss which encourages the representation to be invariant to task-irrelevant properties of the environment. IDAAC shows good generalization to unseen environments, achieving a new state-of-the-art on the Procgen benchmark and outperforming popular methods on DeepMind Control tasks with distractors. Our implementation is available at https://github.com/rraileanu/idaac.",
+            "aminer_id": "6034cf6291e01122c046f699"
+        },
+        "jul20nat": {
+            "number": "[69]",
+            "title": "Mastering Atari, Go, Chess and Shogi by Planning with a Learned Model.",
+            "text": "\\bibitem[Schrittwieser et~al., 2020]{jul20nat} Schrittwieser, J., Antonoglou, I., Hubert, T., Simonyan, K., Sifre, L., Schmitt, S., Guez, A., Lockhart, E., Hassabis, D., Graepel, T., Lillicrap, T.~P., and Silver, D. (2020). \\newblock Mastering atari, go, chess and shogi by planning with a learned model. \\newblock {\\em Nat.}, 588(7839):604--609.",
+            "ref_source": "bbl",
+            "abstract": "Constructing agents with planning capabilities has long been one of the main challenges in the pursuit of artificial intelligence. Tree-based planning methods have enjoyed huge success in challenging domains, such as chess 1 and Go 2 , where a perfect simulator is available. However, in real-world problems, the dynamics governing the environment are often complex and unknown. Here we present the MuZero algorithm, which, by combining a tree-based search with a learned model, achieves superhuman performance in a range of challenging and visually complex domains, without any knowledge of their underlying dynamics. The MuZero algorithm learns an iterable model that produces predictions relevant to planning: the action-selection policy, the value function and the reward. When evaluated on 57 different Atari games 3 —the canonical video game environment for testing artificial intelligence techniques, in which model-based planning approaches have historically struggled 4 —the MuZero algorithm achieved state-of-the-art performance. When evaluated on Go, chess and shogi—canonical environments for high-performance planning—the MuZero algorithm matched, without any knowledge of the game dynamics, the superhuman performance of the AlphaZero algorithm 5 that was supplied with the rules of the game.",
+            "aminer_id": "5dd50ed43a55ac513761791a"
+        },
+        "schulman15": {
+            "number": "[70]",
+            "title": "Trust Region Policy Optimization",
+            "text": "\\bibitem[Schulman et~al., 2015]{schulman15} Schulman, J., Levine, S., Abbeel, P., Jordan, M.~I., and Moritz, P. (2015). \\newblock Trust region policy optimization. \\newblock In Bach, F.~R. and Blei, D.~M., editors, {\\em Proceedings of the 32nd International Conference on Machine Learning, {ICML} 2015, Lille, France, 6-11 July 2015}, volume~37 of {\\em {JMLR} Workshop and Conference Proceedings}, pages 1889--1897. JMLR.org.",
+            "ref_source": "bbl",
+            "abstract": "In this article, we describe a method for optimizing control policies, with guaranteed monotonic improvement. By making several approximations to the theoretically-justified scheme, we develop a practical algorithm, called Trust Region Policy Optimization (TRPO). This algorithm is effective for optimizing large nonlinear policies such as neural networks. Our experiments demonstrate its robust performance on a wide variety of tasks: learning simulated robotic swimming, hopping, and walking gaits; and playing Atari games using images of the screen as input. Despite its approximations that deviate from the theory, TRPO tends to give monotonic improvement, with little tuning of hyperparameters.",
+            "aminer_id": "573696ce6e3b12023e5ceb4f"
+        },
+        "silver17": {
+            "number": "[71]",
+            "title": "Mastering the Game of Go Without Human Knowledge",
+            "text": "\\bibitem[Silver et~al., 2017]{silver17} Silver, D., Schrittwieser, J., Simonyan, K., Antonoglou, I., Huang, A., Guez, A., Hubert, T., Baker, L., Lai, M., Bolton, A., Chen, Y., Lillicrap, T.~P., Hui, F., Sifre, L., van~den Driessche, G., Graepel, T., and Hassabis, D. (2017). \\newblock Mastering the game of go without human knowledge. \\newblock {\\em Nat.}, 550(7676):354--359.",
+            "ref_source": "bbl",
+            "abstract": "A long-standing goal of artificial intelligence is an algorithm that learns, tabula rasa, superhuman proficiency in challenging domains. Recently, AlphaGo became the first program to defeat a world champion in the game of Go. The tree search in AlphaGo evaluated positions and selected moves using deep neural networks. These neural networks were trained by supervised learning from human expert moves, and by reinforcement learning from self-play. Here we introduce an algorithm based solely on reinforcement learning, without human data, guidance or domain knowledge beyond game rules. AlphaGo becomes its own teacher: a neural network is trained to predict AlphaGo's own move selections and also the winner of AlphaGo's games. This neural network improves the strength of the tree search, resulting in higher quality move selection and stronger self-play in the next iteration. Starting tabula rasa, our new program AlphaGo Zero achieved superhuman performance, winning 100-0 against the previously published, champion-defeating AlphaGo.",
+            "aminer_id": "59ec02da0cf22f5df7319dc3"
+        },
+        "sutton84": {
+            "number": "[72]",
+            "title": "Temporal Credit Assignment in Reinforcement Learning",
+            "text": "\\bibitem[Sutton, 1984]{sutton84} Sutton, R. (1984). \\newblock Temporal credit assignment in reinforcement learning. \\newblock PhD Thesis University of Massachusetts Amherst.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b326b7602d9703df2b51"
+        },
+        "sutton88": {
+            "number": "[73]",
+            "title": "Learning to predict by the methods of temporal difference learning",
+            "text": "\\bibitem[Sutton, 1988]{sutton88} Sutton, R. (1988). \\newblock Learning to predict by the methods of temporal difference. \\newblock Machine Learning.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b11db7602d9703b99cb6"
+        },
+        "sutton99": {
+            "number": "[74]",
+            "title": "Policy gradient methods for reinforcement learning with function approximation",
+            "text": "\\bibitem[Sutton et~al., 1999]{sutton99} Sutton, R.~S., McAllester, D.~A., Singh, S., and Mansour, Y. (1999). \\newblock Policy gradient methods for reinforcement learning with function approximation. \\newblock In Solla, S.~A., Leen, T.~K., and M{\\\"{u}}ller, K., editors, {\\em Advances in Neural Information Processing Systems 12, {[NIPS} Conference, Denver, Colorado, USA, November 29 - December 4, 1999]}, pages 1057--1063. The {MIT} Press.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f8fa42c9e795e89eeff314a"
+        },
+        "szegedy13": {
+            "number": "[75]",
+            "title": "Intriguing properties of neural networks",
+            "text": "\\bibitem[Szegedy et~al., 2014]{szegedy13} Szegedy, C., Zaremba, W., Sutskever, I., Bruna, J., Erhan, D., Goodfellow, I., and Fergus, R. (2014). \\newblock Intriguing properties of neural networks. \\newblock {\\em International Conference on Learning Representations (ICLR)}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9a93eb7602d97032928b5"
+        },
+        "stone07": {
+            "number": "[76]",
+            "title": "Cross-domain transfer for reinforcement learning",
+            "text": "\\bibitem[Taylor and Stone, 2007]{stone07} Taylor, M.~E. and Stone, P. (2007). \\newblock Cross-domain transfer for reinforcement learning. \\newblock In Ghahramani, Z., editor, {\\em Machine Learning, Proceedings of the Twenty-Fourth International Conference {(ICML} 2007), Corvallis, Oregon, USA, June 20-24, 2007}, volume 227 of {\\em {ACM} International Conference Proceeding Series}, pages 879--886. {ACM}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "trun93": {
+            "number": "[77]",
+            "title": "Issues in Using Function Approximation for Reinforcement Learning",
+            "text": "\\bibitem[Thrun and Schwartz, 1993]{trun93} Thrun, S. and Schwartz, A. (1993). \\newblock Issues in using function approximation for reinforcement learning. \\newblock {\\em In Fourth Connectionist Models Summer School}.",
+            "ref_source": "bbl",
+            "abstract": "Reinforcement learning techniques address the problem of learning to select actions in unknown, dynamic environments. It is widely acknowledged that to be of use in complex domains, reinforcement learning techniques must be combined with generalizing function approximation methods such as artificial neural networks. Little, however, is understood about the theoretical properties of such combinations, and many researchers have encountered failures in practice. In this paper we identify a prime source of such failures—namely, a systematic overestimation of utility values. Using Watkins’ Q-Learning [18] as an example, we give a theoretical account of the phenomenon, deriving conditions under which one may expected it to cause learning to fail. Employing some of the most popular function approximators, we present experimental results which support the theoretical findings.",
+            "aminer_id": "53e9b3abb7602d9703e8de40"
+        },
+        "andrea18": {
+            "number": "[78]",
+            "title": "Transfer of Value Functions Via Variational Methods",
+            "text": "\\bibitem[Tirinzoni et~al., 2018]{andrea18} Tirinzoni, A., Rodr{\\'{\\i}}guez{-}S{\\'{a}}nchez, R., and Restelli, M. (2018). \\newblock Transfer of value functions via variational methods. \\newblock In Bengio, S., Wallach, H.~M., Larochelle, H., Grauman, K., Cesa{-}Bianchi, N., and Garnett, R., editors, {\\em Advances in Neural Information Processing Systems 31: Annual Conference on Neural Information Processing Systems 2018, NeurIPS 2018, December 3-8, 2018, Montr{\\'{e}}al, Canada}, pages 6182--6192.",
+            "ref_source": "bbl",
+            "abstract": "We consider the problem of transferring value functions in reinforcement learning. We propose an approach that uses the given source tasks to learn a prior distribution over optimal value functions and provide an efficient variational approximation of the corresponding posterior in a new target task. We show our approach to be general, in the sense that it can be combined with complex parametric function approximators and distribution models, while providing two practical algorithms based on Gaussians and Gaussian mixtures. We theoretically analyze them by deriving a finite-sample analysis and provide a comprehensive empirical evaluation in four different domains.",
+            "aminer_id": "5c2348ceda562935fc1d5826"
+        },
+        "todorov2012mujoco": {
+            "number": "[79]",
+            "title": "MuJoCo: A Physics Engine for Model-Based Control",
+            "text": "\\bibitem[Todorov et~al., 2012]{todorov2012mujoco} Todorov, E., Erez, T., and Tassa, Y. (2012). \\newblock Mujoco: A physics engine for model-based control. \\newblock In {\\em 2012 IEEE/RSJ International Conference on Intelligent Robots and Systems}, pages 5026--5033. IEEE.",
+            "ref_source": "bbl",
+            "abstract": "We describe a new physics engine tailored to model-based control. Multi-joint dynamics are represented in generalized coordinates and computed via recursive algorithms. Contact responses are computed via efficient new algorithms we have developed, based on the modern velocity-stepping approach which avoids the difficulties with spring-dampers. Models are specified using either a high-level C++ API or an intuitive XML file format. A built-in compiler transforms the user model into an optimized data structure used for runtime computation. The engine can compute both forward and inverse dynamics. The latter are well-defined even in the presence of contacts and equality constraints. The model can include tendon wrapping as well as actuator activation states (e.g. pneumatic cylinders or muscles). To facilitate optimal control applications and in particular sampling and finite differencing, the dynamics can be evaluated for different states and controls in parallel. Around 400,000 dynamics evaluations per second are possible on a 12-core machine, for a 3D homanoid with 18 dofs and 6 active contacts. We have already used the engine in a number of control applications. It will soon be made publicly available.",
+            "aminer_id": "558c5232e4b0cfb70a1d005f"
+        },
+        "hasselt10": {
+            "number": "[80]",
+            "title": "Double q-learning",
+            "text": "\\bibitem[van Hasselt, 2010]{hasselt10} van Hasselt, H. (2010). \\newblock Double q-learning. \\newblock In Lafferty, J.~D., Williams, C. K.~I., Shawe{-}Taylor, J., Zemel, R.~S., and Culotta, A., editors, {\\em Advances in Neural Information Processing Systems 23: 24th Annual Conference on Neural Information Processing Systems 2010. Proceedings of a meeting held 6-9 December 2010, Vancouver, British Columbia, Canada}, pages 2613--2621. Curran Associates, Inc.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "vivek21": {
+            "number": "[81]",
+            "title": "Discovery of Options Via Meta-Learned Subgoals",
+            "text": "\\bibitem[Veeriah et~al., 2021]{vivek21} Veeriah, V., Zahavy, T., Hessel, M., Xu, Z., Oh, J., Kemaev, I., van Hasselt, H., Silver, D., and Singh, S. (2021). \\newblock Discovery of options via meta-learned subgoals. \\newblock In Ranzato, M., Beygelzimer, A., Dauphin, Y.~N., Liang, P., and Vaughan, J.~W., editors, {\\em Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}, pages 29861--29873.",
+            "ref_source": "bbl",
+            "abstract": "Temporal abstractions in the form of options have been shown to help reinforcement learning (RL) agents learn faster. However, despite prior work on this topic, the problem of discovering options through interaction with an environment remains a challenge. In this paper, we introduce a novel meta-gradient approach for discovering useful options in multi-task RL environments. Our approach is based on a manager-worker decomposition of the RL agent, in which a manager maximises rewards from the environment by learning a task-dependent policy over both a set of task-independent discovered-options and primitive actions. The option-reward and termination functions that define a subgoal for each option are parameterised as neural networks and trained via meta-gradients to maximise their usefulness. Empirical analysis on gridworld and DeepMind Lab tasks show that: (1) our approach can discover meaningful and diverse temporally-extended options in multi-task RL domains, (2) the discovered options are frequently used by the agent while learning to solve the training tasks, and (3) that the discovered options help a randomly initialised manager learn faster in completely new tasks.",
+            "aminer_id": "602b8bf891e0113d72356b1e"
+        },
+        "nino20": {
+            "number": "[82]",
+            "title": "Leverage the Average: an Analysis of KL Regularization in Reinforcement Learning.",
+            "text": "\\bibitem[Vieillard et~al., 2020a]{nino20} Vieillard, N., Kozuno, T., Scherrer, B., Pietquin, O., Munos, R., and Geist, M. (2020a). \\newblock Leverage the average: an analysis of {KL} regularization in reinforcement learning. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "Recent Reinforcement Learning (RL) algorithms making use of Kullback-Leibler (KL) regularization as a core component have shown outstanding performance. Yet, only little is understood theoretically about why KL regularization helps, so far. We study KL regularization within an approximate value iteration scheme and show that it implicitly averages q -values. Leveraging this insight, we provide a very strong performance bound, the very first to combine two desirable aspects: a linear dependency to the horizon (instead of quadratic) and an error propagation term involving an averaging effect of the estimation errors (instead of an accumulation effect). We also study the more general case of an additional entropy regularizer. The resulting abstract scheme encompasses many existing RL algorithms. Some of our assumptions do not hold with neural networks, so we complement this theoretical analysis with an extensive empirical study.",
+            "aminer_id": "5f7fdd328de39f0828397cfa"
+        },
+        "viel20": {
+            "number": "[83]",
+            "title": "Munchausen reinforcement learning",
+            "text": "\\bibitem[Vieillard et~al., 2020b]{viel20} Vieillard, N., Pietquin, O., and Geist, M. (2020b). \\newblock Munchausen reinforcement learning. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f228e7491e01136299609ac"
+        },
+        "vinyals19": {
+            "number": "[84]",
+            "title": "Grandmaster Level in StarCraft II Using Multi-Agent Reinforcement Learning",
+            "text": "\\bibitem[Vinyals et~al., 2019]{vinyals19} Vinyals, O., Babuschkin, I., Czarnecki, W.~M., Mathieu, M., Dudzik, A., Chung, J., Choi, D.~H., Powell, R., Ewalds, T., Georgiev, P., Oh, J., Horgan, D., Kroiss, M., Danihelka, I., Huang, A., Sifre, L., Cai, T., Agapiou, J.~P., Jaderberg, M., Vezhnevets, A.~S., Leblond, R., Pohlen, T., Dalibard, V., Budden, D., Sulsky, Y., Molloy, J., Paine, T.~L., G{\\\"{u}}l{\\c{c}}ehre, {\\c{C}}., Wang, Z., Pfaff, T., Wu, Y., Ring, R., Yogatama, D., W{\\\"{u}}nsch, D., McKinney, K., Smith, O., Schaul, T., Lillicrap, T.~P., Kavukcuoglu, K., Hassabis, D., Apps, C., and Silver, D. (2019). \\newblock Grandmaster level in starcraft {II} using multi-agent reinforcement learning. \\newblock {\\em Nat.}, 575(7782):350--354.",
+            "ref_source": "bbl",
+            "abstract": "Many real-world applications require artificial agents to compete and coordinate with other agents in complex environments. As a stepping stone to this goal, the domain of StarCraft has emerged as an important challenge for artificial intelligence research, owing to its iconic and enduring status among the most difficult professional esports and its relevance to the real world in terms of its raw complexity and multi-agent challenges. Over the course of a decade and numerous competitions1-3, the strongest agents have simplified important aspects of the game, utilized superhuman capabilities, or employed hand-crafted sub-systems4. Despite these advantages, no previous agent has come close to matching the overall skill of top StarCraft players. We chose to address the challenge of StarCraft using general-purpose learning methods that are in principle applicable to other complex domains: a multi-agent reinforcement learning algorithm that uses data from both human and agent games within a diverse league of continually adapting strategies and counter-strategies, each represented by deep neural networks5,6. We evaluated our agent, AlphaStar, in the full game of StarCraft II, through a series of online games against human players. AlphaStar was rated at Grandmaster level for all three StarCraft races and above 99.8% of officially ranked human players.",
+            "aminer_id": "5dbc05c747c8f7664629a148"
+        },
+        "feng20": {
+            "number": "[85]",
+            "title": "Improving generalization in reinforcement learning with mixture regularization",
+            "text": "\\bibitem[Wang et~al., 2020]{feng20} Wang, K., Kang, B., Shao, J., and Feng, J. (2020). \\newblock Improving generalization in reinforcement learning with mixture regularization. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f91558b91e011126509bd79"
+        },
+        "wang16": {
+            "number": "[86]",
+            "title": "Dueling network architectures for deep reinforcement learning",
+            "text": "\\bibitem[Wang et~al., 2016]{wang16} Wang, Z., Schaul, T., Hessel, M., van Hasselt, H., Lanctot, M., and de~Freitas, N. (2016). \\newblock Dueling network architectures for deep reinforcement learning. \\newblock In Balcan, M. and Weinberger, K.~Q., editors, {\\em Proceedings of the 33nd International Conference on Machine Learning, {ICML} 2016, New York City, NY, USA, June 19-24, 2016}, volume~48 of {\\em {JMLR} Workshop and Conference Proceedings}, pages 1995--2003. JMLR.org.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736960a6e3b12023e51d96d"
+        },
+        "watkins89": {
+            "number": "[87]",
+            "title": "Learning from delayed rewards",
+            "text": "\\bibitem[Watkins, 1989]{watkins89} Watkins, C. (1989). \\newblock Learning from delayed rewards. \\newblock In {\\em PhD thesis, Cambridge}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c7913601a182cd2612f8f"
+        },
+        "zajac21": {
+            "number": "[88]",
+            "title": "Continual World: A Robotic Benchmark for Continual Reinforcement Learning",
+            "text": "\\bibitem[Wolczyk et~al., 2021]{zajac21} Wolczyk, M., Zajac, M., Pascanu, R., Kucinski, L., and Milos, P. (2021). \\newblock Continual world: {A} robotic benchmark for continual reinforcement learning. \\newblock In Ranzato, M., Beygelzimer, A., Dauphin, Y.~N., Liang, P., and Vaughan, J.~W., editors, {\\em Advances in Neural Information Processing Systems 34: Annual Conference on Neural Information Processing Systems 2021, NeurIPS 2021, December 6-14, 2021, virtual}, pages 28496--28510.",
+            "ref_source": "bbl",
+            "abstract": "Continual learning (CL) -- the ability to continuously learn, building on previously acquired knowledge -- is a natural requirement for long-lived autonomous reinforcement learning (RL) agents. While building such agents, one needs to balance opposing desiderata, such as constraints on capacity and compute, the ability to not catastrophically forget, and to exhibit positive transfer on new tasks. Understanding the right trade-off is conceptually and computationally challenging, which we argue has led the community to overly focus on catastrophic forgetting. In response to these issues, we advocate for the need to prioritize forward transfer and propose Continual World, a benchmark consisting of realistic and meaningfully diverse robotic tasks built on top of Meta-World as a testbed. Following an in-depth empirical evaluation of existing CL methods, we pinpoint their limitations and highlight unique algorithmic challenges in the RL setting. Our benchmark aims to provide a meaningful and computationally inexpensive challenge for the community and thus help better understand the performance of existing and future solutions. Information about the benchmark, including the open-source code, is available at https://sites.google.com/view/continualworld.",
+            "aminer_id": "60accd7991e011a8376735af"
+        },
+        "xu20": {
+            "number": "[89]",
+            "title": "Meta-gradient reinforcement learning with an objective discovered online",
+            "text": "\\bibitem[Xu et~al., 2020]{xu20} Xu, Z., van Hasselt, H.~P., Hessel, M., Oh, J., Singh, S., and Silver, D. (2020). \\newblock Meta-gradient reinforcement learning with an objective discovered online. \\newblock In Larochelle, H., Ranzato, M., Hadsell, R., Balcan, M., and Lin, H., editors, {\\em Advances in Neural Information Processing Systems 33: Annual Conference on Neural Information Processing Systems 2020, NeurIPS 2020, December 6-12, 2020, virtual}.",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5f117b6c91e011264d447765"
+        },
+        "yarats21": {
+            "number": "[90]",
+            "title": "Image Augmentation is All You Need: Regularizing Deep Reinforcement Learning from Pixels.",
+            "text": "\\bibitem[Yarats et~al., 2021]{yarats21} Yarats, D., Kostrikov, I., and Fergus, R. (2021). \\newblock Image augmentation is all you need: Regularizing deep reinforcement learning from pixels. \\newblock In {\\em International Conference on Learning Representations (ICLR)}. \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "We propose a simple data augmentation technique that can be applied to standard model-free reinforcement learning algorithms, enabling robust learning directly from pixels without the need for auxiliary losses or pre-training. The approach leverages input perturbations commonly used in computer vision tasks to regularize the value function. Existing model-free approaches, such as Soft Actor-Critic (SAC), are not able to train deep networks effectively from image pixels. However, the addition of our augmentation method dramatically improves SAC's performance, enabling it to reach state-of-the-art performance on the DeepMind control suite, surpassing model-based (Dreamer, PlaNet, and SLAC) methods and recently proposed contrastive learning (CURL). Our approach can be combined with any model-free reinforcement learning algorithm, requiring only minor modifications. An implementation can be found at this https URL.",
+            "aminer_id": "5ea9504391e0118eb1e1a0bd"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 90,
+        "citation_types": {
+            "unknown": 90
+        }
+    }
+}

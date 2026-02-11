@@ -1,0 +1,463 @@
+{
+    "topic": "Overview of the 2021 Key Point Analysis Shared Task",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Related Work",
+            "refs": [
+                "[1]",
+                "[4]",
+                "[6]",
+                "[8]",
+                "[10]",
+                "[11]",
+                "[2]",
+                "[5]",
+                "[9]",
+                "[7]",
+                "[3]"
+            ],
+            "subsections": [],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Task Details",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Task Description",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "The \\argExt data set",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Evaluation Metrics",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "\\matchTrack",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "\\genTrack",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Submitted models",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "\\matchTrack",
+                    "refs": [
+                        "[14]",
+                        "[15]",
+                        "[13]",
+                        "[12]",
+                        "[16]"
+                    ],
+                    "subsections": [],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\genTrack",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Results",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "\\matchTrack",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "\\genTrack",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "5.2",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Additional Analysis",
+            "refs": [],
+            "subsections": [],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Discussion",
+            "refs": [],
+            "subsections": [],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Acknowledgments",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        },
+        {
+            "section_title": "Appendix",
+            "refs": [],
+            "subsections": [],
+            "number": "9",
+            "level": 1
+        }
+    ],
+    "references": {
+        "10.5555/3016100.3016261": {
+            "number": "[1]",
+            "title": "Topic Concentration in Query Focused Summarization Datasets",
+            "text": "author = {Baumel, Tal and Cohen, Raphael and Elhadad, Michael},\ntitle = {Topic Concentration in Query Focused Summarization Datasets},\nyear = {2016},\npublisher = {AAAI Press},\nabstract = {Query-Focused Summarization (QFS) summarizes a document cluster in response to a specific input query. QFS algorithms must combine query relevance assessment, central content identification, and redundancy avoidance. Frustratingly, state of the art algorithms designed for QFS do not significantly improve upon generic summarization methods, which ignore query relevance, when evaluated on traditional QFS datasets. We hypothesize this lack of success stems from the nature of the dataset. We define a task-based method to quantify topic concentration in datasets, i.e., the ratio of sentences within the dataset that are relevant to the query, and observe that the DUC 2005, 2006 and 2007 datasets suffer from very high topic concentration. We introduce TD-QFS, a new QFS dataset with controlled levels of topic concentration. We compare competitive baseline algorithms on TD-QFS and report strong improvement in ROUGE performance for algorithms that properly model query relevance as opposed to generic summarizers. We further present three new and simple QFS algorithms, RelSum, ThresholdSum, and TFIDF-KLSum that outperform state of the art QFS algorithms on the TD-QFS dataset by a large margin.},\nbooktitle = {Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence},\npages = {2573–2579},\nnumpages = {7},\nlocation = {Phoenix, Arizona},\nseries = {AAAI'16}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Baumel, Tal and Cohen, Raphael and Elhadad, Michael",
+                "title": "Topic Concentration in Query Focused Summarization Datasets",
+                "year": "2016",
+                "publisher": "AAAI Press",
+                "abstract": "Query-Focused Summarization (QFS) summarizes a document cluster in response to a specific input query. QFS algorithms must combine query relevance assessment, central content identification, and redundancy avoidance. Frustratingly, state of the art algorithms designed for QFS do not significantly improve upon generic summarization methods, which ignore query relevance, when evaluated on traditional QFS datasets. We hypothesize this lack of success stems from the nature of the dataset. We define a task-based method to quantify topic concentration in datasets, i.e., the ratio of sentences within the dataset that are relevant to the query, and observe that the DUC 2005, 2006 and 2007 datasets suffer from very high topic concentration. We introduce TD-QFS, a new QFS dataset with controlled levels of topic concentration. We compare competitive baseline algorithms on TD-QFS and report strong improvement in ROUGE performance for algorithms that properly model query relevance as opposed to generic summarizers. We further present three new and simple QFS algorithms, RelSum, ThresholdSum, and TFIDF-KLSum that outperform state of the art QFS algorithms on the TD-QFS dataset by a large margin.",
+                "booktitle": "Proceedings of the Thirtieth AAAI Conference on Artificial Intelligence",
+                "pages": "2573–2579",
+                "numpages": "7",
+                "location": "Phoenix, Arizona",
+                "series": "AAAI'16"
+            },
+            "ref_source": "bib",
+            "abstract": "Query-Focused Summarization (QFS) summarizes a document cluster in response to a specific input query. QFS algorithms must combine query relevance assessment, central content identification, and redundancy avoidance. Frustratingly, state of the art algorithms designed for QFS do not significantly improve upon generic summarization methods, which ignore query relevance, when evaluated on traditional QFS datasets. We hypothesize this lack of success stems from the nature of the dataset. We define a task-based method to quantify topic concentration in datasets, i.e ., the ratio of sentences within the dataset that are relevant to the query, and observe that the DUC 2005, 2006 and 2007 datasets suffer from very high topic concentration. We introduce TD-QFS, a new QFS dataset with controlled levels of topic concentration. We compare competitive baseline algorithms on TD-QFS and report strong improvement in ROUGE performance for algorithms that properly model query relevance as opposed to generic summarizers. We further present three new and simple QFS algorithms, RelSum, ThresholdSum, and TFIDF-KLSum that outperform state of the art QFS algorithms on the TD-QFS dataset by a large margin.",
+            "aminer_id": "573698646e3b12023e72a694"
+        },
+        "Dang2005OverviewOD": {
+            "number": "[2]",
+            "title": "Overview of DUC 2005",
+            "text": "author = {Hoa Trang Dang},\n    title = {Overview of DUC 2005},\n    booktitle = {In Proceedings of the Document Understanding Conf. Wksp. 2005 (DUC 2005) at the Human Language Technology Conf./Conf. on Empirical Methods in Natural Language Processing (HLT/EMNLP},\n    year = {2005}",
+            "type": "inproceedings",
+            "fields": {
+                "author": "Hoa Trang Dang",
+                "title": "Overview of DUC 2005",
+                "booktitle": "In Proceedings of the Document Understanding Conf. Wksp. 2005 (DUC 2005) at the Human Language Technology Conf./Conf. on Empirical Methods in Natural Language Processing (HLT/EMNLP",
+                "year": "2005"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "53e99b21b7602d97023b6150"
+        },
+        "xu-lapata-2020-coarse": {
+            "number": "[3]",
+            "title": "Coarse-to-Fine Query Focused Multi-Document Summarization",
+            "text": "title = \"Coarse-to-Fine Query Focused Multi-Document Summarization\",\n    author = \"Xu, Yumo  and\n      Lapata, Mirella\",\n    booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.emnlp-main.296\",\n    doi = \"10.18653/v1/2020.emnlp-main.296\",\n    pages = \"3632--3645\",\n    abstract = \"We consider the problem of better modeling query-cluster interactions to facilitate query focused multi-document summarization. Due to the lack of training data, existing work relies heavily on retrieval-style methods for assembling query relevant summaries. We propose a coarse-to-fine modeling framework which employs progressively more accurate modules for estimating whether text segments are relevant, likely to contain an answer, and central. The modules can be independently developed and leverage training data if available. We present an instantiation of this framework with a trained evidence estimator which relies on distant supervision from question answering (where various resources exist) to identify segments which are likely to answer the query and should be included in the summary. Our framework is robust across domains and query types (i.e., long vs short) and outperforms strong comparison systems on benchmark datasets.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Coarse-to-Fine Query Focused Multi-Document Summarization",
+                "author": "Xu, Yumo and Lapata, Mirella",
+                "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                "year": "2020",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2020.emnlp-main.296",
+                "doi": "10.18653/v1/2020.emnlp-main.296",
+                "pages": "3632--3645",
+                "abstract": "We consider the problem of better modeling query-cluster interactions to facilitate query focused multi-document summarization. Due to the lack of training data, existing work relies heavily on retrieval-style methods for assembling query relevant summaries. We propose a coarse-to-fine modeling framework which employs progressively more accurate modules for estimating whether text segments are relevant, likely to contain an answer, and central. The modules can be independently developed and leverage training data if available. We present an instantiation of this framework with a trained evidence estimator which relies on distant supervision from question answering (where various resources exist) to identify segments which are likely to answer the query and should be included in the summary. Our framework is robust across domains and query types (i.e., long vs short) and outperforms strong comparison systems on benchmark datasets."
+            },
+            "ref_source": "bib",
+            "abstract": "We consider the problem of better modeling query-cluster interactions to facilitate query focused multi-document summarization. Due to the lack of training data, existing work relies heavily on retrieval-style methods for assembling query relevant summaries. We propose a coarse-to-fine modeling framework which employs progressively more accurate modules for estimating whether text segments are relevant, likely to contain an answer, and central. The modules can be independently developed and leverage training data if available. We present an instantiation of this framework with a trained evidence estimator which relies on distant supervision from question answering (where various resources exist) to identify segments which are likely to answer the query and should be included in the summary. Our framework is robust across domains and query types (i.e., long vs short) and outperforms strong comparison systems on benchmark datasets.",
+            "aminer_id": "5f7fe6d80205f07f6897317a"
+        },
+        "j.2018generating": {
+            "number": "[4]",
+            "title": "Generating Wikipedia by Summarizing Long Sequences",
+            "text": "title={Generating Wikipedia by Summarizing Long Sequences},\nauthor={Peter J. Liu and Mohammad Saleh and Etienne Pot and Ben Goodrich and Ryan Sepassi and Lukasz Kaiser and Noam Shazeer},\nbooktitle={International Conference on Learning Representations},\nyear={2018},\nurl={https://openreview.net/forum?id=Hyg0vbWC-},",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Generating Wikipedia by Summarizing Long Sequences",
+                "author": "Peter J. Liu and Mohammad Saleh and Etienne Pot and Ben Goodrich and Ryan Sepassi and Lukasz Kaiser and Noam Shazeer",
+                "booktitle": "International Conference on Learning Representations",
+                "year": "2018",
+                "url": "https://openreview.net/forum?id=Hyg0vbWC-"
+            },
+            "ref_source": "bib",
+            "abstract": "We show that generating English Wikipedia articles can be approached as a multi- document summarization of source documents. We use extractive summarization to coarsely identify salient information and a neural abstractive model to generate the article. For the abstractive model, we introduce a decoder-only architecture that can scalably attend to very long sequences, much longer than typical encoder- decoder architectures used in sequence transduction. We show that this model can generate fluent, coherent multi-sentence paragraphs and even whole Wikipedia articles. When given reference documents, we show it can extract relevant factual information as reflected in perplexity, ROUGE scores and human evaluations.",
+            "aminer_id": "5ca5dbb2e1cd8e17e1d71252"
+        },
+        "lu-etal-2020-multi-xscience": {
+            "number": "[5]",
+            "title": "Multi-XScience: A Large-scale Dataset for Extreme Multi-document Summarization of Scientific Articles.",
+            "text": "title = \"Multi-{XS}cience: A Large-scale Dataset for Extreme Multi-document Summarization of Scientific Articles\",\n    author = \"Lu, Yao  and\n      Dong, Yue  and\n      Charlin, Laurent\",\n    booktitle = \"Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)\",\n    month = nov,\n    year = \"2020\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.emnlp-main.648\",\n    doi = \"10.18653/v1/2020.emnlp-main.648\",\n    pages = \"8068--8074\",\n    abstract = \"Multi-document summarization is a challenging task for which there exists little large-scale datasets. We propose Multi-XScience, a large-scale multi-document summarization dataset created from scientific articles. Multi-XScience introduces a challenging multi-document summarization task: writing the related-work section of a paper based on its abstract and the articles it references. Our work is inspired by extreme summarization, a dataset construction protocol that favours abstractive modeling approaches. Descriptive statistics and empirical results{---}using several state-of-the-art models trained on the Multi-XScience dataset{---}reveal that Multi-XScience is well suited for abstractive models.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Multi-{XS}cience: A Large-scale Dataset for Extreme Multi-document Summarization of Scientific Articles",
+                "author": "Lu, Yao and Dong, Yue and Charlin, Laurent",
+                "booktitle": "Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)",
+                "year": "2020",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2020.emnlp-main.648",
+                "doi": "10.18653/v1/2020.emnlp-main.648",
+                "pages": "8068--8074",
+                "abstract": "Multi-document summarization is a challenging task for which there exists little large-scale datasets. We propose Multi-XScience, a large-scale multi-document summarization dataset created from scientific articles. Multi-XScience introduces a challenging multi-document summarization task: writing the related-work section of a paper based on its abstract and the articles it references. Our work is inspired by extreme summarization, a dataset construction protocol that favours abstractive modeling approaches. Descriptive statistics and empirical results{---}using several state-of-the-art models trained on the Multi-XScience dataset{---}reveal that Multi-XScience is well suited for abstractive models."
+            },
+            "ref_source": "bib",
+            "abstract": "Multi-document summarization is a challenging task for which there exists little large-scale datasets. We propose Multi-XScience, a large-scale multi-document summarization dataset created from scientific articles. Multi-XScience introduces a challenging multi-document summarization task: writing the related-work section of a paper based on its abstract and the articles it references. Our work is inspired by extreme summarization, a dataset construction protocol that favours abstractive modeling approaches. Descriptive statistics and empirical results—using several state-of-the-art models trained on the Multi-XScience dataset—reveal that Multi-XScience is well suited for abstractive models.",
+            "aminer_id": "5f99472791e011a3fbe2fc4e"
+        },
+        "shapira-etal-2021-extending": {
+            "number": "[6]",
+            "title": "Extending Multi-Document Summarization Evaluation to the Interactive Setting",
+            "text": "title = \"Extending Multi-Document Summarization Evaluation to the Interactive Setting\",\n    author = \"Shapira, Ori  and\n      Pasunuru, Ramakanth  and\n      Ronen, Hadar  and\n      Bansal, Mohit  and\n      Amsterdamer, Yael  and\n      Dagan, Ido\",\n    booktitle = \"Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies\",\n    month = jun,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.naacl-main.54\",\n    doi = \"10.18653/v1/2021.naacl-main.54\",\n    pages = \"657--677\",\n    abstract = \"Allowing users to interact with multi-document summarizers is a promising direction towards improving and customizing summary results. Different ideas for interactive summarization have been proposed in previous work but these solutions are highly divergent and incomparable. In this paper, we develop an end-to-end evaluation framework for interactive summarization, focusing on expansion-based interaction, which considers the accumulating information along a user session. Our framework includes a procedure of collecting real user sessions, as well as evaluation measures relying on summarization standards, but adapted to reflect interaction. All of our solutions and resources are available publicly as a benchmark, allowing comparison of future developments in interactive summarization, and spurring progress in its methodological evaluation. We demonstrate the use of our framework by evaluating and comparing baseline implementations that we developed for this purpose, which will serve as part of our benchmark. Our extensive experimentation and analysis motivate the proposed evaluation framework design and support its viability.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Extending Multi-Document Summarization Evaluation to the Interactive Setting",
+                "author": "Shapira, Ori and Pasunuru, Ramakanth and Ronen, Hadar and Bansal, Mohit and Amsterdamer, Yael and Dagan, Ido",
+                "booktitle": "Proceedings of the 2021 Conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2021.naacl-main.54",
+                "doi": "10.18653/v1/2021.naacl-main.54",
+                "pages": "657--677",
+                "abstract": "Allowing users to interact with multi-document summarizers is a promising direction towards improving and customizing summary results. Different ideas for interactive summarization have been proposed in previous work but these solutions are highly divergent and incomparable. In this paper, we develop an end-to-end evaluation framework for interactive summarization, focusing on expansion-based interaction, which considers the accumulating information along a user session. Our framework includes a procedure of collecting real user sessions, as well as evaluation measures relying on summarization standards, but adapted to reflect interaction. All of our solutions and resources are available publicly as a benchmark, allowing comparison of future developments in interactive summarization, and spurring progress in its methodological evaluation. We demonstrate the use of our framework by evaluating and comparing baseline implementations that we developed for this purpose, which will serve as part of our benchmark. Our extensive experimentation and analysis motivate the proposed evaluation framework design and support its viability."
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "60af77b09e795e6b8e55c885"
+        },
+        "chen-etal-2019-seeing": {
+            "number": "[7]",
+            "title": "Seeing Things from a Different Angle:Discovering Diverse Perspectives about Claims",
+            "text": "title = \"Seeing Things from a Different Angle:Discovering Diverse Perspectives about Claims\",\n    author = \"Chen, Sihao  and\n      Khashabi, Daniel  and\n      Yin, Wenpeng  and\n      Callison-Burch, Chris  and\n      Roth, Dan\",\n    booktitle = \"Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)\",\n    month = jun,\n    year = \"2019\",\n    address = \"Minneapolis, Minnesota\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N19-1053\",\n    doi = \"10.18653/v1/N19-1053\",\n    pages = \"542--557\",\n    abstract = \"One key consequence of the information revolution is a significant increase and a contamination of our information supply. The practice of fact checking won{'}t suffice to eliminate the biases in text data we observe, as the degree of factuality alone does not determine whether biases exist in the spectrum of opinions visible to us. To better understand controversial issues, one needs to view them from a diverse yet comprehensive set of perspectives. For example, there are many ways to respond to a claim such as {``}animals should have lawful rights{''}, and these responses form a spectrum of perspectives, each with a stance relative to this claim and, ideally, with evidence supporting it. Inherently, this is a natural language understanding task, and we propose to address it as such. Specifically, we propose the task of substantiated perspective discovery where, given a claim, a system is expected to discover a diverse set of well-corroborated perspectives that take a stance with respect to the claim. Each perspective should be substantiated by evidence paragraphs which summarize pertinent results and facts. We construct PERSPECTRUM, a dataset of claims, perspectives and evidence, making use of online debate websites to create the initial data collection, and augmenting it using search engines in order to expand and diversify our dataset. We use crowd-sourcing to filter out noise and ensure high-quality data. Our dataset contains 1k claims, accompanied with pools of 10k and 8k perspective sentences and evidence paragraphs, respectively. We provide a thorough analysis of the dataset to highlight key underlying language understanding challenges, and show that human baselines across multiple subtasks far outperform ma-chine baselines built upon state-of-the-art NLP techniques. This poses a challenge and opportunity for the NLP community to address.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Seeing Things from a Different Angle:Discovering Diverse Perspectives about Claims",
+                "author": "Chen, Sihao and Khashabi, Daniel and Yin, Wenpeng and Callison-Burch, Chris and Roth, Dan",
+                "booktitle": "Proceedings of the 2019 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+                "year": "2019",
+                "address": "Minneapolis, Minnesota",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/N19-1053",
+                "doi": "10.18653/v1/N19-1053",
+                "pages": "542--557",
+                "abstract": "One key consequence of the information revolution is a significant increase and a contamination of our information supply. The practice of fact checking won{'}t suffice to eliminate the biases in text data we observe, as the degree of factuality alone does not determine whether biases exist in the spectrum of opinions visible to us. To better understand controversial issues, one needs to view them from a diverse yet comprehensive set of perspectives. For example, there are many ways to respond to a claim such as {``}animals should have lawful rights{''}, and these responses form a spectrum of perspectives, each with a stance relative to this claim and, ideally, with evidence supporting it. Inherently, this is a natural language understanding task, and we propose to address it as such. Specifically, we propose the task of substantiated perspective discovery where, given a claim, a system is expected to discover a diverse set of well-corroborated perspectives that take a stance with respect to the claim. Each perspective should be substantiated by evidence paragraphs which summarize pertinent results and facts. We construct PERSPECTRUM, a dataset of claims, perspectives and evidence, making use of online debate websites to create the initial data collection, and augmenting it using search engines in order to expand and diversify our dataset. We use crowd-sourcing to filter out noise and ensure high-quality data. Our dataset contains 1k claims, accompanied with pools of 10k and 8k perspective sentences and evidence paragraphs, respectively. We provide a thorough analysis of the dataset to highlight key underlying language understanding challenges, and show that human baselines across multiple subtasks far outperform ma-chine baselines built upon state-of-the-art NLP techniques. This poses a challenge and opportunity for the NLP community to address."
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "syed-etal-2020-news": {
+            "number": "[8]",
+            "title": "News Editorials: Towards Summarizing Long Argumentative Texts",
+            "text": "title = \"News Editorials: Towards Summarizing Long Argumentative Texts\",\n    author = \"Syed, Shahbaz  and\n      El Baff, Roxanne  and\n      Kiesel, Johannes  and\n      Al Khatib, Khalid  and\n      Stein, Benno  and\n      Potthast, Martin\",\n    booktitle = \"Proceedings of the 28th International Conference on Computational Linguistics\",\n    month = dec,\n    year = \"2020\",\n    address = \"Barcelona, Spain (Online)\",\n    publisher = \"International Committee on Computational Linguistics\",\n    url = \"https://aclanthology.org/2020.coling-main.470\",\n    doi = \"10.18653/v1/2020.coling-main.470\",\n    pages = \"5384--5396\",\n    abstract = \"The automatic summarization of argumentative texts has hardly been explored. This paper takes a further step in this direction, targeting news editorials, i.e., opinionated articles with a well-defined argumentation structure. With Webis-EditorialSum-2020, we present a corpus of 1330 carefully curated summaries for 266 news editorials. We evaluate these summaries based on a tailored annotation scheme, where a high-quality summary is expected to be thesis-indicative, persuasive, reasonable, concise, and self-contained. Our corpus contains at least three high-quality summaries for about 90{\\%} of the editorials, rendering it a valuable resource for the development and evaluation of summarization technology for long argumentative texts. We further report details of both, an in-depth corpus analysis, and the evaluation of two extractive summarization models.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "News Editorials: Towards Summarizing Long Argumentative Texts",
+                "author": "Syed, Shahbaz and El Baff, Roxanne and Kiesel, Johannes and Al Khatib, Khalid and Stein, Benno and Potthast, Martin",
+                "booktitle": "Proceedings of the 28th International Conference on Computational Linguistics",
+                "year": "2020",
+                "address": "Barcelona, Spain (Online)",
+                "publisher": "International Committee on Computational Linguistics",
+                "url": "https://aclanthology.org/2020.coling-main.470",
+                "doi": "10.18653/v1/2020.coling-main.470",
+                "pages": "5384--5396",
+                "abstract": "The automatic summarization of argumentative texts has hardly been explored. This paper takes a further step in this direction, targeting news editorials, i.e., opinionated articles with a well-defined argumentation structure. With Webis-EditorialSum-2020, we present a corpus of 1330 carefully curated summaries for 266 news editorials. We evaluate these summaries based on a tailored annotation scheme, where a high-quality summary is expected to be thesis-indicative, persuasive, reasonable, concise, and self-contained. Our corpus contains at least three high-quality summaries for about 90{\\%} of the editorials, rendering it a valuable resource for the development and evaluation of summarization technology for long argumentative texts. We further report details of both, an in-depth corpus analysis, and the evaluation of two extractive summarization models."
+            },
+            "ref_source": "bib",
+            "abstract": "The automatic summarization of argumentative texts has hardly been explored. This paper takes a further step in this direction, targeting news editorials, i.e., opinionated articles with a well-defined argumentation structure. With Webis-EditorialSum-2020, we present a corpus of 1330 carefully curated summaries for 266 news editorials. We evaluate these summaries based on a tailored annotation scheme, where a high-quality summary is expected to be thesis-indicative, persuasive, reasonable, concise, and self-contained. Our corpus contains at least three high-quality summaries for about 90% of the editorials, rendering it a valuable resource for the development and evaluation of summarization technology for long argumentative texts. We further report details of both, an in-depth corpus analysis, and the evaluation of two extractive summarization models.",
+            "aminer_id": "5ff880bc91e011c83266a9b5"
+        },
+        "amplayo-lapata-2021-informative": {
+            "number": "[9]",
+            "title": "Informative and Controllable Opinion Summarization",
+            "text": "title = \"Informative and Controllable Opinion Summarization\",\n    author = \"Amplayo, Reinald Kim  and\n      Lapata, Mirella\",\n    booktitle = \"Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume\",\n    month = apr,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.eacl-main.229\",\n    pages = \"2662--2672\",\n    abstract = \"Opinion summarization is the task of automatically generating summaries for a set of reviews about a specific target (e.g., a movie or a product). Since the number of reviews for each target can be prohibitively large, neural network-based methods follow a two-stage approach where an extractive step first pre-selects a subset of salient opinions and an abstractive step creates the summary while conditioning on the extracted subset. However, the extractive model leads to loss of information which may be useful depending on user needs. In this paper we propose a summarization framework that eliminates the need to rely only on pre-selected content and waste possibly useful information, especially when customizing summaries. The framework enables the use of all input reviews by first condensing them into multiple dense vectors which serve as input to an abstractive model. We showcase an effective instantiation of our framework which produces more informative summaries and also allows to take user preferences into account using our zero-shot customization technique. Experimental results demonstrate that our model improves the state of the art on the Rotten Tomatoes dataset and generates customized summaries effectively.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Informative and Controllable Opinion Summarization",
+                "author": "Amplayo, Reinald Kim and Lapata, Mirella",
+                "booktitle": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2021.eacl-main.229",
+                "pages": "2662--2672",
+                "abstract": "Opinion summarization is the task of automatically generating summaries for a set of reviews about a specific target (e.g., a movie or a product). Since the number of reviews for each target can be prohibitively large, neural network-based methods follow a two-stage approach where an extractive step first pre-selects a subset of salient opinions and an abstractive step creates the summary while conditioning on the extracted subset. However, the extractive model leads to loss of information which may be useful depending on user needs. In this paper we propose a summarization framework that eliminates the need to rely only on pre-selected content and waste possibly useful information, especially when customizing summaries. The framework enables the use of all input reviews by first condensing them into multiple dense vectors which serve as input to an abstractive model. We showcase an effective instantiation of our framework which produces more informative summaries and also allows to take user preferences into account using our zero-shot customization technique. Experimental results demonstrate that our model improves the state of the art on the Rotten Tomatoes dataset and generates customized summaries effectively."
+            },
+            "ref_source": "bib",
+            "abstract": "Opinion summarization is the task of automatically generating summaries for a set of reviews about a specific target (e.g., a movie or a product). Since the number of reviews for each target can be prohibitively large, neural network-based methods follow a two-stage approach where an extractive step first pre-selects a subset of salient opinions and an abstractive step creates the summary while conditioning on the extracted subset. However, the extractive model leads to loss of information which may be useful depending on user needs. In this paper we propose a summarization framework that eliminates the need to rely only on pre-selected content and waste possibly useful information, especially when customizing summaries. The framework enables the use of all input reviews by first condensing them into multiple dense vectors which serve as input to an abstractive model. We showcase an effective instantiation of our framework which produces more informative summaries and also allows to take user preferences into account using our zero-shot customization technique. Experimental results demonstrate that our model improves the state of the art on the Rotten Tomatoes dataset and generates customized summaries effectively.",
+            "aminer_id": "5d722f6e3a55acd6b877d0b7"
+        },
+        "wang-ling-2016-neural": {
+            "number": "[10]",
+            "title": "Neural Network-Based Abstract Generation for Opinions and Arguments",
+            "text": "title = \"Neural Network-Based Abstract Generation for Opinions and Arguments\",\n    author = \"Wang, Lu  and\n      Ling, Wang\",\n    booktitle = \"Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies\",\n    month = jun,\n    year = \"2016\",\n    address = \"San Diego, California\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/N16-1007\",\n    doi = \"10.18653/v1/N16-1007\",\n    pages = \"47--57\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Neural Network-Based Abstract Generation for Opinions and Arguments",
+                "author": "Wang, Lu and Ling, Wang",
+                "booktitle": "Proceedings of the 2016 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies",
+                "year": "2016",
+                "address": "San Diego, California",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/N16-1007",
+                "doi": "10.18653/v1/N16-1007",
+                "pages": "47--57"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "57a4e91dac44365e35c9873f"
+        },
+        "elsahar-etal-2021-self": {
+            "number": "[11]",
+            "title": "Self-Supervised and Controlled Multi-Document Opinion Summarization",
+            "text": "title = \"Self-Supervised and Controlled Multi-Document Opinion Summarization\",\n    author = \"Elsahar, Hady  and\n      Coavoux, Maximin  and\n      Rozen, Jos  and\n      Gall{\\'e}, Matthias\",\n    booktitle = \"Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume\",\n    month = apr,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2021.eacl-main.141\",\n    pages = \"1646--1662\",\n    abstract = \"We address the problem of unsupervised abstractive summarization of collections of user generated reviews through self-supervision and control. We propose a self-supervised setup that considers an individual document as a target summary for a set of similar documents. This setting makes training simpler than previous approaches by relying only on standard log-likelihood loss and mainstream models. We address the problem of hallucinations through the use of control codes, to steer the generation towards more coherent and relevant summaries.\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Self-Supervised and Controlled Multi-Document Opinion Summarization",
+                "author": "Elsahar, Hady and Coavoux, Maximin and Rozen, Jos and Gall{\\'e}, Matthias",
+                "booktitle": "Proceedings of the 16th Conference of the European Chapter of the Association for Computational Linguistics: Main Volume",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2021.eacl-main.141",
+                "pages": "1646--1662",
+                "abstract": "We address the problem of unsupervised abstractive summarization of collections of user generated reviews through self-supervision and control. We propose a self-supervised setup that considers an individual document as a target summary for a set of similar documents. This setting makes training simpler than previous approaches by relying only on standard log-likelihood loss and mainstream models. We address the problem of hallucinations through the use of control codes, to steer the generation towards more coherent and relevant summaries."
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "5eabf34c91e011664ffd2934"
+        },
+        "KPA2021-6": {
+            "number": "[12]",
+            "title": "Modern Talking in Key Point Analysis: Key Point Matching Using Pretrained Encoders",
+            "text": "title = \"Modern Talking in Key Point Analysis: Key Point Matching using Pretrained Encoders\",\n    author = \"Reimer, Jan Heinrich  and\n      Luu, Thi Kim Hanh and\n      Henze, Max and\n      Ajjour, Yamen\",\n    booktitle = \"Proceedings of the 8th Workshop on Argument Mining\",\n    month = Nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Modern Talking in Key Point Analysis: Key Point Matching using Pretrained Encoders",
+                "author": "Reimer, Jan Heinrich and Luu, Thi Kim Hanh and Henze, Max and Ajjour, Yamen",
+                "booktitle": "Proceedings of the 8th Workshop on Argument Mining",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "We contribute to the ArgMining 2021 shared task on Quantitative Summarization and Key Point Analysis with two approaches for argument key point matching. For key point matching the task is to decide if a short key point matches the content of an argument with the same topic and stance towards the topic. We approach this task in two ways: First, we develop a simple rule-based baseline matcher by computing token overlap after removing stop words, stemming, and adding synonyms/antonyms. Second, we fine-tune pretrained BERT and RoBERTalanguage models as aregression classifier for only a single epoch. We manually examine errors of our proposed matcher models and find that long arguments are harder to classify. Our fine-tuned RoBERTa-Base model achieves a mean average precision score of 0.913, the best score for strict labels of all participating teams.",
+            "aminer_id": "6197999a91e011c8223725d3"
+        },
+        "KPA2021-17": {
+            "number": "[13]",
+            "title": "Matching the Statements: A Simple and Accurate Model for Key Point Analysis",
+            "text": "title = \"Matching The Statements: A Simple and Accurate Model for Key Point Analysis\",\n    author = \"Phan, Hoang Viet  and\n      Nguyen, Long Tien and\n      Nguyen, Long Duc  and\n      Doan, Khanh\",\n    booktitle = \"Proceedings of the 8th Workshop on Argument Mining\",\n    month = Nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Matching The Statements: A Simple and Accurate Model for Key Point Analysis",
+                "author": "Phan, Hoang Viet and Nguyen, Long Tien and Nguyen, Long Duc and Doan, Khanh",
+                "booktitle": "Proceedings of the 8th Workshop on Argument Mining",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "Key Point Analysis (KPA) is one of the most essential tasks in building an Opinion Summarization system, which is capable of generating key points for a collection of arguments toward a particular topic. Furthermore, KPA allows quantifying the coverage of each summary by counting its matched arguments. With the aim of creating high-quality summaries, it is necessary to have an in-depth understanding of each individual argument as well as its universal semantic in a specified context. In this paper, we introduce a promising model, named Matching the Statements (MTS) that incorporates the discussed topic information into arguments/key points comprehension to fully understand their meanings, thus accurately performing ranking and retrieving best-match key points for an input argument. Our approach has achieved the 4th place in Track 1 of the Quantitative Summarization – Key Point Analysis Shared Task by IBM, yielding a competitive performance of 0.8956 (3rd) and 0.9632 (7th) strict and relaxed mean Average Precision, respectively.",
+            "aminer_id": "6197999a91e011c8223725d1"
+        },
+        "KPA2021-18": {
+            "number": "[14]",
+            "title": "Key Point Analysis Via Contrastive Learning and Extractive Argument Summarization",
+            "text": "title = \"Key Point Analysis via Contrastive Learning and Extractive Argument Summarization\",\n    author = \"Alshomary, Milad  and\n      Gurcke, Timon and\n      Syed, Shahbaz and\n      Heinisch, Philipp and\n      Spliethöver, Maximilian and\n      Cimiano, Philipp and\n      Potthast, Martin and\n      Wachsmuth, Henning\",\n    booktitle = \"Proceedings of the 8th Workshop on Argument Mining\",\n    month = Nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Key Point Analysis via Contrastive Learning and Extractive Argument Summarization",
+                "author": "Alshomary, Milad and Gurcke, Timon and Syed, Shahbaz and Heinisch, Philipp and Spliethöver, Maximilian and Cimiano, Philipp and Potthast, Martin and Wachsmuth, Henning",
+                "booktitle": "Proceedings of the 8th Workshop on Argument Mining",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "Key point analysis is the task of extracting a set of concise and high-level statements from a given collection of arguments, representing the gist of these arguments. This paper presents our proposed approach to the Key Point Analysis Shared Task, colocated with the 8th Workshop on Argument Mining. The approach integrates two complementary components. One component employs contrastive learning via a siamese neural network for matching arguments to key points; the other is a graph-based extractive summarization model for generating key points. In both automatic and manual evaluation, our approach was ranked best among all submissions to the shared task.",
+            "aminer_id": "61567c6a5244ab9dcb07f4e3"
+        },
+        "KPA2021-27": {
+            "number": "[15]",
+            "title": "Key Point Matching with Transformers",
+            "text": "title = \"Key point matching with transformers\",\n    author = \"Cosenza, Emanuele\",\n    booktitle = \"Proceedings of the 8th Workshop on Argument Mining\",\n    month = Nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Key point matching with transformers",
+                "author": "Cosenza, Emanuele",
+                "booktitle": "Proceedings of the 8th Workshop on Argument Mining",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "This work aims at describing a solution for the Track 1 of the KPA 2021 shared task, analyzing different methodologies for the specific problem of key point matching. The analysis focuses on transformer based architectures, experimentally investigating the effectiveness of variants specifically tailored to the task.",
+            "aminer_id": "6197999a91e011c8223725c6"
+        },
+        "KPA2021-31": {
+            "number": "[16]",
+            "title": "Team Enigma at ArgMining-EMNLP 2021: Leveraging Pre-trained Language Models for Key Point Matching",
+            "text": "title = \"Team Enigma at ArgMining-EMNLP 2021: Leveraging Pre-trained Language Models for Key Point Matching\",\n    author = \"Kapadnis, Manav Nitin  and\n      Patnaik, Sohan and\n      Panigrahi, Siba Smarak and\n      Madhavan, Varun and\n      Nandy, Abhilash\",\n    booktitle = \"Proceedings of the 8th Workshop on Argument Mining\",\n    month = Nov,\n    year = \"2021\",\n    address = \"Online\",\n    publisher = \"Association for Computational Linguistics\",",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Team Enigma at ArgMining-EMNLP 2021: Leveraging Pre-trained Language Models for Key Point Matching",
+                "author": "Kapadnis, Manav Nitin and Patnaik, Sohan and Panigrahi, Siba Smarak and Madhavan, Varun and Nandy, Abhilash",
+                "booktitle": "Proceedings of the 8th Workshop on Argument Mining",
+                "year": "2021",
+                "address": "Online",
+                "publisher": "Association for Computational Linguistics"
+            },
+            "ref_source": "bib",
+            "abstract": "We present the system description for our submission towards the Key Point Analysis Shared Task at ArgMining 2021. Track 1 of the shared task requires participants to develop methods to predict the match score between each pair of arguments and keypoints, provided they belong to the same topic under the same stance. We leveraged existing state of the art pre-trained language models along with incorporating additional data and features extracted from the inputs (topics, key points, and arguments) to improve performance. We were able to achieve mAP strict and mAP relaxed score of 0.872 and 0.966 respectively in the evaluation phase, securing 5th place on the leaderboard. In the post evaluation phase, we achieved a mAP strict and mAP relaxed score of 0.921 and 0.982 respectively. All the codes to generate reproducible results on our models are available on Github.",
+            "aminer_id": "617771bd5244ab9dcbe79620"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 16,
+        "citation_types": {
+            "other": 16
+        }
+    }
+}

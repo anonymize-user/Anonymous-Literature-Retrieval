@@ -1,0 +1,1671 @@
+{
+    "topic": "Agentic AI for Scientific Discovery: A Survey of Progress, Challenges,\n  and Future Directions",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[27]",
+                "[87]",
+                "[13]",
+                "[43]",
+                "[11]",
+                "[20]",
+                "[42]",
+                "[41]",
+                "[44]",
+                "[23]",
+                "[18]",
+                "[86]",
+                "[12]"
+            ],
+            "subsections": [],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Agentic AI: Foundations and Key Concepts",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Definition and Characteristics",
+                    "refs": [
+                        "[85]",
+                        "[84]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Single Agent vs. Multi-Agents",
+                    "refs": [
+                        "[63]",
+                        "[41]",
+                        "[65]",
+                        "[82]",
+                        "[59]",
+                        "[64]",
+                        "[53]",
+                        "[14]",
+                        "[42]",
+                        "[58]",
+                        "[62]",
+                        "[83]",
+                        "[49]",
+                        "[13]",
+                        "[28]",
+                        "[78]",
+                        "[29]",
+                        "[61]",
+                        "[3]",
+                        "[50]",
+                        "[86]",
+                        "[52]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Taxonomy of Agentic AI for Scientific Discovery",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Fully Autonomous Systems",
+                    "refs": [
+                        "[82]",
+                        "[2]",
+                        "[1]",
+                        "[45]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Human-AI Collaborative Systems",
+                    "refs": [
+                        "[48]",
+                        "[28]",
+                        "[41]",
+                        "[47]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Agentic AI for Literature Review",
+            "refs": [
+                "[87]",
+                "[43]",
+                "[41]",
+                "[44]",
+                "[86]"
+            ],
+            "subsections": [],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Agentic AI for Scientific Discovery",
+            "refs": [
+                "[77]",
+                "[41]",
+                "[8]",
+                "[1]",
+                "[10]",
+                "[82]",
+                "[53]",
+                "[60]",
+                "[51]",
+                "[42]",
+                "[7]",
+                "[40]",
+                "[2]",
+                "[5]",
+                "[79]",
+                "[81]",
+                "[45]",
+                "[28]",
+                "[4]",
+                "[66]",
+                "[78]",
+                "[46]",
+                "[29]",
+                "[6]",
+                "[57]",
+                "[55]",
+                "[54]",
+                "[9]",
+                "[52]",
+                "[80]"
+            ],
+            "subsections": [],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Implementation Tools, Datasets and Metrics",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Implementation Tools",
+                    "refs": [
+                        "[35]",
+                        "[38]",
+                        "[37]",
+                        "[36]",
+                        "[39]"
+                    ],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Datasets",
+                    "refs": [
+                        "[70]",
+                        "[67]",
+                        "[75]",
+                        "[56]",
+                        "[74]",
+                        "[72]",
+                        "[69]",
+                        "[76]",
+                        "[71]",
+                        "[73]",
+                        "[68]",
+                        "[29]"
+                    ],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Metrics",
+                    "refs": [
+                        "[41]"
+                    ],
+                    "subsections": [],
+                    "number": "6.3",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Challenges and Open Problems",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Trustworthiness",
+                    "refs": [
+                        "[33]",
+                        "[30]",
+                        "[34]"
+                    ],
+                    "subsections": [],
+                    "number": "7.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Ethical and Practical Considerations",
+                    "refs": [
+                        "[31]",
+                        "[32]"
+                    ],
+                    "subsections": [],
+                    "number": "7.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Potential Risks",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "7.3",
+                    "level": 2
+                }
+            ],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion and Future Directions",
+            "refs": [
+                "[42]",
+                "[41]",
+                "[29]"
+            ],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        }
+    ],
+    "references": {
+        "boiko2023autonomous": {
+            "number": "[1]",
+            "title": "Autonomous Chemical Research with Large Language Models",
+            "text": "title={Autonomous chemical research with large language models},\n  author={Boiko, Daniil A and MacKnight, Robert and Kline, Ben and Gomes, Gabe},\n  journal={Nature},\n  volume={624},\n  number={7992},\n  pages={570--578},\n  year={2023},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "Autonomous chemical research with large language models",
+                "author": "Boiko, Daniil A and MacKnight, Robert and Kline, Ben and Gomes, Gabe",
+                "journal": "Nature",
+                "volume": "624",
+                "number": "7992",
+                "pages": "570--578",
+                "year": "2023",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "Transformer-based large language models are making significant strides in various fields, such as natural language processing1-5, biology6,7, chemistry8-10 and computer programming11,12. Here, we show the development and capabilities of Coscientist, an artificial intelligence system driven by GPT-4 that autonomously designs, plans and performs complex experiments by incorporating large language models empowered by tools such as internet and documentation search, code execution and experimental automation. Coscientist showcases its potential for accelerating research across six diverse tasks, including the successful reaction optimization of palladium-catalysed cross-couplings, while exhibiting advanced capabilities for (semi-)autonomous experimental design and execution. Our findings demonstrate the versatility, efficacy and explainability of artificial intelligence systems like Coscientist in advancing research.",
+            "aminer_id": "658339ef939a5f4082153b60"
+        },
+        "m2024augmenting": {
+            "number": "[2]",
+            "title": "Augmenting Large Language Models with Chemistry Tools",
+            "text": "title={Augmenting large language models with chemistry tools},\n  author={M. Bran, Andres and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe},\n  journal={Nature Machine Intelligence},\n  pages={1--11},\n  year={2024},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "Augmenting large language models with chemistry tools",
+                "author": "M. Bran, Andres and Cox, Sam and Schilter, Oliver and Baldassari, Carlo and White, Andrew D and Schwaller, Philippe",
+                "journal": "Nature Machine Intelligence",
+                "pages": "1--11",
+                "year": "2024",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "Over the last decades, excellent computational chemistry tools have been developed. Integrating them into a single platform with enhanced accessibility could help reaching their full potential by overcoming steep learning curves. Recently, large-language models (LLMs) have shown strong performance in tasks across domains, but struggle with chemistry-related problems. Moreover, these models lack access to external knowledge sources, limiting their usefulness in scientific applications. In this study, we introduce ChemCrow, an LLM chemistry agent designed to accomplish tasks across organic synthesis, drug discovery, and materials design. By integrating 18 expert-designed tools, ChemCrow augments the LLM performance in chemistry, and new capabilities emerge. Our agent autonomously planned and executed the syntheses of an insect repellent, three organocatalysts, and guided the discovery of a novel chromophore. Our evaluation, including both LLM and expert assessments, demonstrates ChemCrow's effectiveness in automating a diverse set of chemical tasks. Surprisingly, we find that GPT-4 as an evaluator cannot distinguish between clearly wrong GPT-4 completions and Chemcrow's performance. Our work not only aids expert chemists and lowers barriers for non-experts, but also fosters scientific advancement by bridging the gap between experimental and computational chemistry.",
+            "aminer_id": "643621a290e50fcafd666706"
+        },
+        "white2024building": {
+            "number": "[3]",
+            "title": "Building Living Software Systems with Generative Agentic AI",
+            "text": "title={Building Living Software Systems with Generative \\& Agentic AI},\n  author={White, Jules},\n  journal={arXiv preprint arXiv:2408.01768},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Building Living Software Systems with Generative \\& Agentic AI",
+                "author": "White, Jules",
+                "journal": "arXiv preprint arXiv:2408.01768",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "This paper is an opinion paper that looks at the future of computing in the age of Generative & Agentic AI. Current software systems are static and inflexible, leading to significant challenges in translating human goals into computational actions. \"Living software systems\" powered by generative AI offer a solution to this fundamental problem in computing. Traditional software development involves multiple layers of imperfect translation, from business requirements to code, resulting in rigid systems that struggle to adapt to changing user needs and contexts. Generative AI, particularly large language models, can serve as a universal translator between human intent and computer operations. This approach enables the creation of more flexible, context-aware systems that can dynamically evolve to meet user goals. Two pathways for implementing living software systems are explored: using generative AI to accelerate traditional software development, and leveraging agentic AI to create truly adaptive systems. New skills like Prompt Engineering are necessary. By reimagining software as a living, adaptable entity, we can create computing interfaces that are more intuitive, powerful, and responsive to human needs.",
+            "aminer_id": "66b1845f01d2a3fbfc5fbeb3"
+        },
+        "chan273233550mle": {
+            "number": "[4]",
+            "title": "Mle-bench: Evaluating machine learning agents on machine learning engineering. 2024",
+            "text": "title={Mle-bench: Evaluating machine learning agents on machine learning engineering. 2024},\n  author={Chan, Jun Shern and Chowdhury, Neil and Jaffe, Oliver and Aung, James and Sherburn, Dane and Mays, Evan and Starace, Giulio and Liu, Kevin and Maksin, Leon and Patwardhan, Tejal A and others},\n  journal={URL https://api. semanticscholar. org/CorpusID},\n  volume={273233550}",
+            "type": "article",
+            "fields": {
+                "title": "Mle-bench: Evaluating machine learning agents on machine learning engineering. 2024",
+                "author": "Chan, Jun Shern and Chowdhury, Neil and Jaffe, Oliver and Aung, James and Sherburn, Dane and Mays, Evan and Starace, Giulio and Liu, Kevin and Maksin, Leon and Patwardhan, Tejal A and others",
+                "journal": "URL https://api. semanticscholar. org/CorpusID",
+                "volume": "273233550"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "li2024mlr": {
+            "number": "[5]",
+            "title": "MLR-Copilot: Autonomous Machine Learning Research Based on Large Language Models Agents",
+            "text": "title={Mlr-copilot: Autonomous machine learning research based on large language models agents},\n  author={Li, Ruochen and Patel, Teerth and Wang, Qingyun and Du, Xinya},\n  journal={arXiv preprint arXiv:2408.14033},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Mlr-copilot: Autonomous machine learning research based on large language models agents",
+                "author": "Li, Ruochen and Patel, Teerth and Wang, Qingyun and Du, Xinya",
+                "journal": "arXiv preprint arXiv:2408.14033",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Machine learning research, crucial for technological advancements and innovation, often faces significant challenges due to its inherent complexity, slow pace of experimentation, and the necessity for specialized expertise. Motivated by this, we present a new systematic framework, autonomous Machine Learning Research with large language models (MLR-Copilot), designed to enhance machine learning research productivity through the automatic generation and implementation of research ideas using Large Language Model (LLM) agents. The framework consists of three phases: research idea generation, experiment implementation, and implementation execution. First, existing research papers are used to generate hypotheses and experimental plans vis IdeaAgent powered by LLMs. Next, the implementation generation phase translates these plans into executables with ExperimentAgent. This phase leverages retrieved prototype code and optionally retrieves candidate models and data. Finally, the execution phase, also managed by ExperimentAgent, involves running experiments with mechanisms for human feedback and iterative debugging to enhance the likelihood of achieving executable research outcomes. We evaluate our framework on five machine learning research tasks and the experimental results show the framework's potential to facilitate the research progress and innovations.",
+            "aminer_id": "66cd324101d2a3fbfc7bac06"
+        },
+        "huang2024mlagentbench": {
+            "number": "[6]",
+            "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+            "text": "title={MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation},\n  author={Huang, Qian and Vora, Jian and Liang, Percy and Leskovec, Jure},\n  booktitle={Forty-first International Conference on Machine Learning},\n  year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "MLAgentBench: Evaluating Language Agents on Machine Learning Experimentation",
+                "author": "Huang, Qian and Vora, Jian and Liang, Percy and Leskovec, Jure",
+                "booktitle": "Forty-first International Conference on Machine Learning",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "A central aspect of machine learning research is experimentation, the process of designing and running experiments, analyzing the results, and iterating towards some positive outcome (e.g., improving accuracy). Could agents driven by powerful language models perform machine learning experimentation effectively? To answer this question, we introduce MLAgentBench, a suite of 13 tasks ranging from improving model performance on CIFAR-10 to recent research problems like BabyLM. For each task, an agent can perform actions like reading/writing files, executing code, and inspecting outputs. We then construct an agent that can perform ML experimentation based on ReAct framework. We benchmark agents based on Claude v1.0, Claude v2.1, Claude v3 Opus, GPT-4, GPT-4-turbo, Gemini-Pro, and Mixtral and find that a Claude v3 Opus agent is the best in terms of success rate. It can build compelling ML models over many tasks in MLAgentBench with 37.5% average success rate. Our agents also display highly interpretable plans and actions. However, the success rates vary considerably; they span from 100% on well-established older datasets to as low as 0% on recent Kaggle challenges created potentially after the underlying LM was trained. Finally, we identify several key challenges for LM-based agents such as long-term planning and reducing hallucination.",
+            "aminer_id": "651f6e093fda6d7f06d0c5bb"
+        },
+        "qi2023large": {
+            "number": "[7]",
+            "title": "Large Language Models Are Zero Shot Hypothesis Proposers",
+            "text": "title={Large language models are zero shot hypothesis proposers},\n  author={Qi, Biqing and Zhang, Kaiyan and Li, Haoxiang and Tian, Kai and Zeng, Sihang and Chen, Zhang-Ren and Zhou, Bowen},\n  journal={arXiv preprint arXiv:2311.05965},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Large language models are zero shot hypothesis proposers",
+                "author": "Qi, Biqing and Zhang, Kaiyan and Li, Haoxiang and Tian, Kai and Zeng, Sihang and Chen, Zhang-Ren and Zhou, Bowen",
+                "journal": "arXiv preprint arXiv:2311.05965",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Significant scientific discoveries have driven the progress of human civilisation. The explosion of scientific literature and data has created information barriers across disciplines that have slowed the pace of scientific discovery. Large Language Models (LLMs) hold a wealth of global and interdisciplinary knowledge that promises to break down these information barriers and foster a new wave of scientific discovery. However, the potential of LLMs for scientific discovery has not been formally explored. In this paper, we start from investigating whether LLMs can propose scientific hypotheses. To this end, we construct a dataset consist of background knowledge and hypothesis pairs from biomedical literature. The dataset is divided into training, seen, and unseen test sets based on the publication date to control visibility. We subsequently evaluate the hypothesis generation capabilities of various top-tier instructed models in zero-shot, few-shot, and fine-tuning settings, including both closed and open-source LLMs. Additionally, we introduce an LLM-based multi-agent cooperative framework with different role designs and external tools to enhance the capabilities related to generating hypotheses. We also design four metrics through a comprehensive review to evaluate the generated hypotheses for both ChatGPT-based and human evaluations. Through experiments and analyses, we arrive at the following findings: 1) LLMs surprisingly generate untrained yet validated hypotheses from testing literature. 2) Increasing uncertainty facilitates candidate generation, potentially enhancing zero-shot hypothesis generation capabilities. These findings strongly support the potential of LLMs as catalysts for new scientific discoveries and guide further exploration.",
+            "aminer_id": "65518a12939a5f4082a6274a"
+        },
+        "kumbhar2025hypothesis": {
+            "number": "[8]",
+            "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+            "text": "title={Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents},\n  author={Kumbhar, Shrinidhi and Mishra, Venkatesh and Coutinho, Kevin and Handa, Divij and Iquebal, Ashif and Baral, Chitta},\n  journal={arXiv preprint arXiv:2501.13299},\n  year={2025}",
+            "type": "article",
+            "fields": {
+                "title": "Hypothesis Generation for Materials Discovery and Design Using Goal-Driven and Constraint-Guided LLM Agents",
+                "author": "Kumbhar, Shrinidhi and Mishra, Venkatesh and Coutinho, Kevin and Handa, Divij and Iquebal, Ashif and Baral, Chitta",
+                "journal": "arXiv preprint arXiv:2501.13299",
+                "year": "2025"
+            },
+            "ref_source": "bib",
+            "abstract": "Materials discovery and design are essential for advancing technology across various industries by enabling the development of application-specific materials. Recent research has leveraged Large Language Models (LLMs) to accelerate this process. We explore the potential of LLMs to generate viable hypotheses that, once validated, can expedite materials discovery. Collaborating with materials science experts, we curated a novel dataset from recent journal publications, featuring real-world goals, constraints, and methods for designing real-world applications. Using this dataset, we test LLM-based agents that generate hypotheses for achieving given goals under specific constraints. To assess the relevance and quality of these hypotheses, we propose a novel scalable evaluation metric that emulates the process a materials scientist would use to evaluate a hypothesis critically. Our curated dataset, proposed method, and evaluation framework aim to advance future research in accelerating materials discovery and design with LLMs.",
+            "aminer_id": "67930045ae8580e7ffd1c5eb"
+        },
+        "yang2024moose": {
+            "number": "[9]",
+            "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+            "text": "title={MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses},\n  author={Yang, Zonglin and Liu, Wanhao and Gao, Ben and Xie, Tong and Li, Yuqiang and Ouyang, Wanli and Poria, Soujanya and Cambria, Erik and Zhou, Dongzhan},\n  journal={arXiv preprint arXiv:2410.07076},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "MOOSE-Chem: Large Language Models for Rediscovering Unseen Chemistry Scientific Hypotheses",
+                "author": "Yang, Zonglin and Liu, Wanhao and Gao, Ben and Xie, Tong and Li, Yuqiang and Ouyang, Wanli and Poria, Soujanya and Cambria, Erik and Zhou, Dongzhan",
+                "journal": "arXiv preprint arXiv:2410.07076",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Scientific discovery contributes largely to the prosperity of human society, and recent progress shows that LLMs could potentially catalyst the process. However, it is still unclear whether LLMs can discover novel and valid hypotheses in chemistry. In this work, we investigate this main research question: whether LLMs can automatically discover novel and valid chemistry research hypotheses, given only a research question? With extensive discussions with chemistry experts, we adopt the assumption that a majority of chemistry hypotheses can be resulted from a research background question and several inspirations. With this key insight, we break the main question into three smaller fundamental questions. In brief, they are: (1) given a background question, whether LLMs can retrieve good inspirations; (2) with background and inspirations, whether LLMs can lead to hypothesis; and (3) whether LLMs can identify good hypotheses to rank them higher. To investigate these questions, we construct a benchmark consisting of 51 chemistry papers published in Nature or a similar level in 2024 (all papers are only available online since 2024). Every paper is divided by chemistry PhD students into three components: background, inspirations, and hypothesis. The goal is to rediscover the hypothesis given only the background and a large chemistry literature corpus consisting the ground truth inspiration papers, with LLMs trained with data up to 2023. We also develop an LLM-based multi-agent framework that leverages the assumption, consisting of three stages reflecting the more smaller questions. The proposed method can rediscover many hypotheses with very high similarity with the ground truth ones, covering the main innovations.",
+            "aminer_id": "67073df201d2a3fbfc539b81"
+        },
+        "yang2023large": {
+            "number": "[10]",
+            "title": "Large Language Models for Automated Open-domain Scientific Hypotheses Discovery",
+            "text": "title={Large language models for automated open-domain scientific hypotheses discovery},\n  author={Yang, Zonglin and Du, Xinya and Li, Junxian and Zheng, Jie and Poria, Soujanya and Cambria, Erik},\n  journal={arXiv preprint arXiv:2309.02726},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Large language models for automated open-domain scientific hypotheses discovery",
+                "author": "Yang, Zonglin and Du, Xinya and Li, Junxian and Zheng, Jie and Poria, Soujanya and Cambria, Erik",
+                "journal": "arXiv preprint arXiv:2309.02726",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Hypothetical induction is recognized as the main reasoning type whenscientists make observations about the world and try to propose hypotheses toexplain those observations. Past research on hypothetical induction is under aconstrained setting: (1) the observation annotations in the dataset arecarefully manually handpicked sentences (resulting in a close-domain setting);and (2) the ground truth hypotheses are mostly commonsense knowledge, makingthe task less challenging. In this work, we tackle these problems by proposingthe first NLP dataset for social science academic hypotheses discovery,consisting of 50 recent top social science publications; and a raw web corpusthat contains enough information to make it possible to develop all theresearch hypotheses in the 50 papers. The final goal is to create systems thatautomatically generate valid, novel, and helpful scientific hypotheses, givenonly a pile of raw web corpus. Different from the previous settings, the newdataset requires (1) using open-domain data (raw web corpus) as observations;and (2) proposing hypotheses even new to humanity. A multi-module framework isdeveloped for the task, as well as three different feedback mechanisms thatempirically show performance gain over the base framework. Finally, ourframework exhibits superior performance in terms of both GPT-4 based evaluationand expert-based evaluation.To the best of our knowledge, this is the firstwork showing that LLMs are able to generate novel (\"not existing in theliterature\") and valid (\"reflecting reality\") scientific hypotheses.",
+            "aminer_id": "64f933e53fda6d7f067a125e"
+        },
+        "touvron2023llama": {
+            "number": "[11]",
+            "title": "Llama 2: Open Foundation and Fine-Tuned Chat Models",
+            "text": "title={Llama 2: Open foundation and fine-tuned chat models},\n  author={Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others},\n  journal={arXiv preprint arXiv:2307.09288},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Llama 2: Open foundation and fine-tuned chat models",
+                "author": "Touvron, Hugo and Martin, Louis and Stone, Kevin and Albert, Peter and Almahairi, Amjad and Babaei, Yasmine and Bashlykov, Nikolay and Batra, Soumya and Bhargava, Prajjwal and Bhosale, Shruti and others",
+                "journal": "arXiv preprint arXiv:2307.09288",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "In this work, we develop and release Llama 2, a collection of pretrained and fine-tuned large language models (LLMs) ranging in scale from 7 billion to 70 billion parameters. Our fine-tuned LLMs, called Llama 2-Chat, are optimized for dialogue use cases. Our models outperform open-source chat models on most benchmarks we tested, and based on our human evaluations for helpfulness and safety, may be a suitable substitute for closed-source models. We provide a detailed description of our approach to fine-tuning and safety improvements of Llama 2-Chat in order to enable the community to build on our work and contribute to the responsible development of LLMs.",
+            "aminer_id": "64b758dd1a5852438b7976ff"
+        },
+        "achiam2023gpt": {
+            "number": "[12]",
+            "title": "GPT-4 Technical Report",
+            "text": "title={Gpt-4 technical report},\n  author={Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others},\n  journal={arXiv preprint arXiv:2303.08774},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Gpt-4 technical report",
+                "author": "Achiam, Josh and Adler, Steven and Agarwal, Sandhini and Ahmad, Lama and Akkaya, Ilge and Aleman, Florencia Leoni and Almeida, Diogo and Altenschmidt, Janko and Altman, Sam and Anadkat, Shyamal and others",
+                "journal": "arXiv preprint arXiv:2303.08774",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "We report the development of GPT-4, a large-scale, multimodal model which can accept image and text inputs and produce text outputs. While less capable than humans in many real-world scenarios, GPT-4 exhibits human-level performance on various professional and academic benchmarks, including passing a simulated bar exam with a score around the top 10% of test takers. GPT-4 is a Transformer-based model pre-trained to predict the next token in a document. The post-training alignment process results in improved performance on measures of factuality and adherence to desired behavior. A core component of this project was developing infrastructure and optimization methods that behave predictably across a wide range of scales. This allowed us to accurately predict some aspects of GPT-4's performance based on models trained with no more than 1/1,000th the compute of GPT-4.",
+            "aminer_id": "687bb8fe163c01c850160670"
+        },
+        "kim2024mdagents": {
+            "number": "[13]",
+            "title": "MDAgents: an Adaptive Collaboration of LLMs for Medical Decision-Making",
+            "text": "title={Mdagents: An adaptive collaboration of llms for medical decision-making},\n  author={Kim, Yubin and Park, Chanwoo and Jeong, Hyewon and Chan, Yik Siu and Xu, Xuhai and McDuff, Daniel and Lee, Hyeonhoon and Ghassemi, Marzyeh and Breazeal, Cynthia and Park, Hae Won},\n  booktitle={The Thirty-eighth Annual Conference on Neural Information Processing Systems},\n  year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mdagents: An adaptive collaboration of llms for medical decision-making",
+                "author": "Kim, Yubin and Park, Chanwoo and Jeong, Hyewon and Chan, Yik Siu and Xu, Xuhai and McDuff, Daniel and Lee, Hyeonhoon and Ghassemi, Marzyeh and Breazeal, Cynthia and Park, Hae Won",
+                "booktitle": "The Thirty-eighth Annual Conference on Neural Information Processing Systems",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Foundation models are becoming valuable tools in medicine. Yet despite their promise, the best way to leverage Large Language Models (LLMs) in complex medical tasks remains an open question. We introduce a novel multi-agent framework, named **M**edical **D**ecision-making **Agents** (**MDAgents**) that helps to address this gap by automatically assigning a collaboration structure to a team of LLMs. The assigned solo or group collaboration structure is tailored to the medical task at hand, a simple emulation inspired by the way real-world medical decision-making processes are adapted to tasks of different complexities. We evaluate our framework and baseline methods using state-of-the-art LLMs across a suite of real-world medical knowledge and clinical diagnosis benchmarks, including a comparison of LLMs’ medical complexity classification against human physicians. MDAgents achieved the **best performance in seven out of ten** benchmarks on tasks requiring an understanding of medical knowledge and multi-modal reasoning, showing a significant **improvement of up to 4.2\\%** ($p$ < 0.05) compared to previous methods' best performances. Ablation studies reveal that MDAgents effectively determines medical complexity to optimize for efficiency and accuracy across diverse medical tasks. Notably, the combination of moderator review and external medical knowledge in group collaboration resulted in an average accuracy **improvement of 11.8\\%**. Our code can be found at https://github.com/mitmedialab/MDAgents.",
+            "aminer_id": "66286ca801d2a3fbfc3631e1"
+        },
+        "tang-etal-2024-medagents": {
+            "number": "[14]",
+            "title": "MedAgents: Large Language Models As Collaborators for Zero-shot Medical Reasoning",
+            "text": "title = \"{M}ed{A}gents: Large Language Models as Collaborators for Zero-shot Medical Reasoning\",\n    author = \"Tang, Xiangru  and\n      Zou, Anni  and\n      Zhang, Zhuosheng  and\n      Li, Ziming  and\n      Zhao, Yilun  and\n      Zhang, Xingyao  and\n      Cohan, Arman  and\n      Gerstein, Mark\",\n    editor = \"Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek\",\n    booktitle = \"Findings of the Association for Computational Linguistics: ACL 2024\",\n    month = aug,\n    year = \"2024\",\n    address = \"Bangkok, Thailand\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.findings-acl.33/\",\n    doi = \"10.18653/v1/2024.findings-acl.33\",\n    pages = \"599--621\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{M}ed{A}gents: Large Language Models as Collaborators for Zero-shot Medical Reasoning",
+                "author": "Tang, Xiangru and Zou, Anni and Zhang, Zhuosheng and Li, Ziming and Zhao, Yilun and Zhang, Xingyao and Cohan, Arman and Gerstein, Mark",
+                "editor": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+                "booktitle": "Findings of the Association for Computational Linguistics: ACL 2024",
+                "year": "2024",
+                "address": "Bangkok, Thailand",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2024.findings-acl.33/",
+                "doi": "10.18653/v1/2024.findings-acl.33",
+                "pages": "599--621"
+            },
+            "ref_source": "bib",
+            "abstract": "Large language models (LLMs), despite their remarkable progress across various general domains, encounter significant barriers in medicine and healthcare. This field faces unique challenges such as domain-specific terminologies and reasoning over specialized knowledge. To address these issues, we propose MedAgents, a novel multi-disciplinary collaboration framework for the medical domain. MedAgents leverages LLM-based agents in a role-playing setting that participate in a collaborative multi-round discussion, thereby enhancing LLM proficiency and reasoning capabilities. This training-free framework encompasses five critical steps: gathering domain experts, proposing individual analyses, summarising these analyses into a report, iterating over discussions until a consensus is reached, and ultimately making a decision. Our work focuses on the zero-shot setting, which is applicable in real-world scenarios. Experimental results on nine datasets (MedQA, MedMCQA, PubMedQA, and six subtasks from MMLU) establish that our proposed MedAgents framework excels at mining and harnessing the medical expertise within LLMs, as well as extending its reasoning abilities. Our code can be found at https://github.com/gersteinlab/MedAgents.",
+            "aminer_id": "655ac3da939a5f4082e23ad1"
+        },
+        "liu2024medchain": {
+            "number": "[15]",
+            "title": "Medchain: Bridging the Gap Between LLM Agents and Clinical Practice Through Interactive Sequential Benchmarking.",
+            "text": "title={Medchain: Bridging the Gap Between LLM Agents and Clinical Practice through Interactive Sequential Benchmarking},\n  author={Liu, Jie and Wang, Wenxuan and Ma, Zizhan and Huang, Guolin and SU, Yihang and Chang, Kao-Jung and Chen, Wenting and Li, Haoliang and Shen, Linlin and Lyu, Michael},\n  journal={arXiv preprint arXiv:2412.01605},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Medchain: Bridging the Gap Between LLM Agents and Clinical Practice through Interactive Sequential Benchmarking",
+                "author": "Liu, Jie and Wang, Wenxuan and Ma, Zizhan and Huang, Guolin and SU, Yihang and Chang, Kao-Jung and Chen, Wenting and Li, Haoliang and Shen, Linlin and Lyu, Michael",
+                "journal": "arXiv preprint arXiv:2412.01605",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Clinical decision making (CDM) is a complex, dynamic process crucial to healthcare delivery, yet it remains a significant challenge for artificial intelligence systems. While Large Language Model (LLM)-based agents have been tested on general medical knowledge using licensing exams and knowledge question-answering tasks, their performance in the CDM in real-world scenarios is limited due to the lack of comprehensive testing datasets that mirror actual medical practice. To address this gap, we present MedChain, a dataset of 12,163 clinical cases that covers five key stages of clinical workflow. MedChain distinguishes itself from existing benchmarks with three key features of real-world clinical practice: personalization, interactivity, and sequentiality. Further, to tackle real-world CDM challenges, we also propose MedChain-Agent, an AI system that integrates a feedback mechanism and a MCase-RAG module to learn from previous cases and adapt its responses. MedChain-Agent demonstrates remarkable adaptability in gathering information dynamically and handling sequential clinical tasks, significantly outperforming existing approaches.",
+            "aminer_id": "674e7a10ae8580e7ffa76140"
+        },
+        "chen2024rareagents": {
+            "number": "[16]",
+            "title": "RareAgents: Autonomous Multi-disciplinary Team for Rare Disease Diagnosis and Treatment",
+            "text": "title={RareAgents: Autonomous Multi-disciplinary Team for Rare Disease Diagnosis and Treatment},\n  author={Chen, Xuanzhong and Jin, Ye and Mao, Xiaohao and Wang, Lun and Zhang, Shuyang and Chen, Ting},\n  journal={arXiv preprint arXiv:2412.12475},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "RareAgents: Autonomous Multi-disciplinary Team for Rare Disease Diagnosis and Treatment",
+                "author": "Chen, Xuanzhong and Jin, Ye and Mao, Xiaohao and Wang, Lun and Zhang, Shuyang and Chen, Ting",
+                "journal": "arXiv preprint arXiv:2412.12475",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "676382b7ae8580e7ff1ef83e"
+        },
+        "jimenez2023swe": {
+            "number": "[17]",
+            "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+            "text": "title={Swe-bench: Can language models resolve real-world github issues?},\n  author={Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik},\n  journal={arXiv preprint arXiv:2310.06770},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Swe-bench: Can language models resolve real-world github issues?",
+                "author": "Jimenez, Carlos E and Yang, John and Wettig, Alexander and Yao, Shunyu and Pei, Kexin and Press, Ofir and Narasimhan, Karthik",
+                "journal": "arXiv preprint arXiv:2310.06770",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Language models have outpaced our ability to evaluate them effectively, but for their future development it is essential to study the frontier of their capabilities. We find real-world software engineering to be a rich, sustainable, and challenging testbed for evaluating the next generation of language models. To this end, we introduce SWE-bench, an evaluation framework consisting of $2,294$ software engineering problems drawn from real GitHub issues and corresponding pull requests across $12$ popular Python repositories. Given a codebase along with a description of an issue to be resolved, a language model is tasked with editing the codebase to address the issue. Resolving issues in SWE-bench frequently requires understanding and coordinating changes across multiple functions, classes, and even files simultaneously, calling for models to interact with execution environments, process extremely long contexts and perform complex reasoning that goes far beyond traditional code generation tasks. Our evaluations show that both state-of-the-art proprietary models and our fine-tuned model SWE-Llama can resolve only the simplest issues. The best-performing model, Claude 2, is able to solve a mere $1.96$% of the issues. Advances on SWE-bench represent steps towards LMs that are more practical, intelligent, and autonomous.",
+            "aminer_id": "6526241b939a5f4082bc3628"
+        },
+        "wang2024opendevin": {
+            "number": "[18]",
+            "title": "Opendevin: An open platform for ai software developers as generalist agents",
+            "text": "title={Opendevin: An open platform for ai software developers as generalist agents},\n  author={Wang, Xingyao and Li, Boxuan and Song, Yufan and Xu, Frank F and Tang, Xiangru and Zhuge, Mingchen and Pan, Jiayi and Song, Yueqi and Li, Bowen and Singh, Jaskirat and others},\n  journal={arXiv preprint arXiv:2407.16741},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Opendevin: An open platform for ai software developers as generalist agents",
+                "author": "Wang, Xingyao and Li, Boxuan and Song, Yufan and Xu, Frank F and Tang, Xiangru and Zhuge, Mingchen and Pan, Jiayi and Song, Yueqi and Li, Bowen and Singh, Jaskirat and others",
+                "journal": "arXiv preprint arXiv:2407.16741",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "yang2024swe": {
+            "number": "[19]",
+            "title": "SWE-agent: Agent-Computer Interfaces Enable Automated Software Engineering",
+            "text": "title={Swe-agent: Agent-computer interfaces enable automated software engineering},\n  author={Yang, John and Jimenez, Carlos E and Wettig, Alexander and Lieret, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir},\n  journal={arXiv preprint arXiv:2405.15793},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Swe-agent: Agent-computer interfaces enable automated software engineering",
+                "author": "Yang, John and Jimenez, Carlos E and Wettig, Alexander and Lieret, Kilian and Yao, Shunyu and Narasimhan, Karthik and Press, Ofir",
+                "journal": "arXiv preprint arXiv:2405.15793",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Language model agents are increasingly being used to automate complicated tasks in digital environments. Just as humans benefit from powerful software applications, such as integrated development environments, for complex tasks like software engineering, we posit that language model agents represent a new category of end users with their own needs and abilities, and would benefit from specially built interfaces to the software they use. We investigate how the role of interface design affects the performance of language model agents. As a result of this exploration, we introduce SWE-agent: a system that facilitates language model agents to autonomously use computers to solve software engineering tasks. SWE-agent's custom agent-computer interface significantly enhances an agent's ability to create and edit code files, navigate entire repositories, and execute tests and other programs. We evaluate SWE-agent on SWE-bench and HumanEvalFix, achieving state-of-the-art performance on both with a pass@1 rate of 12.5% and 87.7%, respectively, far exceeding the previous state-of-the-art achieved with non-interactive language models. Finally, we provide insight on how the design of the agent-computer interface can impact agents' behavior and performance.",
+            "aminer_id": "66553ae801d2a3fbfc9f8c45"
+        },
+        "abramovich2024enigma": {
+            "number": "[20]",
+            "title": "EnIGMA: Enhanced Interactive Generative Model Agent for CTF Challenges",
+            "text": "title={EnIGMA: Enhanced Interactive Generative Model Agent for CTF Challenges},\n  author={Abramovich, Talor and Udeshi, Meet and Shao, Minghao and Lieret, Kilian and Xi, Haoran and Milner, Kimberly and Jancheska, Sofija and Yang, John and Jimenez, Carlos E and Khorrami, Farshad and others},\n  journal={arXiv preprint arXiv:2409.16165},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "EnIGMA: Enhanced Interactive Generative Model Agent for CTF Challenges",
+                "author": "Abramovich, Talor and Udeshi, Meet and Shao, Minghao and Lieret, Kilian and Xi, Haoran and Milner, Kimberly and Jancheska, Sofija and Yang, John and Jimenez, Carlos E and Khorrami, Farshad and others",
+                "journal": "arXiv preprint arXiv:2409.16165",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "fang2024llm": {
+            "number": "[21]",
+            "title": "LLM Agents Can Autonomously Hack Websites",
+            "text": "title={Llm agents can autonomously hack websites},\n  author={Fang, Richard and Bindu, Rohan and Gupta, Akul and Zhan, Qiusi and Kang, Daniel},\n  journal={arXiv preprint arXiv:2402.06664},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Llm agents can autonomously hack websites",
+                "author": "Fang, Richard and Bindu, Rohan and Gupta, Akul and Zhan, Qiusi and Kang, Daniel",
+                "journal": "arXiv preprint arXiv:2402.06664",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "In recent years, large language models (LLMs) have become increasinglycapable and can now interact with tools (i.e., call functions), read documents,and recursively call themselves. As a result, these LLMs can now functionautonomously as agents. With the rise in capabilities of these agents, recentwork has speculated on how LLM agents would affect cybersecurity. However, notmuch is known about the offensive capabilities of LLM agents.  In this work, we show that LLM agents can autonomously hack websites,performing tasks as complex as blind database schema extraction and SQLinjections without human feedback. Importantly, the agent does not need to knowthe vulnerability beforehand. This capability is uniquely enabled by frontiermodels that are highly capable of tool use and leveraging extended context.Namely, we show that GPT-4 is capable of such hacks, but existing open-sourcemodels are not. Finally, we show that GPT-4 is capable of autonomously findingvulnerabilities in websites in the wild. Our findings raise questions about thewidespread deployment of LLMs.",
+            "aminer_id": "65cad42a939a5f4082f29807"
+        },
+        "hurst2024gpt": {
+            "number": "[22]",
+            "title": "GPT-4o System Card",
+            "text": "title={Gpt-4o system card},\n  author={Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others},\n  journal={arXiv preprint arXiv:2410.21276},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Gpt-4o system card",
+                "author": "Hurst, Aaron and Lerer, Adam and Goucher, Adam P and Perelman, Adam and Ramesh, Aditya and Clark, Aidan and Ostrow, AJ and Welihinda, Akila and Hayes, Alan and Radford, Alec and others",
+                "journal": "arXiv preprint arXiv:2410.21276",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "GPT-4o is an autoregressive omni model that accepts as input any combination of text, audio, image, and video, and generates any combination of text, audio, and image outputs. It's trained end-to-end across text, vision, and audio, meaning all inputs and outputs are processed by the same neural network. GPT-4o can respond to audio inputs in as little as 232 milliseconds, with an average of 320 milliseconds, which is similar to human response time in conversation. It matches GPT-4 Turbo performance on text in English and code, with significant improvement on text in non-English languages, while also being much faster and 50% cheaper in the API. GPT-4o is especially better at vision and audio understanding compared to existing models. In line with our commitment to building AI safely and consistent with our voluntary commitments to the White House, we are sharing the GPT-4o System Card, which includes our Preparedness Framework evaluations. In this System Card, we provide a detailed look at GPT-4o's capabilities, limitations, and safety evaluations across multiple categories, focusing on speech-to-speech while also evaluating text and image capabilities, and measures we've implemented to ensure the model is safe and aligned. We also include third-party assessments on dangerous capabilities, as well as discussion of potential societal impacts of GPT-4o's text and vision capabilities.",
+            "aminer_id": "67204d3301d2a3fbfc08731e"
+        },
+        "guo2023suspicion": {
+            "number": "[23]",
+            "title": "Suspicion-Agent: Playing Imperfect Information Games with Theory of Mind Aware GPT-4.",
+            "text": "title={Suspicion-agent: Playing imperfect information games with theory of mind aware gpt-4},\n  author={Guo, Jiaxian and Yang, Bo and Yoo, Paul and Lin, Bill Yuchen and Iwasawa, Yusuke and Matsuo, Yutaka},\n  journal={arXiv preprint arXiv:2309.17277},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Suspicion-agent: Playing imperfect information games with theory of mind aware gpt-4",
+                "author": "Guo, Jiaxian and Yang, Bo and Yoo, Paul and Lin, Bill Yuchen and Iwasawa, Yusuke and Matsuo, Yutaka",
+                "journal": "arXiv preprint arXiv:2309.17277",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Unlike perfect information games, where all elements are known to every player, imperfect information games emulate the real-world complexities of decision-making under uncertain or incomplete information. GPT-4, the recent breakthrough in large language models (LLMs) trained on massive passive data, is notable for its knowledge retrieval and reasoning abilities. This paper delves into the applicability of GPT-4's learned knowledge for imperfect information games. To achieve this, we introduce \\textbf{Suspicion-Agent}, an innovative agent that leverages GPT-4's capabilities for performing in imperfect information games. With proper prompt engineering to achieve different functions, Suspicion-Agent based on GPT-4 demonstrates remarkable adaptability across a range of imperfect information card games. Importantly, GPT-4 displays a strong high-order theory of mind (ToM) capacity, meaning it can understand others and intentionally impact others' behavior. Leveraging this, we design a planning strategy that enables GPT-4 to competently play against different opponents, adapting its gameplay style as needed, while requiring only the game rules and descriptions of observations as input. In the experiments, we qualitatively showcase the capabilities of Suspicion-Agent across three different imperfect information games and then quantitatively evaluate it in Leduc Hold'em. The results show that Suspicion-Agent can potentially outperform traditional algorithms designed for imperfect information games, without any specialized training or examples. In order to encourage and foster deeper insights within the community, we make our game-related data publicly available.",
+            "aminer_id": "651a282d3fda6d7f0600a28e"
+        },
+        "zhang-etal-2024-agent": {
+            "number": "[24]",
+            "title": "Agent-Pro: Learning to Evolve Via Policy-Level Reflection and Optimization",
+            "text": "title = \"Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization\",\n    author = \"Zhang, Wenqi  and\n      Tang, Ke  and\n      Wu, Hai  and\n      Wang, Mengna  and\n      Shen, Yongliang  and\n      Hou, Guiyang  and\n      Tan, Zeqi  and\n      Li, Peng  and\n      Zhuang, Yueting  and\n      Lu, Weiming\",\n    editor = \"Ku, Lun-Wei  and\n      Martins, Andre  and\n      Srikumar, Vivek\",\n    booktitle = \"Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)\",\n    month = aug,\n    year = \"2024\",\n    address = \"Bangkok, Thailand\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.acl-long.292/\",\n    doi = \"10.18653/v1/2024.acl-long.292\",\n    pages = \"5348--5375\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Agent-Pro: Learning to Evolve via Policy-Level Reflection and Optimization",
+                "author": "Zhang, Wenqi and Tang, Ke and Wu, Hai and Wang, Mengna and Shen, Yongliang and Hou, Guiyang and Tan, Zeqi and Li, Peng and Zhuang, Yueting and Lu, Weiming",
+                "editor": "Ku, Lun-Wei and Martins, Andre and Srikumar, Vivek",
+                "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "year": "2024",
+                "address": "Bangkok, Thailand",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2024.acl-long.292/",
+                "doi": "10.18653/v1/2024.acl-long.292",
+                "pages": "5348--5375"
+            },
+            "ref_source": "bib",
+            "abstract": "Large Language Models exhibit robust problem-solving capabilities for diversetasks. However, most LLM-based agents are designed as specific task solverswith sophisticated prompt engineering, rather than agents capable of learningand evolving through interactions. These task solvers necessitate manuallycrafted prompts to inform task rules and regulate LLM behaviors, inherentlyincapacitating to address complex dynamic scenarios e.g., large interactivegames. In light of this, we propose Agent-Pro: an LLM-based Agent withPolicy-level Reflection and Optimization that can learn a wealth of expertisefrom interactive experiences and progressively elevate its behavioral policy.Specifically, it involves a dynamic belief generation and reflection processfor policy evolution. Rather than action-level reflection, Agent-Proiteratively reflects on past trajectories and beliefs, fine-tuning itsirrational beliefs for a better policy. Moreover, a depth-first search isemployed for policy optimization, ensuring continual enhancement in policypayoffs. Agent-Pro is evaluated across two games: Blackjack and Texas Hold'em,outperforming vanilla LLM and specialized models. Our results show Agent-Procan learn and evolve in complex and dynamic scenes, which also benefitsnumerous LLM-based applications.",
+            "aminer_id": "65dea27813fb2c6cf65464ad"
+        },
+        "gong2023mindagent": {
+            "number": "[25]",
+            "title": "MindAgent: Emergent Gaming Interaction",
+            "text": "title={Mindagent: Emergent gaming interaction},\n  author={Gong, Ran and Huang, Qiuyuan and Ma, Xiaojian and Vo, Hoi and Durante, Zane and Noda, Yusuke and Zheng, Zilong and Zhu, Song-Chun and Terzopoulos, Demetri and Fei-Fei, Li and others},\n  journal={arXiv preprint arXiv:2309.09971},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Mindagent: Emergent gaming interaction",
+                "author": "Gong, Ran and Huang, Qiuyuan and Ma, Xiaojian and Vo, Hoi and Durante, Zane and Noda, Yusuke and Zheng, Zilong and Zhu, Song-Chun and Terzopoulos, Demetri and Fei-Fei, Li and others",
+                "journal": "arXiv preprint arXiv:2309.09971",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Large Language Models (LLMs) have the capacity of performing complex scheduling in a multi-agent system and can coordinate these agents into completing sophisticated tasks that require extensive collaboration. However, despite the introduction of numerous gaming frameworks, the community has insufficient benchmarks towards building general multi-agents collaboration infrastructure that encompass both LLM and human-NPCs collaborations. In this work, we propose a novel infrastructure - MindAgent - to evaluate planning and coordination emergent capabilities for gaming interaction. In particular, our infrastructure leverages existing gaming framework, to i) require understanding of the coordinator for a multi-agent system, ii) collaborate with human players via un-finetuned proper instructions, and iii) establish an in-context learning on few-shot prompt with feedback. Furthermore, we introduce CUISINEWORLD, a new gaming scenario and related benchmark that dispatch a multi-agent collaboration efficiency and supervise multiple agents playing the game simultaneously. We conduct comprehensive evaluations with new auto-metric CoS for calculating the collaboration efficiency. Finally, our infrastructure can be deployed into real-world gaming scenarios in a customized VR version of CUISINEWORLD and adapted in existing broader Minecraft gaming domain. We hope our findings on LLMs and the new infrastructure for general-purpose scheduling and coordination can help shed light on how such skills can be obtained by learning from large language corpora.",
+            "aminer_id": "650904f23fda6d7f06cd5432"
+        },
+        "wan2024cyberseceval": {
+            "number": "[26]",
+            "title": "CYBERSECEVAL 3: Advancing the Evaluation of Cybersecurity Risks and Capabilities in Large Language Models",
+            "text": "title={Cyberseceval 3: Advancing the evaluation of cybersecurity risks and capabilities in large language models},\n  author={Wan, Shengye and Nikolaidis, Cyrus and Song, Daniel and Molnar, David and Crnkovich, James and Grace, Jayson and Bhatt, Manish and Chennabasappa, Sahana and Whitman, Spencer and Ding, Stephanie and others},\n  journal={arXiv preprint arXiv:2408.01605},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Cyberseceval 3: Advancing the evaluation of cybersecurity risks and capabilities in large language models",
+                "author": "Wan, Shengye and Nikolaidis, Cyrus and Song, Daniel and Molnar, David and Crnkovich, James and Grace, Jayson and Bhatt, Manish and Chennabasappa, Sahana and Whitman, Spencer and Ding, Stephanie and others",
+                "journal": "arXiv preprint arXiv:2408.01605",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "We are releasing a new suite of security benchmarks for LLMs, CYBERSECEVAL 3, to continue the conversation on empirically measuring LLM cybersecurity risks and capabilities. CYBERSECEVAL 3 assesses 8 different risks across two broad categories: risk to third parties, and risk to application developers and end users. Compared to previous work, we add new areas focused on offensive security capabilities: automated social engineering, scaling manual offensive cyber operations, and autonomous offensive cyber operations. In this paper we discuss applying these benchmarks to the Llama 3 models and a suite of contemporaneous state-of-the-art LLMs, enabling us to contextualize risks both with and without mitigations in place.",
+            "aminer_id": "66b1845f01d2a3fbfc5fbdc9"
+        },
+        "anil2023gemini": {
+            "number": "[27]",
+            "title": "Gemini: A family of highly capable multimodal models",
+            "text": "title={Gemini: A family of highly capable multimodal models},\n  author={Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others},\n  journal={arXiv preprint arXiv:2312.11805},\n  volume={1},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Gemini: A family of highly capable multimodal models",
+                "author": "Anil, Rohan and Borgeaud, Sebastian and Wu, Yonghui and Alayrac, Jean-Baptiste and Yu, Jiahui and Soricut, Radu and Schalkwyk, Johan and Dai, Andrew M and Hauth, Anja and Millican, Katie and others",
+                "journal": "arXiv preprint arXiv:2312.11805",
+                "volume": "1",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "657161df5258c615a44284a0"
+        },
+        "swanson2024virtual": {
+            "number": "[28]",
+            "title": "The Virtual Lab: AI Agents Design New SARS-CoV-2 Nanobodies with Experimental Validation",
+            "text": "title={The virtual lab: Ai agents design new sars-cov-2 nanobodies with experimental validation},\n  author={Swanson, Kyle and Wu, Wesley and Bulaong, Nash L and Pak, John E and Zou, James},\n  journal={bioRxiv},\n  pages={2024--11},\n  year={2024},\n  publisher={Cold Spring Harbor Laboratory}",
+            "type": "article",
+            "fields": {
+                "title": "The virtual lab: Ai agents design new sars-cov-2 nanobodies with experimental validation",
+                "author": "Swanson, Kyle and Wu, Wesley and Bulaong, Nash L and Pak, John E and Zou, James",
+                "journal": "bioRxiv",
+                "pages": "2024--11",
+                "year": "2024",
+                "publisher": "Cold Spring Harbor Laboratory"
+            },
+            "ref_source": "bib",
+            "abstract": "Science frequently benefits from teams of interdisciplinary researchers. However, most scientists don't have access to experts from multiple fields. Fortunately, large language models (LLMs) have recently shown an impressive ability to aid researchers across diverse domains by answering scientific questions. Here, we expand the capabilities of LLMs for science by introducing the Virtual Lab, an AI-human research collaboration to perform sophisticated, interdisciplinary science research. The Virtual Lab consists of an LLM principal investigator agent guiding a team of LLM agents with different scientific backgrounds (e.g., a chemist agent, a computer scientist agent, a critic agent), with a human researcher providing high-level feedback. We design the Virtual Lab to conduct scientific research through a series of team meetings, where all the agents discuss a scientific agenda, and individual meetings, where an agent accomplishes a specific task. We demonstrate the power of the Virtual Lab by applying it to design nanobody binders to recent variants of SARS-CoV-2, which is a challenging, open-ended research problem that requires reasoning across diverse fields from biology to computer science. The Virtual Lab creates a novel computational nanobody design pipeline that incorporates ESM, AlphaFold-Multimer, and Rosetta and designs 92 new nanobodies. Experimental validation of those designs reveals a range of functional nanobodies with promising binding profiles across SARS-CoV-2 variants. In particular, two new nanobodies exhibit improved binding to the recent JN.1 or KP.3 variants of SARS-CoV-2 while maintaining strong binding to the ancestral viral spike protein, suggesting exciting candidates for further investigation. This demonstrates the ability of the Virtual Lab to rapidly make impactful, real-world scientific discovery.  ### Competing Interest Statement  The authors have declared no competing interest.",
+            "aminer_id": "6734241901d2a3fbfce98bb8"
+        },
+        "lu2024ai": {
+            "number": "[29]",
+            "title": "The AI Scientist: Towards Fully Automated Open-Ended Scientific Discovery",
+            "text": "title={The ai scientist: Towards fully automated open-ended scientific discovery},\n  author={Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Foerster, Jakob and Clune, Jeff and Ha, David},\n  journal={arXiv preprint arXiv:2408.06292},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "The ai scientist: Towards fully automated open-ended scientific discovery",
+                "author": "Lu, Chris and Lu, Cong and Lange, Robert Tjarko and Foerster, Jakob and Clune, Jeff and Ha, David",
+                "journal": "arXiv preprint arXiv:2408.06292",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "One of the grand challenges of artificial general intelligence is developing agents capable of conducting scientific research and discovering new knowledge. While frontier models have already been used as aids to human scientists, e.g. for brainstorming ideas, writing code, or prediction tasks, they still conduct only a small part of the scientific process. This paper presents the first comprehensive framework for fully automatic scientific discovery, enabling frontier large language models to perform research independently and communicate their findings. We introduce The AI Scientist, which generates novel research ideas, writes code, executes experiments, visualizes results, describes its findings by writing a full scientific paper, and then runs a simulated review process for evaluation. In principle, this process can be repeated to iteratively develop ideas in an open-ended fashion, acting like the human scientific community. We demonstrate its versatility by applying it to three distinct subfields of machine learning: diffusion modeling, transformer-based language modeling, and learning dynamics. Each idea is implemented and developed into a full paper at a cost of less than $15 per paper. To evaluate the generated papers, we design and validate an automated reviewer, which we show achieves near-human performance in evaluating paper scores. The AI Scientist can produce papers that exceed the acceptance threshold at a top machine learning conference as judged by our automated reviewer. This approach signifies the beginning of a new era in scientific discovery in machine learning: bringing the transformative benefits of AI agents to the entire research process of AI itself, and taking us closer to a world where endless affordable creativity and innovation can be unleashed on the world's most challenging problems. Our code is open-sourced at https://github.com/SakanaAI/AI-Scientist",
+            "aminer_id": "66bac1e501d2a3fbfcd460c1"
+        },
+        "aliferis2024overfitting": {
+            "number": "[30]",
+            "title": "Overfitting, Underfitting and General Model Overconfidence and Under-Performance Pitfalls and Best Practices in Machine Learning and AI",
+            "text": "title={Overfitting, underfitting and general model overconfidence and under-performance pitfalls and best practices in machine learning and AI},\n  author={Aliferis, Constantin and Simon, Gyorgy},\n  journal={Artificial intelligence and machine learning in health care and medical sciences: Best practices and pitfalls},\n  pages={477--524},\n  year={2024},\n  publisher={Springer}",
+            "type": "article",
+            "fields": {
+                "title": "Overfitting, underfitting and general model overconfidence and under-performance pitfalls and best practices in machine learning and AI",
+                "author": "Aliferis, Constantin and Simon, Gyorgy",
+                "journal": "Artificial intelligence and machine learning in health care and medical sciences: Best practices and pitfalls",
+                "pages": "477--524",
+                "year": "2024",
+                "publisher": "Springer"
+            },
+            "ref_source": "bib",
+            "abstract": "AbstractAvoiding over and under fitted analyses (OF, UF) and models is critical for ensuring as high generalization performance as possible and is of profound importance for the success of ML/AI modeling. In modern ML/AI practice OF/UF are typically interacting with error estimator procedures and model selection, as well as with sampling and reporting biases and thus need be considered together in context. The more general situations of over confidence (OC) about models and/or under-performing (UP) models can occur in many subtle and not so subtle ways especially in the presence of high-dimensional data, modest or small sample sizes, powerful learners and imperfect data designs. Because over/under confidence about models are closely related to model complexity, model selection, error estimation and sampling (as part of data design) we connect these concepts with the material of chapters “An Appraisal and Operating Characteristics of Major ML Methods Applicable in Healthcare and Health Science,” “Data Design,” and “Evaluation”. These concepts are also closely related to statistical significance and scientific reproducibility. We examine several common scenarios where over confidence in model performance and/or model under performance occur as well as detailed practices for preventing, testing and correcting them.",
+            "aminer_id": "6662f45a01d2a3fbfc8a1bfe"
+        },
+        "lim2023biasadv": {
+            "number": "[31]",
+            "title": "BiasAdv: Bias-Adversarial Augmentation for Model Debiasing",
+            "text": "title={Biasadv: Bias-adversarial augmentation for model debiasing},\n  author={Lim, Jongin and Kim, Youngdong and Kim, Byungjai and Ahn, Chanho and Shin, Jinwoo and Yang, Eunho and Han, Seungju},\n  booktitle={Proceedings of the IEEE/CVF conference on computer vision and pattern recognition},\n  pages={3832--3841},\n  year={2023}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Biasadv: Bias-adversarial augmentation for model debiasing",
+                "author": "Lim, Jongin and Kim, Youngdong and Kim, Byungjai and Ahn, Chanho and Shin, Jinwoo and Yang, Eunho and Han, Seungju",
+                "booktitle": "Proceedings of the IEEE/CVF conference on computer vision and pattern recognition",
+                "pages": "3832--3841",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Neural networks are often prone to bias toward spurious correlations inherent in a dataset, thus failing to generalize unbiased test criteria. A key challenge to resolving the issue is the significant lack of bias-conflicting training data (i.e., samples without spurious correlations). In this paper, we propose a novel data augmentation approach termed Bias-Adversarial augmentation (BiasAdv) that supplements bias-conflicting samples with adversarial images. Our key idea is that an adversarial attack on a biased model that makes decisions based on spurious correlations may generate synthetic bias-conflicting samples, which can then be used as augmented training data for learning a debiased model. Specifically, we formulate an optimization problem for generating adversarial images that attack the predictions of an auxiliary biased model without ruining the predictions of the desired debiased model. Despite its simplicity, we find that BiasAdv can generate surprisingly useful synthetic bias-conflicting samples, allowing the debiased model to learn generalizable representations. Furthermore, BiasAdv does not require any bias annotations or prior knowledge of the bias type, which enables its broad applicability to existing debiasing methods to improve their performances. Our extensive experimental results demonstrate the superiority of BiasAdv, achieving state-of-the-art performance on four popular benchmark datasets across various bias domains.",
+            "aminer_id": "6464b033d68f896efa359598"
+        },
+        "zhu2021mitigating": {
+            "number": "[32]",
+            "title": "Mitigating Intensity Bias in Shadow Detection via Feature Decomposition and Reweighting.",
+            "text": "title={Mitigating intensity bias in shadow detection via feature decomposition and reweighting},\n  author={Zhu, Lei and Xu, Ke and Ke, Zhanghan and Lau, Rynson WH},\n  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},\n  pages={4702--4711},\n  year={2021}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Mitigating intensity bias in shadow detection via feature decomposition and reweighting",
+                "author": "Zhu, Lei and Xu, Ke and Ke, Zhanghan and Lau, Rynson WH",
+                "booktitle": "Proceedings of the IEEE/CVF International Conference on Computer Vision",
+                "pages": "4702--4711",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "While CNNs achieved remarkable progress in shadow detection, they tend to make mistakes in dark non-shadow regions and relatively bright shadow regions. They are also susceptible to brightness change. These two phenomenons reveal that deep shadow detectors heavily depend on the intensity cue, which we refer to as intensity bias. In this paper, we propose a novel feature decomposition and reweighting scheme to mitigate this intensity bias, in which multi-level integrated features are decomposed into intensity-variant and intensity-invariant components through self-supervision. By reweighting these two types of features, our method can reallocate the attention to the corresponding latent semantics and achieves balanced exploitation of them. Extensive experiments on three popular datasets show that the proposed method outperforms state-of-the-art shadow detectors.",
+            "aminer_id": "6196556b6750f87a92a93c79"
+        },
+        "li2024keeping": {
+            "number": "[33]",
+            "title": "Keeping Deep Learning Models in Check: A History-Based Approach to Mitigate Overfitting",
+            "text": "title={Keeping Deep Learning Models in Check: A History-Based Approach to Mitigate Overfitting},\n  author={Li, Hao and Rajbahadur, Gopi Krishnan and Lin, Dayi and Bezemer, Cor-Paul and Jiang, Zhen Ming},\n  journal={IEEE Access},\n  year={2024},\n  publisher={IEEE}",
+            "type": "article",
+            "fields": {
+                "title": "Keeping Deep Learning Models in Check: A History-Based Approach to Mitigate Overfitting",
+                "author": "Li, Hao and Rajbahadur, Gopi Krishnan and Lin, Dayi and Bezemer, Cor-Paul and Jiang, Zhen Ming",
+                "journal": "IEEE Access",
+                "year": "2024",
+                "publisher": "IEEE"
+            },
+            "ref_source": "bib",
+            "abstract": "In software engineering, deep learning models are increasingly deployed for critical tasks such as bug detection and code review. However, overfitting remains a challenge that affects the quality, reliability, and trustworthiness of software systems that utilize deep learning models. Overfitting can be (1) prevented (e.g., using dropout or early stopping) or (2) detected in a trained model (e.g., using correlation-based approaches). Both overfitting detection and prevention approaches that are currently used have constraints (e.g., requiring modification of the model structure, and high computing resources). In this paper, we propose a simple, yet powerful approach that can both detect and prevent overfitting based on the training history (i.e., validation losses). Our approach first trains a time series classifier on training histories of overfit models. This classifier is then used to detect if a trained model is overfit. In addition, our trained classifier can be used to prevent overfitting by identifying the optimal point to stop a model's training. We evaluate our approach on its ability to identify and prevent overfitting in real-world samples. We compare our approach against correlation-based detection approaches and the most commonly used prevention approach (i.e., early stopping). Our approach achieves an F1 score of 0.91 which is at least 5% higher than the current best-performing non-intrusive overfitting detection approach. Furthermore, our approach can stop training to avoid overfitting at least 32% of the times earlier than early stopping and has the same or a better rate of returning the best model.",
+            "aminer_id": "65add467939a5f40821eb3e5"
+        },
+        "kapoor2024ai": {
+            "number": "[34]",
+            "title": "AI Agents That Matter",
+            "text": "title={Ai agents that matter},\n  author={Kapoor, Sayash and Stroebl, Benedikt and Siegel, Zachary S and Nadgir, Nitya and Narayanan, Arvind},\n  journal={arXiv preprint arXiv:2407.01502},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Ai agents that matter",
+                "author": "Kapoor, Sayash and Stroebl, Benedikt and Siegel, Zachary S and Nadgir, Nitya and Narayanan, Arvind",
+                "journal": "arXiv preprint arXiv:2407.01502",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "AI agents are an exciting new research direction, and agent development is driven by benchmarks. Our analysis of current agent benchmarks and evaluation practices reveals several shortcomings that hinder their usefulness in real-world applications. First, there is a narrow focus on accuracy without attention to other metrics. As a result, SOTA agents are needlessly complex and costly, and the community has reached mistaken conclusions about the sources of accuracy gains. Our focus on cost in addition to accuracy motivates the new goal of jointly optimizing the two metrics. We design and implement one such optimization, showing its potential to greatly reduce cost while maintaining accuracy. Second, the benchmarking needs of model and downstream developers have been conflated, making it hard to identify which agent would be best suited for a particular application. Third, many agent benchmarks have inadequate holdout sets, and sometimes none at all. This has led to agents that are fragile because they take shortcuts and overfit to the benchmark in various ways. We prescribe a principled framework for avoiding overfitting. Finally, there is a lack of standardization in evaluation practices, leading to a pervasive lack of reproducibility. We hope that the steps we introduce for addressing these shortcomings will spur the development of agents that are useful in the real world and not just accurate on benchmarks.",
+            "aminer_id": "66836fa401d2a3fbfcb20638"
+        },
+        "li2023camel": {
+            "number": "[35]",
+            "title": "Camel: Communicative agents for\" mind\" exploration of large language model society",
+            "text": "title={Camel: Communicative agents for\" mind\" exploration of large language model society},\n  author={Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  pages={51991--52008},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Camel: Communicative agents for\" mind\" exploration of large language model society",
+                "author": "Li, Guohao and Hammoud, Hasan and Itani, Hani and Khizbullin, Dmitrii and Ghanem, Bernard",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "36",
+                "pages": "51991--52008",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "642a43b890e50fcafd9b0319"
+        },
+        "packer2023memgpt": {
+            "number": "[36]",
+            "title": "Memgpt: Towards llms as operating systems",
+            "text": "title={Memgpt: Towards llms as operating systems},\n  author={Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G and Stoica, Ion and Gonzalez, Joseph E},\n  journal={arXiv preprint arXiv:2310.08560},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Memgpt: Towards llms as operating systems",
+                "author": "Packer, Charles and Wooders, Sarah and Lin, Kevin and Fang, Vivian and Patil, Shishir G and Stoica, Ion and Gonzalez, Joseph E",
+                "journal": "arXiv preprint arXiv:2310.08560",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "6528a864939a5f408257a128"
+        },
+        "hong2024metagpt": {
+            "number": "[37]",
+            "title": "MetaGPT: Meta Programming for A Multi-Agent Collaborative Framework",
+            "text": "title={Meta{GPT}: Meta Programming for A Multi-Agent Collaborative Framework},\nauthor={Sirui Hong and Mingchen Zhuge and Jonathan Chen and Xiawu Zheng and Yuheng Cheng and Jinlin Wang and Ceyao Zhang and Zili Wang and Steven Ka Shing Yau and Zijuan Lin and Liyang Zhou and Chenyu Ran and Lingfeng Xiao and Chenglin Wu and J{\\\"u}rgen Schmidhuber},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2024},\nurl={https://openreview.net/forum?id=VtmBAGCN7o}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Meta{GPT}: Meta Programming for A Multi-Agent Collaborative Framework",
+                "author": "Sirui Hong and Mingchen Zhuge and Jonathan Chen and Xiawu Zheng and Yuheng Cheng and Jinlin Wang and Ceyao Zhang and Zili Wang and Steven Ka Shing Yau and Zijuan Lin and Liyang Zhou and Chenyu Ran and Lingfeng Xiao and Chenglin Wu and J{\\\"u}rgen Schmidhuber",
+                "booktitle": "The Twelfth International Conference on Learning Representations",
+                "year": "2024",
+                "url": "https://openreview.net/forum?id=VtmBAGCN7o"
+            },
+            "ref_source": "bib",
+            "abstract": "Remarkable progress has been made on automated problem solving through societies of agents based on large language models (LLMs). Existing LLM-based multi-agent systems can already solve simple dialogue tasks. Solutions to more complex tasks, however, are complicated through logic inconsistencies due to cascading hallucinations caused by naively chaining LLMs. Here we introduce MetaGPT, an innovative meta-programming framework incorporating efficient human workflows into LLM-based multi-agent collaborations. MetaGPT encodes Standardized Operating Procedures (SOPs) into prompt sequences for more streamlined workflows, thus allowing agents with human-like domain expertise to verify intermediate results and reduce errors. MetaGPT utilizes an assembly line paradigm to assign diverse roles to various agents, efficiently breaking down complex tasks into subtasks involving many agents working together. On collaborative software engineering benchmarks, MetaGPT generates more coherent solutions than previous chat-based multi-agent systems. Our project can be found at https://github.com/geekan/MetaGPT",
+            "aminer_id": "64c9d5313fda6d7f0637e627"
+        },
+        "yang2023auto": {
+            "number": "[38]",
+            "title": "Auto-GPT for Online Decision Making: Benchmarks and Additional Opinions",
+            "text": "title={Auto-gpt for online decision making: Benchmarks and additional opinions},\n  author={Yang, Hui and Yue, Sifu and He, Yunzhong},\n  journal={arXiv preprint arXiv:2306.02224},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Auto-gpt for online decision making: Benchmarks and additional opinions",
+                "author": "Yang, Hui and Yue, Sifu and He, Yunzhong",
+                "journal": "arXiv preprint arXiv:2306.02224",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Auto-GPT is an autonomous agent that leverages recent advancements in adapting Large Language Models (LLMs) for decision-making tasks. While there has been a growing interest in Auto-GPT stypled agents, questions remain regarding the effectiveness and flexibility of Auto-GPT in solving real-world decision-making tasks. Its limited capability for real-world engagement and the absence of benchmarks contribute to these uncertainties. In this paper, we present a comprehensive benchmark study of Auto-GPT styled agents in decision-making tasks that simulate real-world scenarios. Our aim is to gain deeper insights into this problem and understand the adaptability of GPT-based agents. We compare the performance of popular LLMs such as GPT-4, GPT-3.5, Claude, and Vicuna in Auto-GPT styled decision-making tasks. Furthermore, we introduce the Additional Opinions algorithm, an easy and effective method that incorporates supervised/imitation-based learners into the Auto-GPT scheme. This approach enables lightweight supervised learning without requiring fine-tuning of the foundational LLMs. We demonstrate through careful baseline comparisons and ablation studies that the Additional Opinions algorithm significantly enhances performance in online decision-making benchmarks, including WebShop and ALFWorld.",
+            "aminer_id": "647eaf35d68f896efad40920"
+        },
+        "wu2023autogen": {
+            "number": "[39]",
+            "title": "Autogen: Enabling next-gen llm applications via multi-agent conversation framework",
+            "text": "title={Autogen: Enabling next-gen llm applications via multi-agent conversation framework},\n  author={Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Zhang, Shaokun and Zhu, Erkang and Li, Beibin and Jiang, Li and Zhang, Xiaoyun and Wang, Chi},\n  journal={arXiv preprint arXiv:2308.08155},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Autogen: Enabling next-gen llm applications via multi-agent conversation framework",
+                "author": "Wu, Qingyun and Bansal, Gagan and Zhang, Jieyu and Wu, Yiran and Zhang, Shaokun and Zhu, Erkang and Li, Beibin and Jiang, Li and Zhang, Xiaoyun and Wang, Chi",
+                "journal": "arXiv preprint arXiv:2308.08155",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "taylor2022galactica": {
+            "number": "[40]",
+            "title": "Galactica: A Large Language Model for Science",
+            "text": "title={Galactica: A large language model for science},\n  author={Taylor, Ross and Kardas, Marcin and Cucurull, Guillem and Scialom, Thomas and Hartshorn, Anthony and Saravia, Elvis and Poulton, Andrew and Kerkez, Viktor and Stojnic, Robert},\n  journal={arXiv preprint arXiv:2211.09085},\n  year={2022}",
+            "type": "article",
+            "fields": {
+                "title": "Galactica: A large language model for science",
+                "author": "Taylor, Ross and Kardas, Marcin and Cucurull, Guillem and Scialom, Thomas and Hartshorn, Anthony and Saravia, Elvis and Poulton, Andrew and Kerkez, Viktor and Stojnic, Robert",
+                "journal": "arXiv preprint arXiv:2211.09085",
+                "year": "2022"
+            },
+            "ref_source": "bib",
+            "abstract": "Information overload is a major obstacle to scientific progress. The explosive growth in scientific literature and data has made it ever harder to discover useful insights in a large mass of information. Today scientific knowledge is accessed through search engines, but they are unable to organize scientific knowledge alone. In this paper we introduce Galactica: a large language model that can store, combine and reason about scientific knowledge. We train on a large scientific corpus of papers, reference material, knowledge bases and many other sources. We outperform existing models on a range of scientific tasks. On technical knowledge probes such as LaTeX equations, Galactica outperforms the latest GPT-3 by 68.2% versus 49.0%. Galactica also performs well on reasoning, outperforming Chinchilla on mathematical MMLU by 41.3% to 35.7%, and PaLM 540B on MATH with a score of 20.4% versus 8.8%. It also sets a new state-of-the-art on downstream tasks such as PubMedQA and MedMCQA dev of 77.6% and 52.9%. And despite not being trained on a general corpus, Galactica outperforms BLOOM and OPT-175B on BIG-bench. We believe these results demonstrate the potential for language models as a new interface for science. We open source the model for the benefit of the scientific community.",
+            "aminer_id": "6375a67190e50fcafd3e1d4a"
+        },
+        "schmidgall2025agent": {
+            "number": "[41]",
+            "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+            "text": "title={Agent Laboratory: Using LLM Agents as Research Assistants},\n  author={Schmidgall, Samuel and Su, Yusheng and Wang, Ze and Sun, Ximeng and Wu, Jialian and Yu, Xiaodong and Liu, Jiang and Liu, Zicheng and Barsoum, Emad},\n  journal={arXiv preprint arXiv:2501.04227},\n  year={2025}",
+            "type": "article",
+            "fields": {
+                "title": "Agent Laboratory: Using LLM Agents as Research Assistants",
+                "author": "Schmidgall, Samuel and Su, Yusheng and Wang, Ze and Sun, Ximeng and Wu, Jialian and Yu, Xiaodong and Liu, Jiang and Liu, Zicheng and Barsoum, Emad",
+                "journal": "arXiv preprint arXiv:2501.04227",
+                "year": "2025"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "677f3926ae8580e7ff24ecc7"
+        },
+        "baek2024researchagent": {
+            "number": "[42]",
+            "title": "ResearchAgent: Iterative Research Idea Generation over Scientific Literature with Large Language Models",
+            "text": "title={Researchagent: Iterative research idea generation over scientific literature with large language models},\n  author={Baek, Jinheon and Jauhar, Sujay Kumar and Cucerzan, Silviu and Hwang, Sung Ju},\n  journal={arXiv preprint arXiv:2404.07738},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Researchagent: Iterative research idea generation over scientific literature with large language models",
+                "author": "Baek, Jinheon and Jauhar, Sujay Kumar and Cucerzan, Silviu and Hwang, Sung Ju",
+                "journal": "arXiv preprint arXiv:2404.07738",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "The pace of scientific research, vital for improving human life, is complex, slow, and needs specialized expertise. Meanwhile, novel, impactful research often stems from both a deep understanding of prior work, and a cross-pollination of ideas across domains and fields. To enhance the productivity of researchers, we propose ResearchAgent, which leverages the encyclopedic knowledge and linguistic reasoning capabilities of Large Language Models (LLMs) to assist them in their work. This system automatically defines novel problems, proposes methods and designs experiments, while iteratively refining them based on the feedback from collaborative LLM-powered reviewing agents. Specifically, starting with a core scientific paper, ResearchAgent is augmented not only with relevant publications by connecting information over an academic graph but also entities retrieved from a knowledge store derived from shared underlying concepts mined across numerous papers. Then, mimicking a scientific approach to improving ideas with peer discussions, we leverage multiple LLM-based ReviewingAgents that provide reviews and feedback via iterative revision processes. These reviewing agents are instantiated with human preference-aligned LLMs whose criteria for evaluation are elicited from actual human judgments via LLM prompting. We experimentally validate our ResearchAgent on scientific publications across multiple disciplines, showing its effectiveness in generating novel, clear, and valid ideas based on both human and model-based evaluation results. Our initial foray into AI-mediated scientific research has important implications for the development of future systems aimed at supporting researchers in their ideation and operationalization of novel work.",
+            "aminer_id": "6618956313fb2c6cf62e0a6b"
+        },
+        "press2024citeme": {
+            "number": "[43]",
+            "title": "CiteME: Can Language Models Accurately Cite Scientific Claims?",
+            "text": "title={CiteME: Can Language Models Accurately Cite Scientific Claims?},\n  author={Press, Ori and Hochlehnert, Andreas and Prabhu, Ameya and Udandarao, Vishaal and Press, Ofir and Bethge, Matthias},\n  journal={arXiv preprint arXiv:2407.12861},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "CiteME: Can Language Models Accurately Cite Scientific Claims?",
+                "author": "Press, Ori and Hochlehnert, Andreas and Prabhu, Ameya and Udandarao, Vishaal and Press, Ofir and Bethge, Matthias",
+                "journal": "arXiv preprint arXiv:2407.12861",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Thousands of new scientific papers are published each month. Such information overload complicates researcher efforts to stay current with the state-of-the-art as well as to verify and correctly attribute claims. We pose the following research question: Given a text excerpt referencing a paper, could an LM act as a research assistant to correctly identify the referenced paper? We advance efforts to answer this question by building a benchmark that evaluates the abilities of LMs in citation attribution. Our benchmark, CiteME, consists of text excerpts from recent machine learning papers, each referencing a single other paper. CiteME use reveals a large gap between frontier LMs and human performance, with LMs achieving only 4.2-18.5% accuracy and humans 69.7%. We close this gap by introducing CiteAgent, an autonomous system built on the GPT-4o LM that can also search and read papers, which achieves an accuracy of 35.3\\% on CiteME. Overall, CiteME serves as a challenging testbed for open-ended claim attribution, driving the research community towards a future where any claim made by an LM can be automatically verified and discarded if found to be incorrect.",
+            "aminer_id": "6699cc7c01d2a3fbfcc2c651"
+        },
+        "li2024scilitllm": {
+            "number": "[44]",
+            "title": "SciLitLLM: How to Adapt LLMs for Scientific Literature Understanding",
+            "text": "title={Scilitllm: How to adapt llms for scientific literature understanding},\n  author={Li, Sihang and Huang, Jin and Zhuang, Jiaxi and Shi, Yaorui and Cai, Xiaochen and Xu, Mingjun and Wang, Xiang and Zhang, Linfeng and Ke, Guolin and Cai, Hengxing},\n  journal={arXiv preprint arXiv:2408.15545},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Scilitllm: How to adapt llms for scientific literature understanding",
+                "author": "Li, Sihang and Huang, Jin and Zhuang, Jiaxi and Shi, Yaorui and Cai, Xiaochen and Xu, Mingjun and Wang, Xiang and Zhang, Linfeng and Ke, Guolin and Cai, Hengxing",
+                "journal": "arXiv preprint arXiv:2408.15545",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Scientific literature understanding is crucial for extracting targeted information and garnering insights, thereby significantly advancing scientific discovery.Despite the remarkable success of Large Language Models (LLMs), they face challenges in scientific literature understanding, primarily due to (1) a lack of scientific knowledge and (2) unfamiliarity with specialized scientific tasks.To develop an LLM specialized in scientific literature understanding, we propose a hybrid strategy that integrates continual pre-training (CPT) and supervised fine-tuning (SFT), to simultaneously infuse scientific domain knowledge and enhance instruction-following capabilities for domain-specific tasks.In this process, we identify two key challenges: (1) constructing high-quality CPT corpora, and (2) generating diverse SFT instructions. We address these challenges through a meticulous pipeline, including PDF text extraction, parsing content error correction, quality filtering, and synthetic instruction creation.Applying this strategy, we present a suite of LLMs: SciLitLLM, specialized in scientific literature understanding.These models demonstrate promising performance on scientific literature understanding benchmarks.(1) We present an effective framework that integrates CPT and SFT to adapt LLMs to scientific literature understanding, which can also be easily adapted to other domains.(2) We propose an LLM-based synthesis method to generate diverse and high-quality scientific instructions, resulting in a new instruction set -- SciLitIns -- for less-represented scientific domains. (3) SciLitLLM achieves promising performance in scientific literature understanding benchmarks.",
+            "aminer_id": "66cfd54c01d2a3fbfc185766"
+        },
+        "chiang2024llamp": {
+            "number": "[45]",
+            "title": "LLaMP: Large Language Model Made Powerful for High-fidelity Materials Knowledge Retrieval and Distillation",
+            "text": "title={LLaMP: Large language model made powerful for high-fidelity materials knowledge retrieval and distillation},\n  author={Chiang, Yuan and Hsieh, Elvis and Chou, Chia-Hong and Riebesell, Janosh},\n  journal={arXiv preprint arXiv:2401.17244},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "LLaMP: Large language model made powerful for high-fidelity materials knowledge retrieval and distillation",
+                "author": "Chiang, Yuan and Hsieh, Elvis and Chou, Chia-Hong and Riebesell, Janosh",
+                "journal": "arXiv preprint arXiv:2401.17244",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Reducing hallucination of Large Language Models (LLMs) is imperative for use in the sciences, where reliability and reproducibility are crucial. However, LLMs inherently lack long-term memory, making it a nontrivial, ad hoc, and inevitably biased task to fine-tune them on domain-specific literature and data. Here we introduce LLaMP, a multimodal retrieval-augmented generation (RAG) framework of hierarchical reasoning-and-acting (ReAct) agents that can dynamically and recursively interact with computational and experimental data on Materials Project (MP) and run atomistic simulations via high-throughput workflow interface. Without fine-tuning, LLaMP demonstrates strong tool usage ability to comprehend and integrate various modalities of materials science concepts, fetch relevant data stores on the fly, process higher-order data (such as crystal structure and elastic tensor), and streamline complex tasks in computational materials and chemistry. We propose a simple metric combining uncertainty and confidence estimates to evaluate the self-consistency of responses by LLaMP and vanilla LLMs. Our benchmark shows that LLaMP effectively mitigates the intrinsic bias in LLMs, counteracting the errors on bulk moduli, electronic bandgaps, and formation energies that seem to derive from mixed data sources. We also demonstrate LLaMP's capability to edit crystal structures and run annealing molecular dynamics simulations using pre-trained machine-learning force fields. The framework offers an intuitive and nearly hallucination-free approach to exploring and scaling materials informatics, and establishes a pathway for knowledge distillation and fine-tuning other language models. Code and live demo are available at https://github.com/chiang-yuan/llamp",
+            "aminer_id": "65b9ab0d939a5f40821fc7b4"
+        },
+        "liu2024toward": {
+            "number": "[46]",
+            "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+            "text": "title={Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data},\n  author={Liu, Haoyang and Li, Yijiang and Jian, Jinglin and Cheng, Yuxuan and Lu, Jianrong and Guo, Shuyi and Zhu, Jinglei and Zhang, Mianchen and Zhang, Miantong and Wang, Haohan},\n  journal={arXiv preprint arXiv:2402.12391},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Toward a Team of AI-made Scientists for Scientific Discovery from Gene Expression Data",
+                "author": "Liu, Haoyang and Li, Yijiang and Jian, Jinglin and Cheng, Yuxuan and Lu, Jianrong and Guo, Shuyi and Zhu, Jinglei and Zhang, Mianchen and Zhang, Miantong and Wang, Haohan",
+                "journal": "arXiv preprint arXiv:2402.12391",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Machine learning has emerged as a powerful tool for scientific discovery, enabling researchers to extract meaningful insights from complex datasets. For instance, it has facilitated the identification of disease-predictive genes from gene expression data, significantly advancing healthcare. However, the traditional process for analyzing such datasets demands substantial human effort and expertise for the data selection, processing, and analysis. To address this challenge, we introduce a novel framework, a Team of AI-made Scientists (TAIS), designed to streamline the scientific discovery pipeline. TAIS comprises simulated roles, including a project manager, data engineer, and domain expert, each represented by a Large Language Model (LLM). These roles collaborate to replicate the tasks typically performed by data scientists, with a specific focus on identifying disease-predictive genes. Furthermore, we have curated a benchmark dataset to assess TAIS's effectiveness in gene identification, demonstrating our system's potential to significantly enhance the efficiency and scope of scientific exploration. Our findings represent a solid step towards automating scientific discovery through large language models.",
+            "aminer_id": "65d564b3939a5f40828eb574"
+        },
+        "o2023bioplanner": {
+            "number": "[47]",
+            "title": "BioPlanner: Automatic Evaluation of LLMs on Protocol Planning in Biology",
+            "text": "title={BioPlanner: Automatic Evaluation of {LLM}s on Protocol Planning in Biology},\nauthor={Odhran ODonoghue and Aleksandar Shtedritski and John Ginger and Ralph Abboud and Ali Essam Ghareeb and Samuel G Rodriques},\nbooktitle={The 2023 Conference on Empirical Methods in Natural Language Processing},\nyear={2023},\nurl={https://openreview.net/forum?id=pMCRGmB7Rv}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "BioPlanner: Automatic Evaluation of {LLM}s on Protocol Planning in Biology",
+                "author": "Odhran ODonoghue and Aleksandar Shtedritski and John Ginger and Ralph Abboud and Ali Essam Ghareeb and Samuel G Rodriques",
+                "booktitle": "The 2023 Conference on Empirical Methods in Natural Language Processing",
+                "year": "2023",
+                "url": "https://openreview.net/forum?id=pMCRGmB7Rv"
+            },
+            "ref_source": "bib",
+            "abstract": "The ability to automatically generate accurate protocols for scientific experiments would represent a major step towards the automation of science. Large Language Models (LLMs) have impressive capabilities on a wide range of tasks, such as question answering and the generation of coherent text and code. However, LLMs can struggle with multi-step problems and long-term planning, which are crucial for designing scientific experiments. Moreover, evaluation of the accuracy of scientific protocols is challenging, because experiments can be described correctly in many different ways, require expert knowledge to evaluate, and cannot usually be executed automatically. Here we present an automatic evaluation framework for the task of planning experimental protocols, and we introduce BioProt: a dataset of biology protocols with corresponding pseudocode representations. To measure performance on generating scientific protocols, we use an LLM to convert a natural language protocol into pseudocode, and then evaluate an LLM's ability to reconstruct the pseudocode from a high-level description and a list of admissible pseudocode functions. We evaluate GPT-3 and GPT-4 on this task and explore their robustness. We externally validate the utility of pseudocode representations of text by generating accurate novel protocols using retrieved pseudocode, and we run a generated protocol successfully in our biological laboratory. Our framework is extensible to the evaluation and improvement of language model planning abilities in other areas of science or other areas that lack automatic evaluation.",
+            "aminer_id": "652def03939a5f4082b5329e"
+        },
+        "prince2024opportunities": {
+            "number": "[48]",
+            "title": "Opportunities for Retrieval and Tool Augmented Large Language Models in Scientific Facilities",
+            "text": "title={Opportunities for retrieval and tool augmented large language models in scientific facilities},\n  author={Prince, Michael H and Chan, Henry and Vriza, Aikaterini and Zhou, Tao and Sastry, Varuni K and Luo, Yanqi and Dearing, Matthew T and Harder, Ross J and Vasudevan, Rama K and Cherukara, Mathew J},\n  journal={npj Computational Materials},\n  volume={10},\n  number={1},\n  pages={251},\n  year={2024},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "Opportunities for retrieval and tool augmented large language models in scientific facilities",
+                "author": "Prince, Michael H and Chan, Henry and Vriza, Aikaterini and Zhou, Tao and Sastry, Varuni K and Luo, Yanqi and Dearing, Matthew T and Harder, Ross J and Vasudevan, Rama K and Cherukara, Mathew J",
+                "journal": "npj Computational Materials",
+                "volume": "10",
+                "number": "1",
+                "pages": "251",
+                "year": "2024",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "Upgrades to advanced scientific user facilities such as next-generation x-ray light sources, nanoscience centers, and neutron facilities are revolutionizing our understanding of materials across the spectrum of the physical sciences, from life sciences to microelectronics. However, these facility and instrument upgrades come with a significant increase in complexity. Driven by more exacting scientific needs, instruments and experiments become more intricate each year. This increased operational complexity makes it ever more challenging for domain scientists to design experiments that effectively leverage the capabilities of and operate on these advanced instruments. Large language models (LLMs) can perform complex information retrieval, assist in knowledge-intensive tasks across applications, and provide guidance on tool usage. Using x-ray light sources, leadership computing, and nanoscience centers as representative examples, we describe preliminary experiments with a Context-Aware Language Model for Science (CALMS) to assist scientists with instrument operations and complex experimentation. With the ability to retrieve relevant information from facility documentation, CALMS can answer simple questions on scientific capabilities and other operational procedures. With the ability to interface with software tools and experimental hardware, CALMS can conversationally operate scientific instruments. By making information more accessible and acting on user needs, LLMs could expand and diversify scientific facilities' users and accelerate scientific output.",
+            "aminer_id": "656e88cd939a5f408281b8d7"
+        },
+        "abbasian2023conversational": {
+            "number": "[49]",
+            "title": "Conversational Health Agents: A Personalized LLM-Powered Agent Framework",
+            "text": "title={Conversational health agents: A personalized llm-powered agent framework},\n  author={Abbasian, Mahyar and Azimi, Iman and Rahmani, Amir M and Jain, Ramesh},\n  journal={arXiv preprint arXiv:2310.02374},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Conversational health agents: A personalized llm-powered agent framework",
+                "author": "Abbasian, Mahyar and Azimi, Iman and Rahmani, Amir M and Jain, Ramesh",
+                "journal": "arXiv preprint arXiv:2310.02374",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Conversational Health Agents (CHAs) are interactive systems that provide healthcare services, such as assistance and diagnosis. Current CHAs, especially those utilizing Large Language Models (LLMs), primarily focus on conversation aspects. However, they offer limited agent capabilities, specifically lacking multi-step problem-solving, personalized conversations, and multimodal data analysis. Our aim is to overcome these limitations. We propose openCHA, an open-source LLM-powered framework, to empower conversational agents to generate a personalized response for users' healthcare queries. This framework enables developers to integrate external sources including data sources, knowledge bases, and analysis models, into their LLM-based solutions. openCHA includes an orchestrator to plan and execute actions for gathering information from external sources, essential for formulating responses to user inquiries. It facilitates knowledge acquisition, problem-solving capabilities, multilingual and multimodal conversations, and fosters interaction with various AI platforms. We illustrate the framework's proficiency in handling complex healthcare tasks via two demonstrations and four use cases. Moreover, we release openCHA as open source available to the community via GitHub.",
+            "aminer_id": "651e1c973fda6d7f0688cbf1"
+        },
+        "zhang-etal-2023-huatuogpt": {
+            "number": "[50]",
+            "title": "HuatuoGPT, Towards Taming Language Model to Be a Doctor",
+            "text": "title = \"{H}uatuo{GPT}, Towards Taming Language Model to Be a Doctor\",\n    author = \"Zhang, Hongbo  and\n      Chen, Junying  and\n      Jiang, Feng  and\n      Yu, Fei  and\n      Chen, Zhihong  and\n      Chen, Guiming  and\n      Li, Jianquan  and\n      Wu, Xiangbo  and\n      Zhiyi, Zhang  and\n      Xiao, Qingying  and\n      Wan, Xiang  and\n      Wang, Benyou  and\n      Li, Haizhou\",\n    editor = \"Bouamor, Houda  and\n      Pino, Juan  and\n      Bali, Kalika\",\n    booktitle = \"Findings of the Association for Computational Linguistics: EMNLP 2023\",\n    month = dec,\n    year = \"2023\",\n    address = \"Singapore\",\n    publisher = \"Association for Computational Linguistics\",\n    pages = \"10859--10885\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{H}uatuo{GPT}, Towards Taming Language Model to Be a Doctor",
+                "author": "Zhang, Hongbo and Chen, Junying and Jiang, Feng and Yu, Fei and Chen, Zhihong and Chen, Guiming and Li, Jianquan and Wu, Xiangbo and Zhiyi, Zhang and Xiao, Qingying and Wan, Xiang and Wang, Benyou and Li, Haizhou",
+                "editor": "Bouamor, Houda and Pino, Juan and Bali, Kalika",
+                "booktitle": "Findings of the Association for Computational Linguistics: EMNLP 2023",
+                "year": "2023",
+                "address": "Singapore",
+                "publisher": "Association for Computational Linguistics",
+                "pages": "10859--10885"
+            },
+            "ref_source": "bib",
+            "abstract": "In this paper, we present HuatuoGPT, a Large Language Model (LLM) for medical consultation. The core recipe of HuatuoGPT is to leverage both distilled data from **ChatGPT** and real-world data from **doctors**  in the supervised fine-tuning stage. This is not only because purely using **ChatGPT**-distilled data might cause 'model collapse', but also because real-world data from **doctors** would be complementary to **ChatGPT**-distilled data. The responses from ChatGPT are usually detailed, well-presented, fluent, and instruction-followed, but it cannot perform like a doctor in many aspects, e.g. for interactive diagnosis. Therefore, the extra doctors' data could tame a distilled language model to perform like doctors. To synergize the strengths of both data sources, we introduce RLMF (Reinforcement Learning from Mixed Feedback) where a reward model is trained to align the language model with the merits that both sources (ChatGPT and doctors) bring. Experimental results (in GPT-4 evaluation, human evaluation, and medical benchmark datasets) demonstrate that HuatuoGPT achieves state-of-the-art results in performing medical consultation among open-source LLMs. It is worth noting that by using additional real-world data and RLMF, the distilled language model (i.e., HuatuoGPT) outperforms its teacher model (i.e., ChatGPT) in most cases.",
+            "aminer_id": "646edca5d68f896efaddaf7f"
+        },
+        "kang2023chatmof": {
+            "number": "[51]",
+            "title": "ChatMOF: an Autonomous AI System for Predicting and Generating Metal-Organic Frameworks",
+            "text": "title={Chatmof: An autonomous ai system for predicting and generating metal-organic frameworks},\n  author={Kang, Yeonghun and Kim, Jihan},\n  journal={arXiv preprint arXiv:2308.01423},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Chatmof: An autonomous ai system for predicting and generating metal-organic frameworks",
+                "author": "Kang, Yeonghun and Kim, Jihan",
+                "journal": "arXiv preprint arXiv:2308.01423",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "ChatMOF is an autonomous Artificial Intelligence (AI) system that is built to predict and generate metal-organic frameworks (MOFs). By leveraging a large-scale language model (GPT-4 and GPT-3.5-turbo), ChatMOF extracts key details from textual inputs and delivers appropriate responses, thus eliminating the necessity for rigid structured queries. The system is comprised of three core components (i.e. an agent, a toolkit, and an evaluator) and it forms a robust pipeline that manages a variety of tasks, including data retrieval, property prediction, and structure generations. The study further explores the merits and constraints of using large language models (LLMs) AI system in material sciences using and showcases its transformative potential for future advancements.",
+            "aminer_id": "64cc77b33fda6d7f06aebc6e"
+        },
+        "xiao2024cellagent": {
+            "number": "[52]",
+            "title": "CellAgent: an LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+            "text": "title={CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis},\n  author={Xiao, Yihang and Liu, Jinyi and Zheng, Yan and Xie, Xiaohan and Hao, Jianye and Li, Mingzhi and Wang, Ruitao and Ni, Fei and Li, Yuxiao and Luo, Jintian and others},\n  journal={bioRxiv},\n  pages={2024--05},\n  year={2024},\n  publisher={Cold Spring Harbor Laboratory}",
+            "type": "article",
+            "fields": {
+                "title": "CellAgent: An LLM-driven Multi-Agent Framework for Automated Single-cell Data Analysis",
+                "author": "Xiao, Yihang and Liu, Jinyi and Zheng, Yan and Xie, Xiaohan and Hao, Jianye and Li, Mingzhi and Wang, Ruitao and Ni, Fei and Li, Yuxiao and Luo, Jintian and others",
+                "journal": "bioRxiv",
+                "pages": "2024--05",
+                "year": "2024",
+                "publisher": "Cold Spring Harbor Laboratory"
+            },
+            "ref_source": "bib",
+            "abstract": "Single-cell RNA sequencing (scRNA-seq) data analysis is crucial for biological research, as it enables the precise characterization of cellular heterogeneity. However, manual manipulation of various tools to achieve desired outcomes can be labor-intensive for researchers. To address this, we introduce CellAgent (http://cell.agent4science.cn/), an LLM-driven multi-agent framework, specifically designed for the automatic processing and execution of scRNA-seq data analysis tasks, providing high-quality results with no human intervention. Firstly, to adapt general LLMs to the biological field, CellAgent constructs LLM-driven biological expert roles - planner, executor, and evaluator - each with specific responsibilities. Then, CellAgent introduces a hierarchical decision-making mechanism to coordinate these biological experts, effectively driving the planning and step-by-step execution of complex data analysis tasks. Furthermore, we propose a self-iterative optimization mechanism, enabling CellAgent to autonomously evaluate and optimize solutions, thereby guaranteeing output quality. We evaluate CellAgent on a comprehensive benchmark dataset encompassing dozens of tissues and hundreds of distinct cell types. Evaluation results consistently show that CellAgent effectively identifies the most suitable tools and hyperparameters for single-cell analysis tasks, achieving optimal performance. This automated framework dramatically reduces the workload for science data analyses, bringing us into the \"Agent for Science\" era.",
+            "aminer_id": "6646dfaf01d2a3fbfc2c7b3b"
+        },
+        "xin2024bioinformatics": {
+            "number": "[53]",
+            "title": "BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow",
+            "text": "title={BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow},\n  author={Xin, Qi and Kong, Quyu and Ji, Hongyi and Shen, Yue and Liu, Yuqi and Sun, Yan and Zhang, Zhilin and Li, Zhaorong and Xia, Xunlong and Deng, Bing and others},\n  journal={bioRxiv},\n  pages={2024--05},\n  year={2024},\n  publisher={Cold Spring Harbor Laboratory}",
+            "type": "article",
+            "fields": {
+                "title": "BioInformatics Agent (BIA): Unleashing the Power of Large Language Models to Reshape Bioinformatics Workflow",
+                "author": "Xin, Qi and Kong, Quyu and Ji, Hongyi and Shen, Yue and Liu, Yuqi and Sun, Yan and Zhang, Zhilin and Li, Zhaorong and Xia, Xunlong and Deng, Bing and others",
+                "journal": "bioRxiv",
+                "pages": "2024--05",
+                "year": "2024",
+                "publisher": "Cold Spring Harbor Laboratory"
+            },
+            "ref_source": "bib",
+            "abstract": "Bioinformatics plays a crucial role in understanding biological phenomena, yet the exponential growth of biological data and rapid technological advancements have heightened the barriers to in-depth exploration of this domain. Thereby, we propose Bio-Informatics Agent (BIA), an intelligent agent leveraging Large Language Models (LLMs) technology, to facilitate autonomous bioinformatic analysis through natural language. The primary functionalities of BIA encompass extraction and processing of raw data and metadata, querying both locally deployed and public databases for information. It further undertakes the formulation of workflow designs, generates executable code, and delivers comprehensive reports. Focused on the single-cell RNA sequencing (scRNA-seq) data, this paper demonstrates BIA's remarkable proficiency in information processing and analysis, as well as executing sophisticated tasks and interactions. Additionally, we analyzed failed executions from the agent and demonstrate prospective enhancement strategies including selfrefinement and domain adaptation. The future outlook includes expanding BIA's practical implementations across multi-omics data, to alleviating the workload burden for the bioinformatics community and empowering more profound investigations into the mysteries of life sciences. BIA is available at: https://github.com/biagent-dev/biagent\n\n### Competing Interest Statement\n\nThe authors have declared no competing interest.",
+            "aminer_id": "664e47d501d2a3fbfca50558"
+        },
+        "ruan2024accelerated": {
+            "number": "[54]",
+            "title": "Accelerated End-to-end Chemical Synthesis Development with Large Language Models",
+            "text": "title={Accelerated end-to-end chemical synthesis development with large language models},\n  author={Ruan, Yixiang and Lu, Chenyin and Xu, Ning and Zhang, Jian and Xuan, Jun and Pan, Jianzhang and Fang, Qun and Gao, Hanyu and Shen, Xiaodong and Ye, Ning and others},\n  journal={doi:10.26434/chemrxiv-2024-6wmg4},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Accelerated end-to-end chemical synthesis development with large language models",
+                "author": "Ruan, Yixiang and Lu, Chenyin and Xu, Ning and Zhang, Jian and Xuan, Jun and Pan, Jianzhang and Fang, Qun and Gao, Hanyu and Shen, Xiaodong and Ye, Ning and others",
+                "journal": "doi:10.26434/chemrxiv-2024-6wmg4",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "The rapid emergence of large language model (LLM) technology presents significant opportunities to facilitate the development of synthetic reactions. In this work, we leveraged the power of GPT-4 to build a multi-agent system to handle fundamental tasks involved throughout the chemical synthesis development process. The multi-agent system comprises six specialized LLM-based agents, including Literature Scouter, Experiment Designer, Hardware Executor, Spectrum Analyzer, Separation Instructor, and Result Interpreter, which are pre-prompted to accomplish the designated tasks. A web application was built with the multi-agent system as the backend to allow chemist users to interact with experimental platforms and analyze results via natural language, thus, requiring zero-coding skills to allow easy access for all chemists. We demonstrated this multi-agent system on the development of a recently developed copper/TEMPO catalyzed aerobic alcohol oxidation to aldehyde reaction, and this LLM multi-agent copiloted end-to-end reaction development process includes: literature search and information extraction, substrate scope and condition screening, reaction kinetics study, reaction condition optimization, reaction scale-up and product purification. This work showcases the trilogy among chemist users, LLM-based agents, and automated experimental platforms to reform the traditional expert-centric and labor-intensive reaction development workflow.",
+            "aminer_id": "663c3e7e01d2a3fbfcfc1cdc"
+        },
+        "darvish2024organa": {
+            "number": "[55]",
+            "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+            "text": "title={ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization},\n  author={Darvish, Kourosh and Skreta, Marta and Zhao, Yuchi and Yoshikawa, Naruki and Som, Sagnik and Bogdanovic, Miroslav and Cao, Yang and Hao, Han and Xu, Haoping and Aspuru-Guzik, Al{\\'a}n and others},\n  journal={arXiv preprint arXiv:2401.06949},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization",
+                "author": "Darvish, Kourosh and Skreta, Marta and Zhao, Yuchi and Yoshikawa, Naruki and Som, Sagnik and Bogdanovic, Miroslav and Cao, Yang and Hao, Han and Xu, Haoping and Aspuru-Guzik, Al{\\'a}n and others",
+                "journal": "arXiv preprint arXiv:2401.06949",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Chemistry experiments can be resource- and labor-intensive, often requiring manual tasks like polishing electrodes in electrochemistry. Traditional lab automation infrastructure faces challenges adapting to new experiments. To address this, we introduce ORGANA, an assistive robotic system that automates diverse chemistry experiments using decision-making and perception tools. It makes decisions with chemists in the loop to control robots and lab devices. ORGANA interacts with chemists using large language models (LLMs) to derive experiment goals, handle disambiguation, and provide experiment logs. ORGANA plans and executes complex tasks with visual feedback while supporting scheduling and parallel task execution. We demonstrate ORGANA’s capabilities in solubility, pH measurement, recrystallization, and electrochemistry experiments. In electrochemistry, it executes a 19-step plan in parallel to characterize quinone derivatives for flow batteries. Our user study shows ORGANA reduces frustration and physical demand by over 50%, with users saving an average of 80.3% of their time when using it.",
+            "aminer_id": "65a747a9939a5f4082504030"
+        },
+        "varadi2022alphafold": {
+            "number": "[56]",
+            "title": "AlphaFold Protein Structure Database: Massively Expanding the Structural Coverage of Protein-Sequence Space with High-Accuracy Models",
+            "text": "title={AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models},\n  author={Varadi, Mihaly and Anyango, Stephen and Deshpande, Mandar and Nair, Sreenath and Natassia, Cindy and Yordanova, Galabina and Yuan, David and Stroe, Oana and Wood, Gemma and Laydon, Agata and others},\n  journal={Nucleic acids research},\n  volume={50},\n  number={D1},\n  pages={D439--D444},\n  year={2022},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "AlphaFold Protein Structure Database: massively expanding the structural coverage of protein-sequence space with high-accuracy models",
+                "author": "Varadi, Mihaly and Anyango, Stephen and Deshpande, Mandar and Nair, Sreenath and Natassia, Cindy and Yordanova, Galabina and Yuan, David and Stroe, Oana and Wood, Gemma and Laydon, Agata and others",
+                "journal": "Nucleic acids research",
+                "volume": "50",
+                "number": "D1",
+                "pages": "D439--D444",
+                "year": "2022",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "The AlphaFold Protein Structure Database (AlphaFold DB, https://alphafold.ebi.ac.uk) is an openly accessible, extensive database of high-accuracy protein-structure predictions. Powered by AlphaFold v2.0 of DeepMind, it has enabled an unprecedented expansion of the structural coverage of the known protein-sequence space. AlphaFold DB provides programmatic access to and interactive visualization of predicted atomic coordinates, per-residue and pairwise model-confidence estimates and predicted aligned errors. The initial release of AlphaFold DB contains over 360,000 predicted structures across 21 model-organism proteomes, which will soon be expanded to cover most of the (over 100 million) representative sequences from the UniRef90 data set.",
+            "aminer_id": "61977fcc5244ab9dcb093ced"
+        },
+        "gao2024empowering": {
+            "number": "[57]",
+            "title": "Empowering Biomedical Discovery with AI Agents",
+            "text": "title={Empowering biomedical discovery with AI agents},\n  author={Gao, Shanghua and Fang, Ada and Huang, Yepeng and Giunchiglia, Valentina and Noori, Ayush and Schwarz, Jonathan Richard and Ektefaie, Yasha and Kondic, Jovana and Zitnik, Marinka},\n  journal={Cell},\n  volume={187},\n  number={22},\n  pages={6125--6151},\n  year={2024},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "Empowering biomedical discovery with AI agents",
+                "author": "Gao, Shanghua and Fang, Ada and Huang, Yepeng and Giunchiglia, Valentina and Noori, Ayush and Schwarz, Jonathan Richard and Ektefaie, Yasha and Kondic, Jovana and Zitnik, Marinka",
+                "journal": "Cell",
+                "volume": "187",
+                "number": "22",
+                "pages": "6125--6151",
+                "year": "2024",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "We envision \"AI scientists\" as systems capable of skeptical learning and reasoning that empower biomedical research through collaborative agents that integrate AI models and biomedical tools with experimental platforms. Rather than taking humans out of the discovery process, biomedical AI agents combine human creativity and expertise with AI's ability to analyze large datasets, navigate hypothesis spaces, and execute repetitive tasks. AI agents are poised to be proficient in various tasks, planning discovery workflows and performing self-assessment to identify and mitigate gaps in their knowledge. These agents use large language models and generative models to feature structured memory for continual learning and use machine learning tools to incorporate scientific knowledge, biological principles, and theories. AI agents can impact areas ranging from virtual cell simulation, programmable control of phenotypes, and the design of cellular circuits to developing new therapies.",
+            "aminer_id": "660e097d13fb2c6cf6ab3d23"
+        },
+        "nottingham2023embodied": {
+            "number": "[58]",
+            "title": "Do Embodied Agents Dream of Pixelated Sheep: Embodied Decision Making Using Language Guided World Modelling",
+            "text": "title={Do embodied agents dream of pixelated sheep: Embodied decision making using language guided world modelling},\n  author={Nottingham, Kolby and Ammanabrolu, Prithviraj and Suhr, Alane and Choi, Yejin and Hajishirzi, Hannaneh and Singh, Sameer and Fox, Roy},\n  booktitle={International Conference on Machine Learning},\n  pages={26311--26325},\n  year={2023},\n  organization={PMLR}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Do embodied agents dream of pixelated sheep: Embodied decision making using language guided world modelling",
+                "author": "Nottingham, Kolby and Ammanabrolu, Prithviraj and Suhr, Alane and Choi, Yejin and Hajishirzi, Hannaneh and Singh, Sameer and Fox, Roy",
+                "booktitle": "International Conference on Machine Learning",
+                "pages": "26311--26325",
+                "year": "2023",
+                "organization": "PMLR"
+            },
+            "ref_source": "bib",
+            "abstract": "Reinforcement learning (RL) agents typically learn tabula rasa, without prior knowledge of the world. However, if initialized with knowledge of high-level subgoals and transitions between subgoals, RL agents could utilize this Abstract World Model (AWM) for planning and exploration. We propose using few-shot large language models (LLMs) to hypothesize an AWM, that will be verified through world experience, to improve sample efficiency of RL agents. Our DECKARD agent applies LLM-guided exploration to item crafting in Minecraft in two phases: (1) the Dream phase where the agent uses an LLM to decompose a task into a sequence of subgoals, the hypothesized AWM; and (2) the Wake phase where the agent learns a modular policy for each subgoal and verifies or corrects the hypothesized AWM. Our method of hypothesizing an AWM with LLMs and then verifying the AWM based on agent experience not only increases sample efficiency over contemporary methods by an order of magnitude but is also robust to and corrects errors in the LLM, successfully blending noisy internet-scale information from LLMs with knowledge grounded in environment dynamics.",
+            "aminer_id": "63d9d86990e50fcafd57b054"
+        },
+        "yuan2023skill": {
+            "number": "[59]",
+            "title": "Skill Reinforcement Learning and Planning for Open-World Long-Horizon Tasks",
+            "text": "title={Skill reinforcement learning and planning for open-world long-horizon tasks},\n  author={Yuan, Haoqi and Zhang, Chi and Wang, Hongcheng and Xie, Feiyang and Cai, Penglin and Dong, Hao and Lu, Zongqing},\n  journal={arXiv preprint arXiv:2303.16563},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Skill reinforcement learning and planning for open-world long-horizon tasks",
+                "author": "Yuan, Haoqi and Zhang, Chi and Wang, Hongcheng and Xie, Feiyang and Cai, Penglin and Dong, Hao and Lu, Zongqing",
+                "journal": "arXiv preprint arXiv:2303.16563",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "We study building an agent that solves diverse long-horizon tasks in open-world environments. Without human demonstrations, learning to accomplish tasks in a large open-world environment with reinforcement learning (RL) is extremely inefficient. To tackle this challenge, we convert the multi-task learning problem into learning basic skills and planning over the skills, and propose a Finding-skill to improve the sample efficiency for training all the skills. Using the popular open-world game Minecraft as the testbed, we propose three types of fine-grained basic skills, and use RL with intrinsic rewards to acquire skills with high success rates. For skill planning, we leverage the prior knowledge in Large Language Models to find the relationships between skills and build a skill graph. When the agent is solving a task, our skill search algorithm walks on the skill graph and generates the proper skill plans for the agent. In experiments, our method accomplishes 40 diverse Minecraft tasks, where many tasks require sequentially executing for more than 10 skills. Our method outperforms baselines by a large margin and is the most sample-efficient demonstration-free RL method to solve Minecraft Tech Tree tasks.",
+            "aminer_id": "6424fe3390e50fcafd78b684"
+        },
+        "huang2024crispr": {
+            "number": "[60]",
+            "title": "Crispr-GPT: An LLM agent for automated design of gene-editing experiments",
+            "text": "title={Crispr-GPT: An LLM agent for automated design of gene-editing experiments},\n  author={Huang, Kaixuan and Qu, Yuanhao and Cousins, Henry and Johnson, William A and Yin, Di and Shah, Mihir and Zhou, Denny and Altman, Russ and Wang, Mengdi and Cong, Le},\n  journal={arXiv preprint arXiv:2404.18021},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Crispr-GPT: An LLM agent for automated design of gene-editing experiments",
+                "author": "Huang, Kaixuan and Qu, Yuanhao and Cousins, Henry and Johnson, William A and Yin, Di and Shah, Mihir and Zhou, Denny and Altman, Russ and Wang, Mengdi and Cong, Le",
+                "journal": "arXiv preprint arXiv:2404.18021",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "nakano2021webgpt": {
+            "number": "[61]",
+            "title": "WebGPT: Browser-assisted Question-Answering with Human Feedback",
+            "text": "title={Webgpt: Browser-assisted question-answering with human feedback},\n  author={Nakano, Reiichiro and Hilton, Jacob and Balaji, Suchir and Wu, Jeff and Ouyang, Long and Kim, Christina and Hesse, Christopher and Jain, Shantanu and Kosaraju, Vineet and Saunders, William and others},\n  journal={arXiv preprint arXiv:2112.09332},\n  year={2021}",
+            "type": "article",
+            "fields": {
+                "title": "Webgpt: Browser-assisted question-answering with human feedback",
+                "author": "Nakano, Reiichiro and Hilton, Jacob and Balaji, Suchir and Wu, Jeff and Ouyang, Long and Kim, Christina and Hesse, Christopher and Jain, Shantanu and Kosaraju, Vineet and Saunders, William and others",
+                "journal": "arXiv preprint arXiv:2112.09332",
+                "year": "2021"
+            },
+            "ref_source": "bib",
+            "abstract": "We fine-tune GPT-3 to answer long-form questions using a text-based webbrowsing environment, which allows the model to search and navigate the web. By setting up the task so that it can be performed by humans, we are able to train models on the task using imitation learning, and then optimize answer quality with human feedback. To make human evaluation of factual accuracy easier, models must collect references while browsing in support of their answers. We train and evaluate our models on ELI5, a dataset of questions asked by Reddit users. Our best model is obtained by fine-tuning GPT-3 using behavior cloning, and then performing rejection sampling against a reward model trained to predict human preferences. This model’s answers are preferred by humans 56% of the time to those of our human demonstrators, and 69% of the time to the highest-voted answer from Reddit.",
+            "aminer_id": "61bff4285244ab9dcb79c82c"
+        },
+        "zhou2024webarena": {
+            "number": "[62]",
+            "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+            "text": "title={WebArena: A Realistic Web Environment for Building Autonomous Agents},\nauthor={Shuyan Zhou and Frank F. Xu and Hao Zhu and Xuhui Zhou and Robert Lo and Abishek Sridhar and Xianyi Cheng and Tianyue Ou and Yonatan Bisk and Daniel Fried and Uri Alon and Graham Neubig},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2024},\nurl={https://openreview.net/forum?id=oKn9c6ytLx}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "WebArena: A Realistic Web Environment for Building Autonomous Agents",
+                "author": "Shuyan Zhou and Frank F. Xu and Hao Zhu and Xuhui Zhou and Robert Lo and Abishek Sridhar and Xianyi Cheng and Tianyue Ou and Yonatan Bisk and Daniel Fried and Uri Alon and Graham Neubig",
+                "booktitle": "The Twelfth International Conference on Learning Representations",
+                "year": "2024",
+                "url": "https://openreview.net/forum?id=oKn9c6ytLx"
+            },
+            "ref_source": "bib",
+            "abstract": "With advances in generative AI, there is now potential for autonomous agents to manage daily tasks via natural language commands. However, current agents are primarily created and tested in simplified synthetic environments, leading to a disconnect with real-world scenarios. In this paper, we build an environment for language-guided agents that is highly realistic and reproducible. Specifically, we focus on agents that perform tasks on the web, and create an environment with fully functional websites from four common domains: e-commerce, social forum discussions, collaborative software development, and content management. Our environment is enriched with tools (e.g., a map) and external knowledge bases (e.g., user manuals) to encourage human-like task-solving. Building upon our environment, we release a set of benchmark tasks focusing on evaluating the functional correctness of task completions. The tasks in our benchmark are diverse, long-horizon, and designed to emulate tasks that humans routinely perform on the internet. We experiment with several baseline agents, integrating recent techniques such as reasoning before acting. The results demonstrate that solving complex tasks is challenging: our best GPT-4-based agent only achieves an end-to-end task success rate of 14.41%, significantly lower than the human performance of 78.24%. These results highlight the need for further development of robust agents, that current state-of-the-art large language models are far from perfect performance in these real-life tasks, and that WebArena can be used to measure such progress.",
+            "aminer_id": "64c1ec613fda6d7f0639738b"
+        },
+        "furuta2024multimodal": {
+            "number": "[63]",
+            "title": "Multimodal Web Navigation with Instruction-Finetuned Foundation Models",
+            "text": "title={Multimodal Web Navigation with Instruction-Finetuned Foundation Models},\nauthor={Hiroki Furuta and Kuang-Huei Lee and Ofir Nachum and Yutaka Matsuo and Aleksandra Faust and Shixiang Shane Gu and Izzeddin Gur},\nbooktitle={The Twelfth International Conference on Learning Representations},\nyear={2024},\nurl={https://openreview.net/forum?id=efFmBWioSc}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Multimodal Web Navigation with Instruction-Finetuned Foundation Models",
+                "author": "Hiroki Furuta and Kuang-Huei Lee and Ofir Nachum and Yutaka Matsuo and Aleksandra Faust and Shixiang Shane Gu and Izzeddin Gur",
+                "booktitle": "The Twelfth International Conference on Learning Representations",
+                "year": "2024",
+                "url": "https://openreview.net/forum?id=efFmBWioSc"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "646aecaad68f896efa05a817"
+        },
+        "deng2024mind2web": {
+            "number": "[64]",
+            "title": "Mind2Web: Towards a Generalist Agent for the Web",
+            "text": "title={Mind2web: Towards a generalist agent for the web},\n  author={Deng, Xiang and Gu, Yu and Zheng, Boyuan and Chen, Shijie and Stevens, Sam and Wang, Boshi and Sun, Huan and Su, Yu},\n  journal={Advances in Neural Information Processing Systems},\n  volume={36},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Mind2web: Towards a generalist agent for the web",
+                "author": "Deng, Xiang and Gu, Yu and Zheng, Boyuan and Chen, Shijie and Stevens, Sam and Wang, Boshi and Sun, Huan and Su, Yu",
+                "journal": "Advances in Neural Information Processing Systems",
+                "volume": "36",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "We introduce Mind2Web, the first dataset for developing and evaluating generalist agents for the web that can follow language instructions to complete complex tasks on any website. Existing datasets for web agents either use simulated websites or only cover a limited set of websites and tasks, thus not suitable for generalist web agents. With over 2,000 open-ended tasks collected from 137 websites spanning 31 domains and crowdsourced action sequences for the tasks, Mind2Web provides three necessary ingredients for building generalist web agents: 1) diverse domains, websites, and tasks, 2) use of real-world websites instead of simulated and simplified ones, and 3) a broad spectrum of user interaction patterns. Based on Mind2Web, we conduct an initial exploration of using large language models (LLMs) for building generalist web agents. While the raw HTML of real-world websites are often too large to be fed to LLMs, we show that first filtering it with a small LM significantly improves the effectiveness and efficiency of LLMs. Our solution demonstrates a decent level of performance, even on websites or entire domains the model has never seen before, but there is still a substantial room to improve towards truly generalizable agents. We open-source our dataset, model implementation, and trained models (https://osu-nlp-group.github.io/Mind2Web) to facilitate further research on building a generalist agent for the web.",
+            "aminer_id": "648697e6d68f896efaa879da"
+        },
+        "qian2024chatdev": {
+            "number": "[65]",
+            "title": "ChatDev: Communicative Agents for Software Development",
+            "text": "title={Chatdev: Communicative agents for software development},\n  author={Qian, Chen and Liu, Wei and Liu, Hongzhang and Chen, Nuo and Dang, Yufan and Li, Jiahao and Yang, Cheng and Chen, Weize and Su, Yusheng and Cong, Xin and others},\n  booktitle={Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)},\n  pages={15174--15186},\n  year={2024}",
+            "type": "inproceedings",
+            "fields": {
+                "title": "Chatdev: Communicative agents for software development",
+                "author": "Qian, Chen and Liu, Wei and Liu, Hongzhang and Chen, Nuo and Dang, Yufan and Li, Jiahao and Yang, Cheng and Chen, Weize and Su, Yusheng and Cong, Xin and others",
+                "booktitle": "Proceedings of the 62nd Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+                "pages": "15174--15186",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Software development is a complex task that necessitates cooperation among multiple members with diverse skills. Numerous studies used deep learning to improve specific phases in a waterfall model, such as design, coding, and testing. However, the deep learning model in each phase requires unique designs, leading to technical inconsistencies across various phases, which results in a fragmented and ineffective development process. In this paper, we introduce ChatDev, a chat-powered software development framework in which specialized agents driven by large language models (LLMs) are guided in what to communicate (via chat chain) and how to communicate (via communicative dehallucination). These agents actively contribute to the design, coding, and testing phases through unified language-based communication, with solutions derived from their multi-turn dialogues. We found their utilization of natural language is advantageous for system design, and communicating in programming language proves helpful in debugging. This paradigm demonstrates how linguistic communication facilitates multi-agent collaboration, establishing language as a unifying bridge for autonomous task-solving among LLM agents. The code and data are available at https://github.com/OpenBMB/ChatDev.",
+            "aminer_id": "64b60eaa3fda6d7f06eaea2a"
+        },
+        "strieth2024delocalized": {
+            "number": "[66]",
+            "title": "Delocalized, Asynchronous, Closed-Loop Discovery of Organic Laser Emitters",
+            "text": "title={Delocalized, asynchronous, closed-loop discovery of organic laser emitters},\n  author={Strieth-Kalthoff, Felix and Hao, Han and Rathore, Vandana and Derasp, Joshua and Gaudin, Th{\\'e}ophile and Angello, Nicholas H and Seifrid, Martin and Trushina, Ekaterina and Guy, Mason and Liu, Junliang and others},\n  journal={Science},\n  volume={384},\n  number={6697},\n  pages={eadk9227},\n  year={2024},\n  publisher={American Association for the Advancement of Science}",
+            "type": "article",
+            "fields": {
+                "title": "Delocalized, asynchronous, closed-loop discovery of organic laser emitters",
+                "author": "Strieth-Kalthoff, Felix and Hao, Han and Rathore, Vandana and Derasp, Joshua and Gaudin, Th{\\'e}ophile and Angello, Nicholas H and Seifrid, Martin and Trushina, Ekaterina and Guy, Mason and Liu, Junliang and others",
+                "journal": "Science",
+                "volume": "384",
+                "number": "6697",
+                "pages": "eadk9227",
+                "year": "2024",
+                "publisher": "American Association for the Advancement of Science"
+            },
+            "ref_source": "bib",
+            "abstract": "Contemporary materials discovery requires intricate sequences of synthesis, formulation, and characterization that often span multiple locations with specialized expertise or instrumentation. To accelerate these workflows, we present a cloud-based strategy that enabled delocalized and asynchronous design-make-test-analyze cycles. We showcased this approach through the exploration of molecular gain materials for organic solid-state lasers as a frontier application in molecular optoelectronics. Distributed robotic synthesis and in-line property characterization, orchestrated by a cloud-based artificial intelligence experiment planner, resulted in the discovery of 21 new state-of-the-art materials. Gram-scale synthesis ultimately allowed for the verification of best-in-class stimulated emission in a thin-film device. Demonstrating the asynchronous integration of five laboratories across the globe, this workflow provides a blueprint for delocalizing—and democratizing—scientific discovery.",
+            "aminer_id": "65793e86939a5f408218dc4e"
+        },
+        "spotte2023database": {
+            "number": "[67]",
+            "title": "A Database of Molecular Properties Integrated in the Materials Project",
+            "text": "title={A database of molecular properties integrated in the Materials Project},\n  author={Spotte-Smith, Evan Walter Clark and Cohen, Orion Archer and Blau, Samuel M and Munro, Jason M and Yang, Ruoxi and Guha, Rishabh D and Patel, Hetal D and Vijay, Sudarshan and Huck, Patrick and Kingsbury, Ryan and others},\n  journal={Digital Discovery},\n  volume={2},\n  number={6},\n  pages={1862--1882},\n  year={2023},\n  publisher={Royal Society of Chemistry}",
+            "type": "article",
+            "fields": {
+                "title": "A database of molecular properties integrated in the Materials Project",
+                "author": "Spotte-Smith, Evan Walter Clark and Cohen, Orion Archer and Blau, Samuel M and Munro, Jason M and Yang, Ruoxi and Guha, Rishabh D and Patel, Hetal D and Vijay, Sudarshan and Huck, Patrick and Kingsbury, Ryan and others",
+                "journal": "Digital Discovery",
+                "volume": "2",
+                "number": "6",
+                "pages": "1862--1882",
+                "year": "2023",
+                "publisher": "Royal Society of Chemistry"
+            },
+            "ref_source": "bib",
+            "abstract": "Advanced chemical research is increasingly reliant on large computed datasets of molecules and reactions to discover new functional molecules, understand chemical trends, train machine learning models, and more. To be of greatest use to the scientific community, such datasets should follow FAIR principles (i.e. be findable, accessible, interoperable, and reusable). In this work, we present a FAIR expansion of the Materials Project database (\"MPcules\") that adds more than 170,000 molecules studied using density functional theory (DFT) to the existing data, which comprises crystalline solids. MPcules is a diverse collection of DFT calculated molecular properties, with an emphasis on reactive, open-shell, and charged species - relevant for studying reaction pathways - and a wide array of structural, electronic, vibrational, and thermodynamic properties. This database can be queried through an OpenAPI-compliant application programming interface and a featureful web application. We continue to expand the data available on MPcules and encourage contributions from the community.",
+            "aminer_id": "6578f599939a5f4082a1d4bf"
+        },
+        "fang2023mol": {
+            "number": "[68]",
+            "title": "Mol-Instructions: A Large-Scale Biomolecular Instruction Dataset for Large Language Models",
+            "text": "title={Mol-instructions: A large-scale biomolecular instruction dataset for large language models},\n  author={Fang, Yin and Liang, Xiaozhuan and Zhang, Ningyu and Liu, Kangwei and Huang, Rui and Chen, Zhuo and Fan, Xiaohui and Chen, Huajun},\n  journal={arXiv preprint arXiv:2306.08018},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Mol-instructions: A large-scale biomolecular instruction dataset for large language models",
+                "author": "Fang, Yin and Liang, Xiaozhuan and Zhang, Ningyu and Liu, Kangwei and Huang, Rui and Chen, Zhuo and Fan, Xiaohui and Chen, Huajun",
+                "journal": "arXiv preprint arXiv:2306.08018",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "Large Language Models (LLMs), with their remarkable task-handling capabilities and innovative outputs, have catalyzed significant advancements across a spectrum of fields. However, their proficiency within specialized domains such as biomolecular studies remains limited. To address this challenge, we introduce Mol-Instructions, a comprehensive instruction dataset designed for the biomolecular domain. Mol-Instructions encompasses three key components: molecule-oriented instructions, protein-oriented instructions, and biomolecular text instructions. Each component aims to improve the understanding and prediction capabilities of LLMs concerning biomolecular features and behaviors. Through extensive instruction tuning experiments on LLMs, we demonstrate the effectiveness of Mol-Instructions in enhancing large models' performance in the intricate realm of biomolecular studies, thus fostering progress in the biomolecular research community. Mol-Instructions is publicly available for ongoing research and will undergo regular updates to enhance its applicability.",
+            "aminer_id": "648bde68d68f896efaf818b6"
+        },
+        "kim2016pubchem": {
+            "number": "[69]",
+            "title": "PubChem Substance and Compound Databases",
+            "text": "title={PubChem substance and compound databases},\n  author={Kim, Sunghwan and Thiessen, Paul A and Bolton, Evan E and Chen, Jie and Fu, Gang and Gindulyte, Asta and Han, Lianyi and He, Jane and He, Siqian and Shoemaker, Benjamin A and others},\n  journal={Nucleic acids research},\n  volume={44},\n  number={D1},\n  pages={D1202--D1213},\n  year={2016},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "PubChem substance and compound databases",
+                "author": "Kim, Sunghwan and Thiessen, Paul A and Bolton, Evan E and Chen, Jie and Fu, Gang and Gindulyte, Asta and Han, Lianyi and He, Jane and He, Siqian and Shoemaker, Benjamin A and others",
+                "journal": "Nucleic acids research",
+                "volume": "44",
+                "number": "D1",
+                "pages": "D1202--D1213",
+                "year": "2016",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "PubChem (https://pubchem.ncbi.nlm.nih.gov) is a public repository for information on chemical substances and their biological activities, launched in 2004 as a component of the Molecular Libraries Roadmap Initiatives of the US National Institutes of Health (NIH). For the past 11 years, PubChem has grown to a sizable system, serving as a chemical information resource for the scientific research community. PubChem consists of three inter-linked databases, Substance, Compound and BioAssay. The Substance database contains chemical information deposited by individual data contributors to PubChem, and the Compound database stores unique chemical structures extracted from the Substance database. Biological activity data of chemical substances tested in assay experiments are contained in the BioAssay database. This paper provides an overview of the PubChem Substance and Compound databases, including data sources and contents, data organization, data submission using PubChem Upload, chemical structure standardization, web-based interfaces for textual and non-textual searches, and programmatic access. It also gives a brief description of PubChem3D, a resource derived from theoretical three-dimensional structures of compounds in PubChem, as well as PubChemRDF, Resource Description Framework (RDF)-formatted PubChem data for data sharing, analysis and integration with information contained in other databases.",
+            "aminer_id": "573696146e3b12023e527268"
+        },
+        "gaulton2012chembl": {
+            "number": "[70]",
+            "title": "ChEMBL: a Large-Scale Bioactivity Database for Drug Discovery",
+            "text": "title={ChEMBL: a large-scale bioactivity database for drug discovery},\n  author={Gaulton, Anna and Bellis, Louisa J and Bento, A Patricia and Chambers, Jon and Davies, Mark and Hersey, Anne and Light, Yvonne and McGlinchey, Shaun and Michalovich, David and Al-Lazikani, Bissan and others},\n  journal={Nucleic acids research},\n  volume={40},\n  number={D1},\n  pages={D1100--D1107},\n  year={2012},\n  publisher={Oxford University Press}",
+            "type": "article",
+            "fields": {
+                "title": "ChEMBL: a large-scale bioactivity database for drug discovery",
+                "author": "Gaulton, Anna and Bellis, Louisa J and Bento, A Patricia and Chambers, Jon and Davies, Mark and Hersey, Anne and Light, Yvonne and McGlinchey, Shaun and Michalovich, David and Al-Lazikani, Bissan and others",
+                "journal": "Nucleic acids research",
+                "volume": "40",
+                "number": "D1",
+                "pages": "D1100--D1107",
+                "year": "2012",
+                "publisher": "Oxford University Press"
+            },
+            "ref_source": "bib",
+            "abstract": "ChEMBL is an Open Data database containing binding, functional and ADMET information for a large number of drug-like bioactive compounds. These data are manually abstracted from the primary published literature on a regular basis, then further curated and standardized to maximize their quality and utility across a wide range of chemical biology and drug-discovery research problems. Currently, the database contains 5.4 million bioactivity measurements for more than 1 million compounds and 5200 protein targets. Access is available through a web-based interface, data downloads and web services at: https://www.ebi.ac.uk/chembldb.",
+            "aminer_id": "53e9a26bb7602d9702b74d9b"
+        },
+        "zaki2024mascqa": {
+            "number": "[71]",
+            "title": "MaScQA: investigating materials science knowledge of large language models",
+            "text": "title={MaScQA: investigating materials science knowledge of large language models},\n  author={Zaki, Mohd and Krishnan, NM Anoop and others},\n  journal={Digital Discovery},\n  volume={3},\n  number={2},\n  pages={313--327},\n  year={2024},\n  publisher={Royal Society of Chemistry}",
+            "type": "article",
+            "fields": {
+                "title": "MaScQA: investigating materials science knowledge of large language models",
+                "author": "Zaki, Mohd and Krishnan, NM Anoop and others",
+                "journal": "Digital Discovery",
+                "volume": "3",
+                "number": "2",
+                "pages": "313--327",
+                "year": "2024",
+                "publisher": "Royal Society of Chemistry"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "song2023matsci": {
+            "number": "[72]",
+            "title": "MatSci-NLP: Evaluating Scientific Language Models on Materials Science Language Tasks Using Text-to-Schema Modeling.",
+            "text": "title={Matsci-nlp: Evaluating scientific language models on materials science language tasks using text-to-schema modeling},\n  author={Song, Yu and Miret, Santiago and Liu, Bang},\n  journal={arXiv preprint arXiv:2305.08264},\n  year={2023}",
+            "type": "article",
+            "fields": {
+                "title": "Matsci-nlp: Evaluating scientific language models on materials science language tasks using text-to-schema modeling",
+                "author": "Song, Yu and Miret, Santiago and Liu, Bang",
+                "journal": "arXiv preprint arXiv:2305.08264",
+                "year": "2023"
+            },
+            "ref_source": "bib",
+            "abstract": "We present MatSci-NLP, a natural language benchmark for evaluating the performance of natural language processing (NLP) models on materials science text. We construct the benchmark from publicly available materials science text data to encompass seven different NLP tasks, including conventional NLP tasks like named entity recognition and relation classification, as well as NLP tasks specific to materials science, such as synthesis action retrieval which relates to creating synthesis procedures for materials. We study various BERT-based models pretrained on different scientific text corpora on MatSci-NLP to understand the impact of pretraining strategies on understanding materials science text. Given the scarcity of high-quality annotated data in the materials science domain, we perform our fine-tuning experiments with limited training data to encourage the generalize across MatSci-NLP tasks.Our experiments in this low-resource training setting show that language models pretrained on scientific text outperform BERT trained on general text. MatBERT, a model pretrained specifically on materials science journals, generally performs best for most tasks. Moreover, we propose a unified text-to-schema for multitask learning on {pasted macro 'BENCHMARK'} and compare its performance with traditional fine-tuning methods. In our analysis of different training methods, we find that our proposed text-to-schema methods inspired by question-answering consistently outperform single and multitask NLP fine-tuning methods. The code and datasets are publicly available https://github.com/BangLab-UdeM-Mila/NLP4MatSci-ACL23.",
+            "aminer_id": "6462f133d68f896efa91188f"
+        },
+        "alampara2024mattext": {
+            "number": "[73]",
+            "title": "MatText: Do language models need more than text & scale for materials modeling?",
+            "text": "title={MatText: Do language models need more than text \\& scale for materials modeling?},\n  author={Alampara, Nawaf and Miret, Santiago and Jablonka, Kevin Maik},\n  journal={arXiv preprint arXiv:2406.17295},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "MatText: Do language models need more than text \\& scale for materials modeling?",
+                "author": "Alampara, Nawaf and Miret, Santiago and Jablonka, Kevin Maik",
+                "journal": "arXiv preprint arXiv:2406.17295",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "irwin2012zinc": {
+            "number": "[74]",
+            "title": "ZINC: A Free Tool to Discover Chemistry for Biology",
+            "text": "title={ZINC: a free tool to discover chemistry for biology},\n  author={Irwin, John J and Sterling, Teague and Mysinger, Michael M and Bolstad, Erin S and Coleman, Ryan G},\n  journal={Journal of chemical information and modeling},\n  volume={52},\n  number={7},\n  pages={1757--1768},\n  year={2012},\n  publisher={ACS Publications}",
+            "type": "article",
+            "fields": {
+                "title": "ZINC: a free tool to discover chemistry for biology",
+                "author": "Irwin, John J and Sterling, Teague and Mysinger, Michael M and Bolstad, Erin S and Coleman, Ryan G",
+                "journal": "Journal of chemical information and modeling",
+                "volume": "52",
+                "number": "7",
+                "pages": "1757--1768",
+                "year": "2012",
+                "publisher": "ACS Publications"
+            },
+            "ref_source": "bib",
+            "abstract": "ZINC is a free public resource for ligand discovery. The database contains over twenty million commercially available molecules in biologically relevant representations that may be downloaded in popular ready-to-dock formats and subsets. The Web site also enables searches by structure, biological activity, physical property, vendor, catalog number, name, and CAS number. Small custom subsets may be created, edited, shared, docked, downloaded, and conveyed to a vendor for purchase. The database is maintained and curated for a high purchasing success rate and is freely available at zinc.docking.org.",
+            "aminer_id": "53e9b360b7602d9703e41a15"
+        },
+        "wu2018moleculenet": {
+            "number": "[75]",
+            "title": "MoleculeNet: a benchmark for molecular machine learning",
+            "text": "title={MoleculeNet: a benchmark for molecular machine learning},\n  author={Wu, Zhenqin and Ramsundar, Bharath and Feinberg, Evan N and Gomes, Joseph and Geniesse, Caleb and Pappu, Aneesh S and Leswing, Karl and Pande, Vijay},\n  journal={Chemical science},\n  volume={9},\n  number={2},\n  pages={513--530},\n  year={2018},\n  publisher={Royal Society of Chemistry}",
+            "type": "article",
+            "fields": {
+                "title": "MoleculeNet: a benchmark for molecular machine learning",
+                "author": "Wu, Zhenqin and Ramsundar, Bharath and Feinberg, Evan N and Gomes, Joseph and Geniesse, Caleb and Pappu, Aneesh S and Leswing, Karl and Pande, Vijay",
+                "journal": "Chemical science",
+                "volume": "9",
+                "number": "2",
+                "pages": "513--530",
+                "year": "2018",
+                "publisher": "Royal Society of Chemistry"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "599c7961601a182cd2637827"
+        },
+        "laurent2024lab": {
+            "number": "[76]",
+            "title": "LAB-Bench: Measuring Capabilities of Language Models for Biology Research",
+            "text": "title={Lab-bench: Measuring capabilities of language models for biology research},\n  author={Laurent, Jon M and Janizek, Joseph D and Ruzo, Michael and Hinks, Michaela M and Hammerling, Michael J and Narayanan, Siddharth and Ponnapati, Manvitha and White, Andrew D and Rodriques, Samuel G},\n  journal={arXiv preprint arXiv:2407.10362},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Lab-bench: Measuring capabilities of language models for biology research",
+                "author": "Laurent, Jon M and Janizek, Joseph D and Ruzo, Michael and Hinks, Michaela M and Hammerling, Michael J and Narayanan, Siddharth and Ponnapati, Manvitha and White, Andrew D and Rodriques, Samuel G",
+                "journal": "arXiv preprint arXiv:2407.10362",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "There is widespread optimism that frontier Large Language Models (LLMs) and LLM-augmented systems have the potential to rapidly accelerate scientific discovery across disciplines. Today, many benchmarks exist to measure LLM knowledge and reasoning on textbook-style science questions, but few if any benchmarks are designed to evaluate language model performance on practical tasks required for scientific research, such as literature search, protocol planning, and data analysis. As a step toward building such benchmarks, we introduce the Language Agent Biology Benchmark (LAB-Bench), a broad dataset of over 2,400 multiple choice questions for evaluating AI systems on a range of practical biology research capabilities, including recall and reasoning over literature, interpretation of figures, access and navigation of databases, and comprehension and manipulation of DNA and protein sequences. Importantly, in contrast to previous scientific benchmarks, we expect that an AI system that can achieve consistently high scores on the more difficult LAB-Bench tasks would serve as a useful assistant for researchers in areas such as literature search and molecular cloning. As an initial assessment of the emergent scientific task capabilities of frontier language models, we measure performance of several against our benchmark and report results compared to human expert biology researchers. We will continue to update and expand LAB-Bench over time, and expect it to serve as a useful tool in the development of automated research systems going forward. A public subset of LAB-Bench is available for use at the following URL: https://huggingface.co/datasets/futurehouse/lab-bench",
+            "aminer_id": "6695d3c001d2a3fbfccebf60"
+        },
+        "merchant2023scaling": {
+            "number": "[77]",
+            "title": "Scaling deep learning for materials discovery",
+            "text": "title={Scaling deep learning for materials discovery},\n  author={Merchant, Amil and Batzner, Simon and Schoenholz, Samuel S and Aykol, Muratahan and Cheon, Gowoon and Cubuk, Ekin Dogus},\n  journal={Nature},\n  volume={624},\n  number={7990},\n  pages={80--85},\n  year={2023},\n  publisher={Nature Publishing Group UK London}",
+            "type": "article",
+            "fields": {
+                "title": "Scaling deep learning for materials discovery",
+                "author": "Merchant, Amil and Batzner, Simon and Schoenholz, Samuel S and Aykol, Muratahan and Cheon, Gowoon and Cubuk, Ekin Dogus",
+                "journal": "Nature",
+                "volume": "624",
+                "number": "7990",
+                "pages": "80--85",
+                "year": "2023",
+                "publisher": "Nature Publishing Group UK London"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": "656974d8939a5f40829ce94b"
+        },
+        "ghafarollahi2024sciagents": {
+            "number": "[78]",
+            "title": "SciAgents: Automating Scientific Discovery Through Multi-Agent Intelligent Graph Reasoning",
+            "text": "title={Sciagents: Automating scientific discovery through multi-agent intelligent graph reasoning},\n  author={Ghafarollahi, Alireza and Buehler, Markus J},\n  journal={arXiv preprint arXiv:2409.05556},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Sciagents: Automating scientific discovery through multi-agent intelligent graph reasoning",
+                "author": "Ghafarollahi, Alireza and Buehler, Markus J",
+                "journal": "arXiv preprint arXiv:2409.05556",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "A key challenge in artificial intelligence is the creation of systems capable of autonomously advancing scientific understanding by exploring novel domains, identifying complex patterns, and uncovering previously unseen connections in vast scientific data. In this work, we present SciAgents, an approach that leverages three core concepts: (1) the use of large-scale ontological knowledge graphs to organize and interconnect diverse scientific concepts, (2) a suite of large language models (LLMs) and data retrieval tools, and (3) multi-agent systems with in-situ learning capabilities. Applied to biologically inspired materials, SciAgents reveals hidden interdisciplinary relationships that were previously considered unrelated, achieving a scale, precision, and exploratory power that surpasses traditional human-driven research methods. The framework autonomously generates and refines research hypotheses, elucidating underlying mechanisms, design principles, and unexpected material properties. By integrating these capabilities in a modular fashion, the intelligent system yields material discoveries, critique and improve existing hypotheses, retrieve up-to-date data about existing research, and highlights their strengths and limitations. Our case studies demonstrate scalable capabilities to combine generative AI, ontological representations, and multi-agent modeling, harnessing a `swarm of intelligence' similar to biological systems. This provides new avenues for materials discovery and accelerates the development of advanced materials by unlocking Nature's design principles.",
+            "aminer_id": "66dfac3b01d2a3fbfc18e4df"
+        },
+        "papadimitriou2024ai": {
+            "number": "[79]",
+            "title": "AI Methods in Materials Design, Discovery and Manufacturing: A Review",
+            "text": "title={AI methods in materials design, discovery and manufacturing: A review},\n  author={Papadimitriou, Ioannis and Gialampoukidis, Ilias and Vrochidis, Stefanos and Kompatsiaris, Ioannis},\n  journal={Computational Materials Science},\n  volume={235},\n  pages={112793},\n  year={2024},\n  publisher={Elsevier}",
+            "type": "article",
+            "fields": {
+                "title": "AI methods in materials design, discovery and manufacturing: A review",
+                "author": "Papadimitriou, Ioannis and Gialampoukidis, Ilias and Vrochidis, Stefanos and Kompatsiaris, Ioannis",
+                "journal": "Computational Materials Science",
+                "volume": "235",
+                "pages": "112793",
+                "year": "2024",
+                "publisher": "Elsevier"
+            },
+            "ref_source": "bib",
+            "abstract": "In the advent of the digital revolution, Artificial Intelligence (AI) has emerged as a pivotal tool in various domains, including materials design and discovery. This paper provides a comprehensive review of the AI methodologies integrated within this context, encompassing materials informatics, density functional theory, molecular dynamics, and finite elements analysis. We further delve into the transformative role of AI within process engineering, manufacturing, and industry 4.0, with a focus on manufacturing process optimization techniques. Highlighting the importance of active learning, self-correcting processing, and digital twins in the era of smart manufacturing, this review underscores the impact of big data and data quality. The paper provides an insight into the challenges and future prospects, pointing towards the tremendous potential AI holds for revolutionizing the field of materials science.",
+            "aminer_id": "65ab0d07939a5f40822694d8"
+        },
+        "maqsood2024future": {
+            "number": "[80]",
+            "title": "The Future of Material Scientists in an Age of Artificial Intelligence.",
+            "text": "title={The future of material scientists in an age of artificial intelligence},\n  author={Maqsood, Ayman and Chen, Chen and Jacobsson, T Jesper},\n  journal={Advanced Science},\n  volume={11},\n  number={19},\n  pages={2401401},\n  year={2024},\n  publisher={Wiley Online Library}",
+            "type": "article",
+            "fields": {
+                "title": "The future of material scientists in an age of artificial intelligence",
+                "author": "Maqsood, Ayman and Chen, Chen and Jacobsson, T Jesper",
+                "journal": "Advanced Science",
+                "volume": "11",
+                "number": "19",
+                "pages": "2401401",
+                "year": "2024",
+                "publisher": "Wiley Online Library"
+            },
+            "ref_source": "bib",
+            "abstract": "Material science has historically evolved in tandem with advancements in technologies for characterization, synthesis, and computation. Another type of technology to add to this mix is machine learning (ML) and artificial intelligence (AI). Now increasingly sophisticated AI-models are seen that can solve progressively harder problems across a variety of fields. From a material science perspective, it is indisputable that machine learning and artificial intelligence offer a potent toolkit with the potential to substantially accelerate research efforts in areas such as the development and discovery of new functional materials. Less clear is how to best harness this development, what new skill sets will be required, and how it may affect established research practices. In this paper, those question are explored with respect to increasingly more sophisticated ML/AI-approaches. To structure the discussion, a conceptual framework of an AI-ladder is introduced. This AI-ladder ranges from basic data-fitting techniques to more advanced functionalities such as semi-autonomous experimentation, experimental design, knowledge generation, hypothesis formulation, and the orchestration of specialized AI modules as stepping-stones toward general artificial intelligence. This ladder metaphor provides a hierarchical framework for contemplating the opportunities, challenges, and evolving skill sets required to stay competitive in the age of artificial intelligence.",
+            "aminer_id": "65f2059a13fb2c6cf6f07da8"
+        },
+        "ni2024matpilot": {
+            "number": "[81]",
+            "title": "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration",
+            "text": "title={MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration},\n  author={Ni, Ziqi and Li, Yahao and Hu, Kaijia and Han, Kunyuan and Xu, Ming and Chen, Xingyu and Liu, Fengqi and Ye, Yicong and Bai, Shuxin},\n  journal={arXiv preprint arXiv:2411.08063},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "MatPilot: an LLM-enabled AI Materials Scientist under the Framework of Human-Machine Collaboration",
+                "author": "Ni, Ziqi and Li, Yahao and Hu, Kaijia and Han, Kunyuan and Xu, Ming and Chen, Xingyu and Liu, Fengqi and Ye, Yicong and Bai, Shuxin",
+                "journal": "arXiv preprint arXiv:2411.08063",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "The rapid evolution of artificial intelligence, particularly large language models, presents unprecedented opportunities for materials science research. We proposed and developed an AI materials scientist named MatPilot, which has shown encouraging abilities in the discovery of new materials. The core strength of MatPilot is its natural language interactive human-machine collaboration, which augments the research capabilities of human scientist teams through a multi-agent system. MatPilot integrates unique cognitive abilities, extensive accumulated experience, and ongoing curiosity of human-beings with the AI agents' capabilities of advanced abstraction, complex knowledge storage and high-dimensional information processing. It could generate scientific hypotheses and experimental schemes, and employ predictive models and optimization algorithms to drive an automated experimental platform for experiments. It turns out that our system demonstrates capabilities for efficient validation, continuous learning, and iterative optimization.",
+            "aminer_id": "6735ca8a01d2a3fbfc16de7d"
+        },
+        "ghafarollahi2024protagents": {
+            "number": "[82]",
+            "title": "ProtAgents: Protein Discovery Via Large Language Model Multi-Agent Collaborations Combining Physics and Machine Learning",
+            "text": "title={ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning},\n  author={Ghafarollahi, Alireza and Buehler, Markus J},\n  journal={Digital Discovery},\n  year={2024},\n  publisher={Royal Society of Chemistry}",
+            "type": "article",
+            "fields": {
+                "title": "ProtAgents: protein discovery via large language model multi-agent collaborations combining physics and machine learning",
+                "author": "Ghafarollahi, Alireza and Buehler, Markus J",
+                "journal": "Digital Discovery",
+                "year": "2024",
+                "publisher": "Royal Society of Chemistry"
+            },
+            "ref_source": "bib",
+            "abstract": "Designing de novo proteins beyond those found in nature holds significant promise for advancements in both scientific and engineering applications. Current methodologies for protein design often rely on AI-based models, such as surrogate models that address end-to-end problems by linking protein structure to material properties or vice versa. However, these models frequently focus on specific material objectives or structural properties, limiting their flexibility when incorporating out-of-domain knowledge into the design process or comprehensive data analysis is required. In this study, we introduce ProtAgents, a platform for de novo protein design based on Large Language Models (LLMs), where multiple AI agents with distinct capabilities collaboratively address complex tasks within a dynamic environment. The versatility in agent development allows for expertise in diverse domains, including knowledge retrieval, protein structure analysis, physics-based simulations, and results analysis. The dynamic collaboration between agents, empowered by LLMs, provides a versatile approach to tackling protein design and analysis problems, as demonstrated through diverse examples in this study. The problems of interest encompass designing new proteins, analyzing protein structures and obtaining new first-principles data -- natural vibrational frequencies -- via physics simulations. The concerted effort of the system allows for powerful automated and synergistic design of de novo proteins with targeted mechanical properties. The flexibility in designing the agents, on one hand, and their capacity in autonomous collaboration through the dynamic LLM-based multi-agent environment on the other hand, unleashes great potentials of LLMs in addressing multi-objective materials problems and opens up new avenues for autonomous materials discovery and design.",
+            "aminer_id": "65c43618939a5f4082d8146a"
+        },
+        "minsky1988society": {
+            "number": "[83]",
+            "title": "Society of mind",
+            "text": "title={Society of mind},\n  author={Minsky, Marvin},\n  year={1988},\n  publisher={Simon and Schuster}",
+            "type": "book",
+            "fields": {
+                "title": "Society of mind",
+                "author": "Minsky, Marvin",
+                "year": "1988",
+                "publisher": "Simon and Schuster"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "schlosser2019dual": {
+            "number": "[84]",
+            "title": "Dual-System Theory and the Role of Consciousness in Intentional Action",
+            "text": "title={Dual-system theory and the role of consciousness in intentional action},\n  author={Schlosser, Markus},\n  booktitle={Free will, causality, and neuroscience},\n  pages={35--56},\n  year={2019},\n  publisher={Brill}",
+            "type": "incollection",
+            "fields": {
+                "title": "Dual-system theory and the role of consciousness in intentional action",
+                "author": "Schlosser, Markus",
+                "booktitle": "Free will, causality, and neuroscience",
+                "pages": "35--56",
+                "year": "2019",
+                "publisher": "Brill"
+            },
+            "ref_source": "bib",
+            "abstract": "According to the standard view in philosophy, intentionality is the mark of genuine action. In psychology, human cognition and agency are now widely explained in terms of the workings of two distinct systems (or types of processes), and intentionality is not a central notion in this dual-system theory. Further, it is often claimed, in psychology, that most human actions are automatic, rather than consciously controlled. This raises pressing questions. Does the dualsystem theory preserve the philosophical account of intentional action? How much of our behavior is intentional according to this view? And what is the role of consciousness? I will propose here a revised account of intentional action within the dual-system framework, and we will see that most of our behavior can qualify as intentional, even if most of it is automatic. An important lesson will be that philosophical accounts of intentional action need to pay more attention to the role of consciousness in action.",
+            "aminer_id": "64a8658cd68f896efab6cb46"
+        },
+        "huang2024position": {
+            "number": "[85]",
+            "title": "Position Paper: Agent AI Towards a Holistic Intelligence",
+            "text": "title={Position Paper: Agent AI Towards a Holistic Intelligence},\n  author={Huang, Qiuyuan and Wake, Naoki and Sarkar, Bidipta and Durante, Zane and Gong, Ran and Taori, Rohan and Noda, Yusuke and Terzopoulos, Demetri and Kuno, Noboru and Famoti, Ade and others},\n  journal={arXiv preprint arXiv:2403.00833},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "Position Paper: Agent AI Towards a Holistic Intelligence",
+                "author": "Huang, Qiuyuan and Wake, Naoki and Sarkar, Bidipta and Durante, Zane and Gong, Ran and Taori, Rohan and Noda, Yusuke and Terzopoulos, Demetri and Kuno, Noboru and Famoti, Ade and others",
+                "journal": "arXiv preprint arXiv:2403.00833",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "Recent advancements in large foundation models have remarkably enhanced our understanding of sensory information in open-world environments. In leveraging the power of foundation models, it is crucial for AI research to pivot away from excessive reductionism and toward an emphasis on systems that function as cohesive wholes. Specifically, we emphasize developing Agent AI -- an embodied system that integrates large foundation models into agent actions. The emerging field of Agent AI spans a wide range of existing embodied and agent-based multimodal interactions, including robotics, gaming, and healthcare systems, etc. In this paper, we propose a novel large action model to achieve embodied intelligent behavior, the Agent Foundation Model. On top of this idea, we discuss how agent AI exhibits remarkable capabilities across a variety of domains and tasks, challenging our understanding of learning and cognition. Furthermore, we discuss the potential of Agent AI from an interdisciplinary perspective, underscoring AI cognition and consciousness within scientific discourse. We believe that those discussions serve as a basis for future research directions and encourage broader societal engagement.",
+            "aminer_id": "65e68af113fb2c6cf6f6d7bd"
+        },
+        "kang2024researcharena": {
+            "number": "[86]",
+            "title": "ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents",
+            "text": "title={ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents},\n  author={Kang, Hao and Xiong, Chenyan},\n  journal={arXiv preprint arXiv:2406.10291},\n  year={2024}",
+            "type": "article",
+            "fields": {
+                "title": "ResearchArena: Benchmarking LLMs' Ability to Collect and Organize Information as Research Agents",
+                "author": "Kang, Hao and Xiong, Chenyan",
+                "journal": "arXiv preprint arXiv:2406.10291",
+                "year": "2024"
+            },
+            "ref_source": "bib",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "ajith-etal-2024-litsearch": {
+            "number": "[87]",
+            "title": "LitSearch: A Retrieval Benchmark for Scientific Literature Search",
+            "text": "title = \"{L}it{S}earch: A Retrieval Benchmark for Scientific Literature Search\",\n    author = \"Ajith, Anirudh  and\n      Xia, Mengzhou  and\n      Chevalier, Alexis  and\n      Goyal, Tanya  and\n      Chen, Danqi  and\n      Gao, Tianyu\",\n    editor = \"Al-Onaizan, Yaser  and\n      Bansal, Mohit  and\n      Chen, Yun-Nung\",\n    booktitle = \"Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing\",\n    month = nov,\n    year = \"2024\",\n    address = \"Miami, Florida, USA\",\n    publisher = \"Association for Computational Linguistics\",\n    url = \"https://aclanthology.org/2024.emnlp-main.840/\",\n    doi = \"10.18653/v1/2024.emnlp-main.840\",\n    pages = \"15068--15083\"",
+            "type": "inproceedings",
+            "fields": {
+                "title": "{L}it{S}earch: A Retrieval Benchmark for Scientific Literature Search",
+                "author": "Ajith, Anirudh and Xia, Mengzhou and Chevalier, Alexis and Goyal, Tanya and Chen, Danqi and Gao, Tianyu",
+                "editor": "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+                "booktitle": "Proceedings of the 2024 Conference on Empirical Methods in Natural Language Processing",
+                "year": "2024",
+                "address": "Miami, Florida, USA",
+                "publisher": "Association for Computational Linguistics",
+                "url": "https://aclanthology.org/2024.emnlp-main.840/",
+                "doi": "10.18653/v1/2024.emnlp-main.840",
+                "pages": "15068--15083"
+            },
+            "ref_source": "bib",
+            "abstract": "Literature search questions, such as “where can I find research on the evaluation of consistency in generated summaries?” pose significant challenges for modern search engines and retrieval systems. These questions often require a deep understanding of research concepts and the ability to reason over entire articles. In this work, we introduce LitSearch, a retrieval benchmark comprising 597 realistic literature search queries about recent ML and NLP papers. LitSearch is constructed using a combination of (1) questions generated by GPT-4 based on paragraphs containing inline citations from research papers and (2) questions about recently published papers, manually written by their authors. All LitSearch questions were manually examined or edited by experts to ensure high quality. We extensively benchmark state-of-the-art retrieval models and also evaluate two LLM-based reranking pipelines. We find a significant performance gap between BM25 and state-of-the-art dense retrievers, with a 24.8% difference in absolute recall@5. The LLM-based reranking strategies further improve the best-performing dense retriever by 4.4%. Additionally, commercial search engines and research tools like Google Search perform poorly on LitSearch, lagging behind the best dense retriever by 32 points. Taken together, these results show that LitSearch is an informative new testbed for retrieval systems while catering to a real-world use case.",
+            "aminer_id": "66a8495e01d2a3fbfc08009d"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 87,
+        "citation_types": {
+            "other": 87
+        }
+    }
+}

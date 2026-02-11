@@ -1,0 +1,1418 @@
+{
+    "topic": "Computing Blindfolded on Data Homomorphically Encrypted under Multiple\n  Keys: An Extended Survey",
+    "sections": [
+        {
+            "section_title": "Introduction",
+            "refs": [
+                "[57]",
+                "[97]",
+                "[53]",
+                "[101]",
+                "[46]",
+                "[61]",
+                "[75]",
+                "[16]",
+                "[9]"
+            ],
+            "subsections": [
+                {
+                    "section_title": "System and security models for secure computation",
+                    "refs": [
+                        "[103]",
+                        "[18]",
+                        "[74]",
+                        "[101]",
+                        "[19]",
+                        "[30]",
+                        "[88]",
+                        "[66]"
+                    ],
+                    "subsections": [],
+                    "number": "1.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Computing with different keys",
+                    "refs": [
+                        "[99]",
+                        "[100]",
+                        "[11]",
+                        "[2]",
+                        "[7]",
+                        "[14]",
+                        "[83]",
+                        "[3]"
+                    ],
+                    "subsections": [],
+                    "number": "1.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Related work",
+                    "refs": [
+                        "[17]",
+                        "[99]",
+                        "[2]",
+                        "[70]",
+                        "[29]",
+                        "[94]",
+                        "[88]",
+                        "[3]",
+                        "[51]",
+                        "[63]",
+                        "[50]",
+                        "[95]"
+                    ],
+                    "subsections": [],
+                    "number": "1.3",
+                    "level": 2
+                },
+                {
+                    "section_title": "Contributions and organization",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "1.4",
+                    "level": 2
+                }
+            ],
+            "number": "1",
+            "level": 1
+        },
+        {
+            "section_title": "Security Considerations",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Threat model",
+                    "refs": [
+                        "[84]",
+                        "[92]"
+                    ],
+                    "subsections": [],
+                    "number": "2.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Security requirements",
+                    "refs": [
+                        "[48]",
+                        "[8]",
+                        "[98]"
+                    ],
+                    "subsections": [],
+                    "number": "2.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Security assumptions",
+                    "refs": [
+                        "[86]",
+                        "[7]"
+                    ],
+                    "subsections": [],
+                    "number": "2.3",
+                    "level": 2
+                }
+            ],
+            "number": "2",
+            "level": 1
+        },
+        {
+            "section_title": "Preliminaries",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Notations and definitions",
+                    "refs": [
+                        "[82]",
+                        "[6]",
+                        "[25]",
+                        "[21]",
+                        "[69]",
+                        "[49]",
+                        "[39]",
+                        "[76]"
+                    ],
+                    "subsections": [],
+                    "number": "3.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "General homomorphic primitives",
+                    "refs": [
+                        "[46]",
+                        "[75]",
+                        "[57]"
+                    ],
+                    "subsections": [],
+                    "number": "3.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Common techniques in HE",
+                    "refs": [],
+                    "subsections": [
+                        {
+                            "section_title": "Gadget Toolkits / Key Switching",
+                            "refs": [
+                                "[24]",
+                                "[53]",
+                                "[21]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Bootstrapping",
+                            "refs": [
+                                "[53]",
+                                "[23]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Distributed decryption",
+                            "refs": [
+                                "[73]",
+                                "[7]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Noise reduction techniques",
+                            "refs": [
+                                "[34]",
+                                "[47]",
+                                "[21]",
+                                "[20]"
+                            ],
+                            "subsections": [],
+                            "number": "3.3.4",
+                            "level": 3
+                        }
+                    ],
+                    "number": "3.3",
+                    "level": 2
+                }
+            ],
+            "number": "3",
+            "level": 1
+        },
+        {
+            "section_title": "Single-key approaches",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Homomorphic encryption",
+                    "refs": [
+                        "[101]",
+                        "[88]",
+                        "[99]",
+                        "[74]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "The Brakerski-Gentry-Vaikuntanathan (BGV) scheme",
+                            "refs": [
+                                "[23]",
+                                "[91]",
+                                "[21]",
+                                "[53]",
+                                "[68]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "The Brakerski/Fan-Vercauteren (BFV) scheme",
+                            "refs": [
+                                "[23]",
+                                "[47]",
+                                "[20]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "The Gentry-Sahai-Waters (GSW) scheme",
+                            "refs": [
+                                "[54]",
+                                "[5]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "The Cheon-Kim-Kim-Song (CKKS) scheme",
+                            "refs": [
+                                "[34]",
+                                "[33]",
+                                "[27]",
+                                "[32]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Discussion",
+                            "refs": [
+                                "[67]"
+                            ],
+                            "subsections": [],
+                            "number": "4.1.5",
+                            "level": 3
+                        }
+                    ],
+                    "number": "4.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Proxy Re-encryption",
+                    "refs": [
+                        "[89]",
+                        "[1]",
+                        "[54]",
+                        "[26]",
+                        "[11]",
+                        "[65]",
+                        "[19]",
+                        "[102]",
+                        "[78]"
+                    ],
+                    "subsections": [],
+                    "number": "4.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Identity-/Attribute-based Encryption",
+                    "refs": [
+                        "[54]",
+                        "[36]",
+                        "[59]",
+                        "[58]",
+                        "[14]",
+                        "[87]",
+                        "[83]",
+                        "[79]",
+                        "[12]",
+                        "[86]",
+                        "[10]"
+                    ],
+                    "subsections": [],
+                    "number": "4.3",
+                    "level": 2
+                }
+            ],
+            "number": "4",
+            "level": 1
+        },
+        {
+            "section_title": "Multi-key approaches",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Threshold Homomorphic Encryption",
+                    "refs": [
+                        "[41]",
+                        "[26]",
+                        "[42]",
+                        "[7]",
+                        "[85]",
+                        "[13]",
+                        "[72]",
+                        "[38]",
+                        "[43]",
+                        "[86]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "Dishonest-majority threshold HE",
+                            "refs": [
+                                "[7]",
+                                "[77]",
+                                "[21]",
+                                "[38]",
+                                "[43]"
+                            ],
+                            "subsections": [],
+                            "number": "5.1.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Honest-majority threshold HE",
+                            "refs": [
+                                "[37]",
+                                "[40]",
+                                "[7]",
+                                "[15]",
+                                "[46]",
+                                "[77]",
+                                "[80]",
+                                "[90]",
+                                "[43]",
+                                "[86]"
+                            ],
+                            "subsections": [],
+                            "number": "5.1.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Discussion",
+                            "refs": [
+                                "[7]"
+                            ],
+                            "subsections": [],
+                            "number": "5.1.3",
+                            "level": 3
+                        }
+                    ],
+                    "number": "5.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Multi-key Homomorphic Encryption",
+                    "refs": [
+                        "[67]"
+                    ],
+                    "subsections": [
+                        {
+                            "section_title": "MKHE via onion encryption",
+                            "refs": [
+                                "[28]",
+                                "[36]",
+                                "[73]",
+                                "[22]",
+                                "[56]",
+                                "[29]",
+                                "[93]",
+                                "[64]",
+                                "[102]",
+                                "[44]",
+                                "[3]",
+                                "[31]",
+                                "[67]",
+                                "[45]",
+                                "[78]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.1",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Single-hop MKHE",
+                            "refs": [
+                                "[54]",
+                                "[73]",
+                                "[67]",
+                                "[36]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.2",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Multi-hop MKHE",
+                            "refs": [],
+                            "subsections": [],
+                            "number": "5.2.3",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "Multi-hop MK-variant of GSW",
+                            "refs": [
+                                "[73]",
+                                "[22]",
+                                "[78]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.4",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "MK-variant of BGV",
+                            "refs": [
+                                "[73]",
+                                "[22]",
+                                "[64]",
+                                "[21]",
+                                "[31]",
+                                "[67]",
+                                "[78]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.5",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "MK-variant of TFHE",
+                            "refs": [
+                                "[73]",
+                                "[28]",
+                                "[35]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.6",
+                            "level": 3
+                        },
+                        {
+                            "section_title": "MK-variant of BFV/CKKS",
+                            "refs": [
+                                "[31]",
+                                "[29]"
+                            ],
+                            "subsections": [],
+                            "number": "5.2.7",
+                            "level": 3
+                        }
+                    ],
+                    "number": "5.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Hybrid Multi-key Homomorphic Encryption",
+                    "refs": [
+                        "[21]",
+                        "[7]",
+                        "[3]"
+                    ],
+                    "subsections": [],
+                    "number": "5.3",
+                    "level": 2
+                }
+            ],
+            "number": "5",
+            "level": 1
+        },
+        {
+            "section_title": "Open Research Problems",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Distributed decryption",
+                    "refs": [],
+                    "subsections": [],
+                    "number": "6.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "A combination of multi-key techniques",
+                    "refs": [
+                        "[3]",
+                        "[72]"
+                    ],
+                    "subsections": [],
+                    "number": "6.2",
+                    "level": 2
+                },
+                {
+                    "section_title": "Public parameters",
+                    "refs": [
+                        "[73]",
+                        "[22]",
+                        "[29]",
+                        "[62]",
+                        "[64]",
+                        "[31]",
+                        "[78]"
+                    ],
+                    "subsections": [],
+                    "number": "6.3",
+                    "level": 2
+                }
+            ],
+            "number": "6",
+            "level": 1
+        },
+        {
+            "section_title": "Applications",
+            "refs": [],
+            "subsections": [
+                {
+                    "section_title": "Computation outsourced to a cloud evaluator",
+                    "refs": [
+                        "[96]",
+                        "[29]",
+                        "[102]",
+                        "[61]",
+                        "[55]",
+                        "[60]",
+                        "[81]",
+                        "[4]"
+                    ],
+                    "subsections": [],
+                    "number": "7.1",
+                    "level": 2
+                },
+                {
+                    "section_title": "Computation among multi-party",
+                    "refs": [
+                        "[71]",
+                        "[33]",
+                        "[47]",
+                        "[36]",
+                        "[73]",
+                        "[15]",
+                        "[20]",
+                        "[72]",
+                        "[81]",
+                        "[52]",
+                        "[67]"
+                    ],
+                    "subsections": [],
+                    "number": "7.2",
+                    "level": 2
+                }
+            ],
+            "number": "7",
+            "level": 1
+        },
+        {
+            "section_title": "Conclusion",
+            "refs": [],
+            "subsections": [],
+            "number": "8",
+            "level": 1
+        }
+    ],
+    "references": {
+        "PALISADE": {
+            "number": "[1]",
+            "title": "PALISADE Lattice Cryptography Library (release 1.7.4)",
+            "text": "\\bibitem[\\protect\\citeauthoryear{??}{PAL}{2020}]% {PALISADE} \\bibinfo{year}{2020}\\natexlab{}. \\newblock \\bibinfo{title}{{PALISADE} {L}attice {C}ryptography {L}ibrary (release 1.7.4)}. \\newblock \\bibinfo{howpublished}{\\url{https://palisade-crypto.org/}}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "acar2018survey": {
+            "number": "[2]",
+            "title": "A Survey on Homomorphic Encryption Schemes: Theory and Implementation",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Acar, Aksu, Uluagac, and Conti}{Acar et~al\\mbox{.}}{2018}]% {acar2018survey} \\bibfield{author}{\\bibinfo{person}{Abbas Acar}, \\bibinfo{person}{Hidayet Aksu}, \\bibinfo{person}{A~Selcuk Uluagac}, {and} \\bibinfo{person}{Mauro Conti}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{A survey on homomorphic encryption schemes: Theory and implementation}. \\newblock \\bibinfo{journal}{\\emph{ACM Computing Surveys (CSUR)}} \\bibinfo{volume}{51}, \\bibinfo{number}{4} (\\bibinfo{year}{2018}), \\bibinfo{pages}{79}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Legacy encryption systems depend on sharing a key (public or private) among the peers involved in exchanging an encrypted message. However, this approach poses privacy concerns. Especially with popular cloud services, the control over the privacy of the sensitive data is lost. Even when the keys are not shared, the encrypted material is shared with a third party that does not necessarily need to access the content. Moreover, untrusted servers, providers, and cloud operators can keep identifying elements of users long after users end the relationship with the services. Indeed, Homomorphic Encryption (HE), a special kind of encryption scheme, can address these concerns as it allows any third party to operate on the encrypted data without decrypting it in advance. Although this extremely useful feature of the HE scheme has been known for over 30 years, the first plausible and achievable Fully Homomorphic Encryption (FHE) scheme, which allows any computable function to perform on the encrypted data, was introduced by Craig Gentry in 2009. Even though this was a major achievement, different implementations so far demonstrated that FHE still needs to be improved significantly to be practical on every platform. First, we present the basics of HE and the details of the well-known Partially Homomorphic Encryption (PHE) and Somewhat Homomorphic Encryption (SWHE), which are important pillars of achieving FHE. Then, the main FHE families, which have become the base for the other follow-up FHE schemes are presented. Furthermore, the implementations and recent improvements in Gentry-type FHE schemes are also surveyed. Finally, further research directions are discussed. This survey is intended to give a clear knowledge and foundation to researchers and practitioners interested in knowing, applying, as well as extending the state of the art HE, PHE, SWHE, and FHE systems.",
+            "aminer_id": "5bbacb9e17c44aecc4eafbd2"
+        },
+        "aloufi2019collaborative": {
+            "number": "[3]",
+            "title": "Collaborative Homomorphic Computation on Data Encrypted under Multiple Keys",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Aloufi and Hu}{Aloufi and Hu}{2019}]% {aloufi2019collaborative} \\bibfield{author}{\\bibinfo{person}{Asma Aloufi} {and} \\bibinfo{person}{Peizhao Hu}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{Collaborative Homomorphic Computation on Data Encrypted under Multiple Keys}. In \\bibinfo{booktitle}{\\emph{the International Workshop on Privacy Engineering (IWPE'19) co-located with S\\&P'19}}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5dca89823a55ac77dcb01ffe"
+        },
+        "aloufi2019blindfolded": {
+            "number": "[4]",
+            "title": "Blindfolded Evaluation of Random Forests with Multi-Key Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Aloufi, Hu, Wong, and Chow}{Aloufi et~al\\mbox{.}}{2019}]% {aloufi2019blindfolded} \\bibfield{author}{\\bibinfo{person}{Asma Aloufi}, \\bibinfo{person}{Peizhao Hu}, \\bibinfo{person}{Harry W.~H. Wong}, {and} \\bibinfo{person}{Sherman S.~M. Chow}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{Blindfolded Evaluation of Random Forests with Multi-Key Homomorphic Encryption}. \\newblock \\bibinfo{journal}{\\emph{IEEE Transactions on Dependable and Secure Computing}} (\\bibinfo{year}{2019}), \\bibinfo{pages}{1--1}. \\newblock \\urldef\\tempurl% \\url{https://doi.org/10.1109/TDSC.2019.2940020} \\showDOI{\\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "Decision tree and its generalization of random forests are a simple yet powerful machine learning model for many classification and regression problems. Recent works propose how to privately evaluate a decision tree in a two-party setting where the feature vector of the client or the decision tree model (such as the threshold values of its nodes) is kept secret from another party. However, these works cannot be extended trivially to support the outsourcing setting where a third-party who should not have access to the model or the query. Furthermore, their use of an interactive comparison protocol does not support branching program, hence requires interactions with the client to determine the comparison result before resuming the evaluation task. In this paper, we propose the first secure protocol for collaborative evaluation of random forests contributed by multiple owners. They outsource evaluation tasks to a third-party evaluator. Upon receiving the client's encrypted inputs, the cloud evaluates obliviously on individually encrypted random forest models and calculates the aggregated result. The system is based on our new secure comparison protocol, secure counting protocol, and a multi-key somewhat homomorphic encryption on top of symmetric-key encryption. This allows us to reduce communication overheads while achieving round complexity lower than existing work.",
+            "aminer_id": "5db92b4747c8f7664622327e"
+        },
+        "alperin2014faster": {
+            "number": "[5]",
+            "title": "Faster bootstrapping with polynomial error",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Alperin-Sheriff and Peikert}{Alperin-Sheriff and Peikert}{2014}]% {alperin2014faster} \\bibfield{author}{\\bibinfo{person}{Jacob Alperin-Sheriff} {and} \\bibinfo{person}{Chris Peikert}.} \\bibinfo{year}{2014}\\natexlab{}. \\newblock \\showarticletitle{Faster bootstrapping with polynomial error}. In \\bibinfo{booktitle}{\\emph{Annual Cryptology Conference}}. Springer, \\bibinfo{pages}{297--314}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9a8c5b7602d9703218981"
+        },
+        "applebaum2009fast": {
+            "number": "[6]",
+            "title": "Fast Cryptographic Primitives and Circular-Secure Encryption Based on Hard Learning Problems",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Applebaum, Cash, Peikert, and Sahai}{Applebaum et~al\\mbox{.}}{2009}]% {applebaum2009fast} \\bibfield{author}{\\bibinfo{person}{Benny Applebaum}, \\bibinfo{person}{David Cash}, \\bibinfo{person}{Chris Peikert}, {and} \\bibinfo{person}{Amit Sahai}.} \\bibinfo{year}{2009}\\natexlab{}. \\newblock \\showarticletitle{Fast cryptographic primitives and circular-secure encryption based on hard learning problems}. \\newblock In \\bibinfo{booktitle}{\\emph{Advances in Cryptology -- CRYPTO}}. \\bibinfo{publisher}{Springer}, \\bibinfo{pages}{595--618}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The well-studied task of learning cc linear function with errors is a seemingly hard problem and the basis for several cryptographic schemes. Here we demonstrate additional applications that enjoy strong security properties and a high level of efficiency. Namely, we construct:1. Public-key and symmetric-key cryptosystems that provide security for key-dependent messages and enjoy circular security. Our schemes are highly efficient: in both cases the ciphertext is only a constant factor larger than the plaintext, and the cost of encryption and decryption is only n . polylog(n) bit operations per message symbol in the public-key case, and polylog(n) bit operations in the symmetric-case.2. Two efficient pseudorandom objects: a \"weak randomized pseudorandom function\" - a relaxation of standard PRF - that can be computed obliviously via a simple protocol, and a length-doubling pseudorandom generator that can be computed by a circuit of n, polylog(n) size. The complexity of our pseudorandom generator almost matches the complexity of the fastest known construction (Applebaum et, al,., RANDOM 2006), which runs in Linear time at the expense of relying on a nonstandard intractability assumption.Our constructions and security proofs are simple and natural; and involve new techniques that may be of independent interest. In addition, by combining our constructions with prior ones, we get; fast implementations of several other primitives and protocols.",
+            "aminer_id": "5390a63c20f70186a0e82975"
+        },
+        "asharov2012multiparty": {
+            "number": "[7]",
+            "title": "Multiparty Computation with Low Communication, Computation and Interaction Via Threshold FHE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Asharov, Jain, L{\\'o}pez-Alt, Tromer, Vaikuntanathan, and Wichs}{Asharov et~al\\mbox{.}}{2012}]% {asharov2012multiparty} \\bibfield{author}{\\bibinfo{person}{Gilad Asharov}, \\bibinfo{person}{Abhishek Jain}, \\bibinfo{person}{Adriana L{\\'o}pez-Alt}, \\bibinfo{person}{Eran Tromer}, \\bibinfo{person}{Vinod Vaikuntanathan}, {and} \\bibinfo{person}{Daniel Wichs}.} \\bibinfo{year}{2012}\\natexlab{}. \\newblock \\showarticletitle{Multiparty computation with low communication, computation and interaction via threshold {FHE}}. In \\bibinfo{booktitle}{\\emph{Advances in Cryptology -- EUROCRYPT}}. Springer, \\bibinfo{pages}{483--501}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Fully homomorphic encryption (FHE) enables secure computation over the encrypted data of a single party. We explore how to extend this to multiple parties, using threshold fully homomorphic encryption (TFHE). In such scheme, the parties jointly generate a common FHE public key along with a secret key that is shared among them; they can later cooperatively decrypt ciphertexts without learning anything but the plaintext. We show how to instantiate this approach efficiently, by extending the recent FHE schemes of Brakerski, Gentry and Vaikuntanathan (CRYPTO '11, FOCS '11, ITCS '12) based on the (ring) learning with errors assumption. Our main tool is to exploit the property that such schemes are additively homomorphic over their keys. Using TFHE, we construct simple multiparty computation protocols secure against fully malicious attackers, tolerating any number of corruptions, and providing security in the universal composability framework. Our protocols have the following properties: Low interaction: 3 rounds of interaction given a common random string, or 2 rounds with a public-key infrastructure. Low communication: independent of the function being computed (proportional to just input and output sizes). Cloud-assisted computation: the bulk of the computation can be efficiently outsourced to an external entity (e.g. a cloud service) so that the computation of all other parties is independent of the complexity of the evaluated function.",
+            "aminer_id": "5390b5ed20f70186a0f0d938"
+        },
+        "cryptoeprint:2013:507": {
+            "number": "[8]",
+            "title": "SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Ben-Sasson, Chiesa, Genkin, Tromer, and Virza}{Ben-Sasson et~al\\mbox{.}}{2013}]% {cryptoeprint:2013:507} \\bibfield{author}{\\bibinfo{person}{Eli Ben-Sasson}, \\bibinfo{person}{Alessandro Chiesa}, \\bibinfo{person}{Daniel Genkin}, \\bibinfo{person}{Eran Tromer}, {and} \\bibinfo{person}{Madars Virza}.} \\bibinfo{year}{2013}\\natexlab{}. \\newblock \\bibinfo{title}{{SNARKs for C: Verifying Program Executions Succinctly and in Zero Knowledge}}. \\newblock \\bibinfo{howpublished}{Cryptology ePrint Archive, Report 2013/507}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "An argument system for NP is a proof system that allows efficient verification of NP statements, given proofs produced by an untrusted yet computationally-bounded prover. Such a system is non-interactive and publicly-verifiable if, after a trusted party publishes a proving key and a verification key, anyone can use the proving key to generate non-interactive proofs for adaptively-chosen NP statements, and proofs can be verified by anyone by using the verification key.We present an implementation of a publicly-verifiable non-interactive argument system for NP. The system, moreover, is a zero-knowledge proof-of-knowledge. It directly proves correct executions of programs on TinyRAM, a nondeterministic random-access machine tailored for efficient verification. Given a program P and time bound T, the system allows for proving correct execution of P, on any input x, for up to T steps, after a one-time setup requiring (O) over tilde (vertical bar P vertical bar . T) cryptographic operations. An honest prover requires (O) over tilde (vertical bar P vertical bar . T) cryptographic operations to generate such a proof, while proof verification can be performed with only O(vertical bar x vertical bar) cryptographic operations. This system can be used to prove the correct execution of C programs, using our TinyRAM port of the GCC compiler.This yields a zero-knowledge Succinct Non-interactive ARgument of Knowledge (zk-SNARK) for program executions, in the preprocessing model-a powerful solution for delegating NP computations, with several features not achieved by previously-implemented primitives.Our approach builds on recent theoretical progress in the area. We present efficiency improvements and implementations of two main ingredients:1. Given a C program, we produce a circuit whose satisfiability encodes the correctness of execution of the program. Leveraging nondeterminism, the generated circuit's size is merely quasilinear in the size of the computation. In particular, we efficiently handle arbitrary and data-dependent loops, control flow, and memory accesses. This is in contrast with existing \"circuit generators\", which in the general case produce circuits of quadratic size.2. Given a linear PCP for verifying satisfiability of circuits, we produce a corresponding SNARK. We construct such a linear PCP (which, moreover, is zero-knowledge and very efficient) by building and improving on recent work on quadratic arithmetic programs.",
+            "aminer_id": "53e9b70fb7602d97042a66b0"
+        },
+        "benaloh1994dense": {
+            "number": "[9]",
+            "title": "Dense Probabilistic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Benaloh}{Benaloh}{1994}]% {benaloh1994dense} \\bibfield{author}{\\bibinfo{person}{Josh Benaloh}.} \\bibinfo{year}{1994}\\natexlab{}. \\newblock \\showarticletitle{Dense probabilistic encryption}. In \\bibinfo{booktitle}{\\emph{Proceedings of the workshop on selected areas of cryptography}}. \\bibinfo{pages}{120--128}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "This paper describes a method of dense probabilistic encryption. Previous probabilistic encryption methods require large numbers of random bits and product large amounts of ciphertext for the encryption of each bit of plaintext. This paper develops a method of probabilistic encryption in which the ratio of ciphertext text size to plaintext size and theproportion of random bits to plaintext can both be made arbitrarily close to one. The methods described here have applications which are not in any apparent way possible with previous methods. These applications include simple and efficient protocols for noninteractive verifiable secret sharing and a method for conducting practical and verifiable secret-ballot elections.",
+            "aminer_id": "56d88f16dabfae2eeed85ebe"
+        },
+        "bethencourt2007ciphertext": {
+            "number": "[10]",
+            "title": "Ciphertext-policy attribute-based encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Bethencourt, Sahai, and Waters}{Bethencourt et~al\\mbox{.}}{2007}]% {bethencourt2007ciphertext} \\bibfield{author}{\\bibinfo{person}{John Bethencourt}, \\bibinfo{person}{Amit Sahai}, {and} \\bibinfo{person}{Brent Waters}.} \\bibinfo{year}{2007}\\natexlab{}. \\newblock \\showarticletitle{Ciphertext-policy attribute-based encryption}. In \\bibinfo{booktitle}{\\emph{Security and Privacy, 2007. SP'07. IEEE Symposium on}}. IEEE, \\bibinfo{pages}{321--334}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "blaze1998divertible": {
+            "number": "[11]",
+            "title": "Divertible protocols and atomic proxy cryptography",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Blaze, Bleumer, and Strauss}{Blaze et~al\\mbox{.}}{1998}]% {blaze1998divertible} \\bibfield{author}{\\bibinfo{person}{Matt Blaze}, \\bibinfo{person}{Gerrit Bleumer}, {and} \\bibinfo{person}{Martin Strauss}.} \\bibinfo{year}{1998}\\natexlab{}. \\newblock \\showarticletitle{Divertible protocols and atomic proxy cryptography}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{127--144}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b26fb7602d9703d12041"
+        },
+        "boneh1998decision": {
+            "number": "[12]",
+            "title": "The decision Diffie-Hellman problem",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Boneh}{Boneh}{1998}]% {boneh1998decision} \\bibfield{author}{\\bibinfo{person}{Dan Boneh}.} \\bibinfo{year}{1998}\\natexlab{}. \\newblock \\showarticletitle{The decision {D}iffie-{H}ellman problem}. In \\bibinfo{booktitle}{\\emph{International Algorithmic Number Theory Symposium}}. Springer, \\bibinfo{pages}{48--63}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53908b2120f70186a0db7588"
+        },
+        "boneh2006chosen": {
+            "number": "[13]",
+            "title": "Chosen Ciphertext Secure Public Key Threshold Encryption Without Random Oracles",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Boneh, Boyen, and Halevi}{Boneh et~al\\mbox{.}}{2006}]% {boneh2006chosen} \\bibfield{author}{\\bibinfo{person}{Dan Boneh}, \\bibinfo{person}{Xavier Boyen}, {and} \\bibinfo{person}{Shai Halevi}.} \\bibinfo{year}{2006}\\natexlab{}. \\newblock \\showarticletitle{Chosen ciphertext secure public key threshold encryption without random oracles}. In \\bibinfo{booktitle}{\\emph{Cryptographers’ Track at the RSA Conference}}. Springer, \\bibinfo{pages}{226--243}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We present a non-interactive chosen ciphertext secure threshold encryption system. The proof of security is set in the standard model and does not use random oracles. Our construction uses the recent identity based encryption system of Boneh and Boyen and the chosen ciphertext secure construction of Canetti, Halevi, and Katz.",
+            "aminer_id": "5390b2fc20f70186a0eef882"
+        },
+        "boneh2001identity": {
+            "number": "[14]",
+            "title": "Identity-Based Encryption from the Weil Pairing",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Boneh and Franklin}{Boneh and Franklin}{2001}]% {boneh2001identity} \\bibfield{author}{\\bibinfo{person}{Dan Boneh} {and} \\bibinfo{person}{Matt Franklin}.} \\bibinfo{year}{2001}\\natexlab{}. \\newblock \\showarticletitle{Identity-based encryption from the Weil pairing}. In \\bibinfo{booktitle}{\\emph{Annual international cryptology conference}}. Springer, \\bibinfo{pages}{213--229}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We propose a fully functional identity-based encryption (IBE) scheme. The scheme has chosen ciphertext security in the random oracle model assuming a variant of the computational Diffie-Hellman problem. Our system is based on bilinear maps between groups. The Weil pairing on elliptic curves is an example of such a map. We give precise definitions for secure IBE schemes and give several applications for such systems.",
+            "aminer_id": "53908a4020f70186a0d9d2df"
+        },
+        "boneh2018threshold": {
+            "number": "[15]",
+            "title": "Threshold Cryptosystems from Threshold Fully Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Boneh, Gennaro, Goldfeder, Jain, Kim, Rasmussen, and Sahai}{Boneh et~al\\mbox{.}}{2018}]% {boneh2018threshold} \\bibfield{author}{\\bibinfo{person}{Dan Boneh}, \\bibinfo{person}{Rosario Gennaro}, \\bibinfo{person}{Steven Goldfeder}, \\bibinfo{person}{Aayush Jain}, \\bibinfo{person}{Sam Kim}, \\bibinfo{person}{Peter M.~R. Rasmussen}, {and} \\bibinfo{person}{Amit Sahai}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{Threshold Cryptosystems from Threshold Fully Homomorphic Encryption}. In \\bibinfo{booktitle}{\\emph{Advances in Cryptology – CRYPTO 2018}} \\emph{(\\bibinfo{series}{Lecture Notes in Computer Science})}, Vol.~\\bibinfo{volume}{10991}. \\bibinfo{publisher}{Springer}, \\bibinfo{pages}{565--596}. \\newblock \\urldef\\tempurl% \\url{https://doi.org/10.1007/978-3-319-96884-1_19} \\showDOI{\\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "We develop a general approach to adding a threshold functionality to a large class of (non-threshold) cryptographic schemes. A threshold functionality enables a secret key to be split into a number of shares, so that only a threshold of parties can use the key, without reconstructing the key. We begin by constructing a threshold fully-homomorphic encryption scheme (ThFHE) from the learning with errors (LWE) problem. We next introduce a new concept, called a universal thresholdizer, from which many threshold systems are possible. We show how to construct a universal thresholdizer from our ThFHE. A universal thresholdizer can be used to add threshold functionality to many systems, such as CCA-secure public-key encryption (PKE), signature schemes, pseudorandom functions, and others primitives. In particular, by applying this paradigm to a (non-threshold) lattice signature system, we obtain the first single-round threshold signature scheme from LWE.",
+            "aminer_id": "5ac1829d17c44a1fda917d16"
+        },
+        "boneh2005evaluating": {
+            "number": "[16]",
+            "title": "Evaluating 2-DNF Formulas on Ciphertexts",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Boneh, Goh, and Nissim}{Boneh et~al\\mbox{.}}{2005}]% {boneh2005evaluating} \\bibfield{author}{\\bibinfo{person}{Dan Boneh}, \\bibinfo{person}{Eu-Jin Goh}, {and} \\bibinfo{person}{Kobbi Nissim}.} \\bibinfo{year}{2005}\\natexlab{}. \\newblock \\showarticletitle{Evaluating 2-DNF formulas on ciphertexts}. In \\bibinfo{booktitle}{\\emph{Theory of Cryptography Conference}}. Springer, \\bibinfo{pages}{325--341}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Let psi be a 2-DNF formula on boolean variables x(1),...,x(n) is an element of {0, 1}. We present a homomorphic public key encryption scheme that allows the public evaluation of psi given an encryption of the variables x(1),...,x(n). In other words, given the encryption of the bits x(1),...,x(n), anyone can create the encryption of psi (x(1),...,x(n)). More generally, we can evaluate quadratic multi-variate polynomials on ciphertexts provided the resulting value falls within a small set. We present a number of applications of the system:1. In a database of size n, the total communication in the basic step of the Kushilevitz-Ostrovsky PIR protocol is reduced from root n to (3)root n.2. An efficient election system based on homomorphic encryption where voters do not need to include non-interactive zero knowledge proofs that their ballots are valid. The election system is proved secure without random oracles but still efficient.3. A protocol for universally verifiable computation.",
+            "aminer_id": "5390b3ae20f70186a0ef481f"
+        },
+        "bongenaar2016multi": {
+            "number": "[17]",
+            "title": "Multi-key fully homomorphic encryption report",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Bongenaar}{Bongenaar}{2016}]% {bongenaar2016multi} \\bibfield{author}{\\bibinfo{person}{Elena~Fuentes Bongenaar}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Multi-key fully homomorphic encryption report}. \\newblock (\\bibinfo{year}{2016}). \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "bos2014private": {
+            "number": "[18]",
+            "title": "Private predictive analysis on encrypted medical data",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Bos, Lauter, and Naehrig}{Bos et~al\\mbox{.}}{2014}]% {bos2014private} \\bibfield{author}{\\bibinfo{person}{Joppe~W Bos}, \\bibinfo{person}{Kristin Lauter}, {and} \\bibinfo{person}{Michael Naehrig}.} \\bibinfo{year}{2014}\\natexlab{}. \\newblock \\showarticletitle{Private predictive analysis on encrypted medical data}. \\newblock \\bibinfo{journal}{\\emph{Journal of biomedical informatics}} \\bibinfo{volume}{50} (\\bibinfo{year}{2014}), \\bibinfo{pages}{234--243}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "55503e6745ce0a409eb29500"
+        },
+        "bost2014machine": {
+            "number": "[19]",
+            "title": "Machine Learning Classification over Encrypted Data",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Bost, Popa, Tu, and Goldwasser}{Bost et~al\\mbox{.}}{2015}]% {bost2014machine} \\bibfield{author}{\\bibinfo{person}{Raphael Bost}, \\bibinfo{person}{Raluca~Ada Popa}, \\bibinfo{person}{Stephen Tu}, {and} \\bibinfo{person}{Shafi Goldwasser}.} \\bibinfo{year}{2015}\\natexlab{}. \\newblock \\showarticletitle{Machine Learning Classification over Encrypted Data}. In \\bibinfo{booktitle}{\\emph{Network and Distributed System Security Symposium ({NDSS})}}. \\newblock \\urldef\\tempurl% \\url{https://www.ndss-symposium.org/ndss2015/machine-learning-classification-over-encrypted-data} \\showURL{% \\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "56d81600dabfae2eee72078c"
+        },
+        "brakerski2012fully": {
+            "number": "[20]",
+            "title": "Fully homomorphic encryption without modulus switching from classical GapSVP",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Brakerski}{Brakerski}{2012}]% {brakerski2012fully} \\bibfield{author}{\\bibinfo{person}{Zvika Brakerski}.} \\bibinfo{year}{2012}\\natexlab{}. \\newblock \\showarticletitle{Fully homomorphic encryption without modulus switching from classical GapSVP}. In \\bibinfo{booktitle}{\\emph{Annual Cryptology Conference}}. Springer, \\bibinfo{pages}{868--886}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99c59b7602d970250bf5a"
+        },
+        "brakerski2012leveled": {
+            "number": "[21]",
+            "title": "(Leveled) Fully Homomorphic Encryption Without Bootstrapping",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Brakerski, Gentry, and Vaikuntanathan}{Brakerski et~al\\mbox{.}}{2012}]% {brakerski2012leveled} \\bibfield{author}{\\bibinfo{person}{Zvika Brakerski}, \\bibinfo{person}{Craig Gentry}, {and} \\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2012}\\natexlab{}. \\newblock \\showarticletitle{{(Leveled)} fully homomorphic encryption without bootstrapping}. In \\bibinfo{booktitle}{\\emph{Innovations in Theoretical Computer Science Conference (ITCS)}}. ACM, \\bibinfo{pages}{309--325}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We present a novel approach to fully homomorphic encryption (FHE) that dramatically improves performance and bases security on weaker assumptions. A central conceptual contribution in our work is a new way of constructing leveled, fully homomorphic encryption schemes (capable of evaluating arbitrary polynomial-size circuits of a-priori bounded depth), without Gentry’s bootstrapping procedure. Specifically, we offer a choice of FHE schemes based on the learning with error (LWE) or Ring LWE (RLWE) problems that have 2 λ security against known attacks. We construct the following. (1) A leveled FHE scheme that can evaluate depth- L arithmetic circuits (composed of fan-in 2 gates) using O ( λ . L 3) per-gate computation, quasilinear in the security parameter. Security is based on RLWE for an approximation factor exponential in L . This construction does not use the bootstrapping procedure. (2) A leveled FHE scheme that can evaluate depth- L arithmetic circuits (composed of fan-in 2 gates) using O ( λ 2) per-gate computation, which is independent of L . Security is based on RLWE for quasipolynomial factors. This construction uses bootstrapping as an optimization. We obtain similar results for LWE, but with worse performance. All previous (leveled) FHE schemes required a per-gate computation of Ω ( λ 3.5), and all of them relied on subexponential hardness assumptions. We introduce a number of further optimizations to our scheme based on the Ring LWE assumption. As an example, for circuits of large width (e.g., where a constant fraction of levels have width Ω ( λ )), we can reduce the per-gate computation of the bootstrapped version to O ( λ ), independent of L , by batching the bootstrapping operation. At the core of our construction is a new approach for managing the noise in lattice-based ciphertexts, significantly extending the techniques of Brakerski and Vaikuntanathan [2011b].",
+            "aminer_id": "5390b29820f70186a0ee9900"
+        },
+        "brakerski2016lattice": {
+            "number": "[22]",
+            "title": "Lattice-based fully dynamic multi-key FHE with short ciphertexts",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Brakerski and Perlman}{Brakerski and Perlman}{2016}]% {brakerski2016lattice} \\bibfield{author}{\\bibinfo{person}{Zvika Brakerski} {and} \\bibinfo{person}{Renen Perlman}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Lattice-based fully dynamic multi-key FHE with short ciphertexts}. In \\bibinfo{booktitle}{\\emph{Annual Cryptology Conference}}. Springer, \\bibinfo{pages}{190--213}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736956c6e3b12023e490752"
+        },
+        "brakerski2011efficient": {
+            "number": "[23]",
+            "title": "Efficient Fully Homomorphic Encryption from (standard) LWE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Brakerski and Vaikuntanathan}{Brakerski and Vaikuntanathan}{2011}]% {brakerski2011efficient} \\bibfield{author}{\\bibinfo{person}{Zvika Brakerski} {and} \\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2011}\\natexlab{}. \\newblock \\showarticletitle{Efficient Fully Homomorphic Encryption from (Standard) LWE}. In \\bibinfo{booktitle}{\\emph{2011 IEEE 52nd Annual Symposium on Foundations of Computer Science}}. IEEE, \\bibinfo{pages}{97--106}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We present a fully homomorphic encryption scheme that is based solely on the (standard) learning with errors (LWE) assumption. Applying known results on LWE, the security of our scheme is based on the worst-case hardness of “short vector problems” on arbitrary lattices. Our construction improves on previous works in two aspects: 1. We show that “somewhat homomorphic” encryption can be based on LWE, using a new relinearization technique. In contrast, all previous schemes relied on complexity assumptions related to ideals in various rings. 2. We deviate from the “squashing paradigm” used in all previous works. We introduce a new dimension-modulus reduction technique, which shortens the ciphertexts and reduces the decryption complexity of our scheme, without introducing additional assumptions. Our scheme has very short ciphertexts and we therefore use it to construct an asymptotically efficient LWE-based single-server private information retrieval (PIR) protocol. The communication complexity of our protocol (in the public-key model) is k · polylog(k) + log |DB| bits per single-bit query (here, k is a security parameter). ∗Weizmann Institute of Science. Email: zvika.brakerski@weizmann.ac.il. The author’s research was supported by ISF grant 710267, BSF grant 710613, and NSF contracts CCF-1018064 and CCF-0729011. †University of Toronto. Email: vinodv@cs.toronto.edu.",
+            "aminer_id": "5390b24420f70186a0ee7f78"
+        },
+        "brakerski2014efficient": {
+            "number": "[24]",
+            "title": "Efficient Fully Homomorphic Encryption from (standard) LWE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Brakerski and Vaikuntanathan}{Brakerski and Vaikuntanathan}{2014}]% {brakerski2014efficient} \\bibfield{author}{\\bibinfo{person}{Zvika Brakerski} {and} \\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2014}\\natexlab{}. \\newblock \\showarticletitle{Efficient fully homomorphic encryption from (standard) LWE}. \\newblock \\bibinfo{journal}{\\emph{SIAM J. Comput.}} \\bibinfo{volume}{43}, \\bibinfo{number}{2} (\\bibinfo{year}{2014}), \\bibinfo{pages}{831--871}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We present a fully homomorphic encryption scheme that is based solely on the (standard) learning with errors (LWE) assumption. Applying known results on LWE, the security of our scheme is based on the worst-case hardness of “short vector problems” on arbitrary lattices. Our construction improves on previous works in two aspects: 1. We show that “somewhat homomorphic” encryption can be based on LWE, using a new relinearization technique. In contrast, all previous schemes relied on complexity assumptions related to ideals in various rings. 2. We deviate from the “squashing paradigm” used in all previous works. We introduce a new dimension-modulus reduction technique, which shortens the ciphertexts and reduces the decryption complexity of our scheme, without introducing additional assumptions. Our scheme has very short ciphertexts and we therefore use it to construct an asymptotically efficient LWE-based single-server private information retrieval (PIR) protocol. The communication complexity of our protocol (in the public-key model) is k · polylog(k) + log |DB| bits per single-bit query (here, k is a security parameter). ∗Weizmann Institute of Science. Email: zvika.brakerski@weizmann.ac.il. The author’s research was supported by ISF grant 710267, BSF grant 710613, and NSF contracts CCF-1018064 and CCF-0729011. †University of Toronto. Email: vinodv@cs.toronto.edu.",
+            "aminer_id": "5390b24420f70186a0ee7f78"
+        },
+        "canetti2001universally": {
+            "number": "[25]",
+            "title": "Universally Composable Commitments",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Canetti and Fischlin}{Canetti and Fischlin}{2001}]% {canetti2001universally} \\bibfield{author}{\\bibinfo{person}{Ran Canetti} {and} \\bibinfo{person}{Marc Fischlin}.} \\bibinfo{year}{2001}\\natexlab{}. \\newblock \\showarticletitle{Universally composable commitments}. In \\bibinfo{booktitle}{\\emph{Annual International Cryptology Conference}}. Springer, \\bibinfo{pages}{19--40}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We propose a new security measure for commitment protocols, called Universally Composable (UC) Commitment. The measure guarantees that commitment protocols behave like an \"ideal commitment service,\" even when concurrently composed with an arbitrary set of protocols. This is a strong guarantee: it implies that security is maintained even when an unbounded number of copies of the scheme are running concurrently, it implies non-malleability (not only with respect to other copies of the same protocol but even with respect to other protocols), it provides resilience to selective decommitment, and more. Unfortunately, two-party uc commitment protocols do not exist in the plain model. However, we construct two-party uc commitment protocols, based on general complexity assumptions, in the common reference string model where all parties have access to a common string taken from a predetermined distribution. The protocols are non-interactive, in the sense that both the commitment and the opening phases consist of a single message from the committer to the receiver.",
+            "aminer_id": null
+        },
+        "canetti1999efficient": {
+            "number": "[26]",
+            "title": "An Efficient Threshold Public Key Cryptosystem Secure Against Adaptive Chosen Ciphertext Attack",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Canetti and Goldwasser}{Canetti and Goldwasser}{1999}]% {canetti1999efficient} \\bibfield{author}{\\bibinfo{person}{Ran Canetti} {and} \\bibinfo{person}{Shafi Goldwasser}.} \\bibinfo{year}{1999}\\natexlab{}. \\newblock \\showarticletitle{An efficient threshold public key cryptosystem secure against adaptive chosen ciphertext attack}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{90--106}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "This paper proposes a simple threshold Public-Key Cryptosystem (PKC) which is secure against adaptive chosen ciphertext attack, under the Decisional Diffie-Hellman (DDH) intractability assumption. Previously, it was shown how to design non-interactive threshold PKC secure under chosen ciphertext attack, in the random-oracle model and under the DDH intractability assumption [25]. The random-oracle was used both in the proof of security and to eliminate interaction. General completeness results for multi-party computations [6,13] enable in principle converting any single server PKC secure against CCA (e.g., [19,17]) into a threshold one, but the conversions are inefficient and require much interaction among the servers for each ciphertext decrypted. The recent work by Cramer and Shoup [17] on single server PKC secure against adaptive CCA is the starting point for the new proposal.",
+            "aminer_id": "5390a93b20f70186a0ea119a"
+        },
+        "chen2019improved": {
+            "number": "[27]",
+            "title": "Improved bootstrapping for approximate homomorphic encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chen, Chillotti, and Song}{Chen et~al\\mbox{.}}{2019a}]% {chen2019improved} \\bibfield{author}{\\bibinfo{person}{Hao Chen}, \\bibinfo{person}{Ilaria Chillotti}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2019}\\natexlab{a}. \\newblock \\showarticletitle{Improved bootstrapping for approximate homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{Annual International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{34--54}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5c04966a17c44a2c7470824f"
+        },
+        "chen2019MKTFHE": {
+            "number": "[28]",
+            "title": "Multi-Key Homomophic Encryption from TFHE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chen, Chillotti, and Song}{Chen et~al\\mbox{.}}{2019b}]% {chen2019MKTFHE} \\bibfield{author}{\\bibinfo{person}{Hao Chen}, \\bibinfo{person}{Ilaria Chillotti}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2019}\\natexlab{b}. \\newblock \\bibinfo{title}{Multi-Key Homomophic Encryption from TFHE}. \\newblock \\bibinfo{howpublished}{Cryptology ePrint Archive, Report 2019/116}. \\newblock \\newblock \\shownote{\\url{https://eprint.iacr.org/2019/116}.}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "chen2019MKSEAL": {
+            "number": "[29]",
+            "title": "Efficient Multi-Key Homomorphic Encryption with Packed Ciphertexts with Application to Oblivious Neural Network Inference.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chen, Dai, Kim, and Song}{Chen et~al\\mbox{.}}{2019c}]% {chen2019MKSEAL} \\bibfield{author}{\\bibinfo{person}{Hao Chen}, \\bibinfo{person}{Wei Dai}, \\bibinfo{person}{Miran Kim}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2019}\\natexlab{c}. \\newblock \\showarticletitle{Efficient Multi-Key Homomorphic Encryption with Packed Ciphertexts with Application to Oblivious Neural Network Inference}. In \\bibinfo{booktitle}{\\emph{Proceedings of the 2019 ACM SIGSAC Conference on Computer and Communications Security}} \\emph{(\\bibinfo{series}{CCS '19})}. \\bibinfo{publisher}{ACM}, \\bibinfo{address}{New York, NY, USA}, \\bibinfo{pages}{395--412}. \\newblock \\showISBNx{978-1-4503-6747-9} \\urldef\\tempurl% \\url{https://doi.org/10.1145/3319535.3363207} \\showDOI{\\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "Homomorphic Encryption (HE) is a cryptosystem which supports computation on encrypted data. Ló pez-Alt et al. (STOC 2012) proposed a generalized notion of HE, called Multi-Key Homomorphic Encryption (MKHE), which is capable of performing arithmetic operations on ciphertexts encrypted under different keys. In this paper, we present multi-key variants of two HE schemes with packed ciphertexts. We present new relinearization algorithms which are simpler and faster than previous method by Chen et al. (TCC 2017). We then generalize the bootstrapping techniques for HE to obtain multi-key fully homomorphic encryption schemes. We provide a proof-of-concept implementation of both MKHE schemes using Microsoft SEAL. For example, when the dimension of base ring is 8192, homomorphic multiplication between multi-key BFV (resp. CKKS) ciphertexts associated with four parties followed by a relinearization takes about 116 (resp. 67) milliseconds. Our MKHE schemes have a wide range of applications in secure computation between multiple data providers. As a benchmark, we homomorphically classify an image using a pre-trained neural network model, where input data and model are encrypted under different keys. Our implementation takes about 1.8 seconds to evaluate one convolutional layer followed by two fully connected layers on an encrypted image from the MNIST dataset.",
+            "aminer_id": "5d04e8d5da56295d08dac2d1"
+        },
+        "chen2018labeled": {
+            "number": "[30]",
+            "title": "Labeled PSI from Fully Homomorphic Encryption with Malicious Security",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chen, Huang, Laine, and Rindal}{Chen et~al\\mbox{.}}{2018}]% {chen2018labeled} \\bibfield{author}{\\bibinfo{person}{Hao Chen}, \\bibinfo{person}{Zhicong Huang}, \\bibinfo{person}{Kim Laine}, {and} \\bibinfo{person}{Peter Rindal}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{Labeled PSI from Fully Homomorphic Encryption with Malicious Security}. In \\bibinfo{booktitle}{\\emph{Proceedings of the 2018 ACM SIGSAC Conference on Computer and Communications Security}}. ACM, \\bibinfo{pages}{1223--1237}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5bbacb9e17c44aecc4eafed2"
+        },
+        "chen2017batched": {
+            "number": "[31]",
+            "title": "Batched Multi-hop Multi-key FHE from Ring-LWE with Compact Ciphertext Extension.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chen, Zhang, and Wang}{Chen et~al\\mbox{.}}{2017}]% {chen2017batched} \\bibfield{author}{\\bibinfo{person}{Long Chen}, \\bibinfo{person}{Zhenfeng Zhang}, {and} \\bibinfo{person}{Xueqing Wang}.} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{Batched Multi-hop Multi-key FHE from Ring-LWE with Compact Ciphertext Extension}. In \\bibinfo{booktitle}{\\emph{Theory of Cryptography Conference}}. Springer, \\bibinfo{pages}{597--627}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Traditional fully homomorphic encryption (FHE) schemes support computation on data encrypted under a single key. In STOC 2012, López-Alt et al. introduced the notion of multi-key FHE (MKFHE), which allows homomorphic computation on ciphertexts encrypted under different keys. In this work, we focus on MKFHE constructions from standard assumptions and propose a new construction of ring-LWE-based multi-hop MKFHE scheme. Our work is based on Brakerski-Gentry-Vaikuntanathan (BGV) FHE scheme where, in contrast, all the previous works on multi-key FHE with standard assumptions were based on Gentry-Sahai-Waters (GSW) FHE scheme. Therefore, our construction can encrypt a ring element rather than a single bit and naturally inherits the advantages in aspects of the ciphertext/plaintext ratio and the complexity of homomorphic operations. Moveover, our MKFHE scheme supports the Chinese Remainder Theorem (CRT)-based ciphertexts packing technique, achieves p o l y k , L , log n computation overhead for k users, circuits with depth at most L and an n dimensional lattice, and gives the first batched MKFHE scheme based on standard assumptions to our knowledge. Furthermore, the ciphertext extension algorithms of previous schemes need to perform complex computation on each ciphertext, while our extension algorithm just needs to generate evaluation keys for the extended scheme. So the complexity of ciphertext extension is only dependent on the number of associated parities but not on the number of ciphertexts. Besides, our scheme also admits a threshold decryption protocol from which a generalized two-round MPC protocol can be similarly obtained as prior works.",
+            "aminer_id": "5a260c4017c44a4ba8a26778"
+        },
+        "cheon2018bootstrapping": {
+            "number": "[32]",
+            "title": "Better Bootstrapping for Approximate Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Cheon, Han, Kim, Kim, and Song}{Cheon et~al\\mbox{.}}{2018a}]% {cheon2018bootstrapping} \\bibfield{author}{\\bibinfo{person}{Jung~Hee Cheon}, \\bibinfo{person}{Kyoohyung Han}, \\bibinfo{person}{Andrey Kim}, \\bibinfo{person}{Miran Kim}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2018}\\natexlab{a}. \\newblock \\showarticletitle{Bootstrapping for approximate homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{Annual International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{360--384}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "After Cheon et al. (Asiacrypt’ 17) proposed an approximate homomorphic encryption scheme, HEAAN, for operations between encrypted real (or complex) numbers, the scheme is widely used in a variety of fields with needs on privacy-preserving in data analysis. After that, a bootstrapping method for HEAAN is proposed by Cheon et al. (Eurocrypt’ 18) with modulus reduction being replaced by a sine function. In this paper, we generalize the Full-RNS variant of HEAAN proposed by Cheon et al. (SAC, 19) to reduce the number of temporary moduli used in key-switching. As a result, our scheme can support more depth computations without bootstrapping while ensuring the same level of security.",
+            "aminer_id": "5d1eb9b2da562961f0aef9b0"
+        },
+        "cheon2018full": {
+            "number": "[33]",
+            "title": "A full RNS variant of approximate homomorphic encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Cheon, Han, Kim, Kim, and Song}{Cheon et~al\\mbox{.}}{2018b}]% {cheon2018full} \\bibfield{author}{\\bibinfo{person}{Jung~Hee Cheon}, \\bibinfo{person}{Kyoohyung Han}, \\bibinfo{person}{Andrey Kim}, \\bibinfo{person}{Miran Kim}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2018}\\natexlab{b}. \\newblock \\showarticletitle{A full RNS variant of approximate homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{International Conference on Selected Areas in Cryptography}}. Springer, \\bibinfo{pages}{347--368}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5bdc31b417c44a1f58a0b1a0"
+        },
+        "cheon2017homomorphic": {
+            "number": "[34]",
+            "title": "Homomorphic Encryption for Arithmetic of Approximate Numbers",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Cheon, Kim, Kim, and Song}{Cheon et~al\\mbox{.}}{2017}]% {cheon2017homomorphic} \\bibfield{author}{\\bibinfo{person}{Jung~Hee Cheon}, \\bibinfo{person}{Andrey Kim}, \\bibinfo{person}{Miran Kim}, {and} \\bibinfo{person}{Yongsoo Song}.} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{Homomorphic encryption for arithmetic of approximate numbers}. In \\bibinfo{booktitle}{\\emph{Advances in Cryptology –- ASIACRYPT}}. Springer, \\bibinfo{pages}{409--437}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We suggest a method to construct a homomorphic encryption scheme for approximate arithmetic. It supports an approximate addition and multiplication of encrypted messages, together with a new rescaling procedure for managing the magnitude of plaintext. This procedure truncates a ciphertext into a smaller modulus, which leads to rounding of plaintext. The main idea is to add a noise following significant figures which contain a main message. This noise is originally added to the plaintext for security, but considered to be a part of error occurring during approximate computations that is reduced along with plaintext by rescaling. As a result, our decryption structure outputs an approximate value of plaintext with a predetermined precision. We also propose a new batching technique for a RLWE-based construction. A plaintext polynomial is an element of a cyclotomic ring of characteristic zero and it is mapped to a message vector of complex numbers via complex canonical embedding map, which is an isometric ring homomorphism. This transformation does not blow up the size of errors, therefore enables us to preserve the precision of plaintext after encoding. In our construction, the bit size of ciphertext modulus grows linearly with the depth of the circuit being evaluated due to rescaling procedure, while all the previous works either require an exponentially large size of modulus or expensive computations such as bootstrapping or bit extraction. One important feature of our method is that the precision loss during evaluation is bounded by the depth of a circuit and it exceeds at most one more bit compared to unencrypted approximate arithmetic such as floating-point operations. In addition to the basic approximate circuits, we show that our scheme can be applied to the efficient evaluation of transcendental functions such as multiplicative inverse, exponential function, logistic function and discrete Fourier transform.",
+            "aminer_id": "5a260c3517c44a4ba8a24a23"
+        },
+        "chillotti2016faster": {
+            "number": "[35]",
+            "title": "Faster Fully Homomorphic Encryption: Bootstrapping in Less Than 0.1 Seconds.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Chillotti, Gama, Georgieva, and Izabachene}{Chillotti et~al\\mbox{.}}{2016}]% {chillotti2016faster} \\bibfield{author}{\\bibinfo{person}{Ilaria Chillotti}, \\bibinfo{person}{Nicolas Gama}, \\bibinfo{person}{Mariya Georgieva}, {and} \\bibinfo{person}{Malika Izabachene}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Faster fully homomorphic encryption: Bootstrapping in less than 0.1 seconds}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Application of Cryptology and Information Security}}. Springer, \\bibinfo{pages}{3--33}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we revisit fully homomorphic encryption (FHE) based on GSW and its ring variants. We notice that the internal product of GSW can be replaced by a simpler external product between a GSW and an LWE ciphertext.We show that the bootstrapping scheme FHEW of Ducas and Micciancio [11] can be expressed only in terms of this external product. As a result, we obtain a speed up from less than 1 s to less than 0.1 s. We also reduce the 1GB bootstrapping key size to 24MB, preserving the same security levels, and we improve the noise propagation overhead by replacing exact decomposition algorithms with approximate ones.Moreover, our external product allows to explain the unique asymmetry in the noise propagation of GSW samples and makes it possible to evaluate deterministic automata homomorphically as in [13] in an efficient way with a noise overhead only linear in the length of the tested word.Finally, we provide an alternative practical analysis of LWE based scheme, which directly relates the security parameter to the error rate of LWE and the entropy of the LWE secret key.",
+            "aminer_id": "58437707ac44360f1082bafd"
+        },
+        "clear2015multi": {
+            "number": "[36]",
+            "title": "Multi-identity and multi-key leveled FHE from learning with errors",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Clear and McGoldrick}{Clear and McGoldrick}{2015}]% {clear2015multi} \\bibfield{author}{\\bibinfo{person}{Michael Clear} {and} \\bibinfo{person}{Ciaran McGoldrick}.} \\bibinfo{year}{2015}\\natexlab{}. \\newblock \\showarticletitle{Multi-identity and multi-key leveled FHE from learning with errors}. In \\bibinfo{booktitle}{\\emph{Annual Cryptology Conference}}. Springer, \\bibinfo{pages}{630--656}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "599c77e7601a182cd2588772"
+        },
+        "cramer2001multiparty": {
+            "number": "[37]",
+            "title": "Multiparty Computation from Threshold Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Cramer, Damg{\\aa}rd, and Nielsen}{Cramer et~al\\mbox{.}}{2001}]% {cramer2001multiparty} \\bibfield{author}{\\bibinfo{person}{Ronald Cramer}, \\bibinfo{person}{Ivan Damg{\\aa}rd}, {and} \\bibinfo{person}{Jesper~B Nielsen}.} \\bibinfo{year}{2001}\\natexlab{}. \\newblock \\showarticletitle{Multiparty computation from threshold homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{280--300}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We introduce a new approach to multiparty computation (MPC) basing it on homomorphic threshold crypto-systems. We show that given keys for any sufficiently efficient system of this type, general MPC protocols for n parties can be devised which are secure against an active adversary that corrupts any minority of the parties. The total number of bits broadcast is O ( nk | C |), where k is the security parameter and | C | is the size of a (Boolean) circuit computing the function to be securely evaluated. An earlier proposal by Franklin and Haber with the same complexity was only secure for passive adversaries, while all earlier protocols with active security had complexity at least quadratic in n . We give two examples of threshold cryptosystems that can support our construction and lead to the claimed complexities.",
+            "aminer_id": "53908af920f70186a0daf1d5"
+        },
+        "cramer1997secure": {
+            "number": "[38]",
+            "title": "A Secure and Optimally Efficient Multi-Authority Election Scheme",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Cramer, Gennaro, and Schoenmakers}{Cramer et~al\\mbox{.}}{1997}]% {cramer1997secure} \\bibfield{author}{\\bibinfo{person}{Ronald Cramer}, \\bibinfo{person}{Rosario Gennaro}, {and} \\bibinfo{person}{Berry Schoenmakers}.} \\bibinfo{year}{1997}\\natexlab{}. \\newblock \\showarticletitle{A secure and optimally efficient multi-authority election scheme}. \\newblock \\bibinfo{journal}{\\emph{Transactions on Emerging Telecommunications Technologies}} \\bibinfo{volume}{8}, \\bibinfo{number}{5} (\\bibinfo{year}{1997}), \\bibinfo{pages}{481--490}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In this paper we present a new multi-authority secret-ballot election scheme that guarantees privacy, universal verifiability, and robustness. It is the first scheme for which the performance is optimal in the sense that time and communication complexity is minimal both for the individual voters and the authorities. An interesting property of the scheme is that the time and communication complexity for the voter is independent of the number of authorities. A voter simply posts a single encrypted message accompanied by a compact proof that it contains a valid vote. Our result is complementary to the result by Cramer, Franklin, Schoenmakers, and Yung in the sense that in their scheme the work for voters is linear in the number of authorities but can be instantiated to yield information-theoretic privacy, while in our scheme the voter's effort is independent of the number of authorities but always provides computational privacy-protection, We will also point out that the majority of proposed voting schemes provide computational privacy only (often without even considering the lack of information-theoretic privacy), and that our new scheme is by far superior to those schemes.",
+            "aminer_id": "5390a93b20f70186a0ea0d1b"
+        },
+        "damgaard2000efficient": {
+            "number": "[39]",
+            "title": "Efficient Concurrent Zero-Knowledge in the Auxiliary String Model",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Damg{\\aa}rd}{Damg{\\aa}rd}{2000}]% {damgaard2000efficient} \\bibfield{author}{\\bibinfo{person}{Ivan Damg{\\aa}rd}.} \\bibinfo{year}{2000}\\natexlab{}. \\newblock \\showarticletitle{Efficient concurrent zero-knowledge in the auxiliary string model}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{418--430}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We show that if any one-way function exists, then 3-round concurrent zero-knowledge arguments for all NP problems can be built in a model where a short auxiliary string with a prescribed distribution is available to the players. We also show that a wide range of known efficient proofs of knowledge using specialized assumptions can be modified to work in this model with no essential loss of efficiency. We argue that the assumptions of the model will be satisfied in many practical scenarios where public key cryptography is used, in particular our construction works given any secure public key infrastructure. Finally, we point out that in a model with preprocessing (and no auxiliary string) proposed earlier, concurrent zero-knowledge for NP can be based on any one-way function.",
+            "aminer_id": "5390a93b20f70186a0ea11d2"
+        },
+        "damgaard2001practical": {
+            "number": "[40]",
+            "title": "Practical Threshold RSA Signatures Without a Trusted Dealer",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Damg{\\aa}rd and Koprowski}{Damg{\\aa}rd and Koprowski}{2001}]% {damgaard2001practical} \\bibfield{author}{\\bibinfo{person}{Ivan Damg{\\aa}rd} {and} \\bibinfo{person}{Maciej Koprowski}.} \\bibinfo{year}{2001}\\natexlab{}. \\newblock \\showarticletitle{Practical threshold RSA signatures without a trusted dealer}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{152--165}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We propose a threshold RSA scheme which is as efficient as the fastest previous threshold RSA scheme (by Shoup), but where two assumptions needed in Shoup's and in previous schemes can be dropped, namely that the modulus must be a product of safe primes and that a trusted dealer generates the keys. The robustness (but not the unforgeability) of our scheme depends on a new intractability assumption, in addition to security of the underlying standard RSA scheme.",
+            "aminer_id": "53908af920f70186a0daf1c9"
+        },
+        "daza2007cca2": {
+            "number": "[41]",
+            "title": "CCA2-secure Threshold Broadcast Encryption with Shorter Ciphertexts",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Daza, Herranz, Morillo, and Rafols}{Daza et~al\\mbox{.}}{2007}]% {daza2007cca2} \\bibfield{author}{\\bibinfo{person}{Vanesa Daza}, \\bibinfo{person}{Javier Herranz}, \\bibinfo{person}{Paz Morillo}, {and} \\bibinfo{person}{Carla Rafols}.} \\bibinfo{year}{2007}\\natexlab{}. \\newblock \\showarticletitle{CCA2-secure threshold broadcast encryption with shorter ciphertexts}. In \\bibinfo{booktitle}{\\emph{International Conference on Provable Security}}. Springer, \\bibinfo{pages}{35--50}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In a threshold broadcast encryption scheme, a sender chooses (ad-hoc) a set of n receivers and a threshold t, and then encrypts a message by using the public keys of all the receivers, in such a way that the original plaintext can be recovered only if at least t receivers cooperate. Previously proposed threshold broadcast encryption schemes have ciphertexts whose length is at least n + O(1). In this paper, we propose new schemes, for both PKI and identity-based scenarios, where the ciphertexts' length is n-t+O(1). The constructions use secret sharing techniques and the Canetti-Halevi-Katz transformation to achieve chosen-ciphertext security. The security of our schemes is formally proved under the Decisional Bilinear Diffie-Hellman (DBDH) Assumption.",
+            "aminer_id": "5390a9a520f70186a0ea5ea4"
+        },
+        "delerablee2008dynamic": {
+            "number": "[42]",
+            "title": "Dynamic Threshold Public-Key Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Delerabl{\\'e}e and Pointcheval}{Delerabl{\\'e}e and Pointcheval}{2008}]% {delerablee2008dynamic} \\bibfield{author}{\\bibinfo{person}{C{\\'e}cile Delerabl{\\'e}e} {and} \\bibinfo{person}{David Pointcheval}.} \\bibinfo{year}{2008}\\natexlab{}. \\newblock \\showarticletitle{Dynamic threshold public-key encryption}. In \\bibinfo{booktitle}{\\emph{Annual International Cryptology Conference}}. Springer, \\bibinfo{pages}{317--334}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "This paper deals with threshold public-key encryption which allows a pool of players to decrypt a ciphertext if a given threshold of authorized players cooperate. We generalize this primitive to the dynamic setting, where any user can dynamically join the system, as a possible recipient; the sender can dynamically choose the authorized set of recipients, for each ciphertext; and the sender can dynamically set the threshold t for decryption capability among the authorized set. We first give a formal security model, which includes strong robustness notions, and then we propose a candidate achieving all the above dynamic properties, that is semantically secure in the standard model, under a new non-interactive assumption, that fits into the general Diffie-Hellman exponent framework on groups with a bilinear map. It furthermore compares favorably with previous proposals, a.k.a. threshold broadcast encryption, since this is the first threshold public-key encryption, with dynamic authorized set of recipients and dynamic threshold that provides constant-size ciphertexts.",
+            "aminer_id": "5390a1d420f70186a0e581f9"
+        },
+        "desmedt1989threshold": {
+            "number": "[43]",
+            "title": "Threshold cryptosystems",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Desmedt and Frankel}{Desmedt and Frankel}{1989}]% {desmedt1989threshold} \\bibfield{author}{\\bibinfo{person}{Yvo Desmedt} {and} \\bibinfo{person}{Yair Frankel}.} \\bibinfo{year}{1989}\\natexlab{}. \\newblock \\showarticletitle{Threshold cryptosystems}. In \\bibinfo{booktitle}{\\emph{Conference on the Theory and Application of Cryptology}}. Springer, \\bibinfo{pages}{307--315}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "dingledine2004tor": {
+            "number": "[44]",
+            "title": "Tor: The second-generation onion router",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Dingledine, Mathewson, and Syverson}{Dingledine et~al\\mbox{.}}{2004}]% {dingledine2004tor} \\bibfield{author}{\\bibinfo{person}{Roger Dingledine}, \\bibinfo{person}{Nick Mathewson}, {and} \\bibinfo{person}{Paul Syverson}.} \\bibinfo{year}{2004}\\natexlab{}. \\newblock \\bibinfo{booktitle}{\\emph{Tor: The second-generation onion router}}. \\newblock \\bibinfo{type}{{T}echnical {R}eport}. \\bibinfo{institution}{Naval Research Lab Washington DC}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53909ee020f70186a0e32c2d"
+        },
+        "dodis2016spooky": {
+            "number": "[45]",
+            "title": "Spooky encryption and its applications",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Dodis, Halevi, Rothblum, and Wichs}{Dodis et~al\\mbox{.}}{2016}]% {dodis2016spooky} \\bibfield{author}{\\bibinfo{person}{Yevgeniy Dodis}, \\bibinfo{person}{Shai Halevi}, \\bibinfo{person}{Ron~D Rothblum}, {and} \\bibinfo{person}{Daniel Wichs}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Spooky encryption and its applications}. In \\bibinfo{booktitle}{\\emph{Annual Cryptology Conference}}. Springer, \\bibinfo{pages}{93--122}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736956b6e3b12023e490533"
+        },
+        "elgamal1985public": {
+            "number": "[46]",
+            "title": "A Public Key Cryptosystem and a Signature Scheme Based on Discrete Logarithms",
+            "text": "\\bibitem[\\protect\\citeauthoryear{ElGamal}{ElGamal}{1985}]% {elgamal1985public} \\bibfield{author}{\\bibinfo{person}{Taher ElGamal}.} \\bibinfo{year}{1985}\\natexlab{}. \\newblock \\showarticletitle{A public key cryptosystem and a signature scheme based on discrete logarithms}. \\newblock \\bibinfo{journal}{\\emph{IEEE transactions on information theory}} \\bibinfo{volume}{31}, \\bibinfo{number}{4} (\\bibinfo{year}{1985}), \\bibinfo{pages}{469--472}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "A new signature scheme is proposed, together with an implementation of the Diffie-Hellman key distribution scheme that achieves a public key cryptosystem. The security of both systems relies on the difficulty of computing discrete logarithms over finite fields.",
+            "aminer_id": "5390877f20f70186a0d3068b"
+        },
+        "Fan:2012aa": {
+            "number": "[47]",
+            "title": "Somewhat Practical Fully Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Fan and Vercauteren}{Fan and Vercauteren}{2012}]% {Fan:2012aa} \\bibfield{author}{\\bibinfo{person}{Junfeng Fan} {and} \\bibinfo{person}{Frederik Vercauteren}.} \\bibinfo{year}{2012}\\natexlab{}. \\newblock \\bibinfo{title}{Somewhat Practical Fully Homomorphic Encryption}. \\newblock \\bibinfo{howpublished}{https://eprint.iacr.org/2012/144/20120322:031216}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e9b532b7602d970406af5b"
+        },
+        "ferguson2010cryptography": {
+            "number": "[48]",
+            "title": "Cryptography engineering",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Ferguson, Schneier, and Kohno}{Ferguson et~al\\mbox{.}}{2010}]% {ferguson2010cryptography} \\bibfield{author}{\\bibinfo{person}{Niels Ferguson}, \\bibinfo{person}{Bruce Schneier}, {and} \\bibinfo{person}{Tadayoshi Kohno}.} \\bibinfo{year}{2010}\\natexlab{}. \\newblock \\showarticletitle{Cryptography engineering}. \\newblock \\bibinfo{journal}{\\emph{Design Princi}} (\\bibinfo{year}{2010}). \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "64b48ff53fda6d7f06150657"
+        },
+        "fischlin2000efficient": {
+            "number": "[49]",
+            "title": "Efficient Non-malleable Commitment Schemes",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Fischlin and Fischlin}{Fischlin and Fischlin}{2000}]% {fischlin2000efficient} \\bibfield{author}{\\bibinfo{person}{Marc Fischlin} {and} \\bibinfo{person}{Roger Fischlin}.} \\bibinfo{year}{2000}\\natexlab{}. \\newblock \\showarticletitle{Efficient non-malleable commitment schemes}. In \\bibinfo{booktitle}{\\emph{Annual International Cryptology Conference}}. Springer, \\bibinfo{pages}{413--431}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Non-malleability protects against man-in-the middle attacks on cryptographic protocols. Non-malleable commitment schemes, for example, assure that a commitment of a message does not help to produce a commitment of a related message. Here we present efficient constructions of such commitment schemes in the common reference string model, based on standard assumptions such as RSA, factoring or discrete logarithm. Our protocols require only three rounds and a few modular exponentiations, and provide statistical or even perfect secrecy of committed values.We also discuss differences between the notion of non-malleable commitment schemes used in previous works by Dolev, Dwork and Naor and by Di Crescenzo, Ishai and Ostrovsky. The former definition requires that it is infeasible to find a commitment such that there exists an encapsulated message which is related to another committed value (non-malleability with respect to commitment). The second approach allows the existence of such messages, but then it is hard to find them and to output them in the opening phase (non-malleability with respect to opening). We note that our solutions are of the second type.",
+            "aminer_id": "53908adf20f70186a0dac464"
+        },
+        "fontaine2007survey": {
+            "number": "[50]",
+            "title": "A Survey of Homomorphic Encryption for Nonspecialists",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Fontaine and Galand}{Fontaine and Galand}{2007}]% {fontaine2007survey} \\bibfield{author}{\\bibinfo{person}{Caroline Fontaine} {and} \\bibinfo{person}{Fabien Galand}.} \\bibinfo{year}{2007}\\natexlab{}. \\newblock \\showarticletitle{A survey of homomorphic encryption for nonspecialists}. \\newblock \\bibinfo{journal}{\\emph{EURASIP Journal on Information Security}} \\bibinfo{volume}{2007} (\\bibinfo{year}{2007}), \\bibinfo{pages}{15}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Processing encrypted signals requires special properties of the underlying encryption scheme. A possible choice is the use of homomorphic encryption. In this paper, we propose a selection of the most important available solutions, discussing their properties and limitations.",
+            "aminer_id": "53909fca20f70186a0e44e1e"
+        },
+        "fun2016survey": {
+            "number": "[51]",
+            "title": "A Survey of Homomorphic Encryption for Outsourced Big Data Computation",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Fun and Samsudin}{Fun and Samsudin}{2016}]% {fun2016survey} \\bibfield{author}{\\bibinfo{person}{Tan~Soo Fun} {and} \\bibinfo{person}{Azman Samsudin}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{A survey of homomorphic encryption for outsourced big data computation}. \\newblock \\bibinfo{journal}{\\emph{KSII Transactions on Internet and Information Systems (TIIS)}} \\bibinfo{volume}{10}, \\bibinfo{number}{8} (\\bibinfo{year}{2016}), \\bibinfo{pages}{3826--3851}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "With traditional data storage solutions becoming too expensive and cumbersome to support Big Data processing, enterprises are now starting to outsource their data requirements to third parties, such as cloud service providers. However, this outsourced initiative introduces a number of security and privacy concerns. In this paper, homomorphic encryption is suggested as a mechanism to protect the confidentiality and privacy of outsourced data, while at the same time allowing third parties to perform computation on encrypted data. This paper also discusses the challenges of Big Data processing protection and highlights its differences from traditional data protection. Existing works on homomorphic encryption are technically reviewed and compared in terms of their encryption scheme, homomorphism classification, algorithm design, noise management, and security assumption. Finally, this paper discusses the current implementation, challenges, and future direction towards a practical homomorphic encryption scheme for securing outsourced Big Data computation.",
+            "aminer_id": "58437718ac44360f1082df0a"
+        },
+        "gavin2019securely": {
+            "number": "[52]",
+            "title": "Securely Aggregating Testimonies with Threshold Multi-key FHE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Gavin and Bonnevay}{Gavin and Bonnevay}{2019}]% {gavin2019securely} \\bibfield{author}{\\bibinfo{person}{Gerald Gavin} {and} \\bibinfo{person}{Stephane Bonnevay}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{Securely Aggregating Testimonies with Threshold Multi-key FHE}. In \\bibinfo{booktitle}{\\emph{International Conference on Codes, Cryptology, and Information Security}}. Springer, \\bibinfo{pages}{325--348}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Many data management applications, such as setting up Web portals, managing enterprise data, managing community data, and sharing scientific data, require integrating data from multiple sources. Each of these sources provides a set of values and different sources can often provide conflicting values. To discover the true values, data integration systems should resolve conflicts. In this paper, we present a formal probabilistic framework in the expert/authority setting. Each expert has a partial and maybe imperfect view of a binary target vector b that an authority wishes recovering. The goal of this paper consists of proposing a multi-party aggregating function of experts’ views to recover b with an error rate as small as possible. In addition, it is assumed that some of the experts are corrupted by an adversary 𝒜 . This adversary controls and coordinates the behavior of the corrupted experts and can thus perturb the aggregating process. In this paper, we present a simple aggregating function and we provide a formal upper-bound over of the output vector error expectation in the worst case, i.e. whatever the behavior of the adversary is. We then propose to securely implement this aggregating function in order to preserve the privacy of experts’ views. A natural secure implementation could be achieved with recent powerful cryptographic tools, i.e. Threshold Multi-key Fully Homomorphic Encryptions schemes (TMFHE). Finally, trade-off between the time complexity and the number of interaction rounds are proposed.",
+            "aminer_id": "5cb99e0ce1cd8e6c394ff72e"
+        },
+        "gentry2009fully": {
+            "number": "[53]",
+            "title": "Fully Homomorphic Encryption Using Ideal Lattices",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Gentry}{Gentry}{2009}]% {gentry2009fully} \\bibfield{author}{\\bibinfo{person}{Craig Gentry}.} \\bibinfo{year}{2009}\\natexlab{}. \\newblock \\showarticletitle{Fully homomorphic encryption using ideal lattices}. In \\bibinfo{booktitle}{\\emph{STOC}}, Vol.~\\bibinfo{volume}{9}. \\bibinfo{pages}{169--178}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We propose a fully homomorphic encryption scheme -- i.e., a scheme that allows one to evaluate circuits over encrypted data without being able to decrypt. Our solution comes in three steps. First, we provide a general result -- that, to construct an encryption scheme that permits evaluation of arbitrary circuits, it suffices to construct an encryption scheme that can evaluate (slightly augmented versions of) its own decryption circuit; we call a scheme that can evaluate its (augmented) decryption circuit bootstrappable.  Next, we describe a public key encryption scheme using ideal lattices that is almost bootstrappable.  Lattice-based cryptosystems typically have decryption algorithms with low circuit complexity, often dominated by an inner product computation that is in NC1. Also, ideal lattices provide both additive and multiplicative homomorphisms (modulo a public-key ideal in a polynomial ring that is represented as a lattice), as needed to evaluate general circuits.  Unfortunately, our initial scheme is not quite bootstrappable -- i.e., the depth that the scheme can correctly evaluate can be logarithmic in the lattice dimension, just like the depth of the decryption circuit, but the latter is greater than the former. In the final step, we show how to modify the scheme to reduce the depth of the decryption circuit, and thereby obtain a bootstrappable encryption scheme, without reducing the depth that the scheme can evaluate. Abstractly, we accomplish this by enabling the encrypter to start the decryption process, leaving less work for the decrypter, much like the server leaves less work for the decrypter in a server-aided cryptosystem.",
+            "aminer_id": "5390a40520f70186a0e70540"
+        },
+        "gentry2013homomorphic": {
+            "number": "[54]",
+            "title": "Homomorphic Encryption from Learning with Errors: Conceptually-Simpler, Asymptotically-Faster, Attribute-Based",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Gentry, Sahai, and Waters}{Gentry et~al\\mbox{.}}{2013}]% {gentry2013homomorphic} \\bibfield{author}{\\bibinfo{person}{Craig Gentry}, \\bibinfo{person}{Amit Sahai}, {and} \\bibinfo{person}{Brent Waters}.} \\bibinfo{year}{2013}\\natexlab{}. \\newblock \\showarticletitle{Homomorphic encryption from learning with errors: Conceptually-simpler, asymptotically-faster, attribute-based}. \\newblock In \\bibinfo{booktitle}{\\emph{Advances in Cryptology--CRYPTO 2013}}. \\bibinfo{publisher}{Springer}, \\bibinfo{pages}{75--92}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We describe a comparatively simple fully homomorphic encryption (FHE) scheme based on the learning with errors (LWE) problem. In previous LWE-based FHE schemes, multiplication is a complicated and expensive step involving \"relinearization\". In this work, we propose a new technique for building FHE schemes that we call the approximate eigenvector method. In our scheme, for the most part, homomorphic addition and multiplication are just matrix addition and multiplication. This makes our scheme both asymptotically faster and (we believe) easier to understand.In previous schemes, the homomorphic evaluator needs to obtain the user's \"evaluation key\", which consists of a chain of encrypted secret keys. Our scheme has no evaluation key. The evaluator can do homomorphic operations without knowing the user's public key at all, except for some basic parameters. This fact helps us construct the first identity-based FHE scheme. Using similar techniques, we show how to compile a recent attribute-based encryption scheme for circuits by Gorbunov et al. into an attribute-based FHE scheme that permits data encrypted under the same index to be processed homomorphically.",
+            "aminer_id": "53e9a07ab7602d97029615ba"
+        },
+        "gilad2016cryptonets": {
+            "number": "[55]",
+            "title": "CryptoNets: Applying Neural Networks to Encrypted Data with High Throughput and Accuracy.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Gilad-Bachrach, Dowlin, Laine, Lauter, Naehrig, and Wernsing}{Gilad-Bachrach et~al\\mbox{.}}{2016}]% {gilad2016cryptonets} \\bibfield{author}{\\bibinfo{person}{Ran Gilad-Bachrach}, \\bibinfo{person}{Nathan Dowlin}, \\bibinfo{person}{Kim Laine}, \\bibinfo{person}{Kristin Lauter}, \\bibinfo{person}{Michael Naehrig}, {and} \\bibinfo{person}{John Wernsing}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Cryptonets: Applying neural networks to encrypted data with high throughput and accuracy}. In \\bibinfo{booktitle}{\\emph{International Conference on Machine Learning (ICML)}}. \\bibinfo{pages}{201--210}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Applying machine learning to a problem which involves medical, financial, or other types of sensitive data, not only requires accurate predictions but also careful attention to maintaining data privacy and security. Legal and ethical requirements may prevent the use of cloud-based machine learning solutions for such tasks. In this work, we will present a method to convert learned neural networks to CryptoNets , neural networks that can be applied to encrypted data. This allows a data owner to send their data in an encrypted form to a cloud service that hosts the network. The encryption ensures that the data remains confidential since the cloud does not have access to the keys needed to decrypt it. Nevertheless, we will show that the cloud service is capable of applying the neural network to the encrypted data to make encrypted predictions, and also return them in encrypted form. These encrypted predictions can be sent back to the owner of the secret key who can decrypt them. Therefore, the cloud service does not gain any information about the raw data nor about the prediction it made. We demonstrate CryptoNets on the MNIST optical character recognition tasks. CryptoNets achieve 99% accuracy and can make around 59000 predictions per hour on a single PC. Therefore, they allow high throughput, accurate, and private predictions.",
+            "aminer_id": "57d063b9ac4436735428e510"
+        },
+        "goldschlag1999onion": {
+            "number": "[56]",
+            "title": "Onion Routing for Anonymous and Private Internet Connections",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Goldschlag, Reed, and Syverson}{Goldschlag et~al\\mbox{.}}{1999}]% {goldschlag1999onion} \\bibfield{author}{\\bibinfo{person}{David Goldschlag}, \\bibinfo{person}{Michael Reed}, {and} \\bibinfo{person}{Paul Syverson}.} \\bibinfo{year}{1999}\\natexlab{}. \\newblock \\bibinfo{booktitle}{\\emph{Onion routing for anonymous and private internet connections}}. \\newblock \\bibinfo{type}{{T}echnical {R}eport}. \\bibinfo{institution}{NAVAL RESEARCH LAB WASHINGTON DC CENTER FOR HIGH ASSURANCE COMPUTING SYSTEMS~…}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": " thisarticle's publication, the prototype network is processing more than 1 millionWeb connections per month from more than six thousand IP addresses in twentycountries and in all six main top level domains. [7]Onion Routing operates by dynamically building anonymous connectionswithin a network of real-time Chaum Mixes [3]. A Mix is a store and forwarddevice that accepts a number of fixed-length messages from numerous sources,performs cryptographic transformations on the messages, and... ",
+            "aminer_id": "53e9a208b7602d9702b09333"
+        },
+        "goldwasser1984probabilistic": {
+            "number": "[57]",
+            "title": "Probabilistic encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Goldwasser and Micali}{Goldwasser and Micali}{1984}]% {goldwasser1984probabilistic} \\bibfield{author}{\\bibinfo{person}{Shafi Goldwasser} {and} \\bibinfo{person}{Silvio Micali}.} \\bibinfo{year}{1984}\\natexlab{}. \\newblock \\showarticletitle{Probabilistic encryption}. \\newblock \\bibinfo{journal}{\\emph{J. of Computer and System Sciences}} \\bibinfo{volume}{28}, \\bibinfo{number}{2} (\\bibinfo{year}{1984}), \\bibinfo{pages}{270--299}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "gorbunov2015attribute": {
+            "number": "[58]",
+            "title": "Attribute-based encryption for circuits",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Gorbunov, Vaikuntanathan, and Wee}{Gorbunov et~al\\mbox{.}}{2015}]% {gorbunov2015attribute} \\bibfield{author}{\\bibinfo{person}{Sergey Gorbunov}, \\bibinfo{person}{Vinod Vaikuntanathan}, {and} \\bibinfo{person}{Hoeteck Wee}.} \\bibinfo{year}{2015}\\natexlab{}. \\newblock \\showarticletitle{Attribute-based encryption for circuits}. \\newblock \\bibinfo{journal}{\\emph{Journal of the ACM (JACM)}} \\bibinfo{volume}{62}, \\bibinfo{number}{6} (\\bibinfo{year}{2015}), \\bibinfo{pages}{45}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390bb1d20f70186a0f3d435"
+        },
+        "goyal2006attribute": {
+            "number": "[59]",
+            "title": "Attribute-based encryption for fine-grained access control of encrypted data",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Goyal, Pandey, Sahai, and Waters}{Goyal et~al\\mbox{.}}{2006}]% {goyal2006attribute} \\bibfield{author}{\\bibinfo{person}{Vipul Goyal}, \\bibinfo{person}{Omkant Pandey}, \\bibinfo{person}{Amit Sahai}, {and} \\bibinfo{person}{Brent Waters}.} \\bibinfo{year}{2006}\\natexlab{}. \\newblock \\showarticletitle{Attribute-based encryption for fine-grained access control of encrypted data}. In \\bibinfo{booktitle}{\\emph{Proceedings of the 13th ACM conference on Computer and communications security}}. Acm, \\bibinfo{pages}{89--98}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53909a0220f70186a0e1fa66"
+        },
+        "hesamifard2017cryptodl": {
+            "number": "[60]",
+            "title": "CryptoDL: Deep Neural Networks over Encrypted Data",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Hesamifard, Takabi, and Ghasemi}{Hesamifard et~al\\mbox{.}}{2017}]% {hesamifard2017cryptodl} \\bibfield{author}{\\bibinfo{person}{Ehsan Hesamifard}, \\bibinfo{person}{Hassan Takabi}, {and} \\bibinfo{person}{Mehdi Ghasemi}.} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{{CryptoDL: Deep neural networks over encrypted data}}. \\newblock \\bibinfo{journal}{\\emph{arXiv preprint arXiv:1711.05189}} (\\bibinfo{year}{2017}). \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Machine learning algorithms based on deep neural networks have achieved remarkable results and are being extensively used in different domains. However, the machine learning algorithms requires access to raw data which is often privacy sensitive. To address this issue, we develop new techniques to provide solutions for running deep neural networks over encrypted data. In this paper, we develop new techniques to adopt deep neural networks within the practical limitation of current homomorphic encryption schemes. More specifically, we focus on classification of the well-known convolutional neural networks (CNN). First, we design methods for approximation of the activation functions commonly used in CNNs (i.e. ReLU, Sigmoid, and Tanh) with low degree polynomials which is essential for efficient homomorphic encryption schemes. Then, we train convolutional neural networks with the approximation polynomials instead of original activation functions and analyze the performance of the models. Finally, we implement convolutional neural networks over encrypted data and measure performance of the models. Our experimental results validate the soundness of our approach with several convolutional neural networks with varying number of layers and structures. When applied to the MNIST optical character recognition tasks, our approach achieves 99.52\\% accuracy which significantly outperforms the state-of-the-art solutions and is very close to the accuracy of the best non-private version, 99.77\\%. Also, it can make close to 164000 predictions per hour. We also applied our approach to CIFAR-10, which is much more complex compared to MNIST, and were able to achieve 91.5\\% accuracy with approximation polynomials used as activation functions. These results show that CryptoDL provides efficient, accurate and scalable privacy-preserving predictions.",
+            "aminer_id": "5a260c8117c44a4ba8a30aef"
+        },
+        "hu2017geosocial": {
+            "number": "[61]",
+            "title": "Geosocial Query with User-Controlled Privacy",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Hu, Chow, and Aloufi}{Hu et~al\\mbox{.}}{2017}]% {hu2017geosocial} \\bibfield{author}{\\bibinfo{person}{Peizhao Hu}, \\bibinfo{person}{Sherman~SM Chow}, {and} \\bibinfo{person}{Asma Aloufi}.} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{Geosocial query with user-controlled privacy}. In \\bibinfo{booktitle}{\\emph{Proceedings of the 10th ACM Conference on Security and Privacy in Wireless and Mobile Networks}}. ACM, \\bibinfo{pages}{163--172}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Geosocial applications collect (and record) users' precise location data to perform proximity computations, such as notifying a user or triggering a service when a friend is within geographic proximity. With the growing popularity of mobile devices that have sophisticated localization capability it becomes more convenient and tempting to share location data. But the precise location data in plaintext not only exposes user's whereabouts but also mobility patterns that are sensitive and cannot be changed easily. This paper proposes cryptographic protocols on top of spatial cloaking to reduce the resolution of location and balance between data utility and privacy. Specifically we interest in the setting that allows users to send periodic updates of precise coordinates and define privacy preferences to control the granularity of the location, both in an encrypted format. Our system supports three kinds of user queries --- \"Where is this user?\", \"Who is nearby?\", and \"How close is this user from another user?\". Also, we develop a new algorithm to improve the multidimensional data access by reducing significant masking error. Our prototype and various performance evaluations on different platforms demonstrated that our system is practical.",
+            "aminer_id": "5998f6a45bc12a21cf8bc50f"
+        },
+        "kim2018towards": {
+            "number": "[62]",
+            "title": "Towards Round-Optimal Secure Multiparty Computations: Multikey FHE Without a CRS.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Kim, Lee, and Park}{Kim et~al\\mbox{.}}{2018}]% {kim2018towards} \\bibfield{author}{\\bibinfo{person}{Eunkyung Kim}, \\bibinfo{person}{Hyang-Sook Lee}, {and} \\bibinfo{person}{Jeongeun Park}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{Towards round-optimal secure multiparty computations: Multikey FHE without a CRS}. In \\bibinfo{booktitle}{\\emph{Australasian Conference on Information Security and Privacy}}. Springer, \\bibinfo{pages}{101--113}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Multikey fully homomorphic encryption (MFHE) allows homomorphic operations between ciphertexts encrypted under different keys. In applications for secure multiparty computation (MPC) protocols, MFHE can be more advantageous than usual fully homomorphic encryption (FHE) since users do not need to agree with a common public key before the computation when using MFHE. In EUROCRYPT 2016, Mukherjee and Wichs constructed a secure MPC protocol in only two rounds via MFHE which deals with a common random/reference string (CRS) in key generation. After then, Brakerski et al. replaced the role of CRS with the distributed setup for CRS calculation to form a four round secure MPC protocol. Thus, recent improvements in round complexity of MPC protocols have been made using MFHE. In this paper, we go further to obtain round-efficient and secure MPC protocols. The underlying MFHE schemes in previous works still involve the common value, CRS, it seems to weaken the power of using MFHE to allow users to independently generate their own keys. Therefore, we resolve the issue by constructing an MFHE scheme without CRS based on LWE assumption, and then we obtain a secure MPC protocol against semi-malicious security in three rounds.",
+            "aminer_id": "5b67b46b17c44aac1c861c33"
+        },
+        "Lee2019Security": {
+            "number": "[63]",
+            "title": "On the Security of Multikey Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Lee and Park}{Lee and Park}{2019}]% {Lee2019Security} \\bibfield{author}{\\bibinfo{person}{Hyang-Sook Lee} {and} \\bibinfo{person}{Jeongeun Park}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\bibinfo{title}{On the Security of Multikey Homomorphic Encryption}. \\newblock \\bibinfo{howpublished}{Cryptology ePrint Archive, Report 2019/1082}. \\newblock \\newblock \\shownote{\\url{https://eprint.iacr.org/2019/1082}.}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5df4b4a83a55ac119bd0f8ef"
+        },
+        "li2019efficient": {
+            "number": "[64]",
+            "title": "Efficient Multi-Key FHE with Short Extended Ciphertexts and Directed Decryption Protocol.",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Li, Zhou, Yang, Han, Liu, and Tu}{Li et~al\\mbox{.}}{2019}]% {li2019efficient} \\bibfield{author}{\\bibinfo{person}{Ningbo Li}, \\bibinfo{person}{Tanping Zhou}, \\bibinfo{person}{Xiaoyuan Yang}, \\bibinfo{person}{Yiliang Han}, \\bibinfo{person}{Wenchao Liu}, {and} \\bibinfo{person}{Guangsheng Tu}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{Efficient Multi-Key FHE With Short Extended Ciphertexts and Directed Decryption Protocol}. \\newblock \\bibinfo{journal}{\\emph{IEEE Access}} \\bibinfo{volume}{7} (\\bibinfo{year}{2019}), \\bibinfo{pages}{56724--56732}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Multi-key full homomorphic encryption (MKFHE) can perform arbitrary operations on encrypted data under different public keys (users), and the final ciphertext can be jointly decrypted by all involved users. Therefore, MKFHE has natural advantages and application value in security multi-party computation (MPC). The MKFHE scheme based on Brakerski-Gentry-Vaikuntanathan (BGV) inherits the advantages of BGV FHE scheme in aspects of encrypting a ring element, the ciphertext/plaintext ratio, and supporting the Chinese remainder theorem (CRT)-based ciphertexts packing technique. However some weaknesses also exist such as large ciphertexts and keys, and complicated process of generating evaluation keys. In this paper, we present an efficient BGV-type MKFHE scheme. First, we construct a nested ciphertext extension for BGV and separable ciphertext extension for Gentry-Sahai-Waters (GSW), which can reduce the size of the extended ciphertexts about a half. Second, we apply the hybrid homomorphic multiplication between RBGV ciphertext and RGSW ciphertext to the generation process of evaluation keys, which can significantly reduce the amount of input/output ciphertexts and improve the efficiency. Finally, we construct a directed decryption protocol which allows the evaluated ciphertext to be decrypted by any target user, thereby enhancing the ability of data owner to control their own plaintext, and abolish the limitation in current MKFHE schemes that the evaluated ciphertext can only be decrypted by users involved in homomorphic evaluation.",
+            "aminer_id": "5ce3af9cced107d4c65f6c52"
+        },
+        "libert2008unidirectional": {
+            "number": "[65]",
+            "title": "Unidirectional Chosen-Ciphertext Secure Proxy Re-Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Libert and Vergnaud}{Libert and Vergnaud}{2008}]% {libert2008unidirectional} \\bibfield{author}{\\bibinfo{person}{Beno{\\^\\i}t Libert} {and} \\bibinfo{person}{Damien Vergnaud}.} \\bibinfo{year}{2008}\\natexlab{}. \\newblock \\showarticletitle{Unidirectional chosen-ciphertext secure proxy re-encryption}. In \\bibinfo{booktitle}{\\emph{International Workshop on Public Key Cryptography}}. Springer, \\bibinfo{pages}{360--379}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In 1998, Blaze, Bleumer, and Strauss proposed a cryptographic primitive called proxy re-encryption, in which a proxy transforms - without seeing the corresponding plaintext - a ciphertext computed under Alice's public key into one that can be opened using Bob's secret key. Recently, an appropriate definition of chosen-ciphertext security and a construction fitting this model were put forth by Canetti and Hohenberger. Their system is bidirectional: the information released to divert ciphertexts from Alice to Bob can also be used to translate ciphertexts in the opposite direction. In this paper, we present the first construction of unidirectional proxy re-encryption scheme with chosen-ciphertext security in the standard model (i.e. without relying on the random oracle idealization), which solves a problem left open at CCS'07. Our construction is efficient and requires a reasonable complexity assumption in bilinear map groups. Like the Canetti-Hohenberger scheme, it ensures security according to a relaxed definition of chosen-ciphertext introduced by Canetti, Krawczyk and Nielsen.",
+            "aminer_id": "5390aa0f20f70186a0ea8bf9"
+        },
+        "lindell2009secure": {
+            "number": "[66]",
+            "title": "Secure multiparty computation for privacy-preserving data mining",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Lindell and Pinkas}{Lindell and Pinkas}{2009}]% {lindell2009secure} \\bibfield{author}{\\bibinfo{person}{Yehuda Lindell} {and} \\bibinfo{person}{Benny Pinkas}.} \\bibinfo{year}{2009}\\natexlab{}. \\newblock \\showarticletitle{Secure multiparty computation for privacy-preserving data mining}. \\newblock \\bibinfo{journal}{\\emph{Journal of Privacy and Confidentiality}} \\bibinfo{volume}{1}, \\bibinfo{number}{1} (\\bibinfo{year}{2009}), \\bibinfo{pages}{5}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "64b69f2e3fda6d7f06d6eeff"
+        },
+        "lopez2012fly": {
+            "number": "[67]",
+            "title": "On-The-Fly Multiparty Computation on the Cloud Via Multikey Fully Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{L{\\'o}pez-Alt, Tromer, and Vaikuntanathan}{L{\\'o}pez-Alt et~al\\mbox{.}}{2012}]% {lopez2012fly} \\bibfield{author}{\\bibinfo{person}{Adriana L{\\'o}pez-Alt}, \\bibinfo{person}{Eran Tromer}, {and} \\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2012}\\natexlab{}. \\newblock \\showarticletitle{On-the-fly multiparty computation on the cloud via multikey fully homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{Proceedings of the forty-fourth annual ACM symposium on Theory of computing}}. ACM, \\bibinfo{pages}{1219--1234}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "We propose a new notion of secure multiparty computation aided by a computationally-powerful but untrusted \"cloud\" server. In this notion that we call on-the-fly multiparty computation (MPC), the cloud can non-interactively perform arbitrary, dynamically chosen computations on data belonging to arbitrary sets of users chosen on-the-fly. All user's input data and intermediate results are protected from snooping by the cloud as well as other users. This extends the standard notion of fully homomorphic encryption (FHE), where users can only enlist the cloud's help in evaluating functions on their own encrypted data.In on-the-fly MPC, each user is involved only when initially uploading his (encrypted) data to the cloud, and in a final output decryption phase when outputs are revealed; the complexity of both is independent of the function being computed and the total number of users in the system. When users upload their data, they need not decide in advance which function will be computed, nor who they will compute with; they need only retroactively approve the eventually-chosen functions and on whose data the functions were evaluated.This notion is qualitatively the best possible in minimizing interaction, since the users' interaction in the decryption stage is inevitable: we show that removing it would imply generic program obfuscation and is thus impossible.Our contributions are two-fold:1. We show how on-the-fly MPC can be achieved using a new type of encryption scheme that we call multikey FHE, which is capable of operating on inputs encrypted under multiple, unrelated keys. A ciphertext resulting from a multikey evaluation can be jointly decrypted using the secret keys of all the users involved in the computation.2. We construct a multikey FHE scheme based on NTRU, a very efficient public-key encryption scheme proposed in the 1990s. It was previously not known how to make NTRU fully homomorphic even for a single party. We view the construction of (multikey) FHE from NTRU encryption as a main contribution of independent interest. Although the transformation to a fully homomorphic system deteriorates the efficiency of NTRU somewhat, we believe that this system is a leading candidate for a practical FHE scheme.",
+            "aminer_id": "5390b56a20f70186a0f04a97"
+        },
+        "lyubashevsky2010ideal": {
+            "number": "[68]",
+            "title": "On Ideal Lattices and Learning with Errors over Rings",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Lyubashevsky, Peikert, and Regev}{Lyubashevsky et~al\\mbox{.}}{2010}]% {lyubashevsky2010ideal} \\bibfield{author}{\\bibinfo{person}{Vadim Lyubashevsky}, \\bibinfo{person}{Chris Peikert}, {and} \\bibinfo{person}{Oded Regev}.} \\bibinfo{year}{2010}\\natexlab{}. \\newblock \\showarticletitle{On ideal lattices and learning with errors over rings}. In \\bibinfo{booktitle}{\\emph{Advances in Cryptology -- EUROCRYPT}}. Springer, \\bibinfo{pages}{1--23}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The “learning with errors” (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives). We resolve this question in the affirmative by introducing an algebraic variant of LWE called ring-LWE , and proving that it too enjoys very strong hardness guarantees. Specifically, we show that the ring-LWE distribution is pseudorandom, assuming that worst-case problems on ideal lattices are hard for polynomial-time quantum algorithms. Applications include the first truly practical lattice-based public-key cryptosystem with an efficient security reduction; moreover, many of the other applications of LWE can be made much more efficient through the use of ring-LWE.",
+            "aminer_id": "5390b44620f70186a0ef98da"
+        },
+        "lyubashevsky2013ideal": {
+            "number": "[69]",
+            "title": "On Ideal Lattices and Learning with Errors over Rings",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Lyubashevsky, Peikert, and Regev}{Lyubashevsky et~al\\mbox{.}}{2013}]% {lyubashevsky2013ideal} \\bibfield{author}{\\bibinfo{person}{Vadim Lyubashevsky}, \\bibinfo{person}{Chris Peikert}, {and} \\bibinfo{person}{Oded Regev}.} \\bibinfo{year}{2013}\\natexlab{}. \\newblock \\showarticletitle{On ideal lattices and learning with errors over rings}. \\newblock \\bibinfo{journal}{\\emph{Journal of the ACM (JACM)}} \\bibinfo{volume}{60}, \\bibinfo{number}{6} (\\bibinfo{year}{2013}), \\bibinfo{pages}{43}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The “learning with errors” (LWE) problem is to distinguish random linear equations, which have been perturbed by a small amount of noise, from truly uniform ones. The problem has been shown to be as hard as worst-case lattice problems, and in recent years it has served as the foundation for a plethora of cryptographic applications. Unfortunately, these applications are rather inefficient due to an inherent quadratic overhead in the use of LWE. A main open question was whether LWE and its applications could be made truly efficient by exploiting extra algebraic structure, as was done for lattice-based hash functions (and related primitives). We resolve this question in the affirmative by introducing an algebraic variant of LWE called ring-LWE , and proving that it too enjoys very strong hardness guarantees. Specifically, we show that the ring-LWE distribution is pseudorandom, assuming that worst-case problems on ideal lattices are hard for polynomial-time quantum algorithms. Applications include the first truly practical lattice-based public-key cryptosystem with an efficient security reduction; moreover, many of the other applications of LWE can be made much more efficient through the use of ring-LWE.",
+            "aminer_id": "5390b44620f70186a0ef98da"
+        },
+        "martins2017Survey": {
+            "number": "[70]",
+            "title": "A Survey on Fully Homomorphic Encryption: An Engineering Perspective",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Martins, Sousa, and Mariano}{Martins et~al\\mbox{.}}{2017}]% {martins2017Survey} \\bibfield{author}{\\bibinfo{person}{Paulo Martins}, \\bibinfo{person}{Leonel Sousa}, {and} \\bibinfo{person}{Artur Mariano}.} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{A Survey on Fully Homomorphic Encryption: An Engineering Perspective}. \\newblock \\bibinfo{journal}{\\emph{ACM Comput. Surv.}} \\bibinfo{volume}{50}, \\bibinfo{number}{6} (\\bibinfo{date}{Dec.} \\bibinfo{year}{2017}), \\bibinfo{pages}{83:1--83:33}. \\newblock \\urldef\\tempurl% \\url{http://doi.acm.org/10.1145/3124441} \\showURL{% \\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5a73cbc317c44a0b3035e795"
+        },
+        "mi2019secure": {
+            "number": "[71]",
+            "title": "A Secure Data Aggregation Protocol in VANETs Based on Multi-key FHE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Mi, Pan, Huang, Wei, and Wang}{Mi et~al\\mbox{.}}{2019}]% {mi2019secure} \\bibfield{author}{\\bibinfo{person}{Bo Mi}, \\bibinfo{person}{Hongyang Pan}, \\bibinfo{person}{Darong Huang}, \\bibinfo{person}{Tiancheng Wei}, {and} \\bibinfo{person}{Xingfeng Wang}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{A Secure Data Aggregation Protocol in VANETs Based on Multi-key FHE}. In \\bibinfo{booktitle}{\\emph{International Conference on Artificial Intelligence and Security}}. Springer, \\bibinfo{pages}{178--190}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "For sake of data aggregation in VANETs, a protocol is devised based on multi-key fully homomorphic encryption (MFHE). In order to introduce practical properties, such as scalability, into the proposed protocol, a dynamic topology is utilized to structure the very-basic framework. To address the problem of dynamic changes with respect to floating nodes, linear secret sharing scheme is applied to multi-key fully homomorphic encryption with threshold decryption, and then the partial sharing decryption is proposed. Performance analysis illustrated that the proposed scheme is feasible and the complexity expands. Under the universal composability frame, the proposed protocol is also proved to be semantically secure.",
+            "aminer_id": "5d352337275ded87f97810f7"
+        },
+        "cryptoeprint:2020:304": {
+            "number": "[72]",
+            "title": "Multiparty Homomorphic Encryption: From Theory to Practice",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Mouchet, Troncoso-Pastoriza, and Hubaux}{Mouchet et~al\\mbox{.}}{2020}]% {cryptoeprint:2020:304} \\bibfield{author}{\\bibinfo{person}{Christian Mouchet}, \\bibinfo{person}{Juan Troncoso-Pastoriza}, {and} \\bibinfo{person}{Jean-Pierre Hubaux}.} \\bibinfo{year}{2020}\\natexlab{}. \\newblock \\bibinfo{title}{Multiparty Homomorphic Encryption: From Theory to Practice}. \\newblock \\bibinfo{howpublished}{Cryptology ePrint Archive, Report 2020/304}. \\newblock \\newblock \\shownote{\\url{https://eprint.iacr.org/2020/304}.}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5e8d926b9fced0a24b5efe3d"
+        },
+        "mukherjee2016two": {
+            "number": "[73]",
+            "title": "Two round multiparty computation via multi-key FHE",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Mukherjee and Wichs}{Mukherjee and Wichs}{2016}]% {mukherjee2016two} \\bibfield{author}{\\bibinfo{person}{Pratyay Mukherjee} {and} \\bibinfo{person}{Daniel Wichs}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Two round multiparty computation via multi-key FHE}. In \\bibinfo{booktitle}{\\emph{Annual International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{735--763}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5736979b6e3b12023e680d96"
+        },
+        "naehrig2011can": {
+            "number": "[74]",
+            "title": "Can homomorphic encryption be practical?",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Naehrig, Lauter, and Vaikuntanathan}{Naehrig et~al\\mbox{.}}{2011}]% {naehrig2011can} \\bibfield{author}{\\bibinfo{person}{Michael Naehrig}, \\bibinfo{person}{Kristin Lauter}, {and} \\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2011}\\natexlab{}. \\newblock \\showarticletitle{Can homomorphic encryption be practical?}. In \\bibinfo{booktitle}{\\emph{ACM workshop on Cloud Computing Security Workshop}}. \\bibinfo{pages}{113--124}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390b19020f70186a0ee043a"
+        },
+        "paillier1999public": {
+            "number": "[75]",
+            "title": "Public-Key Cryptosystems Based on Composite Degree Residuosity Classes",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Paillier}{Paillier}{1999}]% {paillier1999public} \\bibfield{author}{\\bibinfo{person}{Pascal Paillier}.} \\bibinfo{year}{1999}\\natexlab{}. \\newblock \\showarticletitle{Public-key cryptosystems based on composite degree residuosity classes}. In \\bibinfo{booktitle}{\\emph{Advances in Cryptology -- EUROCRYPT}}. Springer, \\bibinfo{pages}{223--238}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "This paper investigates a novel computational problem, namely the Composite Residuosity Class Problem, and its applications to public-key cryptography. We propose a new trapdoor mechanism and derive from this technique three encryption schemes: a trapdoor permutation and two homomorphic probabilistic encryption schemes computationally comparable to RSA. Our cryptosystems, based on usual modular arithmetics, are provably secure under appropriate assumptions in the standard model.",
+            "aminer_id": "5390a93b20f70186a0ea11a3"
+        },
+        "pass2005unconditional": {
+            "number": "[76]",
+            "title": "Unconditional Characterizations of Non-Interactive Zero-Knowledge",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Pass et~al\\mbox{.}}{Pass et~al\\mbox{.}}{2005}]% {pass2005unconditional} \\bibfield{author}{\\bibinfo{person}{Rafael Pass} {et~al\\mbox{.}}} \\bibinfo{year}{2005}\\natexlab{}. \\newblock \\showarticletitle{Unconditional characterizations of non-interactive zero-knowledge}. In \\bibinfo{booktitle}{\\emph{Annual International Cryptology Conference}}. Springer, \\bibinfo{pages}{118--134}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Non-interactive zero-knowledge (NIZK) proofs have been investigated in two models: the Public Parameter model and the Secret Parameter model. In the former, a public string is “ideally” chosen according to some efficiently samplable distribution and made available to both the Prover and Verifier. In the latter, the parties instead obtain correlated (possibly different) private strings. To add further choice, the definition of zero-knowledge in these settings can either be non-adaptive or adaptive. In this paper, we obtain several unconditional characterizations of computational, statistical and perfect NIZK for all combinations of these settings. Specifically, we show: In the secret parameter model, NIZK = NISZK = NIPZK = AM. In the public parameter model, – for the non-adaptive definition, NISZK ⊆ AM ∩ coAM, – for the adaptive one, it also holds that NISZK ⊂ BPP, – for computational NIZK for “hard” languages, one-way functions are both necessary and sufficient. From our last result, we arrive at the following unconditional characterization of computational NIZK in the public parameter model (which complements well-known results for interactive zero-knowledge): Either NIZK proofs exist only for “easy” languages (i.e., languages that are not hard-on-average), or they exist for all of AM (i.e., all languages which admit non-interactive proofs).",
+            "aminer_id": "5390b3da20f70186a0ef74bb"
+        },
+        "pedersen1991threshold": {
+            "number": "[77]",
+            "title": "A Threshold Cryptosystem Without a Trusted Party",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Pedersen}{Pedersen}{1991}]% {pedersen1991threshold} \\bibfield{author}{\\bibinfo{person}{Torben~Pryds Pedersen}.} \\bibinfo{year}{1991}\\natexlab{}. \\newblock \\showarticletitle{A threshold cryptosystem without a trusted party}. In \\bibinfo{booktitle}{\\emph{Workshop on the Theory and Application of of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{522--526}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In a threshold cryptosystem n members share the secret key of an organization such that k members (1 ≤ k ≤ n ) must cooperate in order to decipher a given ciphertext. In this note it is shown how to implement such a scheme without having a trusted party, which selects the secret key and distributes it to the members. In stead, the members choose the secret key and distributes it verifiably among themselves. Subsequently, this key can be used for authentication as well as secret communication.",
+            "aminer_id": "5390a93b20f70186a0ea0e3d"
+        },
+        "peikert2016multi": {
+            "number": "[78]",
+            "title": "Multi-key FHE from LWE, Revisited",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Peikert and Shiehian}{Peikert and Shiehian}{2016}]% {peikert2016multi} \\bibfield{author}{\\bibinfo{person}{Chris Peikert} {and} \\bibinfo{person}{Sina Shiehian}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Multi-key FHE from LWE, revisited}. In \\bibinfo{booktitle}{\\emph{Theory of Cryptography Conference}}. Springer, \\bibinfo{pages}{217--238}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Traditional fully homomorphic encryption (FHE) schemes only allow computation on data encrypted under a single key. Lopez-Alt, Tromer, and Vaikuntanathan (STOC 2012) proposed the notion of multi-key FHE, which allows homomorphic computation on ciphertexts encrypted under different keys, and also gave a construction based on a (somewhat nonstandard) assumption related to NTRU. More recently, Clear and McGoldrick (CRYPTO 2015), followed by Mukherjee and Wichs (EUROCRYPT 2016), proposed a multi-key FHE that builds upon the LWE-based FHE of Gentry, Sahai, and Waters (CRYPTO 2013). However, unlike the original construction of Lopez-Alt et al., these later LWE-based schemes have the somewhat undesirable property of being \"single-hop for keys:\" all relevant keys must be known at the start of the homomorphic computation, and the output cannot be usefully combined with ciphertexts encrypted under other keys (unless an expensive \"bootstrapping\" step is performed).In this work we construct two multi-key FHE schemes, based on LWE assumptions, which are multi-hop for keys: the output of a homomorphic computation on ciphertexts encrypted under a set of keys can be used in further homomorphic computation involving additional keys, and so on. Moreover, incorporating ciphertexts associated with new keys is a relatively efficient \"native\" operation akin to homomorphic multiplication, and does not require bootstrapping (in contrast with all other LWE-based solutions). Our systems also have smaller ciphertexts than the previous LWE-based ones; in fact, ciphertexts in our second construction are simply GSW ciphertexts with no auxiliary data.",
+            "aminer_id": "5736956d6e3b12023e491a7c"
+        },
+        "pirretti2010secure": {
+            "number": "[79]",
+            "title": "Secure Attribute-Based Systems",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Pirretti, Traynor, McDaniel, and Waters}{Pirretti et~al\\mbox{.}}{2010}]% {pirretti2010secure} \\bibfield{author}{\\bibinfo{person}{Matthew Pirretti}, \\bibinfo{person}{Patrick Traynor}, \\bibinfo{person}{Patrick McDaniel}, {and} \\bibinfo{person}{Brent Waters}.} \\bibinfo{year}{2010}\\natexlab{}. \\newblock \\showarticletitle{Secure attribute-based systems}. \\newblock \\bibinfo{journal}{\\emph{Journal of Computer Security}} \\bibinfo{volume}{18}, \\bibinfo{number}{5} (\\bibinfo{year}{2010}), \\bibinfo{pages}{799--837}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Attributes define, classify, or annotate the datum to which they are assigned. However, traditional attribute architectures and cryptosystems are ill-equipped to provide security in the face of diverse access requirements and environments. In this paper, we introduce a novel secure information management architecture based on emerging attribute-based encryption (ABE) primitives. A policy system that meets the needs of complex policies is defined and illustrated. Based on the needs of those policies, we propose cryptographic optimizations that vastly improve enforcement efficiency. We further explore the use of such policies in two proposed applications: a HIPAA compliant distributed file system and a social network. A performance analysis and characterization of ABE primitives demonstrates the ability to reduce cryptographic costs by as much as 98% over previously proposed constructions. Through this, we demonstrate that our attribute system is an efficient solution for securely managing information in large, loosely-coupled, distributed systems.",
+            "aminer_id": "53909a0220f70186a0e1fa67"
+        },
+        "rabin1998simplified": {
+            "number": "[80]",
+            "title": "A simplified approach to threshold and proactive RSA",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Rabin}{Rabin}{1998}]% {rabin1998simplified} \\bibfield{author}{\\bibinfo{person}{Tal Rabin}.} \\bibinfo{year}{1998}\\natexlab{}. \\newblock \\showarticletitle{A simplified approach to threshold and proactive RSA}. In \\bibinfo{booktitle}{\\emph{Annual International Cryptology Conference}}. Springer, \\bibinfo{pages}{89--104}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53908adf20f70186a0dacd77"
+        },
+        "raisaro2018m": {
+            "number": "[81]",
+            "title": "M ed C o: Enabling Secure and Privacy-Preserving Exploration of Distributed Clinical and Genomic Data",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Raisaro, Troncoso-Pastoriza, Misbach, Sousa, Pradervand, Missiaglia, Michielin, Ford, and Hubaux}{Raisaro et~al\\mbox{.}}{2018}]% {raisaro2018m} \\bibfield{author}{\\bibinfo{person}{Jean~Louis Raisaro}, \\bibinfo{person}{Juan~Ram{\\'o}n Troncoso-Pastoriza}, \\bibinfo{person}{Micka{\\\"e}l Misbach}, \\bibinfo{person}{Jo{\\~a}o~S{\\'a} Sousa}, \\bibinfo{person}{Sylvain Pradervand}, \\bibinfo{person}{Edoardo Missiaglia}, \\bibinfo{person}{Olivier Michielin}, \\bibinfo{person}{Bryan Ford}, {and} \\bibinfo{person}{Jean-Pierre Hubaux}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{M ed C o: Enabling Secure and Privacy-Preserving Exploration of Distributed Clinical and Genomic Data}. \\newblock \\bibinfo{journal}{\\emph{IEEE/ACM transactions on computational biology and bioinformatics}} \\bibinfo{volume}{16}, \\bibinfo{number}{4} (\\bibinfo{year}{2018}), \\bibinfo{pages}{1328--1341}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "regev2009lattices": {
+            "number": "[82]",
+            "title": "On Lattices, Learning with Errors, Random Linear Codes, and Cryptography",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Regev}{Regev}{2009}]% {regev2009lattices} \\bibfield{author}{\\bibinfo{person}{Oded Regev}.} \\bibinfo{year}{2009}\\natexlab{}. \\newblock \\showarticletitle{On lattices, learning with errors, random linear codes, and cryptography}. \\newblock \\bibinfo{journal}{\\emph{Journal of the ACM (JACM)}} \\bibinfo{volume}{56}, \\bibinfo{number}{6} (\\bibinfo{year}{2009}), \\bibinfo{pages}{34}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Our main result is a reduction from worst-case lattice problems such asGapSVP and SIVP to a certain learning problem. This learning problem is anatural extension of the `learning from parity with error' problem to highermoduli. It can also be viewed as the problem of decoding from a random linearcode. This, we believe, gives a strong indication that these problems are hard.Our reduction, however, is quantum. Hence, an efficient solution to thelearning problem implies a quantum algorithm for GapSVP and SIVP. A main openquestion is whether this reduction can be made classical (i.e., non-quantum).  We also present a (classical) public-key cryptosystem whose security is basedon the hardness of the learning problem. By the main result, its security isalso based on the worst-case quantum hardness of GapSVP and SIVP. The newcryptosystem is much more efficient than previous lattice-based cryptosystems:the public key is of size Õ(n^2) and encrypting a message increasesits size by a factor of Õ(n) (in previous cryptosystems these valuesare Õ(n^4) and Õ(n^2), respectively). In fact, under theassumption that all parties share a random bit string of lengthÕ(n^2), the size of the public key can be reduced to Õ(n).",
+            "aminer_id": "5390981d20f70186a0e0597a"
+        },
+        "sahai2005fuzzy": {
+            "number": "[83]",
+            "title": "Fuzzy identity-based encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Sahai and Waters}{Sahai and Waters}{2005}]% {sahai2005fuzzy} \\bibfield{author}{\\bibinfo{person}{Amit Sahai} {and} \\bibinfo{person}{Brent Waters}.} \\bibinfo{year}{2005}\\natexlab{}. \\newblock \\showarticletitle{Fuzzy identity-based encryption}. In \\bibinfo{booktitle}{\\emph{Annual International Conference on the Theory and Applications of Cryptographic Techniques}}. Springer, \\bibinfo{pages}{457--473}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "schneier2007applied": {
+            "number": "[84]",
+            "title": "Applied Cryptography: Protocols, Algorithms, and Source Code in C",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Schneier}{Schneier}{2007}]% {schneier2007applied} \\bibfield{author}{\\bibinfo{person}{Bruce Schneier}.} \\bibinfo{year}{2007}\\natexlab{}. \\newblock \\bibinfo{booktitle}{\\emph{Applied cryptography: protocols, algorithms, and source code in C}}. \\newblock \\bibinfo{publisher}{john wiley \\& sons}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "From the Book:By Whitfield Diffie The literature of cryptography has a curious history. Secrecy, of course, has always played a central role, but until the First World War, important developments appeared in print in a more or less timely fashion and the field moved forward in much the same way as other specialized disciplines. As late as 1918, one of the most influential cryptanalytic papers of the 20th century, William F. Friedman's monograph The Index of Coincidence and its Applications in Cryptography, appeared as a research report of the private Riverbank Laboratories. And this, despite the fact that the work had been done as part of the war effort. In the same year Edward H. Hebern of Oakland, California filed the first patent for a rotor machine, the device destined to be a mainstay of military cryptography for nearly fifty years. After the First World War, however, things began to change. U.S. Army and Navy organizations, working entirely in secret, began to make fundamental advances in cryptography. During the thirties and forties a few basic papers did appear in the open literature and several treatises on the subject were published, but the latter were farther and farther behind the state of the art. By the end of the war the transition was complete. With one notable exception, the public literature had died. That exception was Claude Shannon's paper \"The Communication Theory of Secrecy Systems,\" which appeared in the Bell System Technical Journal in 1949. It was similar to Friedman's 1918 paper, in that it grew out of wartime work of Shannon's. After the Second World War ended it was declassified, possibly by mistake. From 1949 until 1967the cryptographic literature was barren. In that year a different sort of contribution appeared: David Kahn's history, The Codebreakers. It didn't contain any new technical ideas, but it did contain a remarkably complete history of what had gone before, including mention of some things that the government still considered secret. The significance of The Codebreakers lay not just in its remarkable scope, but also in the fact that it enjoyed good sales and made tens of thousands of people, who had never given the matter a moment's thought, aware of cryptography. A trickle of new cryptographic papers began to be written. At about the same time, Horst Feistel, who had earlier worked on identification friend or foe devices for the Air Force, took his lifelong passion for cryptography to the IBM Watson Laboratory in Yorktown Heights, New York. There, he begin development of what was to become the U.S. Data Encryption Standard and by the early 1970s several technical reports on this subject by Feistel and his colleagues had been made public by IBM. This was the situation when I entered the field in late 1972. The cryptographic literature wasn't abundant, but what there was included some very shiny nuggets. Cryptology presents a difficulty not found in normal academic disciplines: the need for the proper interaction of cryptography and cryptanalysis. This arises out of the fact that in the absence of real communications requirements, it is easy to propose a system that appears unbreakable. Many academic designs are so complex that the would-be cryptanalyst doesn't know where to start; exposing flaws in these designs is far harder than designing them in the first place. The result is that the competitive process, which is one strong motivation in academic research, cannot take hold. When Martin Hellman and I proposed public-key cryptography in 1975, one of the indirect aspects of our contribution was to introduce a problem that does not even appear easy to solve. Now an aspiring cryptosystem designer could produce something that would be recognized as clever--something that did more than just turn meaningful text into nonsense. The result has been a spectacular increase in the number of people working in cryptography, the number of meetings held, and the number of books and papers published. In my acceptance speech for the Donald E. Fink award--given for the best expository paper to appear in an IEEE journal--which I received jointly with Hellman in 1980, I told the audience that in writing \"Privacy and Authentication,\" I had an experience that I suspected was rare even among the prominent scholars who populate the IEEE awards ceremony: I had written the paper I had wanted to study, but could not find, when I first became seriously interested in cryptography. Had I been able to go to the Stanford bookstore and pick up a modern cryptography text, I would probably have learned about the field years earlier. But the only things available in the fall of 1972 were a few classic papers and some obscure technical reports. The contemporary researcher has no such problem. The problem now is choosing where to start among the thousands of papers and dozens of books. The contemporary researcher, yes, but what about the contemporary programmer or engineer who merely wants to use cryptography? Where does that person turn? Until now, it has been necessary to spend long hours hunting out and then studying the research literature before being able to design the sort of cryptographic utilities glibly described in popular articles. This is the gap that Bruce Schneier's Applied Cryptography has come to fill. Beginning with the objectives of communication security and elementary examples of programs used to achieve these objectives, Schneier gives us a panoramic view of the fruits of 20 years of public research. The title says it all; from the mundane objective of having a secure conversation the very first time you call someone to the possibilities of digital money and cryptographically secure elections, this is where you'll find it. Not satisfied that the book was about the real world merely because it went all the way down to the code, Schneier has included an account of the world in which cryptography is developed and applied, and discusses entities ranging from the International Association for Cryptologic Research to the NSA. When public interest in cryptography was just emerging in the late seventies and early eighties, the National Security Agency (NSA), America's official cryptographic organ, made several attempts to quash it. The first was a letter from a long-time NSA employee allegedly, avowedly, and apparently acting on his own. The letter was sent to the IEEE and warned that the publication of cryptographic material was a violation of the International Traffic in Arms Regulations (ITAR). This viewpoint turned out not even to be supported by the regulations themselves--which contained an explicit exemption for published material--but gave both the public practice of cryptography and the 1977 Information Theory Workshop lots of unexpected publicity. A more serious attempt occurred in 1980, when NSA funded the American Council on Education to examine the issue with a view to persuading Congress to give it legal control of publications in the field of cryptography. The results fell far short of NSA's ambitions and resulted in a program of voluntary review of cryptographic papers; researchers were requested to ask the NSA's opinion on whether disclosure of results would adversely affect the national interest before publication. As the eighties progressed, pressure focused more on the practice than the study of cryptography. Existing laws gave the NSA the power, through the Department of State, to regulate the export of cryptographic equipment. As business became more and more international and the American fraction of the world market declined, the pressure to have a single product in both domestic and offshore markets increased. Such single products were subject to export control and thus the NSA acquired substantial influence not only over what was exported, but over what was sold in the United States. As this is written, a new challenge confronts the public practice of cryptography. The government proposes to replace the widely published and available Data Encryption Standard, with a secret algorithm implemented in tamper-resistant chips. These chips will incorporate a codified mechanism of government monitoring. The negative aspects of this proposal range from potentially disastrous impact on personal privacy to the high cost of having to add hardware to products that had previously encrypted in software. It has attracted widespread negative comment, especially from the independent cryptographers. Some people, however, see more future in programming than politicking and have redoubled their efforts to provide the world with strong cryptography that is accessible to public scrutiny. A sharp step back from the notion that export control law could supersede the First Amendment seemed to have been taken in 1980 when the Federal Register announcement of a revision to ITAR included the statement: \"... provision has been added to make it clear that the regulation of the export of technical data does not purport to interfere with the First Amendment rights of individuals.\" But that tension between the First Amendment and the export control laws has not gone away, should be evident from statements at a recent conference held by RSA Data Security. NSA's representative from the export control office expressed the opinion that people who published cryptographic programs were \"in a grey area\" with respect to the law. If that is so, it is a grey area on which this book can be expected to shed some light. The shift in the NSA's strategy, from attempting to control cryptographic research to tightening its grip on the development and deployment of cryptographic products, is presumably due to its realization that all the great cryptographic papers in the world do not protect a single bit of traffic. Sitting on the shelf, this volume may be able do no better than the books and papers that preceded it, but sitting next to a workstation, where a programmer is writing cryptographic code, it just may. Whitfield Diffie Mountain View, CA",
+            "aminer_id": "539087cf20f70186a0d5b766"
+        },
+        "Schoenmakers2011": {
+            "number": "[85]",
+            "title": "Threshold Homomorphic Cryptosystems",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Schoenmakers}{Schoenmakers}{2011}]% {Schoenmakers2011} \\bibfield{author}{\\bibinfo{person}{Berry Schoenmakers}.} \\bibinfo{year}{2011}\\natexlab{}. \\newblock \\bibinfo{booktitle}{\\emph{Threshold Homomorphic Cryptosystems}}. \\newblock \\bibinfo{publisher}{Springer US}, \\bibinfo{address}{Boston, MA}, \\bibinfo{pages}{1293--1294}. \\newblock \\urldef\\tempurl% \\url{https://doi.org/10.1007/978-1-4419-5906-5_13} \\showURL{% \\tempurl}",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99858b7602d970208f9ed"
+        },
+        "shamir1979share": {
+            "number": "[86]",
+            "title": "How to Share a Secret",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Shamir}{Shamir}{1979}]% {shamir1979share} \\bibfield{author}{\\bibinfo{person}{Adi Shamir}.} \\bibinfo{year}{1979}\\natexlab{}. \\newblock \\showarticletitle{How to share a secret}. \\newblock \\bibinfo{journal}{\\emph{Commun. ACM}} \\bibinfo{volume}{22}, \\bibinfo{number}{11} (\\bibinfo{year}{1979}), \\bibinfo{pages}{612--613}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In this paper we show how to divide data D into n pieces in such a way that D is easily reconstructable from any k pieces, but even complete knowledge of k - 1 pieces reveals absolutely no information about D . This technique enables the construction of robust key management schemes for cryptographic systems that can function securely and reliably even when misfortunes destroy half the pieces and security breaches expose all but one of the remaining pieces.",
+            "aminer_id": "5390880720f70186a0d7abe6"
+        },
+        "shamir1984identity": {
+            "number": "[87]",
+            "title": "Identity-based cryptosystems and signature schemes",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Shamir}{Shamir}{1984}]% {shamir1984identity} \\bibfield{author}{\\bibinfo{person}{Adi Shamir}.} \\bibinfo{year}{1984}\\natexlab{}. \\newblock \\showarticletitle{Identity-based cryptosystems and signature schemes}. In \\bibinfo{booktitle}{\\emph{Workshop on the theory and application of cryptographic techniques}}. Springer, \\bibinfo{pages}{47--53}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390877f20f70186a0d3068e"
+        },
+        "shan2018practical": {
+            "number": "[88]",
+            "title": "Practical Secure Computation Outsourcing: A Survey",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Shan, Ren, Blanton, and Wang}{Shan et~al\\mbox{.}}{2018}]% {shan2018practical} \\bibfield{author}{\\bibinfo{person}{Zihao Shan}, \\bibinfo{person}{Kui Ren}, \\bibinfo{person}{Marina Blanton}, {and} \\bibinfo{person}{Cong Wang}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{Practical Secure Computation Outsourcing: A Survey}. \\newblock \\bibinfo{journal}{\\emph{ACM Computing Surveys (CSUR)}} \\bibinfo{volume}{51}, \\bibinfo{number}{2} (\\bibinfo{year}{2018}), \\bibinfo{pages}{31}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The rapid development of cloud computing promotes a wide deployment of data and computation outsourcing to cloud service providers by resource-limited entities. Based on a pay-per-use model, a client without enough computational power can easily outsource large-scale computational tasks to a cloud. Nonetheless, the issue of security and privacy becomes a major concern when the customer’s sensitive or confidential data is not processed in a fully trusted cloud environment. Recently, a number of publications have been proposed to investigate and design specific secure outsourcing schemes for different computational tasks. The aim of this survey is to systemize and present the cutting-edge technologies in this area. It starts by presenting security threats and requirements, followed with other factors that should be considered when constructing secure computation outsourcing schemes. In an organized way, we then dwell on the existing secure outsourcing solutions to different computational tasks such as matrix computations, mathematical optimization, and so on, treating data confidentiality as well as computation integrity. Finally, we provide a discussion of the literature and a list of open challenges in the area.",
+            "aminer_id": "5b3d98c717c44a510f801291"
+        },
+        "shao2009cca": {
+            "number": "[89]",
+            "title": "CCA-Secure Proxy Re-encryption Without Pairings",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Shao and Cao}{Shao and Cao}{2009}]% {shao2009cca} \\bibfield{author}{\\bibinfo{person}{Jun Shao} {and} \\bibinfo{person}{Zhenfu Cao}.} \\bibinfo{year}{2009}\\natexlab{}. \\newblock \\showarticletitle{CCA-secure proxy re-encryption without pairings}. In \\bibinfo{booktitle}{\\emph{International Workshop on Public Key Cryptography}}. Springer, \\bibinfo{pages}{357--376}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In a proxy re-encryption scheme, a semi-trusted proxy can transform a ciphertext under Alice’s public key into another ciphertext that Bob can decrypt. However, the proxy cannot access the plaintext. Due to its transformation property, proxy re-encryption can be used in many applications, such as encrypted email forwarding. In this paper, by using signature of knowledge and Fijisaki-Okamoto conversion, we propose a proxy re-encryption scheme without pairings, in which the proxy can only transform the ciphertext in one direction. The proposal is secure against chosen ciphertext attack (CCA) and collusion attack in the random oracle model based on Decisional Diffie-Hellman (DDH) assumption over $\\mathbb{Z}_{N^2}^*$ and integer factorization assumption, respectively. To the best of our knowledge, it is the first unidirectional PRE scheme with CCA security and collusion-resistance.",
+            "aminer_id": "5390a40520f70186a0e6f632"
+        },
+        "shoup2002securing": {
+            "number": "[90]",
+            "title": "Securing Threshold Cryptosystems Against Chosen Ciphertext Attack",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Shoup and Gennaro}{Shoup and Gennaro}{2002}]% {shoup2002securing} \\bibfield{author}{\\bibinfo{person}{Victor Shoup} {and} \\bibinfo{person}{Rosario Gennaro}.} \\bibinfo{year}{2002}\\natexlab{}. \\newblock \\showarticletitle{Securing threshold cryptosystems against chosen ciphertext attack}. \\newblock \\bibinfo{journal}{\\emph{Journal of Cryptology}} \\bibinfo{volume}{15}, \\bibinfo{number}{2} (\\bibinfo{year}{2002}), \\bibinfo{pages}{75--96}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "For the most compelling applications of threshold cryptosystems, security against chosen cipher text attack is a requirement. However, prior to the results presented here, there appeared to be no practical threshold cryptosystems in the literature that were provably chosen ciphertext secure, even in the idealized random oracle model. The contribution of this paper is to present two very practical threshold cryptosystems, and to prove that they are secure against chosen ciphertext attack in the random oracle model. Not only are these protocols computationally very efficient, but they are also non-interactive, which means they can be easily run over an asynchronous communication network.",
+            "aminer_id": "53e9b641b7602d970419f7c9"
+        },
+        "smart2014fully": {
+            "number": "[91]",
+            "title": "Fully homomorphic SIMD operations",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Smart and Vercauteren}{Smart and Vercauteren}{2014}]% {smart2014fully} \\bibfield{author}{\\bibinfo{person}{Nigel~P Smart} {and} \\bibinfo{person}{Frederik Vercauteren}.} \\bibinfo{year}{2014}\\natexlab{}. \\newblock \\showarticletitle{Fully homomorphic SIMD operations}. \\newblock \\bibinfo{journal}{\\emph{Designs, codes and cryptography}} \\bibinfo{volume}{71}, \\bibinfo{number}{1} (\\bibinfo{year}{2014}), \\bibinfo{pages}{57--81}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "5390bfa220f70186a0f5373e"
+        },
+        "stallings2006cryptography": {
+            "number": "[92]",
+            "title": "Cryptography and network security: principles and practices",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Stallings}{Stallings}{2006}]% {stallings2006cryptography} \\bibfield{author}{\\bibinfo{person}{William Stallings}.} \\bibinfo{year}{2006}\\natexlab{}. \\newblock \\bibinfo{booktitle}{\\emph{Cryptography and network security: principles and practices}}. \\newblock \\bibinfo{publisher}{Pearson Education India}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": null
+        },
+        "stehle2010faster": {
+            "number": "[93]",
+            "title": "Faster fully homomorphic encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Stehl{\\'e} and Steinfeld}{Stehl{\\'e} and Steinfeld}{2010}]% {stehle2010faster} \\bibfield{author}{\\bibinfo{person}{Damien Stehl{\\'e}} {and} \\bibinfo{person}{Ron Steinfeld}.} \\bibinfo{year}{2010}\\natexlab{}. \\newblock \\showarticletitle{Faster fully homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{International Conference on the Theory and Application of Cryptology and Information Security}}. Springer, \\bibinfo{pages}{377--394}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "53e99a20b7602d97022783d7"
+        },
+        "tang2016ensuring": {
+            "number": "[94]",
+            "title": "Ensuring Security and Privacy Preservation for Cloud Data Services",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Tang, Cui, Li, Ren, Liu, and Buyya}{Tang et~al\\mbox{.}}{2016}]% {tang2016ensuring} \\bibfield{author}{\\bibinfo{person}{Jun Tang}, \\bibinfo{person}{Yong Cui}, \\bibinfo{person}{Qi Li}, \\bibinfo{person}{Kui Ren}, \\bibinfo{person}{Jiangchuan Liu}, {and} \\bibinfo{person}{Rajkumar Buyya}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Ensuring security and privacy preservation for cloud data services}. \\newblock \\bibinfo{journal}{\\emph{ACM Computing Surveys (CSUR)}} \\bibinfo{volume}{49}, \\bibinfo{number}{1} (\\bibinfo{year}{2016}), \\bibinfo{pages}{13}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "With the rapid development of cloud computing, more and more enterprises/individuals are starting to outsource local data to the cloud servers. However, under open networks and not fully trusted cloud environments, they face enormous security and privacy risks (e.g., data leakage or disclosure, data corruption or loss, and user privacy breach) when outsourcing their data to a public cloud or using their outsourced data. Recently, several studies were conducted to address these risks, and a series of solutions were proposed to enable data and privacy protection in untrusted cloud environments. To fully understand the advances and discover the research trends of this area, this survey summarizes and analyzes the state-of-the-art protection technologies. We first present security threats and requirements of an outsourcing data service to a cloud, and follow that with a high-level overview of the corresponding security technologies. We then dwell on existing protection solutions to achieve secure, dependable, and privacy-assured cloud data services including data search, data computation, data sharing, data storage, and data access. Finally, we propose open challenges and potential research directions in each category of solutions.",
+            "aminer_id": "599c7aad601a182cd26d40b7"
+        },
+        "vaikuntanathan2011computing": {
+            "number": "[95]",
+            "title": "Computing Blindfolded: New Developments in Fully Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Vaikuntanathan}{Vaikuntanathan}{2011}]% {vaikuntanathan2011computing} \\bibfield{author}{\\bibinfo{person}{Vinod Vaikuntanathan}.} \\bibinfo{year}{2011}\\natexlab{}. \\newblock \\showarticletitle{Computing blindfolded: New developments in fully homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{Foundations of Computer Science (FOCS), 2011 IEEE 52nd Annual Symposium on}}. \\bibinfo{pages}{5--16}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "A fully homomorphic encryption scheme enables computation of arbitrary functions on encrypted data. Fully homomorphic encryption has long been regarded as cryptography's prized \"holy grail\" - extremely useful yet rather elusive. Starting with the groundbreaking work of Gentry in 2009, the last three years have witnessed numerous constructions of fully homomorphic encryption involving novel mathematical techniques, and a number of exciting applications. We will take the reader through a journey of these developments and provide a glimpse of the exciting research directions that lie ahead.",
+            "aminer_id": "5390b24420f70186a0ee7f67"
+        },
+        "wang2013computing": {
+            "number": "[96]",
+            "title": "Computing Encrypted Cloud Data Efficiently under Multiple Keys",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Wang, Li, Chow, and Li}{Wang et~al\\mbox{.}}{2013}]% {wang2013computing} \\bibfield{author}{\\bibinfo{person}{Boyang Wang}, \\bibinfo{person}{Ming Li}, \\bibinfo{person}{Sherman~SM Chow}, {and} \\bibinfo{person}{Hui Li}.} \\bibinfo{year}{2013}\\natexlab{}. \\newblock \\showarticletitle{Computing encrypted cloud data efficiently under multiple keys}. In \\bibinfo{booktitle}{\\emph{2013 IEEE Conference on Communications and Network Security (CNS)}}. IEEE, \\bibinfo{pages}{504--513}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The emergence of cloud computing brings users abundant opportunities to utilize the power of cloud to perform computation on data contributed by multiple users. These cloud data should be encrypted under multiple keys due to privacy concerns. However, existing secure computation techniques are either limited to single key or still far from practical. In this paper, we design two efficient schemes for secure outsourced computation over cloud data encrypted under multiple keys. Our schemes employ two non-colluding cloud servers to jointly compute polynomial functions over multiple users' encrypted cloud data without learning the inputs, intermediate or final results, and require only minimal interactions between the two cloud servers but not the users. We demonstrate our schemes' efficiency experimentally via applications in machine learning. Our schemes are also applicable to privacy-preserving data aggregation such as in smart metering.",
+            "aminer_id": "5488e59d45ce147a86e50b73"
+        },
+        "wang2017community": {
+            "number": "[97]",
+            "title": "A Community Effort to Protect Genomic Data Sharing, Collaboration and Outsourcing",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Wang, Jiang, Tang, Wang, Bu, Carey, Dyke, Fox, Jiang, Lauter, et~al\\mbox{.}}{Wang et~al\\mbox{.}}{2017}]% {wang2017community} \\bibfield{author}{\\bibinfo{person}{Shuang Wang}, \\bibinfo{person}{Xiaoqian Jiang}, \\bibinfo{person}{Haixu Tang}, \\bibinfo{person}{Xiaofeng Wang}, \\bibinfo{person}{Diyue Bu}, \\bibinfo{person}{Knox Carey}, \\bibinfo{person}{Stephanie~OM Dyke}, \\bibinfo{person}{Dov Fox}, \\bibinfo{person}{Chao Jiang}, \\bibinfo{person}{Kristin Lauter}, {et~al\\mbox{.}}} \\bibinfo{year}{2017}\\natexlab{}. \\newblock \\showarticletitle{A community effort to protect genomic data sharing, collaboration and outsourcing}. \\newblock \\bibinfo{journal}{\\emph{NPJ genomic medicine}} \\bibinfo{volume}{2}, \\bibinfo{number}{1} (\\bibinfo{year}{2017}), \\bibinfo{pages}{1--6}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The human genome can reveal sensitive information and is potentially re-identifiable, which raises privacy and security concerns about sharing such data on wide scales. In 2016, we organized the third Critical Assessment of Data Privacy and Protection competition as a community effort to bring together biomedical informaticists, computer privacy and security researchers, and scholars in ethical, legal, and social implications (ELSI) to assess the latest advances on privacy-preserving techniques for protecting human genomic data. Teams were asked to develop novel protection methods for emerging genome privacy challenges in three scenarios: Track (1) data sharing through the Beacon service of the Global Alliance for Genomics and Health. Track (2) collaborative discovery of similar genomes between two institutions; and Track (3) data outsourcing to public cloud services. The latter two tracks represent continuing themes from our 2015 competition, while the former was new and a response to a recently established vulnerability. The winning strategy for Track 1 mitigated the privacy risk by hiding approximately 11% of the variation in the database while permitting around 160,000 queries, a significant improvement over the baseline. The winning strategies in Tracks 2 and 3 showed significant progress over the previous competition by achieving multiple orders of magnitude performance improvement in terms of computational runtime and memory requirements. The outcomes suggest that applying highly optimized privacy-preserving and secure computation techniques to safeguard genomic data sharing and analysis is useful. However, the results also indicate that further efforts are needed to refine these techniques into practical solutions.",
+            "aminer_id": "5c7571daf56def97987b1adb"
+        },
+        "wu2016privately": {
+            "number": "[98]",
+            "title": "Privately evaluating decision trees and random forests",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Wu, Feng, Naehrig, and Lauter}{Wu et~al\\mbox{.}}{2016}]% {wu2016privately} \\bibfield{author}{\\bibinfo{person}{David~J. Wu}, \\bibinfo{person}{Tony Feng}, \\bibinfo{person}{Michael Naehrig}, {and} \\bibinfo{person}{Kristin Lauter}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Privately evaluating decision trees and random forests}. \\newblock \\bibinfo{journal}{\\emph{Proceedings on Privacy Enhancing Technologies}} \\bibinfo{volume}{4} (\\bibinfo{year}{2016}), \\bibinfo{pages}{1--21}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "",
+            "aminer_id": "65b9d7b6939a5f40825a94f6"
+        },
+        "yang2019comprehensive": {
+            "number": "[99]",
+            "title": "A Comprehensive Survey on Secure Outsourced Computation and Its Applications",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Yang, Huang, Liu, Cheng, Weng, Luo, and Chang}{Yang et~al\\mbox{.}}{2019}]% {yang2019comprehensive} \\bibfield{author}{\\bibinfo{person}{Yang Yang}, \\bibinfo{person}{Xindi Huang}, \\bibinfo{person}{XiMeng Liu}, \\bibinfo{person}{Hongju Cheng}, \\bibinfo{person}{Jian Weng}, \\bibinfo{person}{Xiangyang Luo}, {and} \\bibinfo{person}{Victor Chang}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{A Comprehensive Survey on Secure Outsourced Computation and its Applications}. \\newblock \\bibinfo{journal}{\\emph{IEEE Access}} (\\bibinfo{year}{2019}). \\newblock",
+            "ref_source": "bbl",
+            "abstract": "With the ever-increasing requirement of storage and computation resources, it is unrealistic for local devices (with limited sources) to implement large-scale data processing. Therefore, individuals or corporations incline to outsource their computation requirements to the cloud. However, data outsourcing brings security and privacy concerns to users when the cloud servers are not fully trusted. Recently, extensive research works are conducted, aiming at secure outsourcing schemes for diverse computational tasks via different technologies. In this survey, we provide a technical review and comparison of existing outsourcing schemes using diverse secure computation methods. Specifically, we begin the survey by describing security threats and requirements of secure outsourcing computation. Meanwhile, we introduce four secure techniques (i.e., secure multi-party computation, pseudorandom functions, software guard extensions, and perturbation approaches) and their related works. Then, we focus on the theories and evolution of homomorphic encryption, as well as the applications of the basic operations and application-specific tasks. Finally, we discuss the security and performance of existing works and give future directions in this field.",
+            "aminer_id": "5de0f593df1a9c0c415e00e7"
+        },
+        "yang2016cloud": {
+            "number": "[100]",
+            "title": "Cloud Based Data Sharing with Fine-Grained Proxy Re-Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Yang, Zhu, Lu, Weng, Zhang, and Choo}{Yang et~al\\mbox{.}}{2016}]% {yang2016cloud} \\bibfield{author}{\\bibinfo{person}{Yanjiang Yang}, \\bibinfo{person}{Haiyan Zhu}, \\bibinfo{person}{Haibing Lu}, \\bibinfo{person}{Jian Weng}, \\bibinfo{person}{Youcheng Zhang}, {and} \\bibinfo{person}{Kim-Kwang~Raymond Choo}.} \\bibinfo{year}{2016}\\natexlab{}. \\newblock \\showarticletitle{Cloud based data sharing with fine-grained proxy re-encryption}. \\newblock \\bibinfo{journal}{\\emph{Pervasive and Mobile computing}} \\bibinfo{volume}{28} (\\bibinfo{year}{2016}), \\bibinfo{pages}{122--134}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "Conditional proxy re-encryption (CPRE) enables fine-grained delegation of decryption rights, and has many real-world applications. In this paper, we present a ciphertext-policy attribute based CPRE scheme, together with a formalization of the primitive and its security analysis. We demonstrate the utility of the scheme in a cloud deployment, which achieves fine-grained data sharing. This application implements cloud server-enabled user revocation, offering an alternative yet more efficient solution to the user revocation problem in the context of fine-grained encryption of cloud data. High user-side efficiency is another prominent feature of the application, which makes it possible for users to use resource constrained devices, e.g., mobile phones, to access cloud data. Our evaluations show promising results on the performance of the proposed scheme.",
+            "aminer_id": "56d90388dabfae2eeee74bcc"
+        },
+        "yasuda2013secure": {
+            "number": "[101]",
+            "title": "Secure Pattern Matching Using Somewhat Homomorphic Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Yasuda, Shimoyama, Kogure, Yokoyama, and Koshiba}{Yasuda et~al\\mbox{.}}{2013}]% {yasuda2013secure} \\bibfield{author}{\\bibinfo{person}{Masaya Yasuda}, \\bibinfo{person}{Takeshi Shimoyama}, \\bibinfo{person}{Jun Kogure}, \\bibinfo{person}{Kazuhiro Yokoyama}, {and} \\bibinfo{person}{Takeshi Koshiba}.} \\bibinfo{year}{2013}\\natexlab{}. \\newblock \\showarticletitle{Secure pattern matching using somewhat homomorphic encryption}. In \\bibinfo{booktitle}{\\emph{ACM workshop on Cloud computing security workshop}}. ACM, \\bibinfo{pages}{65--76}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "The basic pattern matching problem is to find the locations where a pattern occurs in a text. Recently, secure pattern matching has been received much attention in various areas, including privacy-preserving DNA matching and secure biometric authentication. The aim of this paper is to give a practical solution for this problem using homomorphic encryption, which is public key encryption supporting some operations on encrypted data. In this paper, we make use of the somewhat homomorphic encryption scheme presented by Lauter, Naehrig and Vaikuntanathan (ACM CCSW 2011), which supports a limited number of both additions and multiplications on encrypted data. In their work, some message encoding techniques are also presented for enabling us to efficiently compute sums and products over the integers. Based on their techniques, we propose a new packing method suitable for an efficient computation of multiple Hamming distance values on encrypted data. Our main extension gives two types of packed ciphertexts, and a linear computation over packed ciphertexts gives our desired results. We implemented the scheme with our packing method. Our experiments ran in an Intel Xeon at 3.07 GHz with our software library using inline assembly language in C programs. Our optimized implementation shows that the packed encryption of a text or a pattern, the computation of multiple Hamming distance values over packed ciphertexts, and the decryption respectively take about 3.65 milliseconds (ms), 5.31 ms, and 3.47 ms for secure exact and approximate pattern matching of a binary text of length 2048. The total time is about 12.43 ms, which would give the practical performance in real life. Our method gives both faster performance and lower communication than the state-of-the-art work for a binary text of several thousand bits in length.",
+            "aminer_id": "5390bd1520f70186a0f44133"
+        },
+        "yasuda2018multi": {
+            "number": "[102]",
+            "title": "Multi-key Homomorphic Proxy Re-Encryption",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Yasuda, Koseki, Hiromasa, and Kawai}{Yasuda et~al\\mbox{.}}{2018}]% {yasuda2018multi} \\bibfield{author}{\\bibinfo{person}{Satoshi Yasuda}, \\bibinfo{person}{Yoshihiro Koseki}, \\bibinfo{person}{Ryo Hiromasa}, {and} \\bibinfo{person}{Yutaka Kawai}.} \\bibinfo{year}{2018}\\natexlab{}. \\newblock \\showarticletitle{Multi-key Homomorphic Proxy Re-Encryption}. In \\bibinfo{booktitle}{\\emph{International Conference on Information Security}}. Springer, \\bibinfo{pages}{328--346}. \\newblock",
+            "ref_source": "bbl",
+            "abstract": "In this paper, we propose a new notion of multi-key homomorphic proxy re-encryption (MH-PRE) in which inputs of homomorphic evaluation are encrypted by different public keys and the evaluated ciphertext is decrypted by a single secret key. We obtain it by adding the re-encryption property of proxy re-encryption to multi-key homomorphic encryption (MHE). MHE, firstly proposed by López-Alt, Tromer and Vaikuntanathan (STOC 2012), can perform homomorphic evaluations on ciphertexts from different keys, but decrypting the output ciphertext of the homomorphic evaluation requires all the secret keys associated to the input ciphertexts. In order to decrypt the output ciphertext with a single secret key, we introduce the notion of the re-encryption to MHE. In particular, we construct an MH-PRE scheme by applying the key switching technique to the MHE scheme of Peikert and Shiehian (TCC 2016).",
+            "aminer_id": "5bbacb4c17c44aecc4eacfa7"
+        },
+        "zheng2019helen": {
+            "number": "[103]",
+            "title": "Helen: Maliciously Secure Coopetitive Learning for Linear Models",
+            "text": "\\bibitem[\\protect\\citeauthoryear{Zheng, Popa, Gonzalez, and Stoica}{Zheng et~al\\mbox{.}}{2019}]% {zheng2019helen} \\bibfield{author}{\\bibinfo{person}{Wenting Zheng}, \\bibinfo{person}{Raluca~Ada Popa}, \\bibinfo{person}{Joseph~E Gonzalez}, {and} \\bibinfo{person}{Ion Stoica}.} \\bibinfo{year}{2019}\\natexlab{}. \\newblock \\showarticletitle{Helen: Maliciously secure coopetitive learning for linear models}. \\newblock \\bibinfo{journal}{\\emph{arXiv preprint arXiv:1907.07212}} (\\bibinfo{year}{2019}). \\newblock \\end{thebibliography}",
+            "ref_source": "bbl",
+            "abstract": "Many organizations wish to collaboratively train machine learning models on their combined datasets for a common benefit (e.g., better medical research, or fraud detection). However, they often cannot share their plaintext datasets due to privacy concerns and/or business competition. In this paper, we design and build Helen, a system that allows multiple parties to train a linear model without revealing their data, a setting we call coopetitive learning. Compared to prior secure training systems, Helen protects against a much stronger adversary who is malicious and can compromise m-1 out of m parties. Our evaluation shows that Helen can achieve up to five orders of magnitude of performance improvement when compared to training using an existing state-of-the-art secure multi-party computation framework.",
+            "aminer_id": "5d3044533a55ac92aa14c705"
+        }
+    },
+    "citation_analysis": {
+        "total_citations": 103,
+        "citation_types": {
+            "unknown": 103
+        }
+    }
+}
