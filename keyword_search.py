@@ -31,19 +31,19 @@ def aminer_get_paper_info_batch(paper_ids):
             timeout=15
         )
         if resp.status_code != 200:
-            print(f"请求失败，状态码: {resp.status_code}")
+            print(f"{resp.status_code}")
             return []
 
         resp_json = resp.json()
         if not resp_json.get("success"):
-            print(f"请求返回失败: {resp_json.get('msg')}")
+            print(f"{resp_json.get('msg')}")
             return []
 
         papers_data = resp_json.get("data", [])
         return papers_data
 
     except Exception as e:
-        print(f"请求异常: {e}")
+        print(f"{e}")
         return []
 
 

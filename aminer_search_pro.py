@@ -33,7 +33,7 @@ def aminer_pro_search(query, use_topic=True, year=None, size=100, offset=0):
     try:
         response = requests.post(aminer_search_url, headers=headers, data=json.dumps(data), timeout=(10, 30))
         if response.status_code != 200:
-            print(f"请求失败，状态码: {response.status_code}, detail: {response.text}")
+            print(f"{response.status_code}, detail: {response.text}")
             return None
         if response is None:
             return None
@@ -42,7 +42,7 @@ def aminer_pro_search(query, use_topic=True, year=None, size=100, offset=0):
             ids = [item['id'] for item in data if 'id' in item]
             return ids
         except Exception as e:
-            print(f"解析Aminer返回内容失败 (不是有效的JSON), detail: {e}")
+            print(f"{e}")
             return None
     except Exception as e:
         print(f"Exception occurred during AMiner search")
