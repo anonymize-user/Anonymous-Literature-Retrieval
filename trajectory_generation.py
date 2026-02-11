@@ -201,7 +201,7 @@ def paper_trajectory_generation(general_topic, initial_valid_keywords, initial_s
 
 
 if __name__ == "__main__":
-    path = "cs_paper_with_aminer_id"
+    path = "raw_papers"
 
     result_dir = "trajectory_result"
 
