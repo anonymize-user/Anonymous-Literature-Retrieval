@@ -4,6 +4,12 @@ This project contains a core component of our research paper, specifically focus
 
 ---
 
+## 📊 Process Overview
+
+![Process Image](process_image.png)
+
+---
+
 ## 🛠 Prerequisites
 
 Before running the generation script, please ensure you have completed the following setup:
@@ -26,14 +32,23 @@ The system requires valid API keys for the following services:
 ## 📂 Project Structure
 
 * `raw_papers/`: Contains 100 sample paper datasets for testing.
-* `trajectory_result/`: The output directory where the generated trajectories will be saved.
+* `trajectory_result/`: Contains the generated trajectories for the 100 papers from the `raw_papers/` folder.
 * `trajectory_generation.py`: The main execution script.
 
 ---
 
 ## 🚀 Usage
 
-To start the trajectory generation process, simply run the following command:
+1. First, install the required dependencies using the following command:
 
-```bash
-python3 trajectory_generation.py
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2. To start the trajectory generation process, simply run the following command:
+
+    ```bash
+    python3 trajectory_generation.py
+    ```
+
+This will generate trajectories based on the papers in `raw_papers/` and save the results in the `trajectory_result/` folder.
