@@ -1,0 +1,848 @@
+[
+    {
+        "Paper Topic": "Overview of the 2021 Key Point Analysis Shared Task",
+        "Sections": [
+            "Related Work",
+            "Submitted models"
+        ],
+        "Hit Categories": 2,
+        "Total Categories": 2,
+        "Overall Hit Papers": 12,
+        "Total Papers": 15,
+        "Category Proportions": 1.0,
+        "Over-all Proportion": 0.8
+    },
+    [
+        "573698646e3b12023e72a694",
+        "5d722f6e3a55acd6b877d0b7",
+        "53e99b21b7602d97023b6150",
+        "5ff880bc91e011c83266a9b5",
+        "6197999a91e011c8223725d1",
+        "6197999a91e011c8223725c6",
+        "61567c6a5244ab9dcb07f4e3",
+        "5f7fe6d80205f07f6897317a",
+        "60af77b09e795e6b8e55c885",
+        "5ca5dbb2e1cd8e17e1d71252",
+        "57a4e91dac44365e35c9873f",
+        "5f99472791e011a3fbe2fc4e",
+        "5eabf34c91e011664ffd2934",
+        "617771bd5244ab9dcbe79620",
+        "6197999a91e011c8223725d3"
+    ],
+    {
+        "step_name": "initialization searching",
+        "initial_valid_topic_keywords": [
+            "contrastive key point distillation"
+        ],
+        "initial_valid_infor": {
+            "contrastive key point distillation": [
+                "61567c6a5244ab9dcb07f4e3"
+            ]
+        },
+        "initial_hit_papers": [
+            "61567c6a5244ab9dcb07f4e3"
+        ],
+        "Total Papers": 15
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 2,
+            "Overall Hit Papers": 3,
+            "Total Papers": 15,
+            "Category Proportions": 1.0,
+            "Over-all Proportion": 0.2
+        },
+        "current_paper_ids": [
+            "61722bd65244ab9dcb6ef96a",
+            "61567c6a5244ab9dcb07f4e3",
+            "5eb7896cda5629cf2443079c",
+            "5843778eac44360f108445f0",
+            "58774c650a3ac5b5de64fdd9",
+            "6886d7c8163c01c8503a7094",
+            "68afabc8163c01c850b8a508",
+            "6459ac6bd68f896efa659224",
+            "5843774eac44360f10839ec7",
+            "60bad7b491e01102e59b6a79",
+            "5ff880bc91e011c83266a9b5",
+            "5d6f8b3c3a55ac0f2485613a",
+            "5d5fb9493a55aca4627acf67",
+            "57a4e91dac44365e35c9873f",
+            "60b9a47ce4510cd7c8fbb315",
+            "5f0277e911dc830562231e0f",
+            "66207e7f13fb2c6cf6b87e65",
+            "63a910a290e50fcafd2a8861",
+            "65fc538e13fb2c6cf61c5684",
+            "64702deed68f896efa52018a"
+        ],
+        "non_hit_papers": [],
+        "hit_paper_information": {
+            "61567c6a5244ab9dcb07f4e3": [
+                "5ff880bc91e011c83266a9b5",
+                "57a4e91dac44365e35c9873f"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 2,
+            "Overall Hit Papers": 9,
+            "Total Papers": 15,
+            "Category Proportions": 1.0,
+            "Over-all Proportion": 0.6
+        },
+        "current_paper_ids": [
+            "5f85882991e011ff328097ea",
+            "58437762ac44360f1083cd98",
+            "5843778eac44360f108445f0",
+            "62f604e690e50fcafd03c7f9",
+            "5550456245ce0a409eb55c8d",
+            "6886d7c8163c01c8503a7094",
+            "60dfbef791e01129379b36f2",
+            "5a9cb65d17c44a376ffb8387",
+            "60bad7b491e01102e59b6a79",
+            "66611c9001d2a3fbfc7603fa",
+            "66db962601d2a3fbfc5ab92b",
+            "631ea32a90e50fcafd2593b3",
+            "618c94a36750f806be6689dd",
+            "5ebba1d9da56294e4800b5da",
+            "6840f2af163c01c85067ba0f",
+            "6621cfe113fb2c6cf6c460b5",
+            "617771bd5244ab9dcbe79620",
+            "66207e7f13fb2c6cf6b87e65",
+            "5cd7fa07ced107d4c65bf2e4",
+            "65fc538e13fb2c6cf61c5684",
+            "65499d90939a5f4082be9fe2",
+            "647817b2d68f896efa850fbc",
+            "61722bd65244ab9dcb6ef96a",
+            "619bbc1c1c45e57ce97ff365",
+            "59ae3c3a2bbe271c4c71fc1d",
+            "56d863e5dabfae2eee915f7b",
+            "6858b4ff163c01c8505cf743",
+            "5550456345ce0a409eb55d19",
+            "58774c650a3ac5b5de64fdd9",
+            "68afabc8163c01c850b8a508",
+            "6459ac6bd68f896efa659224",
+            "5ff880bc91e011c83266a9b5",
+            "673b19ed01d2a3fbfc38d2c2",
+            "56d86001dabfae2eee74be72",
+            "555048ec45ce0a409eb729e7",
+            "59ae3c3a2bbe271c4c71fc31",
+            "6197999a91e011c8223725c9",
+            "5a260c2817c44a4ba8a23739",
+            "6197999a91e011c8223725d1",
+            "65484c09939a5f4082af61ea",
+            "5736986b6e3b12023e72fab4",
+            "60af77b09e795e6b8e55c885",
+            "61567c6a5244ab9dcb07f4e3",
+            "5f7fe6d80205f07f6897317a",
+            "5843774eac44360f10839ec7",
+            "66976e9b01d2a3fbfc197613",
+            "64ae66923fda6d7f06844e16",
+            "5d722f6e3a55acd6b877d0b7",
+            "6197999a91e011c8223725c6",
+            "5b8c9f4a17c44af36f8b6900",
+            "6168144b91e0119ecc50a51a",
+            "60b99feae4510cd7c8f55b96",
+            "57a4e91dac44365e35c9873f",
+            "57d063b9ac4436735428eaaf",
+            "5736974d6e3b12023e6386bc",
+            "60b9a47ce4510cd7c8fbb315",
+            "637b697090e50fcafdea9870",
+            "60caa8d691e011b329373ed0",
+            "5d343abd275ded87f9774eba",
+            "5c4880dd7301396d1ffc8135",
+            "64702deed68f896efa52018a",
+            "539089ab20f70186a0d96fd8",
+            "5bdc315017c44a1f58a05b58",
+            "623be1965aee126c0f37abc4",
+            "5ff8808991e011c832669d03",
+            "5eb7896cda5629cf2443079c",
+            "5d6ce8343a55ac66e5ad93a5",
+            "6218f61c5aee126c0f17f16d",
+            "632aab7f90e50fcafd7f421d",
+            "5ec49a639fced0a24b4de90b",
+            "5eabf34c91e011664ffd2a35",
+            "654a244f939a5f40827d9d6c",
+            "65246757939a5f4082b0e999",
+            "6579f100939a5f4082002e1c",
+            "555048ec45ce0a409eb729d6",
+            "5f0277e911dc830562231e0f",
+            "63a1750d90e50fcafd1f39db",
+            "63a910a290e50fcafd2a8861",
+            "6508c7ae3fda6d7f067be04a"
+        ],
+        "non_hit_papers": [
+            "5eb7896cda5629cf2443079c",
+            "57a4e91dac44365e35c9873f",
+            "6459ac6bd68f896efa659224",
+            "58774c650a3ac5b5de64fdd9",
+            "5843778eac44360f108445f0",
+            "5d6f8b3c3a55ac0f2485613a",
+            "5843774eac44360f10839ec7",
+            "5d5fb9493a55aca4627acf67",
+            "65fc538e13fb2c6cf61c5684",
+            "66207e7f13fb2c6cf6b87e65",
+            "64702deed68f896efa52018a"
+        ],
+        "hit_paper_information": {
+            "61722bd65244ab9dcb6ef96a": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5f7fe6d80205f07f6897317a",
+                "5d722f6e3a55acd6b877d0b7",
+                "6197999a91e011c8223725c6",
+                "617771bd5244ab9dcbe79620",
+                "57a4e91dac44365e35c9873f",
+                "6197999a91e011c8223725d1",
+                "60af77b09e795e6b8e55c885"
+            ],
+            "60b9a47ce4510cd7c8fbb315": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "61567c6a5244ab9dcb07f4e3": [
+                "5ff880bc91e011c83266a9b5",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "6886d7c8163c01c8503a7094": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ],
+            "60bad7b491e01102e59b6a79": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "68afabc8163c01c850b8a508": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "5ff880bc91e011c83266a9b5": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "63a910a290e50fcafd2a8861": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ],
+            "5f0277e911dc830562231e0f": [
+                "57a4e91dac44365e35c9873f"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 2,
+            "Overall Hit Papers": 10,
+            "Total Papers": 15,
+            "Category Proportions": 1.0,
+            "Over-all Proportion": 0.6666666666666666
+        },
+        "current_paper_ids": [
+            "5f85882991e011ff328097ea",
+            "5843778eac44360f108445f0",
+            "6886d7c8163c01c8503a7094",
+            "60dfbef791e01129379b36f2",
+            "661f2cf013fb2c6cf6b177c0",
+            "573698646e3b12023e72a694",
+            "60bad7b491e01102e59b6a79",
+            "59ae3c3a2bbe271c4c71fc29",
+            "66db962601d2a3fbfc5ab92b",
+            "618c94a36750f806be6689dd",
+            "6840f2af163c01c85067ba0f",
+            "6621cfe113fb2c6cf6c460b5",
+            "617771bd5244ab9dcbe79620",
+            "62451c2b5aee126c0f47ac30",
+            "5f8d6be69fced0a24bbaaf3c",
+            "66207e7f13fb2c6cf6b87e65",
+            "6369c8cd90e50fcafde87eec",
+            "5cd7fa07ced107d4c65bf2e4",
+            "65fc538e13fb2c6cf61c5684",
+            "5d4e95ae3a55acae9a8105b0",
+            "599c77ab601a182cd256c575",
+            "5ce3ad8eced107d4c65bbfea",
+            "61722bd65244ab9dcb6ef96a",
+            "619bbc1c1c45e57ce97ff365",
+            "59ae3c3a2bbe271c4c71fc1d",
+            "56d863e5dabfae2eee915f7b",
+            "6076b83291e0113d725742d1",
+            "65c04319939a5f4082eafa8a",
+            "6385788590e50fcafdf49d67",
+            "615bc2735244ab9dcbdbcd20",
+            "68afabc8163c01c850b8a508",
+            "6459ac6bd68f896efa659224",
+            "5ff880bc91e011c83266a9b5",
+            "6602481413fb2c6cf668fdf3",
+            "53909e7c20f70186a0e2c8f6",
+            "6020e2039e795e62379b5a8b",
+            "673b19ed01d2a3fbfc38d2c2",
+            "6882d828163c01c850312a32",
+            "5a260c2817c44a4ba8a23739",
+            "6197999a91e011c8223725d1",
+            "65484c09939a5f4082af61ea",
+            "60af77b09e795e6b8e55c885",
+            "664e9aad01d2a3fbfc15c3b0",
+            "61567c6a5244ab9dcb07f4e3",
+            "5f7fe6d80205f07f6897317a",
+            "5843774eac44360f10839ec7",
+            "66976e9b01d2a3fbfc197613",
+            "5d722f6e3a55acd6b877d0b7",
+            "6197999a91e011c8223725c6",
+            "5f7fe6d80205f07f68973346",
+            "6168144b91e0119ecc50a51a",
+            "60b99feae4510cd7c8f55b96",
+            "64f561693fda6d7f06f1d942",
+            "6426ed4a90e50fcafd448580",
+            "57a4e91dac44365e35c9873f",
+            "5b67b46b17c44aac1c862006",
+            "637b697090e50fcafdea9870",
+            "60caa8d691e011b329373ed0",
+            "5390a93b20f70186a0ea0539",
+            "6634456501d2a3fbfc2d2886",
+            "64702deed68f896efa52018a",
+            "5fd8a77991e0119b22c1f310",
+            "635272eb90e50fcafd97dfb9",
+            "5d6f8b3c3a55ac0f24855ed4",
+            "5eb7896cda5629cf2443079c",
+            "691ac6eb163c01c8509a2851",
+            "60d4236f91e0112ca5d1893f",
+            "5cff7bcb3a55ac24128e0b55",
+            "632aab7f90e50fcafd7f421d",
+            "6823fd1f163c01c8505d0084",
+            "5ec49a639fced0a24b4de90b",
+            "61949dc6e1ef293552222e1c",
+            "5eabf34c91e011664ffd2a35",
+            "6630514301d2a3fbfcc1443f",
+            "654a244f939a5f40827d9d6c",
+            "65246757939a5f4082b0e999",
+            "6579f100939a5f4082002e1c",
+            "64bf48f93fda6d7f06274735",
+            "56d8b74cdabfae2eee12b183",
+            "63a910a290e50fcafd2a8861",
+            "6508c7ae3fda6d7f067be04a"
+        ],
+        "non_hit_papers": [
+            "62f604e690e50fcafd03c7f9",
+            "5843778eac44360f108445f0",
+            "5a9cb65d17c44a376ffb8387",
+            "5f85882991e011ff328097ea",
+            "631ea32a90e50fcafd2593b3",
+            "58437762ac44360f1083cd98",
+            "66611c9001d2a3fbfc7603fa",
+            "5550456245ce0a409eb55c8d",
+            "60dfbef791e01129379b36f2",
+            "618c94a36750f806be6689dd",
+            "66db962601d2a3fbfc5ab92b",
+            "5ebba1d9da56294e4800b5da",
+            "6621cfe113fb2c6cf6c460b5",
+            "66207e7f13fb2c6cf6b87e65",
+            "65fc538e13fb2c6cf61c5684",
+            "617771bd5244ab9dcbe79620",
+            "5cd7fa07ced107d4c65bf2e4",
+            "65499d90939a5f4082be9fe2",
+            "58774c650a3ac5b5de64fdd9",
+            "619bbc1c1c45e57ce97ff365",
+            "647817b2d68f896efa850fbc",
+            "5550456345ce0a409eb55d19",
+            "59ae3c3a2bbe271c4c71fc1d",
+            "56d863e5dabfae2eee915f7b",
+            "6459ac6bd68f896efa659224",
+            "673b19ed01d2a3fbfc38d2c2",
+            "56d86001dabfae2eee74be72",
+            "555048ec45ce0a409eb729e7",
+            "59ae3c3a2bbe271c4c71fc31",
+            "6197999a91e011c8223725d1",
+            "5843774eac44360f10839ec7",
+            "65484c09939a5f4082af61ea",
+            "6197999a91e011c8223725c9",
+            "5736986b6e3b12023e72fab4",
+            "60af77b09e795e6b8e55c885",
+            "66976e9b01d2a3fbfc197613",
+            "64ae66923fda6d7f06844e16",
+            "6197999a91e011c8223725c6",
+            "57a4e91dac44365e35c9873f",
+            "6168144b91e0119ecc50a51a",
+            "57d063b9ac4436735428eaaf",
+            "637b697090e50fcafdea9870",
+            "5d343abd275ded87f9774eba",
+            "5736974d6e3b12023e6386bc",
+            "60caa8d691e011b329373ed0",
+            "5c4880dd7301396d1ffc8135",
+            "64702deed68f896efa52018a",
+            "539089ab20f70186a0d96fd8",
+            "5bdc315017c44a1f58a05b58",
+            "5eb7896cda5629cf2443079c",
+            "5ff8808991e011c832669d03",
+            "6218f61c5aee126c0f17f16d",
+            "623be1965aee126c0f37abc4",
+            "65246757939a5f4082b0e999",
+            "6579f100939a5f4082002e1c",
+            "654a244f939a5f40827d9d6c",
+            "5eabf34c91e011664ffd2a35",
+            "555048ec45ce0a409eb729d6",
+            "63a1750d90e50fcafd1f39db",
+            "6508c7ae3fda6d7f067be04a"
+        ],
+        "hit_paper_information": {
+            "6886d7c8163c01c8503a7094": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ],
+            "6840f2af163c01c85067ba0f": [
+                "617771bd5244ab9dcbe79620"
+            ],
+            "60bad7b491e01102e59b6a79": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "6858b4ff163c01c8505cf743": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "68afabc8163c01c850b8a508": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "61722bd65244ab9dcb6ef96a": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5f7fe6d80205f07f6897317a",
+                "5d722f6e3a55acd6b877d0b7",
+                "6197999a91e011c8223725c6",
+                "617771bd5244ab9dcbe79620",
+                "57a4e91dac44365e35c9873f",
+                "6197999a91e011c8223725d1",
+                "60af77b09e795e6b8e55c885"
+            ],
+            "5ff880bc91e011c83266a9b5": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "61567c6a5244ab9dcb07f4e3": [
+                "5ff880bc91e011c83266a9b5",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5a260c2817c44a4ba8a23739": [
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "5f7fe6d80205f07f6897317a": [
+                "573698646e3b12023e72a694"
+            ],
+            "5d722f6e3a55acd6b877d0b7": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5b8c9f4a17c44af36f8b6900": [
+                "5f7fe6d80205f07f6897317a",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "60b9a47ce4510cd7c8fbb315": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "60b99feae4510cd7c8f55b96": [
+                "5d722f6e3a55acd6b877d0b7",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5d6ce8343a55ac66e5ad93a5": [
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "632aab7f90e50fcafd7f421d": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5ec49a639fced0a24b4de90b": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5f0277e911dc830562231e0f": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "63a910a290e50fcafd2a8861": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 2,
+            "Overall Hit Papers": 12,
+            "Total Papers": 15,
+            "Category Proportions": 1.0,
+            "Over-all Proportion": 0.8
+        },
+        "current_paper_ids": [
+            "5f85882991e011ff328097ea",
+            "64af99fc3fda6d7f065a6240",
+            "58437762ac44360f1083cd98",
+            "5843778eac44360f108445f0",
+            "6886d7c8163c01c8503a7094",
+            "60dfbef791e01129379b36f2",
+            "573698646e3b12023e72a694",
+            "53e99b21b7602d97023b6150",
+            "60bad7b491e01102e59b6a79",
+            "5390a55520f70186a0e7b09e",
+            "648e1ca6d68f896efa2e9352",
+            "59ae3c3a2bbe271c4c71fc29",
+            "66db962601d2a3fbfc5ab92b",
+            "618c94a36750f806be6689dd",
+            "627483fb5aee126c0f07e26f",
+            "6840f2af163c01c85067ba0f",
+            "6621cfe113fb2c6cf6c460b5",
+            "617771bd5244ab9dcbe79620",
+            "66207e7f13fb2c6cf6b87e65",
+            "6369c8cd90e50fcafde87eec",
+            "5cd7fa07ced107d4c65bf2e4",
+            "5b1642d68fbcbf6e5a9b8661",
+            "65fc538e13fb2c6cf61c5684",
+            "5d4e95ae3a55acae9a8105b0",
+            "6479e3b5d68f896efa4ede8b",
+            "61722bd65244ab9dcb6ef96a",
+            "65c04319939a5f4082eafa8a",
+            "6385788590e50fcafdf49d67",
+            "615bc2735244ab9dcbdbcd20",
+            "68afabc8163c01c850b8a508",
+            "6459ac6bd68f896efa659224",
+            "5ff880bc91e011c83266a9b5",
+            "6602481413fb2c6cf668fdf3",
+            "5ee3569e9fced0a24b91d8b8",
+            "62c3abc75aee126c0fc9a56f",
+            "6020e2039e795e62379b5a8b",
+            "673b19ed01d2a3fbfc38d2c2",
+            "618cfba991e011333c93255e",
+            "67b7e558163c01c850cfe471",
+            "633856ad90e50fcafd5906db",
+            "6636e91a01d2a3fbfc0e1c49",
+            "6197999a91e011c8223725d1",
+            "65484c09939a5f4082af61ea",
+            "60af77b09e795e6b8e55c885",
+            "635272b490e50fcafd961f4a",
+            "664e9aad01d2a3fbfc15c3b0",
+            "61567c6a5244ab9dcb07f4e3",
+            "5f7fe6d80205f07f6897317a",
+            "5390ad0620f70186a0eba629",
+            "5843774eac44360f10839ec7",
+            "66976e9b01d2a3fbfc197613",
+            "5dc29a843a55acf4d3a90983",
+            "5d722f6e3a55acd6b877d0b7",
+            "6197999a91e011c8223725c6",
+            "5f7fe6d80205f07f68973346",
+            "6168144b91e0119ecc50a51a",
+            "60b99feae4510cd7c8f55b96",
+            "57a4e91dac44365e35c9873f",
+            "5b67b46b17c44aac1c862006",
+            "637b697090e50fcafdea9870",
+            "60caa8d691e011b329373ed0",
+            "5bdc315017c44a1f58a05bc0",
+            "64702deed68f896efa52018a",
+            "53909e7c20f70186a0e2c99f",
+            "5eb7896cda5629cf2443079c",
+            "6421094690e50fcafdb02725",
+            "6823fd1f163c01c8505d0084",
+            "5ec49a639fced0a24b4de90b",
+            "5eabf34c91e011664ffd2934",
+            "61949dc6e1ef293552222e1c",
+            "5eabf34c91e011664ffd2a35",
+            "6630514301d2a3fbfcc1443f",
+            "654a244f939a5f40827d9d6c",
+            "5d9ed23847c8f76646f63a75",
+            "65246757939a5f4082b0e999",
+            "63d7a22990e50fcafd6d6f91",
+            "6579f100939a5f4082002e1c",
+            "5390b04120f70186a0ed6d77",
+            "64bf48f93fda6d7f06274735",
+            "612c4c285244ab9dcbca21b8",
+            "63a910a290e50fcafd2a8861",
+            "5e8da0d591e011f2de583b9c",
+            "6508c7ae3fda6d7f067be04a"
+        ],
+        "non_hit_papers": [
+            "5f85882991e011ff328097ea",
+            "5843778eac44360f108445f0",
+            "60dfbef791e01129379b36f2",
+            "661f2cf013fb2c6cf6b177c0",
+            "62451c2b5aee126c0f47ac30",
+            "617771bd5244ab9dcbe79620",
+            "6621cfe113fb2c6cf6c460b5",
+            "5f8d6be69fced0a24bbaaf3c",
+            "618c94a36750f806be6689dd",
+            "66db962601d2a3fbfc5ab92b",
+            "59ae3c3a2bbe271c4c71fc29",
+            "66207e7f13fb2c6cf6b87e65",
+            "619bbc1c1c45e57ce97ff365",
+            "65fc538e13fb2c6cf61c5684",
+            "59ae3c3a2bbe271c4c71fc1d",
+            "56d863e5dabfae2eee915f7b",
+            "6369c8cd90e50fcafde87eec",
+            "599c77ab601a182cd256c575",
+            "5d4e95ae3a55acae9a8105b0",
+            "5cd7fa07ced107d4c65bf2e4",
+            "5ce3ad8eced107d4c65bbfea",
+            "65c04319939a5f4082eafa8a",
+            "6076b83291e0113d725742d1",
+            "615bc2735244ab9dcbdbcd20",
+            "6459ac6bd68f896efa659224",
+            "673b19ed01d2a3fbfc38d2c2",
+            "6882d828163c01c850312a32",
+            "53909e7c20f70186a0e2c8f6",
+            "6197999a91e011c8223725d1",
+            "664e9aad01d2a3fbfc15c3b0",
+            "60af77b09e795e6b8e55c885",
+            "65484c09939a5f4082af61ea",
+            "5843774eac44360f10839ec7",
+            "66976e9b01d2a3fbfc197613",
+            "6197999a91e011c8223725c6",
+            "5f7fe6d80205f07f68973346",
+            "6168144b91e0119ecc50a51a",
+            "64f561693fda6d7f06f1d942",
+            "57a4e91dac44365e35c9873f",
+            "637b697090e50fcafdea9870",
+            "60caa8d691e011b329373ed0",
+            "6634456501d2a3fbfc2d2886",
+            "5b67b46b17c44aac1c862006",
+            "64702deed68f896efa52018a",
+            "5390a93b20f70186a0ea0539",
+            "635272eb90e50fcafd97dfb9",
+            "5eb7896cda5629cf2443079c",
+            "691ac6eb163c01c8509a2851",
+            "5fd8a77991e0119b22c1f310",
+            "6823fd1f163c01c8505d0084",
+            "61949dc6e1ef293552222e1c",
+            "5d6f8b3c3a55ac0f24855ed4",
+            "5cff7bcb3a55ac24128e0b55",
+            "6630514301d2a3fbfcc1443f",
+            "654a244f939a5f40827d9d6c",
+            "5eabf34c91e011664ffd2a35",
+            "65246757939a5f4082b0e999",
+            "6579f100939a5f4082002e1c",
+            "6508c7ae3fda6d7f067be04a",
+            "64bf48f93fda6d7f06274735",
+            "56d8b74cdabfae2eee12b183"
+        ],
+        "hit_paper_information": {
+            "6840f2af163c01c85067ba0f": [
+                "617771bd5244ab9dcbe79620"
+            ],
+            "6886d7c8163c01c8503a7094": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ],
+            "60bad7b491e01102e59b6a79": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "573698646e3b12023e72a694": [
+                "5f7fe6d80205f07f6897317a",
+                "53e99b21b7602d97023b6150"
+            ],
+            "61722bd65244ab9dcb6ef96a": [
+                "61567c6a5244ab9dcb07f4e3",
+                "5f7fe6d80205f07f6897317a",
+                "5d722f6e3a55acd6b877d0b7",
+                "6197999a91e011c8223725c6",
+                "617771bd5244ab9dcbe79620",
+                "57a4e91dac44365e35c9873f",
+                "6197999a91e011c8223725d1",
+                "60af77b09e795e6b8e55c885"
+            ],
+            "6385788590e50fcafdf49d67": [
+                "617771bd5244ab9dcbe79620"
+            ],
+            "68afabc8163c01c850b8a508": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "6602481413fb2c6cf668fdf3": [
+                "617771bd5244ab9dcbe79620"
+            ],
+            "5ff880bc91e011c83266a9b5": [
+                "61567c6a5244ab9dcb07f4e3"
+            ],
+            "6020e2039e795e62379b5a8b": [
+                "5d722f6e3a55acd6b877d0b7"
+            ],
+            "5a260c2817c44a4ba8a23739": [
+                "5ff880bc91e011c83266a9b5"
+            ],
+            "5f7fe6d80205f07f6897317a": [
+                "573698646e3b12023e72a694"
+            ],
+            "61567c6a5244ab9dcb07f4e3": [
+                "5ff880bc91e011c83266a9b5",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5d722f6e3a55acd6b877d0b7": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "60b99feae4510cd7c8f55b96": [
+                "5d722f6e3a55acd6b877d0b7",
+                "57a4e91dac44365e35c9873f"
+            ],
+            "6426ed4a90e50fcafd448580": [
+                "5d722f6e3a55acd6b877d0b7",
+                "5eabf34c91e011664ffd2934"
+            ],
+            "632aab7f90e50fcafd7f421d": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "60d4236f91e0112ca5d1893f": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "5ec49a639fced0a24b4de90b": [
+                "57a4e91dac44365e35c9873f"
+            ],
+            "63a910a290e50fcafd2a8861": [
+                "61567c6a5244ab9dcb07f4e3",
+                "617771bd5244ab9dcbe79620"
+            ]
+        }
+    },
+    {
+        "step_name": "keyword search",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 2,
+            "Overall Hit Papers": 12,
+            "Total Papers": 15,
+            "Category Proportions": 1.0,
+            "Over-all Proportion": 0.8
+        },
+        "non hit keywords": [
+            [
+                "argument mining pipelines",
+                "interpretability techniques",
+                "rhetorical structure parsing",
+                "domain adaptation methodologies",
+                "computational discourse analysis",
+                "transfer learning strategies",
+                "graph-based representation",
+                "weakly-supervised learning",
+                "human-in-the-loop evaluation",
+                "cross-lingual adaptation"
+            ],
+            [
+                "zero-shot evaluation",
+                "computational efficiency",
+                "model scaling",
+                "cross-modal alignment",
+                "knowledge integration",
+                "contrastive learning",
+                "prompt engineering",
+                "parameter-efficient fine-tuning",
+                "self-supervised pretraining",
+                "task-specific architectures"
+            ]
+        ],
+        "current_paper_ids": [
+            "6523b748939a5f40821b7530",
+            "615fb6f25244ab9dcb9c3fb5",
+            "5b3d988217c44a510f7fbc54",
+            "56d81639dabfae2eee7368a8",
+            "61cacebe5244ab9dcb0e4630",
+            "573698646e3b12023e72a694",
+            "53e99b21b7602d97023b6150",
+            "64b64e3d3fda6d7f06744c2b",
+            "668f3cf001d2a3fbfcf54deb",
+            "5488e4dd45ce147a86e49d67",
+            "6667b00d01d2a3fbfc2e0a64",
+            "6579197c939a5f4082dbbf4a",
+            "65252966939a5f4082644e36",
+            "5e5e19b593d709897ce84a33",
+            "53e99ed2b7602d970279d8f8",
+            "617771bd5244ab9dcbe79620",
+            "657adb8c939a5f4082397c9a",
+            "65c19a40939a5f40825da262",
+            "5ea014eb9fced0a24ba1a8c5",
+            "63dcdb422c26941cf00b6543",
+            "64c78b9c3fda6d7f06db7c37",
+            "61c9e02e5244ab9dcb79ff29",
+            "5ff880bc91e011c83266a9b5",
+            "654efb29939a5f408264022f",
+            "5f0e0e149fced0a24bfb17e0",
+            "6691ed5201d2a3fbfc50a07e",
+            "53e9aa08b7602d9703371523",
+            "654a2448939a5f40827d31e2",
+            "5f180fb09fced0a24bc97b04",
+            "604b3ada6f90b7f6caa8a96a",
+            "5d9ed5e047c8f76646fdfb13",
+            "64893b17d68f896efa982779",
+            "5edf5ddc91e011bc656def09",
+            "6197999a91e011c8223725d1",
+            "608020a191e011772654f9e6",
+            "67577eccae8580e7ff4127f1",
+            "64ffca703fda6d7f06cd8b41",
+            "63983e5c90e50fcafdaf521b",
+            "60af77b09e795e6b8e55c885",
+            "6653e91a01d2a3fbfc780adf",
+            "66592f8701d2a3fbfc3909f5",
+            "66fb331101d2a3fbfcfb4d96",
+            "604b3df26f90b7f6cac3f9d7",
+            "61567c6a5244ab9dcb07f4e3",
+            "6426ed4590e50fcafd4447c8",
+            "5cb5acc6e1cd8e68c57f21ce",
+            "6746956cae8580e7ff9b500a",
+            "65ea8a9313fb2c6cf62f83ea",
+            "5f7fe6d80205f07f6897317a",
+            "66079bf913fb2c6cf66bf8f8",
+            "6615f7f013fb2c6cf6e2c69f",
+            "53e9b0e6b7602d9703b63b71",
+            "66627d5801d2a3fbfcac9162",
+            "676f041fae8580e7ff6e12a4",
+            "61cacfc65244ab9dcb21e14a",
+            "681d5b3d163c01c850ad7b45",
+            "64b54d753fda6d7f06ee4d88",
+            "5d722f6e3a55acd6b877d0b7",
+            "6197999a91e011c8223725c6",
+            "57a4e91dac44365e35c9873f",
+            "604b3a986f90b7f6caa6b76a",
+            "5d9de6b69e795e957707f754",
+            "5fae64d4d4150a363cdbfc62",
+            "60e2da095244ab9dcbf7fe6c",
+            "65a54188939a5f40828c5e90",
+            "604b3ade6f90b7f6caa8c31d",
+            "6523b74d939a5f40821bbd38",
+            "5e5e19d893d709897ce8c1c3",
+            "5c755daef56def9798ac1c63",
+            "55503ebd45ce0a409eb2a78b",
+            "65026d513fda6d7f06474c30",
+            "5ee4a6609fced0a24bcaa479",
+            "603b6fe091e011b63043661e",
+            "5390a7f620f70186a0e94679",
+            "61ca01b95244ab9dcb692d35",
+            "65ab9e32939a5f4082a51e75",
+            "668f709901d2a3fbfcdb4c6e",
+            "5488e4c245ce147a86e48df5",
+            "64ed716d3fda6d7f0658a8c5",
+            "5eabf34c91e011664ffd2934",
+            "5390a54620f70186a0e784c4",
+            "669f02cc01d2a3fbfcd16824",
+            "668e041f01d2a3fbfc6b9457",
+            "604b707f6f90b7f6ca70b1d8",
+            "61cacf515244ab9dcb17d964",
+            "5fc6a10ce8bf8c1045dcfafd",
+            "65dd4f8013fb2c6cf66f9e42"
+        ],
+        "new_keywords": [
+            [
+                "computational argumentation",
+                "semantic role labeling",
+                "key point extraction",
+                "stance detection",
+                "claim identification",
+                "summarization evaluation",
+                "corpus annotation",
+                "neural network architectures",
+                "data augmentation",
+                "multi-task learning"
+            ],
+            [
+                "multimodal fusion strategies",
+                "adversarial robustness testing",
+                "few-shot adaptation methods",
+                "interpretability frameworks",
+                "data augmentation techniques",
+                "ensemble learning approaches",
+                "transfer learning protocols",
+                "hyperparameter optimization",
+                "model distillation procedures",
+                "continual learning paradigms"
+            ]
+        ],
+        "hit_paper_information": {}
+    }
+]

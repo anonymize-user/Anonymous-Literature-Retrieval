@@ -1,0 +1,686 @@
+[
+    {
+        "Paper Topic": "A Survey of Slow Thinking-based Reasoning LLMs using Reinforced Learning\n  and Inference-time Scaling Law",
+        "Sections": [
+            "Introduction",
+            "The Development of Reasoning LLMs",
+            "Key Technologies",
+            "Reinforced Learning",
+            "Slow Thinking"
+        ],
+        "Hit Categories": 4,
+        "Total Categories": 5,
+        "Overall Hit Papers": 40,
+        "Total Papers": 196,
+        "Category Proportions": 0.8,
+        "Over-all Proportion": 0.20408163265306123
+    },
+    [
+        "657bbe75939a5f4082f25313",
+        "67ce4b1d163c01c850b735a8",
+        "672044a401d2a3fbfcff8938",
+        "666903ee01d2a3fbfc476446",
+        "66b2d8b401d2a3fbfcf3b061",
+        "670348ba01d2a3fbfcb5f20d",
+        "67a4251cae8580e7ff58103c",
+        "6466fafbd68f896efaeb751d",
+        "67b7e5c8163c01c850d20fb6",
+        "6785d39fae8580e7ff519cfc",
+        "667a253f01d2a3fbfc71560a",
+        "66ac3fce01d2a3fbfc8b2062",
+        "64be69853fda6d7f06439ccf",
+        "67073d4101d2a3fbfc520340",
+        "67455296ae8580e7ffe42309",
+        "5f86c1f991e011dbc7eba1e7",
+        "5a260c6117c44a4ba8a2af6a",
+        "675ba34bae8580e7ff21dd47",
+        "67ac079fae8580e7ff94f41f",
+        "670c7b5401d2a3fbfccb04cb",
+        "67a19577ae8580e7ff060a6e",
+        "65dea27813fb2c6cf65463ab",
+        "66037e0413fb2c6cf6e7f696",
+        "673ffd48ae8580e7ff291d55",
+        "67ac0ed8ae8580e7ffac90fd",
+        "67b3fbf2ae8580e7ff49c0a9",
+        "6516338d3fda6d7f065e516b",
+        "67b3fbf2ae8580e7ff49bfcc",
+        "67a2d395ae8580e7ffd1edb0",
+        "674552a4ae8580e7ffe44947",
+        "678dba17ae8580e7ff15ef35",
+        "6789c504ae8580e7ff66d622",
+        "6724345701d2a3fbfc602e58",
+        "63eef09d90e50fcafda0d7f5",
+        "676b7575ae8580e7ff8fe981",
+        "659e2512939a5f40828b32b3",
+        "665005d801d2a3fbfc7f2c41",
+        "6791acbaae8580e7ffddbd04",
+        "67b6b72c163c01c850262e4c",
+        "65e144ed13fb2c6cf60f4ffd",
+        "647572d8d68f896efa7b733c",
+        "6724346501d2a3fbfc605267",
+        "63d9d87b90e50fcafd580a17",
+        "63dc7b5290e50fcafdc836be",
+        "67a02be8ae8580e7ff8989f8",
+        "66835f4601d2a3fbfc717f89",
+        "6397ed4d90e50fcafdf43b41",
+        "67f71ff5163c01c85000e11f",
+        "65a8ab42939a5f40826994cf",
+        "67d23d82163c01c8504c3f56",
+        "674fcf40ae8580e7ff24afa9",
+        "66f619a301d2a3fbfcdc6061",
+        "67aac356ae8580e7ff2fc854",
+        "67484facae8580e7ff6901a7",
+        "66a302d701d2a3fbfc461eaa",
+        "641a71f390e50fcafd71dbb3",
+        "67ca5a78163c01c850e999a3",
+        "67bfd78d163c01c8506ea4ea",
+        "63fd715e90e50fcafd14767c",
+        "673ffd48ae8580e7ff291d36",
+        "67a2d3a5ae8580e7ffd1ff4b",
+        "66ce846d01d2a3fbfced0a79",
+        "647572e0d68f896efa7b79a5",
+        "65d56629939a5f40828faebc",
+        "671eee0401d2a3fbfc0cdf9f",
+        "667e191d01d2a3fbfc79ce4c",
+        "676a2458ae8580e7ff2fa95e",
+        "6674deff01d2a3fbfca63c4a",
+        "67dcc2d4163c01c8504f8ced",
+        "6785d385ae8580e7ff51609e",
+        "67720cbeae8580e7ff7646be",
+        "673453e001d2a3fbfcfd50a1",
+        "67e9f6dc163c01c850095013",
+        "69263842163c01c850458461",
+        "67a1953cae8580e7ff05c83c",
+        "67cf9dd7163c01c8505be671",
+        "67e21c37163c01c850565853",
+        "62393e845aee126c0f1265e1",
+        "67a96bc8ae8580e7ffb4b3fd",
+        "6674dea901d2a3fbfca45d3f",
+        "61f753205aee126c0f9c20e3",
+        "64af6b623fda6d7f063df25d",
+        "648bde68d68f896efaf81ac5",
+        "64e2e15a3fda6d7f06466ab1",
+        "67b6b77e163c01c85027c3a7",
+        "673e9978ae8580e7ff81a9e2",
+        "65c97d22939a5f4082308224",
+        "65a0ad27939a5f40828e812d",
+        "67bfd7e8163c01c8506f4ba5",
+        "635f3ca990e50fcafd3f6124",
+        "67b40508ae8580e7ff6860c3",
+        "674fcf71ae8580e7ff25d34f",
+        "67bbdff5163c01c8508e4761",
+        "687bb8fe163c01c850160670",
+        "67f86a46163c01c850b2364f",
+        "67c7b8e2163c01c8507ca2b6",
+        "67905cf0ae8580e7fffb5c2e",
+        "67f48795163c01c850f3e3f0",
+        "638426ba90e50fcafdeb24fc",
+        "646c3addd68f896efa5d1850",
+        "61567c6a5244ab9dcb07f620",
+        "677f38a4ae8580e7ff232812",
+        "6711c43701d2a3fbfc58060c",
+        "6594cfe4939a5f4082145ea7",
+        "599c7963601a182cd2638264",
+        "67ce4a3a163c01c850b3ae50",
+        "6791ac63ae8580e7ffdcdd13",
+        "67847e9eae8580e7ff3dc289",
+        "64ae259c3fda6d7f0658f2a9",
+        "67b40549ae8580e7ff691173",
+        "652dee7a939a5f4082b44759",
+        "67fdbf46163c01c8503bb03a",
+        "6789c4ecae8580e7ff66a376",
+        "5a73cbcc17c44a0b3035f7b3",
+        "679847cdae8580e7ff836d8b",
+        "673c022801d2a3fbfcbe2ed4",
+        "67847ee5ae8580e7ff3e6d0b",
+        "621de37a5aee126c0fb17e01",
+        "642a43b790e50fcafd9b019c",
+        "675268feae8580e7ff34ab26",
+        "65cd724e939a5f4082367d21",
+        "674e79deae8580e7ffa71e1d",
+        "646aecaad68f896efa05a792",
+        "67cfae82163c01c850a9fdda",
+        "67ad60c4ae8580e7ff343f43",
+        "66f23ca701d2a3fbfc636127",
+        "5ff68c81d4150a363cd299a9",
+        "647817b2d68f896efa851054",
+        "67a576ceae8580e7ffc9bfc6",
+        "6757c48cae8580e7ffe1eba7",
+        "66ecdacf01d2a3fbfcdfd64d",
+        "65d80238939a5f408245d2b7",
+        "676a2449ae8580e7ff2f8e91",
+        "676a2448ae8580e7ff2f8ba2",
+        "66aaeef601d2a3fbfca99cce",
+        "67049c7401d2a3fbfc089d36",
+        "67aeb102ae8580e7ff3cfc86",
+        "67a42517ae8580e7ff580371",
+        "56d8d9f1dabfae2eeee5d5e0",
+        "676b7579ae8580e7ff8ffa93",
+        "6735ca8a01d2a3fbfc16df00",
+        "63a1751790e50fcafd1f48d2",
+        "672d7fdc01d2a3fbfc490287",
+        "6763de14ae8580e7ff3489e0",
+        "67ce4a57163c01c850b427a5",
+        "67c1271a163c01c85007620c",
+        "601d2ed591e01194579223ba",
+        "65f3abe013fb2c6cf6613372",
+        "675ba353ae8580e7ff221529",
+        "67ca5abd163c01c850eae2d1",
+        "679c3a14ae8580e7ff07afc2",
+        "6476d21ad68f896efaf72f02",
+        "6747dcbbae8580e7ffe73efe",
+        "6577caac939a5f408235cbdf",
+        "67ad589eae8580e7ff136fbf",
+        "67bbdd23163c01c85088999d",
+        "64b758dd1a5852438b7976ff",
+        "679c39e8ae8580e7ff0784f6",
+        "67ab3a4cae8580e7ff69b6d4",
+        "669dbc8001d2a3fbfca4231a",
+        "66c2aa5501d2a3fbfc6123b6",
+        "67b404c4ae8580e7ff6770d3",
+        "67aac60bae8580e7ff373833",
+        "657088ff939a5f4082bcd4e4",
+        "672195e901d2a3fbfc6ab6e1",
+        "67905cf0ae8580e7fffb5ab2",
+        "6606208713fb2c6cf61c272e",
+        "66fe0cb401d2a3fbfcdc120b",
+        "66eb89e801d2a3fbfcea7205",
+        "67b54119ae8580e7ff913585",
+        "67808ab7ae8580e7ff8491ea",
+        "67cf9dd7163c01c8505be636",
+        "67ab3a5bae8580e7ff6a7c04",
+        "64e2e14f3fda6d7f0646649f",
+        "64c9d5313fda6d7f0637e6db",
+        "6464b010d68f896efa357c66",
+        "676a2448ae8580e7ff2f8c91",
+        "6764e2ebae8580e7ffbaaa54",
+        "668c9ec201d2a3fbfc3aa56f",
+        "67a578c6ae8580e7ffcfcd4d",
+        "66fa128101d2a3fbfc73d4f0",
+        "67ac0e0bae8580e7ffaa9814",
+        "67185d8801d2a3fbfc524fc6",
+        "64563874d68f896efacf3e1e",
+        "67720cbfae8580e7ff764925",
+        "64796913d68f896efa1347ce",
+        "657a6a30939a5f4082cf0b4a",
+        "624278fb5aee126c0fd795df",
+        "66723c1d01d2a3fbfcc9f0f7",
+        "67ac0774ae8580e7ff944472",
+        "670ddee301d2a3fbfc10e8a1",
+        "670ddee301d2a3fbfc10e766",
+        "662715df13fb2c6cf65d9fdb",
+        "67c51d92163c01c8500b2db2",
+        "67a02c1fae8580e7ff89f144",
+        "65c19b66939a5f40825fbb1a"
+    ],
+    {
+        "step_name": "initialization searching",
+        "initial_valid_topic_keywords": [
+            "chain-of-thought verification"
+        ],
+        "initial_valid_infor": {
+            "chain-of-thought verification": [
+                "63a1751790e50fcafd1f48d2"
+            ]
+        },
+        "initial_hit_papers": [
+            "63a1751790e50fcafd1f48d2"
+        ],
+        "Total Papers": 196
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 1,
+            "Total Categories": 5,
+            "Overall Hit Papers": 3,
+            "Total Papers": 196,
+            "Category Proportions": 0.2,
+            "Over-all Proportion": 0.015306122448979591
+        },
+        "current_paper_ids": [
+            "63a1751790e50fcafd1f48d2",
+            "61f753205aee126c0f9c20e3",
+            "64c9d5313fda6d7f0637e6db"
+        ],
+        "non_hit_papers": [],
+        "hit_paper_information": {
+            "63a1751790e50fcafd1f48d2": [
+                "64c9d5313fda6d7f0637e6db",
+                "61f753205aee126c0f9c20e3"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 5,
+            "Overall Hit Papers": 6,
+            "Total Papers": 196,
+            "Category Proportions": 0.4,
+            "Over-all Proportion": 0.030612244897959183
+        },
+        "current_paper_ids": [
+            "62393e845aee126c0f1265e1",
+            "64c9d5313fda6d7f0637e6db",
+            "65a8ab42939a5f40826994cf",
+            "61f753205aee126c0f9c20e3",
+            "647572d8d68f896efa7b72e8",
+            "63a1751790e50fcafd1f48d2",
+            "63fd715e90e50fcafd14767c"
+        ],
+        "non_hit_papers": [],
+        "hit_paper_information": {
+            "63a1751790e50fcafd1f48d2": [
+                "64c9d5313fda6d7f0637e6db",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "61f753205aee126c0f9c20e3": [
+                "62393e845aee126c0f1265e1"
+            ],
+            "64c9d5313fda6d7f0637e6db": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c",
+                "63a1751790e50fcafd1f48d2"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 2,
+            "Total Categories": 5,
+            "Overall Hit Papers": 11,
+            "Total Papers": 196,
+            "Category Proportions": 0.4,
+            "Over-all Proportion": 0.05612244897959184
+        },
+        "current_paper_ids": [
+            "647572e0d68f896efa7b79a5",
+            "62393e845aee126c0f1265e1",
+            "64b758dd1a5852438b7976ff",
+            "64c9d5313fda6d7f0637e6db",
+            "65a8ab42939a5f40826994cf",
+            "64e2e15a3fda6d7f06466a64",
+            "61f753205aee126c0f9c20e3",
+            "676a2448ae8580e7ff2f8c91",
+            "647572d8d68f896efa7b72e8",
+            "63a1751790e50fcafd1f48d2",
+            "63fd715e90e50fcafd14767c",
+            "6577caac939a5f408235cbdf",
+            "65c97d22939a5f4082308224",
+            "65dd4f8013fb2c6cf66f9de3"
+        ],
+        "non_hit_papers": [
+            "63fd715e90e50fcafd14767c"
+        ],
+        "hit_paper_information": {
+            "62393e845aee126c0f1265e1": [
+                "61f753205aee126c0f9c20e3"
+            ],
+            "63a1751790e50fcafd1f48d2": [
+                "64c9d5313fda6d7f0637e6db",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "61f753205aee126c0f9c20e3": [
+                "62393e845aee126c0f1265e1"
+            ],
+            "64c9d5313fda6d7f0637e6db": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c",
+                "63a1751790e50fcafd1f48d2"
+            ],
+            "647572d8d68f896efa7b72e8": [
+                "63fd715e90e50fcafd14767c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "65a8ab42939a5f40826994cf": [
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "647572e0d68f896efa7b79a5",
+                "64c9d5313fda6d7f0637e6db",
+                "676a2448ae8580e7ff2f8c91",
+                "62393e845aee126c0f1265e1",
+                "65c97d22939a5f4082308224"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 4,
+            "Total Categories": 5,
+            "Overall Hit Papers": 24,
+            "Total Papers": 196,
+            "Category Proportions": 0.8,
+            "Over-all Proportion": 0.12244897959183673
+        },
+        "current_paper_ids": [
+            "65f3abe013fb2c6cf6613372",
+            "686493b6163c01c850aeca36",
+            "65a8ab42939a5f40826994cf",
+            "647572d8d68f896efa7b72e8",
+            "6577caac939a5f408235cbdf",
+            "6594cfe4939a5f4082145ea7",
+            "651ccb383fda6d7f06635581",
+            "64b758dd1a5852438b7976ff",
+            "64ae259c3fda6d7f0658f2a9",
+            "652dee7a939a5f4082b44759",
+            "64e2e15a3fda6d7f06466a64",
+            "63fd715e90e50fcafd14767c",
+            "642a43b790e50fcafd9b019c",
+            "673ffd48ae8580e7ff291d36",
+            "674e79deae8580e7ffa71e1d",
+            "65dd4f8013fb2c6cf66f9de3",
+            "67ad60c4ae8580e7ff343f43",
+            "68352039163c01c850717e0f",
+            "647572e0d68f896efa7b79a5",
+            "64e2e14f3fda6d7f0646649f",
+            "64c9d5313fda6d7f0637e6db",
+            "676a2448ae8580e7ff2f8c91",
+            "628707335aee126c0f78c5c7",
+            "62393e845aee126c0f1265e1",
+            "624278fb5aee126c0fd795df",
+            "61f753205aee126c0f9c20e3",
+            "648bde68d68f896efaf81ac5",
+            "63a1751790e50fcafd1f48d2",
+            "670ddee301d2a3fbfc10e766",
+            "662715df13fb2c6cf65d9fdb",
+            "65c97d22939a5f4082308224"
+        ],
+        "non_hit_papers": [
+            "63fd715e90e50fcafd14767c"
+        ],
+        "hit_paper_information": {
+            "64c9d5313fda6d7f0637e6db": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c",
+                "63a1751790e50fcafd1f48d2"
+            ],
+            "62393e845aee126c0f1265e1": [
+                "61f753205aee126c0f9c20e3"
+            ],
+            "64e2e15a3fda6d7f06466a64": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c"
+            ],
+            "61f753205aee126c0f9c20e3": [
+                "62393e845aee126c0f1265e1"
+            ],
+            "64b758dd1a5852438b7976ff": [
+                "642a43b790e50fcafd9b019c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "63a1751790e50fcafd1f48d2": [
+                "64c9d5313fda6d7f0637e6db",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "65a8ab42939a5f40826994cf": [
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "647572e0d68f896efa7b79a5",
+                "64c9d5313fda6d7f0637e6db",
+                "676a2448ae8580e7ff2f8c91",
+                "62393e845aee126c0f1265e1",
+                "65c97d22939a5f4082308224"
+            ],
+            "647572d8d68f896efa7b72e8": [
+                "63fd715e90e50fcafd14767c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "647572e0d68f896efa7b79a5": [
+                "63fd715e90e50fcafd14767c"
+            ],
+            "676a2448ae8580e7ff2f8c91": [
+                "65a8ab42939a5f40826994cf",
+                "673ffd48ae8580e7ff291d36",
+                "674e79deae8580e7ffa71e1d",
+                "670ddee301d2a3fbfc10e766"
+            ],
+            "65dd4f8013fb2c6cf66f9de3": [
+                "64ae259c3fda6d7f0658f2a9",
+                "67ad60c4ae8580e7ff343f43",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "65c97d22939a5f4082308224": [
+                "65f3abe013fb2c6cf6613372",
+                "65a8ab42939a5f40826994cf",
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "652dee7a939a5f4082b44759",
+                "64e2e14f3fda6d7f0646649f",
+                "662715df13fb2c6cf65d9fdb"
+            ],
+            "6577caac939a5f408235cbdf": [
+                "65a8ab42939a5f40826994cf",
+                "6594cfe4939a5f4082145ea7",
+                "64e2e14f3fda6d7f0646649f",
+                "62393e845aee126c0f1265e1",
+                "624278fb5aee126c0fd795df",
+                "648bde68d68f896efaf81ac5",
+                "662715df13fb2c6cf65d9fdb",
+                "65c97d22939a5f4082308224"
+            ]
+        }
+    },
+    {
+        "step_name": "citation",
+        "step_result": {
+            "Hit Categories": 4,
+            "Total Categories": 5,
+            "Overall Hit Papers": 40,
+            "Total Papers": 196,
+            "Category Proportions": 0.8,
+            "Over-all Proportion": 0.20408163265306123
+        },
+        "current_paper_ids": [
+            "65f3abe013fb2c6cf6613372",
+            "686493b6163c01c850aeca36",
+            "657bbe75939a5f4082f25313",
+            "6579ef10939a5f4082f79ade",
+            "666903ee01d2a3fbfc476446",
+            "65a8ab42939a5f40826994cf",
+            "67d23d82163c01c8504c3f56",
+            "66b2d8b401d2a3fbfcf3b061",
+            "647572d8d68f896efa7b72e8",
+            "691ac6b7163c01c85099d9e2",
+            "6577caac939a5f408235cbdf",
+            "6466fafbd68f896efaeb751d",
+            "638426ba90e50fcafdeb24fc",
+            "6594cfe4939a5f4082145ea7",
+            "651ccb383fda6d7f06635581",
+            "64b758dd1a5852438b7976ff",
+            "65c97d22939a5f4082308224",
+            "599c7963601a182cd2638264",
+            "641a71f390e50fcafd71dbb3",
+            "64ae259c3fda6d7f0658f2a9",
+            "652dee7a939a5f4082b44759",
+            "64e2e15a3fda6d7f06466a64",
+            "5a73cbcc17c44a0b3035f7b3",
+            "646edc9cd68f896efaddac94",
+            "651a282d3fda6d7f0600a229",
+            "68c22379163c01c850b42f8e",
+            "63fd715e90e50fcafd14767c",
+            "642a43b790e50fcafd9b019c",
+            "673ffd48ae8580e7ff291d36",
+            "68fec0f4163c01c8504a1e55",
+            "674e79deae8580e7ffa71e1d",
+            "65dd4f8013fb2c6cf66f9de3",
+            "67ad60c4ae8580e7ff343f43",
+            "68352039163c01c850717e0f",
+            "646aecaad68f896efa05a792",
+            "66ce846d01d2a3fbfced0a79",
+            "647572e0d68f896efa7b79a5",
+            "673ffd48ae8580e7ff291d55",
+            "68e475d7163c01c850842e34",
+            "647817b2d68f896efa851054",
+            "67cfae8c163c01c850aa2891",
+            "64e2e14f3fda6d7f0646649f",
+            "64c9d5313fda6d7f0637e6db",
+            "68facf12163c01c85051db71",
+            "68ed9dae163c01c850931d02",
+            "676a2448ae8580e7ff2f8c91",
+            "66fa128101d2a3fbfc73d4f0",
+            "691e74f7163c01c85063c4df",
+            "63eef09d90e50fcafda0d7f5",
+            "68dc7a9d163c01c850763328",
+            "628707335aee126c0f78c5c7",
+            "62393e845aee126c0f1265e1",
+            "624278fb5aee126c0fd795df",
+            "6791acbaae8580e7ffddbd04",
+            "61f753205aee126c0f9c20e3",
+            "648bde68d68f896efaf81ac5",
+            "63a1751790e50fcafd1f48d2",
+            "670ddee301d2a3fbfc10e766",
+            "68f040a5163c01c85023d8b4",
+            "662715df13fb2c6cf65d9fdb",
+            "6507b3e03fda6d7f06799c11",
+            "65c58964939a5f408229a720"
+        ],
+        "non_hit_papers": [
+            "674e79deae8580e7ffa71e1d",
+            "686493b6163c01c850aeca36",
+            "63fd715e90e50fcafd14767c",
+            "673ffd48ae8580e7ff291d36"
+        ],
+        "hit_paper_information": {
+            "65a8ab42939a5f40826994cf": [
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "647572e0d68f896efa7b79a5",
+                "64c9d5313fda6d7f0637e6db",
+                "676a2448ae8580e7ff2f8c91",
+                "62393e845aee126c0f1265e1",
+                "65c97d22939a5f4082308224"
+            ],
+            "647572d8d68f896efa7b72e8": [
+                "63fd715e90e50fcafd14767c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "64b758dd1a5852438b7976ff": [
+                "642a43b790e50fcafd9b019c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "6577caac939a5f408235cbdf": [
+                "65a8ab42939a5f40826994cf",
+                "6594cfe4939a5f4082145ea7",
+                "64e2e14f3fda6d7f0646649f",
+                "62393e845aee126c0f1265e1",
+                "624278fb5aee126c0fd795df",
+                "648bde68d68f896efaf81ac5",
+                "662715df13fb2c6cf65d9fdb",
+                "65c97d22939a5f4082308224"
+            ],
+            "64e2e15a3fda6d7f06466a64": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c"
+            ],
+            "642a43b790e50fcafd9b019c": [
+                "63fd715e90e50fcafd14767c"
+            ],
+            "652dee7a939a5f4082b44759": [
+                "657bbe75939a5f4082f25313",
+                "63fd715e90e50fcafd14767c",
+                "642a43b790e50fcafd9b019c",
+                "65c97d22939a5f4082308224"
+            ],
+            "64ae259c3fda6d7f0658f2a9": [
+                "63fd715e90e50fcafd14767c",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "65f3abe013fb2c6cf6613372": [
+                "641a71f390e50fcafd71dbb3",
+                "61f753205aee126c0f9c20e3",
+                "65c97d22939a5f4082308224"
+            ],
+            "651ccb383fda6d7f06635581": [
+                "65f3abe013fb2c6cf6613372"
+            ],
+            "6594cfe4939a5f4082145ea7": [
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "5a73cbcc17c44a0b3035f7b3",
+                "647572e0d68f896efa7b79a5"
+            ],
+            "65dd4f8013fb2c6cf66f9de3": [
+                "64ae259c3fda6d7f0658f2a9",
+                "67ad60c4ae8580e7ff343f43",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "68352039163c01c850717e0f": [
+                "673ffd48ae8580e7ff291d55",
+                "6791acbaae8580e7ffddbd04"
+            ],
+            "67ad60c4ae8580e7ff343f43": [
+                "67d23d82163c01c8504c3f56",
+                "6466fafbd68f896efaeb751d",
+                "646aecaad68f896efa05a792",
+                "66fa128101d2a3fbfc73d4f0",
+                "63eef09d90e50fcafda0d7f5",
+                "62393e845aee126c0f1265e1"
+            ],
+            "62393e845aee126c0f1265e1": [
+                "61f753205aee126c0f9c20e3"
+            ],
+            "64c9d5313fda6d7f0637e6db": [
+                "65a8ab42939a5f40826994cf",
+                "63fd715e90e50fcafd14767c",
+                "63a1751790e50fcafd1f48d2"
+            ],
+            "647572e0d68f896efa7b79a5": [
+                "63fd715e90e50fcafd14767c"
+            ],
+            "676a2448ae8580e7ff2f8c91": [
+                "65a8ab42939a5f40826994cf",
+                "673ffd48ae8580e7ff291d36",
+                "674e79deae8580e7ffa71e1d",
+                "670ddee301d2a3fbfc10e766"
+            ],
+            "61f753205aee126c0f9c20e3": [
+                "62393e845aee126c0f1265e1"
+            ],
+            "64e2e14f3fda6d7f0646649f": [
+                "662715df13fb2c6cf65d9fdb"
+            ],
+            "63a1751790e50fcafd1f48d2": [
+                "64c9d5313fda6d7f0637e6db",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "670ddee301d2a3fbfc10e766": [
+                "657bbe75939a5f4082f25313",
+                "666903ee01d2a3fbfc476446",
+                "66b2d8b401d2a3fbfcf3b061",
+                "638426ba90e50fcafdeb24fc",
+                "66ce846d01d2a3fbfced0a79",
+                "647817b2d68f896efa851054",
+                "676a2448ae8580e7ff2f8c91"
+            ],
+            "624278fb5aee126c0fd795df": [
+                "599c7963601a182cd2638264",
+                "62393e845aee126c0f1265e1",
+                "61f753205aee126c0f9c20e3"
+            ],
+            "648bde68d68f896efaf81ac5": [
+                "6577caac939a5f408235cbdf"
+            ],
+            "628707335aee126c0f78c5c7": [
+                "638426ba90e50fcafdeb24fc",
+                "624278fb5aee126c0fd795df"
+            ],
+            "662715df13fb2c6cf65d9fdb": [
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff"
+            ],
+            "65c97d22939a5f4082308224": [
+                "65f3abe013fb2c6cf6613372",
+                "65a8ab42939a5f40826994cf",
+                "6577caac939a5f408235cbdf",
+                "64b758dd1a5852438b7976ff",
+                "652dee7a939a5f4082b44759",
+                "64e2e14f3fda6d7f0646649f",
+                "662715df13fb2c6cf65d9fdb"
+            ]
+        }
+    }
+]
