@@ -413,7 +413,7 @@ if __name__ == "__main__":
         trajectory_recorder.insert(0, final_result)
         trajectory_recorder.insert(1, ground_truth_papers)
         trajectory_recorder.insert(2, first_result)
-        with open(os.path.join("result_v4_update_2_searchPro", f"{filename}.json"), "w", encoding = "utf-8") as f:
+        with open(os.path.join("trajectory_result", f"{filename}.json"), "w", encoding = "utf-8") as f:
             json.dump(trajectory_recorder, f, ensure_ascii=False, indent = 4)
 
 
